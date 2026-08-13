@@ -204,7 +204,7 @@ Le launcher gère automatiquement les dépendances, les configurations et les mi
 
 {% hint style="warning" %}
 <p align="center">
-:warning: Avant d'ouvrir un ticket sur [Discord](https://discord.gg/kb8NSTF45n), assurez-vous d'avoir suivi l'intégralité de ce guide et vérifié que votre installation fonctionne correctement. De nombreux problèmes sont résolus en vérifiant la version de Java, la RAM allouée ou en réinstallant le modpack.
+:warning: Avant d'ouvrir un ticket sur Discord, assurez-vous d'avoir suivi l'intégralité de ce guide et vérifié que votre installation fonctionne correctement. De nombreux problèmes sont résolus en vérifiant la version de Java, la RAM allouée ou en réinstallant le modpack.
 </p>
 {% endhint %}
 
@@ -317,7 +317,6 @@ Une connaissance basique du terminal Linux est recommandée.
 {% hint style="info" %}
 <p align="center">
 💡 Vous ne souhaitez pas gérer l'installation manuellement ou configurer une redirection de ports ?
-
 Utilisez notre partenaire officiel : [**BisectHosting**](https://bisecthosting.com/OurStory)
 </p>
 {% endhint %}
@@ -462,9 +461,9 @@ Vous pouvez ainsi vous concentrer sur votre aventure plutôt que sur l'administr
 {% endhint %}
 
 {% hint style="info" %}
-<p align="center">
 ### 🎉 Réduction partenaire
 
+<p align="center">
 :gift: En utilisant le code `OurStory` lors de votre commande, vous bénéficiez de **25 % de réduction sur votre premier mois d'hébergement**. Une excellente façon de lancer votre serveur [Cobblemon Realms](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms) à moindre coût tout en soutenant le développement du projet.
 </p>
 {% endhint %}
@@ -540,7 +539,7 @@ Vous pouvez ainsi vous concentrer sur votre aventure plutôt que sur l'administr
 {% endtabs %}
 
 {% hint style="danger" %}
-### ⚠️ Fichiers à ne jamais supprimer
+### ⚠️ Fichiers à ne JAMAIS supprimer ⚠️
 
 Les éléments suivants sont essentiels au fonctionnement de votre serveur :
 
