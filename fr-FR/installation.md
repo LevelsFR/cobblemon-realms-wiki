@@ -538,7 +538,8 @@ Les éléments suivants sont essentiels au fonctionnement de votre serveur :
 - 📚 `libraries/` → contient les bibliothèques nécessaires au lancement
 - ⚙️ fichiers `.jar` → indispensables au démarrage du serveur
 
-La suppression de l'un de ces éléments peut entraîner la perte de votre monde ou empêcher complètement le démarrage du serveur.
+Supprimer l'un de ces éléments peut perdre votre monde ou bloquer le démarrage du serveur.
+</p>
 {% endhint %}
 
 ---
