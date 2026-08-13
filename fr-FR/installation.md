@@ -315,10 +315,8 @@ Une connaissance basique du terminal Linux est recommandée.
 ## 🛠️ Installation manuelle du serveur
 
 {% hint style="info" %}
-<p align="center">
 💡 Vous ne souhaitez pas gérer l'installation manuellement ou configurer une redirection de ports ?
 Utilisez notre partenaire officiel : [**BisectHosting**](https://bisecthosting.com/OurStory)
-</p>
 {% endhint %}
 
 {% tabs %}
@@ -463,9 +461,7 @@ Vous pouvez ainsi vous concentrer sur votre aventure plutôt que sur l'administr
 {% hint style="info" %}
 ### 🎉 Réduction partenaire
 
-<p align="center">
 :gift: En utilisant le code `OurStory` lors de votre commande, vous bénéficiez de **25 % de réduction sur votre premier mois d'hébergement**. Une excellente façon de lancer votre serveur [Cobblemon Realms](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms) à moindre coût tout en soutenant le développement du projet.
-</p>
 {% endhint %}
 
 ---
