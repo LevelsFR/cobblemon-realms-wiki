@@ -82,6 +82,7 @@ Cobblemon Realms utilise une configuration personnalisée afin d'attribuer des r
 - Associez les Pokémon à leur environnement (type → logique de base)
 - Spécialisez les rôles pour gagner en efficacité
 - Placez des soigneurs dans les zones fréquentées
+</p>
 {% endhint %}
 
 ---
