@@ -50,7 +50,7 @@ Des mods supplémentaires peuvent provoquer des conflits, des crashs ou modifier
 
 ---
 
-## 🖥️ Puis-je utiliser Aternos, Minehut ou un hébergeur gratuit ?
+## 🖥️ Puis-je utiliser Aternos/Minehut ou un hébergeur gratuit ?
 
 Techniquement oui, mais les performances sont souvent insuffisantes pour faire fonctionner correctement le modpack.
 
