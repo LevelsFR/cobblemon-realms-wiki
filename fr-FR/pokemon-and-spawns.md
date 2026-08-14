@@ -214,17 +214,25 @@ Utilisez le bot avant de partir afin de préparer vos chasses rares, comparer le
 
 ## 🧠 Conseils de chasse
 
-- Consultez le guide dédié à l’Aether ou à The Otherside avant de chasser dans ces dimensions.
-- Vérifiez à la fois le biome et l’heure de la journée.
-- Explorez verticalement pour les rencontres en grotte, en montagne ou dans les grandes profondeurs.
-- Inspectez les structures et formations de blocs inhabituelles plutôt que de chercher uniquement en terrain ouvert.
-- N’oubliez pas que les rencontres par pêche, immergées, sur le fond marin et dans les cimes utilisent des positions d’apparition différentes.
-- Utilisez `/checkspawns` pour votre position actuelle et le bot Discord pour une recherche globale.
-- Consultez la [Référence des tags de biome](pokemons-guides/biome-tags-reference.md) lorsqu’un résultat utilise un tag plutôt qu’un identifiant direct de biome.
+### 🌍 Préparation & Biomes
+* **Anticiper :** Consultez les guides de l'Aether ou de The Otherside avant de changer de dimension.
+* **Vérifier :** Validez systématiquement le biome actuel et l'heure de la journée.
+* **Décoder :** Utilisez la [Référence des tags de biome](pokemons-guides/biome-tags-reference.md) si un résultat affiche un tag générique.
 
-⮕ Découvrez les améliorations des rencontres sauvages dans [Améliorations des apparitions](pokemons-guides/wild-boost-mechanics.md).
+### 🗺️ Exploration & Terrain
+* **Verticalité :** Explorez en hauteur (montagnes, cimes) et en profondeur (grottes, abysses).
+* **Structures :** Inspectez les formations de blocs inhabituelles plutôt que les plaines vides.
+* **Milieux :** La pêche, la plongée et le fond marin possèdent des points d'apparition distincts.
 
-⮕ Découvrez les espèces et variantes personnalisées dans la section [Formes exclusives](pokemons-exclusives/mewtwo-exclusive-forms.md).
+### 🛠️ Commandes & Outils
+* **Local :** Utilisez la commande `/checkspawns` pour analyser votre position exacte.
+* **Global :** Interrogez le bot Discord pour effectuer une recherche globale.
+
+---
+
+💡 **Aller plus loin :**
+👉 [Améliorations des apparitions](pokemons-guides/wild-boost-mechanics.md) — *Boosts des rencontres sauvages*
+👉 [Formes exclusives](pokemons-exclusives/mewtwo-exclusive-forms.md) — *Espèces et variantes personnalisées*
 
 ---
 
