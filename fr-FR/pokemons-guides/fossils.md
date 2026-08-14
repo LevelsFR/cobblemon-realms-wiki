@@ -106,6 +106,7 @@ La **machine de résurrection** permet de redonner vie aux fossiles découverts.
 - 🌋 Les zones volcaniques et aquatiques sont très rentables
 - 🧭 Marquez les structures importantes
 - 🎯 Les fossiles hybrides offrent des choix stratégiques
+</p>
 {% endhint %}
 
 ---
