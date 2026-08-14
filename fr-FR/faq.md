@@ -24,9 +24,7 @@ Vérifiez que vous utilisez **Java 21** et que **8 Go de RAM** sont alloués au 
 
 Les apparitions dépendent du biome, de l'heure, de la météo et de votre position.
 
-Utilisez la commande :
-
-`/checkspawns` pour afficher les Pokémon pouvant apparaître autour de vous.
+Utilisez la commande : `/checkspawns` pour afficher les Pokémon pouvant apparaître autour de vous.
 
 📘 [Guide des apparitions](pokemon-and-spawns.md)
 
