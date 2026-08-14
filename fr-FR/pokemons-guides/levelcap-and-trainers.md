@@ -126,25 +126,35 @@ Pour augmenter votre niveau maximum :
 
 ***
 
-## 🔍 Dresseurs Clés & Progression
+## 🔍 Dresseurs Clés & Système de suivi
 
-Les Dresseurs Clés sont les piliers de votre progression. Les vaincre est l'unique moyen d'augmenter votre niveau maximum (Level Cap) et d'accéder à des défis supérieurs.
+Les Dresseurs Clés sont les points de progression principaux. Les vaincre augmente votre niveau maximum et débloque des défis plus difficiles.
 
-| 🧭 Fonctionnement du Suivi | |
-| :--- | :--- |
-| **Flèche Holographique** | Apparaît uniquement au début du jeu pour pointer vers l'Association des Dresseurs. Elle disparaît dès qu'une série est active. |
-| **Carte de Dresseur** | Votre outil principal. Consultez-la pour lire les indices indispensables : noms des biomes, conditions météo ou objets requis. |
-| **Pas de Guidage Direct** | Aucune flèche ne pointe vers les Dresseurs Clés. Vous devez mener l'enquête grâce aux indices de votre carte. |
+### 🧭 Fonctionnement du suivi
 
-| 🌍 Outils Cobblemon Realms | |
-| :--- | :--- |
-| **Menu des Quêtes** | Répertorie l'intégralité des dresseurs de votre série en cours. |
-| **Invocation Instantanée** | Dépensez des **Realms Coins** dans vos quêtes pour faire apparaître votre cible sur vous. |
-| **Temps de Recharge** | Un dresseur vaincu est verrouillé pendant **1 jour Minecraft** (20 min IRL) avant réapparition. |
-| **Gestion à Distance** | Le bouton **Info** des quêtes permet d'activer une série sans retourner voir le PNJ. |
-| **Suivi Visuel** | Accédez depuis l'interface à votre graphique de progression et aux Avancements Minecraft. |
+* **Au début du jeu**, lorsque vous obtenez une **Carte de Dresseur** mais que **vous n’avez aucune série de dresseurs active**, une **flèche holographique** apparaît.\
+  → Cette flèche **pointe toujours vers le PNJ de l’Association des Dresseurs** pour vous permettre de commencer votre première série.
+* Après avoir choisi une série, **la flèche disparaît** ; il **n’y a pas de flèche vers les Dresseurs Clés** eux-mêmes.
+* À partir de là, vous devez **utiliser les informations de votre Carte de Dresseur** pour localiser les Dresseurs Clés :
+  * **Noms des biomes**
+  * **Conditions spéciales**
+  * **Parfois, objets requis** pour les invoquer
 
-⚠️ **Attention :** Activer une nouvelle série à distance réinitialise la progression de votre série actuelle si celle-ci n'est pas terminée.
+***
+
+### 🌍 Trouver les Dresseurs Clés dans Cobblemon Realms
+
+Dans **Cobblemon Realms**, des outils supplémentaires sont disponibles via le système de quêtes :
+
+* Chaque catégorie de quêtes répertorie **tous les dresseurs d’une série**.
+* Vous pouvez **échanger des Realms Coins** pour faire apparaître instantanément le dresseur que vous devez affronter.
+  * Les dresseurs peuvent être générés à l’infini de cette manière.
+  * **Temps de recharge :** une fois vaincu, un dresseur ne peut pas être réaffronté avant **un jour Minecraft** (≈ 20 minutes IRL).
+* Les quêtes disposent d’un **bouton Info** :
+  * Permet **d’activer une série à distance**\
+    &#xNAN;_(Une seule série active à la fois ; en activer une autre réinitialise la progression de l’actuelle sauf si elle est terminée)._
+  * Fournit un lien vers un **graphique de progression** montrant l’ordre des dresseurs et leur **niveau moyen**.
+  * Renvoie vers les **Avancements** correspondants pour suivre l’ordre directement dans Minecraft.
 
 ***
 
@@ -165,49 +175,46 @@ La progression ne se limite pas à l’augmentation du level cap. Elle ouvre aus
 
 ## 🤝 Association des Dresseurs
 
-Ce PNJ spécial apparaît automatiquement dans le monde pour vous permettre de lancer votre toute première série de combats ou d'en débuter une nouvelle.
+L’**Association des Dresseurs** est un PNJ spécial qui vous aide à commencer une nouvelle série.
 
-| ⚙️ Conditions d'Apparition | |
-| :--- | :--- |
-| **Objets requis** | Vous devez posséder une **Trainer Card** (dans votre inventaire ou en main). |
-| **Statut requis** | Vous ne devez avoir **aucune série de dresseurs active** en cours. |
-
-| 📡 Signaux de Détection | |
-| :--- | :--- |
-| **Effet visuel** | Votre Carte de Dresseur se met à **briller** lorsque le PNJ est proche. |
-| **Guidage** | Une **flèche holographique** apparaît pour pointer sa direction exacte. |
-| **Rôle du PNJ** | Vous ouvre un menu complet de séries aux thèmes et difficultés uniques. |
+* **Apparaît près d’un joueur** qui :
+  * a une **Trainer Card** (en main ou dans l’inventaire), **et**
+  * n’a **aucune série de dresseurs active**
+* Lorsqu’il est proche, votre Carte de Dresseur :
+  * **Brille**
+  * Affiche une **flèche** pointant vers le PNJ
+* Ce PNJ propose un **menu de séries**, chacune avec un thème, une progression et une difficulté uniques.
 
 ***
 
 ## 📋 Séries de Dresseurs disponibles
 
-Le modpack intègre le contenu de base de **Radical Trainers** ainsi que les défis additionnels de **More Radical Trainers**.
+Notre modpack inclut le contenu de base de Radical Trainers **ainsi que** les séries supplémentaires de **More Radical Trainers**.
 
-| 🟢 Séries Initiales (Sans prérequis) | 📝 Description & Particularités |
-| :--- | :--- |
-| **Pokémon Adventures** | Revivez l'histoire des héros du manga avec des embranchements uniques. |
-| **Arènes de Sinnoh** | Propose des combats en Duo exclusifs contre les Champions de Sinnoh. |
-| **Team Aqua** | Leurs dresseurs apparaissent directement au cours de votre exploration dans l'Overworld. |
-| **Team Magma** | Leurs dresseurs vous attendent exclusivement dans la dimension du Nether. |
-| **Unova Gym Challenge** *(5/10)* | Affrontez l'intégralité des Champions d'Arène de la région d'Unys. |
-| **Arènes de Hoenn** | Propose la progression classique contre les Champions de Hoenn. |
-| **Arènes de Kalos** | Défi de haut niveau : équipes 90+ équipées de Méga-Évolutions. |
-| **Arènes de Paldea** | Propose la progression contre les Champions de la génération la plus récente. |
+### 🟢 Séries indépendantes (aucun prérequis)
+
+1. **Pokémon Adventures** ⮕ Héros du manga, avec embranchements.
+2. **Défi des Arènes de Sinnoh** ⮕ Doubles combats contre les champions de Sinnoh.
+3. **Team Aqua** ⮕ Apparaît dans l’Overworld.
+4. **Team Magma** ⮕ Apparaît dans le Nether.
+5. **Unova Gym Challenge** _(5/10)_\
+   ➤ Affrontez tous les Champions d'Arène d'Unys.
+6. **Défi des Arènes de Hoenn** ⮕ Champions de Hoenn.
+7. **Défi des Arènes de Kalos** ⮕ Équipes niveau 90+ avec Méga-Évolutions.
+8. **Défi des Arènes de Paldea** ⮕ Arènes de la génération la plus récente.
 
 ### 🔒 Séries avec prérequis
 
-| 🔒 Séries Avancées (Avec prérequis) | 🔑 Condition d'accès requise |
-| :--- | :--- |
-| **Team Plasma** | Terminer *Unova Gym Challenge*. |
-| **Ligue d'Unys** | Terminer *Unova Gym Challenge*. |
-| **Ligue de Hoenn** | Terminer *Arènes de Hoenn*. |
-| **Ligue de Kalos** | Terminer *Arènes de Kalos*. |
-| **Sept Sages (Team Plasma)** | Terminer *Team Plasma* + *Ligue d'Unys*. |
-| **Unova (B2W2) Challenge** *(6/10)* | Terminer *Unova Gym Challenge* + *Ligue d'Unys*. |
-| **Neo Team Plasma** | Terminer *Sept Sages de la Team Plasma*. |
-| **Conseil 4 & Maître de Paldea** | Terminer *Arènes de Paldea*. |
-| **Starfall Street (Team Star)** | Terminer *Arènes de Paldea*. |
+9. **Team Plasma** ⮕ Nécessite _Défi des Arènes d’Unys_.
+10. **Défi de la Ligue d’Unys** ⮕ Nécessite _Défi des Arènes d’Unys_.
+11. **Défi de la Ligue de Hoenn** ⮕ Nécessite _Défi des Arènes de Hoenn_.
+12. **Défi de la Ligue de Kalos** ⮕ Nécessite _Défi des Arènes de Kalos_.
+13. **Sept Sages de la Team Plasma** ⮕ Nécessite _Team Plasma_ + _Ligue d’Unys_.
+14. **Unova (B2W2) Challenge** _(6/10)_\
+    ➤ Nécessite: _Unova Gym Challenge & Unova League Challenge_
+15. **Neo Team Plasma** ⮕ Nécessite _Sept Sages de la Team Plasma_.
+16. **Conseil 4 & Maître de Paldea** ⮕ Nécessite _Défi des Arènes de Paldea_.
+17. **Starfall Street (Team Star)** ⮕ Nécessite _Défi des Arènes de Paldea_.
 
 💡 Tous les dresseurs avancés utilisent des équipes **entièrement entraînées EV/IV** avec des sets de capacités compétitifs.
 
