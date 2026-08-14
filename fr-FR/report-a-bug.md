@@ -1,7 +1,9 @@
 # 🐞 Signaler un problème
 
 {% hint style="info" %}
+<p align="center">
 Vous avez trouvé un problème dans **Cobblemon Realms** ou sur ce wiki ? Utilisez l’un des canaux officiels ci-dessous afin que le signalement puisse être vérifié et reproduit efficacement.
+</p>
 {% endhint %}
 
 ---
