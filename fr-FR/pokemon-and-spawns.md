@@ -231,8 +231,9 @@ Utilisez le bot avant de partir afin de préparer vos chasses rares, comparer le
 ---
 
 💡 **Aller plus loin :**
-👉 [Améliorations des apparitions](pokemons-guides/wild-boost-mechanics.md) — *Boosts des rencontres sauvages*
-👉 [Formes exclusives](pokemons-exclusives/mewtwo-exclusive-forms.md) — *Espèces et variantes personnalisées*
+👉 [Améliorations des apparitions](pokemons-guides/wild-boost-mechanics.md) - *Boosts des rencontres sauvages*
+</p>
+👉 [Formes exclusives](pokemons-exclusives/mewtwo-exclusive-forms.md) - *Espèces et variantes personnalisées*
 
 ---
 
