@@ -109,7 +109,7 @@ Toutes les informations concernant la progression, les arènes, les champions et
 Utilisez ces raccourcis si vous ne savez pas par où commencer :
 
 | Je veux... | Page recommandée |
-| --- | --- |
+| :---: | :---: |
 | Installer le modpack | [Guide d'installation](installation.md) |
 | Commencer sans rater les bases | [Premiers pas](getting-started.md) |
 | Rejoindre ou créer un serveur | [Serveurs multijoueur](multiplayer-servers.md) |
