@@ -26,9 +26,7 @@ Les apparitions dépendent du biome, de l'heure, de la météo et de votre posit
 
 Utilisez la commande :
 
-`/checkspawns`
-
-pour afficher les Pokémon pouvant apparaître autour de vous.
+`/checkspawns` pour afficher les Pokémon pouvant apparaître autour de vous.
 
 📘 [Guide des apparitions](pokemon-and-spawns.md)
 
@@ -48,9 +46,7 @@ Des mods supplémentaires peuvent provoquer des conflits, des crashs ou modifier
 
 ## 👥 Puis-je commencer en solo puis passer sur un serveur ?
 
-✅ Oui.
-
-Votre monde solo peut être transféré vers un serveur à tout moment sans recommencer votre progression.
+✅ Oui. Votre monde solo peut être transféré vers un serveur à tout moment sans recommencer votre progression.
 
 📘 [Guide d'installation](installation.md)
 
@@ -96,9 +92,7 @@ Vous pouvez :
 
 ## ✨ Existe-t-il des contenus exclusifs ?
 
-Oui.
-
-Cobblemon Realms ajoute plusieurs contenus exclusifs, notamment des formes spéciales, des mécaniques inédites et des évolutions uniques.
+✅ Oui. Cobblemon Realms ajoute plusieurs contenus exclusifs, notamment des formes spéciales, des mécaniques inédites et des évolutions uniques.
 
 📘 [Voir les contenus exclusifs](pokemons-exclusives/mewtwo-exclusive-forms.md)
 
