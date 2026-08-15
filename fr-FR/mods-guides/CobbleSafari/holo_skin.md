@@ -15,10 +15,10 @@
 
 | Méthode | Détails |
 | --- | --- |
-| **Quête de Motisma** | Chaque jour de la conversation avec Motisma vous permet d'obtenir un skin de couleur aléatoire que vous ne possédez pas encore. Consultez la [liste des missions](https://cobblesafari.maxigregrze.fr/en/wiki/rotomphone-missions). |
-| **Quête quotidienne** | La quête quotidienne répétable de Hayley peut parfois récompenser un skin verrouillé aléatoire. Si vous possédez déjà tous les skins disponibles, elle vous donnera des tickets à la place. |
-| **Objet de déblocage** | Un objet consommable ![Déblocage Holo-Skin](https://cobblesafari.maxigregrze.fr/assets/rotom_skin_unlock-SRtH5khL.png) permet de débloquer un skin spécifique. Le ![Déblocage complet des Holo-Skins](https://cobblesafari.maxigregrze.fr/assets/rotom_skin_unlock_all-Dg_W-nMs.png) permet quant à lui de débloquer l'ensemble des skins. |
-| **Avancement** | Certains avancements peuvent également permettre de débloquer des Holo-Skins. |
+| **Quête de Motisma** | ??? |
+| **Quête quotidienne** | ??? |
+| **Objet de déblocage** | ??? |
+| **Avancement** | ??? |
 
 > **À noter :** les serveurs et les modpacks peuvent ajouter leurs propres Holo-Skins ou permettre d'en obtenir via des avancements ou des commandes. Le système est entièrement basé sur des datapacks ([Datapack : Holo-Skins](https://cobblesafari.maxigregrze.fr/en/addons/datapack-rotomphone-skins)).
 
