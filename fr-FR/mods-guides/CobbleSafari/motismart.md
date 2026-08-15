@@ -62,7 +62,7 @@ Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
 
 {% hint style="info" %}
 <p align="center">
-Votre Motismart peut accueillir jusqu'à **6 applications différentes** ! Bien plus complètes que de simples applications de soin ou de coffre de l'Ender, elles méritent qu'on s'y attarde.
+Votre Motismart peut accueillir jusqu'à <strong>6 applications différentes</strong> ! Bien plus complètes que de simples applications de soin ou de coffre de l'Ender, elles méritent qu'on s'y attarde.
 </p>
 {% endhint %}
 
