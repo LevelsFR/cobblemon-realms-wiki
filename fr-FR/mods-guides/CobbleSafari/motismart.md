@@ -1,4 +1,4 @@
-# Tout savoir sur le Motismart
+# 📱 Tout savoir sur le Motismart
 
 {% hint style="info" %}
 <p align="center">Cette page présente le <strong>Motismart</strong>, son fonctionnement, ses différentes applications ainsi que les méthodes permettant de le fabriquer, de le personnaliser et de débloquer ses fonctionnalités.</p>
