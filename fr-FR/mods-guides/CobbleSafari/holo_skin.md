@@ -4,14 +4,14 @@
 <p align="center">Cette page répertorie les différents <strong>Holo-Skins</strong> disponibles dans <strong>CobbleSafari</strong>, ainsi que leurs apparences et les différentes méthodes permettant de les débloquer.</p>
 {% endhint %}
 
-## Fonctionnement
+## 💻 Fonctionnement
 
 - 🔓 **Déblocage individuel** - Les Holo-Skins sont débloqués **individuellement pour chaque joueur** et restent définitivement acquis. Vous les conservez donc même après avoir créé un nouveau Motismart.
 - ⚡ **Changement instantané** - Équiper un Holo-Skin est **entièrement gratuit et instantané**. Ouvrez l'application Holo-Skin, choisissez celui qui vous plaît, et profitez-en immédiatement. Vous pouvez changer d'apparence à tout moment, sans aucune restriction.
 - 🎨 **Personnalisation de l'interface** - Certains Holo-Skins disposent d'un **fond d'écran personnalisé** et d'une couleur d'interface assortie. Vous préférez l'apparence du skin mais pas son fond ? Désactivez simplement l'option **Fond d'écran personnalisé** pour retrouver le fond par défaut.
 - ✨ **Motismart chromatique** - Les Motismart fabriqués à partir d'un **Motisma chromatique** conservent leur apparence unique. Certains Holo-Skins disposent ainsi d'une **version chromatique dédiée**, spécialement adaptée à ces téléphones.
 
-## Comment débloquer les Holo-Skins ?
+## 🔓 Comment débloquer les Holo-Skins ?
 
 | Méthode | Détails |
 | --- | --- |
@@ -20,7 +20,7 @@
 | **Objet de déblocage** | ??? |
 | **Avancement** | ??? |
 
-## Liste des skins
+## 📋 Liste des skins
 
 | Nom | Apparence normale | Apparence chromatique | Fond d'écran personnalisé | Obtention |
 | --- | --- | :-: | :-: | --- |
@@ -55,7 +55,7 @@
 | **Game Boy** | - | - | Oui | Objet de déblocage OU quête quotidienne |
 | **Sandwich** | - | - | Non | Objet de déblocage OU quête quotidienne |
 
-## Skins supplémentaires
+## ➕ Skins supplémentaires
 
 > Vous souhaitez créer vos propres skins ? Consultez la page [Datapack : Holo-Skins](https://cobblesafari.maxigregrze.fr/en/addons/datapack-rotomphone-skins).
 
