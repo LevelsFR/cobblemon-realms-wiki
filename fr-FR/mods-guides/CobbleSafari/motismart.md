@@ -131,7 +131,11 @@ Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver
 
 ## 🔓 Déblocage
 
-Par défaut, toutes les applications ne sont pas disponibles immédiatement. Chaque application peut être **verrouillée, déverrouillée ou complètement désactivée** par les propriétaires de serveurs et les créateurs de modpacks. Les applications verrouillées n'apparaissent tout simplement pas dans le menu tant qu'elles n'ont pas été obtenues.
+{% hint style="info" %}
+<p align="center">
+Par défaut, toutes les applications ne sont pas disponibles immédiatement. Chaque application peut être <strong>verrouillée, déverrouillée ou complètement désactivée</strong> par les propriétaires de serveurs et les créateurs de modpacks. Les applications verrouillées n'apparaissent tout simplement pas dans le menu tant qu'elles n'ont pas été obtenues.
+</p>
+{% endhint %}
 
 Il existe trois façons de débloquer une application :
 
