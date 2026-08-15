@@ -44,8 +44,6 @@ Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
 1. **Faire un clic droit** en tenant le téléphone.
 2. **Utiliser la touche dédiée au téléphone** (`Y` par défaut, modifiable dans les commandes de Minecraft). Cette méthode fonctionne tant que le téléphone se trouve sur vous : main principale, main secondaire, troisième main si vous en avez une, barre rapide, inventaire, emplacements d'armure ou emplacement des Accessories.
 
-> ℹ️ **Compatibilité avec Accessories :** si le mod **Accessories** est installé et que ses paramètres n'ont pas été modifiés, faire un clic droit sur le Motismart l'équipe automatiquement dans l'emplacement Accessories prévu à cet effet. Vous pouvez utiliser **Maj + clic droit** ou modifier les paramètres d'Accessories pour changer ce comportement.
-
 ***
 
 ## 📲 Les applications
