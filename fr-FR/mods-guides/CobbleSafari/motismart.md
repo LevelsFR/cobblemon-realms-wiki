@@ -90,8 +90,8 @@ Comme dans n'importe quelle application de messagerie, votre liste de contacts a
 Trois types de missions peuvent vous être proposés :
 
 - **Accomplir un avancement**
-- **Augmenter une statistique d'une certaine valeur** (attraper 8 Pokémon dans la Dimension Safari, parcourir 10 km, passer 10 minutes dans le Nether, etc.)
-- **Rassembler des objets** (qui seront consommés lors de la validation de la mission)
+- **Augmenter une statistique d'une certaine valeur**
+- **Rassembler des objets**
 
 Certaines missions nécessitent d'avoir accompli des prérequis, tandis que d'autres vous demanderont d'attendre le lendemain, c'est-à-dire le jour réel suivant, avant de pouvoir poursuivre. Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions]
 
