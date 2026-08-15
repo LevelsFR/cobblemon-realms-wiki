@@ -12,7 +12,7 @@ Cette page présente le <strong>Motismart</strong>, son fonctionnement, ses diff
 Fabriquer son propre Motismart n'est pas une tâche des plus simples et nécessite de suivre plusieurs étapes.
 </p>
 
-### 1️⃣ Étape 1 — Fabriquer un téléphone vide
+### 1️⃣ Étape 1 - Fabriquer un téléphone vide
 
 {% hint style="info" %}
 <p align="center">
@@ -23,7 +23,7 @@ Le téléphone peut être fabriqué à l'aide de fer, de cuivre, d'or, de verre 
 ![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_1.png)
 ![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
 
-### 2️⃣ Étape 2 — Trouver un Motisma
+### 2️⃣ Étape 2 - Trouver un Motisma
 
 {% hint style="info" %}
 <p align="center">
@@ -36,7 +36,7 @@ Dans CobbleSafari, il existe **deux façons** de trouver un Motisma dans la natu
 - ⚡ **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement.
 - 📱 **Les téléphones vides peuvent naturellement attirer Motisma :** placez un téléphone vide au sol et il existe une petite chance qu'un Motisma apparaisse à proximité. Cette méthode fonctionne également en dehors de la Dimension Safari, ce qui en fait l'option la plus simple si vous ne l'avez pas encore débloquée.
 
-### 3️⃣ Étape 3 — Faire entrer Motisma
+### 3️⃣ Étape 3 - Faire entrer Motisma
 
 <p align="center">
 Pour demander à Motisma d'intégrer son nouveau logement, vous devez <strong>faire un clic droit en tenant le téléphone vide et en visant dans les airs</strong>, ou <strong>faire un clic droit sur le bloc placé</strong>, avec Motisma dans votre équipe.
@@ -133,7 +133,7 @@ Les skins sont débloqués **individuellement pour chaque joueur** et restent do
 
 ***
 
-## 🛡️ Paramètres — Roto-Chute et Roto-Glisse
+## 🛡️ Paramètres - Roto-Chute et Roto-Glisse
 
 {% hint style="info" %}
 <p align="center">
