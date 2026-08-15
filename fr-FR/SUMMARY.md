@@ -124,7 +124,7 @@
   * [🎡 Dimension Safari](mods-guides/CobbleSafari/safari_dimension.md)
   * [🐾 Pokémon du Safari](mods-guides/CobbleSafari/wild_pokemon_safari.md)
   * [🌀 Le Portail d'Hoopa](mods-guides/CobbleSafari/hoopa_portals.md)
-  * [📱 Liste des Rotom Phone](mods-guides/CobbleSafari/rotom_phone.md)
+  * [📱 Holo-Skins du Motismart](mods-guides/CobbleSafari/holo_skin.md)
   * [🌌 Monde Distorsion](mods-guides/CobbleSafari/distortion_world.md)
   * [⛏️ Souterrain de Sinnoh](mods-guides/CobbleSafari/sinnoh_underground.md)
   * [💎 Trésors souterrain de Sinnoh](mods-guides/CobbleSafari/underground_treasure_list.md)
