@@ -25,9 +25,9 @@
 | Nom | Apparence normale | Apparence chromatique | Fond d'écran personnalisé | Obtention |
 | --- | --- | :-: | :-: | --- |
 | **Par défaut** | - | - | · | Disponible dès le départ |
-| **Arc Phone** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête quotidienne |
-| **Beast-Ball** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
-| **Jaune** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Arc Phone** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête quotidienne |
+| **Beast-Ball** | - | - | ![Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Jaune** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Vert** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Violet** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Rose** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
