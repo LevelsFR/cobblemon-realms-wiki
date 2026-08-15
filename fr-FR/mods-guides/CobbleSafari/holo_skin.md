@@ -15,10 +15,10 @@
 
 | Méthode | Détails |
 | --- | --- |
-| **Quête de Motisma** | ??? |
-| **Quête quotidienne** | ??? |
-| **Objet de déblocage** | ??? |
-| **Avancement** | ??? |
+| **Quête de Motisma** | Chaque jour, Motisma vous permet d'obtenir aléatoirement un skin de couleur que vous ne possédez pas encore au cours de votre conversation avec lui. |
+| **Quête quotidienne** | La quête quotidienne répétable de Hayley peut parfois récompenser un skin verrouillé aléatoire. Si vous possédez déjà tous les skins disponibles, elle vous donnera des tickets à la place. |
+| **Objet de déblocage** | Un objet consommable **Déblocage Holo-Skins** permet de débloquer un skin spécifique. Le **Déblocage complet des Holo-Skins** permet quant à lui de débloquer l'ensemble des skins. |
+| **Avancement** | Certains avancements peuvent également permettre de débloquer des Holo-Skins. |
 
 ## 📋 Liste des skins
 
