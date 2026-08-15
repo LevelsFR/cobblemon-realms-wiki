@@ -50,10 +50,10 @@ Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
 
 Votre Motismart peut accueillir jusqu'à **6 applications différentes** ! Bien plus complètes que de simples applications de soin ou de coffre de l'Ender, elles méritent qu'on s'y attarde.
 
-Pour découvrir comment débloquer ces applications, consultez la section [Déblocage](https://cobblesafari.maxigregrze.fr/en/wiki/rotom-phone#unlocking) ci-dessous.
+Pour découvrir comment débloquer ces applications, consultez la section **déblocage** ci-dessous.
 
 | Application | Fonctionnement |
-| --- | --- |
+| --- | :---: |
 | 💬 **Messagerie** | Recevez des messages de PNJ contenant des missions et obtenez des récompenses en les accomplissant. |
 | 🔄 **GTS** | Effectuez des échanges asynchrones : déposez un Pokémon, proposez-le à l'échange ou consultez les offres des autres joueurs. |
 | 🎁 **Échange Miracle** | Envoyez un Pokémon et recevez-en un autre aléatoirement en retour ! |
