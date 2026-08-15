@@ -23,8 +23,6 @@ Dans CobbleSafari, il existe deux façons de trouver un Motisma dans la nature :
 - **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement.
 - **Les téléphones vides peuvent naturellement attirer Motisma :** placez un téléphone vide au sol et il existe une petite chance qu'un Motisma apparaisse à proximité. Cette méthode fonctionne également en dehors de la Dimension Safari, ce qui en fait l'option la plus simple si vous ne l'avez pas encore débloquée.
 
-D'autres mods, modpacks ou serveurs peuvent également ajouter de nouvelles façons de faire apparaître Motisma ou supprimer certaines des méthodes existantes. Consultez la documentation du mod ou du modpack concerné pour connaître les éventuelles modifications.
-
 ### 3️⃣ Étape 3 - Faire entrer Motisma
 
 Pour demander à Motisma d'intégrer son nouveau logement, vous devez **faire un clic droit en tenant le téléphone vide et en visant dans les airs**, ou **faire un clic droit sur le bloc placé**, avec Motisma dans votre équipe.
@@ -33,7 +31,11 @@ Un écran de confirmation apparaît alors et affiche le Motisma qui s'apprête �
 
 Si vous confirmez, Motisma quitte votre équipe pour entrer dans le téléphone. S'il tenait un objet ou portait un accessoire cosmétique, ceux-ci vous sont automatiquement rendus.
 
-✨ **Si votre Motisma est chromatique, votre Motismart le sera également.** Les Motismart chromatiques conservent toujours une apparence distincte, même après l'application d'un Holo-Skin : chaque skin possède sa propre variante chromatique. De quoi afficher fièrement votre Motisma !
+{% hint style="success" %}
+<p align="center">
+✨ <strong>Si votre Motisma est chromatique, votre Motismart le sera également.</strong> Les Motismart chromatiques conservent toujours une apparence distincte, même après l'application d'un Holo-Skin : chaque skin possède sa propre variante chromatique. De quoi afficher fièrement votre Motisma !
+</p>
+{% endhint %}
 
 ***
 
