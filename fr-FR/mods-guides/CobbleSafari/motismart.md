@@ -123,7 +123,11 @@ Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-S
 
 ## 🛡️ Paramètres - Roto-Chute et Roto-Glisse
 
-Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver à Kalos et à Paldea. Elles peuvent être activées ou désactivées individuellement pour chaque Motismart depuis l'application **Paramètres** et fonctionnent aussi bien lorsque le téléphone est tenu en main que lorsqu'il est équipé dans l'emplacement Accessories.
+{% hint style="info" %}
+<p align="center">
+Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver à Kalos et à Paldea. Elles peuvent être activées ou désactivées individuellement pour chaque Motismart depuis l'application <strong>Paramètres</strong> et fonctionnent aussi bien lorsque le téléphone est tenu en main que lorsqu'il est équipé dans l'emplacement Accessories.
+</p>
+{% endhint %}
 
 - **🪂 Roto-Chute** amortit les longues chutes. Après environ une seconde de chute, le téléphone applique un effet spécial qui **annule entièrement les dégâts de chute** et renouvelle continuellement sa protection jusqu'à votre atterrissage. Il a bien fallu trouver une solution, puisque les enfants de Kalos n'arrêtent pas de tomber des toits.
 
