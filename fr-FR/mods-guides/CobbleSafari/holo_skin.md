@@ -47,7 +47,7 @@
 | **Marron foncé** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Blanc** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Noir** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
-| **Championne Cynthia** | - | - | Oui | Objet de déblocage OU quête quotidienne |
+| **Championne Cynthia** | - | - | ![Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
 | **Glitterati** | - | - | ![Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Objet de déblocage OU quête quotidienne |
 | **Hex Maniac** | - | - | ![Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
 | **Iono** | - | - | ![Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
