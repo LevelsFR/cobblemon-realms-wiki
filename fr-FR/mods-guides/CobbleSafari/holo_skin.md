@@ -25,35 +25,35 @@
 | Nom | Apparence normale | Apparence chromatique | Fond d'écran personnalisé | Obtention |
 | --- | --- | :-: | :-: | --- |
 | **Par défaut** | - | - | · | Disponible dès le départ |
-| **Arc Phone** | - | - | Non | Quête quotidienne |
-| **Beast-Ball** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Jaune** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Vert** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Violet** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Rose** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Bleu** | - | - | Non | Quête de Motisma OU quête quotidienne |
+| **Arc Phone** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête quotidienne |
+| **Beast-Ball** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Jaune** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Vert** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Violet** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Rose** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Bleu** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Turquoise** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Olive** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Rose** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Marron** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Lavande** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Crème** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Vert foncé** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Rouge vin** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Orange** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Bleu ciel** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Bleu marine** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Marron cacao** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Marron foncé** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Blanc** | - | - | Non | Quête de Motisma OU quête quotidienne |
-| **Noir** | - | - | Non | Quête de Motisma OU quête quotidienne |
+| **Olive** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Rose** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Marron** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Lavande** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Crème** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Vert foncé** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Rouge vin** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Orange** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Bleu ciel** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Bleu marine** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Marron cacao** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Marron foncé** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Blanc** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
+| **Noir** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Quête de Motisma OU quête quotidienne |
 | **Championne Cynthia** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Glitterati** | - | - | Non | Objet de déblocage OU quête quotidienne |
-| **Hex Maniac** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Iono** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Pokétch** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Game Boy** | - | - | Oui | Objet de déblocage OU quête quotidienne |
-| **Sandwich** | - | - | Non | Objet de déblocage OU quête quotidienne |
+| **Glitterati** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Objet de déblocage OU quête quotidienne |
+| **Hex Maniac** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Iono** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Pokétch** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Game Boy** | - | - | [Oui](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/oui.png) | Objet de déblocage OU quête quotidienne |
+| **Sandwich** | - | - | [Non](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/non.png) | Objet de déblocage OU quête quotidienne |
 
 ## ➕ Skins supplémentaires
 
