@@ -57,7 +57,7 @@
 
 ## ➕ Skins supplémentaires
 
-> Vous souhaitez créer vos propres skins ? Consultez la page [Datapack : Holo-Skins](https://cobblesafari.maxigregrze.fr/en/addons/datapack-rotomphone-skins).
+> Vous souhaitez créer vos propres skins ? Consultez la page officiel du mod [Datapack : Holo-Skins](https://cobblesafari.maxigregrze.fr/en/addons/datapack-rotomphone-skins).
 
 {% hint style="success" %}
 ### Nous contacter
