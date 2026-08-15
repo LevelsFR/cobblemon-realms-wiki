@@ -147,7 +147,7 @@ Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver
 
 Après environ une seconde de chute, le téléphone applique un effet spécial qui **annule entièrement les dégâts de chute** et maintient continuellement sa protection jusqu'à votre atterrissage.
 
-> Il a bien fallu trouver une solution, puisque les enfants de Kalos n'arrêtent pas de tomber des toits.
+*Il a bien fallu trouver une solution, puisque les enfants de Kalos n'arrêtent pas de tomber des toits.*
 
 ### ⬆️ Roto-Glisse
 
