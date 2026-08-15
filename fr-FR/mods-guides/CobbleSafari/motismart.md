@@ -36,7 +36,7 @@ Dans CobbleSafari, il existe deux façons de trouver un Motisma dans la nature :
 ### 3️⃣ Étape 3 - Faire entrer Motisma
 
 <p align="center">
-Pour demander à Motisma d'intégrer son nouveau logement, vous devez **faire un clic droit en tenant le téléphone vide et en visant dans les airs**, ou **faire un clic droit sur le bloc placé**, avec Motisma dans votre équipe.
+Pour demander à Motisma d'intégrer son nouveau logement, vous devez <strong>faire un clic droit en tenant le téléphone vide et en visant dans les airs</strong>, ou <strong>faire un clic droit sur le bloc placé</strong>, avec Motisma dans votre équipe.
 </p>
 
 Un écran de confirmation apparaît alors et affiche le Motisma qui s'apprête à entrer dans le téléphone : **profitez-en pour vérifier qu'il s'agit bien du bon Motisma**. Si vous confirmez, Motisma quitte votre équipe pour entrer dans le téléphone. S'il tenait un objet ou portait un accessoire cosmétique, ceux-ci vous sont automatiquement rendus.
