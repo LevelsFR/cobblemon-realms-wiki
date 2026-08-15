@@ -12,7 +12,7 @@ Fabriquer son propre Motismart n'est pas une tâche des plus simples et nécessi
 
 Le téléphone peut être fabriqué à l'aide de fer, de cuivre, d'or, de verre pour l'écran et d'un diamant au cœur du dispositif. Si vous ne souhaitez pas utiliser de diamant, vous pouvez le remplacer par un **Tinkagear**, qui peut être trouvé rarement dans le biome de type Acier de la Dimension Safari.
 
-![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_vide_1.png) ![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_vide_2.png)
+![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_1.png) ![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
 
 ### 2️⃣ Étape 2 - Trouver un Motisma
 
