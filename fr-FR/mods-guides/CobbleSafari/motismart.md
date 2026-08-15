@@ -39,7 +39,7 @@ Si vous confirmez, Motisma quitte votre équipe pour entrer dans le téléphone.
 
 ***
 
-# 📱 Utiliser votre Motismart
+## 📱 Utiliser votre Motismart
 
 Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
 
@@ -95,7 +95,7 @@ Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la 
 
 ***
 
-### ✨ Holo-Skins
+## ✨ Holo-Skins
 
 Les **Holo-Skins** utilisent un hologramme projeté sur la coque du Motismart afin d'en modifier l'apparence. Ils modifient à la fois **l'interface du téléphone et son modèle dans l'inventaire**. Certains skins disposent également de leur propre fond d'écran pour l'interface.
 
@@ -105,7 +105,7 @@ Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-S
 
 ***
 
-### 🛡️ Paramètres - Roto-Chute et Roto-Glisse
+## 🛡️ Paramètres - Roto-Chute et Roto-Glisse
 
 Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver à Kalos et à Paldea. Elles peuvent être activées ou désactivées individuellement pour chaque Motismart depuis l'application **Paramètres** et fonctionnent aussi bien lorsque le téléphone est tenu en main que lorsqu'il est équipé dans l'emplacement Accessories.
 
