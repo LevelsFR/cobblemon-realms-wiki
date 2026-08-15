@@ -35,6 +35,8 @@ Si vous confirmez, Motisma quitte votre équipe pour entrer dans le téléphone.
 
 ✨ **Si votre Motisma est chromatique, votre Motismart le sera également.** Les Motismart chromatiques conservent toujours une apparence distincte, même après l'application d'un Holo-Skin : chaque skin possède sa propre variante chromatique. De quoi afficher fièrement votre Motisma !
 
+***
+
 # 📱 Utiliser votre Motismart
 
 Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
@@ -43,6 +45,8 @@ Pour ouvrir votre Motismart, deux possibilités s'offrent à vous :
 2. **Utiliser la touche dédiée au téléphone** (`Y` par défaut, modifiable dans les commandes de Minecraft). Cette méthode fonctionne tant que le téléphone se trouve sur vous : main principale, main secondaire, troisième main si vous en avez une, barre rapide, inventaire, emplacements d'armure ou emplacement des Accessories.
 
 > ℹ️ **Compatibilité avec Accessories :** si le mod **Accessories** est installé et que ses paramètres n'ont pas été modifiés, faire un clic droit sur le Motismart l'équipe automatiquement dans l'emplacement Accessories prévu à cet effet. Vous pouvez utiliser **Maj + clic droit** ou modifier les paramètres d'Accessories pour changer ce comportement.
+
+***
 
 ## 📲 Les applications
 
@@ -59,6 +63,8 @@ Pour découvrir comment débloquer ces applications, consultez la section [Débl
 | ✨ **Holo-Skins** | Personnalisez l'apparence de votre Motismart, à l'intérieur comme à l'extérieur ! |
 | ⚙️ **Paramètres** | Activez ou désactivez les deux fonctionnalités de sécurité : la protection contre les dégâts de chute et le double saut. |
 
+***
+
 ### 💬 Application Messagerie
 
 Comme dans n'importe quelle application de messagerie, votre liste de contacts apparaît sur la gauche. Sélectionnez un contact pour consulter son message, accomplir sa mission et obtenir vos récompenses !
@@ -71,9 +77,9 @@ Trois types de missions peuvent vous être proposés :
 
 Certaines missions nécessitent d'avoir accompli des prérequis, tandis que d'autres vous demanderont d'attendre le lendemain, c'est-à-dire le jour réel suivant, avant de pouvoir poursuivre.
 
-Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions](https://cobblesafari.maxigregrze.fr/en/wiki/rotomphone-missions).
+Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions]
 
-_Tu pensais que j'allais uniquement apparaître sur le Wiki ? Dommage ! Maintenant, je vais t'envoyer des messages tous les jours !_
+***
 
 ### 🌐 Applications GTS, Échange Miracle et Salle Union
 
@@ -85,7 +91,9 @@ En résumé :
 - **L'Échange Miracle** vous permet d'échanger votre Pokémon contre un Pokémon aléatoire.
 - **La Salle Union** crée une dimension privée dans laquelle vous et vos amis pouvez vous retrouver, combattre et échanger. Même seul, elle peut être utile pour faire une pause pendant votre exploration ou soigner vos Pokémon à tout moment.
 
-Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page [Fonctionnalités en ligne](https://cobblesafari.maxigregrze.fr/en/wiki/online-features).
+Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page [Fonctionnalités en ligne] !
+
+***
 
 ### ✨ Holo-Skins
 
@@ -93,7 +101,7 @@ Les **Holo-Skins** utilisent un hologramme projeté sur la coque du Motismart af
 
 Les skins sont débloqués **individuellement pour chaque joueur** et restent donc disponibles même si vous changez de Motismart. Ils peuvent être obtenus grâce aux récompenses de missions, aux avancements ou à des objets de déblocage consommables.
 
-Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-Skins](https://cobblesafari.maxigregrze.fr/en/wiki/rotomphone-holoskins).
+Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-Skins](mods-guides/CobbleSafari/holo_skin.md) !
 
 ### 🛡️ Paramètres - Roto-Chute et Roto-Glisse
 
@@ -101,8 +109,6 @@ Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver
 
 - **🪂 Roto-Chute** amortit les longues chutes. Après environ une seconde de chute, le téléphone applique un effet spécial qui **annule entièrement les dégâts de chute** et renouvelle continuellement sa protection jusqu'à votre atterrissage. Il a bien fallu trouver une solution, puisque les enfants de Kalos n'arrêtent pas de tomber des toits.
 - **⬆️ Roto-Glisse** fonctionne comme une sorte de double saut. Appuyez sur la touche de saut **pendant que vous êtes déjà en train de tomber** et, une seconde plus tard, vous bénéficiez d'une impulsion vers le haut pouvant atteindre **deux fois la hauteur d'un saut normal**, à condition de continuer à tomber sans avoir touché le sol entre-temps. Contrairement à un simple double saut qui pourrait être utilisé pour gagner de la hauteur, cette fonctionnalité est principalement conçue pour permettre de franchir de longues distances entre deux plateformes.
-
-> ⚠️ _Roto-Glisse ne fonctionne pas lorsque vous portez une Élytre. Apparemment, les ailes provoquent des interférences._
 
 ## 🔓 Déblocage
 
@@ -114,7 +120,10 @@ Il existe trois façons de débloquer une application :
 - 🔑 **Objet de déblocage :** des objets consommables existent pour chaque application et peuvent être utilisés pour débloquer celles-ci, notamment comme butin de donjon ou récompense de mission.
 - 🛠️ **Commande administrateur :** les administrateurs de serveur, blocs de commande et autres systèmes externes à CobbleSafari peuvent utiliser des commandes pour attribuer directement les applications.
 
-Si vous jouez à la version vanilla de CobbleSafari, toutes les applications sont débloquées progressivement au fil de plusieurs jours grâce à la **quête de Motisma**, qui sert également de tutoriel pour chacune d'entre elles.
+***
 
-Vous trouverez davantage d'informations sur la page [Liste des missions](https://cobblesafari.maxigregrze.fr/en/wiki/rotomphone-missions).
+{% hint style="success" %}
+### Nous contacter
 
+<p align="center">Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.</p>
+{% endhint %}
