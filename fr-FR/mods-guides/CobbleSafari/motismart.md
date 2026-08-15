@@ -20,7 +20,7 @@ Lorsque vous essayez d'utiliser le téléphone, un message peut vous indiquer qu
 
 Dans CobbleSafari, il existe deux façons de trouver un Motisma dans la nature :
 
-- **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement. Consultez la [liste des apparitions de la Dimension Safari](https://cobblesafari.maxigregrze.fr/en/wiki/safari-dimension-spawnpool) pour plus d'informations.
+- **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement. Consultez la [liste des apparitions de la Dimension Safari](mods-guides/CobbleSafari/distortion_world.md) pour plus d'informations.
 - **Les téléphones vides peuvent naturellement attirer Motisma :** placez un téléphone vide au sol et il existe une petite chance qu'un Motisma apparaisse à proximité. Cette méthode fonctionne également en dehors de la Dimension Safari, ce qui en fait l'option la plus simple si vous ne l'avez pas encore débloquée.
 
 D'autres mods, modpacks ou serveurs peuvent également ajouter de nouvelles façons de faire apparaître Motisma ou supprimer certaines des méthodes existantes. Consultez la documentation du mod ou du modpack concerné pour connaître les éventuelles modifications.
