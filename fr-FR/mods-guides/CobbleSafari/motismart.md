@@ -101,7 +101,9 @@ Les **Holo-Skins** utilisent un hologramme projeté sur la coque du Motismart af
 
 Les skins sont débloqués **individuellement pour chaque joueur** et restent donc disponibles même si vous changez de Motismart. Ils peuvent être obtenus grâce aux récompenses de missions, aux avancements ou à des objets de déblocage consommables.
 
-Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-Skins](mods-guides/CobbleSafari/holo_skin.md) !
+Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-Skins du Motismart](holo_skin.md) !
+
+***
 
 ### 🛡️ Paramètres - Roto-Chute et Roto-Glisse
 
