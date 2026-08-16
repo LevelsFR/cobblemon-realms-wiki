@@ -21,7 +21,7 @@ Le téléphone peut être fabriqué à l'aide de fer, de cuivre, d'or, de verre 
 {% endhint %}
 
 ![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_1.png)
-![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
+![Recette de fabrication secondaire](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
 
 ### 2️⃣ Étape 2 - Trouver un Motisma
 
@@ -103,8 +103,6 @@ Trois types de missions peuvent vous être proposés :
 
 Certaines missions nécessitent d'avoir accompli des prérequis, tandis que d'autres vous demanderont d'attendre le lendemain, c'est-à-dire le jour réel suivant, avant de pouvoir poursuivre.
 
-Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions](list_miss.md).
-
 ***
 
 ### 🌐 Applications GTS, Échange Miracle et Salle Union
@@ -117,7 +115,9 @@ En résumé :
 - 🎁 **L'Échange Miracle** vous permet d'échanger votre Pokémon contre un Pokémon aléatoire.
 - 👥 **La Salle Union** crée une dimension privée dans laquelle vous et vos amis pouvez vous retrouver, combattre et échanger. Même seul, elle peut être utile pour faire une pause pendant votre exploration ou soigner vos Pokémon à tout moment.
 
-Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page [Fonctionnalités en ligne](fonct_online.md) !
+<p align="center">
+Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Fonctionnalités en ligne</strong></a>.
+</p>
 
 ***
 
@@ -129,7 +129,9 @@ Certains skins disposent également de leur propre **fond d'écran pour l'interf
 
 Les skins sont débloqués **individuellement pour chaque joueur** et restent donc disponibles même si vous changez de Motismart. Ils peuvent être obtenus grâce aux **récompenses de missions, aux avancements ou à des objets de déblocage consommables**.
 
-> ✨ Retrouvez la liste complète des skins disponibles sur la page [Liste des Holo-Skins du Motismart](holo_skin.md).
+<p align="center">
+✨ Retrouvez la liste complète des skins disponibles sur la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>des Holo-Skins</strong></a>.
+</p>
 
 ***
 
