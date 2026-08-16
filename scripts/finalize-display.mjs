@@ -67,13 +67,11 @@ function transformArticleImages(html) {
 
 function compactFrenchNavigation(html, relativePath) {
   if (!(relativePath === 'fr-FR/index.html' || relativePath.startsWith('fr-FR/'))) return html;
-  const isFrenchHome = relativePath === 'fr-FR/index.html';
 
   return html.replace(/<details class="nav-group"(?:\s+open)?>([\s\S]*?)<\/details>/gi, (full, inner) => {
-    const active = /aria-current="page"/i.test(inner);
     const title = stripTags(inner.match(/<summary[^>]*>\s*<span>([\s\S]*?)<\/span>/i)?.[1] || '');
-    const homeDefault = isFrenchHome && (title === 'Présentation' || title === 'Informations');
-    return `<details class="nav-group"${active || homeDefault ? ' open' : ''}>${inner}</details>`;
+    const defaultOpen = title === 'Présentation' || title === 'Informations';
+    return `<details class="nav-group"${defaultOpen ? ' open' : ''}>${inner}</details>`;
   });
 }
 
