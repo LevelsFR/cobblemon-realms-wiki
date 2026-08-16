@@ -1,7 +1,5 @@
 # 🌐 Fonctionnalités en ligne
 
-Grâce à votre [Motismart](motismart.md), ou aux ordinateurs dédiés aux fonctionnalités en ligne, vous avez accès à trois fonctionnalités : le **GTS**, l'**Échange Miracle** et la **Salle Union**.
-
 {% hint style="info" %}
 <p align="center">
 Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes peuvent être utilisées même en jouant seul. La GTS permet notamment d'échanger avec des PNJ grâce aux offres personnelles, l'Échange Miracle vous permet de renouveler votre équipe avec des Pokémon aléatoires et la Salle Union vous offre un espace sécurisé disposant d'un PC et d'une machine de soin.
