@@ -7,7 +7,7 @@
 {% endhint %}
 
 <p align="center">
-L'application <strong>Messagerie</strong> de votre <a href="motismart.md"><strong>Motismart</strong></a> constitue un véritable <strong>système de missions</strong>. Vos contacts vous envoient des messages, vous confient des tâches et vous récompensent une fois celles-ci accomplies. Certaines missions vous permettront également de découvrir et d'apprendre à utiliser les différentes fonctionnalités ajoutées par <strong>CobbleSafari</strong>.
+L'application <strong>Messagerie</strong> de votre [Motismart](motismart.md) constitue un véritable <strong>système de missions</strong>. Vos contacts vous envoient des messages, vous confient des tâches et vous récompensent une fois celles-ci accomplies. Certaines missions vous permettront également de découvrir et d'apprendre à utiliser les différentes fonctionnalités ajoutées par <strong>CobbleSafari</strong>.
 </p>
 
 ***
