@@ -65,7 +65,7 @@ Le catalogue d'attaques varie selon les Boss. Elles peuvent cependant être regr
 | --- | --- | --- |
 | **🎯 Ciblées** | Ombres, orbes ou autres attaques qui vous poursuivent directement. | Restez en mouvement. Les attaques accélèrent lorsqu'elles sont éloignées de vous : évitez donc de simplement courir en ligne droite. |
 | **🟨 Zone** | Une partie du sol s'illumine ou affiche un motif avant qu'une attaque ne se déclenche. | Observez le sol et quittez rapidement les zones indiquées. |
-| **💫 Propagation** | Plusieurs projectiles sont lancés simultanément dans différentes directions. | Observez les trajectoires et esquivez les projectiles en vous déplaçant entre eux. |
+| **💫 Diffusion** | Plusieurs projectiles sont lancés simultanément dans différentes directions. | Observez les trajectoires et esquivez les projectiles en vous déplaçant entre eux. |
 
 Certains Boss peuvent déclencher **deux attaques simultanément**, mais jamais deux attaques appartenant à la même catégorie. Vous n'aurez donc pas à esquiver deux attaques de propagation superposées, par exemple.
 
