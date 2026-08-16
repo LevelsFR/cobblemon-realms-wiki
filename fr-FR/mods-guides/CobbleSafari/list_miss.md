@@ -51,7 +51,7 @@ Discuter régulièrement avec lui est essentiel : **chaque jour, Motisma débloq
 </p>
 
 | Jour | Déblocage | Type d'objectif | Condition | Récompense |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | :---: |
 | 1 | - | Avancement | **Rotomphone 101** - posséder un Motismart | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> + une offre d'échange GTS personnelle |
 | 2 | **Application GTS** | Avancement | **Dénicheur de bonnes affaires** - effectuer un échange via la GTS | Un Holo-Skin de couleur aléatoire |
 | 3 | **Application Holo-Skin** | Avancement | **Coup de neuf** - changer l'apparence de votre téléphone pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Ticket Échange Miracle" width="32"></a>³ + Un Holo-Skin de couleur aléatoire |
@@ -76,7 +76,7 @@ Retrouvez l'ensemble des skins disponibles sur la <a href="holo_skin.md"><strong
 **Disponible dès le départ**, Hayley est la gardienne de la Dimension Safari et votre guide pour tout ce qui s'y déroule.
 
 | Jour | Type d'objectif | Condition | Récompense | Attend le lendemain |
-| --- | --- | --- | --- | :-: |
+| --- | --- | --- | :---: | :---: |
 | 1 | Avancement | **Bienvenue au safari** - entrer dans la Dimension Safari pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ | Non |
 | 2 | Avancement | **Attrapeur Safari débutant** - capturer 10 Pokémon sauvages dans la Dimension Safari | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Boue-Boule" width="32"></a>⁸ | Non |
 | 3 | Avancement | **Fan de boue certifié** - lancer une Balle Boue pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Appât" width="32"></a>⁸ | Non |
