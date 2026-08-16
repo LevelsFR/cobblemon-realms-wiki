@@ -116,7 +116,7 @@ En résumé :
 - 👥 **La Salle Union** crée une dimension privée dans laquelle vous et vos amis pouvez vous retrouver, combattre et échanger. Même seul, elle peut être utile pour faire une pause pendant votre exploration ou soigner vos Pokémon à tout moment.
 
 <p align="center">
-Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Fonctionnalités en ligne</strong></a>.
+Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page des <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Fonctionnalités en ligne</strong></a>.
 </p>
 
 ***
@@ -130,7 +130,7 @@ Certains skins disposent également de leur propre **fond d'écran pour l'interf
 Les skins sont débloqués **individuellement pour chaque joueur** et restent donc disponibles même si vous changez de Motismart. Ils peuvent être obtenus grâce aux **récompenses de missions, aux avancements ou à des objets de déblocage consommables**.
 
 <p align="center">
-✨ Retrouvez la liste complète des skins disponibles sur la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>des Holo-Skins</strong></a>.
+✨ Retrouvez la liste complète des skins disponibles sur la page des <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Holo-Skins</strong></a>.
 </p>
 
 ***
