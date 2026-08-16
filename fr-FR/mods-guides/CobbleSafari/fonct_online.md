@@ -27,9 +27,7 @@ Une fois l'offre publiée, votre Pokémon quitte votre équipe et est conservé 
 
 ### 🔎 Trouver une offre
 
-L'écran **Voir les offres** permet de consulter les offres actuellement disponibles et de les filtrer par espèce afin de trouver plus facilement le Pokémon recherché.
-
-Sélectionnez une offre pour consulter les critères demandés. Si l'un de vos Pokémon correspond, vous pouvez effectuer l'échange immédiatement.
+L'écran **Voir les offres** permet de consulter les offres actuellement disponibles et de les filtrer par espèce afin de trouver plus facilement le Pokémon recherché. Sélectionnez une offre pour consulter les critères demandés : si l'un de vos Pokémon correspond, vous pouvez effectuer l'échange immédiatement.
 
 {% hint style="info" %}
 <p align="center">
@@ -45,15 +43,11 @@ L'écran **Mes offres** regroupe toutes vos offres actuellement actives et vous 
 - **Récupérer** - retirer une offre et récupérer le Pokémon que vous aviez déposé.
 - **Recevoir** - récupérer un Pokémon qu'un autre joueur ou PNJ vous a envoyé.
 
-Lorsqu'un échange est effectué, qu'une offre expire ou qu'elle est retirée par un administrateur, le résultat reste disponible dans cet écran jusqu'à ce que vous veniez le récupérer.
-
-**Votre Pokémon n'est jamais supprimé** : il reste dans votre boîte de réception jusqu'à sa récupération.
+Lorsqu'un échange est effectué, qu'une offre expire ou qu'elle est retirée par un administrateur, le résultat reste disponible dans cet écran jusqu'à ce que vous veniez le récupérer. **Votre Pokémon n'est jamais supprimé** : il reste dans votre boîte de réception jusqu'à sa récupération.
 
 ### 🎟️ Emplacements et Tickets GTS
 
-Par défaut, vous pouvez avoir **une seule offre active à la fois**.
-
-L'utilisation d'un **Ticket GTS** augmente votre nombre maximal d'offres simultanées, jusqu'à un maximum de **3 offres**.
+Par défaut, vous pouvez avoir **une seule offre active à la fois**. L'utilisation d'un **Ticket GTS** augmente votre nombre maximal d'offres simultanées, jusqu'à un maximum de **3 offres**.
 
 Les offres expirent par défaut après **7 jours**. Lorsqu'une offre arrive à expiration, le Pokémon que vous aviez déposé vous est automatiquement restitué via la boîte de réception.
 
@@ -78,9 +72,7 @@ L'**Échange Miracle** vous permet d'échanger un Pokémon contre un autre Poké
 
 ### 🔄 Fonctionnement
 
-Vous disposez par défaut de **3 échanges par jour**, renouvelés lors de la réinitialisation quotidienne.
-
-Pour effectuer un échange, sélectionnez un Pokémon de votre équipe et confirmez que vous souhaitez réellement vous en séparer. Une fois l'échange effectué, le Pokémon reçu vous est attribué aléatoirement.
+Vous disposez par défaut de **3 échanges par jour**, renouvelés lors de la réinitialisation quotidienne. Pour effectuer un échange, sélectionnez un Pokémon de votre équipe et confirmez que vous souhaitez réellement vous en séparer. Une fois l'échange effectué, le Pokémon reçu vous est attribué aléatoirement.
 
 {% hint style="info" %}
 <p align="center">
@@ -88,9 +80,7 @@ Le pool de l'Échange Miracle est alimenté automatiquement par le serveur. Vous
 </p>
 {% endhint %}
 
-Les Pokémon présents dans le pool depuis plus de **7 jours** sont automatiquement retirés afin de maintenir une sélection régulièrement renouvelée.
-
-Certains Pokémon peuvent également être obtenus avec une **forme cosmétique aléatoire** lorsqu'il en existe une, comme certaines formes de Prismillon, les différentes lettres de Zarbi ou encore certaines formes particulières de Pokémon.
+Les Pokémon présents dans le pool depuis plus de **7 jours** sont automatiquement retirés afin de maintenir une sélection régulièrement renouvelée. Certains Pokémon peuvent également être obtenus avec une **forme cosmétique aléatoire** lorsqu'il en existe une, comme certaines formes de Prismillon, les différentes lettres de Zarbi ou encore certaines formes particulières de Pokémon.
 
 {% hint style="warning" %}
 <p align="center">
@@ -110,13 +100,7 @@ Les échanges utilisent toujours les échanges quotidiens en priorité. Les tick
 
 ### 🎉 Événements
 
-Des **événements d'Échange Miracle à durée limitée** peuvent modifier temporairement le contenu du pool afin de favoriser certains thèmes.
-
-Il peut par exemple s'agir d'un événement basé sur :
-
-- un **type** particulier ;
-- une **rareté** spécifique ;
-- une sélection composée d'une espèce particulière.
+Des **événements d'Échange Miracle à durée limitée** peuvent modifier temporairement le contenu du pool afin de favoriser certains thèmes. Il peut par exemple s'agir d'un événement basé sur un **type particulier**, une **rareté spécifique** ou une sélection composée d'une espèce particulière.
 
 Lorsqu'un événement est actif, une bannière apparaît dans l'application avec un compte à rebours indiquant le temps restant. Une notification apparaît également sur l'icône de l'Échange Miracle sur l'écran d'accueil jusqu'à ce que vous ouvriez l'application.
 
@@ -134,9 +118,7 @@ Inspirée des **Salles Union** des générations 3, 4 et 5, la Salle Union est u
 
 ### 🚪 Rejoindre une Salle Union
 
-Depuis l'application, vous pouvez soit **créer une salle**, soit **rejoindre une salle existante** à l'aide d'un **code composé de 4 symboles**.
-
-Les symboles utilisés sont des Zarbi correspondant aux lettres **A à F**, ce qui permet de communiquer facilement les codes entre joueurs.
+Depuis l'application, vous pouvez soit **créer une salle**, soit **rejoindre une salle existante** à l'aide d'un **code composé de 4 symboles**. Les symboles utilisés sont des Zarbi correspondant aux lettres **A à F**, ce qui permet de communiquer facilement les codes entre joueurs.
 
 Le joueur qui crée la salle devient son **hôte**, tandis que les autres joueurs rejoignant la salle sont considérés comme des invités.
 
@@ -156,9 +138,7 @@ Lors de la création d'une instance, vous pouvez choisir entre deux formats :
 | **Joueurs par session** | 6 | 24 |
 | **Instances simultanées** | 10 | 2 |
 
-La **Salle Union** convient particulièrement aux petits groupes souhaitant simplement échanger ou combattre.
-
-La **Plaza Union** est davantage adaptée aux événements réunissant un grand nombre de joueurs et permettant plusieurs combats simultanément.
+La **Salle Union** convient particulièrement aux petits groupes souhaitant simplement échanger ou combattre, tandis que la **Plaza Union** est davantage adaptée aux événements réunissant un grand nombre de joueurs et permettant plusieurs combats simultanément.
 
 ### ⏱️ Règles et durée des sessions
 
@@ -169,14 +149,22 @@ La **Plaza Union** est davantage adaptée aux événements réunissant un grand 
 
 ### 🛠️ Instances et personnalisation
 
-Les instances de Salle Union sont **réutilisées plutôt que supprimées** après chaque session.
-
-Cela permet notamment de rendre l'entrée dans une salle déjà utilisée quasiment instantanée. Cependant, cette particularité a une conséquence importante pour les administrateurs disposant du mode Créatif.
+Les instances de Salle Union sont **réutilisées plutôt que supprimées** après chaque session. Cela permet notamment de rendre l'entrée dans une salle déjà utilisée quasiment instantanée, mais cette particularité peut avoir des conséquences pour les administrateurs disposant du mode Créatif.
 
 Un administrateur peut modifier ou personnaliser l'apparence d'une Salle Union. Si une structure est ensuite détruite ou modifiée par erreur, ces changements peuvent être conservés et apparaître lors des prochaines sessions utilisant cette instance.
 
 {% hint style="warning" %}
 <p align="center">
 En cas de modification indésirable d'une instance, la seule manière de restaurer complètement la structure d'origine est de <strong>supprimer le dossier de la dimension de la Salle Union</strong> afin de forcer sa réinitialisation.
+</p>
+{% endhint %}
+
+***
+
+{% hint style="success" %}
+## Nous contacter
+
+<p align="center">
+Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
 </p>
 {% endhint %}
