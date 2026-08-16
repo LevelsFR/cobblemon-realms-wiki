@@ -182,7 +182,7 @@ La récompense contient **exactement huit fragments**, soit le nombre nécessair
 
 {% hint style="info" %}
 <p align="center">
-Consultez la page <a href="distortion_world.md"><strong>Monde Distorsion</strong></a> pour découvrir comment utiliser la Chaîne Rouge.
+Consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a> pour découvrir comment utiliser la Chaîne Rouge.</strong></a>.
 </p>
 {% endhint %}
 
