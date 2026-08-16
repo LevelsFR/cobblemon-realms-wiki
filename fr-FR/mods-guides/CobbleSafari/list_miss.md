@@ -168,19 +168,23 @@ Pour faire vos preuves, vous devrez **rassembler un bloc de chacune des 10 Pierr
 
 ## ❓ Inconnu
 
-**Caché jusqu'à votre première entrée dans le Monde Distorsion**, après avoir obtenu l'avancement **C’est l’Upside Down ?**.
+**Caché jusqu'à votre première entrée dans le Monde Distorsion**, après avoir obtenu l'avancement ***C’est l’Upside Down ?*** !
 
 Une seule conversation vous attend, provenant d'un mystérieux interlocuteur qui refuse de révéler son identité... et qui n'apprécie visiblement pas que vous vous soyez retrouvé dans le Monde Distorsion.
 
 | Jour | Type d'objectif | Condition | Récompense |
 | --- | --- | --- | --- |
-| 1 | Avancement | **Ombre estompée** - vaincre le boss à la fin du Monde Distorsion | - |
+| 1 | Avancement | **Ombre estompée** - vaincre le boss à la fin du Monde Distorsion | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png" title="Fragment de la Chaîne Rouge" width="32"></a> |
 
 ### 🔗 Mission d'Inconnu
 
 La récompense contient **exactement huit fragments**, soit le nombre nécessaire pour fabriquer une **Chaîne Rouge**.
 
-> Consultez la page [Monde Distorsion](distortion_world.md) pour découvrir quoi faire avec la Chaîne Rouge.
+{% hint style="info" %}
+<p align="center">
+Consultez la page <a href="distortion_world.md"><strong>Monde Distorsion</strong></a> pour découvrir comment utiliser la Chaîne Rouge.
+</p>
+{% endhint %}
 
 ***
 
