@@ -66,7 +66,7 @@ Les Holo-Skins de couleur sont sélectionnés parmi les <strong>20 recolorations
 {% endhint %}
 
 <p align="center">
-Retrouvez l'ensemble des skins disponibles sur la <a href="holo_skin.md"><strong>Liste des Holo-Skins du Motismart</strong></a>.
+Retrouvez l'ensemble des skins disponibles sur la <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Liste des Holo-Skins du Motismart</strong></a>.
 </p>
 
 ***
