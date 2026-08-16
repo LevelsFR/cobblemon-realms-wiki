@@ -114,3 +114,11 @@ Le système de Boss fonctionne grâce à des **datapacks**, ce qui permet aux pr
 {% hint style="info" %}
 <p align="center">Pour plus d'informations sur la création de Boss personnalisés, consultez la page <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-csboss"><strong>Datapack : CSBoss</strong></a>.</p>
 {% endhint %}
+
+*** 
+
+{% hint style="success" %}
+## Nous contacter
+
+<p align="center">Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.</p>
+{% endhint %}
