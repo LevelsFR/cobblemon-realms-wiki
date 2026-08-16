@@ -73,11 +73,9 @@ Certains Boss peuvent déclencher **deux attaques simultanément**, mais jamais 
 
 ## 🔄 Phases
 
-Vaincre un Boss n'est pas toujours synonyme de fin du combat. Certains Boss peuvent entrer dans une **nouvelle phase** lorsque leur première barre de PV atteint zéro. Une nouvelle version du Boss apparaît alors avec une nouvelle barre de PV et peut utiliser un ensemble d'attaques différent, souvent plus difficile à esquiver.
+Atteindre zéro PV ne signifie pas nécessairement que le combat est terminé. Certains Boss peuvent enchaîner plusieurs **phases successives** : lorsque leur première barre de PV est épuisée, une nouvelle version du Boss apparaît avec une nouvelle barre et peut utiliser un ensemble d'attaques différent, souvent plus difficile à esquiver.
 
-Certains Boss peuvent également attribuer une **récompense à chaque phase**, tandis que d'autres ne distribuent leur butin qu'une fois l'intégralité du combat terminée.
-
-Enfin, certains combats peuvent être **infinis** et enchaîner plusieurs phases successives, avec une récompense attribuée après chaque phase vaincue.
+Les récompenses dépendent du Boss affronté : certains accordent un **butin à chaque phase**, tandis que d'autres ne distribuent leur récompense qu'une fois le combat entièrement terminé. Certains affrontements peuvent même être **sans fin**, enchaînant les phases les unes après les autres et accordant une récompense à chaque victoire.
 
 ***
 
@@ -85,7 +83,7 @@ Enfin, certains combats peuvent être **infinis** et enchaîner plusieurs phases
 
 Le combat est considéré comme perdu lorsque **tous les participants sont morts ou ont quitté la partie**. Le Boss disparaît alors, l'arène est réinitialisée et **aucune récompense n'est distribuée**.
 
-La mort d'un joueur ne met cependant pas immédiatement fin au combat. Tant qu'au moins un participant est encore en vie, le combat continue et le Boss peut toujours être vaincu.
+La mort d'un joueur ne met cependant pas fin au combat pour les autres : tant qu'**au moins un participant reste en vie**, la barre de PV continue de diminuer et le Boss peut toujours être vaincu.
 
 ***
 
