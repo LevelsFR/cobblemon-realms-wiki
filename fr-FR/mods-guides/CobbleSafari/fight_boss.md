@@ -99,19 +99,7 @@ Certaines restrictions s'appliquent pendant un Combat de Boss :
 
 ## 📍 Où trouver les Boss ?
 
-Dans la version vanilla de **CobbleSafari**, un seul Combat de Boss est actuellement disponible : **l'Ombre de Giratina**, située sur l'autel de l'arène du Monde Distorsion.
-
-{% hint style="info" %}
-<p align="center">Pour découvrir le fonctionnement de cette arène et du combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.</p>
-{% endhint %}
-
-D'autres combats sont prévus, notamment un **donjon entièrement construit autour d'une succession de combats de Boss**.
-
-Le système de Boss fonctionne grâce à des **datapacks**, ce qui permet aux propriétaires de serveurs et aux créateurs de modpacks de concevoir leurs propres Boss et leurs propres arènes.
-
-{% hint style="info" %}
-<p align="center">Pour plus d'informations sur la création de Boss personnalisés, consultez la page <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-csboss"><strong>Datapack : CSBoss</strong></a>.</p>
-{% endhint %}
+Dans la version vanilla de **CobbleSafari**, un seul Combat de Boss est actuellement disponible : **l'Ombre de Giratina**, qui vous attend sur l'autel situé au cœur de l'arène du Monde Distorsion. Pour découvrir cette arène et tout savoir sur le combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
 
 *** 
 
