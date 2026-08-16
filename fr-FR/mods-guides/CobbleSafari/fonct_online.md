@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes peuvent être utilisées même en jouant seul. La GTS permet notamment d'échanger avec des PNJ grâce aux offres personnelles, l'Échange Miracle vous permet de renouveler votre équipe avec des Pokémon aléatoires et la Salle Union vous offre un espace sécurisé disposant d'un PC et d'une machine de soin.
+Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes peuvent être utilisées même en jouant seul. Le GTS permet notamment d'échanger avec des PNJ grâce aux offres personnelles, l'Échange Miracle vous permet de renouveler votre équipe avec des Pokémon aléatoires et la Salle Union vous offre un espace sécurisé disposant d'un PC et d'une machine de soin.
 </p>
 {% endhint %}
 
@@ -53,14 +53,14 @@ Les offres expirent par défaut après **7 jours**. Lorsqu'une offre arrive à e
 
 ### ⭐ Offres uniques et personnelles
 
-Toutes les offres disponibles sur la GTS ne proviennent pas nécessairement des joueurs.
+Toutes les offres disponibles sur le GTS ne proviennent pas nécessairement des joueurs.
 
 - **Offres uniques** - offres proposées par un PNJ et visibles par tous les joueurs du serveur. Elles proposent généralement des Pokémon rares ou associés à des dresseurs célèbres.
 - **Offres personnelles** - offres visibles uniquement par un joueur précis. Elles **n'expirent jamais** et sont généralement obtenues en récompense de mission.
 
 {% hint style="success" %}
 <p align="center">
-C'est notamment grâce aux <strong>offres personnelles</strong> que la GTS reste particulièrement intéressante lorsque vous jouez seul. Lorsqu'une mission indique qu'un contact « souhaite faire un échange avec vous », il s'agit généralement d'une offre personnelle.
+C'est notamment grâce aux <strong>offres personnelles</strong> que le GTS reste particulièrement intéressante lorsque vous jouez seul. Lorsqu'une mission indique qu'un contact « souhaite faire un échange avec vous », il s'agit généralement d'une offre personnelle.
 </p>
 {% endhint %}
 
