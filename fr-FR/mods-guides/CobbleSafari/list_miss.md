@@ -8,14 +8,29 @@
 
 L'application **Messagerie** de votre [Motismart](motismart.md) constitue un véritable **système de missions**. Vos contacts vous envoient des messages, vous confient des tâches et vous récompensent une fois celles-ci accomplies. Certaines missions vous permettront également de découvrir et d'apprendre à utiliser les différentes fonctionnalités ajoutées par **CobbleSafari**.
 
+***
+
 ## ⚙️ Fonctionnement des missions
 
-- Chaque contact possède une **conversation** composée de plusieurs missions. Chaque tâche est accompagnée d'un texte d'ambiance et vous rapporte une récompense une fois terminée. Dans la plupart des cas, la mission suivante apparaît peu après.
+### 💬 Des conversations évolutives
 
-- Les missions peuvent prendre **trois formes** : **accomplir un avancement**, **augmenter une statistique** d'une certaine valeur ou **rassembler des objets** et les remettre au contact.
+Chaque contact possède une **conversation** composée de plusieurs missions. Chaque tâche est accompagnée d'un texte d'ambiance et vous rapporte une récompense une fois terminée. Dans la plupart des cas, la mission suivante apparaît peu après.
 
-- La **barre de progression** située sous chaque mission se met à jour en temps réel. Une fois celle-ci remplie, cliquez dessus pour récupérer votre récompense !
-- Certaines conversations, ainsi que certaines missions individuelles, restent **cachées jusqu'à ce que vous remplissiez un prérequis**, généralement un avancement prouvant que vous avez déjà découvert la fonctionnalité concernée.
+### 🎯 Trois types de missions
+
+Les missions peuvent prendre **trois formes** :
+
+- 🏆 **Avancement** — accomplissez un avancement précis.
+- 📊 **Statistique** — augmentez une statistique d'une certaine valeur.
+- 📦 **Objets** — rassemblez les objets demandés et remettez-les au contact.
+
+### 📈 Suivez votre progression
+
+La **barre de progression** située sous chaque mission se met à jour en temps réel. Une fois celle-ci remplie, cliquez dessus pour **récupérer votre récompense** !
+
+### 🔒 Des missions à débloquer
+
+Certaines conversations, ainsi que certaines missions individuelles, restent **cachées jusqu'à ce que vous remplissiez un prérequis**, généralement un avancement prouvant que vous avez déjà découvert la fonctionnalité concernée.
 
 ***
 
@@ -87,7 +102,7 @@ Par la suite, les objectifs et les récompenses sont tirés aléatoirement.
 ### 🎯 Objectifs possibles
 
 | Objectif | Quantité |
-| --- | ---: |
+| --- | :---: |
 | Capturer des Pokémon dans la Dimension Safari | 8 |
 | Utiliser des appâts dans la Dimension Safari | 16 |
 | Utiliser des Balles Boue dans la Dimension Safari | 16 |
@@ -96,7 +111,7 @@ Par la suite, les objectifs et les récompenses sont tirés aléatoirement.
 ### 🎁 Récompenses possibles
 
 | Récompense | Détails |
-| --- | --- |
+| --- | :---: |
 | Offre d'échange GTS personnelle | Provenant de l'un de ses amis dresseurs |
 | Tickets | 2 à 4 tickets |
 | Holo-Skin | Un skin aléatoire que vous ne possédez pas encore |
