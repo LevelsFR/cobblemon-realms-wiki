@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs && node scripts/postbuild.mjs",
+    "build": "node scripts/build.mjs && node scripts/postbuild.mjs && node scripts/finalize-display.mjs",
     "deploy": "wrangler deploy",
     "preview": "npm run build && wrangler dev",
     "check:cloudflare": "npm run build && wrangler deploy --dry-run --outdir .wrangler-dry-run"
