@@ -65,12 +65,13 @@ function transformArticleImages(html) {
   });
 }
 
-function compactFrenchNavigation(html, relativePath) {
-  if (!(relativePath === 'fr-FR/index.html' || relativePath.startsWith('fr-FR/'))) return html;
-
+function compactNavigation(html) {
   return html.replace(/<details class="nav-group"(?:\s+open)?>([\s\S]*?)<\/details>/gi, (full, inner) => {
     const title = stripTags(inner.match(/<summary[^>]*>\s*<span>([\s\S]*?)<\/span>/i)?.[1] || '');
-    const defaultOpen = title === 'Présentation' || title === 'Informations';
+    const defaultOpen = title === 'Présentation'
+      || title === 'Informations'
+      || title === 'Presentation'
+      || title === 'Information';
     return `<details class="nav-group"${defaultOpen ? ' open' : ''}>${inner}</details>`;
   });
 }
@@ -91,7 +92,7 @@ for (const file of walk(out).filter((entry) => entry.endsWith('.html'))) {
   let html = fs.readFileSync(file, 'utf8');
   const before = html;
   html = transformArticleImages(html);
-  html = compactFrenchNavigation(html, relative);
+  html = compactNavigation(html);
   html = injectDisplayAssets(html);
   if (html !== before) {
     fs.writeFileSync(file, html);
