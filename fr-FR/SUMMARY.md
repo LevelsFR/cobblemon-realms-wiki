@@ -122,7 +122,7 @@
 
 * [🦁 CobbleSafari](mods-guides/CobbleSafari/cobblesafari.md)
   * [🎡 Dimension Safari](mods-guides/CobbleSafari/safari_dimension.md)
-  * [🐾 Pokémon du Safari](mods-guides/CobbleSafari/wild_pokemon_safari.md)
+    * [🐾 Pokémon du Safari](mods-guides/CobbleSafari/wild_pokemon_safari.md)
   * [🌀 Portail d'Hoopa](mods-guides/CobbleSafari/hoopa_portals.md)
   * [📱 Motismart](mods-guides/CobbleSafari/motismart.md)
     * [👔 Holo-Skins du Motismart](mods-guides/CobbleSafari/holo_skin.md)
