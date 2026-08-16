@@ -133,7 +133,7 @@ Si une récompense ne peut pas être attribuée *par exemple parce que vous poss
 
 ### 🥚 L'œuf de Phione
 
-Une fois l'avancement **Attrapeur Safari légendaire** obtenu — qui vous demande de capturer **250 Pokémon sauvages dans la Dimension Safari** — Hayley vient vous voir avec une mission pour le moins particulière.
+Une fois l'avancement **Attrapeur Safari légendaire** obtenu - qui vous demande de capturer **250 Pokémon sauvages dans la Dimension Safari** - Hayley vient vous voir avec une mission pour le moins particulière.
 
 Le Safari a fait éclore un **Phione** et cherche désormais quelqu'un capable d'en prendre soin. Mais avant de vous le confier, Hayley veut s'assurer que vous êtes un dresseur digne de confiance.
 
