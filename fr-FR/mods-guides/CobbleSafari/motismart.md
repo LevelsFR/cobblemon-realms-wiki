@@ -103,13 +103,13 @@ Trois types de missions peuvent vous être proposés :
 
 Certaines missions nécessitent d'avoir accompli des prérequis, tandis que d'autres vous demanderont d'attendre le lendemain, c'est-à-dire le jour réel suivant, avant de pouvoir poursuivre.
 
-Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions].
+Si vous jouez à la version vanilla de CobbleSafari, vous pouvez retrouver la liste des contacts et de leurs missions sur la page [Liste des missions](list_miss.md).
 
 ***
 
 ### 🌐 Applications GTS, Échange Miracle et Salle Union
 
-Ces trois applications constituent les **fonctionnalités en ligne** du Motismart. Malgré leur appellation « en ligne », vous pouvez parfaitement les utiliser seul tout au long de votre aventure !
+Ces trois applications constituent les **Fonctionnalités en Ligne** du Motismart. Malgré leur appellation « en ligne », vous pouvez parfaitement les utiliser seul tout au long de votre aventure !
 
 En résumé :
 
@@ -117,7 +117,7 @@ En résumé :
 - 🎁 **L'Échange Miracle** vous permet d'échanger votre Pokémon contre un Pokémon aléatoire.
 - 👥 **La Salle Union** crée une dimension privée dans laquelle vous et vos amis pouvez vous retrouver, combattre et échanger. Même seul, elle peut être utile pour faire une pause pendant votre exploration ou soigner vos Pokémon à tout moment.
 
-Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page [Fonctionnalités en ligne] !
+Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page [Fonctionnalités en ligne](fonct_online.md) !
 
 ***
 
