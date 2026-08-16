@@ -8,11 +8,11 @@ Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes p
 
 ***
 
-# 🔄 Global Trade Station
+## 🔄 Global Trade Station
 
 Le **GTS** fonctionne comme une véritable plateforme d'échange de Pokémon. Déposez un Pokémon accompagné de vos critères de recherche, puis laissez les autres joueurs ou PNJ consulter votre offre et effectuer l'échange lorsqu'ils disposent d'un Pokémon correspondant.
 
-## 📥 Déposer une offre
+### 📥 Déposer une offre
 
 Sélectionnez un Pokémon de votre équipe, puis définissez les critères du Pokémon que vous souhaitez recevoir en échange.
 
@@ -25,7 +25,7 @@ Sélectionnez un Pokémon de votre équipe, puis définissez les critères du Po
 
 Une fois l'offre publiée, votre Pokémon quitte votre équipe et est conservé dans la base de données jusqu'à ce que quelqu'un effectue l'échange, que vous récupériez votre offre ou que celle-ci expire après plusieurs jours.
 
-## 🔎 Trouver une offre
+### 🔎 Trouver une offre
 
 L'écran **Voir les offres** permet de consulter les offres actuellement disponibles et de les filtrer par espèce afin de trouver plus facilement le Pokémon recherché.
 
@@ -37,7 +37,7 @@ Les échanges utilisent un système de <strong>réservation en deux étapes</str
 </p>
 {% endhint %}
 
-## 📦 Mes offres
+### 📦 Mes offres
 
 L'écran **Mes offres** regroupe toutes vos offres actuellement actives et vous permet d'effectuer trois actions :
 
@@ -49,7 +49,7 @@ Lorsqu'un échange est effectué, qu'une offre expire ou qu'elle est retirée pa
 
 **Votre Pokémon n'est jamais supprimé** : il reste dans votre boîte de réception jusqu'à sa récupération.
 
-## 🎟️ Emplacements et Tickets GTS
+### 🎟️ Emplacements et Tickets GTS
 
 Par défaut, vous pouvez avoir **une seule offre active à la fois**.
 
@@ -57,7 +57,7 @@ L'utilisation d'un **Ticket GTS** augmente votre nombre maximal d'offres simulta
 
 Les offres expirent par défaut après **7 jours**. Lorsqu'une offre arrive à expiration, le Pokémon que vous aviez déposé vous est automatiquement restitué via la boîte de réception.
 
-## ⭐ Offres uniques et personnelles
+### ⭐ Offres uniques et personnelles
 
 Toutes les offres disponibles sur la GTS ne proviennent pas nécessairement des joueurs.
 
@@ -72,11 +72,11 @@ C'est notamment grâce aux <strong>offres personnelles</strong> que la GTS reste
 
 ***
 
-# 🎁 Échange Miracle
+## 🎁 Échange Miracle
 
 L'**Échange Miracle** vous permet d'échanger un Pokémon contre un autre Pokémon choisi aléatoirement. Vous ne savez donc jamais ce que vous allez recevoir en retour !
 
-## 🔄 Fonctionnement
+### 🔄 Fonctionnement
 
 Vous disposez par défaut de **3 échanges par jour**, renouvelés lors de la réinitialisation quotidienne.
 
@@ -99,7 +99,7 @@ Une fois votre Pokémon envoyé, vous ne pourrez pas choisir le Pokémon reçu e
 </p>
 {% endhint %}
 
-## 🎟️ Tickets
+### 🎟️ Tickets
 
 L'application affiche deux compteurs distincts :
 
@@ -108,7 +108,7 @@ L'application affiche deux compteurs distincts :
 
 Les échanges utilisent toujours les échanges quotidiens en priorité. Les tickets bonus ne sont consommés qu'une fois votre quota quotidien épuisé.
 
-## 🎉 Événements
+### 🎉 Événements
 
 Des **événements d'Échange Miracle à durée limitée** peuvent modifier temporairement le contenu du pool afin de favoriser certains thèmes.
 
@@ -128,11 +128,11 @@ Les événements nécessitent actuellement des <strong>privilèges administrateu
 
 ***
 
-# 👥 Salle Union
+## 👥 Salle Union
 
 Inspirée des **Salles Union** des générations 3, 4 et 5, la Salle Union est une dimension privée dans laquelle vous pouvez retrouver vos amis pour combattre, échanger et passer du temps ensemble, sans être dérangé par les autres joueurs.
 
-## 🚪 Rejoindre une Salle Union
+### 🚪 Rejoindre une Salle Union
 
 Depuis l'application, vous pouvez soit **créer une salle**, soit **rejoindre une salle existante** à l'aide d'un **code composé de 4 symboles**.
 
@@ -146,7 +146,7 @@ Lorsque vous quittez une Salle Union, vous êtes automatiquement renvoyé <stron
 </p>
 {% endhint %}
 
-## 🏠 Salle Union ou Plaza Union ?
+### 🏠 Salle Union ou Plaza Union ?
 
 Lors de la création d'une instance, vous pouvez choisir entre deux formats :
 
@@ -160,14 +160,14 @@ La **Salle Union** convient particulièrement aux petits groupes souhaitant simp
 
 La **Plaza Union** est davantage adaptée aux événements réunissant un grand nombre de joueurs et permettant plusieurs combats simultanément.
 
-## ⏱️ Règles et durée des sessions
+### ⏱️ Règles et durée des sessions
 
 - Une session dure **60 minutes**. Lorsque le temps est écoulé, tous les joueurs sont automatiquement renvoyés dans le monde de départ.
 - La session prend également fin lorsque **l'hôte quitte la salle ou se déconnecte**. Tous les invités sont alors renvoyés à leur position d'origine.
 - Les joueurs peuvent quitter la salle à tout moment grâce au **téléporteur de sortie**, via leur **Motismart**, ou simplement attendre la fin du compte à rebours.
 - Certaines dimensions sont **bloquées comme points d'entrée**. Il est notamment impossible d'entrer dans une Salle Union depuis la Dimension Safari afin de contourner sa limite de temps.
 
-## 🛠️ Instances et personnalisation
+### 🛠️ Instances et personnalisation
 
 Les instances de Salle Union sont **réutilisées plutôt que supprimées** après chaque session.
 
