@@ -1,4 +1,4 @@
-# Liste des Holo-Skins du Motismart
+# 📋 Liste des Holo-Skins du Motismart
 
 {% hint style="info" %}
 <p align="center">Cette page répertorie les différents <strong>Holo-Skins</strong> disponibles dans <strong>CobbleSafari</strong>, ainsi que leurs apparences et les différentes méthodes permettant de les débloquer.</p>
