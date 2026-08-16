@@ -20,9 +20,9 @@ Chaque contact possède une **conversation** composée de plusieurs missions. Ch
 
 Les missions peuvent prendre **trois formes** :
 
-- 🏆 **Avancement** — accomplissez un avancement précis.
-- 📊 **Statistique** — augmentez une statistique d'une certaine valeur.
-- 📦 **Objets** — rassemblez les objets demandés et remettez-les au contact.
+- 🏆 **Avancement** - accomplissez un avancement précis.
+- 📊 **Statistique** - augmentez une statistique d'une certaine valeur.
+- 📦 **Objets** - rassemblez les objets demandés et remettez-les au contact.
 
 ### 📈 Suivez votre progression
 
