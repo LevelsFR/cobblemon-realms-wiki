@@ -62,7 +62,7 @@ Les Pacifisphères sont retirés de votre inventaire lorsque le combat se termin
 Le catalogue d'attaques varie selon les Boss. Elles peuvent cependant être regroupées en **trois grandes catégories** :
 
 | Catégorie | Apparence | Comment réagir |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | **🎯 Ciblées** | Ombres, orbes ou autres attaques qui vous poursuivent directement. | Restez en mouvement. Les attaques accélèrent lorsqu'elles sont éloignées de vous : évitez donc de simplement courir en ligne droite. |
 | **🟨 Zone** | Une partie du sol s'illumine ou affiche un motif avant qu'une attaque ne se déclenche. | Observez le sol et quittez rapidement les zones indiquées. |
 | **💫 Diffusion** | Plusieurs projectiles sont lancés simultanément dans différentes directions. | Observez les trajectoires et esquivez les projectiles en vous déplaçant entre eux. |
