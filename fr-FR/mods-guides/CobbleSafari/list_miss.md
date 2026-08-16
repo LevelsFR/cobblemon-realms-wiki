@@ -69,11 +69,11 @@ Les Holo-Skins de couleur sont sélectionnés parmi les <strong>20 recolorations
 
 | Jour | Type d'objectif | Condition | Récompense | Attend le lendemain |
 | --- | --- | --- | --- | :-: |
-| 1 | Avancement | **Bienvenue au safari** - entrer dans la Dimension Safari pour la première fois | | Non |
-| 2 | Avancement | **Attrapeur Safari débutant** - capturer 10 Pokémon sauvages dans la Dimension Safari | | Non |
-| 3 | Avancement | **Fan de boue certifié** - lancer une Balle Boue pour la première fois | | Non |
-| 4 | Avancement | **Des snacks gratuits, pas de questions** - lancer un appât sur un Pokémon sauvage | | Oui |
-| 5 | Avancement | **Géographe du Safari** - visiter tous les biomes de la Dimension Safari | | Oui |
+| 1 | Avancement | **Bienvenue au safari** - entrer dans la Dimension Safari pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ | Non |
+| 2 | Avancement | **Attrapeur Safari débutant** - capturer 10 Pokémon sauvages dans la Dimension Safari | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Boue-Boule" width="32"></a>⁸ | Non |
+| 3 | Avancement | **Fan de boue certifié** - lancer une Balle Boue pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Appât" width="32"></a>⁸ | Non |
+| 4 | Avancement | **Des snacks gratuits, pas de questions** - lancer un appât sur un Pokémon sauvage | Kit Safari : <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Boue-Boule" width="32"></a>⁸ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Appât" width="32"></a>⁸ | Oui |
+| 5 | Avancement | **Géographe du Safari** - visiter tous les biomes de la Dimension Safari | Kit Safari (comme indiqué ci-dessus) | Oui |
 
 ### 📅 Progression de Hayley
 
@@ -113,7 +113,7 @@ Par la suite, les objectifs et les récompenses sont tirés aléatoirement.
 | Récompense | Détails |
 | --- | :---: |
 | Offre d'échange GTS personnelle | Provenant de l'un de ses amis dresseurs |
-| Tickets | 2 à 4 tickets |
+| Tickets | 2 à 4 tickets - <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Ticket Échange Miracle" width="32"></a> ou <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png" title="Ticket GTS" width="32"></a> |
 | Holo-Skin | Un skin aléatoire que vous ne possédez pas encore |
 | Safari Balls | 16 à 32 |
 
@@ -123,26 +123,38 @@ Si une récompense ne peut pas être attribuée *par exemple parce que vous poss
 
 ***
 
-### 🥚 L'œuf de Manaphy
+### 🥚 L'œuf de Phione
 
-Une fois l'avancement **Attrapeur Safari légendaire** obtenu, qui vous demande de capturer **250 Pokémon sauvages dans la Dimension Safari**, Hayley vient vous voir avec une mission bien particulière. Le Safari a fait éclore un **Phione** et cherche quelqu'un capable de s'en occuper.
+Une fois l'avancement **Attrapeur Safari légendaire** obtenu — qui vous demande de capturer **250 Pokémon sauvages dans la Dimension Safari** — Hayley vient vous voir avec une mission pour le moins particulière.
 
-Elle ne le confiera cependant qu'à un dresseur ayant fait ses preuves. Vous devrez **rassembler un bloc de chacune des 10 Pierres d'Évolution** :
+Le Safari a fait éclore un **Phione** et cherche désormais quelqu'un capable d'en prendre soin. Mais avant de vous le confier, Hayley veut s'assurer que vous êtes un dresseur digne de confiance.
 
-- Pierre Aube
-- Pierre Nuit
-- Pierre Feu
-- Pierre Glace
-- Pierre Plante
-- Pierre Lune
-- Pierre Brillante
-- Pierre Soleil
-- Pierre Foudre
-- Pierre Eau
+### 💎 Les Pierres d'Évolution
 
-Ces pierres ne peuvent pas être trouvées dans la Dimension Safari. Cette mission permet donc de vérifier que vous maîtrisez non seulement la Safari, mais également le monde extérieur !
+Pour faire vos preuves, vous devrez **rassembler un bloc de chacune des 10 Pierres d'Évolution** :
 
-🎁 **Récompense :** une offre d'échange GTS personnelle permettant d'obtenir le Phione.
+- 🌅 **Pierre Aube**
+- 🌑 **Pierre Nuit**
+- 🔥 **Pierre Feu**
+- 🧊 **Pierre Glace**
+- 🍃 **Pierre Plante**
+- 🌙 **Pierre Lune**
+- ✨ **Pierre Brillante**
+- ☀️ **Pierre Soleil**
+- ⚡ **Pierre Foudre**
+- 💧 **Pierre Eau**
+
+{% hint style="warning" %}
+<p align="center">
+⚠️ Ces pierres <strong>ne peuvent pas être trouvées dans la Dimension Safari</strong>. Cette mission vous demandera donc de prouver que vous maîtrisez aussi bien la Safari que le monde extérieur.
+</p>
+{% endhint %}
+
+{% hint style="success" %}
+<p align="center">
+🎁 <strong>Récompense :</strong> une offre d'échange GTS personnelle permettant d'obtenir le <strong>Phione</strong>.
+</p>
+{% endhint %}
 
 ***
 
