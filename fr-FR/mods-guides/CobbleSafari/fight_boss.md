@@ -39,21 +39,21 @@ En théorie, un seul joueur disposant de six Pokémon de niveau 100 peut donc va
 
 ***
 
-## 🧴 Baume
+## 🧴 Pacifisphère
 
-Certains Boss disposent d'une quantité de PV telle que le combat pourrait durer extrêmement longtemps, même avec une équipe très puissante. C'est dans ce cas que le **Baume** entre en jeu.
+Certains Boss disposent d'une quantité de PV telle que le combat pourrait durer extrêmement longtemps, même avec une équipe très puissante. C'est dans ce cas que le **Pacifisphère** entre en jeu.
 
-Le Baume est un objet que vous pouvez **lancer sur le Boss**. Chaque Baume qui atteint sa cible retire une partie de ses PV, généralement **environ 5 % de ses PV totaux** par défaut.
+Le Pacifisphère est un objet que vous pouvez **lancer sur le Boss**. Chaque Pacifisphère qui atteint sa cible retire une partie de ses PV, généralement **environ 5 % de ses PV totaux** par défaut.
 
-### 🧴 Obtenir des Baumes
+### 🧴 Obtenir des Pacifisphères
 
-Les Baumes peuvent être récupérés auprès de **Distributeurs de Baumes**, généralement placés autour de l'arène. Un distributeur nécessite un certain temps pour se recharger. Lorsqu'un Baume est disponible, celui-ci apparaît au-dessus du distributeur : il vous suffit alors de **faire un clic droit dessus** pour le récupérer.
+Les Pacifisphères peuvent être récupérés auprès de **Distributeurs de Pacifisphères**, généralement placés autour de l'arène. Un distributeur nécessite un certain temps pour se recharger. Lorsqu'un Pacifisphère est disponible, celui-ci apparaît au-dessus du distributeur : il vous suffit alors de **faire un clic droit dessus** pour le récupérer.
 
 {% hint style="info" %}
-<p align="center">Dans certains combats, les Baumes sont indispensables pour vaincre le Boss dans le temps imparti. Pensez à repérer les distributeurs <strong>avant même de commencer le combat</strong> !</p>
+<p align="center">Dans certains combats, les Pacifisphères sont indispensables pour vaincre le Boss dans le temps imparti. Pensez à repérer les distributeurs <strong>avant même de commencer le combat</strong> !</p>
 {% endhint %}
 
-Les Baumes sont retirés de votre inventaire lorsque le combat se termine. Les Baumes présents au sol sont également supprimés, ce qui empêche de les conserver pour un prochain combat.
+Les Pacifisphères sont retirés de votre inventaire lorsque le combat se termine. Les Pacifisphères présents au sol sont également supprimés, ce qui empêche de les conserver pour un prochain combat.
 
 ***
 
