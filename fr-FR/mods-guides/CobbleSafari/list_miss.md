@@ -38,11 +38,17 @@ Certaines conversations, ainsi que certaines missions individuelles, restent **c
 
 ## 👻 Motisma
 
-**Disponible dès le départ**, Motisma est... eh bien, votre Motisma. Celui que vous avez placé dans votre téléphone.
+{% hint style="info" %}
+<p align="center">
+<strong>Disponible dès le départ</strong>, Motisma est votre compagnon attitré et celui qui donne vie à votre Motismart.
+</p>
+{% endhint %}
 
-Discuter régulièrement avec lui est particulièrement important : **chaque jour, il débloque une nouvelle application** et vous demande ensuite de l'utiliser afin de vous familiariser avec son fonctionnement. Suivez sa progression jusqu'au bout et vous aurez accès à l'ensemble des applications du Motismart !
+Discuter régulièrement avec lui est essentiel : **chaque jour, Motisma débloque une nouvelle application** et vous propose une mission vous permettant d'en découvrir progressivement le fonctionnement. Sa progression s'étend sur plusieurs jours, avec **une seule mission par jour**. Chaque étape fait ainsi office de tutoriel et vous guide à travers les différentes fonctionnalités du Motismart.
 
-Les missions de Motisma sont réparties sur plusieurs jours. Chaque jour, il vous propose **une seule mission**, faisant office de tutoriel pour l'application qu'il vient de vous confier.
+<p align="center">
+<strong>Suivez sa quête jusqu'au bout pour débloquer l'ensemble des applications du Motismart.</strong>
+</p>
 
 | Jour | Déblocage | Type d'objectif | Condition | Récompense |
 | --- | --- | --- | --- | --- |
@@ -53,15 +59,15 @@ Les missions de Motisma sont réparties sur plusieurs jours. Chaque jour, il vou
 | 5 | **Application Paramètres** | Avancement | **Des hauts et des bas** - utiliser Roto-Glisse pour la première fois | Un Holo-Skin de couleur aléatoire |
 | 6 | **Application Salle Union** | Avancement | **Sociable** - ouvrir un salon de la Salle Union | Un Holo-Skin de couleur aléatoire |
 
-Les Holo-Skins de couleur sont sélectionnés parmi les **20 recolorations classiques**. Le jeu ne vous attribuera jamais un skin que vous possédez déjà.
-
 {% hint style="info" %}
 <p align="center">
 Les Holo-Skins de couleur sont sélectionnés parmi les <strong>20 recolorations classiques</strong>. Le jeu ne vous attribuera jamais un skin que vous possédez déjà.
 </p>
 {% endhint %}
 
-> Consultez la [Liste des Holo-Skins du Motismart](holo_skin.md) pour découvrir l'ensemble des skins disponibles.
+<p align="center">
+Retrouvez l'ensemble des skins disponibles sur la <a href="holo_skin.md"><strong>Liste des Holo-Skins du Motismart</strong></a>.
+</p>
 
 ***
 
