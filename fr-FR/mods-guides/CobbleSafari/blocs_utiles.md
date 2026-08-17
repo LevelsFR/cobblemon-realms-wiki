@@ -18,7 +18,7 @@ Le **Pad de Téléportation** permet de relier deux plateformes entre elles afin
 
 La version disponible en mode Survie peut être fabriquée puis configurée à l'aide d'un **Forgelimarteau**.
 
-![Recette de fabrication du Pad de Téléportation]()
+![Recette de fabrication du Pad de Téléportation](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/pad_teleport.png)
 
 ### 🔗 Association des pads
 
