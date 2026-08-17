@@ -22,25 +22,34 @@ La version disponible en mode Survie peut être fabriquée puis configurée à l
 
 ### 🔗 Association des pads
 
-Les Pads de Téléportation fonctionnent **par paires** et tentent automatiquement de trouver leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
+Les Pads de Téléportation fonctionnent **par paires** et recherchent automatiquement leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
 
-Chaque pad dispose de **trois modes**, qui déterminent la position recherchée pour son partenaire :
-
-| Mode | Position du partenaire |
+| 🧭 Mode | 📍 Position recherchée |
 | --- | --- |
 | **Haut** | Au-dessus du pad, formant un L avec celui-ci. |
 | **Bas** | En dessous du pad, en miroir du mode Haut. |
 | **Avant** | Directement devant le pad, avec une légère tolérance latérale. |
 
-Pour être associés, les deux pads doivent utiliser des **modes compatibles** : **Haut avec Bas**, **Bas avec Haut** et **Avant avec Avant**. Aucun bloc ne doit obstruer le chemin entre eux, car la liaison nécessite une ligne dégagée. La recherche s'arrête également au **premier pad rencontré** : si celui-ci est déjà associé à un autre pad, aucun partenaire situé au-delà ne sera recherché. Les liaisons sont enregistrées **relativement à l'orientation des pads**, ce qui permet à une structure contenant des pads associés de conserver correctement ses connexions lorsqu'elle est déplacée ou tournée.
+Pour qu'une association soit possible, les deux pads doivent utiliser des **modes compatibles** : **Haut ↔ Bas** et **Avant ↔ Avant**. Le chemin entre les deux pads doit également être entièrement dégagé. La recherche s'arrête au **premier pad rencontré** : si celui-ci est déjà associé à un autre pad, aucun autre partenaire ne sera recherché au-delà.
 
-Une fois les deux pads associés, leur **animation d'activation** devient visible.
+Les liaisons sont enregistrées **relativement à l'orientation des pads**, ce qui permet à une structure contenant une paire associée de conserver correctement sa connexion lorsqu'elle est déplacée ou tournée. Une fois l'association établie, les deux pads affichent leur **animation d'activation**.
 
 ### ⚙️ Utilisation et configuration
 
-Tenez-vous sur un pad associé et **appuyez sur la touche de saut ou d'accroupissement** pour vous téléporter vers son partenaire. Un son de portail confirme que la téléportation a réussi. Si celle-ci échoue, un son similaire à celui de la lave entrant en contact avec de l'eau est joué, généralement parce que le pad n'est pas associé ou que le chemin entre les deux pads est obstrué.
+Pour vous téléporter, tenez-vous sur un pad associé puis **appuyez sur la touche de saut ou d'accroupissement**. Un son de portail indique que la téléportation a réussi. En cas d'échec, un son similaire à celui de la lave entrant en contact avec de l'eau est joué.
 
-Pour modifier le mode d'un pad, **faites un clic droit avec un Forgelimarteau**. Le pad recherchera automatiquement un nouveau partenaire après chaque modification. Pour accéder à sa configuration avancée, **faites un clic droit en vous accroupissant avec le Forgelimarteau**. L'interface permet alors de sélectionner le mode du pad, de définir manuellement les coordonnées **X / Y / Z**, de vérifier une destination, de lancer une détection automatique et de modifier la **couleur du pad** à l'aide d'une valeur hexadécimale.
+| 🛠️ Action | 📖 Fonction |
+| --- | --- |
+| **Clic droit + Forgelimarteau** | Change le mode du pad et relance automatiquement la recherche d'un partenaire. |
+| **Accroupi + clic droit + Forgelimarteau** | Ouvre l'interface de configuration avancée. |
+
+L'interface permet de sélectionner le **mode du pad**, de définir manuellement les coordonnées **X / Y / Z**, de vérifier une destination, de lancer une détection automatique et de modifier la **couleur du pad** à l'aide d'une valeur hexadécimale.
+
+{% hint style="info" %}
+<p align="center">
+💡 <strong>Astuce :</strong> utilisez la configuration manuelle si vous souhaitez relier deux pads qui ne correspondent pas aux positions détectées automatiquement.
+</p>
+{% endhint %}
 
 ***
 
