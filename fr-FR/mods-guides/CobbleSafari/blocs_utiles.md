@@ -53,11 +53,11 @@ Pour configurer un pad, **faites un clic droit avec un Forgelimarteau** afin de 
 
 Le **Forgelimarteau** n'est pas un bloc, mais il constitue un outil essentiel pour configurer plusieurs des blocs présentés sur cette page.
 
-![Recette de fabrication du Forgelimarteau](forgelimarteau)
+![Recette de fabrication du Forgelimarteau](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/forgelimarteau.png)
 
-Sa durabilité est comparable à celle d'une **hache en diamant** et il peut être réparé sur une enclume à l'aide de **Tinkagears**. En mode Survie, il sert notamment d'équivalent aux possibilités de configuration normalement réservées au mode Créatif : il permet de configurer les **Pads de Téléportation** et de réinitialiser certains blocs colorés.
+Sa durabilité est comparable à celle d'une **hache en diamant** et il peut être réparé sur une enclume à l'aide de **Forgeliroue**. En mode Survie, il sert notamment d'équivalent aux possibilités de configuration normalement réservées au mode Créatif : il permet de configurer les **Pads de Téléportation** et de réinitialiser certains blocs colorés.
 
-Les **Tinkagears** s'obtiennent à partir des **Blocs de Déchets Compactés** présents dans le biome Acier de la Dimension Safari.
+Les **Forgeliroue** s'obtiennent à partir des **Blocs de Déchets Compactés** présents dans le biome Acier de la Dimension Safari.
 
 ***
 
@@ -67,9 +67,9 @@ La **Statue Pokémon** est un socle de deux blocs de hauteur permettant d'affich
 
 ### 🛠️ Obtention
 
-![Recette de fabrication d'une Statue Pokémon]()
+![Recette de fabrication d'une Statue Pokémon](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/statue_pokemon.png)
 
-Le **Bloc de Tinkagears** utilisé au centre de la recette correspond à **9 Tinkagears**. Ces dernières s'obtiennent à partir des **Blocs de Déchets Compactés** du biome Acier de la Dimension Safari, au même endroit que les matériaux nécessaires à la fabrication du **Forgelimarteau**.
+Le **Bloc de Forgeliroue** utilisé au centre de la recette correspond à **9 Forgeliroues**. Ces dernières s'obtiennent à partir des **Blocs de Déchets Compactés** du biome Acier de la Dimension Safari, au même endroit que les matériaux nécessaires à la fabrication du **Forgelimarteau**.
 
 ### 📍 Placement
 
@@ -79,7 +79,7 @@ La statue possède une résistance comparable à celle d'une **enclume** et néc
 
 ### ⚙️ Configuration
 
-**Faites un clic droit sur l'une des deux parties avec un [Forgelimarteau]()** pour ouvrir l'interface de configuration. Le bouton **Confirmer** enregistre les modifications, **Réinitialiser** restaure les paramètres par défaut et la touche **Échap** permet de quitter sans enregistrer les changements.
+**Faites un clic droit sur l'une des deux parties avec un <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> pour ouvrir l'interface de configuration. Le bouton **Confirmer** enregistre les modifications, **Réinitialiser** restaure les paramètres par défaut et la touche **Échap** permet de quitter sans enregistrer les changements.
 
 | Paramètre | Fonction |
 | --- | --- |
@@ -118,17 +118,17 @@ Les Tourbillons apparaissent naturellement dans le **biome Vol** de la Dimension
 
 ***
 
-## 🟤 Tas de Boue et Tas de Vase
+## 🟤 Amas de Boue et Amas de Bouillasse
 
-Les **Tas de Boue** et les **Tas de Vase** sont deux petits amas présents au sol qui ralentissent les créatures les traversant, de manière similaire aux toiles d'araignée. Le **Tas de Vase** possède cependant un effet supplémentaire : toute créature vivante qui le touche est **empoisonnée pendant 2 secondes**.
+Les **Amas de Boue** et les **Amas de Bouillasse** sont deux petits amas présents au sol qui ralentissent les créatures les traversant, de manière similaire aux toiles d'araignée. Les **Amas de Bouillasse** possèdent cependant un effet supplémentaire : toute créature vivante qui le touche est **empoisonnée pendant 2 secondes**.
 
-Les deux blocs peuvent apparaître naturellement : les **Tas de Boue** dans le **biome Sol** et les **Tas de Vase** dans le **biome Poison**. Ils peuvent également être fabriqués à l'aide des recettes suivantes :
+Les deux blocs peuvent apparaître naturellement : les **Amas de Boue** dans le **biome Sol** et les **Amas de Bouillasse** dans le **biome Poison**. Ils peuvent également être fabriqués à l'aide des recettes suivantes :
 
-![Recette de fabrication du Tas de Boue]()
+![Recette de fabrication de l'Amas de Boue](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_boue.png)
 
-![Recette de fabrication du Tas de Vase]()
+![Recette de fabrication de l'Amas de Bouillasse](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_bouillasse.png)
 
-La recette du Tas de Vase est **sans forme** : elle nécessite 4 Tas de Boue et 1 Vase Noire et produit 4 Tas de Vase.
+La recette de l'Amas de Bouillasse est **sans forme** : elle nécessite 4 Amas de Boue et 1 Boue Noire et produit 4 Amas de Bouillasse.
 
 ***
 
@@ -138,19 +138,19 @@ Les **Cratères et Geysers** sont trois dangers environnementaux fonctionnant su
 
 | Bloc | Biome | Effet |
 | --- | --- | --- |
-| ![Cratère Volcanique]() | Feu | Projette une gerbe de flammes depuis le sol. |
-| ![Geyser Chaud]() | Eau | Projette une colonne d'eau brûlante. |
-| ![Cratère Draconique]() | Dragon | Fait tomber une Météore Draco sur la créature ayant déclenché le cratère. |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/volcanic_crater.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/volcanic_crater.png" title="Cratère Volcanique" width="48"></a> | Feu | Projette une gerbe de flammes depuis le sol. |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/hot_geyser.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/hot_geyser.png" title="Geyser Chaud" width="48"></a> | Eau | Projette une colonne d'eau brûlante. |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/draconic_crater.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/draconic_crater.png" title="Cratère Draconique" width="48"></a> | Dragon | Fait tomber une Météore Draco sur la créature ayant déclenché le cratère. |
 
 Le **délai entre l'activation et l'éruption** vous laisse quelques instants pour vous éloigner. Continuez à avancer après avoir déclenché le bloc afin d'être hors de portée lorsque l'éruption se produit.
 
 Les trois blocs utilisent le même principe de fabrication : **8 blocs associés au thème du biome autour d'un Bloc de Magma**.
 
-![Recette de fabrication du Cratère Volcanique]()
+![Recette de fabrication du Cratère Volcanique](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_volcanique.png)
 
-![Recette de fabrication du Geyser Chaud]()
+![Recette de fabrication du Geyser Chaud](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/geyser_chaud.png)
 
-![Recette de fabrication du Cratère Draconique]()
+![Recette de fabrication du Cratère Draconique](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_draconique.png)
 
 ***
 
@@ -160,7 +160,7 @@ Les **Pièges** sont disponibles en **10 variantes**, chacune existant en versio
 
 ### 🛒 Obtention
 
-Les Pièges peuvent être **achetés auprès d'un marchand spécialisé** : une variante du Montagnard disponible dans les [Souterrains de Sinnoh](). Consultez la [Liste des échanges des marchands]() pour connaître leurs prix.
+Les Pièges peuvent être **achetés auprès d'un marchand spécialisé** : une variante du Montagnard disponible dans les [Souterrains de Sinnoh](sinnoh_underground.md). Consultez la [Liste des échanges des marchands](traders_trade_list.md) pour connaître leurs prix.
 
 Ils peuvent également apparaître naturellement dans le **biome Ténèbres** de la Dimension Safari. Soyez donc particulièrement prudent lorsque vous explorez cette zone.
 
@@ -174,16 +174,16 @@ Les pièges peuvent être détruits rapidement à la main et sont **instantaném
 
 | Piège | Normal | Renforcé |
 | --- | --- | --- |
-| ![]() | Obscurité pendant 10 s | Cécité pendant 20 s |
-| ![]() | Explosion causant de faibles dégâts sans détruire les blocs | Explosion capable de détruire les blocs fragiles et infligeant de vrais dégâts |
-| ![]() | Comme l'Explosion, avec un effet sonore | Comme l'Explosion renforcée, avec un effet sonore plus important |
-| ![]() | Met le joueur en feu pendant 2 s | Inflige un feu plus puissant pendant 5 s |
-| ![]() | Lévitation pendant 3 s | Lévitation pendant 10 s |
-| ![]() | Déplace la cible d'1 bloc vers l'avant | Déplace la cible de 3 blocs vers l'avant |
-| ![]() | Fait tomber une Météore Draco à proximité | Fait tomber directement une Météore Draco sur la cible |
-| ![]() | Lenteur I pendant 10 s | Lenteur IV pendant 10 s |
-| ![]() | Téléportation aléatoire jusqu'à 8 blocs | Téléportation aléatoire jusqu'à 32 blocs |
-| ![]() | Projection similaire à une charge de vent | Projection similaire à une charge de vent plus puissante |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_obscurite.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_obscurite.png" title="Piège d'Obscurité" width="48"></a> | Obscurité pendant 10 s | Cécité pendant 20 s |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png" title="Piège d'Explosif" width="48"></a> | Explosion causant de faibles dégâts sans détruire les blocs | Explosion capable de détruire les blocs fragiles et infligeant de vrais dégâts |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png" title="Piège Flatulent" width="48"></a> | Comme l'Explosion, avec un effet sonore | Comme l'Explosion renforcée, avec un effet sonore plus important |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_feu.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_feu.png" title="Piège de Feu" width="48"></a> | Met le joueur en feu pendant 2 s | Inflige un feu plus puissant pendant 5 s |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_gravite.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_gravite.png" title="Piège de Gravité" width="48"></a> | Lévitation pendant 3 s | Lévitation pendant 10 s |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png" title="Piège de Poussée" width="48"></a> | Déplace la cible d'1 bloc vers l'avant | Déplace la cible de 3 blocs vers l'avant |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_roche.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_roche.png" title="Piège de Roche" width="48"></a> | Fait tomber une Météore Draco à proximité | Fait tomber directement une Météore Draco sur la cible |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png" title="Piège de Ralentissement" width="48"></a> | Lenteur I pendant 10 s | Lenteur IV pendant 10 s |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png" title="Piège de Téléportation" width="48"></a> | Téléportation aléatoire jusqu'à 8 blocs | Téléportation aléatoire jusqu'à 32 blocs |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_vent.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_vent.png" title="Piège de Vent" width="48"></a> | Projection similaire à une charge de vent | Projection similaire à une charge de vent plus puissante |
 
 {% hint style="warning" %}
 <p align="center">
