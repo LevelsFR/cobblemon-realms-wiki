@@ -187,11 +187,15 @@ Les pièges peuvent être détruits rapidement à la main et sont **instantaném
 
 {% hint style="warning" %}
 <p align="center">
-Les pièges <strong>Explosion</strong> et <strong>Pet</strong> peuvent également être déclenchés par un projectile. C'est la seule manière de les activer à distance, que ce soit pour les désamorcer sans s'en approcher ou pour les déclencher volontairement sous les pieds d'une autre créature.
+Les pièges <strong>Explosion</strong> et <strong>Flatulent</strong> peuvent également être déclenchés par un projectile. C'est la seule manière de les activer à distance, que ce soit pour les désamorcer sans s'en approcher ou pour les déclencher volontairement sous les pieds d'une autre créature.
 </p>
 {% endhint %}
 
-Tous les pièges peuvent être **orientés dans différentes directions**, même si seul le piège de **Déplacement** utilise réellement leur orientation pour déterminer la direction dans laquelle la cible sera déplacée.
+{% hint style="warning" %}
+<p align="center">
+Tous les pièges peuvent être <strong>orientés dans différentes directions</strong>, même si seul le piège de <strong>Déplacement</strong> utilise réellement leur orientation pour déterminer la direction dans laquelle la cible sera déplacée.
+</p>
+{% endhint %}
 
 ***
 
