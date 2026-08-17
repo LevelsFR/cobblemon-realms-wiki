@@ -24,7 +24,7 @@ La version disponible en mode Survie peut être fabriquée puis configurée à l
 
 Les Pads de Téléportation fonctionnent **par paires** et tentent automatiquement de trouver leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
 
-Chaque pad dispose de trois **modes**, qui déterminent la position recherchée pour son partenaire :
+Chaque pad dispose de **trois modes**, qui déterminent la position recherchée pour son partenaire :
 
 | Mode | Position du partenaire |
 | --- | --- |
@@ -57,7 +57,7 @@ Le **Forgelimarteau** n'est pas un bloc, mais il constitue un outil essentiel po
 
 Sa durabilité est comparable à celle d'une **hache en diamant** et il peut être réparé sur une enclume à l'aide de **Forgeliroue**. En mode Survie, il sert notamment d'équivalent aux possibilités de configuration normalement réservées au mode Créatif : il permet de configurer les **Pads de Téléportation** et de réinitialiser certains blocs colorés.
 
-Les **Forgeliroue** s'obtiennent à partir des **Blocs de Déchets Compactés** présents dans le biome Acier de la Dimension Safari.
+Les **Forgeliroues** s'obtiennent à partir des **Blocs de Déchets Compactés** présents dans le biome Acier de la Dimension Safari.
 
 ***
 
@@ -79,11 +79,11 @@ La statue possède une résistance comparable à celle d'une **enclume** et néc
 
 ### ⚙️ Configuration
 
-**Faites un clic droit sur l'une des deux parties avec un <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> pour ouvrir l'interface de configuration. Le bouton **Confirmer** enregistre les modifications, **Réinitialiser** restaure les paramètres par défaut et la touche **Échap** permet de quitter sans enregistrer les changements.
+**Faites un clic droit** sur l'une des deux parties avec un <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> pour ouvrir l'interface de configuration. Le bouton **Confirmer** enregistre les modifications, **Réinitialiser** restaure les paramètres par défaut et la touche **Échap** permet de quitter sans enregistrer les changements.
 
 | Paramètre | Fonction |
 | --- | --- |
-| **Espèce** | Détermine le Pokémon affiché. Les arguments de forme fonctionnent comme dans le champ de recherche de la GTS : `rowlet hisuian` ou `pikachu shiny=true`, par exemple. Si le champ est vide ou contient un Pokémon inexistant, un modèle gris générique est affiché. |
+| **Espèce** | Détermine le Pokémon affiché. Les arguments de forme fonctionnent comme dans le champ de recherche de la GTS : `Brindibou Hisui` ou `Pikachu shiny=true`, par exemple. Si le champ est vide ou contient un Pokémon inexistant, un modèle gris générique est affiché. |
 | **Type de statue** | Détermine la finition de la statue. Seul le mode **Hologramme** modifie également l'apparence du socle. |
 | **Animation** | Détermine l'animation du Pokémon à figer. La liste dépend directement de l'espèce sélectionnée. |
 | **Progression** | Détermine le moment précis de l'animation auquel la statue est figée. `0` correspond au début et `1` à la dernière image. Les boutons `‹` et `›` modifient la valeur de `0,01`, tandis que `«` et `»` la modifient de `0,10`. |
@@ -104,17 +104,13 @@ Le paramètre **Couleur** permet également de teinter le socle. Avec une statue
 
 ### 🔒 Verrouiller une statue
 
-Faites un **clic droit avec un rayon de miel** sur une statue pour la cirer, exactement comme avec un panneau. Une statue cirée ne peut alors plus être modifiée par les joueurs. Pour retirer la cire, utilisez **une hache quelconque**, à l'exception du Forgelimarteau.
-
-Si vous utilisez **Jade** ou **WTHIT**, pointez votre curseur sur l'une des deux parties de la statue pour afficher le Pokémon représenté et savoir si la statue est cirée.
+Faites un **clic droit avec un rayon de miel** sur une statue pour la cirer, exactement comme avec un panneau. Une statue cirée ne peut alors plus être modifiée par les joueurs. Pour retirer la cire, utilisez **une hache quelconque**, à l'exception du Forgelimarteau. Si vous utilisez **Jade** ou **WTHIT**, pointez votre curseur sur l'une des deux parties de la statue pour afficher le Pokémon représenté et savoir si la statue est cirée.
 
 ***
 
 ## 🌪️ Tourbillon
 
-Le **Tourbillon** est une petite tornade qui apparaît au sol et peut sembler inoffensive au premier regard. Toute créature vivante qui entre en contact avec lui est **projetée dans les airs** : joueurs, Pokémon sauvages, créatures hostiles, etc. Son effet fonctionne de manière similaire à une charge de vent et propulse directement la cible vers le haut.
-
-Les Tourbillons apparaissent naturellement dans le **biome Vol** de la Dimension Safari, où ils peuvent être suffisamment nombreux pour permettre d'enchaîner plusieurs projections.
+Le **Tourbillon** est une petite tornade qui apparaît au sol et peut sembler inoffensive au premier regard. Toute créature vivante qui entre en contact avec lui est **projetée dans les airs** : joueurs, Pokémon sauvages, créatures hostiles, etc. Son effet fonctionne de manière similaire à une charge de vent et propulse directement la cible vers le haut. Ils apparaissent naturellement dans le **biome Vol** de la Dimension Safari, où ils peuvent être suffisamment nombreux pour permettre d'enchaîner plusieurs projections.
 
 ***
 
@@ -137,7 +133,7 @@ La recette de l'Amas de Bouillasse est **sans forme** : elle nécessite 4 Amas d
 Les **Cratères et Geysers** sont trois dangers environnementaux fonctionnant sur le même principe. Chacun apparaît dans un biome spécifique, reste intégré au sol et se déclenche lorsqu'une créature **marche dessus**. Après activation, une courte période de délai précède l'éruption, puis le bloc entre en temps de recharge avant de pouvoir être déclenché à nouveau.
 
 | Bloc | Biome | Effet |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/volcanic_crater.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/volcanic_crater.png" title="Cratère Volcanique" width="48"></a> | Feu | Projette une gerbe de flammes depuis le sol. |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/hot_geyser.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/hot_geyser.png" title="Geyser Chaud" width="48"></a> | Eau | Projette une colonne d'eau brûlante. |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/draconic_crater.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/draconic_crater.png" title="Cratère Draconique" width="48"></a> | Dragon | Fait tomber une Météore Draco sur la créature ayant déclenché le cratère. |
@@ -156,13 +152,11 @@ Les trois blocs utilisent le même principe de fabrication : **8 blocs associés
 
 ## 🪤 Pièges
 
-Les **Pièges** sont disponibles en **10 variantes**, chacune existant en version normale et **Renforcée**, soit **20 blocs différents** au total. Ils se déclenchent lorsqu'une créature vivante marche dessus.
+Les **Pièges** sont disponibles en **10 variantes**, chacune existant en version **Normale** et **Renforcée**, soit **20 blocs différents** au total. Ils se déclenchent lorsqu'une créature vivante marche dessus.
 
 ### 🛒 Obtention
 
-Les Pièges peuvent être **achetés auprès d'un marchand spécialisé** : une variante du Montagnard disponible dans les [Souterrains de Sinnoh](sinnoh_underground.md). Consultez la [Liste des échanges des marchands](traders_trade_list.md) pour connaître leurs prix.
-
-Ils peuvent également apparaître naturellement dans le **biome Ténèbres** de la Dimension Safari. Soyez donc particulièrement prudent lorsque vous explorez cette zone.
+Les Pièges peuvent être **achetés auprès d'un marchand spécialisé** : une variante du Montagnard disponible dans les [Souterrains de Sinnoh](sinnoh_underground.md). Consultez la [Liste des échanges des marchands](traders_trade_list.md) pour connaître leurs prix. Ils peuvent également apparaître naturellement dans le **biome Ténèbres** de la Dimension Safari. Soyez donc particulièrement prudent lorsque vous explorez cette zone.
 
 ### 👁️ Visibilité
 
