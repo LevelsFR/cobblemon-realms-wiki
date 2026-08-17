@@ -137,7 +137,6 @@
   * [🎈 Ballons Récompenses](mods-guides/CobbleSafari/reward_balloons.md)
   * [🏠 PC de Base Secrète](mods-guides/CobbleSafari/secret_base_pc.md)
   * [🤝 Échanges des Marchands](mods-guides/CobbleSafari/traders_trade_list.md)
-  * [🪨 Blocs Décoratifs](mods-guides/CobbleSafari/blocs_deco.md)
   * [💡 Blocs Utiles](mods-guides/CobbleSafari/blocs_utiles.md)
   * [⌨️ Commande /cobblesafari](mods-guides/CobbleSafari/cobblesafari_command.md)
 * [🎵 Music Interface](mods-guides/musicinterface.md)
