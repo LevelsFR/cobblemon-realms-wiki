@@ -22,9 +22,9 @@ La version disponible en mode Survie peut être fabriquée puis configurée à l
 
 ### 🔗 Association des pads
 
-Les Pads de Téléportation fonctionnent **par paires** et recherchent automatiquement leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
+Les Pads de Téléportation fonctionnent **par paires** et tentent automatiquement de trouver leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
 
-Chaque pad possède **trois modes**, qui déterminent la position recherchée pour son partenaire :
+Chaque pad dispose de **trois modes**, qui déterminent la position recherchée pour son partenaire :
 
 | Mode | Position du partenaire |
 | --- | --- |
@@ -32,28 +32,15 @@ Chaque pad possède **trois modes**, qui déterminent la position recherchée po
 | **Bas** | En dessous du pad, en miroir du mode Haut. |
 | **Avant** | Directement devant le pad, avec une légère tolérance latérale. |
 
-{% hint style="info" %}
-<p align="center">
-Pour qu'une association soit créée, les deux pads doivent utiliser des <strong>modes compatibles</strong> : <strong>Haut ↔ Bas</strong> et <strong>Avant ↔ Avant</strong>.
-</p>
-{% endhint %}
+Pour être associés, les deux pads doivent utiliser des **modes compatibles** : **Haut avec Bas**, **Bas avec Haut** et **Avant avec Avant**. Aucun bloc ne doit obstruer le chemin entre eux, car la liaison nécessite une ligne dégagée. La recherche s'arrête également au **premier pad rencontré** : si celui-ci est déjà associé à un autre pad, aucun partenaire situé au-delà ne sera recherché. Les liaisons sont enregistrées **relativement à l'orientation des pads**, ce qui permet à une structure contenant des pads associés de conserver correctement ses connexions lorsqu'elle est déplacée ou tournée.
 
-L'association respecte également plusieurs règles : **aucun bloc ne doit obstruer le chemin** entre les deux pads, et la recherche s'arrête au **premier pad rencontré**. Si celui-ci est déjà associé à un autre pad, aucun partenaire situé au-delà ne sera recherché.
-
-Les liaisons sont enregistrées **relativement à l'orientation des pads**. Une structure contenant des pads associés peut donc être déplacée ou tournée sans perdre ses connexions. Une fois l'association établie, les deux pads affichent leur **animation d'activation**.
+Une fois les deux pads associés, leur **animation d'activation** devient visible.
 
 ### ⚙️ Utilisation et configuration
 
-Pour utiliser un pad associé, tenez-vous dessus et **appuyez sur la touche de saut ou d'accroupissement** afin de vous téléporter vers son partenaire. Un son de portail confirme que la téléportation a réussi. En cas d'échec, un son similaire à celui de la lave entrant en contact avec de l'eau est joué.
+Tenez-vous sur un pad associé et **appuyez sur la touche de saut ou d'accroupissement** pour vous téléporter vers son partenaire. Un son de portail confirme que la téléportation a réussi. Si celle-ci échoue, un son similaire à celui de la lave entrant en contact avec de l'eau est joué, généralement parce que le pad n'est pas associé ou que le chemin entre les deux pads est obstrué.
 
-{% hint style="info" %}
-<p align="center">
-<strong>Clic droit avec le Forgelimarteau</strong> : change le mode du pad et lance automatiquement une nouvelle recherche de partenaire.<br>
-<strong>Clic droit en étant accroupi avec le Forgelimarteau</strong> : ouvre l'interface de configuration avancée.
-</p>
-{% endhint %}
-
-L'interface permet de sélectionner le **mode du pad**, de définir manuellement les coordonnées **X / Y / Z**, de vérifier une destination, de lancer une détection automatique et de modifier la **couleur du pad** à l'aide d'une valeur hexadécimale.
+Pour modifier le mode d'un pad, **faites un clic droit avec un Forgelimarteau**. Le pad recherchera automatiquement un nouveau partenaire après chaque modification. Pour accéder à sa configuration avancée, **faites un clic droit en vous accroupissant avec le Forgelimarteau**. L'interface permet alors de sélectionner le mode du pad, de définir manuellement les coordonnées **X / Y / Z**, de vérifier une destination, de lancer une détection automatique et de modifier la **couleur du pad** à l'aide d'une valeur hexadécimale.
 
 ***
 
