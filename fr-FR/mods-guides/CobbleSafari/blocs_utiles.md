@@ -24,32 +24,33 @@ La version disponible en mode Survie peut être fabriquée puis configurée à l
 
 Les Pads de Téléportation fonctionnent **par paires** et recherchent automatiquement leur partenaire. Placez deux pads correctement orientés et le jeu recherchera un pad compatible dans la direction indiquée, jusqu'à **100 blocs de distance**.
 
-| 🧭 Mode | 📍 Position recherchée |
+Chaque pad possède **trois modes**, qui déterminent la position recherchée pour son partenaire :
+
+| Mode | Position du partenaire |
 | --- | --- |
 | **Haut** | Au-dessus du pad, formant un L avec celui-ci. |
 | **Bas** | En dessous du pad, en miroir du mode Haut. |
 | **Avant** | Directement devant le pad, avec une légère tolérance latérale. |
 
-Pour qu'une association soit possible, les deux pads doivent utiliser des **modes compatibles** : **Haut ↔ Bas** et **Avant ↔ Avant**. Le chemin entre les deux pads doit également être entièrement dégagé. La recherche s'arrête au **premier pad rencontré** : si celui-ci est déjà associé à un autre pad, aucun autre partenaire ne sera recherché au-delà.
+L'association respecte quelques règles simples :
 
-Les liaisons sont enregistrées **relativement à l'orientation des pads**, ce qui permet à une structure contenant une paire associée de conserver correctement sa connexion lorsqu'elle est déplacée ou tournée. Une fois l'association établie, les deux pads affichent leur **animation d'activation**.
+- **Haut** s'associe avec **Bas**, et **Avant** avec **Avant**.
+- Le chemin entre les deux pads doit rester **entièrement dégagé**.
+- La recherche s'arrête au **premier pad rencontré**. S'il est déjà associé, aucun autre pad ne sera recherché au-delà.
+- La connexion est enregistrée **relativement à l'orientation des pads**, ce qui permet de déplacer ou de faire pivoter une structure sans perdre ses associations.
+
+Une fois les deux pads associés, leur **animation d'activation** devient visible.
 
 ### ⚙️ Utilisation et configuration
 
-Pour vous téléporter, tenez-vous sur un pad associé puis **appuyez sur la touche de saut ou d'accroupissement**. Un son de portail indique que la téléportation a réussi. En cas d'échec, un son similaire à celui de la lave entrant en contact avec de l'eau est joué.
+Pour vous téléporter, tenez-vous sur un pad associé puis **appuyez sur la touche de saut ou d'accroupissement**. Un son de portail confirme que la téléportation a réussi. En cas d'échec, un son similaire à celui de la lave entrant en contact avec de l'eau est joué.
 
-| 🛠️ Action | 📖 Fonction |
-| --- | --- |
-| **Clic droit + Forgelimarteau** | Change le mode du pad et relance automatiquement la recherche d'un partenaire. |
-| **Accroupi + clic droit + Forgelimarteau** | Ouvre l'interface de configuration avancée. |
+Le **Forgelimarteau** permet de modifier et de configurer les pads :
+
+- **Clic droit** → change le mode du pad et relance automatiquement la recherche d'un partenaire.
+- **Clic droit en étant accroupi** → ouvre l'interface de configuration avancée.
 
 L'interface permet de sélectionner le **mode du pad**, de définir manuellement les coordonnées **X / Y / Z**, de vérifier une destination, de lancer une détection automatique et de modifier la **couleur du pad** à l'aide d'une valeur hexadécimale.
-
-{% hint style="info" %}
-<p align="center">
-💡 <strong>Astuce :</strong> utilisez la configuration manuelle si vous souhaitez relier deux pads qui ne correspondent pas aux positions détectées automatiquement.
-</p>
-{% endhint %}
 
 ***
 
