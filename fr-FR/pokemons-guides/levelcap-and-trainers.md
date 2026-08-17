@@ -242,13 +242,14 @@ Affiche :
 ***
 
 {% hint style="success" %}
-## :bulb: Conseils pour réussir :
+## 💡 Conseils pour réussir :
 
 * 🧠 Faites tourner votre équipe pour éviter de bloquer l’XP avec un seul Pokémon.
 * 🎯 Priorisez les combats de dresseurs dès le début pour débloquer rapidement les arènes et séries.
 * 🗺️ Consultez souvent votre Carte de Dresseur ; en particulier pour les indices de biome et de dimension.
 * 📖 Surveillez l’onglet Avancements pour les objectifs cachés.
 * 💬 Besoin d'aide ? Rejoignez notre serveur [Discord](https://discord.gg/kb8NSTF45n).
+</p>
 {% endhint %}
 
 ***
