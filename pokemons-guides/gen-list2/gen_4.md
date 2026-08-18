@@ -35,21 +35,21 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to obtain
 
-Pour obtenir Créhelf, vous devez trouver le [Lac Savoir](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#lac-savoir)
+To obtain Uxie, you must find the [Lake of Knowledge](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#lac-savoir)
 
-Dans la caverne du lac, éliminez tous les Pokémon invoqués par le `Cobblemon Trial Spawner` afin d'obtenir la `Preuve de Conquête (U)`.
+In the lake's cavern, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (U)`.
 
-Utilisez ensuite la `Preuve de Conquête (U)` pour invoquer Créhelf, avec **2% de chance qu'il soit chromatique**.
+Then use the `Proof of Conquest (U)` to summon Uxie, with a **2% chance of it being Shiny**.
 
 {% hint style="info" %}
 <p align="center">
-Le <strong>(U)</strong> dans <strong>Preuve de Conquête (U)</strong> correspond à <strong>Uxie</strong>, le nom anglais de <strong>Créhelf</strong>.
+The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <strong>Uxie</strong>, the English name of <strong>Créhelf</strong>.
 </p>
 {% endhint %}
 
-Vous recevrez également la `Griffe de Créhelf` après avoir utilisé la `Preuve de Conquête (U)`. En la combinant avec les deux autres reliques des Gardiens des Lacs, vous pourrez fabriquer la `Chaîne Rouge`, permettant d'obtenir [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga) et [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia).
+You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -88,21 +88,21 @@ Vous recevrez également la `Griffe de Créhelf` après avoir utilisé la `Preuv
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Créfollet, vous devez trouver le [Lac Vérité](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#lac-verite)
+To obtain Mesprit, you must find [Lake Verity](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#lac-verite)
 
-Dans la caverne du lac, éliminez tous les Pokémon invoqués par le `Cobblemon Trial Spawner` afin d'obtenir la `Preuve de Conquête (M)`.
+In the lake's cave, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (M)`.
 
-Utilisez ensuite la `Preuve de Conquête (M)` pour invoquer Créfollet, avec **2% de chance qu'il soit chromatique**.
+Then use the `Proof of Conquest (M)` to summon Mesprit, with a **2% chance of it being Shiny**.
 
 {% hint style="info" %}
 <p align="center">
-Le <strong>(M)</strong> dans <strong>Preuve de Conquête (M)</strong> correspond à <strong>Mesprit</strong>, le nom anglais de <strong>Créfollet</strong>.
+The <strong>(M)</strong> in <strong>Proof of Conquest (M)</strong> stands for <strong>Mesprit</strong>, the English name of <strong>Créfollet</strong>.
 </p>
 {% endhint %}
 
-Vous recevrez également une `Plume de Créfollet` après avoir utilisé la `Preuve de Conquête (M)`. En la combinant avec les deux autres reliques des Gardiens des Lacs, vous pourrez fabriquer la `Chaîne Rouge`, permettant d'obtenir [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga) et [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia).
+You will also receive a `Mesprit's Feather` after using the `Proof of Conquest (M)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -141,21 +141,21 @@ Vous recevrez également une `Plume de Créfollet` après avoir utilisé la `Pre
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Créfadet, vous devez trouver le `Lac Courage`
+To obtain Azelf, you must find the `Lake of Courage`
 
-Dans la caverne du lac, éliminez tous les Pokémon invoqués par le `Cobblemon Trial Spawner` afin d'obtenir la `Preuve de Conquête (A)`.
+In the lake's cave, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (A)`.
 
-Utilisez ensuite la `Preuve de Conquête (A)` pour invoquer Créfadet, avec 2% de chance qu'il soit chromatique.
+Then use the `Proof of Conquest (A)` to summon Azelf, with a **2% chance of it being Shiny**.
 
 {% hint style="info" %}
 <p align="center">
-Le <strong>(A)</strong> dans <strong>Preuve de Conquête (A)</strong> correspond à <strong>Azelf</strong>, le nom anglais de <strong>Créfadet</strong>.
+The <strong>(A)</strong> in <strong>Proof of Conquest (A)</strong> stands for <strong>Azelf</strong>, the English name of <strong>Créfadet</strong>.
 </p>
 {% endhint %}
 
-Vous recevrez également une `Canine de Créfadet` après avoir utilisé la `Preuve de Conquête (A)`. En la combinant avec les deux autres reliques des Gardiens des Lacs, vous pourrez fabriquer la `Chaîne Rouge`, permettant d'obtenir [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga) et [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia).
+You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -195,13 +195,13 @@ Vous recevrez également une `Canine de Créfadet` après avoir utilisé la `Pre
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Dialga, vous devez trouver les [Colonnes Lances](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#colonnes-lances). Il s'agit d'un immense temple de style grec où il est possible d'obtenir [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga) et [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia).
+To obtain Dialga, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
 
-Une fois devant le [Piédestal de Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals), utilisez une `Chaîne Rouge` pour invoquer un **Dialga au niveau 70**, avec **2% de chance qu'il soit chromatique**.
+Once in front of the [Dialga Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Dialga**, with **2% chance of it being Shiny**.
 
-Vous recevrez également un `Temposphère` après avoir utilisé le piédestal. En le combinant avec les deux autres Sphères ainsi qu'une `Flûte Célestique`, vous pourrez fabriquer la `Flûte Azur`, permettant d'obtenir [Arceus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#arceus).
+You will also receive a `Time Sphere` after using the pedestal. By combining it with the two other Spheres and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -241,13 +241,13 @@ Vous recevrez également un `Temposphère` après avoir utilisé le piédestal. 
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Palkia, vous devez trouver les [Colonnes Lances](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#colonnes-lances). Il s'agit d'un immense temple de style grec où il est possible d'obtenir [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga) et [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia).
+To obtain Palkia, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
 
-Une fois devant le [Piédestal de Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals), utilisez une `Chaîne Rouge` pour invoquer un **Palkia au niveau 70**, avec **2% de chance qu'il soit chromatique**.
+Once in front of the [Palkia Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Palkia**, with **2% chance of it being Shiny**.
 
-Vous recevrez également une `Spatiosphère` après avoir utilisé le piédestal. En le combinant avec les deux autres Globes ainsi qu'une `Flûte Célestique`, vous pourrez fabriquer la `Flûte Azur`, permettant d'obtenir [Arceus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#arceus).
+You will also receive a `Lustrous Orb` after using the pedestal. By combining it with the two other Orbs and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -287,11 +287,11 @@ Vous recevrez également une `Spatiosphère` après avoir utilisé le piédestal
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Heatran, vous devez trouver la [Grotte Zénith](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/nether_world#grotte-zenith) dans le Nether. Cette immense caverne renferme de nombreux coffres, ainsi que plusieurs coffres cachés contenant un excellent butin.
+To obtain Heatran, you must find the [Zenith Cave](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/nether_world#grotte-zenith) in the Nether. This immense cavern contains numerous chests, as well as several hidden chests containing excellent loot.
 
-Une fois devant le [Piédestal de Heatran](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals), utilisez une `Pierre Magma`, fabriquée à partir de **7 Blocs de magma** et de **2 Fragments de Netherite**, pour invoquer un **Heatran au niveau 50**, avec **2% de chance qu'il soit chromatique**.
+Once in front of the [Heatran Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Magma Stone`, crafted from **7 Magma Blocks** and **2 Netherite Scraps**, to summon a **level 50 Heatran**, with a **2% chance of it being Shiny**.
 
 ---
 
@@ -330,17 +330,17 @@ Une fois devant le [Piédestal de Heatran](https://our-story-network.gitbook.io/
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Regigigas, vous devez d'abord invoquer [Regirock](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_3#regirock), [Regice](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_3#regice), [Registeel](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_3#registeel), [Regieleki](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#regieleki) et [Regidrago](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#regidrago) grâce à leurs piédestaux. Vous obtiendrez ainsi un total de cinq tablettes : `Tablette de Regirock`, `Tablette de Regice`, `Tablette de Registeel`, `Tablette de Regieleki` et `Tablette de Regidrago`.
+To obtain Regigigas, you must first summon [Regirock](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#regirock), [Regice](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#regice), [Registeel](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#registeel), [Regieleki](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_8#regieleki) and [Regidrago](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_8#regidrago) using their pedestals. You will then obtain a total of five tablets: `Regirock Tablet`, `Regice Tablet`, `Registeel Tablet`, `Regieleki Tablet` and `Regidrago Tablet`.
 
-En combinant ces cinq tablettes, vous fabriquerez une `Clé Titan`.
+By combining these five tablets, you will craft a `Titan Key`.
 
-Une fois la `Clé Titan` en votre possession, rendez-vous au [Temple de Frimapic](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#temple-de-frimapic) et déverrouillez la `Serrure de Regigigas`. Derrière celle-ci se trouvent un long couloir menant à un `Bloc Sanctuaire` à désactiver, une bibliothèque remplie de butin ainsi que la salle d'invocation de Regigigas.
+Once you have the `Titan Key`, head to the [Snowpoint Temple](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regigigas Lock`. Behind it are a long corridor leading to a `Sanctuary Block` that must be deactivated, a library filled with loot, as well as Regigigas's summoning room.
 
-Dans la salle d'invocation, marchez sur chacun des cercles afin de les illuminer. Une fois tous les cercles activés, un **Regigigas au niveau 70 apparaîtra**, avec **2% de chance d'être chromatique**.
+In the summoning room, walk over each of the circles to light them up. Once all the circles have been activated, a **level 70 Regigigas will appear**, with a **2% chance of being Shiny**.
 
-Vous recevrez également un `Noyau de Titan` après avoir activé le sol. Celui-ci permet de fabriquer l'[Épaulière Titan](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/regi_pauldrons) ou le [Marteau Titan](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/titan_hammer).
+You will also receive a `Titan Core` after activating the floor. It can be used to craft the [Titan Pauldron](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/regi_pauldrons) or the [Titan Hammer](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/titan_hammer).
 
 ---
 
@@ -380,15 +380,15 @@ Vous recevrez également un `Noyau de Titan` après avoir activé le sol. Celui-
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
 {% hint style="warning" %}
 ## Important
 
 <p align="center">
-Ce moyen d’obtention est <strong>désactivé</strong> au profit exclusif de la méthode via le monde Distorsion du Safari.
+This method of obtaining it is <strong>disabled</strong> in favor of the exclusive method via the Safari's Distortion World.
 <br>
-Pour en savoir plus, rendez-vous directement sur la page : [Monde Distortion](https://our-story-network.gitbook.io/cr-wiki/cr-fr/guides-des-mods/cobblesafari/distortion_world)
+For more information, go directly to the page: [Distortion World](https://our-story-network.gitbook.io/cr-wiki/cr-fr/guides-des-mods/cobblesafari/distortion_world)
 </p>
 {% endhint %}
 
@@ -429,11 +429,11 @@ Pour en savoir plus, rendez-vous directement sur la page : [Monde Distortion](ht
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Cresselia, vous devez utiliser un `Sifflet de Pleine Lune`. Fabriquez et utilisez une `Sifflet de Pleine Lune` à partir de `5 Plumes Lunaires`, obtenues en dormant sous l’effet de `Rêve Lucide`, lui-même activé en dormant près d’un [Attrape-Rêves](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/dream_catcher).
+To obtain Cresselia, you must use a `Full Moon Whistle`. Craft and use a `Full Moon Whistle` from `5 Lunar Feathers`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/dream_catcher).
 
-Une fois le sifflet obtenue, faites un clic droit avec celle-ci en main pour invoquer Cresselia, avec **2% de chance qu’il soit chromatique**.
+Once you have obtained the whistle, right-click while holding it to summon Cresselia, with a **2% chance of it being Shiny**.
 
 ---
 
@@ -472,11 +472,11 @@ Une fois le sifflet obtenue, faites un clic droit avec celle-ci en main pour inv
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Darkrai, vous devez utiliser un `Sifflet de la Nouvelle Lune`. Fabriquez et utilisez un `Sifflet de la Nouvelle Lune` à partir de `5 Essences de Cauchemar`, obtenues en dormant sous l’effet de `Rêve Lucide`, lui-même activé en dormant près d’un [Attrape-Rêves](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/dream_catcher). Attention : faire un cauchemar peut être douloureux.
+To obtain Darkrai, you must use a `New Moon Whistle`. Craft and use a `New Moon Whistle` from `5 Nightmare Essences`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/dream_catcher). Warning: having a nightmare can be painful.
 
-Une fois le sifflet obtenue, faites un clic droit avec celle-ci en main pour invoquer Darkrai, avec **2% de chance qu’il soit chromatique**.
+Once you have obtained the whistle, right-click while holding it to summon Darkrai, with a **2% chance of it being Shiny**.
 
 ---
 
@@ -515,13 +515,13 @@ Une fois le sifflet obtenue, faites un clic droit avec celle-ci en main pour inv
 
 ---
 
-### 🗝️ Moyen d'obtention
+### 🗝️ How to Obtain
 
-Pour obtenir Arceus, vous devez utiliser la `Flûte Azur` pour accéder au `Hall de l’Origine`.
+To obtain Arceus, you must use the `Azure Flute` to access the `Hall of Origin`.
 
-Pour cela, vous devez d’abord invoquer [Dialga](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#dialga), [Palkia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#palkia) et [Giratina](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#giratina) grâce à leurs piédestaux. Vous obtiendrez ainsi trois sphères : `Temposphère`, `Spatiosphère` et `Antimatièrosphère`. En les combinant avec une `Flûte Célestique`, vous fabriquerez la `Flûte Azur`.
+To do so, you must first summon [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia) and [Giratina](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#giratina) using their pedestals. You will then obtain three Orbs: `Time Sphere`, `Spatial Sphere` and `Antimatter Sphere`. By combining them with a `Celestial Flute`, you will craft the `Azure Flute`.
 
-Une fois la `Flûte Azur` en main, faites un clic droit pour être téléporté dans le `Salle Originelle`. En haut des marches, un **Arceus au niveau 90 apparaîtra** alors, avec **2% de chance qu’il soit chromatique**.
+Once you have the `Azure Flute` in hand, right-click to be teleported to the `Origin Hall`. At the top of the stairs, a **level 90 Arceus will appear**, with a **2% chance of it being Shiny**.
 
 ---
 
