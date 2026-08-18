@@ -41,7 +41,7 @@ To obtain Cosmog, you must collect `50 Cosmic Dust` found in the End by right-cl
 
 Once the 50th dust has been collected, a **Level 5 Cosmog** will appear, with a **2% chance of being Shiny**.
 
-After being captured, Cosmog evolves into Cosmoem at level 43. Cosmoem then evolves at level 53, with a final choice between [Lunala](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list/gen_7#lunala) or [Solgaleo](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list/gen_7#solgaleo).
+After being captured, Cosmog evolves into Cosmoem at level 43. Cosmoem then evolves at level 53, with a final choice between [Lunala](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list/gen_7#lunala) or [Solgaleo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list/gen_7#solgaleo).
 
 ---
 
