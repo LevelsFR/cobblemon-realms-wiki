@@ -48,7 +48,7 @@ Structure permettant d'obtenir <strong>Eternatus</strong>.
 ### 🧗 Particularités
 
 - Contient un `Cocon d'Éternatus`
-- Le cocon doit être entièrement rempli avant de pouvoir invoquer [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
+- Le cocon doit être entièrement rempli avant de pouvoir invoquer Éternatus
 - Une fois activé, il fait apparaître [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
 
 ### 🌍 Génération
