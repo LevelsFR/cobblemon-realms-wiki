@@ -539,6 +539,7 @@ The following items are essential for your server to function properly:
 - ⚙️ `.jar` files → required for the server to start
 
 Deleting any of these items may result in world loss or prevent the server from starting entirely.
+</p>
 {% endhint %}
 
 ---
@@ -551,6 +552,7 @@ Deleting any of these items may result in world loss or prevent the server from 
 - 🛠️ If you encounter issues, delete `config/` and `defaultconfigs/` then restart the game.
 - ❓ Check our [FAQ](faq.md) for common questions.
 - 💬 Need help? Join our [Discord](https://discord.gg/kb8NSTF45n) server.
+</p>
 {% endhint %}
 
 ---
