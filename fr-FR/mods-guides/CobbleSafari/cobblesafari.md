@@ -24,4 +24,4 @@ Retrouvez les différentes fonctionnalités de CobbleSafari dans les pages suiva
 - [🎈 Ballons Récompenses](reward_balloons.md)
 - [🏠 PC de Base Secrète](secret_base_pc.md)
 - [🤝 Échanges des Marchands](traders_trade_list.md)
-- [⌨️ Commande /cobblesafari](cobblesafari_command.md)
+- [⌨️ Commande `/cobblesafari`](cobblesafari_command.md)
