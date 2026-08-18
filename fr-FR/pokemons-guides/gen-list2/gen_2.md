@@ -38,13 +38,13 @@ Les légendes de Johto racontent l'histoire de gardiens sacrés veillant sur l'�
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir **Raikou**, vous devez d'abord fabriquer une `Friandise de Raikou`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+Pour obtenir **Raikou**, vous devez d'abord fabriquer une `Friandise de Raikou`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree) puis déposez-la sur le [Piédestal de Raikou](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals).
+Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-cendree) puis déposez-la sur le [Piédestal de Raikou](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals).
 
 Un **Raikou niveau 40 apparaîtra** alors, avec **2 % de chances d'être chromatique**.
 
-L'utilisation du piédestal vous remet également une `Plume Jaune`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+L'utilisation du piédestal vous remet également une `Plume Jaune`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -86,13 +86,13 @@ L'utilisation du piédestal vous remet également une `Plume Jaune`. En la combi
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir **Entei**, vous devez d'abord fabriquer une `Friandise d'Entei`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+Pour obtenir **Entei**, vous devez d'abord fabriquer une `Friandise d'Entei`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree).
+Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-cendree).
 
 Un **Entei niveau 40 apparaîtra** alors, avec **2 % de chances d'être chromatique**.
 
-L'utilisation du piédestal vous remet également une `Plume Rouge`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+L'utilisation du piédestal vous remet également une `Plume Rouge`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -134,13 +134,13 @@ L'utilisation du piédestal vous remet également une `Plume Rouge`. En la combi
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir **Suicune**, vous devez d'abord fabriquer une `Friandise de Suicune`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+Pour obtenir **Suicune**, vous devez d'abord fabriquer une `Friandise de Suicune`. Sa fabrication nécessite plusieurs baies de Cobblemon ainsi qu'une `Boîte à Friandises Pokémon`, vendue occasionnellement par le [Villageois Entrepreneur](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree).
+Une fois la friandise obtenue, rendez-vous à la [Tour Cendrée](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-cendree).
 
 Un **Suicune niveau 40 apparaîtra** alors, avec **2 % de chances d'être chromatique**.
 
-L'utilisation du piédestal vous remet également une `Plume Bleue`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+L'utilisation du piédestal vous remet également une `Plume Bleue`. En la combinant avec les deux autres plumes obtenues auprès des fauves légendaires, vous pourrez fabriquer la `Plume Arc-en-ciel`, nécessaire pour obtenir [Ho-Oh](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -182,13 +182,13 @@ L'utilisation du piédestal vous remet également une `Plume Bleue`. En la combi
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir **Lugia**, vous devez d'abord invoquer [Artikodin](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#artikodin), [Électhor](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#electhor) et [Sulfura](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#sulfura) grâce aux urnes. Chacun d'eux vous remet une pierre : la `Pierre Arctique`, la `Pierre Fulgurante` et la `Pierre Fusion`.
+Pour obtenir **Lugia**, vous devez d'abord invoquer [Artikodin](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_1#artikodin), [Électhor](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_1#electhor) et [Sulfura](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_1#sulfura) grâce aux urnes. Chacun d'eux vous remet une pierre : la `Pierre Arctique`, la `Pierre Fulgurante` et la `Pierre Fusion`.
 
 En combinant ces trois pierres sur une table de fabrication, vous obtenez une `Pierre du Vortex`.
 
-Une fois cette pierre en votre possession, rendez-vous au [Tourb'Îles](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tourbiles) et utilisez-la pour ouvrir la porte du temple.
+Une fois cette pierre en votre possession, rendez-vous au [Tourb'Îles](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tourb-iles) et utilisez-la pour ouvrir la porte du temple.
 
-Récupérez ensuite la `Pierre du Vortex`, traversez le labyrinthe jusqu'au [Piédestal de Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals), puis utilisez-y la pierre.
+Récupérez ensuite la `Pierre du Vortex`, traversez le labyrinthe jusqu'au [Piédestal de Lugia](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), puis utilisez-y la pierre.
 
 Un **Lugia niveau 60 apparaîtra** alors, avec **2 % de chances d'être chromatique**.
 
@@ -232,11 +232,11 @@ Un **Lugia niveau 60 apparaîtra** alors, avec **2 % de chances d'être chromati
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir **Ho-Oh**, vous devez d'abord invoquer [Raikou](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#raikou), [Entei](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#entei) et [Suicune](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#suicune) en utilisant leurs piédestaux respectifs. Chacun d'eux vous remet une plume : la `Plume Bleue`, la `Plume Jaune` et la `Plume Rouge`.
+Pour obtenir **Ho-Oh**, vous devez d'abord invoquer [Raikou](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#raikou), [Entei](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#entei) et [Suicune](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#suicune) en utilisant leurs piédestaux respectifs. Chacun d'eux vous remet une plume : la `Plume Bleue`, la `Plume Jaune` et la `Plume Rouge`.
 
 En combinant ces trois plumes sur une table de fabrication, vous obtenez une `Plume Arc-en-ciel`.
 
-Une fois cette plume en votre possession, rendez-vous à la [Tour Carillon](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-carillon), terminez le parcours jusqu'au sommet, puis utilisez la `Plume Arc-en-ciel` sur le [Piédestal de Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals).
+Une fois cette plume en votre possession, rendez-vous à la [Tour Carillon](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-carillon), terminez le parcours jusqu'au sommet, puis utilisez la `Plume Arc-en-ciel` sur le [Piédestal de Ho-Oh](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals).
 
 Un **Ho-Oh niveau 60 apparaîtra** alors, avec **2 % de chances d'être chromatique**.
 
