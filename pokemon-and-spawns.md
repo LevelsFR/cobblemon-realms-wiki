@@ -2,236 +2,292 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns v6.0</strong> datapack to provide coherent, varied, and environment-specific encounters across the modpack. Pokémon can react to biomes, dimensions, time, weather, light, structures, nearby blocks, elevation, and several other world conditions.
+<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns v6.0</strong> datapack to provide spawns adapted to each environment of the modpack. 🌍<br>
+A Pokémon can spawn depending on its <strong>biome</strong>, <strong>dimension</strong>, <strong>time</strong>, <strong>weather</strong>, <strong>light level</strong>, <strong>altitude</strong>, <strong>structures</strong>, <strong>surrounding blocks</strong>, and many other conditions.
 </p>
 {% endhint %}
 
 ---
 
-## 📚 What This Guide Covers
+## 🧭 How does the system work?
 
-| 📌 Topic | 📋 Content |
-|:---:|---|
-| 🌍 Spawn regions | Overworld, Nether, End, Aether, and The Otherside |
-| 🧭 Environmental rules | Biomes, biome tags, height, light, weather, and time |
-| 🏛️ Special encounters | Structures, nearby blocks, fishing, and other requirements |
-| ✨ Rarity | Common, Uncommon, Rare, and Ultra Rare encounters |
-| 🔎 Search tools | In-game and Discord methods for finding Pokémon |
+Unlike a system where each Pokémon would simply be associated with a biome, **each species has its own spawn rules**.
 
----
+The same Pokémon can therefore have several different spawns:
 
-## 🌍 How the Spawn System Works
-
-A Pokémon is not assigned to only one biome. Each species can have several independent spawn rules, allowing it to appear in different environments, at different levels, or under different conditions.
-
-For example, one Pokémon may have:
-
-- a common daytime spawn in forests
-- a rarer nighttime spawn in another biome
-- a structure-exclusive encounter
-- an Ultra Rare spawn in a special dimension
+| 🌿 Example | 📍 Situation |
+| --- | --- |
+| ☀️ Common Spawn | Forest during the day |
+| 🌙 Rare Spawn | Another biome at night |
+| 🏛️ Special Encounter | Near a structure |
+| ✨ Ultra Rare Spawn | In a particular dimension |
 
 {% hint style="warning" %}
-A biome alone does not always guarantee that a Pokémon can appear. Time, weather, light level, height, nearby blocks, structures, and spawn position may also be required.
+⚠️ <strong>Entering the correct biome does not guarantee a spawn.</strong> Other conditions may be required, such as the time, weather, light level, altitude, spawn position, or even the presence of certain blocks.
 {% endhint %}
 
 ---
 
-## 🗺️ Main Spawn Regions
+## 📚 What you will find in this guide
 
-| World or dimension | General role in the spawn system |
-|---|---|
-| 🌎 **Overworld** | The primary hunting world, with encounters spread across natural biomes, caves, oceans, structures, and modified terrain |
-| 🔥 **Nether** | Fire-, lava-, fossil-, ruin-, and structure-related encounters, including several rare species |
-| 🌌 **End** | Rare, unusual, and late-game encounters across End biomes, islands, and structures |
-| ☁️ **The Aether** | Large custom pools across the four Skyroot biomes, including starters, fossils, Paradox Pokémon, Ultra Beasts, and Legendary Pokémon |
-| 🌑 **The Otherside** | Ghost-, Dark-, Dragon-, Psychic-, and late-game encounters across the four Deeper and Darker biomes |
+| 📌 Section | 🔎 What it explains |
+| --- | --- |
+| 🌍 **Dimensions** | The different areas where Pokémon can spawn |
+| 🧭 **Biomes & Tags** | How the biome categories used by the datapack work |
+| ⚙️ **Conditions** | Time, weather, light, altitude, structures, blocks, and positions |
+| ✨ **Rarity** | The different encounter categories |
+| 🔎 **Search** | `/checkspawns` and Discord tools |
+| 🧠 **Tips** | A few methods to optimize your searches |
 
-### 📖 Dimension Guides
+---
 
-- [☁️ The Aether Spawn Guide](mods-guides/worlds_and_dimensions/aether.md)
-- [🌑 The Otherside Spawn Guide](mods-guides/worlds_and_dimensions/deeper_and_darker.md)
+## 🌍 Dimensions and spawn areas
+
+Each dimension has its own environments and therefore its own groups of Pokémon.
+
+| 🌎 Dimension | 📝 General Overview |
+| --- | --- |
+| 🌎 **Overworld** | Main exploration area: forests, oceans, caves, mountains, structures, and other natural environments. |
+| 🔥 **Nether** | Encounters adapted to volcanic environments, lava, fossils, ruins, and Nether structures. |
+| 🌌 **End** | Rare Pokémon and late-game encounters spread across the different environments and structures of the End. |
+| ☁️ **The Aether** | Custom spawns across the four Skyroot biomes, including starters, fossils, Paradox Pokémon, Ultra Beasts, and Legendaries. |
+| 🌑 **The Otherside** | Encounters primarily focused on Ghost, Dark, Dragon, Psychic, and late-game content. |
+
+### 📖 Dedicated Guides
+
+- [☁️ **Aether Spawns**](mods-guides/worlds_and_dimensions/aether.md)
+- [🌑 **The Otherside Spawns**](mods-guides/worlds_and_dimensions/deeper_and_darker.md)
 
 {% hint style="info" %}
-The dedicated dimension guides contain complete biome-by-biome encounter lists, including Ultra Rare levels and important conditions.
+💡 The dedicated dimension guides present encounters **biome by biome**, along with rarity levels and special conditions whenever they are relevant.
 {% endhint %}
 
 ---
 
-## 🧭 Biomes and Biome Tags
+## 🧭 Biomes and biome tags
 
-The datapack primarily organizes environments through biome tags such as:
+The datapack uses **biome tags** to group together multiple environments that share the same characteristics.
 
-- `#cobblemon:is_forest`
-- `#cobblemon:is_ocean`
-- `#cobblemon:is_cave`
-- `#cobblemon:is_mountain`
-- `#cobblemon:is_floral`
-- `#cobblemon:is_otherside`
-- `#aether:is_aether`
+For example:
 
-A biome tag can group Vanilla biomes and compatible modded biomes under the same environmental category. This allows similar locations to share appropriate Pokémon without requiring every biome to be configured separately in every spawn file.
+- `#cobblemon:is_forest` → forest environments
+- `#cobblemon:is_ocean` → ocean environments
+- `#cobblemon:is_cave` → caves and underground environments
+- `#cobblemon:is_mountain` → mountains and mountainous terrain
+- `#cobblemon:is_floral` → vegetation-rich environments
+- `#cobblemon:is_otherside` → The Otherside environments
+- `#aether:is_aether` → Aether environments
 
-⮕ Open the [Biome Tags Reference](pokemons-guides/biome-tags-reference.md) to view the tags and supported biomes used by the modpack.
+The same tag can group together **Vanilla biomes and biomes added by mods**, allowing a spawn rule to be defined without having to list every biome individually.
+
+⮕ Check the [**Biome Tag Reference**](pokemons-guides/biome-tags-reference.md) to find the tags used by the modpack and their associated biomes.
 
 ---
 
-## ⚙️ Conditions That Can Affect a Spawn
+## ⚙️ Spawn conditions
+
+Spawns can use many different conditions. Here are the main ones to know.
 
 <details>
 <summary><strong>🌤️ Time, weather, and moon phases</strong></summary>
 
-Some Pokémon are restricted to:
+Some Pokémon are only available during certain periods or under specific weather conditions.
 
-- daytime
-- nighttime
-- dusk
-- rain
-- clear weather
-- specific moon phases
+This may include:
 
-These conditions are especially important for Ghost-types, nocturnal Pokémon, weather-related forms, and several rare encounters.
+- ☀️ Daytime
+- 🌙 Nighttime
+- 🌅 Dusk
+- 🌧️ Rain
+- ☁️ Certain weather conditions
+- 🌕 Certain moon phases
+
+These conditions are notably used for nocturnal, Ghost-type, or weather-related Pokémon.
 
 </details>
 
 <details>
-<summary><strong>💡 Light, sky access, and elevation</strong></summary>
+<summary><strong>💡 Light, sky, and altitude</strong></summary>
 
-A spawn rule may check:
+A spawn may also depend on the light level or the height at which it occurs.
 
-- minimum or maximum sky light
-- total local light
-- whether the Pokémon can see the sky
-- minimum or maximum Y level
-- underground or surface positioning
+The rules may check:
 
-This is why entering the correct biome may not be enough for cave, mountain, deep underground, or low-light encounters.
+- 💡 Sky light level
+- 🔦 General light level
+- ☀️ Direct access to the sky
+- ⛰️ A minimum or maximum Y altitude
+- 🕳️ An underground or surface position
+
+Therefore, finding the correct biome is not always enough for a spawn in a **cave, mountain, or deep underground**.
 
 </details>
 
 <details>
 <summary><strong>🏛️ Structures and special locations</strong></summary>
 
-Some Pokémon can appear only inside or near particular structures, including examples such as:
+Some Pokémon have spawns linked to **specific structures** rather than a traditional biome.
 
-- villages
-- ruins
-- shipwrecks and shipwreck coves
-- Ocean Monuments
-- Strongholds
-- Ancient Cities
-- the Otherside Ancient Temple
-- Aether dungeons
+This may notably include:
 
-Structure encounters may use different levels or rarity buckets from the same Pokémon's normal wilderness spawns.
+- 🏘️ Villages
+- 🏚️ Ruins
+- ⚓ Shipwrecks
+- 🌊 Ocean monuments
+- 🌌 End structures
+- 🕳️ Ancient Cities
+- 🏛️ The Ancient Temple in The Otherside
+- 🗝️ Aether dungeons
 
-</details>
-
-<details>
-<summary><strong>🧱 Nearby blocks and terrain</strong></summary>
-
-Certain encounters depend on nearby blocks or the surface beneath the spawn. Examples include:
-
-- flowers and special trees
-- water or lava
-- ores and gemstones
-- redstone components
-- Lightning Rods
-- Cobblemon PCs and machines
-- natural stone, deepslate, foliage, or dimension-specific blocks
-
-These rules are used for environmental storytelling and special hunts such as technological, mineral, floral, or elemental Pokémon.
+These encounters may use different rarity levels and conditions from natural spawns.
 
 </details>
 
 <details>
-<summary><strong>🌊 Water, fishing, treetops, and other positions</strong></summary>
+<summary><strong>🧱 Blocks and nearby environment</strong></summary>
 
-Pokémon may use different spawn position types:
+Some Pokémon also check the **blocks present around the spawn point**.
 
-- grounded
-- submerged
-- water surface
-- seafloor
-- fishing
-- treetop or elevated foliage encounters
+These may include:
 
-Fishing rules can also depend on the rod, lure level, or bait being used.
+- 🌸 Specific flowers and vegetation
+- 🌳 Special trees
+- 💧 Water or lava
+- 💎 Ores and gems
+- 🔴 Redstone components
+- ⚡ Lightning rods
+- 💻 PCs and Cobblemon machines
+- 🪨 Stone, Deepslate, and other blocks specific to certain dimensions
+
+These conditions make it possible to create spawns adapted to **technological, mineral, floral, or elemental** Pokémon.
+
+</details>
+
+<details>
+<summary><strong>🌊 Water, fishing, and special positions</strong></summary>
+
+The exact spawn position may also be taken into account.
+
+For example, a Pokémon may spawn:
+
+- 🌱 On the ground
+- 🌊 In water
+- 🐟 On the surface of the water
+- 🪸 On the ocean floor
+- 🎣 Through fishing
+- 🌳 In treetops or foliage
+
+Fishing-related spawns may also depend on the **rod, lure, or bait used**.
 
 </details>
 
 ---
 
-## ✨ Understanding Rarity
+## ✨ Understanding rarity
 
-Cobblemon Realms uses four main encounter buckets:
+Encounters are divided into **four main rarity categories**:
 
-| Rarity | General meaning |
-|:---:|---|
-| Common | Frequently available when the required conditions are met |
-| Uncommon | Less frequent encounters that may still be found through regular exploration |
-| Rare | Scarce encounters, often with narrower environmental requirements |
-| Ultra Rare | The most difficult natural encounters, including many starters, fossils, Paradox Pokémon, Ultra Beasts, Legendary Pokémon, and Mythical Pokémon |
+| ✨ Rarity | 📖 Meaning |
+| --- | --- |
+| 🟢 **Common** | Frequent encounter when the conditions are met. |
+| 🔵 **Uncommon** | Less frequent encounter, but relatively accessible. |
+| 🟣 **Rare** | Uncommon encounter that often requires more specific conditions. |
+| 🟡 **Ultra Rare** | Encounters that are extremely difficult to obtain naturally. |
+
+The **Ultra Rare** categories notably include many starters, fossils, Paradox Pokémon, Ultra Beasts, as well as Legendary and Mythical Pokémon.
 
 {% hint style="info" %}
-The same Pokémon can appear in more than one rarity bucket when it has several separate spawn rules. Always check the exact environment and conditions rather than relying only on its name.
+💡 <strong>A Pokémon can have multiple spawns with different rarities.</strong> Its rarity therefore depends on the spawn rule being used, and not solely on the species.
 {% endhint %}
 
 ---
 
-## 🔎 Using `/checkspawns`
+## 🔎 Finding Pokémon in-game
 
-Use `/checkspawns` in-game to inspect the Pokémon that can currently spawn around your position.
+### `/checkspawns`
 
-This is useful because the result reflects your current environment, including the biome and active world conditions.
+The `/checkspawns` command displays the Pokémon that may spawn **at your current position**.
+
+It notably takes your environment and the conditions currently active into account.
 
 {% hint style="warning" %}
-A listed Pokémon may still require a specific time, light level, weather condition, structure, nearby block, height, or spawn position before it can actually appear.
+⚠️ A Pokémon displayed by `/checkspawns` may still require an additional condition: <strong>time, weather, light, altitude, structure, specific block, or spawn position</strong>.
 {% endhint %}
 
 ---
 
-## 🤖 Discord Integration
+## 🤖 Searching for a Pokémon on Discord
 
-The **@Our Story** Discord bot can search the spawn data remotely, allowing you to find a Pokémon without travelling through every biome in-game.
+The **@Our Story** Discord bot also allows you to search for spawn data without having to explore the different biomes in-game.
 
-### 📋 Available Commands
+### 📋 Commands
 
-| Language | Command |
-|:---:|---|
+| 🌐 Language | 💬 Command |
+| --- | --- |
 | 🇬🇧 English | `/where <pokemon_name>` |
 | 🇫🇷 French | `/tesou <pokemon_name>` |
 | 🇩🇪 German | `/wobistdu <pokemon_name>` |
-| 🇯🇵 Japanese, Rōmaji | `/doko <pokemon_name>` |
+| 🇯🇵 Japanese / Rōmaji | `/doko <pokemon_name>` |
 
-The result can include dimensions, biome tags, direct biome IDs, levels, rarity, and special conditions when available. Pokémon with broad habitat coverage may return very long lists.
+The results may notably display:
+
+- 🌍 The dimension
+- 🧭 Biome tags
+- 🗺️ The relevant biomes
+- 📊 Encounter level
+- ✨ Its rarity
+- ⚙️ Special conditions
 
 {% hint style="success" %}
-Use the bot before travelling to plan rare hunts, compare dimensions, and identify the most suitable biome for a target Pokémon.
+<p align="center">
+## 💡 Prepare your hunt before you set out!
+
+The bot allows you to quickly identify the dimensions and environments where you should search for a rare Pokémon.
+</p>
 {% endhint %}
 
 ---
 
-## 🧠 Hunting Tips
+## 🧠 Tips for your hunts
 
-- Check the dedicated Aether or Otherside guide before hunting in those dimensions.
-- Verify both the biome and the time of day.
-- Explore vertically when searching for cave, mountain, or deep underground encounters.
-- Inspect structures and unusual block formations instead of searching only in open terrain.
-- Remember that fishing, submerged, seafloor, and treetop encounters use different spawn positions.
-- Use `/checkspawns` for your current location and the Discord bot for global research.
-- Consult the [Biome Tags Reference](pokemons-guides/biome-tags-reference.md) when a spawn result uses a tag instead of a direct biome name.
+### 🌍 Prepare your search
 
-⮕ Learn more about improved wild encounters in [Spawn Improvements](pokemons-guides/wild-boost-mechanics.md).
+Before setting out to search for a Pokémon:
 
-⮕ Discover custom species and variants in the [Exclusive Forms](pokemons-exclusives/mewtwo-exclusive-forms.md) section.
+- 🔎 Check its **spawn biomes**
+- 🌤️ Check the **time and weather**
+- ✨ Identify its **rarity**
+- 🌍 Check whether it spawns in a **specific dimension**
+- 🏛️ Check whether a **structure** is required
+
+### 🗺️ Explore intelligently
+
+Don't limit yourself to the surface:
+
+- ⛰️ Explore **mountains and high elevations**
+- 🕳️ Descend into **caves and deep areas**
+- 🌊 Explore **oceans and the ocean floor**
+- 🎣 Consider **fishing**
+- 🏛️ Inspect **structures and special locations**
+- 🌳 Check **treetops and foliage**
+
+### 🛠️ Use the right tools
+
+| 🛠️ Tool | 🎯 Purpose |
+| --- | --- |
+| `/checkspawns` | Check possible spawns **around you** |
+| 🤖 **@Our Story** | Search for spawns **remotely** |
+| 📖 [Biome Tags](pokemons-guides/biome-tags-reference.md) | Understand biome categories |
+| ☁️ [Aether Guide](mods-guides/worlds_and_dimensions/aether.md) | Explore Aether spawns |
+| 🌑 [The Otherside Guide](mods-guides/worlds_and_dimensions/deeper_and_darker.md) | Explore The Otherside spawns |
 
 ---
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
-If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
+Have a question about spawns, missing information, or an error to report?<br>
+Join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
