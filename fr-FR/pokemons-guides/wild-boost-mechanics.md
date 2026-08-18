@@ -78,11 +78,11 @@ Votre **KO Streak** influence également les chances qu’un Pokémon sauvage ap
 Votre **Capture Streak** influence la qualité des IV des Pokémon sauvages de l’espèce ciblée.
 
 | Capture Streak | IV parfaits garantis |
-| ---: | ---: |
+| :---: | :---: |
 | 5+ | 1 |
 | 10+ | 2 |
 | 20+ | 3 |
-| 30+ | — |
+| 30+ | - |
 
 {% hint style="success" %}
 💡 En capturant régulièrement la même espèce, vous pouvez progressivement garantir davantage d’**IV parfaits** sur ses futures apparitions.
