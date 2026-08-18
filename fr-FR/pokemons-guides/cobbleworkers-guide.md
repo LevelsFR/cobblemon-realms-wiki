@@ -75,7 +75,6 @@ Cobblemon Realms utilise une configuration personnalisée afin d'attribuer des r
 ## ☝🏼 Conseils
 
 {% hint style="success" %}
-
 ### ✅ Conseils pratique :
 
 - Configurez les Workers via `cobbleworkers.json`
