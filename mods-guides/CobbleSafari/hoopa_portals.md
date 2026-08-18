@@ -1,4 +1,4 @@
-# 🌌 Hoopa Portal
+# 🌀 Hoopa Portal
 
 <p align="center">
 During your adventures, you may come across strange portals floating in the world.
