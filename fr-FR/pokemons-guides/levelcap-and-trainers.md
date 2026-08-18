@@ -17,7 +17,7 @@ La progression des dresseurs dans <strong>Cobblemon Realms</strong> repose sur t
 
 ***
 
-# 🌍 Guide Freeroam — Jouer sans Level Cap
+# 🌍 Guide Freeroam - Jouer sans Level Cap
 
 {% hint style="info" %}
 Le **Mode Freeroam** vous permet de mettre temporairement votre progression scénarisée en pause afin d’explorer librement le monde, entraîner vos Pokémon jusqu’au **niveau 100** et profiter du modpack sans restriction de niveau.
@@ -292,7 +292,7 @@ Les récompenses peuvent notamment inclure :
 Pour découvrir le fonctionnement détaillé du système de dresseurs, consultez les ressources suivantes :
 
 * 📘 [**Documentation officielle de Radical Trainers**](https://srcmc.gitlab.io/rct/docs/0.13/)
-* 📦 [**More Radical Trainers — Datapack**](https://modrinth.com/datapack/more-radical-trainers)
+* 📦 [**More Radical Trainers - Datapack**](https://modrinth.com/datapack/more-radical-trainers)
 
 ---
 
