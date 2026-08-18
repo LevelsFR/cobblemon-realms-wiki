@@ -59,7 +59,7 @@ Dans la liste des catégories, sélectionnez `Guide de bienvenue`.
 
 Tout en bas du menu, vous trouverez un `Realms Coin`. Cliquez dessus pour entrer en mode `Freeroam`.
 
-## 🔄 Reprendre votre progression
+### 🔄 Reprendre votre progression
 
 Vous pouvez revenir à votre aventure principale **à n’importe quel moment**.
 
@@ -72,7 +72,7 @@ Vous pouvez revenir à votre aventure principale **à n’importe quel moment**.
 ✅ Votre progression restera exactement au même endroit.
 {% endhint %}
 
-## ✨ Pourquoi utiliser le Freeroam ?
+### ✨ Pourquoi utiliser le Freeroam ?
 
 Le Freeroam est particulièrement intéressant si vous souhaitez :
 
