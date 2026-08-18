@@ -37,7 +37,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
 
 ### 🗝️ How to obtain
 
-To obtain Uxie, you must find the [Lake of Knowledge](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#lac-savoir)
+To obtain Uxie, you must find the [Lake of Knowledge](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lac-savoir)
 
 In the lake's cavern, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (U)`.
 
@@ -49,7 +49,7 @@ The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <s
 </p>
 {% endhint %}
 
-You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -90,7 +90,7 @@ You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`.
 
 ### 🗝️ How to Obtain
 
-To obtain Mesprit, you must find [Lake Verity](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#lac-verite)
+To obtain Mesprit, you must find [Lake Verity](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lac-verite)
 
 In the lake's cave, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (M)`.
 
@@ -102,7 +102,7 @@ The <strong>(M)</strong> in <strong>Proof of Conquest (M)</strong> stands for <s
 </p>
 {% endhint %}
 
-You will also receive a `Mesprit's Feather` after using the `Proof of Conquest (M)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive a `Mesprit's Feather` after using the `Proof of Conquest (M)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -155,7 +155,7 @@ The <strong>(A)</strong> in <strong>Proof of Conquest (A)</strong> stands for <s
 </p>
 {% endhint %}
 
-You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -197,11 +197,11 @@ You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. B
 
 ### 🗝️ How to Obtain
 
-To obtain Dialga, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
+To obtain Dialga, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
-Once in front of the [Dialga Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Dialga**, with **2% chance of it being Shiny**.
+Once in front of the [Dialga Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Dialga**, with **2% chance of it being Shiny**.
 
-You will also receive a `Time Sphere` after using the pedestal. By combining it with the two other Spheres and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#arceus).
+You will also receive a `Time Sphere` after using the pedestal. By combining it with the two other Spheres and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -243,11 +243,11 @@ You will also receive a `Time Sphere` after using the pedestal. By combining it 
 
 ### 🗝️ How to Obtain
 
-To obtain Palkia, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia).
+To obtain Palkia, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
-Once in front of the [Palkia Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Palkia**, with **2% chance of it being Shiny**.
+Once in front of the [Palkia Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Palkia**, with **2% chance of it being Shiny**.
 
-You will also receive a `Lustrous Orb` after using the pedestal. By combining it with the two other Orbs and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#arceus).
+You will also receive a `Lustrous Orb` after using the pedestal. By combining it with the two other Orbs and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -289,9 +289,9 @@ You will also receive a `Lustrous Orb` after using the pedestal. By combining it
 
 ### 🗝️ How to Obtain
 
-To obtain Heatran, you must find the [Zenith Cave](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/nether_world#grotte-zenith) in the Nether. This immense cavern contains numerous chests, as well as several hidden chests containing excellent loot.
+To obtain Heatran, you must find the [Zenith Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/nether_world#grotte-zenith) in the Nether. This immense cavern contains numerous chests, as well as several hidden chests containing excellent loot.
 
-Once in front of the [Heatran Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals), use a `Magma Stone`, crafted from **7 Magma Blocks** and **2 Netherite Scraps**, to summon a **level 50 Heatran**, with a **2% chance of it being Shiny**.
+Once in front of the [Heatran Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Magma Stone`, crafted from **7 Magma Blocks** and **2 Netherite Scraps**, to summon a **level 50 Heatran**, with a **2% chance of it being Shiny**.
 
 ---
 
@@ -332,15 +332,15 @@ Once in front of the [Heatran Pedestal](https://wiki.cobblemon-realms.com/fr-FR/
 
 ### 🗝️ How to Obtain
 
-To obtain Regigigas, you must first summon [Regirock](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#regirock), [Regice](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#regice), [Registeel](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_3#registeel), [Regieleki](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_8#regieleki) and [Regidrago](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_8#regidrago) using their pedestals. You will then obtain a total of five tablets: `Regirock Tablet`, `Regice Tablet`, `Registeel Tablet`, `Regieleki Tablet` and `Regidrago Tablet`.
+To obtain Regigigas, you must first summon [Regirock](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_3#regirock), [Regice](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_3#regice), [Registeel](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_3#registeel), [Regieleki](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_8#regieleki) and [Regidrago](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_8#regidrago) using their pedestals. You will then obtain a total of five tablets: `Regirock Tablet`, `Regice Tablet`, `Registeel Tablet`, `Regieleki Tablet` and `Regidrago Tablet`.
 
 By combining these five tablets, you will craft a `Titan Key`.
 
-Once you have the `Titan Key`, head to the [Snowpoint Temple](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regigigas Lock`. Behind it are a long corridor leading to a `Sanctuary Block` that must be deactivated, a library filled with loot, as well as Regigigas's summoning room.
+Once you have the `Titan Key`, head to the [Snowpoint Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regigigas Lock`. Behind it are a long corridor leading to a `Sanctuary Block` that must be deactivated, a library filled with loot, as well as Regigigas's summoning room.
 
 In the summoning room, walk over each of the circles to light them up. Once all the circles have been activated, a **level 70 Regigigas will appear**, with a **2% chance of being Shiny**.
 
-You will also receive a `Titan Core` after activating the floor. It can be used to craft the [Titan Pauldron](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/regi_pauldrons) or the [Titan Hammer](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/titan_hammer).
+You will also receive a `Titan Core` after activating the floor. It can be used to craft the [Titan Pauldron](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/regi_pauldrons) or the [Titan Hammer](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/titan_hammer).
 
 ---
 
@@ -431,7 +431,7 @@ For more information, go directly to the page: [Distortion World](https://our-st
 
 ### 🗝️ How to Obtain
 
-To obtain Cresselia, you must use a `Full Moon Whistle`. Craft and use a `Full Moon Whistle` from `5 Lunar Feathers`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/dream_catcher).
+To obtain Cresselia, you must use a `Full Moon Whistle`. Craft and use a `Full Moon Whistle` from `5 Lunar Feathers`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher).
 
 Once you have obtained the whistle, right-click while holding it to summon Cresselia, with a **2% chance of it being Shiny**.
 
@@ -474,7 +474,7 @@ Once you have obtained the whistle, right-click while holding it to summon Cress
 
 ### 🗝️ How to Obtain
 
-To obtain Darkrai, you must use a `New Moon Whistle`. Craft and use a `New Moon Whistle` from `5 Nightmare Essences`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/dream_catcher). Warning: having a nightmare can be painful.
+To obtain Darkrai, you must use a `New Moon Whistle`. Craft and use a `New Moon Whistle` from `5 Nightmare Essences`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher). Warning: having a nightmare can be painful.
 
 Once you have obtained the whistle, right-click while holding it to summon Darkrai, with a **2% chance of it being Shiny**.
 
@@ -519,7 +519,7 @@ Once you have obtained the whistle, right-click while holding it to summon Darkr
 
 To obtain Arceus, you must use the `Azure Flute` to access the `Hall of Origin`.
 
-To do so, you must first summon [Dialga](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#palkia) and [Giratina](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#giratina) using their pedestals. You will then obtain three Orbs: `Time Sphere`, `Spatial Sphere` and `Antimatter Sphere`. By combining them with a `Celestial Flute`, you will craft the `Azure Flute`.
+To do so, you must first summon [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia) and [Giratina](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#giratina) using their pedestals. You will then obtain three Orbs: `Time Sphere`, `Spatial Sphere` and `Antimatter Sphere`. By combining them with a `Celestial Flute`, you will craft the `Azure Flute`.
 
 Once you have the `Azure Flute` in hand, right-click to be teleported to the `Origin Hall`. At the top of the stairs, a **level 90 Arceus will appear**, with a **2% chance of it being Shiny**.
 
