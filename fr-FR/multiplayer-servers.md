@@ -20,7 +20,7 @@ Vous pouvez rejoindre **n'importe quel serveur compatible avec la version actuel
 
 {% hint style="info" %}
 <p align="center">
-💡 Certains serveurs peuvent utiliser des **règles, mods supplémentaires ou fonctionnalités personnalisées** qui ne sont pas présentes dans l'installation de base de Cobblemon Realms.
+💡 Certains serveurs peuvent utiliser des <strong>règles, mods supplémentaires ou fonctionnalités personnalisées</strong> qui ne sont pas présentes dans l'installation de base de Cobblemon Realms.
 </p>
 {% endhint %}
 
