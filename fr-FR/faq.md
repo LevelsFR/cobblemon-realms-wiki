@@ -1,10 +1,13 @@
 # ❓ Foire aux questions
 
+<p align="center"> 
 Vous avez une question sur **Cobblemon Realms** ? Vous trouverez ici les réponses aux problèmes et questions les plus courants concernant l'installation, le gameplay, le multijoueur et le fonctionnement du modpack.
+</p>
 
 {% hint style="info" %}
-<p align="center">
-💡 <strong>Vous ne trouvez pas votre réponse ?</strong><br>
+## 💡 <strong>Vous ne trouvez pas votre réponse ?</strong><br>
+
+<p align="center"> 
 Consultez les guides associés ou contactez-nous directement sur <a href="https://discord.gg/kb8NSTF45n">Discord</a>.
 </p>
 {% endhint %}
