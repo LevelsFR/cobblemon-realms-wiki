@@ -1,107 +1,144 @@
-# ✨ Amélioration des apparitions
+# ✨ Optimiser les apparitions
 
-## 📈 Suivi de progression
+## 📈 Chasser une espèce et améliorer ses apparitions
 
 {% hint style="info" %}
-<p align="center">Certaines fonctionnalités du modpack suivent vos captures et vos combats contre les Pokémon sauvages. Cette page présente les différents systèmes concernés et leur fonctionnement.</p>
+Les K.O. et les captures de Pokémon sauvages ne servent pas uniquement à remplir votre Pokédex. En vous concentrant sur une même espèce, vous pouvez créer des **séries** et améliorer certaines caractéristiques des Pokémon qui apparaîtront ensuite autour de vous.
 {% endhint %}
 
-***
+## 🧮 Comment fonctionne le système ?
 
-## 🧮 Comment fonctionne le suivi ?
+Chaque espèce possède ses propres statistiques de **K.O.** et de **captures** pour chaque joueur.
 
-Chaque joueur possède deux ensembles de statistiques distinctes :
+| Statistique | Fonctionnement |
+| --- | --- |
+| ⚔️ **KO Count** | Nombre total de K.O. réalisés sur une espèce |
+| 🔥 **KO Streak** | Nombre de K.O. consécutifs sur la même espèce |
+| 🎯 **Capture Count** | Nombre total de captures d’une espèce |
+| 🧬 **Capture Streak** | Nombre de captures consécutives de la même espèce |
 
-* **KO Count & Streak** : nombre de fois où un joueur a mis K.O. une espèce spécifique, ainsi que le nombre de K.O. consécutifs sur cette espèce.
-* **Compteur de captures et série** : nombre de captures d’une espèce, et nombre de fois consécutives où elle a été capturée.
+Une série fonctionne simplement :
 
-Pour chaque action :
+- Vous mettez K.O. un **Pikachu**, puis un autre Pikachu → votre série Pikachu continue.
+- Vous mettez ensuite K.O. un **Rattata** → la série Pikachu s’arrête et la série Rattata commence à 1.
+- Les séries de **K.O.** et de **captures** sont suivies séparément.
 
-* Si vous **mettez K.O. ou capturez** un Pokémon de la même espèce que le précédent, votre **série continue** et le compteur augmente.
-* Si vous changez d’espèce, la **série est réinitialisée** à 1 pour la nouvelle espèce.
-* Les données de K.O. et de captures sont **suivies séparément**, permettant un suivi précis de chaque action.
+{% hint style="warning" %}
+⚠️ Changer d’espèce réinitialise la série en cours pour la nouvelle espèce. Les compteurs totaux, eux, restent enregistrés.
+{% endhint %}
 
-Ces données sont enregistrées dans votre profil joueur et peuvent influencer les apparitions futures de Pokémon sauvages autour de vous.
+Les données sont enregistrées individuellement dans votre profil et peuvent influencer les Pokémon sauvages qui apparaissent autour de vous, généralement dans un rayon de **64 blocs**.
 
-***
+## 🔥 Quels bonus pouvez-vous obtenir ?
 
-## 🔥 Effets sur les apparitions
+En vous concentrant sur une même espèce, vos séries peuvent améliorer plusieurs caractéristiques des Pokémon sauvages :
 
-Les données que vous accumulez affectent directement les caractéristiques des Pokémon sauvages qui apparaissent autour de vous (généralement dans un rayon de 64 blocs). Ces effets incluent les **talents cachés**, les **taux de shiny**, et les **IV parfaits garantis**.
+| Bonus | Série concernée | Effet |
+| --- | --- | --- |
+| 🧠 **Talent caché** | K.O. | Augmente les chances d’obtenir le talent caché |
+| ✨ **Shiny** | K.O. | Améliore progressivement le taux de Shiny |
+| 🧬 **IV parfaits** | Captures | Garantit certains IV parfaits |
 
-***
+---
 
-### 🎯 Chance d’avoir un Talent Caché
+## 🧠 Talent caché
 
-La probabilité qu’un Pokémon sauvage apparaisse avec son **talent caché** augmente si :
+Les chances qu’un Pokémon sauvage apparaisse avec son **talent caché** augmentent lorsque vous vous spécialisez sur cette espèce.
 
-* Vous êtes le **dernier joueur** à avoir mis K.O. cette espèce.
-* Ou vous avez mis K.O. **au moins 99 Pokémon** de cette espèce.
+La condition est remplie si :
+
+- vous êtes le **dernier joueur** à avoir mis K.O. cette espèce ;
+- ou vous avez mis K.O. **au moins 99 Pokémon** de cette espèce.
 
 {% hint style="success" %}
-➡️ Par défaut : **20 % de chance** (1 sur 5) si une des conditions est remplie.
+✨ Lorsqu’une des conditions est remplie, la probabilité d’obtenir le talent caché est de **20 % (1 chance sur 5)** par défaut.
 {% endhint %}
 
-***
+---
 
-### ✨ Augmentation du taux de Shiny
+## ✨ Taux de Shiny
 
-Les taux d’apparition de Pokémon shiny augmentent selon votre **série de K.O.** :
+Votre **KO Streak** influence également les chances qu’un Pokémon sauvage apparaisse en version Shiny.
 
-| KO Streak     | Taux de Shiny |
-| ------------- | ------------- |
-| Aucune / <100 | 1 / 8196      |
-| 100+          | 2 / 8196      |
-| 300+          | 3 / 8196      |
-| 500+          | 4 / 8196      |
+| KO Streak | Taux de Shiny |
+| :---: | :---: |
+| Aucune / moins de 100 | 1 / 8196 |
+| 100+ | 2 / 8196 |
+| 300+ | 3 / 8196 |
+| 500+ | 4 / 8196 |
 
 {% hint style="success" %}
-➡️ Garder une longue série de K.O. sur une espèce augmente vos **chances de rencontrer un shiny**.
+🔥 Plus votre série de K.O. est longue, plus vos chances de rencontrer un **Shiny de cette espèce** augmentent.
 {% endhint %}
 
-***
+---
 
-### 🧬 IV Parfaits Garantis
+## 🧬 IV parfaits
 
-Le nombre d’**IV parfaits garantis** pour un Pokémon sauvage dépend de votre **série de captures** :
+Votre **Capture Streak** influence la qualité des IV des Pokémon sauvages de l’espèce ciblée.
 
-| Capture Streak | IV Parfaits Garantis |
-| -------------- | -------------------- |
-| 5+             | 1                    |
-| 10+            | 2                    |
-| 20+            | 3                    |
-| 30+            | —                    |
+| Capture Streak | IV parfaits garantis |
+| ---: | ---: |
+| 5+ | 1 |
+| 10+ | 2 |
+| 20+ | 3 |
+| 30+ | — |
 
 {% hint style="success" %}
-💡 Plus vous capturez la même espèce à la suite, meilleure sera la qualité des IV des prochaines apparitions.
+💡 En capturant régulièrement la même espèce, vous pouvez progressivement garantir davantage d’**IV parfaits** sur ses futures apparitions.
 {% endhint %}
 
-***
+## 🎯 Comment optimiser une espèce ?
 
-### 🧠 Comment les points sont calculés
+Si votre objectif est de chasser une espèce précise, concentrez vos actions sur **la même espèce** plutôt que de changer constamment de cible.
 
-En arrière-plan, vos actions (K.O., captures, séries) vous font gagner des **points**, utilisés pour évaluer les effets sur les apparitions :
+### ⚔️ Pour améliorer les talents cachés et les Shinys
 
-* Les **séries de K.O. et de captures** rapportent les points les plus influents.
-* Chaque système de bonus (talent caché, shiny, IV) utilise une méthode de calcul différente basée sur ces points.
+Maintenez une **longue série de K.O.** sur l’espèce recherchée.
 
-Plus vous êtes cohérent avec une espèce particulière, plus vous influencez ses futures apparitions.
+Plus votre série augmente, plus vous pouvez profiter des bonus liés aux K.O., notamment les améliorations du taux de Shiny.
 
-***
+### 🎯 Pour améliorer les IV
 
-## ✅ Résumé
+Maintenez une **série de captures** sur l’espèce recherchée afin d’atteindre progressivement les différents paliers d’IV parfaits.
 
-* 🧩 K.O. ou captures d’une même espèce pour créer des **séries**
-* 📈 Les séries augmentent vos chances de Pokémon **rares, puissants ou shiny**
-* 📍 Les effets s’appliquent uniquement aux Pokémon sauvages proches
-* 👤 Toutes les données sont liées à votre **profil joueur individuel**
+{% hint style="info" %}
+💡 Les séries de K.O. et de captures sont indépendantes. Vous pouvez donc utiliser les deux systèmes pour optimiser différents aspects d’une même espèce.
+{% endhint %}
 
-Utilisez ces mécaniques pour **chasser efficacement** ou **optimiser les caractéristiques** des Pokémon que vous ciblez !
+<details>
+
+<summary><strong>🧠 Fonctionnement avancé du système</strong></summary>
+
+Les actions réalisées sur une espèce génèrent des **points** utilisés par le système d’apparition pour déterminer les différents bonus applicables aux Pokémon sauvages.
+
+Les séries de K.O. et de captures constituent les éléments les plus importants de ce calcul. Chaque bonus possède ensuite ses propres règles pour déterminer son effet final.
+
+En pratique, il n’est pas nécessaire de calculer ces points manuellement : il suffit de maintenir vos séries sur l’espèce que vous souhaitez cibler.
+
+</details>
+
+## ✅ À retenir
+
+| 🎯 Objectif | 🛠️ Action recommandée |
+| --- | --- |
+| 🧠 Talent caché | Mettre régulièrement K.O. la même espèce |
+| ✨ Shiny | Maintenir une longue **KO Streak** |
+| 🧬 IV parfaits | Maintenir une longue **Capture Streak** |
+| 📈 Optimisation générale | Se concentrer sur une seule espèce |
+
+{% hint style="success" %}
+## 🎯 En résumé : 
+
+Plus vous vous concentrez sur une même espèce, plus vous pouvez influencer favorablement ses futures apparitions. Maintenez vos séries, choisissez votre cible et utilisez ces bonus pour optimiser vos chasses !
+{% endhint %}
 
 ***
 
 {% hint style="success" %}
 ## Nous contacter
 
-<p align="center">Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.</p>
+<p align="center">
+Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
+</p>
 {% endhint %}
