@@ -281,7 +281,15 @@ Un **Ho-Oh niveau 60 apparaîtra** alors, avec **2 % de chances d'être chromati
 
 Pour obtenir **Celebi**, vous devez d'abord fabriquer une `GS Ball` à partir de `Noigrume Jaune` et d'un `Fragment de Netherite`.
 
-![Recette de fabrication de la GS Ball](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/gs_ball.png) ![Sanctuaire d'Ilex](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/sanctuaire_illex.png)
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/gs_ball.png" width="300" >
+  <figcaption style="text-align: center;">Recette de fabrication de la GS Ball</figcaption>
+</figure> 
+
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/sanctuaire_illex.png" width="300" >
+  <figcaption style="text-align: center;">Sanctuaire d'Ilex</figcaption>
+</figure>
 
 Une fois la GS Ball obtenue, vous devez trouver le `Sanctuaire d'Ilex`, qui apparaît naturellement dans les biomes sombres et inquiétants :
 
