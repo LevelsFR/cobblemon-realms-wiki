@@ -1,197 +1,197 @@
-# 📋 Liste des missions
+# 📋 Quest List
 
 {% hint style="info" %}
 <p align="center">
-📌 Cette page répertorie les contacts et les missions disponibles par défaut dans <strong>CobbleSafari</strong>. Les modpacks et les serveurs peuvent toutefois <strong>désactiver, ajouter ou modifier</strong> ces missions. Pensez donc à consulter leur documentation pour connaître les éventuelles modifications.
+📌 This page lists the contacts and quests available by default in <strong>CobbleSafari</strong>. Modpacks and servers can, however, <strong>disable, add, or modify</strong> these quests. Be sure to check their documentation for any changes.
 </p>
 {% endhint %}
 
 <p align="center">
-L'application <strong>Messagerie</strong> de votre <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/motismart"><strong>Motismart</strong></a> constitue un véritable <strong>système de missions</strong>. Vos contacts vous envoient des messages, vous confient des tâches et vous récompensent une fois celles-ci accomplies. Certaines missions vous permettront également de découvrir et d'apprendre à utiliser les différentes fonctionnalités ajoutées par <strong>CobbleSafari</strong>.
+The <strong>Messaging</strong> app on your <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/motismart"><strong>Motismart</strong></a> is a true <strong>quest system</strong>. Your contacts send you messages, assign you tasks, and reward you once they are completed. Some quests will also allow you to discover and learn how to use the various features added by <strong>CobbleSafari</strong>.
 </p>
 
 ***
 
-## ⚙️ Fonctionnement des missions
+## ⚙️ How Quests Work
 
-### 💬 Des conversations évolutives
+### 💬 Evolving Conversations
 
-Chaque contact possède une **conversation** composée de plusieurs missions. Chaque tâche est accompagnée d'un texte d'ambiance et vous rapporte une récompense une fois terminée. Dans la plupart des cas, la mission suivante apparaît peu après.
+Each contact has a **conversation** consisting of several quests. Each task is accompanied by flavor text and rewards you once completed. In most cases, the next quest appears shortly afterward.
 
-### 🎯 Trois types de missions
+### 🎯 Three Types of Quests
 
-Les missions peuvent prendre **trois formes** :
+Quests can take **three forms**:
 
-- 🏆 **Avancement** - accomplissez un avancement précis.
-- 📊 **Statistique** - augmentez une statistique d'une certaine valeur.
-- 📦 **Objets** - rassemblez les objets demandés et remettez-les au contact.
+- 🏆 **Advancement** - complete a specific advancement.
+- 📊 **Statistic** - increase a statistic by a certain amount.
+- 📦 **Items** - gather the requested items and hand them over to the contact.
 
-### 📈 Suivez votre progression
+### 📈 Track Your Progress
 
-La **barre de progression** située sous chaque mission se met à jour en temps réel. Une fois celle-ci remplie, cliquez dessus pour **récupérer votre récompense** !
+The **progress bar** located below each quest updates in real time. Once it is filled, click on it to **claim your reward**!
 
-### 🔒 Des missions à débloquer
+### 🔒 Quests to Unlock
 
-Certaines conversations, ainsi que certaines missions individuelles, restent **cachées jusqu'à ce que vous remplissiez un prérequis**, généralement un avancement prouvant que vous avez déjà découvert la fonctionnalité concernée.
+Some conversations, as well as certain individual quests, remain **hidden until you meet a prerequisite**, usually an advancement proving that you have already discovered the feature in question.
 
 ***
 
-## 👻 Motisma
+## 👻 Rotom
 
 {% hint style="info" %}
 <p align="center">
-<strong>Disponible dès le départ</strong>, Motisma est votre compagnon attitré et celui qui donne vie à votre Motismart.
+<strong>Available from the start</strong>, Rotom is your dedicated companion and the one who brings your Motismart to life.
 </p>
 {% endhint %}
 
-Discuter régulièrement avec lui est essentiel : **chaque jour, Motisma débloque une nouvelle application** et vous propose une mission vous permettant d'en découvrir progressivement le fonctionnement. Sa progression s'étend sur plusieurs jours, avec **une seule mission par jour**. Chaque étape fait ainsi office de tutoriel et vous guide à travers les différentes fonctionnalités du Motismart.
+Talking to him regularly is essential: **every day, Rotom unlocks a new app** and offers you a quest allowing you to gradually discover how it works. His progression spans several days, with **only one quest per day**. Each step therefore serves as a tutorial and guides you through the various features of the Motismart.
 
 <p align="center">
-<strong>Suivez sa quête jusqu'au bout pour débloquer l'ensemble des applications du Motismart.</strong>
+<strong>Follow his quest all the way through to unlock all of the Motismart's apps.</strong>
 </p>
 
-| Jour | Déblocage | Type d'objectif | Condition | Récompense |
+| Day | Unlock | Objective Type | Condition | Reward |
 | --- | --- | --- | --- | :---: |
-| 1 | - | Avancement | **Rotomphone 101** - posséder un Motismart | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> + une offre d'échange GTS personnelle |
-| 2 | **Application GTS** | Avancement | **Dénicheur de bonnes affaires** - effectuer un échange via la GTS | Un Holo-Skin de couleur aléatoire |
-| 3 | **Application Holo-Skin** | Avancement | **Coup de neuf** - changer l'apparence de votre téléphone pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Ticket Échange Miracle" width="32"></a>³ + Un Holo-Skin de couleur aléatoire |
-| 4 | **Application Échange Miracle** | Avancement | **Dépendance au jeu** - utiliser l'Échange Miracle 6 fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Ticket Échange Miracle" width="32"></a>³ + Un Holo-Skin de couleur aléatoire |
-| 5 | **Application Paramètres** | Avancement | **Des hauts et des bas** - utiliser Roto-Glisse pour la première fois | Un Holo-Skin de couleur aléatoire |
-| 6 | **Application Salle Union** | Avancement | **Sociable** - ouvrir un salon de la Salle Union | Un Holo-Skin de couleur aléatoire |
+| 1 | - | Advancement | **Rotomphone 101** - own a Motismart | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> + a personal GTS trade offer |
+| 2 | **GTS App** | Advancement | **Bargain Hunter** - complete a trade through the GTS | A random-colored Holo-Skin |
+| 3 | **Holo-Skin App** | Advancement | **Fresh New Look** - change the appearance of your phone for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a>³ + A random-colored Holo-Skin |
+| 4 | **Miracle Trade App** | Advancement | **Game Addiction** - use Miracle Trade 6 times | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a>³ + A random-colored Holo-Skin |
+| 5 | **Settings App** | Advancement | **Ups and Downs** - use Roto-Glide for the first time | A random-colored Holo-Skin |
+| 6 | **Union Room App** | Advancement | **Sociable** - open a Union Room | A random-colored Holo-Skin |
 
 {% hint style="info" %}
 <p align="center">
-Les Holo-Skins de couleur sont sélectionnés parmi les <strong>20 recolorations classiques</strong>. Le jeu ne vous attribuera jamais un skin que vous possédez déjà.
+Colored Holo-Skins are selected from the <strong>20 classic recolors</strong>. The game will never award you a skin that you already own.
 </p>
 {% endhint %}
 
 <p align="center">
-Retrouvez l'ensemble des skins disponibles sur la <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Liste des Holo-Skins du Motismart</strong></a>.
+Find all available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Motismart Holo-Skin List</strong></a>.
 </p>
 
 ***
 
 ## 🦋 Hayley
 
-**Disponible dès le départ**, Hayley est la gardienne de la Dimension Safari et votre guide pour tout ce qui s'y déroule.
+**Available from the start**, Hayley is the guardian of the Safari Dimension and your guide for everything that takes place there.
 
-| Jour | Type d'objectif | Condition | Récompense | Attend le lendemain |
+| Day | Objective Type | Condition | Reward | Waits Until the Next Day |
 | --- | --- | --- | :---: | :---: |
-| 1 | Avancement | **Bienvenue au safari** - entrer dans la Dimension Safari pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ | Non |
-| 2 | Avancement | **Attrapeur Safari débutant** - capturer 10 Pokémon sauvages dans la Dimension Safari | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Boue-Boule" width="32"></a>⁸ | Non |
-| 3 | Avancement | **Fan de boue certifié** - lancer une Balle Boue pour la première fois | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Appât" width="32"></a>⁸ | Non |
-| 4 | Avancement | **Des snacks gratuits, pas de questions** - lancer un appât sur un Pokémon sauvage | Kit Safari : <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Boue-Boule" width="32"></a>⁸ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Appât" width="32"></a>⁸ | Oui |
-| 5 | Avancement | **Géographe du Safari** - visiter tous les biomes de la Dimension Safari | Kit Safari (comme indiqué ci-dessus) | Oui |
+| 1 | Advancement | **Welcome to the Safari** - enter the Safari Dimension for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ | No |
+| 2 | Advancement | **Novice Safari Catcher** - catch 10 wild Pokémon in the Safari Dimension | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Mud Ball" width="32"></a>⁸ | No |
+| 3 | Advancement | **Certified Mud Enjoyer** - throw a Mud Ball for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Bait" width="32"></a>⁸ | No |
+| 4 | Advancement | **Free Snacks, No Questions Asked** - throw bait at a wild Pokémon | Safari Kit: <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Mud Ball" width="32"></a>⁸ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Bait" width="32"></a>⁸ | Yes |
+| 5 | Advancement | **Safari Geographer** - visit all biomes in the Safari Dimension | Safari Kit (as shown above) | Yes |
 
-### 📅 Progression de Hayley
+### 📅 Hayley's Progression
 
-Les **trois premiers jours** s'enchaînent directement : vous pouvez donc les accomplir au cours de la même session.
+The **first three days** follow one another directly: you can therefore complete them during the same session.
 
-La mission du **jour 6** n'apparaît qu'après avoir obtenu l'avancement **Sociable**, c'est-à-dire après avoir ouvert un salon de la Salle Union. Hayley doit s'assurer que votre GTS est opérationnelle avant de pouvoir vous proposer un échange.
+The **day 6** quest only appears after obtaining the **Sociable** advancement, that is, after opening a Union Room. Hayley needs to make sure your GTS is operational before she can offer you a trade.
 
 ***
 
-### 🔄 Missions quotidiennes
+### 🔄 Daily Quests
 
-Une fois que vous avez **débloqué toutes les applications de votre Motismart**, Hayley commence à vous proposer des **missions quotidiennes répétables**.
+Once you have **unlocked all the apps on your Motismart**, Hayley begins offering you **repeatable daily quests**.
 
-Chaque jour, elle vous confie une mission aléatoire et vous propose une récompense aléatoire.
+Each day, she gives you a random quest and offers you a random reward.
 
 {% hint style="warning" %}
 <p align="center">
-⏰ Vous avez <strong>jusqu'à la fin de la journée</strong> pour terminer votre mission. Si vous dépassez le délai, celle-ci expire simplement et vous perdez la récompense associée.
+⏰ You have <strong>until the end of the day</strong> to complete your quest. If you exceed the time limit, it simply expires and you lose the associated reward.
 </p>
 {% endhint %}
 
-La **première mission quotidienne** est toujours la même : capturer **5 Pokémon dans la Dimension Safari** en échange d'une offre d'échange GTS personnelle.
+The **first daily quest** is always the same: catch **5 Pokémon in the Safari Dimension** in exchange for a personal GTS trade offer.
 
-Par la suite, les objectifs et les récompenses sont tirés aléatoirement.
+After that, the objectives and rewards are randomly selected.
 
-### 🎯 Objectifs possibles
+### 🎯 Possible Objectives
 
-| Objectif | Quantité |
+| Objective | Quantity |
 | --- | :---: |
-| Capturer des Pokémon dans la Dimension Safari | 8 |
-| Utiliser des appâts dans la Dimension Safari | 16 |
-| Utiliser des Balles Boue dans la Dimension Safari | 16 |
-| Passer du temps dans la Dimension Safari | 10 minutes |
+| Catch Pokémon in the Safari Dimension | 8 |
+| Use bait in the Safari Dimension | 16 |
+| Use Mud Balls in the Safari Dimension | 16 |
+| Spend time in the Safari Dimension | 10 minutes |
 
-### 🎁 Récompenses possibles
+### 🎁 Possible Rewards
 
-| Récompense | Détails |
+| Reward | Details |
 | --- | :---: |
-| Offre d'échange GTS personnelle | Provenant de l'un de ses amis dresseurs |
-| Tickets | 2 à 4 tickets - <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Ticket Échange Miracle" width="32"></a> ou <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png" title="Ticket GTS" width="32"></a> |
-| Holo-Skin | Un skin aléatoire que vous ne possédez pas encore |
-| Safari Balls | 16 à 32 |
+| Personal GTS trade offer | From one of her trainer friends |
+| Tickets | 2 to 4 tickets - <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a> or <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png" title="GTS Ticket" width="32"></a> |
+| Holo-Skin | A random skin that you do not already own |
+| Safari Balls | 16 to 32 |
 
-L'objectif et la récompense sont **tirés indépendamment** : toutes les combinaisons sont donc possibles.
+The objective and reward are **selected independently**: all combinations are therefore possible.
 
-Si une récompense ne peut pas être attribuée *par exemple parce que vous possédez déjà tous les Holo-Skins ou que vous avez atteint votre limite d'offres d'échange personnelles* Hayley vous remet à la place des **tickets d'Échange Miracle et de GTS**.
+If a reward cannot be awarded *for example because you already own all the Holo-Skins or have reached your personal trade offer limit* Hayley instead gives you **Miracle Trade and GTS tickets**.
 
 ***
 
-### 🥚 L'œuf de Phione
+### 🥚 The Phione Egg
 
-Une fois l'avancement **Attrapeur Safari légendaire** obtenu - qui vous demande de capturer **250 Pokémon sauvages dans la Dimension Safari** - Hayley vient vous voir avec une mission pour le moins particulière.
+Once you have obtained the **Legendary Safari Catcher** advancement - which requires you to catch **250 wild Pokémon in the Safari Dimension** - Hayley comes to you with a rather unusual quest.
 
-Le Safari a fait éclore un **Phione** et cherche désormais quelqu'un capable d'en prendre soin. Mais avant de vous le confier, Hayley veut s'assurer que vous êtes un dresseur digne de confiance.
+The Safari has hatched a **Phione** and is now looking for someone capable of taking care of it. But before entrusting it to you, Hayley wants to make sure that you are a trustworthy trainer.
 
-### 💎 Les Pierres d'Évolution
+### 💎 Evolution Stones
 
-Pour faire vos preuves, vous devrez **rassembler un bloc de chacune des 10 Pierres d'Évolution** :
+To prove yourself, you will need to **gather a block of each of the 10 Evolution Stones**:
 
-- 🌅 **Pierre Aube**
-- 🌑 **Pierre Nuit**
-- 🔥 **Pierre Feu**
-- 🧊 **Pierre Glace**
-- 🍃 **Pierre Plante**
-- 🌙 **Pierre Lune**
-- ✨ **Pierre Brillante**
-- ☀️ **Pierre Soleil**
-- ⚡ **Pierre Foudre**
-- 💧 **Pierre Eau**
+- 🌅 **Dawn Stone**
+- 🌑 **Dusk Stone**
+- 🔥 **Fire Stone**
+- 🧊 **Ice Stone**
+- 🍃 **Leaf Stone**
+- 🌙 **Moon Stone**
+- ✨ **Shiny Stone**
+- ☀️ **Sun Stone**
+- ⚡ **Thunder Stone**
+- 💧 **Water Stone**
 
 {% hint style="warning" %}
 <p align="center">
-⚠️ Ces pierres <strong>ne peuvent pas être trouvées dans la Dimension Safari</strong>. Cette mission vous demandera donc de prouver que vous maîtrisez aussi bien la Safari que le monde extérieur.
+⚠️ These stones <strong>cannot be found in the Safari Dimension</strong>. This quest will therefore require you to prove that you are just as capable in the Safari as you are in the outside world.
 </p>
 {% endhint %}
 
 {% hint style="success" %}
 <p align="center">
-🎁 <strong>Récompense :</strong> une offre d'échange GTS personnelle permettant d'obtenir le <strong>Phione</strong>.
+🎁 <strong>Reward:</strong> a personal GTS trade offer allowing you to obtain <strong>Phione</strong>.
 </p>
 {% endhint %}
 
 ***
 
-## ❓ Inconnu
+## ❓ Unknown
 
-**Caché jusqu'à votre première entrée dans le Monde Distorsion**, après avoir obtenu l'avancement ***C’est l’Upside Down ?*** !
+**Hidden until your first entry into the Distortion World**, after obtaining the ***Is that the Upside-down?*** advancement!
 
-Une seule conversation vous attend, provenant d'un mystérieux interlocuteur qui refuse de révéler son identité... et qui n'apprécie visiblement pas que vous vous soyez retrouvé dans le Monde Distorsion.
+Only one conversation awaits you, coming from a mysterious interlocutor who refuses to reveal their identity... and who clearly does not appreciate that you found yourself in the Distortion World.
 
-| Jour | Type d'objectif | Condition | Récompense |
+| Day | Objective Type | Condition | Reward |
 | --- | --- | --- | --- |
-| 1 | Avancement | **Ombre estompée** - vaincre le boss à la fin du Monde Distorsion | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png" title="Fragment de la Chaîne Rouge" width="32"></a> |
+| 1 | Advancement | **Faded Shadow** - defeat the boss at the end of the Distortion World | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/redchain_fragment.png" title="Red Chain Fragment" width="32"></a> |
 
-### 🔗 Mission d'Inconnu
+### 🔗 Unknown's Quest
 
-La récompense contient **exactement huit fragments**, soit le nombre nécessaire pour fabriquer une **Chaîne Rouge**.
+The reward contains **exactly eight fragments**, which is the number required to craft a **Red Chain**.
 
 {% hint style="info" %}
 <p align="center">
-Consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a> pour découvrir comment utiliser la Chaîne Rouge.</strong></a>.
+Check the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page to discover how to use the Red Chain.</strong></a>.
 </p>
 {% endhint %}
 
 ***
 
 {% hint style="success" %}
-## Nous contacter
+## Contact Us
 
 <p align="center">
-Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
+If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
