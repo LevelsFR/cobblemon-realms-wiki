@@ -106,6 +106,7 @@ The **resurrection machine** allows you to bring discovered fossils back to life
 - 🌋 Volcanic and aquatic areas are highly rewarding
 - 🧭 Mark important structures
 - 🎯 Hybrid fossils provide strategic choices
+</p>
 {% endhint %}
 
 ---
