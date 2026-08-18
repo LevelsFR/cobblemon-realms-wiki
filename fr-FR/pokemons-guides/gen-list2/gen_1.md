@@ -38,17 +38,17 @@ Au cœur de Kanto reposent les premières légendes du monde Pokémon. Des oisea
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir Artikodin, vous devez fabriquer une [Urne du Givre](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) et vaincre 50 Pokémon de type Glace, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
+Pour obtenir Artikodin, vous devez fabriquer une [Urne du Givre](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) et vaincre 50 Pokémon de type Glace, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
 
 Une fois l’urne remplie, il suffit de faire un clic droit avec celle-ci en main et un **Artikodin niveau 40 apparaîtra**, avec **2% de chance d’être chromatique**.
 
-Vous recevrez également une `Pierre Arctique` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#informations-generales-3).
+Vous recevrez également une `Pierre Arctique` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Forme de Galar
 
-Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) !
+Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) !
 
 ---
 
@@ -90,17 +90,17 @@ Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https:
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir Électhor, vous devez fabriquer une [Urne des Tempêtes](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) et vaincre 50 Pokémon de type Électrik, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
+Pour obtenir Électhor, vous devez fabriquer une [Urne des Tempêtes](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) et vaincre 50 Pokémon de type Électrik, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
 
 Une fois l’urne remplie, il suffit de faire un clic droit avec celle-ci en main et un **Électhor niveau 40 apparaîtra**, avec **2% de chance d’être chromatique**.
 
-Vous recevrez également une `Pierre Fulgurante` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#lugia).
+Vous recevrez également une `Pierre Fulgurante` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Forme de Galar
 
-Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) !
+Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) !
 
 ---
 
@@ -142,17 +142,17 @@ Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https:
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir Sulfura, vous devez fabriquer une [Urne de Braises](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) et vaincre 50 Pokémon de type Feu, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
+Pour obtenir Sulfura, vous devez fabriquer une [Urne de Braises](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) et vaincre 50 Pokémon de type Feu, soit en combat rapproché, soit via des combats Pokémon, tout en ayant l’urne dans votre inventaire.
 
 Une fois l’urne remplie, il suffit de faire un clic droit avec celle-ci en main et un **Sulfura niveau 40 apparaîtra**, avec **2% de chance d’être chromatique**.
 
-Vous recevrez également une `Pierre Fusion` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#lugia).
+Vous recevrez également une `Pierre Fusion` lors de l’utilisation de l’urne remplie, que vous pourrez assembler avec les deux autres pierres des oiseaux légendaires pour fabriquer la `Pierre du Vortex`, permettant d’obtenir [Lugia](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Forme de Galar
 
-Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) !
+Pour obtenir la forme de Galar, utilisez simplement une [Urne Galarienne](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/urns_and_galarian_urns) !
 
 ---
 
