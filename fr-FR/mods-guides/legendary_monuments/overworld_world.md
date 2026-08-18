@@ -754,6 +754,8 @@ Structure permettant de trouver le portail vers le <strong>Monde de Distorsion</
 
 - 📌 Biome : Apparaît dans tous les souterrains de l'Overworld, comme le Stronghold.
 
+***
+
 {% hint style="success" %}
 ## Nous contacter
 
