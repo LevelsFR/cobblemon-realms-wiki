@@ -2,161 +2,182 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns v6.0</strong> afin de proposer des rencontres cohérentes, variées et adaptées à chaque environnement du modpack. Les apparitions des Pokémon peuvent dépendre des biomes, des dimensions, de l’heure, de la météo, de la lumière, des structures, des blocs à proximité, de l’altitude et de nombreuses autres conditions du monde.
+<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns v6.0</strong> pour proposer des apparitions adaptées à chaque environnement du modpack. 🌍<br>
+Un Pokémon peut apparaître selon son <strong>biome</strong>, la <strong>dimension</strong>, l'<strong>heure</strong>, la <strong>météo</strong>, la <strong>luminosité</strong>, l'<strong>altitude</strong>, les <strong>structures</strong>, les <strong>blocs environnants</strong> et bien d'autres conditions.
 </p>
 {% endhint %}
 
 ---
 
-## 📚 Ce que couvre ce guide
+## 🧭 Comment fonctionne le système ?
 
-| 📌 Sujet | 📋 Contenu |
-|:---:|---|
-| 🌍 Zones d’apparition | Overworld, Nether, End, Aether et The Otherside |
-| 🧭 Règles environnementales | Biomes, tags de biome, altitude, lumière, météo et heure |
-| 🏛️ Rencontres spéciales | Structures, blocs à proximité, pêche et autres conditions |
-| ✨ Rareté | Rencontres communes, peu communes, rares et Ultra Rares |
-| 🔎 Outils de recherche | Méthodes en jeu et sur Discord pour trouver des Pokémon |
+Contrairement à un système où chaque Pokémon serait simplement associé à un biome, **chaque espèce possède ses propres règles d'apparition**.
 
----
+Un même Pokémon peut donc disposer de plusieurs apparitions différentes :
 
-## 🌍 Fonctionnement du système d’apparition
-
-Un Pokémon n’est pas associé à un seul biome. Chaque espèce peut posséder plusieurs règles d’apparition indépendantes, lui permettant d’apparaître dans différents environnements, à différents niveaux ou sous différentes conditions.
-
-Par exemple, un même Pokémon peut avoir :
-
-- une apparition commune en forêt pendant la journée
-- une apparition plus rare la nuit dans un autre biome
-- une rencontre exclusive à une structure
-- une apparition Ultra Rare dans une dimension spéciale
+| 🌿 Exemple | 📍 Situation |
+| --- | --- |
+| ☀️ Apparition commune | Forêt pendant la journée |
+| 🌙 Apparition rare | Autre biome pendant la nuit |
+| 🏛️ Rencontre spéciale | À proximité d'une structure |
+| ✨ Apparition Ultra Rare | Dans une dimension particulière |
 
 {% hint style="warning" %}
-Un biome ne garantit pas toujours à lui seul qu’un Pokémon puisse apparaître. L’heure, la météo, le niveau de lumière, l’altitude, les blocs à proximité, les structures et la position d’apparition peuvent également être requis.
+⚠️ <strong>Entrer dans le bon biome ne garantit pas une apparition.</strong> D'autres conditions peuvent être nécessaires, comme l'heure, la météo, la luminosité, l'altitude, la position d'apparition ou encore la présence de certains blocs.
 {% endhint %}
 
 ---
 
-## 🗺️ Principales zones d’apparition
+## 📚 Ce que vous trouverez dans ce guide
 
-| Monde ou dimension | Rôle général dans le système d’apparition |
-|---|---|
-| 🌎 **Overworld** | Monde de chasse principal, avec des rencontres réparties entre les biomes naturels, les grottes, les océans, les structures et les terrains modifiés |
-| 🔥 **Nether** | Rencontres liées au feu, à la lave, aux fossiles, aux ruines et aux structures, avec plusieurs espèces rares |
-| 🌌 **End** | Rencontres rares, inhabituelles et late-game dans les biomes, îles et structures de l’End |
-| ☁️ **The Aether** | Vastes groupes personnalisés dans les quatre biomes Skyroot, avec des starters, fossiles, Pokémon Paradoxes, Ultra-Chimères et Pokémon légendaires |
-| 🌑 **The Otherside** | Rencontres Spectre, Ténèbres, Dragon, Psy et late-game dans les quatre biomes de Deeper and Darker |
+| 📌 Section | 🔎 Ce qu'elle explique |
+| --- | --- |
+| 🌍 **Dimensions** | Les différentes zones dans lesquelles les Pokémon peuvent apparaître |
+| 🧭 **Biomes & tags** | Le fonctionnement des catégories de biomes utilisées par le datapack |
+| ⚙️ **Conditions** | Heure, météo, lumière, altitude, structures, blocs et positions |
+| ✨ **Rareté** | Les différentes catégories de rencontres |
+| 🔎 **Recherche** | `/checkspawns` et les outils Discord |
+| 🧠 **Conseils** | Quelques méthodes pour optimiser vos recherches |
 
-### 📖 Guides des dimensions
+---
 
-- [☁️ Guide des apparitions de l’Aether](mods-guides/worlds_and_dimensions/aether.md)
-- [🌑 Guide des apparitions de The Otherside](mods-guides/worlds_and_dimensions/deeper_and_darker.md)
+## 🌍 Dimensions et zones d'apparition
+
+Chaque dimension possède ses propres environnements et donc ses propres groupes de Pokémon.
+
+| 🌎 Dimension | 📝 Fonctionnement général |
+| --- | --- |
+| 🌎 **Overworld** | Principal terrain d'exploration : forêts, océans, grottes, montagnes, structures et autres environnements naturels. |
+| 🔥 **Nether** | Rencontres adaptées aux environnements volcaniques, à la lave, aux fossiles, aux ruines et aux structures du Nether. |
+| 🌌 **End** | Pokémon rares et rencontres de fin de progression répartis dans les différents environnements et structures de l'End. |
+| ☁️ **The Aether** | Apparitions personnalisées dans les quatre biomes Skyroot, incluant notamment des starters, fossiles, Pokémon Paradoxes, Ultra-Chimères et légendaires. |
+| 🌑 **The Otherside** | Rencontres principalement orientées Spectre, Ténèbres, Dragon, Psy et contenu de fin de progression. |
+
+### 📖 Guides dédiés
+
+- [☁️ **Apparitions de l'Aether**](mods-guides/worlds_and_dimensions/aether.md)
+- [🌑 **Apparitions de The Otherside**](mods-guides/worlds_and_dimensions/deeper_and_darker.md)
 
 {% hint style="info" %}
-Les guides dédiés aux dimensions contiennent les listes complètes des rencontres biome par biome, avec les niveaux Ultra Rares et les conditions importantes.
+💡 Les guides dédiés aux dimensions présentent les rencontres **biome par biome**, ainsi que les niveaux de rareté et les conditions particulières lorsqu'elles sont importantes.
 {% endhint %}
 
 ---
 
 ## 🧭 Biomes et tags de biome
 
-Le datapack organise principalement les environnements à l’aide de tags de biome tels que :
+Le datapack utilise des **tags de biome** afin de regrouper plusieurs environnements partageant les mêmes caractéristiques.
 
-- `#cobblemon:is_forest`
-- `#cobblemon:is_ocean`
-- `#cobblemon:is_cave`
-- `#cobblemon:is_mountain`
-- `#cobblemon:is_floral`
-- `#cobblemon:is_otherside`
-- `#aether:is_aether`
+Par exemple :
 
-Un tag de biome peut regrouper des biomes Vanilla et des biomes moddés compatibles sous une même catégorie environnementale. Des zones similaires peuvent ainsi accueillir des Pokémon adaptés sans devoir configurer chaque biome séparément dans chaque fichier d’apparition.
+- `#cobblemon:is_forest` → environnements forestiers
+- `#cobblemon:is_ocean` → environnements océaniques
+- `#cobblemon:is_cave` → grottes et environnements souterrains
+- `#cobblemon:is_mountain` → montagnes et reliefs
+- `#cobblemon:is_floral` → environnements riches en végétation
+- `#cobblemon:is_otherside` → environnements de The Otherside
+- `#aether:is_aether` → environnements de l'Aether
 
-⮕ Consultez la [Référence des tags de biome](pokemons-guides/biome-tags-reference.md) pour afficher les tags et les biomes pris en charge par le modpack.
+Un même tag peut regrouper des **biomes Vanilla et des biomes ajoutés par des mods**, permettant de définir une règle d'apparition sans devoir répertorier chaque biome individuellement.
+
+⮕ Consultez la [**Référence des tags de biome**](pokemons-guides/biome-tags-reference.md) pour retrouver les tags utilisés par le modpack et les biomes associés.
 
 ---
 
-## ⚙️ Conditions pouvant influencer une apparition
+## ⚙️ Conditions d'apparition
+
+Les apparitions peuvent utiliser de nombreuses conditions. Voici les principales à connaître.
 
 <details>
 <summary><strong>🌤️ Heure, météo et phases lunaires</strong></summary>
 
-Certains Pokémon sont limités à :
+Certains Pokémon sont uniquement disponibles à certaines périodes ou dans certaines conditions météorologiques.
 
-- la journée
-- la nuit
-- le crépuscule
-- la pluie
-- un temps dégagé
-- certaines phases lunaires
+Cela peut inclure :
 
-Ces conditions sont particulièrement importantes pour les Pokémon de type Spectre, les espèces nocturnes, les formes liées à la météo et plusieurs rencontres rares.
+- ☀️ La journée
+- 🌙 La nuit
+- 🌅 Le crépuscule
+- 🌧️ La pluie
+- ☁️ Certaines conditions météorologiques
+- 🌕 Certaines phases de la lune
 
-</details>
-
-<details>
-<summary><strong>💡 Lumière, accès au ciel et altitude</strong></summary>
-
-Une règle d’apparition peut vérifier :
-
-- une luminosité du ciel minimale ou maximale
-- la lumière locale totale
-- si le Pokémon peut voir le ciel
-- une altitude Y minimale ou maximale
-- une position souterraine ou en surface
-
-Entrer dans le bon biome ne suffit donc pas toujours pour les rencontres en grotte, en montagne, dans les grandes profondeurs ou nécessitant une faible luminosité.
+Ces conditions sont notamment utilisées pour les Pokémon nocturnes, Spectre ou liés à la météo.
 
 </details>
 
 <details>
-<summary><strong>🏛️ Structures et lieux spéciaux</strong></summary>
+<summary><strong>💡 Lumière, ciel et altitude</strong></summary>
 
-Certains Pokémon ne peuvent apparaître qu’à l’intérieur ou à proximité de structures particulières, par exemple :
+Une apparition peut également dépendre de la luminosité ou de la hauteur à laquelle elle se produit.
 
-- les villages
-- les ruines
-- les épaves et criques d’épaves
-- les monuments océaniques
-- les forteresses de l’End
-- les cités antiques
-- l’Ancient Temple de The Otherside
-- les donjons de l’Aether
+Les règles peuvent vérifier :
 
-Les rencontres liées aux structures peuvent utiliser des niveaux ou catégories de rareté différents des apparitions naturelles habituelles du même Pokémon.
+- 💡 La luminosité du ciel
+- 🔦 La lumière générale
+- ☀️ L'accès direct au ciel
+- ⛰️ Une altitude Y minimale ou maximale
+- 🕳️ Une position souterraine ou en surface
 
-</details>
-
-<details>
-<summary><strong>🧱 Blocs à proximité et terrain</strong></summary>
-
-Certaines rencontres dépendent des blocs à proximité ou de la surface située sous l’apparition. Cela peut inclure :
-
-- des fleurs et arbres spéciaux
-- de l’eau ou de la lave
-- des minerais et gemmes
-- des composants de redstone
-- des paratonnerres
-- des PC et machines Cobblemon
-- de la pierre naturelle, de l’ardoise des abîmes, du feuillage ou des blocs propres à une dimension
-
-Ces règles servent à créer une cohérence environnementale et des chasses spéciales pour les Pokémon technologiques, minéraux, floraux ou élémentaires.
+Ainsi, trouver le bon biome ne suffit pas toujours pour une apparition en **grotte, montagne ou grande profondeur**.
 
 </details>
 
 <details>
-<summary><strong>🌊 Eau, pêche, cimes et autres positions</strong></summary>
+<summary><strong>🏛️ Structures et lieux particuliers</strong></summary>
 
-Les Pokémon peuvent utiliser différents types de positions d’apparition :
+Certains Pokémon possèdent des apparitions liées à des **structures spécifiques** plutôt qu'à un biome classique.
 
-- au sol
-- immergée
-- à la surface de l’eau
-- sur le fond marin
-- par la pêche
-- dans les cimes ou le feuillage surélevé
+Cela peut notamment concerner :
 
-Les règles de pêche peuvent aussi dépendre de la canne, du niveau de leurre ou de l’appât utilisé.
+- 🏘️ Les villages
+- 🏚️ Les ruines
+- ⚓ Les épaves
+- 🌊 Les monuments océaniques
+- 🌌 Les structures de l'End
+- 🕳️ Les cités antiques
+- 🏛️ L'Ancient Temple de The Otherside
+- 🗝️ Les donjons de l'Aether
+
+Ces rencontres peuvent utiliser des niveaux de rareté et des conditions différentes des apparitions naturelles.
+
+</details>
+
+<details>
+<summary><strong>🧱 Blocs et environnement proche</strong></summary>
+
+Certains Pokémon vérifient également les **blocs présents autour du point d'apparition**.
+
+Il peut notamment s'agir de :
+
+- 🌸 Fleurs et végétation particulières
+- 🌳 Arbres spéciaux
+- 💧 Eau ou lave
+- 💎 Minerais et gemmes
+- 🔴 Composants de redstone
+- ⚡ Paratonnerres
+- 💻 PC et machines Cobblemon
+- 🪨 Pierre, ardoise des abîmes et autres blocs spécifiques à certaines dimensions
+
+Ces conditions permettent notamment de créer des apparitions adaptées aux Pokémon **technologiques, minéraux, floraux ou élémentaires**.
+
+</details>
+
+<details>
+<summary><strong>🌊 Eau, pêche et positions particulières</strong></summary>
+
+La position exacte de l'apparition peut également être prise en compte.
+
+Un Pokémon peut par exemple apparaître :
+
+- 🌱 Au sol
+- 🌊 Dans l'eau
+- 🐟 À la surface de l'eau
+- 🪸 Sur le fond marin
+- 🎣 Par la pêche
+- 🌳 Dans les cimes ou le feuillage
+
+Les apparitions liées à la pêche peuvent également dépendre de la **canne, du leurre ou de l'appât utilisé**.
 
 </details>
 
@@ -164,76 +185,105 @@ Les règles de pêche peuvent aussi dépendre de la canne, du niveau de leurre o
 
 ## ✨ Comprendre la rareté
 
-Cobblemon Realms utilise quatre catégories principales de rencontre :
+Les rencontres sont réparties en **quatre grandes catégories de rareté** :
 
-| Rareté | Signification générale |
-|:---:|---|
-| Commune | Fréquemment disponible lorsque les conditions requises sont remplies |
-| Peu commune | Rencontre moins fréquente, mais accessible lors d’une exploration normale |
-| Rare | Rencontre peu courante, souvent associée à des conditions environnementales plus précises |
-| Ultra Rare | Rencontres naturelles les plus difficiles, dont de nombreux starters, fossiles, Pokémon Paradoxes, Ultra-Chimères, Pokémon légendaires et mythiques |
+| ✨ Rareté | 📖 Signification |
+| --- | --- |
+| 🟢 **Commune** | Rencontre fréquente lorsque les conditions sont réunies. |
+| 🔵 **Peu commune** | Rencontre moins fréquente, mais relativement accessible. |
+| 🟣 **Rare** | Rencontre peu courante nécessitant souvent des conditions plus précises. |
+| 🟡 **Ultra Rare** | Rencontres extrêmement difficiles à obtenir naturellement. |
+
+Les catégories **Ultra Rare** regroupent notamment de nombreux starters, fossiles, Pokémon Paradoxes, Ultra-Chimères ainsi que des Pokémon légendaires et mythiques.
 
 {% hint style="info" %}
-Un même Pokémon peut apparaître dans plusieurs catégories de rareté lorsqu’il possède différentes règles d’apparition. Vérifiez toujours l’environnement et les conditions exactes au lieu de vous fier uniquement à son nom.
+💡 <strong>Un Pokémon peut posséder plusieurs apparitions avec des raretés différentes.</strong> Sa rareté dépend donc de la règle d'apparition utilisée, et non uniquement de l'espèce.
 {% endhint %}
 
 ---
 
-## 🔎 Utiliser `/checkspawns`
+## 🔎 Trouver les Pokémon en jeu
 
-Utilisez `/checkspawns` en jeu pour consulter les Pokémon pouvant actuellement apparaître autour de votre position.
+### `/checkspawns`
 
-Le résultat reflète votre environnement actuel, notamment le biome et les conditions actives du monde.
+La commande `/checkspawns` permet d'afficher les Pokémon susceptibles d'apparaître **à votre position actuelle**.
+
+Elle prend notamment en compte votre environnement et les conditions actuellement actives.
 
 {% hint style="warning" %}
-Un Pokémon affiché peut toujours nécessiter une heure, un niveau de lumière, une météo, une structure, un bloc à proximité, une altitude ou une position d’apparition précise avant de pouvoir réellement apparaître.
+⚠️ Un Pokémon affiché par `/checkspawns` peut toujours nécessiter une condition supplémentaire : <strong>heure, météo, lumière, altitude, structure, bloc particulier ou position d'apparition</strong>.
 {% endhint %}
 
 ---
 
-## 🤖 Intégration Discord
+## 🤖 Rechercher un Pokémon sur Discord
 
-Le bot Discord **@Our Story** peut rechercher les données d’apparition à distance. Vous pouvez ainsi trouver un Pokémon sans parcourir chaque biome en jeu.
+Le bot Discord **@Our Story** permet également de rechercher les données d'apparition sans avoir à parcourir les différents biomes en jeu.
 
-### 📋 Commandes disponibles
+### 📋 Commandes
 
-| Langue | Commande |
-|:---:|---|
+| 🌐 Langue | 💬 Commande |
+| --- | --- |
 | 🇬🇧 Anglais | `/where <pokemon_name>` |
 | 🇫🇷 Français | `/tesou <pokemon_name>` |
 | 🇩🇪 Allemand | `/wobistdu <pokemon_name>` |
-| 🇯🇵 Japonais, Rōmaji | `/doko <pokemon_name>` |
+| 🇯🇵 Japonais / Rōmaji | `/doko <pokemon_name>` |
 
-Le résultat peut inclure les dimensions, tags de biome, identifiants directs de biome, niveaux, raretés et conditions spéciales lorsqu’elles sont disponibles. Les Pokémon possédant de nombreux habitats peuvent produire des listes très longues.
+Les résultats peuvent notamment afficher :
+
+- 🌍 La dimension
+- 🧭 Les tags de biome
+- 🗺️ Les biomes concernés
+- 📊 Le niveau de la rencontre
+- ✨ Sa rareté
+- ⚙️ Les conditions particulières
 
 {% hint style="success" %}
-Utilisez le bot avant de partir afin de préparer vos chasses rares, comparer les dimensions et identifier le biome le plus adapté au Pokémon recherché.
+💡 **Préparez votre chasse avant de partir !** Le bot permet d'identifier rapidement les dimensions et les environnements dans lesquels rechercher un Pokémon rare.
 {% endhint %}
 
 ---
 
-## 🧠 Conseils de chasse
+## 🧠 Conseils pour vos chasses
 
-### 🌍 Préparation & Biomes
-* **Anticiper :** Consultez les guides de l'Aether ou de The Otherside avant de changer de dimension.
-* **Vérifier :** Validez systématiquement le biome actuel et l'heure de la journée.
-* **Décoder :** Utilisez la [Référence des tags de biome](pokemons-guides/biome-tags-reference.md) si un résultat affiche un tag générique.
+### 🌍 Préparez votre recherche
 
-### 🗺️ Exploration & Terrain
-* **Verticalité :** Explorez en hauteur (montagnes, cimes) et en profondeur (grottes, abysses).
-* **Structures :** Inspectez les formations de blocs inhabituelles plutôt que les plaines vides.
-* **Milieux :** La pêche, la plongée et le fond marin possèdent des points d'apparition distincts.
+Avant de partir à la recherche d'un Pokémon :
 
-### 🛠️ Commandes & Outils
-* **Local :** Utilisez la commande `/checkspawns` pour analyser votre position exacte.
-* **Global :** Interrogez le bot Discord pour effectuer une recherche globale.
+- 🔎 Vérifiez ses **biomes d'apparition**
+- 🌤️ Vérifiez l'**heure et la météo**
+- ✨ Identifiez sa **rareté**
+- 🌍 Vérifiez s'il apparaît dans une **dimension particulière**
+- 🏛️ Regardez si une **structure** est nécessaire
+
+### 🗺️ Explorez intelligemment
+
+Ne vous limitez pas à la surface :
+
+- ⛰️ Explorez les **montagnes et hauteurs**
+- 🕳️ Descendez dans les **grottes et profondeurs**
+- 🌊 Explorez les **océans et fonds marins**
+- 🎣 Pensez à la **pêche**
+- 🏛️ Inspectez les **structures et lieux particuliers**
+- 🌳 Vérifiez les **cimes et feuillages**
+
+### 🛠️ Utilisez les bons outils
+
+| 🛠️ Outil | 🎯 Utilité |
+| --- | --- |
+| `/checkspawns` | Vérifier les apparitions possibles **autour de vous** |
+| 🤖 **@Our Story** | Rechercher les apparitions **à distance** |
+| 📖 [Tags de biome](pokemons-guides/biome-tags-reference.md) | Comprendre les catégories de biomes |
+| ☁️ [Guide de l'Aether](mods-guides/worlds_and_dimensions/aether.md) | Explorer les apparitions de l'Aether |
+| 🌑 [Guide de The Otherside](mods-guides/worlds_and_dimensions/deeper_and_darker.md) | Explorer les apparitions de The Otherside |
 
 ---
 
 {% hint style="success" %}
-## Nous contacter
+## 📥 Nous contacter
 
 <p align="center">
-Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
+Une question sur les apparitions, une information manquante ou une erreur à signaler ?<br>
+Rejoignez-nous sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et contactez <strong>@FabLeKebab</strong> pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
 </p>
 {% endhint %}
