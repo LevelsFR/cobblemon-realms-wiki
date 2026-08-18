@@ -1,4 +1,4 @@
-# 🏛️ Structures légendaires de l'Overworld
+# 🌍🏗️ Structures légendaires de l'Overworld
 
 ## 🏯 Tour Carillon
 
