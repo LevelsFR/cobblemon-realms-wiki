@@ -1,6 +1,6 @@
 # 💡 Blocs utiles
 
-Tous les blocs ajoutés par **CobbleSafari** ne sont pas uniquement décoratifs. Certains permettent de **se téléporter, ralentissent les déplacements, projettent les créatures dans les airs ou déclenchent des pièges** lorsqu'ils sont activés..
+Tous les blocs ajoutés par **CobbleSafari** ne sont pas uniquement décoratifs. Certains permettent de **se téléporter, ralentissent les déplacements, projettent les créatures dans les airs ou déclenchent des pièges** lorsqu'ils sont activés.
 
 {% hint style="info" %}
 <p align="center">
