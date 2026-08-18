@@ -58,6 +58,28 @@
    * [🔥🏗️ Structures du Nether](mods-guides/legendary_monuments/nether_world.md)
    * [🌌🏗️ Structures de l’End](mods-guides/legendary_monuments/end_world.md)
 
+## CobbleSafari
+
+* [🦁 CobbleSafari](mods-guides/CobbleSafari/cobblesafari.md)
+  * [🎡 Dimension Safari](mods-guides/CobbleSafari/safari_dimension.md)
+    * [🐾 Pokémon du Safari](mods-guides/CobbleSafari/wild_pokemon_safari.md)
+  * [🌀 Portail d'Hoopa](mods-guides/CobbleSafari/hoopa_portals.md)
+  * [📱 Motismart](mods-guides/CobbleSafari/motismart.md)
+    * [👔 Holo-Skins du Motismart](mods-guides/CobbleSafari/holo_skin.md)
+    * [🗒️ Liste des Missions](mods-guides/CobbleSafari/list_miss.md)
+  * [🥷🏼 Combats de Boss](mods-guides/CobbleSafari/fight_boss.md)
+  * [🌌 Monde Distorsion](mods-guides/CobbleSafari/distortion_world.md)
+  * [🌐 Fonctionnalités en ligne](mods-guides/CobbleSafari/fonct_online.md)
+  * [⛏️ Souterrain de Sinnoh](mods-guides/CobbleSafari/sinnoh_underground.md)
+    * [💎 Trésors souterrain de Sinnoh](mods-guides/CobbleSafari/underground_treasure_list.md)
+  * [🌸 Parfums, Encens et Repousses](mods-guides/CobbleSafari/perfumes_incense_repels.md)
+  * [🥚 Œufs sauvages et Incubateurs](mods-guides/CobbleSafari/wild_eggs_incubators.md)
+  * [🎈 Ballons Récompenses](mods-guides/CobbleSafari/reward_balloons.md)
+  * [🏠 PC de Base Secrète](mods-guides/CobbleSafari/secret_base_pc.md)
+  * [🤝 Échanges des Marchands](mods-guides/CobbleSafari/traders_trade_list.md)
+  * [💡 Blocs Utiles](mods-guides/CobbleSafari/blocs_utiles.md)
+  * [⌨️ Commande /cobblesafari](mods-guides/CobbleSafari/cobblesafari_command.md)
+
 ## Myths & Legends
 
 * [🌟 Légendaire - Toutes les générations](pokemons-guides/myths-and-legends-legendaries.md)
@@ -120,25 +142,6 @@
 
 ## Guides des mods
 
-* [🦁 CobbleSafari](mods-guides/CobbleSafari/cobblesafari.md)
-  * [🎡 Dimension Safari](mods-guides/CobbleSafari/safari_dimension.md)
-    * [🐾 Pokémon du Safari](mods-guides/CobbleSafari/wild_pokemon_safari.md)
-  * [🌀 Portail d'Hoopa](mods-guides/CobbleSafari/hoopa_portals.md)
-  * [📱 Motismart](mods-guides/CobbleSafari/motismart.md)
-    * [👔 Holo-Skins du Motismart](mods-guides/CobbleSafari/holo_skin.md)
-    * [🗒️ Liste des Missions](mods-guides/CobbleSafari/list_miss.md)
-  * [🥷🏼 Combats de Boss](mods-guides/CobbleSafari/fight_boss.md)
-  * [🌌 Monde Distorsion](mods-guides/CobbleSafari/distortion_world.md)
-  * [🌐 Fonctionnalités en ligne](mods-guides/CobbleSafari/fonct_online.md)
-  * [⛏️ Souterrain de Sinnoh](mods-guides/CobbleSafari/sinnoh_underground.md)
-    * [💎 Trésors souterrain de Sinnoh](mods-guides/CobbleSafari/underground_treasure_list.md)
-  * [🌸 Parfums, Encens et Repousses](mods-guides/CobbleSafari/perfumes_incense_repels.md)
-  * [🥚 Œufs sauvages et Incubateurs](mods-guides/CobbleSafari/wild_eggs_incubators.md)
-  * [🎈 Ballons Récompenses](mods-guides/CobbleSafari/reward_balloons.md)
-  * [🏠 PC de Base Secrète](mods-guides/CobbleSafari/secret_base_pc.md)
-  * [🤝 Échanges des Marchands](mods-guides/CobbleSafari/traders_trade_list.md)
-  * [💡 Blocs Utiles](mods-guides/CobbleSafari/blocs_utiles.md)
-  * [⌨️ Commande /cobblesafari](mods-guides/CobbleSafari/cobblesafari_command.md)
 * [🎵 Music Interface](mods-guides/musicinterface.md)
 * [🍃 Rustling Spots](mods-guides/rustling_spots.md)
 * [🧱 Chunky pour la pré-génération du monde](mods-guides/chunky.md)
