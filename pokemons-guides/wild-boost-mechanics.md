@@ -1,106 +1,139 @@
-# 📊 Enhanced Wild Pokémon Mechanics
+# ✨ Optimizing Spawns
 
-## 📈 Progress Tracking
+## 📈 Hunting a Species and Improving Its Spawns
 
 {% hint style="info" %}
-<p align="center">
-Some features of the modpack track your captures and battles against wild Pokémon. This page explains the different systems involved and how they work.
-</p>
+K.O.s and captures of wild Pokémon are not only useful for filling your Pokédex. By focusing on the same species, you can build **streaks** and improve certain characteristics of Pokémon that will subsequently spawn around you.
 {% endhint %}
 
+## 🧮 How Does the System Work?
+
+Each species has its own **K.O.** and **capture** statistics for each player.
+
+| Statistic | How it works |
+| --- | --- |
+| ⚔️ **KO Count** | Total number of K.O.s performed on a species |
+| 🔥 **KO Streak** | Number of consecutive K.O.s on the same species |
+| 🎯 **Capture Count** | Total number of captures of a species |
+| 🧬 **Capture Streak** | Number of consecutive captures of the same species |
+
+A streak simply works as follows:
+
+- You K.O. a **Pikachu**, then another Pikachu → your Pikachu streak continues.
+- You then K.O. a **Rattata** → the Pikachu streak ends and the Rattata streak starts at 1.
+- **K.O.** and **capture** streaks are tracked separately.
+
+{% hint style="warning" %}
+⚠️ Switching species resets the current streak for the new species. Total counters, however, remain recorded.
+{% endhint %}
+
+The data is stored individually in your profile and can influence the wild Pokémon that spawn around you, generally within a radius of **64 blocks**.
+
+## 🔥 What Bonuses Can You Get?
+
+By focusing on the same species, your streaks can improve several characteristics of wild Pokémon:
+
+| Bonus | Streak concerned | Effect |
+| --- | --- | --- |
+| 🧠 **Hidden Ability** | K.O. | Increases the chances of obtaining the Hidden Ability |
+| ✨ **Shiny** | K.O. | Gradually improves the Shiny rate |
+| 🧬 **Perfect IVs** | Captures | Guarantees certain perfect IVs |
+
 ---
 
-## 🧮 How does tracking work?
+## 🧠 Hidden Ability
 
-Each player has two separate sets of statistics:
+The chances of a wild Pokémon spawning with its **Hidden Ability** increase when you specialize in that species.
 
-- **KO Count & Streak**: number of times you have defeated a specific species, as well as your consecutive KO streak for that species.
-- **Capture Count & Streak**: number of captures for a species, and how many times you have captured it consecutively.
+The condition is met if:
 
-For each action:
-
-- If you **defeat or capture** a Pokémon of the same species as the previous one, your **streak continues** and the counter increases.
-- If you switch species, the **streak resets** to 1 for the new species.
-- KO data and capture data are **tracked separately**, allowing precise monitoring of each action.
-
-These values are stored in your player profile and may influence future wild Pokémon spawns around you.
-
----
-
-## 🔥 Effects on Wild Spawns
-
-The data you accumulate directly affects the characteristics of wild Pokémon spawning near you (generally within a 64-block radius). These effects include **Hidden Abilities**, **Shiny rates**, and **guaranteed perfect IVs**.
-
----
-
-### 🎯 Hidden Ability Chance
-
-The chance for a wild Pokémon to spawn with its **Hidden Ability** increases if:
-
-- You are the **last player** who defeated that species.
-- Or you have defeated **at least 99 Pokémon** of that species.
+- you are the **last player** to have K.O.'d that species;
+- or you have K.O.'d **at least 99 Pokémon** of that species.
 
 {% hint style="success" %}
-➡️ Default bonus: **20% chance** (1 in 5) if one of these conditions is met.
+✨ When one of the conditions is met, the probability of obtaining the Hidden Ability is **20% (1 in 5)** by default.
 {% endhint %}
 
 ---
 
-### ✨ Increased Shiny Rates
+## ✨ Shiny Rate
 
-Shiny encounter rates increase depending on your **KO streak**:
+Your **KO Streak** also influences the chances of a wild Pokémon appearing as a Shiny.
 
 | KO Streak | Shiny Rate |
-|----------|------------|
-| None / <100 | 1 / 8196 |
+| :---: | :---: |
+| None / less than 100 | 1 / 8196 |
 | 100+ | 2 / 8196 |
 | 300+ | 3 / 8196 |
 | 500+ | 4 / 8196 |
 
 {% hint style="success" %}
-➡️ Maintaining a long KO streak on a species increases your **chance of finding shinies**.
+🔥 The longer your K.O. streak, the higher your chances of encountering a **Shiny of that species**.
 {% endhint %}
 
 ---
 
-### 🧬 Guaranteed Perfect IVs
+## 🧬 Perfect IVs
 
-The number of **guaranteed perfect IVs** depends on your **capture streak**:
+Your **Capture Streak** influences the IV quality of wild Pokémon of the targeted species.
 
-| Capture Streak | Guaranteed Perfect IVs |
-|---------------|------------------------|
+| Capture Streak | Guaranteed perfect IVs |
+| :---: | :---: |
 | 5+ | 1 |
 | 10+ | 2 |
 | 20+ | 3 |
-| 30+ | — |
+| 30+ | - |
 
 {% hint style="success" %}
-💡 The more you capture the same species consecutively, the better the IV quality of future encounters.
+💡 By regularly capturing the same species, you can gradually guarantee more **perfect IVs** on its future spawns.
 {% endhint %}
 
----
+## 🎯 How to Optimize a Species?
 
-### 🧠 How Points Are Calculated
+If your goal is to hunt a specific species, focus your actions on **the same species** rather than constantly switching targets.
 
-Behind the scenes, your actions (KOs, captures, streaks) generate **points**, which are used to determine spawn bonuses.
+### ⚔️ To Improve Hidden Abilities and Shinies
 
-- **KO streaks and capture streaks** provide the most impactful points.
-- Each bonus system (Hidden Abilities, shiny rates, IVs) uses different calculations based on those points.
+Maintain a **long K.O. streak** on the species you are hunting.
 
-The more consistent you are with a specific species, the more you influence its future spawns.
+The higher your streak gets, the more you can benefit from K.O.-related bonuses, particularly improvements to the Shiny rate.
 
----
+### 🎯 To Improve IVs
 
-## ✅ Summary
+Maintain a **capture streak** on the species you are hunting in order to progressively reach the different perfect IV thresholds.
 
-- 🧩 Defeat or capture the same species repeatedly to build **streaks**
-- 📈 Streaks increase your chances of finding **rare, stronger, or shiny Pokémon**
-- 📍 Effects only apply to nearby wild Pokémon
-- 👤 All progress is tied to your **individual player profile**
+{% hint style="info" %}
+💡 K.O. and capture streaks are independent. You can therefore use both systems to optimize different aspects of the same species.
+{% endhint %}
 
-Use these mechanics to **hunt more efficiently** or **optimize the Pokémon you are targeting**!
+<details>
 
----
+<summary><strong>🧠 Advanced System Mechanics</strong></summary>
+
+Actions performed on a species generate **points** used by the spawning system to determine the different bonuses applicable to wild Pokémon.
+
+K.O. and capture streaks are the most important elements of this calculation. Each bonus then has its own rules for determining its final effect.
+
+In practice, there is no need to calculate these points manually: simply maintain your streaks on the species you want to target.
+
+</details>
+
+## ✅ Key Takeaways
+
+| 🎯 Objective | 🛠️ Recommended Action |
+| --- | --- |
+| 🧠 Hidden Ability | Regularly K.O. the same species |
+| ✨ Shiny | Maintain a long **KO Streak** |
+| 🧬 Perfect IVs | Maintain a long **Capture Streak** |
+| 📈 General optimization | Focus on a single species |
+
+{% hint style="success" %}
+## 🎯 In Summary:
+
+The more you focus on the same species, the more you can favorably influence its future spawns. Maintain your streaks, choose your target, and use these bonuses to optimize your hunts!
+{% endhint %}
+
+***
 
 {% hint style="success" %}
 ## Contact Us
