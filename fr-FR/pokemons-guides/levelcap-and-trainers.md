@@ -17,13 +17,13 @@ La progression des dresseurs dans <strong>Cobblemon Realms</strong> repose sur t
 
 ***
 
-# 🌍 Guide Freeroam - Jouer sans Level Cap
+## 🌍 Guide Freeroam - Jouer sans Level Cap
 
 {% hint style="info" %}
 Le **Mode Freeroam** vous permet de mettre temporairement votre progression scénarisée en pause afin d’explorer librement le monde, entraîner vos Pokémon jusqu’au **niveau 100** et profiter du modpack sans restriction de niveau.
 {% endhint %}
 
-## ℹ️ Qu’est-ce que le Freeroam ?
+### ℹ️ Qu’est-ce que le Freeroam ?
 
 Le **Mode Freeroam** permet de désactiver temporairement les restrictions liées à votre série de dresseurs actuelle. Votre progression principale reste intacte et peut être reprise à tout moment.
 
@@ -39,7 +39,7 @@ Le **Mode Freeroam** permet de désactiver temporairement les restrictions liée
 ⚠️ Le Freeroam **ne supprime pas votre progression**. Votre série principale est simplement mise en pause pendant que vous jouez librement.
 {% endhint %}
 
-## 📖 Activer le Freeroam
+### 📖 Activer le Freeroam
 
 Suivez ces quatre étapes depuis le menu des quêtes :
 
