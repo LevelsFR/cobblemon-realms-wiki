@@ -8,7 +8,7 @@ Structure used to obtain <strong>Hoopa</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_6#hoopa)
 - 🗺️ Gameplay: exploration, puzzles, battles, and quiz
