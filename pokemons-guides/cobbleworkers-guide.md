@@ -75,13 +75,13 @@ Cobblemon Realms uses a custom configuration to assign roles that better match P
 ## ☝🏼 Tips
 
 {% hint style="success" %}
-
 ### ✅ Practical Tips:
 
 - Configure Workers through `cobbleworkers.json`
 - Match Pokémon to their environment (type → logical role)
 - Specialize roles for better efficiency
 - Place healers near frequently visited areas
+</p>
 {% endhint %}
 
 ---
