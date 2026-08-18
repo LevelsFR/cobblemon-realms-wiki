@@ -544,7 +544,7 @@ Deleting any of these items may result in world loss or prevent the server from 
 ---
 
 {% hint style="success" %}
-## 💡 Best Practices
+### 💡 Best Practices
 
 - 💾 Always keep a recent backup of your world.
 - 🔄 Make sure the server and all players are using the same modpack version.
@@ -555,12 +555,14 @@ Deleting any of these items may result in world loss or prevent the server from 
 
 ---
 
+<p align="center">🔥 Enjoy your Pokémon adventures with friends or on your own; the Realms await you! 🧭✨</p>
+
+---
+
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
 If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
-
-🔥 Enjoy your Pokémon adventures with friends or on your own; the Realms await you! 🧭✨
