@@ -1,8 +1,8 @@
-# 🌐 Fonctionnalités en ligne
+# 🌐 Online Features
 
 {% hint style="info" %}
 <p align="center">
-Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes peuvent être utilisées même en jouant seul. Le GTS permet notamment d'échanger avec des PNJ grâce aux offres personnelles, l'Échange Miracle vous permet de renouveler votre équipe avec des Pokémon aléatoires et la Salle Union vous offre un espace sécurisé disposant d'un PC et d'une machine de soin.
+Despite being referred to as <strong>online features</strong>, all of them can be used even when playing alone. The GTS notably allows you to trade with NPCs through personal offers, Wonder Trade lets you refresh your team with random Pokémon, and the Union Room provides you with a safe space equipped with a PC and a healing machine.
 </p>
 {% endhint %}
 
@@ -10,161 +10,161 @@ Malgré leur appellation de <strong>fonctionnalités en ligne</strong>, toutes p
 
 ## 🔄 Global Trade Station
 
-Le **GTS** fonctionne comme une véritable plateforme d'échange de Pokémon. Déposez un Pokémon accompagné de vos critères de recherche, puis laissez les autres joueurs ou PNJ consulter votre offre et effectuer l'échange lorsqu'ils disposent d'un Pokémon correspondant.
+The **GTS** works as a true Pokémon trading platform. Deposit a Pokémon along with your search criteria, then let other players or NPCs view your offer and complete the trade when they have a matching Pokémon.
 
-### 📥 Déposer une offre
+### 📥 Depositing an offer
 
-Sélectionnez un Pokémon de votre équipe, puis définissez les critères du Pokémon que vous souhaitez recevoir en échange.
+Select a Pokémon from your team, then define the criteria for the Pokémon you want to receive in exchange.
 
-| Critère | Description |
+| Criterion | Description |
 | --- | --- |
-| **Espèce** | Critère obligatoire. Indiquez l'espèce du Pokémon recherché. Une fonction d'autocomplétion est disponible et permet également de rechercher une **forme spécifique**, comme une variante de Galar. |
-| **Sexe** | Choisissez entre **mâle**, **femelle** ou **n'importe lequel**, cette dernière option incluant également les Pokémon sans sexe. |
-| **Niveau** | Définissez une **plage de 10 niveaux**, ou sélectionnez n'importe quel niveau. |
-| **Chromatique** | Indiquez si vous souhaitez **obligatoirement** un Pokémon chromatique ou, au contraire, si vous souhaitez l'exclure. |
+| **Species** | Mandatory criterion. Specify the species of the Pokémon you are looking for. An autocomplete function is available and also allows you to search for a **specific form**, such as a Galarian variant. |
+| **Gender** | Choose between **male**, **female**, or **any**, with the latter option also including genderless Pokémon. |
+| **Level** | Set a **10-level range**, or select any level. |
+| **Shiny** | Indicate whether you **require** a Shiny Pokémon or, conversely, whether you want to exclude it. |
 
-Une fois l'offre publiée, votre Pokémon quitte votre équipe et est conservé dans la base de données jusqu'à ce que quelqu'un effectue l'échange, que vous récupériez votre offre ou que celle-ci expire après plusieurs jours.
+Once the offer is published, your Pokémon leaves your team and is stored in the database until someone completes the trade, you retrieve your offer, or it expires after several days.
 
-### 🔎 Trouver une offre
+### 🔎 Finding an offer
 
-L'écran **Voir les offres** permet de consulter les offres actuellement disponibles et de les filtrer par espèce afin de trouver plus facilement le Pokémon recherché. Sélectionnez une offre pour consulter les critères demandés : si l'un de vos Pokémon correspond, vous pouvez effectuer l'échange immédiatement.
+The **View Offers** screen allows you to browse currently available offers and filter them by species to make it easier to find the Pokémon you are looking for. Select an offer to view its requested criteria: if one of your Pokémon matches, you can complete the trade immediately.
 
 {% hint style="info" %}
 <p align="center">
-Les échanges utilisent un système de <strong>réservation en deux étapes</strong>. Pendant votre confirmation, l'offre est temporairement réservée afin qu'un autre joueur ne puisse pas récupérer le même Pokémon. Si vous annulez l'échange ou quittez l'écran, la réservation est automatiquement libérée.
+Trades use a <strong>two-step reservation system</strong>. During your confirmation, the offer is temporarily reserved so that another player cannot claim the same Pokémon. If you cancel the trade or leave the screen, the reservation is automatically released.
 </p>
 {% endhint %}
 
-### 📦 Mes offres
+### 📦 My Offers
 
-L'écran **Mes offres** regroupe toutes vos offres actuellement actives et vous permet d'effectuer trois actions :
+The **My Offers** screen contains all your currently active offers and allows you to perform three actions:
 
-- **Déposer** - publier une nouvelle offre si vous disposez d'un emplacement disponible.
-- **Récupérer** - retirer une offre et récupérer le Pokémon que vous aviez déposé.
-- **Recevoir** - récupérer un Pokémon qu'un autre joueur ou PNJ vous a envoyé.
+- **Deposit** - publish a new offer if you have an available slot.
+- **Retrieve** - withdraw an offer and retrieve the Pokémon you had deposited.
+- **Receive** - retrieve a Pokémon that another player or NPC has sent you.
 
-Lorsqu'un échange est effectué, qu'une offre expire ou qu'elle est retirée par un administrateur, le résultat reste disponible dans cet écran jusqu'à ce que vous veniez le récupérer. **Votre Pokémon n'est jamais supprimé** : il reste dans votre boîte de réception jusqu'à sa récupération.
+When a trade is completed, an offer expires, or it is removed by an administrator, the result remains available in this screen until you retrieve it. **Your Pokémon is never deleted**: it remains in your inbox until you retrieve it.
 
-### 🎟️ Emplacements et Tickets GTS
+### 🎟️ Slots and GTS Tickets
 
-Par défaut, vous pouvez avoir **une seule offre active à la fois**. L'utilisation d'un **Ticket GTS** augmente votre nombre maximal d'offres simultanées, jusqu'à un maximum de **3 offres**.
+By default, you can have **one active offer at a time**. Using a **GTS Ticket** increases your maximum number of simultaneous offers, up to a maximum of **3 offers**.
 
-Les offres expirent par défaut après **7 jours**. Lorsqu'une offre arrive à expiration, le Pokémon que vous aviez déposé vous est automatiquement restitué via la boîte de réception.
+Offers expire by default after **7 days**. When an offer expires, the Pokémon you had deposited is automatically returned to you through the inbox.
 
-### ⭐ Offres uniques et personnelles
+### ⭐ Unique and Personal Offers
 
-Toutes les offres disponibles sur le GTS ne proviennent pas nécessairement des joueurs.
+Not all offers available on the GTS necessarily come from players.
 
-- **Offres uniques** - offres proposées par un PNJ et visibles par tous les joueurs du serveur. Elles proposent généralement des Pokémon rares ou associés à des dresseurs célèbres.
-- **Offres personnelles** - offres visibles uniquement par un joueur précis. Elles **n'expirent jamais** et sont généralement obtenues en récompense de mission.
+- **Unique Offers** - offers provided by an NPC and visible to all players on the server. They generally feature rare Pokémon or Pokémon associated with famous Trainers.
+- **Personal Offers** - offers visible only to a specific player. They **never expire** and are generally obtained as mission rewards.
 
 {% hint style="success" %}
 <p align="center">
-C'est notamment grâce aux <strong>offres personnelles</strong> que le GTS reste particulièrement intéressante lorsque vous jouez seul. Lorsqu'une mission indique qu'un contact « souhaite faire un échange avec vous », il s'agit généralement d'une offre personnelle.
+It is notably thanks to <strong>personal offers</strong> that the GTS remains particularly useful when playing alone. When a mission states that a contact "wants to trade with you", this generally refers to a personal offer.
 </p>
 {% endhint %}
 
 ***
 
-## 🎁 Échange Miracle
+## 🎁 Wonder Trade
 
-L'**Échange Miracle** vous permet d'échanger un Pokémon contre un autre Pokémon choisi aléatoirement. Vous ne savez donc jamais ce que vous allez recevoir en retour !
+**Wonder Trade** allows you to trade a Pokémon for another Pokémon chosen at random. You therefore never know what you will receive in return!
 
-### 🔄 Fonctionnement
+### 🔄 How it works
 
-Vous disposez par défaut de **3 échanges par jour**, renouvelés lors de la réinitialisation quotidienne. Pour effectuer un échange, sélectionnez un Pokémon de votre équipe et confirmez que vous souhaitez réellement vous en séparer. Une fois l'échange effectué, le Pokémon reçu vous est attribué aléatoirement.
+You have **3 trades per day** by default, renewed at the daily reset. To perform a trade, select a Pokémon from your team and confirm that you really want to part with it. Once the trade is completed, the Pokémon you receive is assigned to you at random.
 
 {% hint style="info" %}
 <p align="center">
-Le pool de l'Échange Miracle est alimenté automatiquement par le serveur. Vous n'avez donc pas besoin d'attendre qu'un autre joueur dépose un Pokémon avant de pouvoir effectuer un échange. La fonctionnalité fonctionne de la même manière que vous soyez seul ou sur un serveur très fréquenté.
+The Wonder Trade pool is automatically populated by the server. You therefore do not need to wait for another player to deposit a Pokémon before you can make a trade. The feature works the same way whether you are alone or on a busy server.
 </p>
 {% endhint %}
 
-Les Pokémon présents dans le pool depuis plus de **7 jours** sont automatiquement retirés afin de maintenir une sélection régulièrement renouvelée. Certains Pokémon peuvent également être obtenus avec une **forme cosmétique aléatoire** lorsqu'il en existe une, comme certaines formes de Prismillon, les différentes lettres de Zarbi ou encore certaines formes particulières de Pokémon.
+Pokémon that have been in the pool for more than **7 days** are automatically removed to keep the selection regularly refreshed. Some Pokémon can also be obtained with a **random cosmetic form** when one exists, such as certain Vivillon patterns, the different Unown letters, or certain special Pokémon forms.
 
 {% hint style="warning" %}
 <p align="center">
-<strong>Réfléchissez bien avant de confirmer votre échange !</strong><br>
-Une fois votre Pokémon envoyé, vous ne pourrez pas choisir le Pokémon reçu en retour.
+<strong>Think carefully before confirming your trade!</strong><br>
+Once your Pokémon has been sent, you will not be able to choose the Pokémon you receive in return.
 </p>
 {% endhint %}
 
 ### 🎟️ Tickets
 
-L'application affiche deux compteurs distincts :
+The application displays two separate counters:
 
-- **Échanges quotidiens** - vous disposez de **3 échanges par jour**. Le compteur est réinitialisé quotidiennement, même si vous n'avez pas utilisé vos échanges précédents.
-- **Tickets bonus** - obtenus en utilisant des **Tickets d'Échange Miracle**. Ils sont conservés après la réinitialisation quotidienne et peuvent être cumulés jusqu'à **64 tickets**.
+- **Daily Trades** - you have **3 trades per day**. The counter resets daily, even if you did not use your previous trades.
+- **Bonus Tickets** - obtained by using **Wonder Trade Tickets**. They are kept after the daily reset and can be accumulated up to **64 tickets**.
 
-Les échanges utilisent toujours les échanges quotidiens en priorité. Les tickets bonus ne sont consommés qu'une fois votre quota quotidien épuisé.
+Trades always use your daily trades first. Bonus tickets are only consumed once your daily quota has been exhausted.
 
-### 🎉 Événements
+### 🎉 Events
 
-Des **événements d'Échange Miracle à durée limitée** peuvent modifier temporairement le contenu du pool afin de favoriser certains thèmes. Il peut par exemple s'agir d'un événement basé sur un **type particulier**, une **rareté spécifique** ou une sélection composée d'une espèce particulière.
+Limited-time **Wonder Trade events** can temporarily modify the contents of the pool to favor certain themes. For example, this could be an event based on a **specific type**, a **specific rarity**, or a selection featuring a particular species.
 
-Lorsqu'un événement est actif, une bannière apparaît dans l'application avec un compte à rebours indiquant le temps restant. Une notification apparaît également sur l'icône de l'Échange Miracle sur l'écran d'accueil jusqu'à ce que vous ouvriez l'application.
+When an event is active, a banner appears in the application with a countdown showing the remaining time. A notification also appears on the Wonder Trade icon on the home screen until you open the application.
 
 {% hint style="info" %}
 <p align="center">
-Les événements nécessitent actuellement des <strong>privilèges administrateur</strong> pour être lancés et ne sont donc pas actifs dans le fonctionnement vanilla de CobbleSafari. Des événements automatiques et périodiques sont toutefois prévus pour de futures mises à jour.
+Events currently require <strong>administrator privileges</strong> to be launched and are therefore not active in the vanilla functionality of CobbleSafari. Automatic and periodic events are planned for future updates, however.
 </p>
 {% endhint %}
 
 ***
 
-## 👥 Salle Union
+## 👥 Union Room
 
-Inspirée des **Salles Union** des générations 3, 4 et 5, la Salle Union est une dimension privée dans laquelle vous pouvez retrouver vos amis pour combattre, échanger et passer du temps ensemble, sans être dérangé par les autres joueurs.
+Inspired by the **Union Rooms** from Generations 3, 4, and 5, the Union Room is a private dimension where you can meet up with your friends to battle, trade, and spend time together without being disturbed by other players.
 
-### 🚪 Rejoindre une Salle Union
+### 🚪 Joining a Union Room
 
-Depuis l'application, vous pouvez soit **créer une salle**, soit **rejoindre une salle existante** à l'aide d'un **code composé de 4 symboles**. Les symboles utilisés sont des Zarbi correspondant aux lettres **A à F**, ce qui permet de communiquer facilement les codes entre joueurs.
+From the application, you can either **create a room** or **join an existing room** using a **4-symbol code**. The symbols used are Unown corresponding to the letters **A to F**, making it easy to communicate codes between players.
 
-Le joueur qui crée la salle devient son **hôte**, tandis que les autres joueurs rejoignant la salle sont considérés comme des invités.
+The player who creates the room becomes its **host**, while the other players joining the room are considered guests.
 
 {% hint style="success" %}
 <p align="center">
-Lorsque vous quittez une Salle Union, vous êtes automatiquement renvoyé <strong>exactement à l'endroit où vous vous trouviez avant d'y entrer</strong>. Vous pouvez donc rejoindre une salle sans craindre de perdre votre position dans le monde !
+When you leave a Union Room, you are automatically returned <strong>exactly to the location where you were before entering it</strong>. You can therefore join a room without worrying about losing your position in the world!
 </p>
 {% endhint %}
 
-### 🏠 Salle Union ou Plaza Union ?
+### 🏠 Union Room or Union Plaza?
 
-Lors de la création d'une instance, vous pouvez choisir entre deux formats :
+When creating an instance, you can choose between two formats:
 
-|  | Salle Union | Plaza Union |
+|  | Union Room | Union Plaza |
 | --- | :---: | :---: |
-| **Taille** | Petite | Grande |
-| **Joueurs par session** | 6 | 24 |
-| **Instances simultanées** | 10 | 2 |
+| **Size** | Small | Large |
+| **Players per session** | 6 | 24 |
+| **Simultaneous instances** | 10 | 2 |
 
-La **Salle Union** convient particulièrement aux petits groupes souhaitant simplement échanger ou combattre, tandis que la **Plaza Union** est davantage adaptée aux événements réunissant un grand nombre de joueurs et permettant plusieurs combats simultanément.
+The **Union Room** is particularly suited to small groups who simply want to trade or battle, while the **Union Plaza** is better suited to events involving a large number of players and allowing multiple battles to take place simultaneously.
 
-### ⏱️ Règles et durée des sessions
+### ⏱️ Session rules and duration
 
-- Une session dure **60 minutes**. Lorsque le temps est écoulé, tous les joueurs sont automatiquement renvoyés dans le monde de départ.
-- La session prend également fin lorsque **l'hôte quitte la salle ou se déconnecte**. Tous les invités sont alors renvoyés à leur position d'origine.
-- Les joueurs peuvent quitter la salle à tout moment grâce au **téléporteur de sortie**, via leur **Motismart**, ou simplement attendre la fin du compte à rebours.
-- Certaines dimensions sont **bloquées comme points d'entrée**. Il est notamment impossible d'entrer dans une Salle Union depuis la Dimension Safari afin de contourner sa limite de temps.
+- A session lasts **60 minutes**. When the time runs out, all players are automatically returned to the starting world.
+- The session also ends when the **host leaves the room or disconnects**. All guests are then returned to their original positions.
+- Players can leave the room at any time using the **exit teleporter**, through their **Motismart**, or simply wait for the countdown to end.
+- Certain dimensions are **blocked as entry points**. In particular, it is impossible to enter a Union Room from the Safari Dimension in order to bypass its time limit.
 
-### 🛠️ Instances et personnalisation
+### 🛠️ Instances and customization
 
-Les instances de Salle Union sont **réutilisées plutôt que supprimées** après chaque session. Cela permet notamment de rendre l'entrée dans une salle déjà utilisée quasiment instantanée, mais cette particularité peut avoir des conséquences pour les administrateurs disposant du mode Créatif.
+Union Room instances are **reused rather than deleted** after each session. This notably makes entering a previously used room almost instantaneous, but this feature can have consequences for administrators using Creative mode.
 
-Un administrateur peut modifier ou personnaliser l'apparence d'une Salle Union. Si une structure est ensuite détruite ou modifiée par erreur, ces changements peuvent être conservés et apparaître lors des prochaines sessions utilisant cette instance.
+An administrator can modify or customize the appearance of a Union Room. If a structure is then accidentally destroyed or modified, these changes may be preserved and appear during future sessions using that instance.
 
 {% hint style="warning" %}
 <p align="center">
-En cas de modification indésirable d'une instance, la seule manière de restaurer complètement la structure d'origine est de <strong>supprimer le dossier de la dimension de la Salle Union</strong> afin de forcer sa réinitialisation.
+In the event of an unwanted modification to an instance, the only way to completely restore the original structure is to <strong>delete the Union Room dimension folder</strong> in order to force it to reset.
 </p>
 {% endhint %}
 
 ***
 
 {% hint style="success" %}
-## Nous contacter
+## Contact Us
 
 <p align="center">
-Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
+If you have any questions, suggestions, or modifications to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
