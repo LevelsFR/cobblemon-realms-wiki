@@ -1,10 +1,8 @@
 # 🌐 Multiplayer Servers
 
-## 🚀 Play with Other Trainers
-
 {% hint style="info" %}
 <p align="center">
-Cobblemon Realms can be played both in singleplayer and multiplayer. Whether you want to join an existing community or create your own adventure with friends, several options are available.
+<strong>Cobblemon Realms</strong> can be played both solo and in multiplayer. Join an existing community or create your own server to experience the adventure with your friends! 🧑‍🤝‍🧑
 </p>
 {% endhint %}
 
@@ -12,83 +10,86 @@ Cobblemon Realms can be played both in singleplayer and multiplayer. Whether you
 
 ## 🧑‍🤝‍🧑 Joining a Server
 
-You can join any server compatible with the current version of Cobblemon Realms.
+You can join **any server compatible with the current version of Cobblemon Realms**. Before connecting, simply make sure that your installation matches the server's.
 
-Before connecting, make sure that:
-
-- 📦 You are using the latest version of the modpack
-- ☕ Java 21 is properly installed
-- 🔄 Your client version matches the server version
+| 📦 Check | ✅ Required |
+| --- | --- |
+| **Modpack** | The same version as the server |
+| **Java** | **Java 21** |
+| **Client** | An installation compatible with the server |
 
 {% hint style="info" %}
-💡 Some servers may use custom rules, additional mods, or unique systems that differ from the base modpack.
+<p align="center">
+💡 Some servers may use <strong>rules, additional mods, or custom features</strong> that are not included in the base Cobblemon Realms installation.
+</p>
 {% endhint %}
 
 ---
 
-## 🌐 Create Your Own Server
+## 🛠️ Creating Your Own Server
 
-Creating your own server allows you to play with friends, customize your experience, and manage your own community.
+**Creating your own server** allows you to play with your friends, customize your adventure, and manage your own community.
 
-### ✅ Recommended Configuration
+### ⚙️ Recommended Configuration
 
-| ⚙️ Resource | 📋 Recommendation |
+| Resource | Recommendation |
 | --- | --- |
-| ☕ Java | Version 21 |
-| 💾 RAM | Minimum 8 GB |
-| 🌐 Network | Stable connection |
-| 💽 Storage | SSD recommended |
-| 🔓 Port | 25565 (if accessible from the internet) |
+| ☕ **Java** | Version **21** |
+| 💾 **RAM** | **8 GB minimum** |
+| 🌐 **Network** | Stable connection |
+| 💽 **Storage** | **SSD recommended** |
+| 🔓 **Port** | `25565` if the server is accessible from the Internet |
 
-📘 Check the [Installation Guide](installation.md) to install or update a server.
+📘 To install or update your server, see the [**Installation Guide**](installation.md).
 
 ---
 
-## ☁️ Recommended Hosting
+## ☁️ Hosting Your Server
 
-To avoid the constraints of self-hosting (port forwarding, maintenance, backups, and uptime), we recommend using a dedicated hosting provider.
+You can host your server directly at home, but this means managing **port forwarding, maintenance, backups, and server availability**, among other things. For a simpler solution, you can use a **specialized hosting provider**.
 
 ### 🚀 BisectHosting
 
-**BisectHosting** is the official partner of Cobblemon Realms.
+**BisectHosting** is the **official partner of Cobblemon Realms** and offers a solution specifically suited to hosting modded Minecraft servers.
 
-### ✨ Benefits
+**Some advantages:**
 
-- ⚡ One-click modpack installation
-- 🌍 Data centers worldwide
-- 🛡️ Built-in DDoS protection
+- ⚡ **One-click** modpack installation
+- 🌍 Data centers located around the world
+- 🛡️ Integrated **DDoS protection**
 - 💾 Simplified backups
-- 🔄 Easy update management
+- 🔄 Easier update management
 - 📂 Full access to server files
 
 {% hint style="success" %}
-🎁 Use the code `OURSTORY` on [BisectHosting](https://bisecthosting.com/OurStory) during checkout to receive **25% off your first month of hosting**.
+<p align="center">
+🎁 Use the code <code>OURSTORY</code> on <a href="https://bisecthosting.com/OurStory"><strong>BisectHosting</strong></a> when placing your order to receive <strong>25% off your first month of hosting</strong>.
+</p>
 {% endhint %}
 
 ---
 
 ## 🔐 Best Practices
 
-{% hint style="success" %}
-To ensure server stability:
+A well-maintained server is one that avoids many problems. In particular, remember to:
 
-- 💾 Create regular backups
-- 🔄 Keep the server updated
-- 🧱 Pre-generate your world using [Chunky](mods-guides/chunky.md)
-- ✅ Use a whitelist to control access
-- 📋 Check logs when errors or crashes occur
-{% endhint %}
+- 💾 **Regularly back up** your world
+- 🔄 Keep **the server and modpack up to date**
+- 🧱 Pre-generate your world with [**Chunky**](mods-guides/chunky.md)
+- ✅ Use a **whitelist** to control access
+- 📋 Check the **logs** in case of an error or crash
 
 {% hint style="warning" %}
-⚠️ Before every major update, create a full backup of your world and configuration files.
+⚠️ **Before any major update**, make a complete backup of your world and configuration files. A recent backup can save you from losing several hours of progress.
 {% endhint %}
 
 ---
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
-If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
+A question, suggestion, or issue regarding servers?<br>
+Join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
