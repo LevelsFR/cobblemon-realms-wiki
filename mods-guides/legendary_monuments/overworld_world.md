@@ -1,4 +1,6 @@
-# 🏯 Bell Tower
+# 🌍🏗️ Legendary Structures of the Overworld
+
+## 🏯 Bell Tower
 
 {% hint style="info" %}
 <p align="center">
@@ -8,31 +10,27 @@ Structure used to obtain <strong>Ho-Oh</strong>.
 
 ---
 
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Ho-Oh  
 - 🧗 Gameplay: vertical parkour  
 - ⚠️ Difficulty: medium / high  
 - 🎁 Loot: progression chests  
 
----
-
-## 🧗 Features
+### 🧗 Features
 
 - Ascend through parkour
 - Chests at each stage
 - Progression up to the top
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Traditional Village  
 - 🏗️ Can generate with: Burned Tower
 
-&#8203;
+***
 
-# 🔥 Burned Tower
+## 🔥 Burned Tower
 
 {% hint style="info" %}
 <p align="center">
@@ -40,33 +38,27 @@ Structure used to obtain <strong>Raikou</strong>, <strong>Entei</strong>, and <s
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain the three Legendary beasts  
 - 🏚️ Type: exploration structure  
 - ⚠️ Feature: ruined structure  
 - 🎁 Reward: event legendaries  
 
----
-
-## 🏚️ Features
+### 🏚️ Features
 
 - Ruined structure to explore
 - Encounter related to the three Legendary beasts
 - Progressive exploration of the area
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Traditional Village  
 - 🏗️ Can generate with: Bell Tower
 
-&#8203;
+***
 
-# 🏯 Dragonspiral Tower
+## 🏯 Dragonspiral Tower
 
 {% hint style="info" %}
 <p align="center">
@@ -74,18 +66,14 @@ Structure used to obtain <strong>Reshiram</strong> and <strong>Zekrom</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Reshiram & Zekrom  
 - 🏗️ Type: exploration structure  
 - 🎁 Loot: hidden chests + utility rewards  
 - ⚠️ Feature: internal progression through exploration  
 
----
-
-## 🗝️ Hidden Chests
+### 🗝️ Hidden Chests
 
 The Dragonspiral Tower contains **3 hidden chests**.
 
@@ -94,9 +82,7 @@ They can contain:
 - 🍬 XP Candies  
 - 🎁 Various utility items  
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 The structure appears in **plains-type biomes and similar environments**.
 
@@ -153,9 +139,9 @@ The structure appears in **plains-type biomes and similar environments**.
 
 </details>
 
-&#8203;
+***
 
-# 🌳 Dyna Tree
+## 🌳 Dyna Tree
 
 {% hint style="info" %}
 <p align="center">
@@ -163,18 +149,14 @@ Structure used to obtain <strong>Dyna Fruits</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Dyna Fruits  
 - 🏗️ Type: natural structure  
 - 🎁 Reward: special fruits  
 - ⚠️ Feature: chest located at the base of the tree  
 
----
-
-## 🍎 Dyna Fruits
+### 🍎 Dyna Fruits
 
 Dyna Fruits are used for:
 
@@ -183,32 +165,26 @@ Dyna Fruits are used for:
 
 👉 They are contained in a chest located **at the base of the tree**
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Dyna Plains
 
----
-
-## 📌 Features
+### 📌 Features
 
 - 🌳 Structure centered around a giant tree
 - 📦 Hidden chest at the base
 - 🍎 Unique loot related to Galar systems
 
----
-
-## 🛠️ Usage
+### 🛠️ Usage
 
 Dyna Fruits are mainly used for:
 
 - ⚱️ Crafting special urns
 - 🕊️ Progression towards Galar Legendary events
 
-&#8203;
+***
 
-# 🧭 Final Island
+## 🧭 Final Island
 
 {% hint style="info" %}
 <p align="center">
@@ -216,18 +192,14 @@ Floating island used to obtain <strong>Mew</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Mew  
 - 🏗️ Type: floating island / aerial structure  
 - 🗝️ Access: requires the <strong>Old Sea Map</strong>  
 - ⚠️ Feature: high-altitude generation  
 
----
-
-## 🗝️ Access to the Island
+### 🗝️ Access to the Island
 
 Access to Faraway Island is obtained by using the:
 
@@ -235,9 +207,7 @@ Access to Faraway Island is obtained by using the:
 
 👉 This item triggers the appearance / location of the island.
 
----
-
-## 🌤️ Generation
+### 🌤️ Generation
 
 Faraway Island appears:
 
@@ -245,9 +215,9 @@ Faraway Island appears:
 - 🌍 In any biome  
 - ⛔ Except mountainous biomes
 
-&#8203;
+***
 
-# ❄️ Kyurem Cave
+## ❄️ Kyurem Cave
 
 {% hint style="info" %}
 <p align="center">
@@ -255,18 +225,14 @@ Structure used to obtain <strong>Kyurem</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Kyurem  
 - 🏗️ Type: underground structure  
 - 🔧 Special loot: DNA Splicer  
 - ⚠️ Feature: Legendary fusion system  
 
----
-
-## 🧬 Special Mechanic
+### 🧬 Special Mechanic
 
 The Kyurem Cave contains a unique item:
 
@@ -276,9 +242,7 @@ The Kyurem Cave contains a unique item:
 - 🔥 Reshiram  
 - ⚡ Zekrom  
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 The structure appears in **cold snowy and mountainous biomes**:
 
@@ -347,9 +311,9 @@ The structure appears in **cold snowy and mountainous biomes**:
 
 </details>
 
-&#8203;
+***
 
-# 🧠 Lake Acuity
+## 🧠 Lake Acuity
 
 {% hint style="info" %}
 <p align="center">
@@ -357,23 +321,19 @@ Structure used to obtain <strong>Uxie</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Uxie  
 - 🏞️ Type: Legendary lake  
 - ❄️ Environment: snowy biome  
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Snowy Taiga
 
-&#8203;
+***
 
-# 💪 Lake Valor
+## 💪 Lake Valor
 
 {% hint style="info" %}
 <p align="center">
@@ -381,23 +341,19 @@ Structure used to obtain <strong>Azelf</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Azelf  
 - 🏞️ Type: Legendary lake  
 - 🌑 Environment: dark forest  
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Dark Forest
 
-&#8203;
+***
 
-# ❤️ Lake Verity
+## ❤️ Lake Verity
 
 {% hint style="info" %}
 <p align="center">
@@ -405,23 +361,19 @@ Structure used to obtain <strong>Mesprit</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Mesprit  
 - 🏞️ Type: Legendary lake  
 - 🌻 Environment: flower-filled plains  
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Sunflower Plains
 
-&#8203;
+***
 
-# 🗽 Liberty Garden
+## 🗽 Liberty Garden
 
 {% hint style="info" %}
 <p align="center">
@@ -429,18 +381,14 @@ Island used to obtain <strong>Victini</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Victini  
 - 🏝️ Type: event island  
 - 🗝️ Access: requires the <strong>Liberty Pass</strong>  
 - 🌊 Environment: deep ocean  
 
----
-
-## 🗝️ Access to the Island
+### 🗝️ Access to the Island
 
 Access to Liberty Island requires:
 
@@ -448,9 +396,7 @@ Access to Liberty Island requires:
 
 👉 This item allows access to the event related to Victini.
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 The structure appears in **deep ocean biomes**:
 
@@ -480,9 +426,9 @@ The structure appears in **deep ocean biomes**:
 
 </details>
 
-&#8203;
+***
 
-# 🌊 Lugia Temple
+## 🌊 Lugia Temple
 
 {% hint style="info" %}
 <p align="center">
@@ -490,9 +436,7 @@ Underwater structure used to obtain <strong>Lugia</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Lugia  
 - 🌊 Type: underwater temple  
@@ -500,9 +444,7 @@ Underwater structure used to obtain <strong>Lugia</strong>.
 - 🎁 Loot: numerous chests  
 - 🔐 Access: requires a Whirl Stone  
 
----
-
-## 🌊 Exploration
+### 🌊 Exploration
 
 To reach Lugia, you will need to:
 
@@ -511,9 +453,7 @@ To reach Lugia, you will need to:
 - 🎁 Collect the chests scattered throughout the path
 - ⬆️ Reach the top of the temple
 
----
-
-## 🔐 Temple Access
+### 🔐 Temple Access
 
 The main entrance requires a **Vortex Stone**.
 
@@ -523,9 +463,7 @@ It is crafted from the **three stones** obtained after summoning each bird of th
 - ⚡ Zapdos
 - 🔥 Moltres
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 The structure appears in **deep ocean biomes**:
 
@@ -555,9 +493,9 @@ The structure appears in **deep ocean biomes**:
 
 </details>
 
-&#8203;
+***
 
-# 🏜️ Outskirt Stand
+## 🏜️ Outskirt Stand
 
 {% hint style="info" %}
 <p align="center">
@@ -565,25 +503,19 @@ Structure used to encounter the <strong>Entrepreneur Villager</strong>, a mercha
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🧑‍🌾 NPC: Entrepreneur Villager  
 - 🛒 Function: specialized merchant  
 - 🗺️ Sells maps used to locate Legendary Structures  
 
----
-
-## 🛒 Features
+### 🛒 Features
 
 - Hosts the **Entrepreneur Villager**
 - Offers several exclusive items related to the mod
 - Allows players to purchase maps that help locate Legendary Structures
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 <details>
 <summary>🏜️ <strong>Compatible biomes</strong></summary>
@@ -626,9 +558,9 @@ Structure used to encounter the <strong>Entrepreneur Villager</strong>, a mercha
 
 </details>
 
-&#8203;
+***
 
-# 🏛️ Snowpoint Temple
+## 🏛️ Snowpoint Temple
 
 {% hint style="info" %}
 <p align="center">
@@ -636,32 +568,26 @@ Structure used to obtain <strong>Regirock</strong>, <strong>Regice</strong>, <st
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain the six Regis  
 - 🚪 Gameplay: exploration of dedicated rooms  
 - 🔓 Progression: one Regi per room  
 - 👑 Final reward: Regigigas  
 
----
-
-## 🏛️ Features
+### 🏛️ Features
 
 - Each Regi has its own room
 - Progressive exploration of the temple
 - All six Regis are gathered in a single structure
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Snowy Plains
 
-&#8203;
+***
 
-# 🏝️ Southern Island
+## 🏝️ Southern Island
 
 {% hint style="info" %}
 <p align="center">
@@ -669,26 +595,20 @@ Structure used to obtain <strong>Latias</strong> or <strong>Latios</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Latias or Latios  
 - ⚖️ Unique choice: only one Pokémon per island  
 - 🎁 Exploration: 2 hidden chests  
 - 🔁 Replayability: a new island is required to obtain the other Pokémon  
 
----
-
-## 🏝️ Features
+### 🏝️ Features
 
 - You must choose between **Latias** and **Latios**
 - Once the choice is made, the other Pokémon cannot be obtained on this island
 - Two hidden chests are scattered across the island
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 <details>
 <summary>🌊 <strong>Compatible biomes</strong></summary>
@@ -716,9 +636,9 @@ Structure used to obtain <strong>Latias</strong> or <strong>Latios</strong>.
 
 </details>
 
-&#8203;
+***
 
-# 🏔️ Spear Pillars
+## 🏔️ Spear Pillars
 
 {% hint style="info" %}
 <p align="center">
@@ -726,26 +646,20 @@ Structure used to obtain <strong>Dialga</strong> and <strong>Palkia</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🎯 Objective: obtain Dialga and Palkia  
 - 🏔️ Type: sacred mountain summit  
 - ⚠️ Danger: high-altitude biomes / uneven terrain  
-- 🎁 Reward: major Legendary Pokémon  
+- 🎁 Reward: major Legendary Pokémon
 
----
-
-## 🏔️ Features
+### 🏔️ Features
 
 - Structure located at high altitude
 - Vertical exploration with exposure to natural hazards
 - Encounter with the two Legendary Pokémon of time and space
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 <details>
 <summary>⛰️ <strong>Compatible biomes</strong></summary>
@@ -782,9 +696,9 @@ Structure used to obtain <strong>Dialga</strong> and <strong>Palkia</strong>.
 
 </details>
 
-&#8203;
+***
 
-# 🏯 Traditional Village
+## 🏯 Traditional Village
 
 {% hint style="info" %}
 <p align="center">
@@ -792,26 +706,20 @@ Japanese Edo-style village that can generate the <strong>Bell Tower</strong> and
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🏯 Theme: Japanese Edo-style village  
 - 🧱 Type: multi-structure village  
 - 🎁 Generation: can contain unique structures  
 - 🏗️ Variants: Bell Tower / Burned Tower  
 
----
-
-## 🏯 Features
+### 🏯 Features
 
 - Village with a traditional Japanese theme
 - Can generate associated Legendary structures
 - Exploration of the village and discovery of its variants
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Dyna Plains
 
@@ -821,9 +729,9 @@ Can sometimes generate with the <strong>Burned Tower</strong> and the <strong>Be
 </p>
 {% endhint %}
 
-&#8203;
+***
 
-# 🌀 Turnback Cave
+## 🌀 Turnback Cave
 
 {% hint style="info" %}
 <p align="center">
@@ -831,26 +739,20 @@ Structure containing the portal to the <strong>Distortion World</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Quick Overview
+### 🧭 Quick Overview
 
 - 🌀 Objective: access the Distortion World  
 - 🧪 Contains: Pokémon Trial Spawners  
 - 🔑 Reward: Griseous Keys  
 - ⏳ Cooldown: 30 minutes on spawners  
 
----
-
-## 🧪 Features
+### 🧪 Features
 
 - Contains Pokémon Trial Spawners
 - Allows players to obtain special keys (Griseous Keys)
 - Progressive access to locked areas
 
----
-
-## 🌍 Generation
+### 🌍 Generation
 
 - 📌 Biome: Generates in all underground Overworld areas, like the Stronghold.
 
