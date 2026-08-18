@@ -1,137 +1,144 @@
 # ❓ Frequently Asked Questions
 
-## 📖 Most Frequently Asked Questions
+<p align="center"> 
+Do you have a question about <strong>Cobblemon Realms</strong>? Here you will find answers to the most common issues and questions regarding installation, gameplay, multiplayer, and how the modpack works.
+</p>
 
 {% hint style="info" %}
-<p align="center">
-💡 This page answers the most common questions regarding installation, performance, servers, and progression in Cobblemon Realms.
+## 💡 <strong>Can't find your answer?</strong><br>
+
+<p align="center"> 
+Check the related guides or contact us directly on <a href="https://discord.gg/kb8NSTF45n">Discord</a>.
 </p>
 {% endhint %}
 
----
+***
 
-## 🚫 My game crashes when launching the modpack
+## 🛠️ Installation & Performance
 
-Most crashes are caused by an incorrect Java version or insufficient allocated memory.
+### 🚫 My game crashes on launch
 
-Make sure you are using **Java 21** and have allocated **8 GB of RAM** to the game.
+Launch issues can have several causes: incorrect Java version, insufficient memory, incomplete installation, or corrupted modpack files.
 
-📘 [Installation Guide](installation.md)
+First of all, make sure you are using **Java 21** and that enough memory is allocated to the game.
 
----
+📘 [View the installation guide](installation.md)
 
-## 🐾 I can't find any Pokémon
+### 💾 How much RAM should I allocate?
 
-Spawns depend on the biome, time of day, weather, and your location.
+We recommend allocating **8 GB of RAM** to the modpack for a comfortable experience. However, avoid allocating all available memory to Minecraft: your operating system and other applications need to retain enough resources.
 
-Use the command:
+### 🎮 Can I play on a low-end PC?
 
-`/checkspawns`
+This mainly depends on your processor, graphics card, and available memory. To improve performance, install the modpack on an **SSD**, keep your graphics drivers up to date, and adjust the graphics settings if necessary.
 
-to display which Pokémon can spawn around you.
+📘 [View the installation guide](installation.md)
 
-📘 [Spawn Guide](pokemon-and-spawns.md)
+### 🧩 Can I add other mods?
 
----
-
-## 🧩 Can I add other mods?
-
-Yes, but it is not recommended.
-
-Additional mods may cause conflicts, crashes, or alter the balance of the modpack.
+This is technically possible, but **strongly discouraged**. Additional mods may cause incompatibilities, crashes, or alter the modpack's functionality and balance.
 
 {% hint style="warning" %}
-⚠️ Any issues caused by manually added mods cannot be supported.
+⚠️ Issues caused by manually adding mods cannot be guaranteed to be supported by the team.
 {% endhint %}
 
----
+### ✨ Can I use shaders?
 
-## 👥 Can I start in singleplayer and move to a server later?
+Yes, provided that your system can handle them and that the shaders you use are compatible with your modpack version. However, keep in mind that they can have a significant impact on performance.
 
-✅ Yes.
+***
 
-Your singleplayer world can be transferred to a server at any time without restarting your progression.
+## 🐾 Gameplay & Progression
 
-📘 [Installation Guide](installation.md)
+### 🐾 Why aren't any Pokémon spawning around me?
 
----
+Spawns depend on many factors: **biome, time, weather, player position, and spawn conditions**.
 
-## 🖥️ Can I use Aternos, Minehut, or a free hosting provider?
+Use `/checkspawns` to check which Pokémon are likely to spawn in your area.
 
-Technically yes, but performance is often insufficient to properly run the modpack.
+📘 [Pokémon and Spawns](pokemon-and-spawns.md)
 
-{% hint style="warning" %}
-⚠️ We recommend a hosting provider with at least **8 GB of RAM**, **Java 21** support, and FTP access.
-{% endhint %}
+### 📈 Where can I find information about level caps?
 
----
+**Level caps**, trainers, gyms, and the various stages of progression are covered in a dedicated guide.
 
-## ⚙️ What configuration is recommended?
+📘 [Trainers & Level Caps](pokemons-guides/levelcap-and-trainers.md)
 
-To fully enjoy the modpack, we recommend:
+### 🌟 How do I obtain Legendary Pokémon?
 
-- ☕ Java 21 or newer
-- 💾 8 GB of allocated RAM
-- 🎮 Up-to-date graphics drivers
-- 🚀 Installation on an SSD
+Legendary Pokémon have their own requirements and methods of obtaining them. Some information may also depend on the player's progression.
 
-📘 [Installation Guide](installation.md)
+📘 [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md)
 
----
+### ✨ Are there Pokémon exclusive to Cobblemon Realms?
 
-## 🌍 Can I help improve the wiki?
+Yes. The modpack notably adds **special forms, unique mechanics, and exclusive evolutions** that are not available in standard Cobblemon.
 
-Yes, contributions are welcome.
+📘 [Discover Exclusive Content](pokemons-exclusives/mewtwo-exclusive-forms.md)
 
-You can:
+***
 
-- ✏️ Correct mistakes
-- 📖 Improve existing guides
-- 🌐 Translate content
-- ➕ Add new information
+## 🌐 Multiplayer
+
+### 👥 Can I start in single-player and then join a server?
+
+Yes. A save started in single-player can be transferred to a server without having to restart your progression, provided that the world data is transferred correctly.
+
+📘 [Multiplayer Servers](multiplayer-servers.md)
+
+### 🖥️ Can I host the modpack myself?
+
+Yes. You can host your own server, provided that you have a suitable setup and use the versions required by the modpack.
+
+📘 [Multiplayer Servers](multiplayer-servers.md)
+
+### ☁️ Can I use a free host like Aternos or Minehut?
+
+This is technically possible, but performance may be limited for such a large modpack. We recommend choosing a host with sufficient **RAM**, **Java 21 support**, and access to the server files.
+
+***
+
+## 📚 Wiki & Community
+
+### 🐛 I found a bug, what should I do?
+
+Before reporting an issue, make sure it is not caused by a manually added mod or an incorrect installation.
+
+If the issue persists, [report the issue](report-a-bug.md) so it can be investigated and potentially fixed.
+
+### ✏️ Can I contribute to the wiki?
+
+Yes! Contributions are welcome. You can:
+
+- Correct errors;
+- Improve existing information;
+- Add new information;
+- Translate pages;
+- Report outdated information.
 
 📘 [Contribution Guide](contributing.md)
 
----
+### 🧭 I don't know which page to check
 
-## ✨ Is there exclusive content?
+If you don't know where to start, here are some useful starting points:
 
-Yes.
-
-Cobblemon Realms adds multiple exclusive features, including special forms, unique mechanics, and exclusive evolutions.
-
-📘 [View Exclusive Content](pokemons-exclusives/mewtwo-exclusive-forms.md)
-
----
-
-## 🏆 Where can I find information about trainers and level caps?
-
-All information regarding progression, gyms, champions, and level caps is grouped into a dedicated guide.
-
-📘 [Trainer & Level Cap Guide](pokemons-guides/levelcap-and-trainers.md)
-
----
-
-## 🧭 I want to find the right guide quickly
-
-Use these shortcuts if you are not sure where to start:
-
-| I want to... | Recommended page |
+| 🔎 I'm looking for... | 📖 Check... |
 | --- | --- |
-| Install the modpack | [Installation Guide](installation.md) |
-| Start playing without missing the basics | [Getting Started](getting-started.md) |
-| Join or host a server | [Multiplayer Servers](multiplayer-servers.md) |
-| Understand Pokémon spawns | [Pokémon and Spawns](pokemon-and-spawns.md) |
-| Learn about legendaries | [Myths and Legends](pokemons-guides/myths-and-legends-legendaries.md) |
-| Check what changed recently | [What's New v6.0+](whats-new-v6.md) |
-| Report a problem | [Report a Bug](report-a-bug.md) |
+| Installing the modpack | [Installation Guide](installation.md) |
+| Discovering the modpack | [Getting Started](getting-started.md) |
+| Playing multiplayer | [Multiplayer Servers](multiplayer-servers.md) |
+| Understanding spawns | [Pokémon and Spawns](pokemon-and-spawns.md) |
+| Understanding Legendaries | [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md) |
+| Checking what's new | [What's New v6.0+](whats-new-v6.md) |
+| Reporting a bug | [Report an Issue](report-a-bug.md) |
 
----
+***
 
 {% hint style="success" %}
-## Contact Us
+## 💬 Need Help?
 
 <p align="center">
-If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
+If you can't find the answer to your question in the wiki, join our <a href="https://discord.gg/kb8NSTF45n">Discord</a>.<br>
+<strong>@FabLeKebab</strong> can help you with questions regarding the wiki, while <strong>@Levels</strong> handles questions related to the modpack.
 </p>
 {% endhint %}
