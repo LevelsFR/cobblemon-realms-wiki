@@ -140,7 +140,7 @@ Les deux blocs peuvent apparaître naturellement : les **Amas de Boue** dans le 
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_bouillasse.png" >
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_bouillasse.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication de l'Amas de Bouillasse</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ Le **délai entre l'activation et l'éruption** vous laisse quelques instants po
 Les trois blocs utilisent le même principe de fabrication : **8 blocs associés au thème du biome autour d'un Bloc de Magma**.
 
 <figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_volcanique.png" >
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_volcanique.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication du Cratère Volcanique</figcaption>
 </figure>
 
@@ -173,7 +173,7 @@ Les trois blocs utilisent le même principe de fabrication : **8 blocs associés
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_draconique.png" >
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_draconique.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication du Cratère Draconique</figcaption>
 </figure>
 
