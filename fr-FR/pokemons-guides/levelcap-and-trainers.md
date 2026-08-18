@@ -21,7 +21,7 @@ Le **Mode Freeroam** vous permet de mettre temporairement votre progression scé
 Le **Mode Freeroam** permet de désactiver temporairement les restrictions liées à votre série de dresseurs actuelle. Votre progression principale reste intacte et peut être reprise à tout moment.
 
 | | Fonction |
-| --- | --- |
+| :---: | --- |
 | ✅ | Plus aucune restriction de niveau |
 | ✅ | Pokémon pouvant atteindre le **niveau 100** |
 | ✅ | Exploration libre de toutes les régions |
@@ -57,7 +57,7 @@ Tout en bas du menu, vous trouverez un `Realms Coin`. Cliquez dessus pour entrer
 Vous pouvez revenir à votre aventure principale **à n’importe quel moment**.
 
 | Méthode | Action |
-| --- | --- |
+| :---: | --- |
 | 📌 **Menu FTB Quests** | Utilisez le bouton dédié à votre région. |
 | 🧑‍🏫 **Association des Dresseurs** | Faites apparaître un PNJ de l’`Association des Dresseurs`, puis sélectionnez la série que vous souhaitez reprendre. |
 
@@ -91,7 +91,7 @@ Chaque joueur possède un **niveau maximum personnel**, commençant à **25** da
 Le niveau maximum influence directement vos Pokémon et les dresseurs que vous pouvez affronter :
 
 | Effet | Fonctionnement |
-| --- | --- |
+| :---: | --- |
 | 🛑 **Expérience** | Les Pokémon **ayant atteint ou dépassé** votre niveau maximum **ne peuvent plus gagner d’expérience**. |
 | 🚫 **Combats** | Les dresseurs **refuseront de se battre** si un Pokémon de votre équipe dépasse ce niveau. |
 | 🎯 **Niveau des dresseurs** | La **puissance des dresseurs proches** s’adapte à votre équipe, mais **ne dépasse jamais votre niveau maximum**. |
@@ -163,7 +163,7 @@ La progression ne se limite pas à l’augmentation du **Level Cap**. En avança
 ### 🔓 Conditions de déblocage
 
 | | Condition |
-| --- | --- |
+| :---: | --- |
 | 🥇 | Vaincre les **Dresseurs Clés** requis d’une série pour débloquer ses adversaires de haut niveau. |
 | 💠 | Certains dresseurs nécessitent des **objets spéciaux** (ex. _Pierre Dure_) pour être invoqués. |
 | 🧱 | Utiliser un **Générateur de Dresseurs**, trouvé dans les villages ou les arènes, puis faire un clic droit avec l’objet requis pour invoquer le dresseur après un court délai. |
@@ -204,7 +204,7 @@ Cobblemon Realms inclut le contenu de base de **Radical Trainers**, ainsi que le
 Ces séries peuvent être commencées **sans prérequis** :
 
 | # | Série | Particularité |
-| ---: | --- | --- |
+| :---: | --- | --- |
 | **1** | **Pokémon Adventures** | Héros du manga, avec embranchements. |
 | **2** | **Défi des Arènes de Sinnoh** | Doubles combats contre les champions de Sinnoh. |
 | **3** | **Team Aqua** | Apparaît dans l’Overworld. |
@@ -219,7 +219,7 @@ Ces séries peuvent être commencées **sans prérequis** :
 Ces séries nécessitent d’avoir terminé certains contenus avant de pouvoir être activées :
 
 | # | Série | Prérequis |
-| ---: | --- | --- |
+| :---: | --- | --- |
 | **9** | **Team Plasma** | _Défi des Arènes d’Unys_ |
 | **10** | **Défi de la Ligue d’Unys** | _Défi des Arènes d’Unys_ |
 | **11** | **Défi de la Ligue de Hoenn** | _Défi des Arènes de Hoenn_ |
@@ -244,12 +244,12 @@ Utilisez la commande : `/rctmod player get progress <pseudo> graph include_defea
 
 Le graphique permet notamment de voir :
 
-| Indicateur | Signification                            |
-| ---------- | ---------------------------------------- |
-| ✔️         | Séries terminées                         |
-| 🟡         | Chemins optionnels                       |
-| 🔒         | Contenu encore verrouillé                |
-| 🔁         | Dépendances entre les différentes séries |
+| Indicateur | Signification |
+| :---: | :---: |
+| ✔️ | Séries terminées |
+| 🟡 | Chemins optionnels |
+| 🔒 | Contenu encore verrouillé |
+| 🔁 | Dépendances entre les différentes séries |
 
 ---
 
