@@ -20,7 +20,7 @@ The **Cobblemon: Ride On!** add-on has been removed from the modpack and replace
 
 ---
 
-# 🐎 How the Official System Works
+## 🐎 How the Official System Works
 
 Each rideable Pokémon has one or more **mount styles**, which define how it moves.
 
@@ -166,7 +166,7 @@ Comparable to Minecraft’s Creative or Spectator mode.
 
 ---
 
-# 📊 Mount Statistics
+## 📊 Mount Statistics
 
 Each Pokémon has its own mount statistics.
 
@@ -175,7 +175,7 @@ Each Pokémon has its own mount statistics.
 {% endhint %}
 
 {% hint style="success" %}
-Some of these characteristics can also be modified using [Aprijuices](https://github.com/LevelsCraft7/cobblemon-realms-wiki/blob/main/fr-FR/cobblemon-craft/aprijuice-guide.md)
+Some of these characteristics can also be modified using [Aprijuices](https://wiki.cobblemon-realms.com/cobblemon-craft/aprijuice-guide)
 </p> 
 {% endhint %}
 
@@ -244,9 +244,9 @@ When stamina is depleted, the affected ability becomes temporarily unavailable.
 
 ---
 
-# 🎮 Using Mounts
+## 🎮 Using Mounts
 
-## 🧗🏼 Mounting a Pokémon
+### 🧗🏼 Mounting a Pokémon
 
 - 🧎 Crouch (**Shift** by default)
 - 🖱️ Right-click a compatible Pokémon
@@ -278,7 +278,7 @@ When stamina is depleted, the affected ability becomes temporarily unavailable.
 
 ---
 
-# 📋 List of Rideable Pokémon
+## 📋 List of Rideable Pokémon
 
 Below is the complete list of Pokémon currently rideable using Cobblemon’s official mount system.  
 Statistics are shown by mount type and come directly from the official Cobblemon mount spreadsheet.
@@ -286,12 +286,13 @@ Statistics are shown by mount type and come directly from the official Cobblemon
 ---
 
 <details>
+
 <summary><strong>🐾 Ground Mount List</strong></summary>
 
 ---
 
 | Pokémon | Accel. | Skill | Speed | Stam. | Jump |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | Venusaur | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
 | Charizard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
 | Blastoise | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
@@ -376,7 +377,9 @@ Statistics are shown by mount type and come directly from the official Cobblemon
 
 ---
 
-<details><summary><strong>🌊 Water Mount List</strong></summary>
+<details>
+  
+<summary><strong>🌊 Water Mount List</strong></summary>
 
 ---
 
@@ -404,7 +407,9 @@ Statistics are shown by mount type and come directly from the official Cobblemon
 
 ---
 
-<details><summary><strong>🪶 Flying Mount List</strong></summary>
+<details>
+
+<summary><strong>🪶 Flying Mount List</strong></summary>
 
 ---
 
