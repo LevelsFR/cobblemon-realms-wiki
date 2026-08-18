@@ -8,9 +8,9 @@ The <strong>Safari Dimension</strong> is a dimension composed of <strong>18 Pok�
 
 ---
 
-# 🚪 Accessing the Safari
+## 🚪 Accessing the Safari
 
-## 🔹 Safari Teleporter
+### 🔹 Safari Teleporter
 
 Entry is done via a **Safari Teleporter**:
 
@@ -33,7 +33,7 @@ In <strong>Cobblemon Realms</strong>, crafting the teleporter is not possible. T
 
 ---
 
-## 🔹 Leaving the Safari
+### 🔹 Leaving the Safari
 
 - Command: `/safariexit`
 - You can leave at any time
@@ -41,7 +41,7 @@ In <strong>Cobblemon Realms</strong>, crafting the teleporter is not possible. T
 
 ---
 
-# ⏱️ General Rules
+## ⏱️ General Rules
 
 Inside the Safari Dimension:
 
@@ -61,7 +61,7 @@ Dying inside the Safari may result in the loss of local progression.
 
 ---
 
-# 💨 Pokémon Fleeing System
+## 💨 Pokémon Fleeing System
 
 {% hint style="info" %}
 Safari Pokémon may flee when they become too disturbed.
@@ -69,7 +69,7 @@ Safari Pokémon may flee when they become too disturbed.
 
 ---
 
-## ⚡ Flee Trigger Conditions
+### ⚡ Flee Trigger Conditions
 
 A flee event can be triggered during a critical interaction:
 
@@ -81,7 +81,7 @@ A flee event can be triggered during a critical interaction:
 
 ---
 
-## ⏳ Flee Phase
+### ⏳ Flee Phase
 
 When a Pokémon starts fleeing:
 
@@ -95,7 +95,7 @@ If no capture succeeds:
 
 ---
 
-## 🧠 Technical Behavior
+### 🧠 Technical Behavior
 
 The system is based on the **Great Marsh (DPPt)**:
 
@@ -107,11 +107,11 @@ The system is based on the **Great Marsh (DPPt)**:
 
 ---
 
-## 📊 Modifier System (Flee & Capture)
+### 📊 Modifier System (Flee & Capture)
 
 Levels range from **-6 to +6** and affect both fleeing and capture.
 
-### 🎮 Simplified View
+#### 🎮 Simplified View
 
 | Level | -6 | -3 | 0 | +3 | +6 |
 |--------|----|----|---|----|----|
@@ -121,6 +121,7 @@ Levels range from **-6 to +6** and affect both fleeing and capture.
 👉 The higher the level, the easier Pokémon are to catch and the less likely they are to flee.
 
 <details>
+
 <summary>📈 View detailed values</summary>
 
 | Level | -6 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 | +6 |
@@ -139,9 +140,9 @@ Intermediate values follow a continuous progression between each level.
 
 ---
 
-# 🎯 Safari Items
+## 🎯 Safari Items
 
-## 🍖 Bait
+### 🍖 Bait
 
 Effect:
 - ↓ reduces flee chances
@@ -152,11 +153,12 @@ Effect:
 <p align="center">
 ℹ️ You can use any Cobblemon berry.
 </p>
+
 👉 Makes the Pokémon calmer, but harder to catch.
 
 ---
 
-## 🪨 Mud Ball
+### 🪨 Mud Ball
 
 Effect:
 - ↑ increases flee chances
@@ -168,7 +170,7 @@ Effect:
 
 ---
 
-# 🌍 Biomes & Pokémon
+## 🌍 Biomes & Pokémon
 
 The Safari Dimension contains **18 biomes**, each based on a Pokémon type.
 
@@ -183,25 +185,27 @@ Each biome contains:
 
 ---
 
-# 💰 Safari Entry (Optional)
+## 💰 Safari Entry (Optional)
 
 By default:
 - Free entry
 
 But configurable per server/modpack:
 
-## 🔹 Available Payment Types
+### 🔹 Available Payment Types
+
 - 🎟️ item (e.g. Safari Ticket)
 - 💰 Realms Coins (e.g. 5000)
 
-## 🔹 Advanced Options
+### 🔹 Advanced Options
+
 - Multiple payments allowed
 - Time refills + additional entries
 - Daily reward reset through payment
 
 ---
 
-# ⚙️ Configuration
+## ⚙️ Configuration
 
 Most Safari settings are grouped in:
 <br>
@@ -223,7 +227,7 @@ You can find a complete description of the configuration file on the mod's offic
 
 ---
 
-## 🔒 Dimensional Restrictions
+### 🔒 Dimensional Restrictions
 
 Allowed items, battle rules, and some Safari restrictions are defined in:
 <br>
@@ -240,7 +244,7 @@ Full details of this configuration are available on the mod's official page:
 
 ---
 
-## ⏱️ Timer and Teleportation
+### ⏱️ Timer and Teleportation
 
 Session duration, entry cooldowns, and teleportation logic are defined in:
 <br>
