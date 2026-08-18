@@ -2,13 +2,6 @@
 
 ## 📈 Comprendre la progression
 
-{% hint style="warning" %}
-<p align="center">
-<strong>🚧 Cette page est en cours de révision</strong><br><br>
-Certaines informations peuvent être incorrectes ou ne plus correspondre à la version actuelle du modpack. Merci de vous référer aux autres guides du wiki en attendant sa mise à jour.
-</p>
-{% endhint %}
-
 {% hint style="info" %}
 <p align="center">
 La progression des dresseurs dans <strong>Cobblemon Realms</strong> repose sur trois éléments principaux : les <strong>Cartes de Dresseur</strong>, les <strong>Dresseurs Clés</strong> et les <strong>Séries de Dresseurs</strong>. Ensemble, ils structurent l'aventure et accompagnent votre progression vers des défis de plus en plus difficiles.
