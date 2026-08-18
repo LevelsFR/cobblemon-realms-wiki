@@ -1,7 +1,7 @@
 # ❓ Foire aux questions
 
 <p align="center"> 
-Vous avez une question sur **Cobblemon Realms** ? Vous trouverez ici les réponses aux problèmes et questions les plus courants concernant l'installation, le gameplay, le multijoueur et le fonctionnement du modpack.
+Vous avez une question sur <strong>Cobblemon Realms</strong> ? Vous trouverez ici les réponses aux problèmes et questions les plus courants concernant l'installation, le gameplay, le multijoueur et le fonctionnement du modpack.
 </p>
 
 {% hint style="info" %}
