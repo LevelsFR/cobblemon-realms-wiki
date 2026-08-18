@@ -43,19 +43,19 @@ Le **Mode Freeroam** permet de désactiver temporairement les restrictions liée
 
 Suivez ces quatre étapes depuis le menu des quêtes :
 
-### 🧭 1. Ouvrir les Quêtes
+#### 🧭 1. Ouvrir les Quêtes
 
 Ouvrez votre inventaire puis cliquez sur le petit livre `Quests`, situé en haut à gauche de votre écran.
 
-### 📂 2. Afficher les catégories
+#### 📂 2. Afficher les catégories
 
 Passez votre curseur sur le côté gauche de l’écran afin de faire apparaître la liste des catégories disponibles.
 
-### 📘 3. Ouvrir le Guide de bienvenue
+#### 📘 3. Ouvrir le Guide de bienvenue
 
 Dans la liste des catégories, sélectionnez `Guide de bienvenue`.
 
-### 🪙 4. Activer le Freeroam
+#### 🪙 4. Activer le Freeroam
 
 Tout en bas du menu, vous trouverez un `Realms Coin`. Cliquez dessus pour entrer en mode `Freeroam`.
 
