@@ -219,7 +219,7 @@ Pour obtenir Reshiram, vous devez fabriquer une `Orbe Clair` à partir de `9 Éc
 
 Une fois l'`Orbe Clair` obtenue, vous devez trouver la [Tour Dragospire](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-dragospire) et placer l'orbe ainsi qu'un `Joyau Feu` sur chacun des deux `Piédestal de Reshiram`. Un **Reshiram au niveau 60 apparaîtra**, avec **2% de chance d’être chromatique**.
 
-Vous recevrez également une `Fiole de la Vérité` lors de l’activation des pédestaux, que vous pourrez combiner avec la `Fiole des Idéaux` pour obtenir [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
+Vous recevrez également une `Fiole de la Vérité` lors de l’activation des piédestaux, que vous pourrez combiner avec la `Fiole des Idéaux` pour obtenir [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
 
 ---
 
@@ -264,7 +264,7 @@ Pour obtenir Zekrom, vous devez fabriquer une `Orbe Sombre` à partir de `9 Écl
 
 Une fois l'`Orbe Sombre` obtenue, vous devez trouver la [Tour Dragospire](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-dragospire) et placer l'orbe ainsi qu’un `Joyau Électrik` sur chacun des deux `Piédestal de Zekrom`. Un **Zekrom au niveau 60 apparaîtra**, avec **2% de chance d’être chromatique**.
 
-Vous recevrez également une `Fiole des Idéaux` lors de l’activation des pédestaux, que vous pourrez combiner avec la `Fiole de la Vérité` pour obtenir [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
+Vous recevrez également une `Fiole des Idéaux` lors de l’activation des piédestaux, que vous pourrez combiner avec la `Fiole de la Vérité` pour obtenir [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
 
 ---
 
@@ -305,9 +305,9 @@ Vous recevrez également une `Fiole des Idéaux` lors de l’activation des péd
 
 ### 🗝️ Moyen d'obtention
 
-Pour obtenir Kyurem, vous devez d’abord invoquer [Reshiram](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#reshiram) et [Zekrom](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#zekrom) via leurs pédestaux, ce qui vous permettra d’obtenir deux objets : la `Fiole de la Vérité` et la `Fiole des Idéaux`.
+Pour obtenir Kyurem, vous devez d’abord invoquer [Reshiram](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#reshiram) et [Zekrom](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#zekrom) via leurs piédestaux, ce qui vous permettra d’obtenir deux objets : la `Fiole de la Vérité` et la `Fiole des Idéaux`.
 
-Une fois ces deux bouteilles en votre possession, vous devez trouver la [Grotte Cyclopéenne](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#reshiram) et utiliser les deux fioles sur les `Piédestaux de Kyurem`. Un **Kyurem au niveau 60 apparaîtra**, avec **2% de chance d’être chromatique**.
+Une fois ces deux bouteilles en votre possession, vous devez trouver la [Grotte Cyclopéenne](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#grotte-cyclopeenne) et utiliser les deux fioles sur les `Piédestaux de Kyurem`. Un **Kyurem au niveau 60 apparaîtra**, avec **2% de chance d’être chromatique**.
 
 ---
 
