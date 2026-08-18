@@ -7,7 +7,7 @@
 {% endhint %}
 
 <p align="center">
-The <strong>Messaging</strong> app on your <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/motismart"><strong>Motismart</strong></a> is a true <strong>quest system</strong>. Your contacts send you messages, assign you tasks, and reward you once they are completed. Some quests will also allow you to discover and learn how to use the various features added by <strong>CobbleSafari</strong>.
+The <strong>Messaging</strong> app on your <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/Rotom Phone"><strong>Rotom Phone</strong></a> is a true <strong>quest system</strong>. Your contacts send you messages, assign you tasks, and reward you once they are completed. Some quests will also allow you to discover and learn how to use the various features added by <strong>CobbleSafari</strong>.
 </p>
 
 ***
@@ -40,19 +40,19 @@ Some conversations, as well as certain individual quests, remain **hidden until 
 
 {% hint style="info" %}
 <p align="center">
-<strong>Available from the start</strong>, Rotom is your dedicated companion and the one who brings your Motismart to life.
+<strong>Available from the start</strong>, Rotom is your dedicated companion and the one who brings your Rotom Phone to life.
 </p>
 {% endhint %}
 
-Talking to him regularly is essential: **every day, Rotom unlocks a new app** and offers you a quest allowing you to gradually discover how it works. His progression spans several days, with **only one quest per day**. Each step therefore serves as a tutorial and guides you through the various features of the Motismart.
+Talking to him regularly is essential: **every day, Rotom unlocks a new app** and offers you a quest allowing you to gradually discover how it works. His progression spans several days, with **only one quest per day**. Each step therefore serves as a tutorial and guides you through the various features of the Rotom Phone.
 
 <p align="center">
-<strong>Follow his quest all the way through to unlock all of the Motismart's apps.</strong>
+<strong>Follow his quest all the way through to unlock all of the Rotom Phone's apps.</strong>
 </p>
 
 | Day | Unlock | Objective Type | Condition | Reward |
 | --- | --- | --- | --- | :---: |
-| 1 | - | Advancement | **Rotomphone 101** - own a Motismart | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> + a personal GTS trade offer |
+| 1 | - | Advancement | **Rotomphone 101** - own a Rotom Phone | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> + a personal GTS trade offer |
 | 2 | **GTS App** | Advancement | **Bargain Hunter** - complete a trade through the GTS | A random-colored Holo-Skin |
 | 3 | **Holo-Skin App** | Advancement | **Fresh New Look** - change the appearance of your phone for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a>³ + A random-colored Holo-Skin |
 | 4 | **Miracle Trade App** | Advancement | **Game Addiction** - use Miracle Trade 6 times | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a>³ + A random-colored Holo-Skin |
@@ -66,7 +66,7 @@ Colored Holo-Skins are selected from the <strong>20 classic recolors</strong>. T
 {% endhint %}
 
 <p align="center">
-Find all available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Motismart Holo-Skin List</strong></a>.
+Find all available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Rotom Phone Holo-Skin List</strong></a>.
 </p>
 
 ***
@@ -93,7 +93,7 @@ The **day 6** quest only appears after obtaining the **Sociable** advancement, t
 
 ### 🔄 Daily Quests
 
-Once you have **unlocked all the apps on your Motismart**, Hayley begins offering you **repeatable daily quests**.
+Once you have **unlocked all the apps on your Rotom Phone**, Hayley begins offering you **repeatable daily quests**.
 
 Each day, she gives you a random quest and offers you a random reward.
 
