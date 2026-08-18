@@ -1,4 +1,4 @@
-# 🎒 Shoulder Pokémon Effects (v5.0)
+# 🦜 Shoulder Pokémon Effects
 
 ## 🎒 Shoulder Pokémon Effects (v5.0)
 
@@ -32,7 +32,7 @@ The information on this page is no longer up to date. Since the related files/fo
 ## 📚 Liste des Pokémon
 
 | Pokémon | Effects |
-|:---:|:---:|
+| :---: | :---: |
 | ![Alcremie](https://play.pokemonshowdown.com/sprites/ani/alcremie.gif)<br>**Alcremie** | Saturation II |
 | ![Anorith](https://play.pokemonshowdown.com/sprites/ani/anorith.gif)<br>**Anorith** | Conduit Power I |
 | ![Archen](https://play.pokemonshowdown.com/sprites/ani/archen.gif)<br>**Archen** | Slow Falling I • Resistance I |
