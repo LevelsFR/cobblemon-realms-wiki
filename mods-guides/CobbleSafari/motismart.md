@@ -1,186 +1,186 @@
-# 📱 Tout savoir sur le Motismart
+# 📱 Everything You Need to Know About the Rotom Phone
 
 {% hint style="info" %}
 <p align="center">
-Cette page présente le <strong>Motismart</strong>, son fonctionnement, ses différentes applications ainsi que les méthodes permettant de le fabriquer, de le personnaliser et de débloquer ses fonctionnalités.
+This page introduces the <strong>Rotom Phone</strong>, how it works, its different applications, as well as the methods for crafting it, customizing it, and unlocking its features.
 </p>
 {% endhint %}
 
-## 📱 Obtenir un Motismart
+## 📱 Obtaining a Rotom Phone
 
 <p align="center">
-Fabriquer son propre Motismart n'est pas une tâche des plus simples et nécessite de suivre plusieurs étapes.
+Crafting your own Rotom Phone is not the easiest task and requires following several steps.
 </p>
 
-### 1️⃣ Étape 1 - Fabriquer un téléphone vide
+### 1️⃣ Step 1 - Crafting an Empty Phone
 
 {% hint style="info" %}
 <p align="center">
-Le téléphone peut être fabriqué à l'aide de fer, de cuivre, d'or, de verre pour l'écran et d'un diamant au cœur du dispositif. Si vous ne souhaitez pas utiliser de diamant, vous pouvez le remplacer par un <strong>Forgeliroue</strong>, qui peut être trouvé rarement dans le biome de type Acier de la Dimension Safari.
+The phone can be crafted using iron, copper, gold, glass for the screen, and a diamond at the heart of the device. If you do not want to use a diamond, you can replace it with a <strong>Forgesphere</strong>, which can rarely be found in the Steel-type biome of the Safari Dimension.
 </p>
 {% endhint %}
 
-![Recette de fabrication](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_1.png)
-![Recette de fabrication secondaire](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
+![Crafting Recipe](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_1.png)
+![Secondary Crafting Recipe](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/Motismart/phone_2.png)
 
-### 2️⃣ Étape 2 - Trouver un Motisma
+### 2️⃣ Step 2 - Finding a Rotom
 
 {% hint style="info" %}
 <p align="center">
-Lorsque vous essayez d'utiliser le téléphone, un message peut vous indiquer que vous devez avoir un Motisma dans votre équipe pour le faire fonctionner. Et c'est effectivement le cas : <strong>un Motisma doit être présent dans votre équipe pour que le téléphone fonctionne.</strong>
+When you try to use the phone, a message may tell you that you need to have a Rotom in your party for it to work. And that is indeed the case: <strong>a Rotom must be present in your party for the phone to work.</strong>
 </p>
 {% endhint %}
 
-Dans CobbleSafari, il existe **deux façons** de trouver un Motisma dans la nature :
+In CobbleSafari, there are **two ways** to find a Rotom in the wild:
 
-- ⚡ **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement.
-- 📱 **Les téléphones vides peuvent naturellement attirer Motisma :** placez un téléphone vide au sol et il existe une petite chance qu'un Motisma apparaisse à proximité. Cette méthode fonctionne également en dehors de la Dimension Safari, ce qui en fait l'option la plus simple si vous ne l'avez pas encore débloquée.
+- ⚡ **The Electric-type biome of the Safari Dimension:** Rotom appears there very rarely.
+- 📱 **Empty phones can naturally attract Rotom:** place an empty phone on the ground and there is a small chance that a Rotom will appear nearby. This method also works outside the Safari Dimension, making it the easiest option if you have not unlocked it yet.
 
-### 3️⃣ Étape 3 - Faire entrer Motisma
+### 3️⃣ Step 3 - Getting Rotom Inside
 
 <p align="center">
-Pour demander à Motisma d'intégrer son nouveau logement, vous devez <strong>faire un clic droit en tenant le téléphone vide et en visant dans les airs</strong>, ou <strong>faire un clic droit sur le bloc placé</strong>, avec Motisma dans votre équipe.
+To ask Rotom to move into its new home, you must <strong>right-click while holding the empty phone and aiming into the air</strong>, or <strong>right-click the placed block</strong>, with Rotom in your party.
 </p>
 
-Un écran de confirmation apparaît alors et affiche le Motisma qui s'apprête à entrer dans le téléphone : **profitez-en pour vérifier qu'il s'agit bien du bon Motisma**.
+A confirmation screen then appears and displays the Rotom that is about to enter the phone: **take this opportunity to make sure it is indeed the correct Rotom**.
 
-Si vous confirmez, Motisma quitte votre équipe pour entrer dans le téléphone. S'il tenait un objet ou portait un accessoire cosmétique, ceux-ci vous sont automatiquement rendus.
+If you confirm, Rotom leaves your party to enter the phone. If it was holding an item or wearing a cosmetic accessory, these are automatically returned to you.
 
 {% hint style="success" %}
 <p align="center">
-✨ <strong>Si votre Motisma est chromatique, votre Motismart le sera également.</strong><br>
-Les Motismart chromatiques conservent toujours une apparence distincte, même après l'application d'un Holo-Skin : chaque skin possède sa propre variante chromatique. De quoi afficher fièrement votre Motisma !
+✨ <strong>If your Rotom is Shiny, your Rotom Phone will be as well.</strong><br>
+Shiny Rotom Phones always retain a distinct appearance, even after applying a Holo-Skin: each skin has its own Shiny variant. A great way to proudly show off your Rotom!
 </p>
 {% endhint %}
 
 ***
 
-## 📱 Utiliser votre Motismart
+## 📱 Using Your Rotom Phone
 
-Pour ouvrir votre Motismart, **deux possibilités** s'offrent à vous :
+To open your Rotom Phone, **two options** are available to you:
 
-1. **🖱️ Faire un clic droit** en tenant le téléphone.
-2. **⌨️ Utiliser la touche dédiée au téléphone** (`Y` par défaut, modifiable dans les commandes de Minecraft).
+1. **🖱️ Right-click** while holding the phone.
+2. **⌨️ Use the dedicated phone key** (`Y` by default, configurable in Minecraft's controls).
 
-Cette méthode fonctionne tant que le téléphone se trouve sur vous : main principale, main secondaire, barre rapide, inventaire, emplacements d'armure ou emplacement des Accessories.
+This method works as long as the phone is on you: main hand, off-hand, hotbar, inventory, armor slots, or Accessories slot.
 
 ***
 
-## 📲 Les applications
+## 📲 Applications
 
 {% hint style="info" %}
 <p align="center">
-Votre Motismart peut accueillir jusqu'à <strong>6 applications différentes</strong> ! Bien plus complètes que de simples applications de soin ou de coffre de l'Ender, elles méritent qu'on s'y attarde.
+Your Rotom Phone can hold up to <strong>6 different applications</strong>! Much more comprehensive than simple healing or Ender Chest applications, they are worth taking a closer look at.
 </p>
 {% endhint %}
 
-Pour découvrir comment débloquer ces applications, consultez la section **Déblocage** ci-dessous.
+To find out how to unlock these applications, see the **Unlocking** section below.
 
-| Application | Fonctionnement |
+| Application | Function |
 | :---: | :--- |
-| 💬 **Messagerie** | Recevez des messages de PNJ contenant des missions et obtenez des récompenses en les accomplissant. |
-| 🔄 **GTS** | Effectuez des échanges asynchrones : déposez un Pokémon, proposez-le à l'échange ou consultez les offres des autres joueurs. |
-| 🎁 **Échange Miracle** | Envoyez un Pokémon et recevez-en un autre aléatoirement en retour ! |
-| 👥 **Salle Union** | Créez ou rejoignez un salon privé pour discuter, combattre et échanger avec vos amis. |
-| ✨ **Holo-Skins** | Personnalisez l'apparence de votre Motismart, à l'intérieur comme à l'extérieur ! |
-| ⚙️ **Paramètres** | Activez ou désactivez les deux fonctionnalités de sécurité : la protection contre les dégâts de chute et le double saut. |
+| 💬 **Messaging** | Receive messages from NPCs containing missions and earn rewards by completing them. |
+| 🔄 **GTS** | Make asynchronous trades: deposit a Pokémon, offer it for trade, or browse other players' offers. |
+| 🎁 **Wonder Trade** | Send a Pokémon and receive another one randomly in return! |
+| 👥 **Union Room** | Create or join a private room to chat, battle, and trade with your friends. |
+| ✨ **Holo-Skins** | Customize the appearance of your Rotom Phone, both inside and out! |
+| ⚙️ **Settings** | Enable or disable the two safety features: fall damage protection and double jump. |
 
 ***
 
-### 💬 Application Messagerie
+### 💬 Messaging App
 
 {% hint style="info" %}
 <p align="center">
-Comme dans n'importe quelle application de messagerie, votre liste de contacts apparaît sur la gauche. Sélectionnez un contact pour consulter son message, accomplir sa mission et obtenir vos récompenses !
+As with any messaging app, your list of contacts appears on the left. Select a contact to view their message, complete their mission, and claim your rewards!
 </p>
 {% endhint %}
 
-Trois types de missions peuvent vous être proposés :
+Three types of missions may be offered to you:
 
-- 🎯 **Accomplir un avancement**
-- 📈 **Augmenter une statistique d'une certaine valeur**
-- 🎒 **Rassembler des objets**
+- 🎯 **Complete an advancement**
+- 📈 **Increase a stat by a certain amount**
+- 🎒 **Gather items**
 
-Certaines missions nécessitent d'avoir accompli des prérequis, tandis que d'autres vous demanderont d'attendre le lendemain, c'est-à-dire le jour réel suivant, avant de pouvoir poursuivre.
+Some missions require you to have completed prerequisites, while others will ask you to wait until the next day, meaning the following real-world day, before you can continue.
 
 ***
 
-### 🌐 Applications GTS, Échange Miracle et Salle Union
+### 🌐 GTS, Wonder Trade, and Union Room Apps
 
-Ces trois applications constituent les **Fonctionnalités en Ligne** du Motismart. Malgré leur appellation « en ligne », vous pouvez parfaitement les utiliser seul tout au long de votre aventure !
+These three apps make up the **Online Features** of the Rotom Phone. Despite being called “online” features, you can perfectly well use them alone throughout your adventure!
 
-En résumé :
+In short:
 
-- 🔄 **La GTS** permet d'effectuer des échanges asynchrones avec d'autres joueurs ou avec des PNJ, notamment certains champions et célèbres champions d'arène.
-- 🎁 **L'Échange Miracle** vous permet d'échanger votre Pokémon contre un Pokémon aléatoire.
-- 👥 **La Salle Union** crée une dimension privée dans laquelle vous et vos amis pouvez vous retrouver, combattre et échanger. Même seul, elle peut être utile pour faire une pause pendant votre exploration ou soigner vos Pokémon à tout moment.
+- 🔄 **The GTS** allows you to make asynchronous trades with other players or NPCs, including certain champions and famous Gym Leaders.
+- 🎁 **Wonder Trade** allows you to trade your Pokémon for a random Pokémon.
+- 👥 **The Union Room** creates a private dimension where you and your friends can meet, battle, and trade. Even when alone, it can be useful for taking a break during your exploration or healing your Pokémon at any time.
 
 <p align="center">
-Pour découvrir le fonctionnement complet de ces fonctionnalités, consultez la page des <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Fonctionnalités en ligne</strong></a>.
+To discover how these features work in full, visit the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Online Features</strong></a> page.
 </p>
 
 ***
 
 ## ✨ Holo-Skins
 
-Les **Holo-Skins** utilisent un hologramme projeté sur la coque du Motismart afin d'en modifier l'apparence. Ils modifient à la fois **l'interface du téléphone et son modèle dans l'inventaire**.
+**Holo-Skins** use a hologram projected onto the Rotom Phone's casing to change its appearance. They modify both **the phone's interface and its model in the inventory**.
 
-Certains skins disposent également de leur propre **fond d'écran pour l'interface**.
+Some skins also have their own **interface wallpaper**.
 
-Les skins sont débloqués **individuellement pour chaque joueur** et restent donc disponibles même si vous changez de Motismart. Ils peuvent être obtenus grâce aux **récompenses de missions, aux avancements ou à des objets de déblocage consommables**.
+Skins are unlocked **individually for each player** and therefore remain available even if you change your Rotom Phone. They can be obtained through **mission rewards, advancements, or consumable unlock items**.
 
 <p align="center">
-✨ Retrouvez la liste complète des skins disponibles sur la page des <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Holo-Skins</strong></a>.
+✨ Find the complete list of available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Holo-Skins</strong></a> page.
 </p>
 
 ***
 
-## 🛡️ Paramètres - Roto-Chute et Roto-Glisse
+## 🛡️ Settings - Roto-Glide and Roto-Slide
 
 {% hint style="info" %}
 <p align="center">
-Deux fonctionnalités de sécurité inspirées de celles que l'on peut retrouver à Kalos et à Paldea. Elles peuvent être activées ou désactivées individuellement pour chaque Motismart depuis l'application <strong>Paramètres</strong> et fonctionnent aussi bien lorsque le téléphone est tenu en main que lorsqu'il est équipé dans l'emplacement Accessories.
+Two safety features inspired by those found in Kalos and Paldea. They can be individually enabled or disabled for each Rotom Phone from the <strong>Settings</strong> app and work whether the phone is held in your hand or equipped in the Accessories slot.
 </p>
 {% endhint %}
 
-### 🪂 Roto-Chute
+### 🪂 Roto-Glide
 
-**Roto-Chute** amortit les longues chutes.
+**Roto-Glide** softens long falls.
 
-Après environ une seconde de chute, le téléphone applique un effet spécial qui **annule entièrement les dégâts de chute** et maintient continuellement sa protection jusqu'à votre atterrissage.
+After approximately one second of falling, the phone applies a special effect that **completely negates fall damage** and continuously maintains its protection until you land.
 
-*Il a bien fallu trouver une solution, puisque les enfants de Kalos n'arrêtent pas de tomber des toits.*
+*There had to be a solution, since the children of Kalos just can't stop falling off roofs.*
 
-### ⬆️ Roto-Glisse
+### ⬆️ Roto-Slide
 
-**Roto-Glisse** fonctionne comme une sorte de double saut.
+**Roto-Slide** works somewhat like a double jump.
 
-Appuyez sur la touche de saut **pendant que vous êtes déjà en train de tomber** et, une seconde plus tard, vous bénéficiez d'une impulsion vers le haut pouvant atteindre **deux fois la hauteur d'un saut normal**, à condition de continuer à tomber sans avoir touché le sol entre-temps.
+Press the jump key **while you are already falling**, and one second later, you will receive an upward boost that can reach **twice the height of a normal jump**, provided you continue falling without touching the ground in the meantime.
 
-Contrairement à un simple double saut qui pourrait être utilisé pour gagner de la hauteur, cette fonctionnalité est principalement conçue pour permettre de franchir de longues distances entre deux plateformes.
+Unlike a simple double jump that could be used to gain height, this feature is primarily designed to allow you to cross long distances between two platforms.
 
 ***
 
-## 🔓 Déblocage
+## 🔓 Unlocking
 
 {% hint style="info" %}
 <p align="center">
-Par défaut, toutes les applications ne sont pas disponibles immédiatement. Chaque application peut être <strong>verrouillée, déverrouillée ou complètement désactivée</strong> par les propriétaires de serveurs et les créateurs de modpacks. Les applications verrouillées n'apparaissent tout simplement pas dans le menu tant qu'elles n'ont pas été obtenues.
+By default, not all apps are immediately available. Each app can be <strong>locked, unlocked, or completely disabled</strong> by server owners and modpack creators. Locked apps simply do not appear in the menu until they have been obtained.
 </p>
 {% endhint %}
 
-Il existe **trois façons** de débloquer une application :
+There are **three ways** to unlock an app:
 
-- 🎁 **Récompense de mission :** une mission peut être configurée pour débloquer une application lorsqu'elle commence.
-- 🔑 **Objet de déblocage :** des objets consommables existent pour chaque application et peuvent être utilisés pour débloquer celles-ci, notamment comme butin de donjon ou récompense de mission.
-- 🛠️ **Commande administrateur :** les administrateurs de serveur, blocs de commande et autres systèmes externes à CobbleSafari peuvent utiliser des commandes pour attribuer directement les applications.
+- 🎁 **Mission reward:** a mission can be configured to unlock an app when it starts.
+- 🔑 **Unlock item:** consumable items exist for each app and can be used to unlock them, including as dungeon loot or mission rewards.
+- 🛠️ **Administrator command:** server administrators, command blocks, and other systems external to CobbleSafari can use commands to directly grant apps.
 
 ***
 
 {% hint style="success" %}
-### Nous contacter
+## Contact Us
 
 <p align="center">
-Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
+If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
