@@ -1,9 +1,7 @@
 # 🧃 Aprijuice
 
 {% hint style="info" %}
-<p align="center">
-🤔 Qu'est-ce qu l’<strong>Aprijuice</strong> ?
-</p>
+## 🤔 Qu'est-ce qu Aprijuice ?
 
 <p align="center">
 C'est un objet consommable préparé dans une <code>Marmite à feu</code> sur un <code>Feu de camp</code>. Pendant sa cuisson, il absorbe différents arômes issus des ingrédients utilisés, ce qui permet de modifier durablement les statistiques de monture d’un Pokémon.
@@ -77,8 +75,8 @@ Cette qualité n'influence pas ses effets et sert uniquement d'indicateur visuel
 ## 🍶 Obtention
 
 <p align="center">
-L’Aprijuice se prépare en cuisinant des Apricorns avec des baies dans une `Marmite à feu` sur un `Feu de camp`. 
-La combinaison des ingrédients détermine ses effets finaux.
+L’Aprijuice se prépare en cuisinant des Apricorns avec des baies dans une <code>Marmite à feu</code>, placée sur un <code>Feu de camp</code>.<br>
+La combinaison des ingrédients détermine les effets finaux de l’Aprijuice.
 </p>
 
 ### 🍳 Préparation
