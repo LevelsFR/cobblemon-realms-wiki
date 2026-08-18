@@ -239,7 +239,11 @@ Les résultats peuvent notamment afficher :
 - ⚙️ Les conditions particulières
 
 {% hint style="success" %}
-💡 **Préparez votre chasse avant de partir !** Le bot permet d'identifier rapidement les dimensions et les environnements dans lesquels rechercher un Pokémon rare.
+<p align="center">
+## 💡 Préparez votre chasse avant de partir ! 
+
+Le bot permet d'identifier rapidement les dimensions et les environnements dans lesquels rechercher un Pokémon rare.
+</p>
 {% endhint %}
 
 ---
