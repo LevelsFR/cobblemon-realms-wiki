@@ -1,282 +1,296 @@
-# 🎯 Trainer Progression Overview
+# 🎯 Level Cap and Trainers
 
 ## 📈 Understanding Progression
 
-{% hint style="warning" %}
-<p align="center">
-<strong>🚧 This page is currently being revised</strong>
-</p>
-
-<p align="center">
-Some information may be incorrect or no longer match the current version of the modpack.
-Please refer to the other wiki guides while this page is being updated.
-</p>
-{% endhint %}
-
 {% hint style="info" %}
 <p align="center">
-Trainer progression in Cobblemon Realms is built around a system of <strong>Trainer Cards</strong>, <strong>Key Trainers</strong>, and <strong>Trainer Series</strong>. These systems help structure the adventure and guide players throughout their progression.
+The trainer progression system in <strong>Cobblemon Realms</strong> is based on three main elements: <strong>Trainer Cards</strong>, <strong>Key Trainers</strong> and <strong>Trainer Series</strong>. Together, they structure your adventure and guide your progression towards increasingly difficult challenges.
 </p>
 {% endhint %}
 
-<p align="center">
-This page introduces the core principles of the system and the essential information to know before facing the different challenges of the modpack.
-</p>
+***
 
----
+## 🌍 Freeroam Guide - Playing Without a Level Cap
 
-<details>
-<summary align="center">
-<strong>🌍 Freeroam Guide - Playing Without Level Caps</strong>
-</summary>
+{% hint style="info" %}
+The **Freeroam Mode** allows you to temporarily pause your story progression in order to freely explore the world, train your Pokémon up to **level 100**, and enjoy the modpack without any level restrictions.
+{% endhint %}
 
-# 🌍 Freeroam Mode
+### ℹ️ What is Freeroam?
 
-*Explore freely, train your Pokémon up to Level 100, and temporarily pause your main adventure.*
+The **Freeroam Mode** allows you to temporarily disable the restrictions associated with your current trainer series. Your main progression remains intact and can be resumed at any time.
 
----
+| | Function |
+| :---: | --- |
+| ✅ | No more level restrictions |
+| ✅ | Pokémon can reach **level 100** |
+| ✅ | Free exploration of all regions |
+| ✅ | Capture and train without restrictions |
+| ✅ | Return to your main series at any time |
 
-# ℹ️ What is Freeroam?
+{% hint style="warning" %}
+⚠️ Freeroam **does not delete your progression**. Your main series is simply paused while you play freely.
+{% endhint %}
 
-**Freeroam Mode** allows you to temporarily disable the story progression of your current series to play completely freely.
+### 📖 Activating Freeroam
 
-Once enabled:
+Follow these four steps from the quests menu:
 
-- ✅ No more level restrictions
-- ✅ Pokémon can reach **Level 100**
-- ✅ Free exploration across all regions
-- ✅ Capture and train without restrictions
-- ✅ Return to your main progression at any time
+#### 🧭 1. Open Quests
 
-> ⚠️ While using Freeroam, your main progression is only paused — it is never deleted.
+Open your inventory and click on the small `Quests` book, located at the top left of your screen.
 
----
+#### 📂 2. Display the categories
 
-# 📖 How to Enable Freeroam
+Move your cursor to the left side of the screen to make the list of available categories appear.
 
-## 🧭 Step 1 - Open Quests
+#### 📘 3. Open the Welcome Guide
 
-Open your inventory and click the small `Quests` book located in the top-left corner of your screen.
+From the list of categories, select `Welcome Guide`.
 
----
+#### 🪙 4. Activate Freeroam
 
-## 📂 Step 2 - Show Categories
+At the very bottom of the menu, you will find a `Realms Coin`. Click on it to enter `Freeroam` mode.
 
-Move your cursor to the left side of the screen to display the available quest categories.
-
----
-
-## 📘 Step 3 - Open the Welcome Guide
-
-From the displayed menu, click on `Welcome Guide`.
-
----
-
-## 🪙 Step 4 - Enable Freeroam
-
-At the bottom of the menu, you will find a `Realms Coin`. Click it to switch into: `Freeroam`
-
----
-
-# 🔄 Resume Your Normal Progression
+### 🔄 Resuming Your Progression
 
 You can return to your main adventure **at any time**.
 
-## Two methods are available:
+| Method | Action |
+| :---: | --- |
+| 📌 **FTB Quests Menu** | Use the button dedicated to your region. |
+| 🧑‍🏫 **Trainers Association** | Spawn a `Trainers Association` NPC, then select the series you wish to resume. |
 
-### 📌 Via the FTB Quests Menu
-Simply use the button corresponding to your region.
+{% hint style="success" %}
+✅ Your progression will remain exactly where you left it.
+{% endhint %}
 
-### 🧑‍🏫 Via the Trainers Association
-Spawn a `Trainers Association` NPC and select the series you want to resume.
+### ✨ Why Use Freeroam?
 
-> ✅ Your progression will remain exactly where you left it.
+Freeroam is particularly useful if you want to:
 
----
+- 🌍 **Freely explore** all regions
+- ⚔️ **Train your teams** without a level limit
+- 📚 **Complete your Pokédex**
+- 🎣 **Hunt for rare Pokémon**
+- 🧪 **Test different teams**
+- 🏕️ **Play in a more sandbox-like and relaxed way**
 
-# ✨ Why Use Freeroam?
+{% hint style="info" %}
+💡 Freeroam is an **optional alternative** to the traditional progression system. You can freely switch between the story-driven adventure and free exploration depending on how you want to play.
+{% endhint %}
 
-Freeroam is perfect if you want to:
+***
 
-- 🌍 Explore freely
-- ⚔️ Train teams without limits
-- 📚 Complete your Pokédex
-- 🎣 Hunt rare Pokémon
-- 🧪 Test teams
-- 🏕️ Play in a more sandbox-oriented and relaxed way
+## 📊 Maximum Level System (Level Cap)
 
----
+Each player has their own **personal maximum level**, starting at **25** in this modpack (by default, it is lower in the original mod).
 
-## 💡 Important
+### ⚙️ What Does the Level Cap Do?
 
-Freeroam is an **optional alternative** to the traditional progression system.  
-You can freely switch between story progression and free exploration depending on how you want to play.
+The maximum level directly affects your Pokémon and the trainers you can battle:
 
-</details>
-
----
-
-## 📊 Level Cap System
-
-Each player has a **personal maximum level**, starting at **25** in this modpack (the original mod uses a lower default value).
-
-### ⚙️ Effects of the Level Cap
-
-- 🛑 Pokémon that have **reached or exceeded** your maximum level **can no longer gain experience**.
-- 🚫 Trainers will **refuse to battle** if a Pokémon in your team exceeds this level.
-- 🎯 The **strength of nearby trainers** scales with your team but **never exceeds your current level cap**.
+| Effect | How it works |
+| :---: | --- |
+| 🛑 **Experience** | Pokémon that have **reached or exceeded** your maximum level **can no longer gain experience**. |
+| 🚫 **Battles** | Trainers will **refuse to battle** if a Pokémon on your team exceeds this level. |
+| 🎯 **Trainer levels** | The **strength of nearby trainers** adapts to your team, but **never exceeds your maximum level**. |
 
 ### 🧭 How to Increase Your Cap
 
-To increase your maximum level:
+To increase your maximum level, you must progress through the **Key Trainer** system:
 
-- Defeat **Key Trainers** in the exact order defined by the progression system.
-- Your **Trainer Card** displays your next Key Trainer and provides hints about where to find them.
-- The **Advancements** tab provides additional milestones and clues.
+1. 🏆 Defeat the **Key Trainers** in the exact order defined by the progression system.
+2. 🪪 Check your **Trainer Card** to find out who your next Key Trainer is and get clues about where to find them.
+3. 📖 Check the **Advancements** tab to discover additional steps and obtain new clues.
 
----
+***
 
 ## 🔍 Key Trainers & Tracking System
 
-Key Trainers are the main progression checkpoints. Defeating them increases your level cap and unlocks harder challenges.
+The **Key Trainers** are the main progression milestones. Defeating them increases your maximum level and progressively unlocks more difficult challenges.
 
 ### 🧭 How Tracking Works
 
-- **At the start of the game**, once you obtain a **Trainer Card** but **do not have an active trainer series selected**, a **holographic arrow** appears.  
-  → This arrow **always points toward the Trainers Association NPC** so you can start your first trainer series.
+At the beginning of the game, when you obtain a **Trainer Card** but **do not have an active trainer series**, a **holographic arrow** appears.
 
-- After choosing a series, **the arrow disappears**; there is **no arrow pointing toward Key Trainers** themselves.
+→ This arrow **always points towards the Trainers Association NPC**, allowing you to start your first series.
 
-- From that point onward, you must **use the information provided on your Trainer Card** to locate Key Trainers:
-  - **Biome names**
-  - **Special conditions**
-  - **Sometimes required items** needed to summon them
+Once a series has been selected:
 
----
+- the arrow disappears;
+- there is **no arrow pointing towards the Key Trainers** themselves;
+- you must use the information on your **Trainer Card** to locate them.
+
+The available information may include:
+
+- 🗺️ **Biome names**;
+- ✨ **Special conditions**;
+- 🎒 **Required items** to summon them, when necessary.
 
 ### 🌍 Finding Key Trainers in Cobblemon Realms
 
-In **Cobblemon Realms**, additional tools are available through the quest system:
+In **Cobblemon Realms**, the quest system provides several additional tools to make finding them easier.
 
-- Each quest category lists **all trainers belonging to a series**.
-- You can **or exchange Realms Coins** to instantly spawn the trainer you need to fight.
+Each quest category lists **all trainers in a series**. You can also **exchange Realms Coins** to instantly spawn the trainer you need to battle.
 
-  - Trainers can be spawned infinitely this way.
-  - **Cooldown:** once defeated, a trainer cannot be challenged again until **one Minecraft day** has passed (≈ 20 minutes IRL).
+{% hint style="info" %}
+💡 Trainers can be generated **indefinitely** this way.
+{% endhint %}
 
-- Quests include an **Info button**:
-  - Allows you to **activate a trainer series remotely**  
-    _(Only one active series at a time; activating another resets the progression of the current one unless it is already completed)._
-  - Provides a link to a **progression chart** showing trainer order and their **average level**.
-  - Redirects you to the corresponding **Advancements** to follow progression order directly in Minecraft.
+However, once defeated, a trainer cannot be battled again immediately.
 
-  ---
+> ⏱️ **Cooldown:** a defeated trainer must wait **one Minecraft day**, or approximately **20 minutes IRL**, before they can be battled again.
 
-## 🏆 Access to Gym Leaders & Major Trainers
+The quests also feature an **Info button**, which provides access to several tools:
 
-Progression is not limited to increasing your level cap. It also unlocks access to **Gym Leaders, Rivals, Elite Four members, villain teams**, and other major challenges.
+| Function | Description |
+| :---: | --- |
+| 🧭 **Activate a series remotely** | Allows you to activate a series without having to physically find the Trainers Association. |
+| 📈 **Progression graph** | Displays the order of the trainers as well as their **average level**. |
+| 🏆 **Advancements** | Takes you to the corresponding **Advancements** so you can directly track your progression in Minecraft. |
+
+{% hint style="warning" %}
+⚠️ <strong>Only one series can be active at a time.</strong> Activating another series resets the progression of the current series, unless it has already been completed.
+{% endhint %}
+
+***
+
+## 🏆 Gym Leaders & Major Trainers
+
+Progression is not limited to increasing the **Level Cap**. As you advance through the different series, you also unlock access to **Gym Leaders**, **Rivals**, the **Elite Four**, **villain teams**, and other major challenges.
 
 ### 🔓 Unlock Requirements
 
-- 🥇 Defeat the required **Key Trainers** within a series to unlock its high-level opponents.
-- 💠 Some trainers require **special items** (e.g. _Hard Stone_) to be summoned.
-- 🧱 Use a **Trainer Generator** (found in villages or gyms) and right-click it with the required item to summon the trainer after a short delay.
-- 🧩 Advanced content (Leagues, Elite Four, team leaders) may require multiple completed series.
+| | Requirement |
+| :---: | --- |
+| 🥇 | Defeat the required **Key Trainers** in a series to unlock its high-level opponents. |
+| 💠 | Some trainers require **special items** (e.g. _Hard Stone_) to be summoned. |
+| 🧱 | Use a **Trainer Spawner**, found in villages or gyms, then right-click with the required item to summon the trainer after a short delay. |
+| 🧩 | Advanced content such as **Leagues**, the **Elite Four**, or **team leaders** may require several completed series. |
 
-> **Tip:** Your progression is **non-linear**; you can follow a single path or mix multiple trainer series.
+{% hint style="info" %}
+💡 <strong>Your progression is non-linear.</strong> You can follow a single path or progress through several series in parallel in order to unlock different content.
+{% endhint %}
 
----
+***
 
 ## 🤝 Trainers Association
 
-The **Trainers Association** is a special NPC that helps you start a new trainer series.
+The **Trainers Association** is a special NPC that allows you to start a new series and access its progression path.
 
-- **Appears near a player** who:
-  - has a **Trainer Card** (in hand or inventory), **and**
-  - has **no active trainer series**
+### 🧑‍🏫 When Does It Appear?
 
-- When nearby, your Trainer Card:
-  - **Glows**
-  - Displays an **arrow** pointing toward the NPC
-- This NPC offers a **series selection menu**, with each series featuring unique themes, progression paths, and difficulty levels.
+The Trainers Association appears near a player who:
 
----
+- has a **Trainer Card**, either in their hand or in their inventory;
+- **does not have an active trainer series**.
+
+When it is nearby, your **Trainer Card**:
+
+- ✨ **glows**;
+- 🧭 displays an **arrow** indicating the NPC's direction.
+
+Once you are near the Trainers Association, it offers a **series menu**. Each series has its own theme, progression path, and difficulty.
+
+***
 
 ## 📋 Available Trainer Series
 
-Your modpack includes the base content from Radical Trainers **as well as** the additional trainer series from **More Radical Trainers**.
+Cobblemon Realms includes the base content of **Radical Trainers**, as well as the additional series provided by **More Radical Trainers**.
 
-### 🟢 Independent Series (No Requirements)
+### 🟢 Independent Series
 
-1. **Pokémon Adventures** ⮕ Manga protagonists with branching paths.
-2. **Sinnoh Gym Challenge** ⮕ Double battles against Sinnoh Gym Leaders.
-3. **Team Aqua** ⮕ Appears in the Overworld.
-4. **Team Magma** ⮕ Appears in the Nether.
-5. **Unova Gym Challenge** _(5/10)_  
-   ➤ Battle all Unova Gym Leaders.
-6. **Hoenn Gym Challenge** ⮕ Hoenn Gym Leaders.
-7. **Kalos Gym Challenge** ⮕ Level 90+ teams with Mega Evolutions.
-8. **Paldea Gym Challenge** ⮕ Gym Leaders from the newest generation.
+These series can be started **without any prerequisites**:
 
-### 🔒 Series with Requirements
+| # | Series | Special Feature |
+| :---: | --- | --- |
+| **1** | **Pokémon Adventures** | Manga heroes, with branching paths. |
+| **2** | **Sinnoh Gym Challenge** | Double battles against the Sinnoh Gym Leaders. |
+| **3** | **Team Aqua** | Appears in the Overworld. |
+| **4** | **Team Magma** | Appears in the Nether. |
+| **5** | **Unova Gym Challenge** _(5/10)_ | Battle all Unova Gym Leaders. |
+| **6** | **Hoenn Gym Challenge** | Hoenn Gym Leaders. |
+| **7** | **Kalos Gym Challenge** | Level 90+ teams with Mega Evolutions. |
+| **8** | **Paldea Gym Challenge** | Gyms from the most recent generation. |
 
-9. **Team Plasma** ⮕ Requires _Unova Gym Challenge_.
-10. **Unova League Challenge** ⮕ Requires _Unova Gym Challenge_.
-11. **Hoenn League Challenge** ⮕ Requires _Hoenn Gym Challenge_.
-12. **Kalos League Challenge** ⮕ Requires _Kalos Gym Challenge_.
-13. **Team Plasma Seven Sages** ⮕ Requires _Team Plasma_ + _Unova League Challenge_.
-14. **Unova (B2W2) Challenge** _(6/10)_  
-    ➤ Requires: _Unova Gym Challenge & Unova League Challenge_
-15. **Neo Team Plasma** ⮕ Requires _Team Plasma Seven Sages_.
-16. **Paldea Elite Four & Champion** ⮕ Requires _Paldea Gym Challenge_.
-17. **Starfall Street (Team Star)** ⮕ Requires _Paldea Gym Challenge_.
+### 🔒 Series With Prerequisites
 
-💡 All advanced trainers use **fully EV/IV trained teams** with competitive movesets.
+These series require certain content to be completed before they can be activated:
+
+| # | Series | Prerequisite |
+| :---: | --- | --- |
+| **9** | **Team Plasma** | _Unova Gym Challenge_ |
+| **10** | **Unova League Challenge** | _Unova Gym Challenge_ |
+| **11** | **Hoenn League Challenge** | _Hoenn Gym Challenge_ |
+| **12** | **Kalos League Challenge** | _Kalos Gym Challenge_ |
+| **13** | **Seven Sages of Team Plasma** | _Team Plasma_ + _Unova League_ |
+| **14** | **Unova (B2W2) Challenge** _(6/10)_ | _Unova Gym Challenge_ + _Unova League Challenge_ |
+| **15** | **Neo Team Plasma** | _Seven Sages of Team Plasma_ |
+| **16** | **Elite Four & Paldea Champion** | _Paldea Gym Challenge_ |
+| **17** | **Starfall Street (Team Star)** | _Paldea Gym Challenge_ |
+
+{% hint style="warning" %}
+⚔️ All advanced trainers use **fully EV/IV-trained teams** and have **competitive movesets**. Make sure to prepare your teams accordingly before taking on the high-level series.
+{% endhint %}
+
+***
+
+## 📈 Progression Graph
+
+The **Radical Trainers** system allows you to visualize your complete progression through the different trainer series.
+
+Use the command: `/rctmod player get progress <pseudo> graph include_defeated include_optionals`
+
+The graph allows you to see:
+
+| Indicator | Meaning |
+| :---: | --- |
+| ✔️ | Completed series |
+| 🟡 | Optional paths |
+| 🔒 | Content still locked |
+| 🔁 | Dependencies between the different series |
 
 ---
 
-## 📈 Progression Chart
+## 🎯 Advancements
 
-View your progression with:
-`/rctmod player get progress <username> graph include_defeated include_optionals`
+**Advancements** allow you to track your progression directly in-game and can also serve as a hint system.
 
-Displays:
+Each series has its **own advancements**, some of which may be hidden. Depending on your progression, they can help you identify the next steps or unlock new content.
 
-- ✔ Completed series
-- 🟡 Optional paths
-- 🔒 Locked content
-- 🔁 All dependencies
+Rewards may include:
 
----
-
-### 🎯 Advancements
-
-- Each series has its **own advancements**, sometimes hidden.
-- They serve both as **progression tracking** and a **hint system**.
-- Rewards may include items, coins, or unlock conditions.
+* 🎁 Items
+* 🪙 Realms Coins
+* 🔓 Conditions that allow new content to be unlocked
 
 ---
 
 {% hint style="success" %}
-## :bulb: Tips for Success :
+## 💡 Tips for Progressing
 
-- :brain: Rotate your team to avoid blocking XP with a single Pokémon.
-- :dart: Prioritize trainer battles early to quickly unlock gyms and series.
-- :map: Check your Trainer Card often, especially for biome and dimension hints.
-- :book: Keep an eye on the Advancements tab for hidden objectives.
-- :speech_balloon: Besoin d'aide ? Rejoignez notre serveur [Discord](https://discord.gg/kb8NSTF45n).
+* 🧠 **Rotate your team** to avoid locking your XP behind a single Pokémon.
+* 🎯 **Prioritize trainer battles** to quickly increase your Level Cap and unlock new series.
+* 🗺️ **Check your Trainer Card regularly**, especially for clues related to biomes and dimensions.
+* 📖 **Keep an eye on your Advancements** so you don't miss hidden objectives.
+* 💬 **Need help?** Join our [Discord](https://discord.gg/kb8NSTF45n) server.
+</p>
 {% endhint %}
 
 ---
 
 ## ℹ️ Learn More
 
-- [**Official Radical Trainers Documentation**](https://srcmc.gitlab.io/rct/docs/0.13/)
-- [**More Radical Trainers (Datapack)**](https://modrinth.com/datapack/more-radical-trainers)
+To discover more about how the trainer system works, check out the following resources:
+
+* 📘 [**Official Radical Trainers Documentation**](https://srcmc.gitlab.io/rct/docs/0.13/)
+* 📦 [**More Radical Trainers - Datapack**](https://modrinth.com/datapack/more-radical-trainers)
 
 ---
 
 {% hint style="success" %}
+
 ## Contact Us
 
 <p align="center">
