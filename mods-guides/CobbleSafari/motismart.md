@@ -1,4 +1,4 @@
-# 📱 Everything You Need to Know About the Rotom Phone
+# 📱 Everything About the Rotom Phone
 
 {% hint style="info" %}
 <p align="center">
