@@ -58,6 +58,22 @@
    * [🔥🏗️ Nether Structures](mods-guides/legendary_monuments/nether_world.md)
    * [🌌🏗️ End Structures](mods-guides/legendary_monuments/end_world.md)
 
+## CobbleSafari
+
+* [🦁 CobbleSafari](mods-guides/CobbleSafari/cobblesafari.md)
+  * [🎡 Safari Dimension](mods-guides/CobbleSafari/safari_dimension.md)
+  * [🐾 Safari Pokémon](mods-guides/CobbleSafari/wild_pokemon_safari.md)
+  * [🌀 Hoopa’s Portal](mods-guides/CobbleSafari/hoopa_portals.md)
+  * [🌌 Distortion World](mods-guides/CobbleSafari/distortion_world.md)
+  * [⛏️ Sinnoh Underground](mods-guides/CobbleSafari/sinnoh_underground.md)
+  * [💎 Sinnoh Underground Treasures](mods-guides/CobbleSafari/underground_treasure_list.md)
+  * [🌸 Perfumes, Incense & Repels](mods-guides/CobbleSafari/perfumes_incense_repels.md)
+  * [🥚 Wild Eggs & Incubators](mods-guides/CobbleSafari/wild_eggs_incubators.md)
+  * [🎈 Reward Balloons](mods-guides/CobbleSafari/reward_balloons.md)
+  * [🏠 Secret Base PC](mods-guides/CobbleSafari/secret_base_pc.md)
+  * [🤝 Trader Exchanges](mods-guides/CobbleSafari/traders_trade_list.md)
+  * [⌨️ /cobblesafari Command](mods-guides/CobbleSafari/cobblesafari_command.md)
+
 ## Myths and Legends
 
 * [🌟 Legendary - All Generations](pokemons-guides/myths-and-legends-legendaries.md)
@@ -120,19 +136,6 @@
 
 ## Mod Guides
 
-* [🦁 CobbleSafari](mods-guides/CobbleSafari/cobblesafari.md)
-  * [🎡 Safari Dimension](mods-guides/CobbleSafari/safari_dimension.md)
-  * [🐾 Safari Pokémon](mods-guides/CobbleSafari/wild_pokemon_safari.md)
-  * [🌀 Hoopa’s Portal](mods-guides/CobbleSafari/hoopa_portals.md)
-  * [🌌 Distortion World](mods-guides/CobbleSafari/distortion_world.md)
-  * [⛏️ Sinnoh Underground](mods-guides/CobbleSafari/sinnoh_underground.md)
-  * [💎 Sinnoh Underground Treasures](mods-guides/CobbleSafari/underground_treasure_list.md)
-  * [🌸 Perfumes, Incense & Repels](mods-guides/CobbleSafari/perfumes_incense_repels.md)
-  * [🥚 Wild Eggs & Incubators](mods-guides/CobbleSafari/wild_eggs_incubators.md)
-  * [🎈 Reward Balloons](mods-guides/CobbleSafari/reward_balloons.md)
-  * [🏠 Secret Base PC](mods-guides/CobbleSafari/secret_base_pc.md)
-  * [🤝 Trader Exchanges](mods-guides/CobbleSafari/traders_trade_list.md)
-  * [⌨️ /cobblesafari Command](mods-guides/CobbleSafari/cobblesafari_command.md)
 * [🎵 Music Interface](mods-guides/musicinterface.md)
 * [🍃 Rustling Spots](mods-guides/rustling_spots.md)
 * [🧱 Chunky World Pre-generation](mods-guides/chunky.md)
