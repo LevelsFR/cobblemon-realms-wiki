@@ -1,12 +1,10 @@
 # 🧃 Aprijuice
 
 {% hint style="info" %}
-<p align="center">
-🤔 What is <strong>Aprijuice</strong>?
-</p>
+## 🤔 What is Aprijuice?
 
 <p align="center">
-It is a consumable item prepared in a <code>Campfire Pot</code> placed over a <code>Campfire</code>. During cooking, it absorbs different flavors from the ingredients used, allowing you to permanently modify a Pokémon's mount statistics.
+It is a consumable item prepared in a <code>Fire Cauldron</code> placed on a <code>Campfire</code>. During cooking, it absorbs different flavors from the ingredients used, allowing you to permanently modify a Pokémon's mount stats.
 </p>
 {% endhint %}
 
@@ -15,23 +13,23 @@ It is a consumable item prepared in a <code>Campfire Pot</code> placed over a <c
 ## 🌰 Apricorn Bonuses
 
 The color of the Apricorn used during preparation determines a base bonus applied to the Aprijuice.  
-These effects are then added to the bonuses obtained through ingredients.
+These effects are then added to the bonuses obtained from the ingredients.
 
-- ![Plain Red Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_red_aprijuice.png) : +2 Acceleration / -1 Stamina  
-- ![Plain Blue Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_blue_aprijuice.png) : +2 Handling / -1 Jump  
-- ![Plain Pink Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_pink_aprijuice.png) : +2 Speed / -1 Acceleration  
-- ![Plain Yellow Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_yellow_aprijuice.png) : +2 Stamina / -1 Handling  
-- ![Plain Green Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_green_aprijuice.png) : +2 Jump / -1 Speed  
-- ![Plain White Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_white_aprijuice.png) : -2 to all stats  
-- ![Plain Black Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_black_aprijuice.png) : no bonus  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_red_aprijuice.png) : +2 Acceleration / -1 Stamina  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_blue_aprijuice.png) : +2 Handling / -1 Jump  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_pink_aprijuice.png) : +2 Speed / -1 Acceleration  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_yellow_aprijuice.png) : +2 Stamina / -1 Handling  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_green_aprijuice.png) : +2 Jump / -1 Speed  
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_white_aprijuice.png) : -2 to all stats
+- ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/plain_black_aprijuice.png) : no bonus  
 
 ---
 
 ## 🌿 Flavor Absorption
 
-Berries added during preparation transfer different flavors to the Aprijuice. Each flavor is associated with a specific mount statistic:
+The berries added during preparation transfer different flavors to the Aprijuice. Each flavor is associated with a specific mount stat:
 
-| Flavor | Statistic |
+| Flavor | Stat |
 |:---:|:---:|
 | Spicy | Acceleration |
 | Dry | Handling |
@@ -43,7 +41,7 @@ Berries added during preparation transfer different flavors to the Aprijuice. Ea
 
 ## 📊 Progression Thresholds
 
-Flavor values are added together by type and then compared against thresholds.  
+Flavor values are added together by type, then compared to thresholds.  
 Each threshold reached unlocks an additional bonus.
 
 | Threshold | Bonus |
@@ -63,26 +61,29 @@ Only the highest threshold reached is applied for each flavor type.
 
 ## ⭐ Aprijuice Quality
 
-The quality of an Aprijuice depends on the total number of stat bonuses it provides.  
-Quality does not influence its effects and serves only as a visual indicator.
+The quality of an Aprijuice depends on the total number of stat bonuses it provides.
+This quality does not affect its effects and is only used as a visual indicator.
 
 | Sprite | Quality | Name | Total Bonus |
 |:---:|:---:|:---:|:---:|
-| ![Aprijuice Basique](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/all_plain_aprijuice.gif) | Low | Basic | < 4 |
-| ![Aprijuice Savoureux](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/tasty_aprijuice/all_tasty_aprijuice.gif) | Medium | Tasty | 4–7 |
-| ![Aprijuice Délicieux](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/delicious_aprijuice/all_delicious_aprijuice.gif) | High | Delicious | 8+ |
+| ![Basic Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_aprijuice/all_plain_aprijuice.gif) | Low | Basic | < 4 |
+| ![Tasty Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/tasty_aprijuice/all_tasty_aprijuice.gif) | Medium | Tasty | 4 – 7 |
+| ![Delicious Aprijuice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/delicious_aprijuice/all_delicious_aprijuice.gif) | High | Delicious | 8+ |
 
 ---
 
-## 🍶 Obtaining Aprijuice
+## 🍶 Obtaining
 
-Aprijuice is created by cooking Apricorns together with berries in a `Campfire Pot` placed on a `Campfire`. The ingredient combination determines its final effects.
+<p align="center">
+Aprijuice is prepared by cooking Apricorns with berries in a <code>Fire Cauldron</code> placed on a <code>Campfire</code>.<br>
+The combination of ingredients determines the final effects of the Aprijuice.
+</p>
 
 ### 🍳 Preparation
 
-The GIF below shows all Aprijuice recipes and their different quality levels.
+The GIF below showcases all Aprijuice recipes and their different qualities.
 
-![All crafting recipes for the different Aprijuices](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_tasty_delicious_aprijuice_craft/all_craft_v2.gif)
+![All crafting recipes for the different Aprijuice qualities](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_aprijuice/plain_tasty_delicious_aprijuice_craft/all_craft_v2.gif)
 
 ---
 
@@ -91,14 +92,14 @@ The GIF below shows all Aprijuice recipes and their different quality levels.
 Aprijuice is used directly on a rideable Pokémon.
 
 - The item is consumed upon use  
-- The Pokémon’s mount statistics are permanently increased  
-- If no Pokémon is selected, a menu opens allowing you to choose a party member  
+- The Pokémon's mount stats are permanently increased  
+- If no Pokémon is selected, a menu opens to choose a team member  
 
 ---
 
 {% hint style="info" %}
 <p align="center">
-💡 Thanks to Aprijuice, you can improve and specialize your mounts' performance according to your needs.
+💡 With Aprijuice, it is possible to improve and specialize a mount's performance according to your needs.
 </p>
 {% endhint %}
 
