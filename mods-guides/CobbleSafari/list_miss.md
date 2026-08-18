@@ -7,7 +7,7 @@
 {% endhint %}
 
 <p align="center">
-The <strong>Messaging</strong> app on your <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/Rotom Phone"><strong>Rotom Phone</strong></a> is a true <strong>quest system</strong>. Your contacts send you messages, assign you tasks, and reward you once they are completed. Some quests will also allow you to discover and learn how to use the various features added by <strong>CobbleSafari</strong>.
+The <strong>Messaging</strong> app on your <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/motismart"><strong>Rotom Phone</strong></a> is a true <strong>quest system</strong>. Your contacts send you messages, assign you tasks, and reward you once they are completed. Some quests will also allow you to discover and learn how to use the various features added by <strong>CobbleSafari</strong>.
 </p>
 
 ***
