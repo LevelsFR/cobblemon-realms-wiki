@@ -562,7 +562,7 @@ Supprimer l'un de ces éléments peut perdre votre monde ou bloquer le démarrag
 
 ---
 
-🔥 Profitez de vos aventures Pokémon entre amis ou en solo ; les Realms vous attendent ! 🧭✨
+<p align="center">🔥 Profitez de vos aventures Pokémon entre amis ou en solo ; les Realms vous attendent ! 🧭✨</p>
 
 ---
 
