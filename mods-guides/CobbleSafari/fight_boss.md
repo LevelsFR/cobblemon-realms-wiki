@@ -1,110 +1,110 @@
-# ⚔️ Combats de Boss
+# ⚔️ Boss Battles
 
 {% hint style="info" %}
-<p align="center">Un <strong>Combat de Boss</strong> est un affrontement en temps réel contre un Pokémon bien trop imposant pour tenir dans une Poké Ball. Ici, votre rôle est simple : <strong>survivre aux attaques du Boss</strong> pendant que vos Pokémon se chargent de l'affaiblir.</p>
+<p align="center">A <strong>Boss Battle</strong> is a real-time fight against a Pokémon far too large to fit inside a Poké Ball. Here, your role is simple: <strong>survive the Boss's attacks</strong> while your Pokémon take care of weakening it.</p>
 {% endhint %}
 
-## 🏆 Vaincre un Boss
+## 🏆 Defeating a Boss
 
-Pour vaincre un Boss, vous devez simplement faire descendre sa **barre de PV**, visible en haut de l'écran, jusqu'à zéro. Mais attention : **vous ne combattez pas directement le Boss**. Vous ne pouvez pas utiliser d'attaques, choisir de capacités ou profiter des avantages de type. Vos Pokémon sortent automatiquement de leurs Poké Balls et combattent à votre place.
+To defeat a Boss, you simply need to reduce its **HP bar**, visible at the top of the screen, to zero. But be careful: **you do not fight the Boss directly**. You cannot use attacks, choose moves, or take advantage of type advantages. Your Pokémon automatically leave their Poké Balls and fight in your place.
 
-La barre de PV du Boss représente donc davantage un **compte à rebours** qu'une quantité de dégâts que vous devez infliger vous-même. Votre objectif est avant tout de **rester en vie jusqu'à ce que la barre atteigne zéro**. Esquivez les attaques, déplacez-vous constamment et, lorsque cela est nécessaire, donnez un petit coup de main à vos Pokémon.
-
-***
-
-## 🗿 Début d'un combat
-
-Les Boss sont invoqués depuis un **autel** : une structure rocheuse composée de pierres hexagonales surmontées d'un mystérieux orbe flottant, généralement située au centre d'une arène.
-
-Lorsque l'autel est activé :
-
-1. Un **portail** s'ouvre au-dessus de l'autel et le Boss en tombe.
-2. **Tous les joueurs présents à proximité sont enregistrés comme participants.** Si vous vous trouvez dans la zone lorsqu'un joueur active l'autel, vous participez au combat, que vous le souhaitiez ou non.
-3. Les **Pokémon sauvages présents dans l'arène sont supprimés** et les apparitions sont temporairement désactivées à proximité.
-4. Les **blocs réactifs** de l'arène passent en mode combat : certaines portes se ferment, tandis que des blocs peuvent apparaître ou disparaître.
+The Boss's HP bar is therefore more of a **countdown** than an amount of damage that you must deal yourself. Your primary objective is to **stay alive until the bar reaches zero**. Dodge attacks, keep moving constantly, and, when necessary, give your Pokémon a helping hand.
 
 ***
 
-## ❤️ Dégâts infligés par vos Pokémon
+## 🗿 Starting a Battle
 
-La vitesse à laquelle les PV du Boss diminuent est **dynamique** et dépend des équipes des participants. Le jeu calcule d'abord le **niveau médian de l'équipe de chaque participant**, puis calcule la médiane de ces valeurs pour l'ensemble du groupe. Ce résultat détermine ensuite la durée du combat entre la durée minimale et maximale définie pour le Boss.
+Bosses are summoned from an **altar**: a rocky structure made of hexagonal stones topped with a mysterious floating orb, generally located in the center of an arena.
 
-Ainsi, un groupe composé de joueurs possédant des équipes de niveau 100 terminera le combat plus rapidement qu'un joueur utilisant une équipe de très bas niveau.
+When the altar is activated:
+
+1. A **portal** opens above the altar and the Boss falls through it.
+2. **All players nearby are registered as participants.** If you are within the area when a player activates the altar, you participate in the battle whether you want to or not.
+3. The **wild Pokémon present in the arena are removed** and spawning is temporarily disabled nearby.
+4. The arena's **reactive blocks** switch to battle mode: some doors close, while blocks may appear or disappear.
+
+***
+
+## ❤️ Damage Dealt by Your Pokémon
+
+The rate at which the Boss's HP decreases is **dynamic** and depends on the participants' teams. The game first calculates the **median level of each participant's team**, then calculates the median of these values for the entire group. This result determines the battle duration between the minimum and maximum durations defined for the Boss.
+
+Thus, a group consisting of players with level 100 teams will finish the battle faster than a player using a very low-level team.
 
 {% hint style="warning" %}
-<p align="center">Une équipe plus puissante rend le combat <strong>plus court</strong>, mais pas nécessairement plus facile. Les attaques du Boss ciblent <strong>les joueurs</strong> et non leurs Pokémon !</p>
+<p align="center">A stronger team makes the battle <strong>shorter</strong>, but not necessarily easier. The Boss's attacks target <strong>players</strong>, not their Pokémon!</p>
 {% endhint %}
 
-En théorie, un seul joueur disposant de six Pokémon de niveau 100 peut donc vaincre un Boss plus rapidement que six joueurs possédant chacun un seul Pokémon de niveau 100.
+In theory, a single player with six level 100 Pokémon can therefore defeat a Boss faster than six players each having a single level 100 Pokémon.
 
 ***
 
-## 🧴 Pacifisphère
+## 🧴 Pacifispheres
 
-Certains Boss disposent d'une quantité de PV telle que le combat pourrait durer extrêmement longtemps, même avec une équipe très puissante. C'est dans ce cas que le **Pacifisphère** entre en jeu.
+Some Bosses have so much HP that the battle could last an extremely long time, even with a very powerful team. This is where **Pacifispheres** come into play.
 
-Le Pacifisphère est un objet que vous pouvez **lancer sur le Boss**. Chaque Pacifisphère qui atteint sa cible retire une partie de ses PV, généralement **environ 5 % de ses PV totaux** par défaut.
+A Pacifisphere is an item that you can **throw at the Boss**. Each Pacifisphere that hits its target removes a portion of its HP, generally **around 5% of its total HP** by default.
 
-### 🧴 Obtenir des Pacifisphères
+### 🧴 Obtaining Pacifispheres
 
-Les Pacifisphères peuvent être récupérés auprès de **Distributeurs de Pacifisphères**, généralement placés autour de l'arène. Un distributeur nécessite un certain temps pour se recharger. Lorsqu'un Pacifisphère est disponible, celui-ci apparaît au-dessus du distributeur : il vous suffit alors de **faire un clic droit dessus** pour le récupérer.
+Pacifispheres can be obtained from **Pacisphere Dispensers**, generally placed around the arena. A dispenser requires a certain amount of time to recharge. When a Pacifisphere is available, it appears above the dispenser: simply **right-click it** to collect it.
 
 {% hint style="info" %}
-<p align="center">Dans certains combats, les Pacifisphères sont indispensables pour vaincre le Boss dans le temps imparti. Pensez à repérer les distributeurs <strong>avant même de commencer le combat</strong> !</p>
+<p align="center">In some battles, Pacifispheres are essential to defeating the Boss within the time limit. Remember to locate the dispensers <strong>before even starting the battle</strong>!</p>
 {% endhint %}
 
-Les Pacifisphères sont retirés de votre inventaire lorsque le combat se termine. Les Pacifisphères présents au sol sont également supprimés, ce qui empêche de les conserver pour un prochain combat.
+Pacifispheres are removed from your inventory when the battle ends. Pacifispheres lying on the ground are also removed, preventing you from keeping them for a future battle.
 
 ***
 
-## 💥 Les attaques du Boss
+## 💥 Boss Attacks
 
-Le catalogue d'attaques varie selon les Boss. Elles peuvent cependant être regroupées en **trois grandes catégories** :
+The attack catalog varies depending on the Boss. However, they can be grouped into **three main categories**:
 
-| Catégorie | Apparence | Comment réagir |
+| Category | Appearance | How to React |
 | :---: | :---: | :---: |
-| **🎯 Ciblées** | Ombres, orbes ou autres attaques qui vous poursuivent directement. | Restez en mouvement. Les attaques accélèrent lorsqu'elles sont éloignées de vous : évitez donc de simplement courir en ligne droite. |
-| **🟨 Zone** | Une partie du sol s'illumine ou affiche un motif avant qu'une attaque ne se déclenche. | Observez le sol et quittez rapidement les zones indiquées. |
-| **💫 Diffusion** | Plusieurs projectiles sont lancés simultanément dans différentes directions. | Observez les trajectoires et esquivez les projectiles en vous déplaçant entre eux. |
+| **🎯 Targeted** | Shadows, orbs, or other attacks that directly pursue you. | Keep moving. Attacks accelerate when they are far away from you, so avoid simply running in a straight line. |
+| **🟨 Area** | Part of the ground lights up or displays a pattern before an attack is triggered. | Watch the ground and quickly leave the indicated areas. |
+| **💫 Spread** | Multiple projectiles are launched simultaneously in different directions. | Watch their trajectories and dodge the projectiles by moving between them. |
 
-Certains Boss peuvent déclencher **deux attaques simultanément**, mais jamais deux attaques appartenant à la même catégorie. Vous n'aurez donc pas à esquiver deux attaques de propagation superposées, par exemple.
+Some Bosses can trigger **two attacks simultaneously**, but never two attacks belonging to the same category. You therefore won't have to dodge two overlapping spread attacks, for example.
 
 ***
 
 ## 🔄 Phases
 
-Atteindre zéro PV ne signifie pas nécessairement que le combat est terminé. Certains Boss peuvent enchaîner plusieurs **phases successives** : lorsque leur première barre de PV est épuisée, une nouvelle version du Boss apparaît avec une nouvelle barre et peut utiliser un ensemble d'attaques différent, souvent plus difficile à esquiver.
+Reaching zero HP does not necessarily mean that the battle is over. Some Bosses can go through several **successive phases**: when their first HP bar is depleted, a new version of the Boss appears with a new bar and may use a different set of attacks, often more difficult to dodge.
 
-Les récompenses dépendent du Boss affronté : certains accordent un **butin à chaque phase**, tandis que d'autres ne distribuent leur récompense qu'une fois le combat entièrement terminé. Certains affrontements peuvent même être **sans fin**, enchaînant les phases les unes après les autres et accordant une récompense à chaque victoire.
-
-***
-
-## ☠️ Perdre le combat
-
-Le combat est considéré comme perdu lorsque **tous les participants sont morts ou ont quitté la partie**. Le Boss disparaît alors, l'arène est réinitialisée et **aucune récompense n'est distribuée**.
-
-La mort d'un joueur ne met cependant pas fin au combat pour les autres : tant qu'**au moins un participant reste en vie**, la barre de PV continue de diminuer et le Boss peut toujours être vaincu.
+Rewards depend on the Boss being fought: some grant **loot after each phase**, while others only distribute their reward once the battle has been fully completed. Some encounters may even be **endless**, chaining phases one after another and granting a reward for each victory.
 
 ***
 
-## 🏟️ Règles de l'arène
+## ☠️ Losing the Battle
 
-Certaines restrictions s'appliquent pendant un Combat de Boss :
+The battle is considered lost when **all participants are dead or have left the game**. The Boss then disappears, the arena is reset, and **no rewards are distributed**.
 
-- 🚫 **Vous ne pouvez pas envoyer de Pokémon manuellement**, puisque vos Pokémon combattent déjà automatiquement à vos côtés.
-- 🌿 **Les Pokémon sauvages ne peuvent pas apparaître** dans ou à proximité de l'arène pendant le combat.
-- ✖️ **Les Pokémon déjà présents dans l'arène au début du combat sont supprimés.** Si vous repérez un Pokémon intéressant, notamment un chromatique, pensez donc à le capturer avant d'activer l'autel !
+A player's death does not end the battle for the others, however: as long as **at least one participant remains alive**, the HP bar continues to decrease and the Boss can still be defeated.
 
 ***
 
-## 📍 Où trouver les Boss ?
+## 🏟️ Arena Rules
 
-Dans la version vanilla de **CobbleSafari**, un seul Combat de Boss est actuellement disponible : **l'Ombre de Giratina**, qui vous attend sur l'autel situé au cœur de l'arène du Monde Distorsion. Pour découvrir cette arène et tout savoir sur le combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
+Certain restrictions apply during a Boss Battle:
+
+- 🚫 **You cannot send Pokémon manually**, since your Pokémon are already automatically fighting alongside you.
+- 🌿 **Wild Pokémon cannot spawn** in or near the arena during the battle.
+- ✖️ **Pokémon already present in the arena when the battle begins are removed.** So if you spot an interesting Pokémon, especially a Shiny, remember to catch it before activating the altar!
+
+***
+
+## 📍 Where to Find Bosses?
+
+In the vanilla version of **CobbleSafari**, only one Boss Battle is currently available: **Giratina's Shadow**, which awaits you at the altar located in the heart of the Distortion World arena. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com//mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
 
 *** 
 
 {% hint style="success" %}
-## Nous contacter
+## Contact Us
 
-<p align="center">Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.</p>
+<p align="center">If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.</p>
 {% endhint %}
