@@ -104,9 +104,7 @@ C'est techniquement possible, mais les performances peuvent être limitées pour
 
 Avant de signaler un problème, vérifiez qu'il ne provient pas d'un mod ajouté manuellement ou d'une installation incorrecte.
 
-Si le problème persiste, vous pouvez le signaler afin qu'il puisse être vérifié et éventuellement corrigé.
-
-📘 [Signaler un problème](report-a-bug.md)
+Si le problème persiste, 📘 [signaler le problème](report-a-bug.md) afin qu'il puisse être vérifié et éventuellement corrigé.
 
 ### ✏️ Puis-je contribuer au wiki ?
 
