@@ -39,7 +39,7 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
 
 To obtain Victini, you must find a `Liberty Pass`, which has a **25% chance** of being found in Desert Temple chests.
 
-Once you have the pass, locate [Liberty Garden](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/overworld_world#liberty-island) and use the pass on the `Victini Lock`. A **Level 60 Victini** will then appear, with a **2% chance of being Shiny**.
+Once you have the pass, locate [Liberty Garden](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-liberte) and use the pass on the `Victini Lock`. A **Level 60 Victini** will then appear, with a **2% chance of being Shiny**.
 
 ---
 
@@ -84,7 +84,7 @@ To obtain Cobalion, you must collect `50 Cobalion Footprints` by right-clicking 
 
 Once the 50th footprint has been collected, a **Level 40 Cobalion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Meat Chunks` when summoning Cobalion. These can be combined with those obtained from [Virizion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#virizion) and [Terrakion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#terrakion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#keldeo).
+You will also receive `Special Meat Chunks` when summoning Cobalion. These can be combined with those obtained from [Virizion](ttps://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#viridium) and [Terrakion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#terrakium) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -129,7 +129,7 @@ To obtain Terrakion, you must collect `50 Terrakion Footprints` by right-clickin
 
 Once the 50th footprint has been collected, a **Level 40 Terrakion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Spices` when summoning Terrakion. These can be combined with those obtained from [Cobalion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#cobalion) and [Virizion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#virizion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#keldeo).
+You will also receive `Special Spices` when summoning Terrakion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#cobaltium) and [Virizion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#virizion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -174,7 +174,7 @@ To obtain Virizion, you must collect `50 Virizion Footprints` by right-clicking 
 
 Once the 50th footprint has been collected, a **Level 40 Virizion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Leafy Greens` when summoning Virizion. These can be combined with those obtained from [Cobalion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#cobalion) and [Terrakion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#terrakion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#keldeo).
+You will also receive `Special Leafy Greens` when summoning Virizion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#cobaltium) and [Terrakion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#terrakium) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -217,9 +217,9 @@ You will also receive `Special Leafy Greens` when summoning Virizion. These can 
 
 To obtain Reshiram, you must craft a `Light Stone` using `9 Light Stone Shards`, which can be obtained by defeating Dragon-type Pokémon (higher evolutions increase the chances) or are guaranteed drops from defeating Wardens and the Wither Boss.
 
-Once you have obtained the `Light Stone`, you must find the [Dragonspiral Tower](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/overworld_world#dragonspiral-tower) and place the orb along with a `Fire Gem` on each of the two `Reshiram Pedestals`. A **Level 60 Reshiram** will appear, with a **2% chance of being Shiny**.
+Once you have obtained the `Light Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-dragospire) and place the orb along with a `Fire Gem` on each of the two `Reshiram Pedestals`. A **Level 60 Reshiram** will appear, with a **2% chance of being Shiny**.
 
-You will also receive a `Truth Bottle` when activating the pedestals, which can be combined with the `Ideals Bottle` to obtain [Kyurem](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#kyurem).
+You will also receive a `Truth Bottle` when activating the pedestals, which can be combined with the `Ideals Bottle` to obtain [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
 
 ---
 
@@ -262,9 +262,9 @@ You will also receive a `Truth Bottle` when activating the pedestals, which can 
 
 To obtain Zekrom, you must craft a `Dark Stone` using `9 Dark Stone Shards`, which can be obtained by defeating Dragon-type Pokémon (higher evolutions increase the chances) or are guaranteed drops from defeating Wardens and the Wither Boss.
 
-Once you have obtained the `Dark Stone`, you must find the [Dragonspiral Tower](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/overworld_world#dragonspiral-tower) and place the orb along with an `Electric Gem` on each of the two `Zekrom Pedestal`. A **Level 60 Zekrom** will appear, with a **2% chance of being Shiny**.
+Once you have obtained the `Dark Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#tour-dragospire) and place the orb along with an `Electric Gem` on each of the two `Zekrom Pedestal`. A **Level 60 Zekrom** will appear, with a **2% chance of being Shiny**.
 
-You will also receive a `Ideals Bottle` when activating the pedestals, which can be combined with the `Truth Bottle` to obtain [Kyurem](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#kyurem).
+You will also receive a `Ideals Bottle` when activating the pedestals, which can be combined with the `Truth Bottle` to obtain [Kyurem](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#kyurem).
 
 ---
 
@@ -305,9 +305,9 @@ You will also receive a `Ideals Bottle` when activating the pedestals, which can
 
 ### 🗝️ How to Obtain
 
-To obtain Kyurem, you must first summon [Reshiram](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#reshiram) and [Zekrom](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#zekrom) through their pedestals, which will allow you to obtain two items: the `Truth Bottle` and the `Ideals Bottle`.
+To obtain Kyurem, you must first summon [Reshiram](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#reshiram) and [Zekrom](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#zekrom) through their pedestals, which will allow you to obtain two items: the `Truth Bottle` and the `Ideals Bottle`.
 
-Once you have both vials, you must find the [Kyurem Cave](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#reshiram) and use both vials on the `Kyurem Pedestals`. A **Level 60 Kyurem** will appear, with a **2% chance of being Shiny**.
+Once you have both vials, you must find the [Kyurem Cave](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#grotte-cyclopeenne) and use both vials on the `Kyurem Pedestals`. A **Level 60 Kyurem** will appear, with a **2% chance of being Shiny**.
 
 ---
 
@@ -348,7 +348,7 @@ Once you have both vials, you must find the [Kyurem Cave](https://our-story-netw
 
 ### 🗝️ How to Obtain
 
-To obtain Keldeo, you must first summon [Cobalion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#cobalion), [Virizion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#virizion), and [Terrakion](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#terrakion) by collecting their footprints. This will allow you to obtain three ingredients: `Special Meat Chunks`, `Special Spices`, and `Special Leafy Greens`.
+To obtain Keldeo, you must first summon [Cobalion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#cobaltium), [Virizion](ttps://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#viridium), and [Terrakion](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_5#terrakium) by collecting their footprints. This will allow you to obtain three ingredients: `Special Meat Chunks`, `Special Spices`, and `Special Leafy Greens`.
 
 By combining these three ingredients, you will obtain the `Curry of Justice`.
 
