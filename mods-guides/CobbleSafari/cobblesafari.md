@@ -30,4 +30,4 @@ Find all CobbleSafari features in the following pages:
   * [🏠 Secret Base PC](mods-guides/CobbleSafari/secret_base_pc.md)
   * [🤝 Trader Exchanges](mods-guides/CobbleSafari/traders_trade_list.md)
   * [💡 Useful Blocks](mods-guides/CobbleSafari/blocs_utiles.md)
-  * [⌨️ /cobblesafari Command](mods-guides/CobbleSafari/cobblesafari_command.md)
+  * [⌨️ `/cobblesafari` Command](mods-guides/CobbleSafari/cobblesafari_command.md)
