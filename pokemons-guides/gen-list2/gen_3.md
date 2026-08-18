@@ -42,13 +42,13 @@ To obtain Regirock, you must craft a `Rock Golem Key`, obtained from a `Rock Gem
 
 The `4 Rock Golem Ingots` are crafted using a `Rock Gem` and `4 Golem Scraps`, obtained by smelting `Ancient Rubble`, which can be found in caves at Deepslate level and below.
 
-Once you have the `Rock Golem Key`, you must find the [Snowpoint Temple](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#temple-de-frimapic) and unlock the `Regirock Lock`.
+Once you have the `Rock Golem Key`, you must find the [Snowpoint Temple](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regirock Lock`.
 
 Behind the lock is a trial: the floor is made of sand blocks equipped with pressure plates. Right-click the `Note Block` located at the entrance to reveal a safe path using the `Redstone Lamps` on the ceiling. If you step on the wrong plate, you will fall into the water below and must restart the trial from the entrance. A ladder at the end of the path leads to Regirock's summoning room.
 
 In this room, walk on each circle to light them up. Once all circles are activated, a **level 40 Regirock will appear**, with a **2% chance of being shiny**.
 
-You will also receive a `Regirock Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#regigigas).
+You will also receive a `Regirock Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#regigigas).
 
 ---
 
@@ -94,13 +94,13 @@ To obtain Regice, you must craft the `Ice Golem Key`, obtained from an `Ice Gem`
 
 The `4 Ice Golem Ingots` are crafted using an `Ice Gem` and `4 Golem Scraps`, obtained by smelting `Ancient Rubble`, which can be found in caves at Deepslate level and below.
 
-Once you have the `Ice Golem Key`, you must find the [Snowpoint Temple](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#temple-de-frimapic) and unlock the `Regice Lock`.
+Once you have the `Ice Golem Key`, you must find the [Snowpoint Temple](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regice Lock`.
 
 Behind the lock is a trial consisting of a `Powder Snow` maze, where some walls can be passed through while others are impassable. This maze contains a secret chest with loot, as well as a powder snow trap just before the exit. Beyond this trap is Regice's summoning room.
 
 In this room, walk on each circle to light them up. Once all circles are activated, a **level 40 Regice will appear**, with a **2% chance of being shiny**.
 
-You will also receive a `Regice Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#regigigas).
+You will also receive a `Regice Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#regigigas).
 
 ---
 
@@ -146,13 +146,13 @@ To obtain Registeel, you must craft the `Steel Golem Key`, obtained from a `Stee
 
 The `4 Steel Golem Ingots` are crafted using a `Steel Gem` and `4 Golem Scraps`, obtained by smelting `Ancient Rubble`, which can be found in caves at Bedrock level and below.
 
-Once you have the `Steel Golem Key`, you must find the [Snowpoint Temple](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#temple-de-frimapic) and unlock the `Registeel Lock`.
+Once you have the `Steel Golem Key`, you must find the [Snowpoint Temple](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Registeel Lock`.
 
 Behind the lock is a trial consisting of five piston puzzles. You must use the buttons placed on the ground to activate the pistons and move a `Redstone Block` to the corresponding target `Gold Block`. Each completed puzzle unlocks the next one. Once all five puzzles are completed, a wall will open, revealing the passage leading to Registeel's summoning room. In the basement, an additional puzzle also allows access to a treasure room.
 
 In this room, walk on each circle to light them up. Once all circles are activated, a **level 40 Registeel will appear**, with a **2% chance of being shiny**.
 
-You will also receive a `Registeel Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#regigigas).
+You will also receive a `Registeel Tablet` after activating the floor. By combining it with the four other Titan tablets, you can craft the `Titan Key`, allowing you to obtain [Regigigas](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_4#regigigas).
 
 ---
 
@@ -193,9 +193,9 @@ You will also receive a `Registeel Tablet` after activating the floor. By combin
 
 ### 🗝️ How to obtain
 
-To obtain Latias, you must craft a `Latias Treat`, requiring several Cobblemon berries as well as a `Poketreat Box`, sometimes sold by the [Entrepreneur Villager](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+To obtain Latias, you must craft a `Latias Treat`, requiring several Cobblemon berries as well as a `Poketreat Box`, sometimes sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, you must find the [Southern Island](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#lile-du-sud) and place the treat on the [Lati Pedestal](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals). A **level 50 Latias will then appear**, with a **2% chance of being shiny**.
+Once you have obtained the treat, you must find the [Southern Island](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#l-ile-du-sud) and place the treat on the [Lati Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals). A **level 50 Latias will then appear**, with a **2% chance of being shiny**.
 
 {% hint style="warning" %}
 <p align="center">
@@ -244,9 +244,9 @@ To obtain the other one, you will need to find a new Southern Island.
 
 ### 🗝️ How to obtain
 
-To obtain Latios, you must craft a `Latios Treat`, requiring several Cobblemon berries as well as a `Poketreat Box`, sometimes sold by the [Entrepreneur Villager](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+To obtain Latios, you must craft a `Latios Treat`, requiring several Cobblemon berries as well as a `Poketreat Box`, sometimes sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, you must find the [Southern Island](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#lile-du-sud) and place the treat on the [Lati Pedestal](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals). A **level 50 Latios will then appear**, with a **2% chance of being shiny**.
+Once you have obtained the treat, you must find the [Southern Island](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/overworld_world#l-ile-du-sud) and place the treat on the [Lati Pedestal](https://wiki.cobblemon-realms.com/fr-FR/mods-guides/legendary_monuments/pedestals). A **level 50 Latios will then appear**, with a **2% chance of being shiny**.
 
 {% hint style="warning" %}
 <p align="center">
