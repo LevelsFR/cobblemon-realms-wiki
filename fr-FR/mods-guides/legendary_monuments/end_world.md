@@ -1,4 +1,6 @@
-# 🏜️ Pyramide de Hoopa
+# 🌌🏗️ Structures Légendaires de l'End
+
+## 🏜️ Pyramide de Hoopa
 
 {% hint style="info" %}
 <p align="center">
@@ -6,18 +8,14 @@ Structure permettant d'obtenir <strong>Hoopa</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
 - 🗺️ Gameplay : exploration, énigmes, combat et quiz
 - ⚠️ Difficulté : élevée
 - 🎁 Loot : récompenses tout au long de l'exploration
 
----
-
-## 🧗 Particularités
+### 🧗 Particularités
 
 - Grand labyrinthe principal
 - Deux labyrinthes secondaires
@@ -25,16 +23,14 @@ Structure permettant d'obtenir <strong>Hoopa</strong>.
 - Quiz sur l'univers de [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
 - Récompense finale permettant d'invoquer [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
 
----
-
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Dimension : End
 - 🏗️ Biomes : Highlands de l'End et Midlands de l'End
 
-&#8203;
+***
 
-# ☄️ Cocon d'Eternatus
+## ☄️ Cocon d'Eternatus
 
 {% hint style="info" %}
 <p align="center">
@@ -42,31 +38,25 @@ Structure permettant d'obtenir <strong>Eternatus</strong>.
 </p>
 {% endhint %}
 
----
-
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
 - 🧩 Gameplay : remplir le Cocon d'[Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
 - ⚠️ Difficulté : élevée
 - 🎁 Loot : aucun
 
----
-
-## 🧗 Particularités
+### 🧗 Particularités
 
 - Contient un `Cocon d'Éternatus`
 - Le cocon doit être entièrement rempli avant de pouvoir invoquer [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
 - Une fois activé, il fait apparaître [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
 
----
-
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Dimension : End
 - 🏗️ Biomes : Highlands de l'End et Midlands de l'End
 
----
+***
 
 {% hint style="success" %}
 ## Nous contacter
