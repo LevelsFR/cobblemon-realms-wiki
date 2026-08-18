@@ -291,7 +291,7 @@ Pour obtenir **Celebi**, vous devez d'abord fabriquer une `GS Ball` à partir de
   <figcaption style="text-align: center;">Sanctuaire d'Ilex</figcaption>
 </figure>
 
-Une fois la GS Ball obtenue, vous devez trouver le `Sanctuaire d'Ilex`, qui apparaît naturellement dans les biomes sombres et inquiétants :
+Une fois la GS Ball obtenue, vous devez trouver le `Sanctuaire d'Ilex`, qui apparaît naturellement dans les biomes sombres :
 
 <details>
 <summary>📍 <strong>Biomes compatibles</strong></summary>
