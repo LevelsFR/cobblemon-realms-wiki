@@ -95,6 +95,8 @@ Cobblemon Realms est pensé pour une progression sur le long terme, avec beaucou
 </p>
 {% endhint %}
 
+---
+
 {% hint style="success" %}
 ## 📥 Nous contacter
 
