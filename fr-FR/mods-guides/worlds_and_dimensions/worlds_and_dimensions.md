@@ -8,13 +8,3 @@
 
 * [☁️ The Aether](aether.md)
 * [🖤 Deeper and Darker](deeper_and_darker.md)
-
-***
-
-## 🚧 À venir
-
-D'autres mondes et zones spéciales pourront être ajoutés au fil des mises à jour :
-
-* 🏞️ Safari
-* 🌀 Hoopa Dimensions
-* ❓ Et bien plus encore...
