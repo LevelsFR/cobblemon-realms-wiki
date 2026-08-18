@@ -38,17 +38,17 @@ At the heart of Kanto lie the earliest legends of the Pokémon world. From the e
 
 ### 🗝️ How to obtain
 
-To obtain Articuno, you must craft an [Urn of Frost](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) and defeat 50 Ice-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
+To obtain Articuno, you must craft an [Urn of Frost](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns) and defeat 50 Ice-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
 
 Once the urn is filled, simply right-click with it in your hand and a **level 40 Articuno will appear**, with a **2% chance of being shiny**.
 
-You will also receive an `Arctic Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#informations-generales-3).
+You will also receive an `Arctic Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Galarian Form
 
-To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns)!
+To obtain the Galarian form, simply use a [Galarian Urn](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns)!
 
 ---
 
@@ -90,17 +90,17 @@ To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-netwo
 
 ### 🗝️ How to obtain
 
-To obtain Zapdos, you must craft a [Urn of Storms](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) and defeat 50 Electric-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
+To obtain Zapdos, you must craft a [Urn of Storms](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns) and defeat 50 Electric-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
 
 Once the urn is filled, simply right-click with it in your hand and a **level 40 Zapdos will appear**, with a **2% chance of being shiny**.
 
-You will also receive a `Zap Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#lugia).
+You will also receive a `Zap Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Galarian Form
 
-To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns)!
+To obtain the Galarian form, simply use a [Galarian Urn](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns)!
 
 ---
 
@@ -142,17 +142,17 @@ To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-netwo
 
 ### 🗝️ How to obtain
 
-To obtain Moltres, you must craft an [Urn of Embers](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns) and defeat 50 Fire-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
+To obtain Moltres, you must craft an [Urn of Embers](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns) and defeat 50 Fire-type Pokémon, either through close combat or Pokémon battles, while having the urn in your inventory.
 
 Once the urn is filled, simply right-click with it in your hand and a **level 40 Moltres will appear**, with a **2% chance of being shiny**.
 
-You will also receive a `Molten Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#lugia).
+You will also receive a `Molten Stone` when using the filled urn, which can be combined with the two other legendary bird stones to craft the `Vortex Stone`, allowing you to obtain [Lugia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#lugia).
 
 ---
 
 ### 🌨️ Galarian Form
 
-To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns)!
+To obtain the Galarian form, simply use a [Galarian Urn](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/urns_and_galarian_urns)!
 
 ---
 
@@ -193,7 +193,7 @@ To obtain the Galarian form, simply use a [Galarian Urn](https://our-story-netwo
 
 ### 🗝️ How to obtain
 
-To obtain Mew, you must use a `Mew Pedestal` located on the [Final Island](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#ile-finale).
+To obtain Mew, you must use a `Mew Pedestal` located on the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-finale).
 
 You must first find an `Old Sea Map`, which has a **50% chance** of being obtained from jungle temple chests.
 
@@ -203,7 +203,7 @@ The <code>Old Sea Map</code> does not work like a regular Minecraft map.
 </p>
 {% endhint %}
 
-Once you have the map, you must find the [Final Island](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#ile-finale) and place the map on the `Mew Pedestal`, which will make a **level 40 Mew appear**, with a **2% chance of being shiny**.
+Once you have the map, you must find the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-finale) and place the map on the `Mew Pedestal`, which will make a **level 40 Mew appear**, with a **2% chance of being shiny**.
 
 You will also receive a `Tuft of Mew Hair`, which currently has no use.
 
