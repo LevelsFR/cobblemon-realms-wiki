@@ -282,7 +282,7 @@ Les récompenses peuvent notamment inclure :
 * 🗺️ **Consultez régulièrement votre Carte de Dresseur**, notamment pour les indices liés aux biomes et aux dimensions.
 * 📖 **Surveillez vos Avancements** afin de ne pas passer à côté d’objectifs cachés.
 * 💬 **Besoin d’aide ?** Rejoignez notre serveur [Discord](https://discord.gg/kb8NSTF45n).
-</p
+</p>
 {% endhint %}
 
 ---
