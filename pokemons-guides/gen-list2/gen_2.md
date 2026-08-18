@@ -38,13 +38,13 @@ The legends of Johto tell the story of sacred guardians watching over the balanc
 
 ### 🗝️ How to obtain
 
-To obtain **Raikou**, you must first craft a `Raikou Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+To obtain **Raikou**, you must first craft a `Raikou Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree) and place it on the [Raikou Pedestal](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree) and place it on the [Raikou Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
 
 A **level 40 Raikou will then appear**, with a **2% chance of being shiny**.
 
-Using the pedestal will also reward you with a `Yellow Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+Using the pedestal will also reward you with a `Yellow Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -86,13 +86,13 @@ Using the pedestal will also reward you with a `Yellow Feather`. By combining it
 
 ### 🗝️ How to obtain
 
-To obtain **Entei**, you must first craft an `Entei Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+To obtain **Entei**, you must first craft an `Entei Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree).
 
 A **level 40 Entei will then appear**, with a **2% chance of being shiny**.
 
-Using the pedestal will also reward you with a `Red Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+Using the pedestal will also reward you with a `Red Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -134,13 +134,13 @@ Using the pedestal will also reward you with a `Red Feather`. By combining it wi
 
 ### 🗝️ How to obtain
 
-To obtain **Suicune**, you must first craft a `Suicune Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/entrepreneur_villager).
+To obtain **Suicune**, you must first craft a `Suicune Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-cendree).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree).
 
 A **level 40 Suicune will then appear**, with a **2% chance of being shiny**.
 
-Using the pedestal will also reward you with a `Blue Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#ho-oh).
+Using the pedestal will also reward you with a `Blue Feather`. By combining it with the two other feathers obtained from the legendary beasts, you can craft the `Rainbow Feather`, required to obtain [Ho-Oh](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#ho-oh).
 
 ---
 
@@ -182,13 +182,13 @@ Using the pedestal will also reward you with a `Blue Feather`. By combining it w
 
 ### 🗝️ How to obtain
 
-To obtain **Lugia**, you must first summon [Articuno](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#artikodin), [Zapdos](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#electhor) and [Moltres](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_1#sulfura) using the urns. Each of them will give you a stone: the `Arctic Stone`, the `Zap Stone` and the `Molten Stone`.
+To obtain **Lugia**, you must first summon [Articuno](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#artikodin), [Zapdos](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#electhor) and [Moltres](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#sulfura) using the urns. Each of them will give you a stone: the `Arctic Stone`, the `Zap Stone` and the `Molten Stone`.
 
 By combining these three stones on a crafting table, you will obtain a `Vortex Stone`.
 
-Once you have this stone, go to the [Lugia Temple](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tourbiles) and use it to open the temple door.
+Once you have this stone, go to the [Lugia Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tourb-iles) and use it to open the temple door.
 
-Retrieve the `Vortex Stone`, cross the labyrinth until you reach the [Lugia Pedestal](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals), then use the stone on it.
+Retrieve the `Vortex Stone`, cross the labyrinth until you reach the [Lugia Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), then use the stone on it.
 
 A **level 60 Lugia will then appear**, with a **2% chance of being shiny**.
 
@@ -232,11 +232,11 @@ A **level 60 Lugia will then appear**, with a **2% chance of being shiny**.
 
 ### 🗝️ How to obtain
 
-To obtain **Ho-Oh**, you must first summon [Raikou](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#raikou), [Entei](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#entei) and [Suicune](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_2#suicune) using their respective pedestals. Each of them will give you a feather: the `Blue Feather`, the `Yellow Feather` and the `Red Feather`.
+To obtain **Ho-Oh**, you must first summon [Raikou](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#raikou), [Entei](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#entei) and [Suicune](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_2#suicune) using their respective pedestals. Each of them will give you a feather: the `Blue Feather`, the `Yellow Feather` and the `Red Feather`.
 
 By combining these three feathers on a crafting table, you will obtain a `Rainbow Feather`.
 
-Once you have this feather, go to the [Bell Tower](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/all_world/overworld_world#tour-carillon), complete the path to the top, then use the `Rainbow Feather` on the [Ho-Oh Pedestal](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/pedestals).
+Once you have this feather, go to the [Bell Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-carillon), complete the path to the top, then use the `Rainbow Feather` on the [Ho-Oh Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
 
 A **level 60 Ho-Oh will then appear**, with a **2% chance of being shiny**.
 
