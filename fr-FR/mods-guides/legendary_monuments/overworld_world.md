@@ -1,4 +1,6 @@
-# 🏯 Tour Carillon
+# 🏛️ Structures légendaires de l'Overworld
+
+## 🏯 Tour Carillon
 
 {% hint style="info" %}
 <p align="center">
@@ -8,27 +10,27 @@ Structure permettant d’obtenir <strong>Ho-Oh</strong>.
 
 ---
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Ho-Oh  
 - 🧗 Gameplay : parkour vertical  
 - ⚠️ Difficulté : moyenne / élevée  
 - 🎁 Loot : coffres de progression  
 
-## 🧗 Particularités
+### 🧗 Particularités
 
 - Ascension via parkour
 - Coffres à chaque étape
 - Progression jusqu’au sommet
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Village Traditionnel 
 - 🏗️ Peut apparaître avec : Tour Cendrée
 
 ***
 
-# 🔥 Tour Cendrée
+## 🔥 Tour Cendrée
 
 {% hint style="info" %}
 <p align="center">
@@ -36,27 +38,27 @@ Structure permettant d’obtenir <strong>Raikou</strong>, <strong>Entei</strong>
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir les trois chiens légendaires  
 - 🏚️ Type : structure à exploration  
 - ⚠️ Particularité : structure en ruine  
 - 🎁 Récompense : légendaires d’événement  
 
-## 🏚️ Particularités
+### 🏚️ Particularités
 
 - Structure en ruine à explorer
 - Rencontre liée aux trois chiens légendaires
 - Exploration progressive de la zone
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Village Traditionnel
 - 🏗️ Peut apparaître avec : Tour Carillon 
 
 ***
 
-# 🏯 Tour Dragospire
+## 🏯 Tour Dragospire
 
 {% hint style="info" %}
 <p align="center">
@@ -64,14 +66,14 @@ Structure permettant d’obtenir <strong>Reshiram</strong> et <strong>Zekrom</st
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Reshiram & Zekrom  
 - 🏗️ Type : structure à exploration  
 - 🎁 Loot : coffres cachés + récompenses utilitaires  
 - ⚠️ Particularité : progression interne avec exploration  
 
-## 🗝️ Coffres cachés
+### 🗝️ Coffres cachés
 
 La Dragonspiral Tower contient **3 coffres dissimulés**.
 
@@ -80,7 +82,7 @@ Ils peuvent contenir :
 - 🍬 XP Candies  
 - 🎁 Objets utilitaires divers  
 
-## 🌍 Génération
+### 🌍 Génération
 
 La structure apparaît dans les **biomes de type plaines et environnements similaires**.
 
@@ -139,7 +141,7 @@ La structure apparaît dans les **biomes de type plaines et environnements simil
 
 ***
 
-# 🌳 Arbre Dyna
+## 🌳 Arbre Dyna
 
 {% hint style="info" %}
 <p align="center">
@@ -147,14 +149,14 @@ Structure permettant d’obtenir les <strong>Fruits Dyna</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir des Fruits Dyna 
 - 🏗️ Type : structure naturelle  
 - 🎁 Récompense : fruits spéciaux  
 - ⚠️ Particularité : coffre situé à la base de l’arbre  
 
-## 🍎 Fruits Dyna
+### 🍎 Fruits Dyna
 
 Les Dyna Fruits sont utilisés pour :
 
@@ -163,17 +165,17 @@ Les Dyna Fruits sont utilisés pour :
 
 👉 Ils sont contenus dans un coffre situé **au pied de l’arbre**
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Plaines Dyana
 
-## 📌 Particularités
+### 📌 Particularités
 
 - 🌳 Structure centrée autour d’un arbre géant
 - 📦 Coffre caché à la base
 - 🍎 Loot unique lié aux systèmes Galar
 
-## 🛠️ Utilisation
+### 🛠️ Utilisation
 
 Les Fruit Dyna servent principalement à :
 
@@ -182,7 +184,7 @@ Les Fruit Dyna servent principalement à :
 
 ***
 
-# 🧭 Île Finale
+## 🧭 Île Finale
 
 {% hint style="info" %}
 <p align="center">
@@ -190,14 +192,14 @@ Les Fruit Dyna servent principalement à :
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Mew  
 - 🏗️ Type : île flottante / structure aérienne  
 - 🗝️ Accès : nécessite la <strong>Vieille Carte Marine</strong>  
 - ⚠️ Particularité : génération en hauteur  
 
-## 🗝️ Accès à l’île
+### 🗝️ Accès à l’île
 
 L’accès à l'Île Finale se fait via l’utilisation de la :
 
@@ -205,7 +207,7 @@ L’accès à l'Île Finale se fait via l’utilisation de la :
 
 👉 Cet objet permet de déclencher l’apparition / localisation de l’île.
 
-## 🌤️ Génération
+### 🌤️ Génération
 
 L'Île Finale apparaît :
 
@@ -215,7 +217,7 @@ L'Île Finale apparaît :
 
 ***
 
-# ❄️ Grotte Cyclopéenne
+## ❄️ Grotte Cyclopéenne
 
 {% hint style="info" %}
 <p align="center">
@@ -223,14 +225,14 @@ Structure permettant d’obtenir <strong>Kyurem</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Kyurem  
 - 🏗️ Type : structure souterraine  
 - 🔧 Loot spécial : DNA Splicer  
 - ⚠️ Particularité : système de fusion légendaire  
 
-## 🧬 Mécanique spéciale
+### 🧬 Mécanique spéciale
 
 La Grotte Cyclopéenne contient un objet unique :
 
@@ -240,7 +242,7 @@ La Grotte Cyclopéenne contient un objet unique :
 - 🔥 Reshiram  
 - ⚡ Zekrom  
 
-## 🌍 Génération
+### 🌍 Génération
 
 La structure apparaît dans les **biomes neigeux et montagneux froids** :
 
@@ -311,7 +313,7 @@ La structure apparaît dans les **biomes neigeux et montagneux froids** :
 
 ***
 
-# 🧠 Lac Savoir
+## 🧠 Lac Savoir
 
 {% hint style="info" %}
 <p align="center">
@@ -319,19 +321,19 @@ Structure permettant d’obtenir <strong>Créhelf</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Créhelf
 - 🏞️ Type : lac légendaire
 - ❄️ Environnement : biome enneigé
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Taïga enneigée
 
 ***
 
-# 💪 Lac Courage
+## 💪 Lac Courage
 
 {% hint style="info" %}
 <p align="center">
@@ -339,19 +341,19 @@ Structure permettant d’obtenir <strong>Créfadet</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Créfadet
 - 🏞️ Type : lac légendaire
 - 🌑 Environnement : forêt sombre
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Forêt Sombre
 
 ***
 
-# ❤️ Lac Vérité
+## ❤️ Lac Vérité
 
 {% hint style="info" %}
 <p align="center">
@@ -359,19 +361,19 @@ Structure permettant d’obtenir <strong>Créfollet</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Créfollet
 - 🏞️ Type : lac légendaire
 - 🌻 Environnement : plaine fleurie
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Plaine de Tournesols
 
 ***
 
-# 🗽 Île Liberté
+## 🗽 Île Liberté
 
 {% hint style="info" %}
 <p align="center">
@@ -379,14 +381,14 @@ Structure permettant d’obtenir <strong>Créfollet</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Victini
 - 🏝️ Type : île événementielle
 - 🗝️ Accès : nécessite le <strong>Pass Liberté</strong>
 - 🌊 Environnement : océan profond
 
-## 🗝️ Accès à l'île
+### 🗝️ Accès à l'île
 
 L'accès à l'Île Liberté nécessite :
 
@@ -394,7 +396,7 @@ L'accès à l'Île Liberté nécessite :
 
 👉 Cet objet permet d'accéder à l'événement lié à Victini.
 
-## 🌍 Génération
+### 🌍 Génération
 
 La structure apparaît dans les **biomes d'océan profond** :
 
@@ -426,7 +428,7 @@ La structure apparaît dans les **biomes d'océan profond** :
 
 ***
 
-# 🌊 Tourb'Îles
+## 🌊 Tourb'Îles
 
 {% hint style="info" %}
 <p align="center">
@@ -434,7 +436,7 @@ Structure sous-marine permettant d’obtenir <strong>Lugia</strong>.
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Lugia
 - 🌊 Type : temple sous-marin
@@ -442,7 +444,7 @@ Structure sous-marine permettant d’obtenir <strong>Lugia</strong>.
 - 🎁 Loot : nombreux coffres
 - 🔐 Accès : nécessite une Pierre Tourbillon
 
-## 🌊 Exploration
+### 🌊 Exploration
 
 Pour atteindre Lugia, il faudra :
 
@@ -451,7 +453,7 @@ Pour atteindre Lugia, il faudra :
 - 🎁 Récupérer les coffres présents tout au long du parcours
 - ⬆️ Atteindre le sommet du temple
 
-## 🔐 Ouverture du temple
+### 🔐 Ouverture du temple
 
 La porte principale nécessite une **Pierre du Vortex**.
 
@@ -461,7 +463,7 @@ Cette dernière se fabrique à partir des **trois pierres** obtenues après avoi
 - ⚡ Électhor
 - 🔥 Sulfura
 
-## 🌍 Génération
+### 🌍 Génération
 
 La structure apparaît dans les **biomes d'océan profond** :
 
@@ -493,7 +495,7 @@ La structure apparaît dans les **biomes d'océan profond** :
 
 ***
 
-# 🏜️ Station Service
+## 🏜️ Station Service
 
 {% hint style="info" %}
 <p align="center">
@@ -501,19 +503,19 @@ Structure permettant de rencontrer le <strong>Villageois Entrepreneur</strong>, 
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🧑‍🌾 PNJ : Villageois Entrepreneur
 - 🛒 Fonction : marchand spécialisé
 - 🗺️ Vend notamment des cartes permettant de localiser les Structures Légendaires
 
-## 🛒 Particularités
+### 🛒 Particularités
 
 - Accueille le **Villageois Entrepreneur**
 - Propose plusieurs objets exclusifs liés au mod
 - Permet notamment d'acheter des cartes facilitant la recherche des Structures Légendaires
 
-## 🌍 Génération
+### 🌍 Génération
 
 <details>
 <summary>🏜️ <strong>Biomes compatibles</strong></summary>
@@ -558,7 +560,7 @@ Structure permettant de rencontrer le <strong>Villageois Entrepreneur</strong>, 
 
 ***
 
-# 🏛️ Temple de Frimapic
+## 🏛️ Temple de Frimapic
 
 {% hint style="info" %}
 <p align="center">
@@ -566,26 +568,26 @@ Structure permettant d'obtenir <strong>Regirock</strong>, <strong>Regice</strong
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir les six Regis
 - 🚪 Gameplay : exploration de salles dédiées
 - 🔓 Progression : un Regi par salle
 - 👑 Récompense finale : Regigigas
 
-## 🏛️ Particularités
+### 🏛️ Particularités
 
 - Chaque Regi possède sa propre salle
 - Exploration progressive du temple
 - Les six Regis sont réunis dans une seule structure
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Plaines enneigées
 
 ***
 
-# 🏝️ l'Île du Sud
+## 🏝️ l'Île du Sud
 
 {% hint style="info" %}
 <p align="center">
@@ -593,20 +595,20 @@ Structure permettant d'obtenir <strong>Latias</strong> ou <strong>Latios</strong
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Latias ou Latios
 - ⚖️ Choix unique : un seul Pokémon par île
 - 🎁 Exploration : 2 coffres cachés
 - 🔁 Rejouabilité : une nouvelle île est nécessaire pour obtenir l'autre Pokémon
 
-## 🏝️ Particularités
+### 🏝️ Particularités
 
 - Tu dois choisir entre **Latias** et **Latios**
 - Une fois le choix effectué, l'autre Pokémon ne peut plus être obtenu sur cette île
 - Deux coffres cachés sont disséminés sur l'île
 
-## 🌍 Génération
+### 🌍 Génération
 
 <details>
 <summary>🌊 <strong>Biomes compatibles</strong></summary>
@@ -636,7 +638,7 @@ Structure permettant d'obtenir <strong>Latias</strong> ou <strong>Latios</strong
 
 ***
 
-# 🏔️ Colonnes Lances
+## 🏔️ Colonnes Lances
 
 {% hint style="info" %}
 <p align="center">
@@ -644,20 +646,20 @@ Structure permettant d'obtenir <strong>Dialga</strong> et <strong>Palkia</strong
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🎯 Objectif : obtenir Dialga et Palkia  
 - 🏔️ Type : sommet montagneux sacré  
 - ⚠️ Danger : biomes élevés / terrains irréguliers  
 - 🎁 Récompense : légendaires majeurs
 
-## 🏔️ Particularités
+### 🏔️ Particularités
 
 - Structure située en haute altitude
 - Exploration verticale et exposition aux dangers naturels
 - Rencontre des deux légendaires du temps et de l'espace
 
-## 🌍 Génération
+### 🌍 Génération
 
 <details>
 <summary>⛰️ <strong>Biomes compatibles</strong></summary>
@@ -696,7 +698,7 @@ Structure permettant d'obtenir <strong>Dialga</strong> et <strong>Palkia</strong
 
 ***
 
-# 🏯 Village traditionnel
+## 🏯 Village traditionnel
 
 {% hint style="info" %}
 <p align="center">
@@ -704,20 +706,20 @@ Village de style Edo japonais pouvant générer la <strong>Tour Carillon</strong
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🏯 Thème : village Edo japonais
 - 🧱 Type : village multi-structure
 - 🎁 Génération : peut contenir des structures uniques
 - 🏗️ Variantes : Tour Carillon / Tour Cendrée
 
-## 🏯 Particularités
+### 🏯 Particularités
 
 - Village à thème traditionnel japonais
 - Peut générer des structures légendaires associées
 - Exploration du village et découverte de ses variantes
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Plaines Dyna
 
@@ -729,7 +731,7 @@ Peut parfois apparaître avec la <strong>Tour Cendrée</strong> et la <strong>To
 
 ***
 
-# 🌀 Grotte du Retour
+## 🌀 Grotte du Retour
 
 {% hint style="info" %}
 <p align="center">
@@ -737,20 +739,20 @@ Structure permettant de trouver le portail vers le <strong>Monde de Distorsion</
 </p>
 {% endhint %}
 
-## 🧭 Aperçu rapide
+### 🧭 Aperçu rapide
 
 - 🌀 Objectif : accéder au Monde de Distorsion  
 - 🧪 Contient : Trial Spawners Pokémon  
 - 🔑 Récompense : Griseous Keys  
 - ⏳ Cooldown : 30 minutes sur les spawners  
 
-## 🧪 Particularités
+### 🧪 Particularités
 
 - Présence de spawners d’épreuves Pokémon  
 - Possibilité d’obtenir des clés spéciales (Clé Griseous)  
 - Accès progressif vers des zones verrouillées  
 
-## 🌍 Génération
+### 🌍 Génération
 
 - 📌 Biome : Apparaît dans tous les souterrains de l'Overworld, comme le Stronghold.
 
