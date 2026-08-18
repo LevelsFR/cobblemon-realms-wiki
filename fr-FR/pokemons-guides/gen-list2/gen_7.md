@@ -41,7 +41,7 @@ Pour obtenir Cosmog, vous devez collecter à la main, en faisant clic droit avec
 
 Une fois la 50e poussière collectée, un **Cosmog au niveau 5 apparaît** alors, avec **2% de chance d’être chromatique**.
 
-Après capture, Cosmog évolue en Cosmovum au niveau 43. Cosmovum évolue ensuite au niveau 53, avec un choix final entre [Lunala](https://our-story-network.gitbook.io/cr-wiki/cr-fr/myths-and-legends/myths-and-legends-legendaries/gen_7#lunala) ou [Solgaleo](https://our-story-network.gitbook.io/cr-wiki/cr-fr/myths-and-legends/myths-and-legends-legendaries/gen_7#solgaleo).
+Après capture, Cosmog évolue en Cosmovum au niveau 43. Cosmovum évolue ensuite au niveau 53, avec un choix final entre [Lunala](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list/gen_7#lunala) ou [Solgaleo](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list/gen_7#solgaleo).
 
 ---
 
