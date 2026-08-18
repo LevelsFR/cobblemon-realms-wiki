@@ -61,8 +61,8 @@ L'interface permet de sélectionner le **mode du pad**, de définir manuellement
 
 Le **Forgelimarteau** n'est pas un bloc, mais il constitue un outil essentiel pour configurer plusieurs des blocs présentés sur cette page.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/forgelimarteau.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/forgelimarteau.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication du Forgelimarteau</figcaption>
 </figure>
 
@@ -78,8 +78,8 @@ La **Statue Pokémon** est un socle de deux blocs de hauteur permettant d'affich
 
 ### 🛠️ Obtention
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/statue_pokemon.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/statue_pokemon.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication d'une Statue Pokémon</figcaption>
 </figure>
 
@@ -134,13 +134,13 @@ Les **Amas de Boue** et les **Amas de Bouillasse** sont deux petits amas présen
 
 Les deux blocs peuvent apparaître naturellement : les **Amas de Boue** dans le **biome Sol** et les **Amas de Bouillasse** dans le **biome Poison**. Ils peuvent également être fabriqués à l'aide des recettes suivantes :
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_boue.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_boue.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication de l'Amas de Boue</figcaption>
 </figure>
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_bouillasse.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/amas_de_bouillasse.png" >
   <figcaption style="text-align: center;">Recette de fabrication de l'Amas de Bouillasse</figcaption>
 </figure>
 
@@ -162,18 +162,18 @@ Le **délai entre l'activation et l'éruption** vous laisse quelques instants po
 
 Les trois blocs utilisent le même principe de fabrication : **8 blocs associés au thème du biome autour d'un Bloc de Magma**.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_volcanique.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_volcanique.png" >
   <figcaption style="text-align: center;">Recette de fabrication du Cratère Volcanique</figcaption>
 </figure>
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/geyser_chaud.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/geyser_chaud.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication du Geyser Chaud</figcaption>
 </figure>
 
-<figure>
-  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_draconique.png" width="300" style="display: block; margin: 0 auto;">
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/cratere_draconique.png" >
   <figcaption style="text-align: center;">Recette de fabrication du Cratère Draconique</figcaption>
 </figure>
 
