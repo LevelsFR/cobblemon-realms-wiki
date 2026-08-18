@@ -119,7 +119,7 @@ The legends of Galar tell of the exploits of forgotten heroes and powerful ruler
 
 ### 🗝️ How to Obtain
 
-To obtain Eternatus, you must find the [Eternatus Cocoon](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/end_world#eternatus-cocoon) in the End.
+To obtain Eternatus, you must find the [Eternatus Cocoon](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/end_world#cocon-d-eternatus) in the End.
 
 Then, you must inject a total of `500 Galar Particles`, an ore that spawns in the Overworld and acts as both fuel and bone meal.
 
