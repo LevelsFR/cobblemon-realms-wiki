@@ -176,7 +176,6 @@ Each Pokémon has its own mount statistics.
 
 {% hint style="success" %}
 Some of these characteristics can also be modified using [Aprijuices](https://wiki.cobblemon-realms.com/cobblemon-craft/aprijuice-guide)
-</p> 
 {% endhint %}
 
 ---
