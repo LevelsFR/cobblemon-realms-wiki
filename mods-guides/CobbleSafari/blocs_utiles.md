@@ -223,7 +223,7 @@ All traps can be <strong>oriented in different directions</strong>, even though 
 ***
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
 If you have any questions, suggestions or modifications to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything concerning the wiki, or <strong>@Levels</strong> for anything concerning the modpack.
