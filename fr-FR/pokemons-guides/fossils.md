@@ -23,7 +23,7 @@ Une fois récupéré, il peut être traité grâce à une **machine de résurrec
 
 ---
 
-## 🗺️ Obtention des fossiles
+### 🗺️ Obtention des fossiles
 
 Les fossiles sont principalement obtenus via :
 
@@ -59,7 +59,7 @@ Chaque fossile est associé à des **environnements précis**, rendant certains 
 
 ---
 
-## 🧬 Fossiles hybrides
+### 🧬 Fossiles hybrides
 
 ⚠️ Ces fossiles peuvent produire **plusieurs Pokémon**, selon la combinaison utilisée lors de la résurrection.
 
