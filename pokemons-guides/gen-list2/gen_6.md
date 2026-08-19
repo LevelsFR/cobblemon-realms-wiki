@@ -37,7 +37,7 @@ Behind Kalos’ beauty lie powers capable of granting life or bringing destructi
 
 ### 🗝️ How to Obtain
 
-To obtain Hoopa, you must find the [Hoopa Pyramid](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/end_world#pyramide-de-hoopa) in the End and complete its trials: a maze, a battle, and a quiz.
+To obtain Hoopa, you must find the [Hoopa Pyramid](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/end_world#hoopa-pyramid) in the End and complete its trials: a maze, a battle, and a quiz.
 
 Once these trials are completed, you will obtain the `Prison Bottle` and the `Temple Key`.
 
