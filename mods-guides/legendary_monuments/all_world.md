@@ -1,3 +1,16 @@
+# 🏛️ All Spawn Structures
+
+## 🧭 Quick Navigation
+
+* [🌫️🏗️ Distortion World Structures](mods-guides/legendary_monuments/distortion_world.md)
+* [🌍🏗️ Overworld Structures](mods-guides/legendary_monuments/overworld_world.md)
+* [🔥🏗️ Nether Structures](mods-guides/legendary_monuments/nether_world.md)
+* [🌌🏗️ End Structures](mods-guides/legendary_monuments/end_world.md)
+
+{% hint style="success" %}
+## 📥 Contact Us
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/under_construction.gif" width="500">
+If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
+{% endhint %}
