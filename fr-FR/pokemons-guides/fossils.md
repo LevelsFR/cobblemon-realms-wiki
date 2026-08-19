@@ -59,7 +59,7 @@ Chaque fossile est associé à des **environnements précis**, rendant certains 
 
 ---
 
-### 🧬 Fossiles hybrides
+## 🧬 Fossiles hybrides
 
 ⚠️ Ces fossiles peuvent produire **plusieurs Pokémon**, selon la combinaison utilisée lors de la résurrection.
 
@@ -77,7 +77,7 @@ Il est possible de <strong>combiner deux fossiles hybrides</strong> dans la mach
 
 ---
 
-## 🧪 Machine de résurrection
+### 🧪 Machine de résurrection
 
 La **machine de résurrection** permet de redonner vie aux fossiles découverts.
 
