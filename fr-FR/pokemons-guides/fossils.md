@@ -6,12 +6,6 @@ Les <strong>fossiles</strong> sont des objets rares permettant de ressusciter de
 </p>
 {% endhint %}
 
-Cette page détaille :
-
-- 📍 Où trouver les fossiles ?
-- ⚙️ Comment les utiliser ?
-- 🧬 Quels Pokémon ils permettent d’obtenir ?
-
 ---
 
 ## ⚙️ Fonctionnement des fossiles
