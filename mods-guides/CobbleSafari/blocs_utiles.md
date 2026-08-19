@@ -16,7 +16,7 @@ The **Teleportation Pad** allows two platforms to be linked together in order to
 
 ### 🛠️ Obtaining
 
-The version available in Survival mode can be crafted and then configured using a **Forgelirhammer**.
+The version available in Survival mode can be crafted and then configured using a **Tinkhammer**.
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/pad_teleport.png" width="300" >
@@ -31,13 +31,13 @@ Each pad has **three modes**, which determine the position searched for its part
 
 | Mode | Partner position |
 | --- | --- |
-| **Up** | Above the pad, forming an L shape with it. |
-| **Down** | Below the pad, mirroring the Up mode. |
+| **Top** | Above the pad, forming an L shape with it. |
+| **Bottom** | Below the pad, mirroring the Up mode. |
 | **Front** | Directly in front of the pad, with slight lateral tolerance. |
 
 The linking follows a few simple rules:
 
-- **Up** links with **Down**, and **Front** with **Front**.
+- **Top** links with **Bottom**, and **Front** with **Front**.
 - The path between the two pads must remain **completely clear**.
 - The search stops at the **first pad encountered**. If it is already linked, no other pad will be searched beyond it.
 - The connection is stored **relative to the pads' orientation**, allowing you to move or rotate a structure without losing its connections.
@@ -48,7 +48,7 @@ Once the two pads are linked, their **activation animation** becomes visible.
 
 To teleport, stand on a linked pad and **press the jump or sneak key**. A portal sound confirms that the teleportation was successful. If it fails, a sound similar to lava coming into contact with water is played.
 
-The **Forgelirhammer** allows you to modify and configure the pads:
+The **Tinkhammer** allows you to modify and configure the pads:
 
 - **Right-click** → changes the pad's mode and automatically restarts the search for a partner.
 - **Right-click while sneaking** → opens the advanced configuration interface.
@@ -57,18 +57,18 @@ The interface allows you to select the **pad mode**, manually set the **X / Y / 
 
 ***
 
-## 🔨 Forgelirhammer
+## 🔨 Tinkhammer
 
-The **Forgelirhammer** is not a block, but it is an essential tool for configuring several of the blocks presented on this page.
+The **Tinkhammer** is not a block, but it is an essential tool for configuring several of the blocks presented on this page.
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/forgelimarteau.png" width="300" >
-  <figcaption style="text-align: center;">Forgelirhammer crafting recipe</figcaption>
+  <figcaption style="text-align: center;">Tinkhammer crafting recipe</figcaption>
 </figure>
 
-Its durability is comparable to that of a **diamond axe** and it can be repaired on an anvil using **Forgeliroue**. In Survival mode, it notably serves as an equivalent to configuration options normally reserved for Creative mode: it allows you to configure **Teleportation Pads** and reset certain colored blocks.
+Its durability is comparable to that of a **diamond axe** and it can be repaired on an anvil using **Tinkhammer**. In Survival mode, it notably serves as an equivalent to configuration options normally reserved for Creative mode: it allows you to configure **Teleportation Pads** and reset certain colored blocks.
 
-**Forgeliroue** are obtained from the **Compacted Scrap Blocks** found in the Steel biome of the Safari Dimension.
+**Tinkhammer** are obtained from the **Compacted Trash Blocks** found in the Steel biome of the Safari Dimension.
 
 ***
 
@@ -83,7 +83,7 @@ The **Pokémon Statue** is a two-block-tall pedestal that allows you to display 
   <figcaption style="text-align: center;">Pokémon Statue crafting recipe</figcaption>
 </figure>
 
-The **Forgeliroue Block** used in the center of the recipe corresponds to **9 Forgeliroue**. These are obtained from the **Compacted Scrap Blocks** in the Steel biome of the Safari Dimension, in the same location as the materials required to craft the **Forgelirhammer**.
+The **Tinkhammer Block** used in the center of the recipe corresponds to **9 Tinkhammer**. These are obtained from the **Compacted Trash Blocks** in the Steel biome of the Safari Dimension, in the same location as the materials required to craft the **Tinkhammer**.
 
 ### 📍 Placement
 
@@ -93,11 +93,11 @@ The statue has durability comparable to that of an **anvil** and requires at lea
 
 ### ⚙️ Configuration
 
-**Right-click** on either of the two parts with a <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Forgeliroue" width="32"></a> to open the configuration interface. The **Confirm** button saves the changes, **Reset** restores the default settings, and the **Esc** key exits without saving the changes.
+**Right-click** on either of the two parts with a <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/Tinkhammer_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/Tinkhammer_update.png" title="Tinkhammer" width="32"></a> to open the configuration interface. The **Confirm** button saves the changes, **Reset** restores the default settings, and the **Esc** key exits without saving the changes.
 
 | Setting | Function |
 | --- | --- |
-| **Species** | Determines the displayed Pokémon. Form arguments work like those in the GTS search field: `Rowlet Hisui` or `Pikachu shiny=true`, for example. If the field is empty or contains a nonexistent Pokémon, a generic gray model is displayed. |
+| **Species** | Determines the displayed Pokémon. Form arguments work like those in the GTS search field: `Rowlet Hisuian` or `Pikachu shiny=true`, for example. If the field is empty or contains a nonexistent Pokémon, a generic gray model is displayed. |
 | **Statue type** | Determines the statue's finish. Only **Hologram** mode also changes the appearance of the pedestal. |
 | **Animation** | Determines the Pokémon animation to freeze. The list directly depends on the selected species. |
 | **Progress** | Determines the exact moment of the animation at which the statue is frozen. `0` corresponds to the beginning and `1` to the last frame. The `‹` and `›` buttons change the value by `0.01`, while `«` and `»` change it by `0.10`. |
@@ -118,7 +118,7 @@ The **Color** setting can also tint the pedestal. With a Hologram statue, the en
 
 ### 🔒 Locking a statue
 
-**Right-click with a honeycomb** on a statue to wax it, exactly as with a sign. A waxed statue can no longer be modified by players. To remove the wax, use **any axe**, except the Forgelirhammer. If you use **Jade** or **WTHIT**, point your cursor at either of the two parts of the statue to display the represented Pokémon and see whether the statue is waxed.
+**Right-click with a honeycomb** on a statue to wax it, exactly as with a sign. A waxed statue can no longer be modified by players. To remove the wax, use **any axe**, except the Tinkhammer. If you use **Jade** or **WTHIT**, point your cursor at either of the two parts of the statue to display the represented Pokémon and see whether the statue is waxed.
 
 ***
 
@@ -198,25 +198,25 @@ Traps can be quickly destroyed by hand and are **instantly collected with shears
 | Trap | Normal | Reinforced |
 | --- | --- | --- |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_obscurite.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_obscurite.png" title="Darkness Trap" width="48"></a> | Darkness for 10 s | Blindness for 20 s |
-| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png" title="Explosive Trap" width="48"></a> | Explosion causing minor damage without destroying blocks | Explosion capable of destroying fragile blocks and dealing real damage |
-| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png" title="Flatulent Trap" width="48"></a> | Like the Explosion, with a sound effect | Like the Reinforced Explosion, with a stronger sound effect |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_explosion.png" title="Explosion Trap" width="48"></a> | Explosion causing minor damage without destroying blocks | Explosion capable of destroying fragile blocks and dealing real damage |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_flatulent.png" title="Fart Trap" width="48"></a> | Like the Explosion, with a sound effect | Like the Reinforced Explosion, with a stronger sound effect |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_feu.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_feu.png" title="Fire Trap" width="48"></a> | Sets the player on fire for 2 s | Inflicts a stronger fire effect for 5 s |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_gravite.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_gravite.png" title="Gravity Trap" width="48"></a> | Levitation for 3 s | Levitation for 10 s |
-| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png" title="Push Trap" width="48"></a> | Moves the target 1 block forward | Moves the target 3 blocks forward |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_poussee.png" title="Move Trap" width="48"></a> | Moves the target 1 block forward | Moves the target 3 blocks forward |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_roche.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_roche.png" title="Rock Trap" width="48"></a> | Causes a Draco Meteor to fall nearby | Causes a Draco Meteor to fall directly on the target |
-| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png" title="Slowing Trap" width="48"></a> | Slowness I for 10 s | Slowness IV for 10 s |
-| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png" title="Teleportation Trap" width="48"></a> | Random teleportation up to 8 blocks | Random teleportation up to 32 blocks |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_ralentissement.png" title="Slow Trap" width="48"></a> | Slowness I for 10 s | Slowness IV for 10 s |
+| <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_teleportation.png" title="Teleport Trap" width="48"></a> | Random teleportation up to 8 blocks | Random teleportation up to 32 blocks |
 | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_vent.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/blocs_utiles/piege_vent.png" title="Wind Trap" width="48"></a> | Launch similar to a wind charge | Launch similar to a stronger wind charge |
 
 {% hint style="warning" %}
 <p align="center">
-The <strong>Explosion</strong> and <strong>Flatulent</strong> traps can also be triggered by a projectile. This is the only way to activate them remotely, whether to disarm them without approaching or to deliberately trigger them beneath another creature's feet.
+The <strong>Explosion</strong> and <strong>Fart</strong> traps can also be triggered by a projectile. This is the only way to activate them remotely, whether to disarm them without approaching or to deliberately trigger them beneath another creature's feet.
 </p>
 {% endhint %}
 
 {% hint style="warning" %}
 <p align="center">
-All traps can be **oriented in different directions**, even though only the <strong>Push</strong> trap actually uses their orientation to determine the direction in which the target will be moved.
+All traps can be **oriented in different directions**, even though only the <strong>Move</strong> trap actually uses their orientation to determine the direction in which the target will be moved.
 </p>
 {% endhint %}
 
