@@ -49,7 +49,7 @@ The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <s
 </p>
 {% endhint %}
 
-You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
