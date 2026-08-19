@@ -22,7 +22,7 @@ The Cosmic Catalyst has two main uses:
 Once in possession of the **Cosmic Catalyst**, you can:
 
 - 🪐 Gather Cosmic Dust
-- 🌟 Progress linked to [Cosmog](https://our-story-network.gitbook.io/cr-wiki/legendary-monuments/legendary_monuments/gen_7#cosmog)
+- 🌟 Progress linked to [Cosmog](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_7#cosmog)
 
 ---
 
