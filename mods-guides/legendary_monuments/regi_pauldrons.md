@@ -64,7 +64,7 @@ The **Titan Pauldron** is crafted by combining:
 ---
 
 {% hint style="success" %}
-## Contact us
+## 📥 Contact us
 
 <p align="center">
 If you have any questions, suggestions, or proposed changes, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact directly <strong>@FabLeKebab</strong> on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
