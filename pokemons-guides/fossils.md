@@ -6,12 +6,6 @@
 </p>
 {% endhint %}
 
-This page explains:
-
-- 📍 Where to find fossils
-- ⚙️ How to use them
-- 🧬 Which Pokémon they can revive
-
 ---
 
 ## ⚙️ How Fossils Work
