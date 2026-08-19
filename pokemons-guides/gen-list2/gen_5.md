@@ -39,7 +39,7 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
 
 To obtain Victini, you must find a `Liberty Pass`, which has a **25% chance** of being found in Desert Temple chests.
 
-Once you have the pass, locate [Liberty Garden](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-liberte) and use the pass on the `Victini Lock`. A **Level 60 Victini** will then appear, with a **2% chance of being Shiny**.
+Once you have the pass, locate [Liberty Garden](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#liberty-garden) and use the pass on the `Victini Lock`. A **Level 60 Victini** will then appear, with a **2% chance of being Shiny**.
 
 ---
 
@@ -217,7 +217,7 @@ You will also receive `Special Leafy Greens` when summoning Virizion. These can 
 
 To obtain Reshiram, you must craft a `Light Stone` using `9 Light Stone Shards`, which can be obtained by defeating Dragon-type Pokémon (higher evolutions increase the chances) or are guaranteed drops from defeating Wardens and the Wither Boss.
 
-Once you have obtained the `Light Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-dragospire) and place the orb along with a `Fire Gem` on each of the two `Reshiram Pedestals`. A **Level 60 Reshiram** will appear, with a **2% chance of being Shiny**.
+Once you have obtained the `Light Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#dragonspiral-tower) and place the orb along with a `Fire Gem` on each of the two `Reshiram Pedestals`. A **Level 60 Reshiram** will appear, with a **2% chance of being Shiny**.
 
 You will also receive a `Truth Bottle` when activating the pedestals, which can be combined with the `Ideals Bottle` to obtain [Kyurem](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#kyurem).
 
@@ -262,7 +262,7 @@ You will also receive a `Truth Bottle` when activating the pedestals, which can 
 
 To obtain Zekrom, you must craft a `Dark Stone` using `9 Dark Stone Shards`, which can be obtained by defeating Dragon-type Pokémon (higher evolutions increase the chances) or are guaranteed drops from defeating Wardens and the Wither Boss.
 
-Once you have obtained the `Dark Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-dragospire) and place the orb along with an `Electric Gem` on each of the two `Zekrom Pedestal`. A **Level 60 Zekrom** will appear, with a **2% chance of being Shiny**.
+Once you have obtained the `Dark Stone`, you must find the [Dragonspiral Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#dragonspiral-tower) and place the orb along with an `Electric Gem` on each of the two `Zekrom Pedestal`. A **Level 60 Zekrom** will appear, with a **2% chance of being Shiny**.
 
 You will also receive a `Ideals Bottle` when activating the pedestals, which can be combined with the `Truth Bottle` to obtain [Kyurem](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#kyurem).
 
@@ -307,7 +307,7 @@ You will also receive a `Ideals Bottle` when activating the pedestals, which can
 
 To obtain Kyurem, you must first summon [Reshiram](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#reshiram) and [Zekrom](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#zekrom) through their pedestals, which will allow you to obtain two items: the `Truth Bottle` and the `Ideals Bottle`.
 
-Once you have both vials, you must find the [Kyurem Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#grotte-cyclopeenne) and use both vials on the `Kyurem Pedestals`. A **Level 60 Kyurem** will appear, with a **2% chance of being Shiny**.
+Once you have both vials, you must find the [Kyurem Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#kyurem-cave) and use both vials on the `Kyurem Pedestals`. A **Level 60 Kyurem** will appear, with a **2% chance of being Shiny**.
 
 ---
 
