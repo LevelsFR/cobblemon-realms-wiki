@@ -16,7 +16,7 @@ Crafting your own Rotom Phone is not the easiest task and requires following sev
 
 {% hint style="info" %}
 <p align="center">
-The phone can be crafted using iron, copper, gold, glass for the screen, and a diamond at the heart of the device. If you do not want to use a diamond, you can replace it with a <strong>Forgesphere</strong>, which can rarely be found in the Steel-type biome of the Safari Dimension.
+The phone can be crafted using iron, copper, gold, glass for the screen, and a diamond at the heart of the device. If you do not want to use a diamond, you can replace it with a <strong>tinkagear</strong>, which can rarely be found in the Steel-type biome of the Safari Dimension.
 </p>
 {% endhint %}
 
@@ -116,7 +116,7 @@ In short:
 - 👥 **The Union Room** creates a private dimension where you and your friends can meet, battle, and trade. Even when alone, it can be useful for taking a break during your exploration or healing your Pokémon at any time.
 
 <p align="center">
-To discover how these features work in full, visit the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/fonct_online"><strong>Online Features</strong></a> page.
+To discover how these features work in full, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/fonct_online"><strong>Online Features</strong></a> page.
 </p>
 
 ***
@@ -130,7 +130,7 @@ Some skins also have their own **interface wallpaper**.
 Skins are unlocked **individually for each player** and therefore remain available even if you change your Rotom Phone. They can be obtained through **mission rewards, advancements, or consumable unlock items**.
 
 <p align="center">
-✨ Find the complete list of available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Holo-Skins</strong></a> page.
+✨ Find the complete list of available skins on the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/holo_skin"><strong>Holo-Skins</strong></a> page.
 </p>
 
 ***
@@ -143,7 +143,7 @@ Two safety features inspired by those found in Kalos and Paldea. They can be ind
 </p>
 {% endhint %}
 
-### 🪂 Roto-Glide
+### 🪂 Roto-Fall
 
 **Roto-Glide** softens long falls.
 
@@ -151,9 +151,9 @@ After approximately one second of falling, the phone applies a special effect th
 
 *There had to be a solution, since the children of Kalos just can't stop falling off roofs.*
 
-### ⬆️ Roto-Slide
+### ⬆️ Roto-Glide
 
-**Roto-Slide** works somewhat like a double jump.
+**Roto-Glide** works somewhat like a double jump.
 
 Press the jump key **while you are already falling**, and one second later, you will receive an upward boost that can reach **twice the height of a normal jump**, provided you continue falling without touching the ground in the meantime.
 
