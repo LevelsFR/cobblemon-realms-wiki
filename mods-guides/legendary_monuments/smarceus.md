@@ -39,14 +39,18 @@ These items may come from:
 
 ### ❌ Missing Item
 🟨 Name: gray
+<br>
 ⛔ Status: inactive
+<br>
 📌 Info: required item temporarily displayed
 
 ---
 
 ### ✔️ Available Item
 ⬜ Name: white
+<br>
 🟢 Status: active
+<br>
 🚀 Action: immediate tracking possible
 
 ---
