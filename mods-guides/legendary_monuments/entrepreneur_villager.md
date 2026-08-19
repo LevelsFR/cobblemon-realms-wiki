@@ -38,13 +38,14 @@ It offers various items, including:
 
 ## 📌 Trade List
 
-![Possible trades list](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/entrepreneur.png)
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/entrepreneur.png" width="450" >
+  <figcaption style="text-align: center;">Possible trades list</figcaption>
+</figure>
 
 ---
 
 ## 🛠️ Suitcase Block Crafting
-
-![Suitcase Block crafting recipe](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png)
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_dee_travail.png" width="300" >
