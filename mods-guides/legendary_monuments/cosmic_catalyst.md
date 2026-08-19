@@ -37,12 +37,15 @@ When right-clicking something other than **Cosmic Dust**, the catalyst allows yo
 
 ## 🛠️ Crafting
 
-
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/catalyseur_cosmique.png" width="300" >
+  <figcaption style="text-align: center;">Cosmic Catalyst crafting recipe</figcaption>
+</figure>
 
 ---
 
 {% hint style="success" %}
-## Contact us
+## 📥 Contact us
 
 <p align="center">
 If you have any questions, suggestions, or proposed changes, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact directly <strong>@FabLeKebab</strong> on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
