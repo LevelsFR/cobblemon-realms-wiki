@@ -96,7 +96,7 @@ To make it easier to process your request, try to **group all relevant informati
 ***
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
 A question, suggestion, or request regarding the wiki?<br>
