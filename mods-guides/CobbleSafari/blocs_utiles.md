@@ -216,7 +216,7 @@ The <strong>Explosion</strong> and <strong>Fart</strong> traps can also be trigg
 
 {% hint style="warning" %}
 <p align="center">
-All traps can be **oriented in different directions**, even though only the <strong>Move</strong> trap actually uses their orientation to determine the direction in which the target will be moved.
+All traps can be <strong>oriented in different directions</strong>, even though only the <strong>Move</strong> trap actually uses their orientation to determine the direction in which the target will be moved.
 </p>
 {% endhint %}
 
