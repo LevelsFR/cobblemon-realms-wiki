@@ -18,7 +18,7 @@
 
 | Method | Details |
 | :---: | :---: |
-| **Rotom Quest** | Each day, Rotom allows you to randomly obtain a colored skin that you do not already own during your conversation with it. |
+| **Rotom Questline** | Each day, Rotom allows you to randomly obtain a colored skin that you do not already own during your conversation with it. |
 | **Daily Quest** | Hayley's repeatable daily quest can sometimes reward a random locked skin. If you already own all available skins, it will give you tickets instead. |
 | **Unlock Item** | A consumable **Holo-Skins Unlock** ![](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/skins_motismart/unlock.png) allows you to unlock a specific skin. The **Complete Holo-Skins Unlock** ![](https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/skins_motismart/unlock_all.png) allows you to unlock all skins. |
 | **Advancement** | Some advancements can also allow you to unlock Holo-Skins. |
