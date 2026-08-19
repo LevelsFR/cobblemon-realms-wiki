@@ -1,6 +1,6 @@
-# 🎒 Items & Mechanics
+# 🎒 Objets & Mécaniques
 
-## 🧭 Quick Navigation:
+## 🧭 Navigation rapide :
 
 * [📱 Smarceus](mods-guides/legendary_monuments/smarceus.md)
 * [🪈 Flûte Célestique](mods-guides/legendary_monuments/celestica_flute.md)
