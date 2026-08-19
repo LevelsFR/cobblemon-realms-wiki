@@ -387,8 +387,6 @@ You will also receive a `Titan Core` after activating the floor. It can be used 
 
 <p align="center">
 This method of obtaining it is <strong>disabled</strong> in favor of the exclusive method via the Safari's Distortion World.
-<br>
-For more information, go directly to the page: [Distortion World](https://our-story-network.gitbook.io/cr-wiki/cr-fr/guides-des-mods/cobblesafari/distortion_world)
 </p>
 {% endhint %}
 
