@@ -48,7 +48,7 @@ Il propose différents objets, notamment :
 ## 🛠️ Fabrication de la Station de Travail
 
 <figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png" width="300" >
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_dee_travail.png" width="300" >
   <figcaption style="text-align: center;">Recette de fabrication de la Station de Travail</figcaption>
 </figure>
 
