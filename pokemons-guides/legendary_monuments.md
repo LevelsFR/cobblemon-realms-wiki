@@ -2,8 +2,6 @@
 
 ## 🧭 Quick Navigation
 
-### ✨ All available generations:
-
 * [🌿 Generation 1 - Kanto](pokemons-guides/gen-list2/gen_1.md)
 * [🍃 Generation 2 - Johto](pokemons-guides/gen-list2/gen_2.md)
 * [🌊 Generation 3 - Hoenn](pokemons-guides/gen-list2/gen_3.md)
