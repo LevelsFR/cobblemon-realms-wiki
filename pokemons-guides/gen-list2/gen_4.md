@@ -49,7 +49,7 @@ The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <s
 </p>
 {% endhint %}
 
-You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia)
+You will also receive the `Uxie Claw` after using the `Proof of Conquest (U)`. By combining it with the two other relics of the Lake Guardians, you will be able to craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia)
 
 ---
 
@@ -98,11 +98,11 @@ Then use the `Proof of Conquest (M)` to summon Mesprit, with a **2% chance of it
 
 {% hint style="info" %}
 <p align="center">
-The <strong>(M)</strong> in <strong>Proof of Conquest (M)</strong> stands for <strong>Mesprit</strong>, the English name of <strong>Créfollet</strong>.
+The <strong>(M)</strong> in <strong>Proof of Conquest (M)</strong> stands for <strong>Mesprit</strong>.
 </p>
 {% endhint %}
 
-You will also receive a `Mesprit's Feather` after using the `Proof of Conquest (M)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive a `Mesprit Plume` after using the `Proof of Conquest (M)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -151,11 +151,11 @@ Then use the `Proof of Conquest (A)` to summon Azelf, with a **2% chance of it b
 
 {% hint style="info" %}
 <p align="center">
-The <strong>(A)</strong> in <strong>Proof of Conquest (A)</strong> stands for <strong>Azelf</strong>, the English name of <strong>Créfadet</strong>.
+The <strong>(A)</strong> in <strong>Proof of Conquest (A)</strong> stands for <strong>Azelf</strong>.
 </p>
 {% endhint %}
 
-You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
+You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. By combining it with the two other relics of the Lake Guardians, you can craft the `Red Chain`, allowing you to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 ---
 
@@ -197,11 +197,11 @@ You will also receive an `Azelf Fang` after using the `Proof of Conquest (A)`. B
 
 ### 🗝️ How to Obtain
 
-To obtain Dialga, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
+To obtain Dialga, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#spear-pillars). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 Once in front of the [Dialga Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Dialga**, with **2% chance of it being Shiny**.
 
-You will also receive a `Time Sphere` after using the pedestal. By combining it with the two other Spheres and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
+You will also receive a `Time Sphere` after using the pedestal. By combining it with the two other Spheres and a `Celestica Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -243,11 +243,11 @@ You will also receive a `Time Sphere` after using the pedestal. By combining it 
 
 ### 🗝️ How to Obtain
 
-To obtain Palkia, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#colonnes-lances). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
+To obtain Palkia, you must find the [Spear Pillars](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#spear-pillars). It is a huge Greek-style temple where it is possible to obtain [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#dialga) and [Palkia](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia).
 
 Once in front of the [Palkia Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Red Chain` to summon a **level 70 Palkia**, with **2% chance of it being Shiny**.
 
-You will also receive a `Lustrous Orb` after using the pedestal. By combining it with the two other Orbs and a `Celestial Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
+You will also receive a `Lustrous Orb` after using the pedestal. By combining it with the two other Orbs and a `Celestica Flute`, you can craft the `Azure Flute`, allowing you to obtain [Arceus](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#arceus).
 
 ---
 
@@ -429,7 +429,7 @@ This method of obtaining it is <strong>disabled</strong> in favor of the exclusi
 
 ### 🗝️ How to Obtain
 
-To obtain Cresselia, you must use a `Full Moon Whistle`. Craft and use a `Full Moon Whistle` from `5 Lunar Feathers`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher).
+To obtain Cresselia, you must use a `Fullmoon Whistle`. Craft and use a `Fullmoon Whistle` from `5 Lunar Feathers`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher).
 
 Once you have obtained the whistle, right-click while holding it to summon Cresselia, with a **2% chance of it being Shiny**.
 
@@ -472,7 +472,7 @@ Once you have obtained the whistle, right-click while holding it to summon Cress
 
 ### 🗝️ How to Obtain
 
-To obtain Darkrai, you must use a `New Moon Whistle`. Craft and use a `New Moon Whistle` from `5 Nightmare Essences`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher). Warning: having a nightmare can be painful.
+To obtain Darkrai, you must use a `Newmoon Whistle`. Craft and use a `New Moon Whistle` from `5 Nightmare Essences`, obtained by sleeping while under the effect of `Lucid Dream`, which is activated by sleeping near a [Dream Catcher](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/dream_catcher). Warning: having a nightmare can be painful.
 
 Once you have obtained the whistle, right-click while holding it to summon Darkrai, with a **2% chance of it being Shiny**.
 
@@ -517,9 +517,9 @@ Once you have obtained the whistle, right-click while holding it to summon Darkr
 
 To obtain Arceus, you must use the `Azure Flute` to access the `Hall of Origin`.
 
-To do so, you must first summon [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia) and [Giratina](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#giratina) using their pedestals. You will then obtain three Orbs: `Time Sphere`, `Spatial Sphere` and `Antimatter Sphere`. By combining them with a `Celestial Flute`, you will craft the `Azure Flute`.
+To do so, you must first summon [Dialga](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#palkia) and [Giratina](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#giratina) using their pedestals. You will then obtain three Orbs: `Time Globe`, `Space Globe` and `Antimatter Globe`. By combining them with a `Celestica Flute`, you will craft the `Azure Flute`.
 
-Once you have the `Azure Flute` in hand, right-click to be teleported to the `Origin Hall`. At the top of the stairs, a **level 90 Arceus will appear**, with a **2% chance of it being Shiny**.
+Once you have the `Azure Flute` in hand, right-click to be teleported to the `Hall of Origin`. At the top of the stairs, a **level 90 Arceus will appear**, with a **2% chance of it being Shiny**.
 
 ---
 
