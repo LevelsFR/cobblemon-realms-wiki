@@ -88,7 +88,7 @@ Using the pedestal will also reward you with a `Yellow Feather`. By combining it
 
 To obtain **Entei**, you must first craft an `Entei Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#burned-tower).
 
 A **level 40 Entei will then appear**, with a **2% chance of being shiny**.
 
@@ -136,7 +136,7 @@ Using the pedestal will also reward you with a `Red Feather`. By combining it wi
 
 To obtain **Suicune**, you must first craft a `Suicune Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#burned-tower).
 
 A **level 40 Suicune will then appear**, with a **2% chance of being shiny**.
 
@@ -186,7 +186,7 @@ To obtain **Lugia**, you must first summon [Articuno](https://wiki.cobblemon-rea
 
 By combining these three stones on a crafting table, you will obtain a `Vortex Stone`.
 
-Once you have this stone, go to the [Lugia Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tourb-iles) and use it to open the temple door.
+Once you have this stone, go to the [Lugia Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lugia-temple) and use it to open the temple door.
 
 Retrieve the `Vortex Stone`, cross the labyrinth until you reach the [Lugia Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), then use the stone on it.
 
@@ -236,7 +236,7 @@ To obtain **Ho-Oh**, you must first summon [Raikou](https://wiki.cobblemon-realm
 
 By combining these three feathers on a crafting table, you will obtain a `Rainbow Feather`.
 
-Once you have this feather, go to the [Bell Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-carillon), complete the path to the top, then use the `Rainbow Feather` on the [Ho-Oh Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
+Once you have this feather, go to the [Bell Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#bell-tower), complete the path to the top, then use the `Rainbow Feather` on the [Ho-Oh Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
 
 A **level 60 Ho-Oh will then appear**, with a **2% chance of being shiny**.
 
