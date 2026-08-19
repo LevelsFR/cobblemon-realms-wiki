@@ -305,7 +305,7 @@ You will also receive a `Ideals Bottle` when activating the pedestals, which can
 
 ### 🗝️ How to Obtain
 
-To obtain Kyurem, you must first summon [Reshiram](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#reshiram) and [Zekrom](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_5#zekrom) through their pedestals, which will allow you to obtain two items: the `Truth Bottle` and the `Ideals Bottle`.
+To obtain Kyurem, you must first summon [Reshiram](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#reshiram) and [Zekrom](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#zekrom) through their pedestals, which will allow you to obtain two items: the `Truth Bottle` and the `Ideals Bottle`.
 
 Once you have both vials, you must find the [Kyurem Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#kyurem-cave) and use both vials on the `Kyurem Pedestals`. A **Level 60 Kyurem** will appear, with a **2% chance of being Shiny**.
 
