@@ -93,7 +93,7 @@ The statue has durability comparable to that of an **anvil** and requires at lea
 
 ### ⚙️ Configuration
 
-**Right-click** on either of the two parts with a <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/Tinkhammer_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/Tinkhammer_update.png" title="Tinkhammer" width="32"></a> to open the configuration interface. The **Confirm** button saves the changes, **Reset** restores the default settings, and the **Esc** key exits without saving the changes.
+**Right-click** on either of the two parts with a <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/forgeliroue_update.png" title="Tinkhammer" width="32"></a> to open the configuration interface. The **Confirm** button saves the changes, **Reset** restores the default settings, and the **Esc** key exits without saving the changes.
 
 | Setting | Function |
 | --- | --- |
