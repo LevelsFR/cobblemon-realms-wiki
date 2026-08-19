@@ -119,7 +119,7 @@ The legends of Galar tell of the exploits of forgotten heroes and powerful ruler
 
 ### 🗝️ How to Obtain
 
-To obtain Eternatus, you must find the [Eternatus Cocoon](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/end_world#cocon-d-eternatus) in the End.
+To obtain Eternatus, you must find the [Eternatus Cocoon](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/end_world#eternatus-cocoon) in the End.
 
 Then, you must inject a total of `500 Galar Particles`, an ore that spawns in the Overworld and acts as both fuel and bone meal.
 
@@ -171,11 +171,11 @@ To obtain Regieleki, you must obtain either an `Electric Golem Key` or a `Dragon
 
 `Golem Ingots` are crafted in batches of 4 using the corresponding Gem + `4 Golem Ingots`, obtained by smelting `Ancient Rubble` found in caves at Deepslate level and below.
 
-Once you have the key, you can open the `Elekidrago Lock` in the [Snowpoint Temple](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/overworld_world#snowpoint-temple). The temple contains a trial where you must orient arrows inside colored frames to reproduce the patterns displayed on the walls in the four corners of the dungeon. Once all four sections are completed, the central passage opens, leading to the summoning room.
+Once you have the key, you can open the `Elekidrago Lock` in the [Snowpoint Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#snowpoint-temple). The temple contains a trial where you must orient arrows inside colored frames to reproduce the patterns displayed on the walls in the four corners of the dungeon. Once all four sections are completed, the central passage opens, leading to the summoning room.
 
-In the final room, activate all the circles on the ground: Regieleki and [Regidrago](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_8#regidrago) will **appear at level 40**, with a **2% chance of being Shiny**.
+In the final room, activate all the circles on the ground: Regieleki and [Regidrago](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_8#regidrago) will **appear at level 40**, with a **2% chance of being Shiny**.
 
-You will also obtain a `Regirock Tablet`, which can be combined with the other tablets to craft the `Titan Key` and summon [Regigigas](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_4#regigigas).
+You will also obtain a `Regirock Tablet`, which can be combined with the other tablets to craft the `Titan Key` and summon [Regigigas](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#regigigas).
 
 ---
 
@@ -223,11 +223,11 @@ To obtain Regidrago, you must obtain either the `Electric Golem Key` or the `Dra
 
 `Golem Ingots` are crafted in batches of 4 using the corresponding Gem + `4 Golem Ingots`, obtained by smelting `Ancient Rubble` found in caves at Deepslate level and below.
 
-Once you have the key, you can open the `Elekidrago Lock` in the [Snowpoint Temple](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/all_world/overworld_world#snowpoint-temple). The temple contains a trial where you must orient arrows inside colored frames to reproduce the patterns displayed on the walls in the four corners of the dungeon. Once all four sections are completed, the central passage opens, leading to the summoning room.
+Once you have the key, you can open the `Elekidrago Lock` in the [Snowpoint Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#snowpoint-temple). The temple contains a trial where you must orient arrows inside colored frames to reproduce the patterns displayed on the walls in the four corners of the dungeon. Once all four sections are completed, the central passage opens, leading to the summoning room.
 
-In the final room, activate all the circles on the ground: Regidrago and [Regieleki](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_8#regieleki) will **appear at level 40**, with a **2% chance of being Shiny**.
+In the final room, activate all the circles on the ground: Regidrago and [Regieleki](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_8#regieleki) will **appear at level 40**, with a **2% chance of being Shiny**.
 
-You will also obtain a `Regirock Tablet`, which can be combined with the other tablets to craft the `Titan Key` and summon [Regigigas](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_4#regigigas).
+You will also obtain a `Regirock Tablet`, which can be combined with the other tablets to craft the `Titan Key` and summon [Regigigas](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_4#regigigas).
 
 ---
 
