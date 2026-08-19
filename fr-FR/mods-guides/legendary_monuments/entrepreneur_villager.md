@@ -38,13 +38,19 @@ Il propose différents objets, notamment :
 
 ## 📌 Liste des échanges possibles
 
-![Liste des échanges possibles](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/entrepreneur.png)
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/entrepreneur.png" width="450" >
+  <figcaption style="text-align: center;">Liste des échanges possibles</figcaption>
+</figure>
 
 ---
 
 ## 🛠️ Fabrication de la Station de Travail
 
-![Recette de fabrication de la Station de Travail](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png)
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png" width="300" >
+  <figcaption style="text-align: center;">Recette de fabrication de la Station de Travail</figcaption>
+</figure>
 
 ---
 
