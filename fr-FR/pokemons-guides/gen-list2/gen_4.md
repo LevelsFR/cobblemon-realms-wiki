@@ -387,8 +387,6 @@ Vous recevrez également un `Noyau de Titan` après avoir activé le sol. Celui-
 
 <p align="center">
 Ce moyen d’obtention est <strong>désactivé</strong> au profit exclusif de la méthode via le monde Distorsion du Safari.
-<br>
-Pour en savoir plus, rendez-vous directement sur la page : [Monde Distortion](https://our-story-network.gitbook.io/cr-wiki/cr-fr/guides-des-mods/cobblesafari/distortion_world)
 </p>
 {% endhint %}
 
