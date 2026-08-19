@@ -37,7 +37,10 @@ En faisant clic droit sur autre chose que de la **Poussière Cosmique**, le cata
 
 ## 🛠️ Fabrication
 
-
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/catalyseur_cosmique.png" width="300" >
+  <figcaption style="text-align: center;">Recette de fabrication du Catalyseur Cosmique</figcaption>
+</figure>
 
 ---
 
