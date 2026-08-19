@@ -66,7 +66,7 @@ Colored Holo-Skins are selected from the <strong>20 classic recolors</strong>. T
 {% endhint %}
 
 <p align="center">
-Find all available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/holo_skin"><strong>Rotom Phone Holo-Skin List</strong></a>.
+Find all available skins on the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/holo_skin"><strong>Rotom Phone Holo-Skin List</strong></a>.
 </p>
 
 ***
@@ -78,10 +78,10 @@ Find all available skins on the <a href="https://wiki.cobblemon-realms.com/fr-FR
 | Day | Objective Type | Condition | Reward | Waits Until the Next Day |
 | --- | --- | --- | :---: | :---: |
 | 1 | Advancement | **Welcome to the Safari** - enter the Safari Dimension for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ | No |
-| 2 | Advancement | **Novice Safari Catcher** - catch 10 wild Pokémon in the Safari Dimension | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Mud Ball" width="32"></a>⁸ | No |
+| 2 | Advancement | **Rookie Safari Catcher** - catch 10 wild Pokémon in the Safari | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Mud Ball" width="32"></a>⁸ | No |
 | 3 | Advancement | **Certified Mud Enjoyer** - throw a Mud Ball for the first time | <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Bait" width="32"></a>⁸ | No |
 | 4 | Advancement | **Free Snacks, No Questions Asked** - throw bait at a wild Pokémon | Safari Kit: <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/safari_ball_update.png" title="Safari Ball" width="32"></a>⁴ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/boule_boue_update.png" title="Mud Ball" width="32"></a>⁸ + <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/appats_update.png" title="Bait" width="32"></a>⁸ | Yes |
-| 5 | Advancement | **Safari Geographer** - visit all biomes in the Safari Dimension | Safari Kit (as shown above) | Yes |
+| 5 | Advancement | **Safari Geographer** - visit all biomes in the Safari Dimension | Safari kit (as above) | Yes |
 
 ### 📅 Hayley's Progression
 
@@ -120,9 +120,9 @@ After that, the objectives and rewards are randomly selected.
 
 | Reward | Details |
 | --- | :---: |
-| Personal GTS trade offer | From one of her trainer friends |
+| A personal GTS trade offer | From one of her trainer friends |
 | Tickets | 2 to 4 tickets - <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_echange_miracle_update.png" title="Miracle Trade Ticket" width="32"></a> or <a href="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png"><img src="https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/imgwiki/CobbleSafari/items/ticket_gts_update.png" title="GTS Ticket" width="32"></a> |
-| Holo-Skin | A random skin that you do not already own |
+| A Holo-Skin | A random one you don't own yet |
 | Safari Balls | 16 to 32 |
 
 The objective and reward are **selected independently**: all combinations are therefore possible.
@@ -182,7 +182,7 @@ The reward contains **exactly eight fragments**, which is the number required to
 
 {% hint style="info" %}
 <p align="center">
-Check the <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page to discover how to use the Red Chain.</strong></a>.
+Check the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page to discover how to use the Red Chain.</strong></a>.
 </p>
 {% endhint %}
 
