@@ -39,21 +39,21 @@ In theory, a single player with six level 100 Pokémon can therefore defeat a Bo
 
 ***
 
-## 🧴 Pacifispheres
+## 🧴 Balm
 
-Some Bosses have so much HP that the battle could last an extremely long time, even with a very powerful team. This is where **Pacifispheres** come into play.
+Some Bosses have so much HP that the battle could last an extremely long time, even with a very powerful team. This is where **Balm** come into play.
 
-A Pacifisphere is an item that you can **throw at the Boss**. Each Pacifisphere that hits its target removes a portion of its HP, generally **around 5% of its total HP** by default.
+A Balm is an item that you can **throw at the Boss**. Each Balm that hits its target removes a portion of its HP, generally **around 5% of its total HP** by default.
 
-### 🧴 Obtaining Pacifispheres
+### 🧴 Obtaining Balm
 
-Pacifispheres can be obtained from **Pacisphere Dispensers**, generally placed around the arena. A dispenser requires a certain amount of time to recharge. When a Pacifisphere is available, it appears above the dispenser: simply **right-click it** to collect it.
+Balm can be obtained from **Balm Dispensers**, generally placed around the arena. A dispenser requires a certain amount of time to recharge. When a Balm is available, it appears above the dispenser: simply **right-click it** to collect it.
 
 {% hint style="info" %}
-<p align="center">In some battles, Pacifispheres are essential to defeating the Boss within the time limit. Remember to locate the dispensers <strong>before even starting the battle</strong>!</p>
+<p align="center">In some battles, Balm are essential to defeating the Boss within the time limit. Remember to locate the dispensers <strong>before even starting the battle</strong>!</p>
 {% endhint %}
 
-Pacifispheres are removed from your inventory when the battle ends. Pacifispheres lying on the ground are also removed, preventing you from keeping them for a future battle.
+Balm are removed from your inventory when the battle ends. Balm lying on the ground are also removed, preventing you from keeping them for a future battle.
 
 ***
 
@@ -99,7 +99,7 @@ Certain restrictions apply during a Boss Battle:
 
 ## 📍 Where to Find Bosses?
 
-In the vanilla version of **CobbleSafari**, only one Boss Battle is currently available: **Giratina's Shadow**, which awaits you at the altar located in the heart of the Distortion World arena. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com//mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
+In the vanilla version of **CobbleSafari**, only one Boss Battle is currently available: **Giratina's Shadow**, which awaits you at the altar located in the heart of the Distortion World arena. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
 
 *** 
 
