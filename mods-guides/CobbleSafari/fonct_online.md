@@ -17,7 +17,7 @@ The **GTS** works as a true Pokémon trading platform. Deposit a Pokémon along 
 Select a Pokémon from your team, then define the criteria for the Pokémon you want to receive in exchange.
 
 | Criterion | Description |
-| --- | --- |
+| :---: | --- |
 | **Species** | Mandatory criterion. Specify the species of the Pokémon you are looking for. An autocomplete function is available and also allows you to search for a **specific form**, such as a Galarian variant. |
 | **Gender** | Choose between **male**, **female**, or **any**, with the latter option also including genderless Pokémon. |
 | **Level** | Set a **10-level range**, or select any level. |
