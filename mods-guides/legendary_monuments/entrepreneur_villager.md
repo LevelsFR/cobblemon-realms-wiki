@@ -46,6 +46,11 @@ It offers various items, including:
 
 ![Suitcase Block crafting recipe](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png)
 
+<figure style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Craft-recettes/craft_legendary_monuments/station_de_travail.png" width="300" >
+  <figcaption style="text-align: center;">Suitcase Block crafting recipe</figcaption>
+</figure>
+
 ---
 
 {% hint style="success" %}
