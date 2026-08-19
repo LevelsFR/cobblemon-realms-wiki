@@ -61,10 +61,10 @@ When you select a structure, the Arc Phone analyzes your current dimension.
 
 If it detects a match, it displays the following information:
 
-|   📌 Info  |                📜 Detail              |
-| :---:       | :---:                                  |
-| Coordinates |     Exact position in the dimension    |
-|   Distance  |        Distance from the player        |
+| 📌 Info  | 📜 Detail |
+| :---: | :---: |
+| Coordinates | Exact position in the dimension |
+|   Distance  | Distance from the player |
 |  Direction  | General direction toward the structure |
 
 ---
@@ -76,7 +76,7 @@ If it detects a match, it displays the following information:
 ---
 
 {% hint style="success" %}
-## Contact us
+## 📥 Contact us
 
 <p align="center">
 If you have any questions, suggestions, or proposed changes, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
