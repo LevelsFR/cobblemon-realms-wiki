@@ -21,8 +21,8 @@ There are 6 different Pauldron:
 - 🐉 **Dragon Pauldron** → +3 damage
 - ⚡ **Electric Pauldron** → +20% speed
 - 🪨 **Rock Pauldron** → Haste effect
-- ❄️ **Ice Pauldron* → Luck effect
-- 🛡️ **Steel Pauldron* → +3 armor
+- ❄️ **Ice Pauldron** → Luck effect
+- 🛡️ **Steel Pauldron** → +3 armor
 - 👑 **Titan Pauldron** → combines all effects
 
 ---
