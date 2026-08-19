@@ -2,7 +2,8 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns v6.0</strong> datapack to provide spawns adapted to each environment of the modpack. 🌍<br>
+<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns v6.0</strong> datapack to provide spawns adapted to each environment of the modpack. 🌍
+<br>
 A Pokémon can spawn depending on its <strong>biome</strong>, <strong>dimension</strong>, <strong>time</strong>, <strong>weather</strong>, <strong>light level</strong>, <strong>altitude</strong>, <strong>structures</strong>, <strong>surrounding blocks</strong>, and many other conditions.
 </p>
 {% endhint %}
