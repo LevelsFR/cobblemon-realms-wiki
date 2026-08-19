@@ -2,9 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns v6.0</strong> pour proposer des apparitions adaptées à chaque environnement du modpack. 🌍
-<br>
-Un Pokémon peut apparaître selon son <strong>biome</strong>, la <strong>dimension</strong>, l'<strong>heure</strong>, la <strong>météo</strong>, la <strong>luminosité</strong>, l'<strong>altitude</strong>, les <strong>structures</strong>, les <strong>blocs environnants</strong> et bien d'autres conditions.
+<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns v6.0</strong> pour proposer des apparitions adaptées à chaque environnement du modpack. Un Pokémon peut apparaître selon son <strong>biome</strong>, la <strong>dimension</strong>, l'<strong>heure</strong>, la <strong>météo</strong>, la <strong>luminosité</strong>, l'<strong>altitude</strong>, les <strong>structures</strong>, les <strong>blocs environnants</strong> et bien d'autres conditions.
 </p>
 {% endhint %}
 
