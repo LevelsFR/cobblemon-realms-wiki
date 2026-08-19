@@ -23,7 +23,7 @@ Once obtained, it can be processed using a **resurrection machine**.
 
 ---
 
-## 🗺️ Obtaining Fossils
+### 🗺️ Obtaining Fossils
 
 Fossils are mainly obtained through:
 
@@ -77,7 +77,7 @@ It is possible to <strong>combine two hybrid fossils</strong> in the resurrectio
 
 ---
 
-## 🧪 Resurrection Machine
+### 🧪 Resurrection Machine
 
 The **resurrection machine** allows you to bring discovered fossils back to life.
 
