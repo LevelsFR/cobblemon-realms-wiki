@@ -2,8 +2,6 @@
 
 ## 🧭 Navigation rapide
 
-### ✨ Toutes les Structures disponible :
-
 * [🌫️🏗️ Structures du Monde Distorsion](mods-guides/legendary_monuments/distortion_world.md)
 * [🌍🏗️ Structures de l’Overworld](mods-guides/legendary_monuments/overworld_world.md)
 * [🔥🏗️ Structures du Nether](mods-guides/legendary_monuments/nether_world.md)
