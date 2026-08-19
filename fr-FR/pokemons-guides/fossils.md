@@ -67,11 +67,11 @@ Chaque fossile est associé à des **environnements précis**, rendant certains 
 
 ## 🔀 Fossiles combinés (Génération 8+)
 
-⚠️ Depuis la **8ᵉ génération**, il est possible de **combiner deux fossiles hybrides** dans la machine de résurrection pour obtenir le Pokémon que vous souhaitez à coup sûr.
-
 {% hint style="success" %}
+## Depuis la <strong>8ᵉ génération</strong> :
+
 <p align="center">
-Depuis la <strong>8ᵉ génération</strong>, il est possible de <strong>combiner deux fossiles hybrides</strong> dans la machine de résurrection pour obtenir le Pokémon que vous souhaitez à coup sûr.
+Il est possible de <strong>combiner deux fossiles hybrides</strong> dans la machine de résurrection pour obtenir le Pokémon que vous souhaitez à coup sûr.
 </p>
 {% endhint %}
 
