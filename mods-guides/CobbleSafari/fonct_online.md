@@ -162,7 +162,7 @@ In the event of an unwanted modification to an instance, the only way to complet
 ***
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact us
 
 <p align="center">
 If you have any questions, suggestions, or modifications to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
