@@ -193,7 +193,7 @@ To obtain the Galarian form, simply use a [Galarian Urn](https://wiki.cobblemon-
 
 ### 🗝️ How to obtain
 
-To obtain Mew, you must use a `Mew Pedestal` located on the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-finale).
+To obtain Mew, you must use a `Mew Pedestal` located on the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#final-island).
 
 You must first find an `Old Sea Map`, which has a **50% chance** of being obtained from jungle temple chests.
 
@@ -203,7 +203,7 @@ The <code>Old Sea Map</code> does not work like a regular Minecraft map.
 </p>
 {% endhint %}
 
-Once you have the map, you must find the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#ile-finale) and place the map on the `Mew Pedestal`, which will make a **level 40 Mew appear**, with a **2% chance of being shiny**.
+Once you have the map, you must find the [Final Island](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#final-island) and place the map on the `Mew Pedestal`, which will make a **level 40 Mew appear**, with a **2% chance of being shiny**.
 
 You will also receive a `Tuft of Mew Hair`, which currently has no use.
 
