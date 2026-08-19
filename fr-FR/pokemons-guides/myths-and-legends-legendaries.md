@@ -2,7 +2,7 @@
 
 ## 🧭 Navigation rapide
 
-## ✨ Toutes les générations disponible :
+### ✨ Toutes les générations disponible :
 
 * [🌿 Génération 1 - Kanto](gen-list/gen_1.md)
 * [🍃 Génération 2 - Johto](gen-list/gen_2.md)
