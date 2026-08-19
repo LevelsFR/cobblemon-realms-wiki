@@ -1,8 +1,8 @@
-# 🐎 New Mount System (v1.7)
+# 🐎 Nouveau système de montures (v1.7)
 
 {% hint style="info" %}
 <p align="center">
-Since version <strong>1.7</strong>, Cobblemon Realms now uses the official mount system.
+Depuis la version <strong>1.7</strong>, Cobblemon Realms utilise désormais le système de montures officiel.
 </p>
 {% endhint %}
 
