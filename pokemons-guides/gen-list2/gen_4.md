@@ -37,7 +37,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
 
 ### 🗝️ How to obtain
 
-To obtain Uxie, you must find the [Lake of Knowledge](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lac-savoir)
+To obtain Uxie, you must find the [Lake Acuity](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lake-acuity)
 
 In the lake's cavern, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (U)`.
 
@@ -90,7 +90,7 @@ You will also receive the `Uxie's Claw` after using the `Proof of Conquest (U)`.
 
 ### 🗝️ How to Obtain
 
-To obtain Mesprit, you must find [Lake Verity](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lac-verite)
+To obtain Mesprit, you must find [Lake Verity](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#lake-verity)
 
 In the lake's cave, defeat all the Pokémon summoned by the `Cobblemon Trial Spawner` to obtain the `Proof of Conquest (M)`.
 
@@ -289,7 +289,7 @@ You will also receive a `Lustrous Orb` after using the pedestal. By combining it
 
 ### 🗝️ How to Obtain
 
-To obtain Heatran, you must find the [Zenith Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/nether_world#grotte-zenith) in the Nether. This immense cavern contains numerous chests, as well as several hidden chests containing excellent loot.
+To obtain Heatran, you must find the [Heatran Cave](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/nether_world#heatran-cave) in the Nether. This immense cavern contains numerous chests, as well as several hidden chests containing excellent loot.
 
 Once in front of the [Heatran Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals), use a `Magma Stone`, crafted from **7 Magma Blocks** and **2 Netherite Scraps**, to summon a **level 50 Heatran**, with a **2% chance of it being Shiny**.
 
@@ -336,7 +336,7 @@ To obtain Regigigas, you must first summon [Regirock](https://wiki.cobblemon-rea
 
 By combining these five tablets, you will craft a `Titan Key`.
 
-Once you have the `Titan Key`, head to the [Snowpoint Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#temple-de-frimapic) and unlock the `Regigigas Lock`. Behind it are a long corridor leading to a `Sanctuary Block` that must be deactivated, a library filled with loot, as well as Regigigas's summoning room.
+Once you have the `Titan Key`, head to the [Snowpoint Temple](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#snowpoint-temple) and unlock the `Regigigas Lock`. Behind it are a long corridor leading to a `Sanctuary Block` that must be deactivated, a library filled with loot, as well as Regigigas's summoning room.
 
 In the summoning room, walk over each of the circles to light them up. Once all the circles have been activated, a **level 70 Regigigas will appear**, with a **2% chance of being Shiny**.
 
