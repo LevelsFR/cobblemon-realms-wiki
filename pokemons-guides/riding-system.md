@@ -383,7 +383,7 @@ Statistics are shown by mount type and come directly from the official Cobblemon
 ---
 
 | Pokémon | Accel. | Skill | Speed | Stam. | Jump |
-| :--- | :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | 
 | Blastoise | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
 | Dewgong | 50-75 | 30-65 | 25-45 | 25-50 | 25-50 |
 | Seaking | 35-70 | 25-55 | 35-65 | 20-40 | 15-35 |
@@ -413,7 +413,7 @@ Statistics are shown by mount type and come directly from the official Cobblemon
 ---
 
 | Pokémon | Accel. | Skill | Speed | Stam. | Jump |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | Charizard | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
 | Blastoise | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
 | Gyarados | 35-60 | 45-65 | 15-50 | 15-55 | 20-45 |
