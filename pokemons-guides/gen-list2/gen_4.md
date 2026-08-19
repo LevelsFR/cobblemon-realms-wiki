@@ -45,7 +45,7 @@ Then use the `Proof of Conquest (U)` to summon Uxie, with a **2% chance of it be
 
 {% hint style="info" %}
 <p align="center">
-The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <strong>Uxie</strong>, the English name of <strong>Créhelf</strong>.
+The <strong>(U)</strong> in <strong>Proof of Conquest (U)</strong> stands for <strong>Uxie</strong>.
 </p>
 {% endhint %}
 
