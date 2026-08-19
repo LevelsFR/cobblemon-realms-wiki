@@ -176,7 +176,6 @@ Chaque Pokémon possède ses propres statistiques de monture.
 
 {% hint style="success" %}
 Il est également possible de modifier certaines de ces caractéristiques grâce aux [Aprijuices](https://wiki.cobblemon-realms.com/fr-FR/cobblemon-craft/aprijuice-guide)
-</p>
 {% endhint %}
 
 ***
