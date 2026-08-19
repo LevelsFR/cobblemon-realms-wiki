@@ -22,7 +22,7 @@ Le Catalyseur Cosmique permet deux usages principaux :
 Une fois en possession du **Catalyseur Cosmique**, vous pouvez :
 
 - 🪐 Récolter de la Poussière Cosmique
-- 🌟 Progression liée à [Cosmog](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_7#cosmog)
+- 🌟 Progression liée à [Cosmog](https://wiki.cobblemon-realms.com/fr-FR/pokemons-guides/gen-list2/gen_7#cosmog)
 
 ---
 
