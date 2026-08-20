@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-The <strong>Extra Eeveelutions</strong> datapack adds many new Eevee evolutions to discover throughout your adventure. This page lists all of these Eeveelutions along with their evolution methods.
+The <strong>Extra Eeveelutions</strong> datapack adds many new Eevee evolutions to discover throughout your adventure. This page lists all of these Eeveelutions along with their evolution methods. The mechanics below have been checked against <strong>Extra Eeveelutions 1.2</strong>.
 </p>
 {% endhint %}
 
@@ -22,31 +22,33 @@ Each Eeveelution has its own characteristics:
 
 ## 🧬 How do I evolve Eevee into Evereon?
 
-According to player feedback, Trainer battles may sometimes work, but results seem inconsistent.
+In Extra Eeveelutions 1.2, Eevee has to satisfy **18 separate defeat requirements**:
 
-To maximize your chances:
+- all **8 standard Eeveelutions** from Cobblemon
+- all **10 other Extra Eeveelutions**
+- with **Eevee landing the finishing blow** for each required Eeveelution
 
-- Eevee must land the **final hit**
-- On all **11 Eeveelutions**
-- From both the main datapack **and** the addon
+The datapack does **not** define these requirements as wild-only. If Trainer battles do not register consistently, use wild Pokémon instead.
 
-> ⚠️ Battles against wild Pokémon remain the most reliable method.
+The 18 required targets are: **Vaporeon, Flareon, Jolteon, Umbreon, Espeon, Leafeon, Glaceon, Sylveon, Spectreon, Acideon, Champeon, Aereon, Minereon, Hiveon, Automeon, Wyveon, Dungeon, and Eeveeon**.
 
 ---
 
 ## 📖 I can't find the Eeveelutions in the Pokédex
 
-Custom Eeveelutions are not listed in the classic regions.
+The datapack defines its own Pokédex section containing all **11 custom species**, including Evereon.
 
 You can find them in:
 
-**Pokédex → Regions**
+**Pokédex → Regions → Extra Eeveelutions**
 
 ---
 
 ## 🪽 What Flying-type move can Eevee learn?
 
-Eevee can learn **Mirror Shot** starting at **level 20**.
+**Extra Eeveelutions 1.2 does not add Mirror Move or Mirror Shot to Eevee.**
+
+Older FAQ information mentioned **Mirror Move at level 20**, but that move addition is not present in the 1.2 datapack files.
 
 </details>
 
@@ -64,12 +66,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 65 |
-| ⚔️ Attack | 110 |
-| 🛡️ Defense | 130 |
-| ✨ Sp. Attack | 95 |
-| 🌙 Sp. Defense | 60 |
-| ⚡ Speed | 65 |
+| ❤️ HP | 75 |
+| ⚔️ Attack | 55 |
+| 🛡️ Defense | 60 |
+| ✨ Sp. Attack | 130 |
+| 🌙 Sp. Defense | 105 |
+| ⚡ Speed | 110 |
 
 ![Spectreon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/spectreon.png) ![Spectreon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/spectreon_shiny.png)
 
@@ -77,27 +79,28 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🎯 Abilities
 
-- **Ability:** Prankster
-- **Hidden Ability:** Cursed Body
+- **Abilities:** Prankster, Insomnia
+- **Hidden Ability:** Perish Body
 
 ---
 
 ## 🌍 Spawn Locations
 
-- ✨ Magical Biomes *(Ultra Rare)*
-- 🏜️ Soul Sand Valley *(Rare)*
+- ✨ Magical biomes *(Ultra Rare, level 18-40, light level 0)*
+- 🏜️ Soul Sand Valley *(Rare, level 20-68)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- High friendship in a **Soul Sand Valley** biome
+- Reach at least **160 friendship**
+- then level up in a **Soul Sand Valley** biome
 
 ---
 
 ## 📜 Description
 
-> Spectreon tends to wander through dark forests, patiently waiting for the day its trainer returns. Most of them do not even realize they have died and continue wandering endlessly through these places. When a wild Spectreon meets a trainer, it is initially cautious, but if the trainer shows affection, Spectreon develops an intense bond with them. Most Spectreon were once abandoned Eevee.
+> Spectreon tend to lurk in dark forests, waiting for the day their trainer comes back for them. Most are not even aware that they have passed away and continue wandering. Wild Spectreon are initially cautious around trainers, but can form an intense bond when shown affection. Many Spectreon were once abandoned Eevee.
 
 ---
 
@@ -115,10 +118,10 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 |---|---|
 | ❤️ HP | 95 |
 | ⚔️ Attack | 65 |
-| 🛡️ Defense | 65 |
-| ✨ Sp. Attack | 130 |
-| 🌙 Sp. Defense | 110 |
-| ⚡ Speed | 60 |
+| 🛡️ Defense | 80 |
+| ✨ Sp. Attack | 105 |
+| 🌙 Sp. Defense | 85 |
+| ⚡ Speed | 70 |
 
 ![Acideon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/acideon.png) ![Acideon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/acideon_shiny.png)
 
@@ -126,27 +129,28 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🎯 Abilities
 
-- **Abilities:** Poison Point, Ooze
+- **Abilities:** Poison Point, Liquid Ooze
 - **Hidden Ability:** Corrosion
 
 ---
 
 ## 🌍 Spawn Locations
 
-- 🐸 Swamp Biomes
+- 🐸 Swamp-tagged biomes *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- Level **24**
-- with a **Muk** in the party
+- Reach level **24** or higher
+- have a **Muk** in the party
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> Acideon loves rolling around in swamp mud to strengthen its toxicity. The orb on its tail is the source of the toxins it injects into enemies. The orb at the end of Acideon’s tail is so venomous that even lightly touching it can cause long-term damage.
+> Acideon like to roll around in swamp mud to strengthen their poisonous capabilities. The orb on their tail is the source of the toxins they inject into opponents, and even lightly touching it can cause life-long damage.
 
 ---
 
@@ -162,12 +166,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 95 |
+| ❤️ HP | 85 |
 | ⚔️ Attack | 130 |
-| 🛡️ Defense | 110 |
+| 🛡️ Defense | 80 |
 | ✨ Sp. Attack | 65 |
-| 🌙 Sp. Defense | 60 |
-| ⚡ Speed | 65 |
+| 🌙 Sp. Defense | 75 |
+| ⚡ Speed | 85 |
 
 ![Champeon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/champeon.png) ![Champeon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/champeon_shiny.png)
 
@@ -175,27 +179,28 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🎯 Abilities
 
-- **Abilities:** Thick Fur, Defiant
+- **Abilities:** Fur Coat, Defiant
 - **Hidden Ability:** Scrappy
 
 ---
 
 ## 🌍 Spawn Locations
 
-- 🌾 Windswept Savanna
+- 🌾 Windswept Savanna *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- Level **36**
-- while holding a **Choice Band**
+- Reach level **36** or higher
+- hold a **Focus Band**
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> When an Eevee becomes passionate about the spirit of a fighter, it trains for years, eventually becoming a Champeon. Champeon enjoys training together in large mountains to avoid disturbing towns and villages.
+> When an Eevee becomes inspired by a fighter's spirit, it trains for years until it eventually becomes a Champeon. Champeon like to train together in tall mountains so they do not disturb nearby towns or cities.
 
 ---
 
@@ -211,12 +216,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 65 |
-| ⚔️ Attack | 110 |
-| 🛡️ Defense | 130 |
-| ✨ Sp. Attack | 60 |
-| 🌙 Sp. Defense | 65 |
-| ⚡ Speed | 95 |
+| ❤️ HP | 75 |
+| ⚔️ Attack | 105 |
+| 🛡️ Defense | 100 |
+| ✨ Sp. Attack | 70 |
+| 🌙 Sp. Defense | 85 |
+| ⚡ Speed | 110 |
 
 ![Aereon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/aereon.png) ![Aereon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/aereon_shiny.png)
 
@@ -231,8 +236,9 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🌍 Spawn Locations
 
-- 🌼 Meadow Biomes
+- 🌼 Meadow
 - ⛰️ Windswept Hills
+- *(Ultra Rare, level 18-40)*
 
 ---
 
@@ -244,7 +250,7 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 📜 Description
 
-> Aereon loves swimming among the clouds alongside other Flying-type Pokémon. Like its cousin Vaporeon, it can transform into a cloud as a defensive measure. The clouds in Aereon’s fur change according to its mood, becoming stormy, rainy, warm, or cold.
+> Aereon like to swim among the clouds alongside other Flying-type Pokémon. Similar to Vaporeon, Aereon can turn into clouds as a defense mechanism. The clouds within its fur can change depending on its emotions, becoming stormy, hot, or cold.
 
 ---
 
@@ -260,12 +266,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 95 |
-| ⚔️ Attack | 110 |
-| 🛡️ Defense | 130 |
-| ✨ Sp. Attack | 60 |
-| 🌙 Sp. Defense | 65 |
-| ⚡ Speed | 65 |
+| ❤️ HP | 75 |
+| ⚔️ Attack | 105 |
+| 🛡️ Defense | 100 |
+| ✨ Sp. Attack | 70 |
+| 🌙 Sp. Defense | 85 |
+| ⚡ Speed | 110 |
 
 ![Minereon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/minereon.png) ![Minereon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/minereon_shiny.png)
 
@@ -280,21 +286,23 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🌍 Spawn Locations
 
-- 🕳️ All underground biomes
-- ❌ Except: Deep Dark / Abyss-like biomes
+- 🕳️ Uses the datapack's **underground** spawn preset in Overworld biomes
+- ❌ Excludes biomes tagged `#cobblemon:is_abyss`
+- *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
 - Hold an **Iron Pickaxe**
-- while inside a **Dripstone Cave**
+- be inside a **Dripstone Caves** biome
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> Minereon uses the spikes on the end of its tail to dig through rocks and extract ores and precious gems, while the metallic tips on its ears remove excess stone. Its eyes allow it to see what it is digging deep underground. When threatened, Minereon slams its tail into the ground, launching stone spikes into the air before batting them toward enemies like baseballs.
+> Minereon use the spike on their tail to carve ores and gemstones from caves, while the metal-like tips on their ears clear excess rock. Their eyes help them see what they are mining deep underground. When threatened, Minereon can slam their tail into the ground and launch sharp rocks toward an enemy.
 
 ---
 
@@ -310,11 +318,11 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 98 |
-| ⚔️ Attack | 130 |
-| 🛡️ Defense | 65 |
-| ✨ Sp. Attack | 60 |
-| 🌙 Sp. Defense | 65 |
+| ❤️ HP | 75 |
+| ⚔️ Attack | 115 |
+| 🛡️ Defense | 100 |
+| ✨ Sp. Attack | 70 |
+| 🌙 Sp. Defense | 85 |
 | ⚡ Speed | 110 |
 
 ![Hiveon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/hiveon.png) ![Hiveon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/hiveon_shiny.png)
@@ -330,20 +338,22 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🌍 Spawn Locations
 
-- 🍯 Near Bee Nests
+- 🍯 Overworld biomes near a **Beehive** or **Bee Nest**
+- *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- Eevee holding a **Beehive**
-- with a **Beedrill** in the party
+- Eevee must hold a **Beehive**
+- have a **Beedrill** in the party
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> Hiveon enjoys resting in trees with its hive-shaped tail hanging in the air. Its tail attracts unsuspecting creatures, which it then injects with painful venom. The pollen Hiveon collects comes from Oran Berries, and strangely enough, it can use this pollen to create powerful toxins.
+> Hiveon like to camp in trees with their beehive-like tails hanging from the leaves. Their tail attracts unsuspecting creatures before Hiveon injects them with a strong poison. The pollen they collect comes from flowering Oran Berries and can also be used to create an intense poison.
 
 ---
 
@@ -359,12 +369,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 65 |
-| ⚔️ Attack | 110 |
-| 🛡️ Defense | 60 |
-| ✨ Sp. Attack | 130 |
-| 🌙 Sp. Defense | 65 |
-| ⚡ Speed | 65 |
+| ❤️ HP | 85 |
+| ⚔️ Attack | 100 |
+| 🛡️ Defense | 130 |
+| ✨ Sp. Attack | 70 |
+| 🌙 Sp. Defense | 85 |
+| ⚡ Speed | 110 |
 
 ![Automeon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/automeon.png) ![Automeon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/automeon_shiny.png)
 
@@ -372,28 +382,29 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🎯 Abilities
 
-- **Abilities:** Weak Armor, Clear Body
+- **Abilities:** Battle Armor, Clear Body
 - **Hidden Ability:** Analytic
 
 ---
 
 ## 🌍 Spawn Locations
 
-- 🔴 Near Redstone Torches
-- 🧱 Near Iron Blocks
+- 🔴 Overworld biomes near a **Redstone Torch**
+- 🧱 or near an **Iron Block**
+- *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- Use a **Block of Redstone**
-- on Eevee holding a **Lever**
+- Eevee must hold a **Lever**
+- use a **Block of Redstone** on Eevee
 
 ---
 
 ## 📜 Description
 
-> Rumors say that when an Automeon receives a fatal blow in battle, its eyes begin blinking in a strange and irregular way. No one has managed to understand what this phenomenon means. Once thought to be connected to incidents in Paldea, Automeon is now closely studied and sent on expeditions by scientists.
+> Rumor has it that when an Automeon takes a fatal blow in battle, its eyes flicker in a sporadic pattern that nobody has deciphered. Automeon was only discovered recently and is now closely studied by scientists.
 
 ---
 
@@ -409,12 +420,12 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 65 |
-| ⚔️ Attack | 110 |
-| 🛡️ Defense | 95 |
-| ✨ Sp. Attack | 130 |
-| 🌙 Sp. Defense | 65 |
-| ⚡ Speed | 60 |
+| ❤️ HP | 85 |
+| ⚔️ Attack | 100 |
+| 🛡️ Defense | 90 |
+| ✨ Sp. Attack | 110 |
+| 🌙 Sp. Defense | 75 |
+| ⚡ Speed | 95 |
 
 ![Wyveon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/wyveon.png) ![Wyveon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/wyveon_shiny.png)
 
@@ -429,20 +440,23 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🌍 Spawn Locations
 
-- ⛰️ Tall Mountain Biomes
-- ❌ Except snowy variants
+- ⛰️ Biomes tagged `#cobblemon:is_peak`
+- ❌ Excludes biomes tagged `#cobblemon:is_snowy`
+- *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- High friendship in **The End**
+- Reach at least **160 friendship**
+- be in **The End**
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> The crystals on Wyveon tail are actually hardened scales. When threatened, Draceon can launch these scales at enemies. Draceon is extremely territorial.
+> The crystals embedded in Wyveon's body are actually hardened scales. When threatened, Wyveon can shoot these scales toward enemies and are extremely territorial. They also bring different evolutionary stones to ruins in attempts to summon a mythical Eevee that has harnessed every element.
 
 ---
 
@@ -458,11 +472,11 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 | Stat | Value |
 |---|---|
-| ❤️ HP | 65 |
-| ⚔️ Attack | 130 |
-| 🛡️ Defense | 110 |
-| ✨ Sp. Attack | 95 |
-| 🌙 Sp. Defense | 65 |
+| ❤️ HP | 75 |
+| ⚔️ Attack | 115 |
+| 🛡️ Defense | 100 |
+| ✨ Sp. Attack | 70 |
+| 🌙 Sp. Defense | 75 |
 | ⚡ Speed | 60 |
 
 ![Dungeon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/dungeon.png) ![Dungeon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/dungeon_shiny.png)
@@ -471,28 +485,29 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🎯 Abilities
 
-- **Abilities:** Sand Trap, Own Tempo
+- **Abilities:** Arena Trap, Own Tempo
 - **Hidden Ability:** Mold Breaker
 
 ---
 
 ## 🌍 Spawn Locations
 
-- 🏜️ Badlands *(Ultra Rare)*
-- 🌑 Deep Dark / Abyss-like *(Rare)*
+- 🏜️ Badlands-tagged biomes *(Ultra Rare, level 18-40)*
+- 🌑 Biomes tagged `#cobblemon:is_abyss` *(Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
 - Hold a **Lantern**
-- while inside the **Deep Dark**
+- be inside the **Deep Dark**
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> Dungeon roams deep within caves where some trainers never dare venture. The lantern hanging from its tail can be used as bait to attract Pokémon wandering in the darkness. When lonely, Dungeon sometimes carves stone statues that it considers its only companions. It is said that when the light of its lantern goes out… Dungeon is already dead.
+> Dungeon lurk in the deepest caves, where some trainers may never step foot. The lantern hanging from their tail can lure other Pokémon in the darkness. When a trainer gets lost, Dungeon may instead use that lantern to guide them back to the cave entrance and sometimes even join them on their journey.
 
 ---
 
@@ -516,7 +531,7 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 | 🌙 Sp. Defense | 90 |
 | ⚡ Speed | 92 |
 
-![Evereon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/evereon.png) ![Evereon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/evereon_shiny.png) 
+![Evereon](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/evereon.png) ![Evereon Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/evereon_shiny.png)
 
 ---
 
@@ -536,15 +551,15 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🔮 Evolution Method
 
-- Defeat all **11 Eeveelutions**
-- from the base mod **and** the addon
-- with **Eevee landing the final hit**
+- Defeat all **18 required Eeveelutions**
+- **8 standard Eeveelutions + 10 Extra Eeveelutions**
+- with **Eevee landing the finishing blow** on each one
 
 ---
 
 ## 📜 Description
 
-> Evereon, long considered nothing more than a legend, appears when an exceptional Eevee manages to surpass all of its evolutions. This achievement awakens an ancient power hidden deep within its soul and causes it to evolve into Evereon.
+> When an Eevee has trained against the masters of every element, its genetic code becomes capable of becoming anything. Very rarely, that Eevee can become everything. Evereon was known only through myth until exceptionally strong Eevee began awakening that legend again.
 
 ---
 
@@ -580,20 +595,21 @@ Eevee can learn **Mirror Shot** starting at **level 20**.
 
 ## 🌍 Spawn Locations
 
-- 🌍 Everywhere in the Overworld
+- 🌍 Overworld biomes with visible sky *(Ultra Rare, level 18-40)*
 
 ---
 
 ## 🔮 Evolution Method
 
-- Maximum friendship
-- while Eevee learns **Last Resort**
+- Reach **255 friendship**
+- Eevee must know **Last Resort**
+- level up Eevee
 
 ---
 
 ## 📜 Description
 
-> When an Eevee delays evolving for too long, its DNA naturally stabilizes, allowing it to develop greater endurance and enhanced combat abilities. Scientists originally nicknamed it "Eeveeon" as a joke, but the name eventually became official after multiple specimens began appearing.
+> When an Eevee remains unevolved for long enough, it grows naturally on its own and develops better stamina and battling capabilities. Scientists jokingly called these matured Eevee "Eeveeon", and the name eventually became common. Eeveeon are also closely tied to the myth of an Eevee capable of utilizing every type.
 
 ---
 
