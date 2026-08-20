@@ -3,7 +3,7 @@
 ## ✨ Extra Eeveelutions
 
 {% hint style="info" %}
-<p align="center">Le datapack <strong>Extra Eeveelutions</strong> ajoute de nombreuses nouvelles évolutions d'Évoli à découvrir au cours de votre aventure. Cette page recense l'ensemble de ces Eeveelutions ainsi que leurs méthodes d'obtention. Les mécaniques ci-dessous ont été vérifiées avec <strong>Extra Eeveelutions 1.2</strong>.</p>
+<p align="center">Le datapack <strong>Extra Eeveelutions</strong> ajoute de nombreuses nouvelles évolutions d'Évoli à découvrir au cours de votre aventure. Cette page recense l'ensemble de ces Eeveelutions ainsi que leurs méthodes d'obtention.</p>
 {% endhint %}
 
 <p align="center">Chaque Eeveelution possède ses propres caractéristiques :</p>
@@ -12,44 +12,6 @@
 * ✨ Talents uniques
 * 🔮 Méthodes d'évolution inédites
 * 🌍 Conditions d'apparition spécifiques
-
-***
-
-<details>
-
-<summary><strong>❓ FAQ rapide</strong></summary>
-
-### 🧬 Comment faire évoluer Évoli en Evereon ?
-
-Dans Extra Eeveelutions 1.2, Évoli doit remplir **18 conditions de défaite distinctes** :
-
-* les **8 Eeveelutions classiques** de Cobblemon
-* les **10 autres Extra Eeveelutions**
-* avec **Évoli portant le coup final** sur chacune des Eeveelutions requises
-
-Le datapack ne définit **aucune restriction aux Pokémon sauvages**. Si les combats contre des Dresseurs ne sont pas enregistrés correctement, utilisez plutôt des Pokémon sauvages.
-
-Les 18 cibles requises sont : **Aquali, Pyroli, Voltali, Noctali, Mentali, Phyllali, Givrali, Nymphali, Spectroli, Aciduli, Champioli, Atmosphéli, Minérali, Mieli, Métali, Vouivrali, Donjonli et Évolili**.
-
-***
-
-### 📖 Je ne trouve pas les Eeveelutions dans le Pokédex
-
-Le datapack définit sa propre section du Pokédex contenant les **11 espèces personnalisées**, Evereon inclus.
-
-Vous les trouverez dans :
-
-**Pokédex → Régions → Extra Eeveelutions**
-
-***
-
-### 🪽 Quelle capacité de type Vol Évoli peut-il apprendre ?
-
-**Extra Eeveelutions 1.2 n'ajoute ni Mirror Move (Mimique), ni Mirror Shot (Miroi-Tir) à Évoli.**
-
-Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est pas présent dans les fichiers du datapack 1.2.
-
-</details>
 
 ***
 
@@ -67,7 +29,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 75     |
 | ⚔️ Attaque      | 55     |
-| 🛡️ Défense     | 60     |
+| 🛡️ Défense      | 60     |
 | ✨ Attaque Spé. | 130    |
 | 🌙 Défense Spé. | 105    |
 | ⚡ Vitesse       | 110    |
@@ -117,7 +79,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 95     |
 | ⚔️ Attaque      | 65     |
-| 🛡️ Défense     | 80     |
+| 🛡️ Défense      | 80     |
 | ✨ Attaque Spé. | 105    |
 | 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 70     |
@@ -167,7 +129,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 85     |
 | ⚔️ Attaque      | 130    |
-| 🛡️ Défense     | 80     |
+| 🛡️ Défense      | 80     |
 | ✨ Attaque Spé. | 65     |
 | 🌙 Défense Spé. | 75     |
 | ⚡ Vitesse       | 85     |
@@ -217,7 +179,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 75     |
 | ⚔️ Attaque      | 105    |
-| 🛡️ Défense     | 100    |
+| 🛡️ Défense      | 100    |
 | ✨ Attaque Spé. | 70     |
 | 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 110    |
@@ -267,7 +229,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 75     |
 | ⚔️ Attaque      | 105    |
-| 🛡️ Défense     | 100    |
+| 🛡️ Défense      | 100    |
 | ✨ Attaque Spé. | 70     |
 | 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 110    |
@@ -319,7 +281,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 75     |
 | ⚔️ Attaque      | 115    |
-| 🛡️ Défense     | 100    |
+| 🛡️ Défense      | 100    |
 | ✨ Attaque Spé. | 70     |
 | 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 110    |
@@ -370,7 +332,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 85     |
 | ⚔️ Attaque      | 100    |
-| 🛡️ Défense     | 130    |
+| 🛡️ Défense      | 130    |
 | ✨ Attaque Spé. | 70     |
 | 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 110    |
@@ -421,7 +383,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 85     |
 | ⚔️ Attaque      | 100    |
-| 🛡️ Défense     | 90     |
+| 🛡️ Défense      | 90     |
 | ✨ Attaque Spé. | 110    |
 | 🌙 Défense Spé. | 75     |
 | ⚡ Vitesse       | 95     |
@@ -473,7 +435,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 75     |
 | ⚔️ Attaque      | 115    |
-| 🛡️ Défense     | 100    |
+| 🛡️ Défense      | 100    |
 | ✨ Attaque Spé. | 70     |
 | 🌙 Défense Spé. | 75     |
 | ⚡ Vitesse       | 60     |
@@ -525,7 +487,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 98     |
 | ⚔️ Attaque      | 115    |
-| 🛡️ Défense     | 90     |
+| 🛡️ Défense      | 90     |
 | ✨ Attaque Spé. | 115    |
 | 🌙 Défense Spé. | 90     |
 | ⚡ Vitesse       | 92     |
@@ -576,7 +538,7 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 | --------------- | ------ |
 | ❤️ HP           | 85     |
 | ⚔️ Attaque      | 105    |
-| 🛡️ Défense     | 85     |
+| 🛡️ Défense      | 85     |
 | ✨ Attaque Spé. | 100    |
 | 🌙 Défense Spé. | 95     |
 | ⚡ Vitesse       | 110    |
@@ -609,6 +571,42 @@ Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est 
 ### 📜 Description
 
 > Lorsqu'un Évoli reste sans évoluer suffisamment longtemps, il grandit naturellement et développe une meilleure endurance ainsi que de meilleures capacités au combat. Les scientifiques avaient d'abord surnommé ces Évoli adultes « Évolili » pour plaisanter, avant que le nom ne devienne courant. Évolili est aussi étroitement lié au mythe d'un Évoli capable d'utiliser tous les types.
+
+***
+
+<details>
+
+<summary><strong>❓ FAQ rapide</strong></summary>
+
+**🧬 Comment faire évoluer Évoli en Evereon ?**
+
+Évoli doit remplir **18 conditions de défaite distinctes** :
+
+* les **8 Eeveelutions classiques** de Cobblemon
+* les **10 autres Extra Eeveelutions**
+* avec **Évoli portant le coup final** sur chacune des Eeveelutions requises
+
+Le datapack ne définit **aucune restriction aux Pokémon sauvages**. Si les combats contre des Dresseurs ne sont pas enregistrés correctement, utilisez plutôt des Pokémon sauvages.
+
+Les 18 cibles requises sont : **Aquali, Pyroli, Voltali, Noctali, Mentali, Phyllali, Givrali, Nymphali, Spectroli, Aciduli, Champioli, Atmosphéli, Minérali, Mieli, Métali, Vouivrali, Donjonli et Évolili**.
+
+***
+
+**📖 Je ne trouve pas les Eeveelutions dans le Pokédex**
+
+Le datapack définit sa propre section du Pokédex contenant les **11 espèces personnalisées**, Evereon inclus.
+
+Vous les trouverez dans :
+
+**Pokédex → Régions → Extra Eeveelutions**
+
+***
+
+**🪽 Quelle capacité de type Vol Évoli peut-il apprendre ?**
+
+Extra Eeveelutions n'ajoute **ni Mirror Move ni Mirror Shot** à Évoli.
+
+</details>
 
 ***
 
