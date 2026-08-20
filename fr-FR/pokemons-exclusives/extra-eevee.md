@@ -3,7 +3,7 @@
 ## ✨ Extra Eeveelutions
 
 {% hint style="info" %}
-<p align="center">Le datapack <strong>Extra Eeveelutions</strong> ajoute de nombreuses nouvelles évolutions d'Évoli à découvrir au cours de votre aventure. Cette page recense l'ensemble de ces Eeveelutions ainsi que leurs méthodes d'obtention.</p>
+<p align="center">Le datapack <strong>Extra Eeveelutions</strong> ajoute de nombreuses nouvelles évolutions d'Évoli à découvrir au cours de votre aventure. Cette page recense l'ensemble de ces Eeveelutions ainsi que leurs méthodes d'obtention. Les mécaniques ci-dessous ont été vérifiées avec <strong>Extra Eeveelutions 1.2</strong>.</p>
 {% endhint %}
 
 <p align="center">Chaque Eeveelution possède ses propres caractéristiques :</p>
@@ -21,31 +21,33 @@
 
 ### 🧬 Comment faire évoluer Évoli en Evereon ?
 
-Selon les retours des joueurs, les combats contre des Dresseurs peuvent parfois fonctionner, mais les résultats semblent varier.
+Dans Extra Eeveelutions 1.2, Évoli doit remplir **18 conditions de défaite distinctes** :
 
-Pour maximiser vos chances :
+* les **8 Eeveelutions classiques** de Cobblemon
+* les **10 autres Extra Eeveelutions**
+* avec **Évoli portant le coup final** sur chacune des Eeveelutions requises
 
-* Évoli doit porter le **coup final**
-* Sur les **11 Eeveelutions**
-* Du datapack principal **et** de l'addon
+Le datapack ne définit **aucune restriction aux Pokémon sauvages**. Si les combats contre des Dresseurs ne sont pas enregistrés correctement, utilisez plutôt des Pokémon sauvages.
 
-> ⚠️ Les combats contre des Pokémon sauvages restent la méthode la plus fiable.
+Les 18 cibles requises sont : **Aquali, Pyroli, Voltali, Noctali, Mentali, Phyllali, Givrali, Nymphali, Spectroli, Aciduli, Champioli, Atmosphéli, Minérali, Mieli, Métali, Vouivrali, Donjonli et Évolili**.
 
 ***
 
 ### 📖 Je ne trouve pas les Eeveelutions dans le Pokédex
 
-Les Eeveelutions personnalisées ne sont pas répertoriées dans les régions classiques.
+Le datapack définit sa propre section du Pokédex contenant les **11 espèces personnalisées**, Evereon inclus.
 
 Vous les trouverez dans :
 
-**Pokédex → Regions**
+**Pokédex → Régions → Extra Eeveelutions**
 
 ***
 
 ### 🪽 Quelle capacité de type Vol Évoli peut-il apprendre ?
 
-Évoli peut apprendre **Miroi-Tir** à partir du **niveau 20**.
+**Extra Eeveelutions 1.2 n'ajoute ni Mirror Move (Mimique), ni Mirror Shot (Miroi-Tir) à Évoli.**
+
+Une ancienne FAQ mentionnait **Mirror Move au niveau 20**, mais cet ajout n'est pas présent dans les fichiers du datapack 1.2.
 
 </details>
 
@@ -63,12 +65,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 65     |
-| ⚔️ Attaque      | 110    |
-| 🛡️ Défense     | 130    |
-| ✨ Attaque Spé.  | 95     |
-| 🌙 Défense Spé. | 60     |
-| ⚡ Vitesse       | 65     |
+| ❤️ HP           | 75     |
+| ⚔️ Attaque      | 55     |
+| 🛡️ Défense     | 60     |
+| ✨ Attaque Spé. | 130    |
+| 🌙 Défense Spé. | 105    |
+| ⚡ Vitesse       | 110    |
 
 ![Spectroli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/spectreon.png) ![Spectroli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/spectreon_shiny.png)
 
@@ -76,27 +78,28 @@ Vous les trouverez dans :
 
 ### 🎯 Talents
 
-* **Talent :** Farceur
+* **Talents :** Farceur, Insomnia
 * **Talent Caché :** Corps Condamné
 
 ***
 
 ### 🌍 Lieux d’apparition
 
-* ✨ Magical Biomes _(Ultra Rare)_
-* 🏜️ Soul Sand Valley _(Rare)_
+* ✨ Biomes Magical _(Ultra Rare, niveau 18-40, luminosité 0)_
+* 🏜️ Soul Sand Valley _(Rare, niveau 20-68)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Bonheur élevé dans un biome **Soul Sand Valley**
+* Atteindre au moins **160 d'amitié**
+* puis faire monter Évoli de niveau dans un biome **Soul Sand Valley**
 
 ***
 
 ### 📜 Description
 
-> Spectroli a tendance à rôder dans les forêts sombres, attendant patiemment le jour où son entraîneur reviendra. La plupart d’entre eux ne réalisent même pas qu’ils sont décédés et continuent d’errer sans fin dans ces lieux. Quand un Spectroli sauvage rencontre un entraîneur, ils est initialement prudent, mais si l'entraîneur lui montre de l'affection, alors Spectroli développera un lien intense avec cet entraîneur, la plupart des Spectrolis étaient des Évolis abandonnés.
+> Spectroli a tendance à rôder dans les forêts sombres en attendant le retour de son entraîneur. La plupart ne réalisent même pas qu'ils sont décédés et continuent d'errer. Les Spectroli sauvages sont d'abord prudents avec les entraîneurs, mais peuvent développer un lien très fort lorsqu'on leur montre de l'affection. Beaucoup étaient autrefois des Évoli abandonnés.
 
 ***
 
@@ -114,10 +117,10 @@ Vous les trouverez dans :
 | --------------- | ------ |
 | ❤️ HP           | 95     |
 | ⚔️ Attaque      | 65     |
-| 🛡️ Défense     | 65     |
-| ✨ Attaque Spé.  | 130    |
-| 🌙 Défense Spé. | 110    |
-| ⚡ Vitesse       | 60     |
+| 🛡️ Défense     | 80     |
+| ✨ Attaque Spé. | 105    |
+| 🌙 Défense Spé. | 85     |
+| ⚡ Vitesse       | 70     |
 
 ![Aciduli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/acideon.png) ![Aciduli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/acideon_shiny.png)
 
@@ -132,20 +135,21 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🐸 Swamp Biomes
+* 🐸 Biomes avec le tag Marais _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Niveau **24**
-* avec un **Grotadmorv** dans l’équipe
+* Atteindre le niveau **24** ou plus
+* avoir un **Grotadmorv** dans l’équipe
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Aciduli aime rouler dans la gadoue des marais pour renforcer sa toxicité. L'orbe sur sa queue est la source des toxines qu'il injecte dans ses ennemis. L'orbe au bout de la queue d'Aciduli est tellement venimeuse que même légèrement la toucher peut causer des dégâts à long-termes.
+> Aciduli aime se rouler dans la gadoue des marais afin de renforcer sa toxicité. L'orbe sur sa queue est la source des toxines qu'il injecte dans ses ennemis, et même un léger contact avec celle-ci peut provoquer des dégâts durables.
 
 ***
 
@@ -161,12 +165,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 95     |
+| ❤️ HP           | 85     |
 | ⚔️ Attaque      | 130    |
-| 🛡️ Défense     | 110    |
-| ✨ Attaque Spé.  | 65     |
-| 🌙 Défense Spé. | 60     |
-| ⚡ Vitesse       | 65     |
+| 🛡️ Défense     | 80     |
+| ✨ Attaque Spé. | 65     |
+| 🌙 Défense Spé. | 75     |
+| ⚡ Vitesse       | 85     |
 
 ![Champioli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/champeon.png) ![Champioli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/champeon_shiny.png)
 
@@ -174,27 +178,28 @@ Vous les trouverez dans :
 
 ### 🎯 Talents
 
-* **Talents :** Pelage Épais, Acharné
+* **Talents :** Toison Épaisse, Acharné
 * **Talent Caché :** Querelleur
 
 ***
 
 ### 🌍 Lieux d’apparition
 
-* 🌾 Windswept Savanna
+* 🌾 Windswept Savanna _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Niveau **36**
-* en tenant un **Bandeau**
+* Atteindre le niveau **36** ou plus
+* tenir un **Bandeau** _(Focus Band)_
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Quand un Évoli devient passioné par l'esprit d'un combattant, il se met à s'entraîner pendant des années, devenant éventuellement un Champioli. Champioli aime s'entraîner ensemble dans les grandes montagnes, pour ne pas déranger les villes et villages.
+> Lorsqu'un Évoli est inspiré par l'esprit d'un combattant, il s'entraîne pendant des années jusqu'à devenir un Champioli. Les Champioli aiment s'entraîner ensemble dans les hautes montagnes afin de ne pas déranger les villes et villages.
 
 ***
 
@@ -210,12 +215,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 65     |
-| ⚔️ Attaque      | 110    |
-| 🛡️ Défense     | 130    |
-| ✨ Attaque Spé.  | 60     |
-| 🌙 Défense Spé. | 65     |
-| ⚡ Vitesse       | 95     |
+| ❤️ HP           | 75     |
+| ⚔️ Attaque      | 105    |
+| 🛡️ Défense     | 100    |
+| ✨ Attaque Spé. | 70     |
+| 🌙 Défense Spé. | 85     |
+| ⚡ Vitesse       | 110    |
 
 ![Atmosphéli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/aereon.png) ![Atmosphéli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/aereon_shiny.png)
 
@@ -230,20 +235,21 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🌼 Meadow Biomes
+* 🌼 Meadow
 * ⛰️ Windswept Hills
+* _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Clic droit sur Évoli avec un **Air Balloon**
+* Faire un clic droit sur Évoli avec un **Air Balloon**
 
 ***
 
 ### 📜 Description
 
-> Atmosphéli aime nager avec les nuages et d'autres Pokémons de type Vol, comme son cousin Aquali, il peut se transformer en nuage en guise de défense. Les nuages de la fourrure d'Atmosphéli peut changer selon son humeur, pouvant devenir orageux, pluvieux, chaud ou froid.
+> Atmosphéli aime nager parmi les nuages aux côtés d'autres Pokémon de type Vol. Comme Aquali, il peut se transformer en nuage pour se défendre. Les nuages présents dans sa fourrure changent selon ses émotions et peuvent devenir orageux, chauds ou froids.
 
 ***
 
@@ -259,12 +265,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 95     |
-| ⚔️ Attaque      | 110    |
-| 🛡️ Défense     | 130    |
-| ✨ Attaque Spé.  | 60     |
-| 🌙 Défense Spé. | 65     |
-| ⚡ Vitesse       | 65     |
+| ❤️ HP           | 75     |
+| ⚔️ Attaque      | 105    |
+| 🛡️ Défense     | 100    |
+| ✨ Attaque Spé. | 70     |
+| 🌙 Défense Spé. | 85     |
+| ⚡ Vitesse       | 110    |
 
 ![Minérali](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/minereon.png) ![Minérali Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/minereon_shiny.png)
 
@@ -279,21 +285,23 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🕳️ Tous les biomes souterrains
-* ❌ Sauf : Deep Dark / Abyss-like
+* 🕳️ Utilise le preset d'apparition **underground** du datapack dans les biomes de l'Overworld
+* ❌ Exclut les biomes avec le tag `#cobblemon:is_abyss`
+* _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
 * Tenir une **Pioche en fer**
-* dans une **Cavernes de spéléothèmes**
+* être dans un biome **Cavernes de spéléothèmes**
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Minérali utilise les pics du bout de sa queue pour creuser les roches et y extraire des minerais et différentes pierres précieuses, et les bouts métalliques sur ses oreilles pour extraire l'excès de roche. Ses yeux lui permet de voir ce qu'il est en train de creuser au tréfonds des caves. Quand il se sent en danger, Minérali fracasse sa queue au sol, ce qui jette des pics de pierre en l'air, qu'il ensuite tape dedans sur ses ennemis, comme une balle de baseball.
+> Minérali utilise le pic au bout de sa queue pour extraire minerais et pierres précieuses, tandis que les extrémités métalliques de ses oreilles lui permettent d'écarter l'excès de roche. Ses yeux l'aident à voir au fond des cavernes. Lorsqu'il est menacé, il peut frapper le sol avec sa queue et projeter des roches tranchantes vers son adversaire.
 
 ***
 
@@ -309,11 +317,11 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 98     |
-| ⚔️ Attaque      | 130    |
-| 🛡️ Défense     | 65     |
-| ✨ Attaque Spé.  | 60     |
-| 🌙 Défense Spé. | 65     |
+| ❤️ HP           | 75     |
+| ⚔️ Attaque      | 115    |
+| 🛡️ Défense     | 100    |
+| ✨ Attaque Spé. | 70     |
+| 🌙 Défense Spé. | 85     |
 | ⚡ Vitesse       | 110    |
 
 ![Mieli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/hiveon.png) ![Mieli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/hiveon_shiny.png)
@@ -329,20 +337,22 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🍯 Près des Nid d'abeilles
+* 🍯 Biomes de l'Overworld près d'une **Ruche** ou d'un **Nid d'abeilles**
+* _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Évoli tenant une **Ruche**
-* avec un **Dardargnan** dans l’équipe
+* Évoli doit tenir une **Ruche**
+* avoir un **Dardargnan** dans l’équipe
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Mieli aime rester dans les arbres, avec sa queue en forme de ruche pendouillant en l'air, sa queue attire les êtres peu méfiants, qu'il injecte ensuite avec un douloureux venin. Le pollen que récolte Mieli viens des baies Oran, Le pollen peut bizarrement être utilisé par Mieli pour produire un fort venin.
+> Mieli aime rester dans les arbres avec sa queue en forme de ruche suspendue aux feuilles. Sa queue attire des créatures peu méfiantes avant que Mieli ne leur injecte un puissant venin. Le pollen qu'il récolte provient de Baies Oran en fleurs et peut également lui servir à produire un poison particulièrement intense.
 
 ***
 
@@ -358,12 +368,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 65     |
-| ⚔️ Attaque      | 110    |
-| 🛡️ Défense     | 60     |
-| ✨ Attaque Spé.  | 130    |
-| 🌙 Défense Spé. | 65     |
-| ⚡ Vitesse       | 65     |
+| ❤️ HP           | 85     |
+| ⚔️ Attaque      | 100    |
+| 🛡️ Défense     | 130    |
+| ✨ Attaque Spé. | 70     |
+| 🌙 Défense Spé. | 85     |
+| ⚡ Vitesse       | 110    |
 
 ![Métali](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/automeon.png) ![Métali Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/automeon_shiny.png)
 
@@ -371,28 +381,29 @@ Vous les trouverez dans :
 
 ### 🎯 Talents
 
-* **Talents :** Armurouillée, Corps Sain
+* **Talents :** Armurbaston, Corps Sain
 * **Talent Caché :** Analyste
 
 ***
 
 ### 🌍 Lieux d’apparition
 
-* 🔴 Près des Toches de Redstone
-* 🧱 Près des Blocs de Fer
+* 🔴 Biomes de l'Overworld près d'une **Torche de redstone**
+* 🧱 ou près d'un **Bloc de fer**
+* _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Utiliser un **Bloc de Redstone**
-* sur Évoli tenant un **Levier**
+* Évoli doit tenir un **Levier**
+* utiliser un **Bloc de redstone** sur Évoli
 
 ***
 
 ### 📜 Description
 
-> Les rumeurs racontent que lorsqu’un Métali subit un coup fatal au combat, ses yeux se mettent à clignoter de façon étrange et irrégulière. Personne n’a encore réussi à comprendre la signification de ce phénomène. Longtemps considéré comme lié aux incidents de Paldea, Métali est désormais étudié de près et envoyé en expédition par les scientifiques.
+> Les rumeurs racontent que lorsqu'un Métali reçoit un coup fatal au combat, ses yeux se mettent à clignoter selon un motif étrange que personne n'a encore réussi à déchiffrer. Métali n'a été découvert que récemment et fait désormais l'objet de nombreuses recherches scientifiques.
 
 ***
 
@@ -408,12 +419,12 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 65     |
-| ⚔️ Attaque      | 110    |
-| 🛡️ Défense     | 95     |
-| ✨ Attaque Spé.  | 130    |
-| 🌙 Défense Spé. | 65     |
-| ⚡ Vitesse       | 60     |
+| ❤️ HP           | 85     |
+| ⚔️ Attaque      | 100    |
+| 🛡️ Défense     | 90     |
+| ✨ Attaque Spé. | 110    |
+| 🌙 Défense Spé. | 75     |
+| ⚡ Vitesse       | 95     |
 
 ![Vouivrali](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/wyveon.png) ![Vouivrali Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/wyveon_shiny.png)
 
@@ -428,20 +439,23 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* ⛰️ Tall Mountain Biomes
-* ❌ Sauf variantes enneigées
+* ⛰️ Biomes avec le tag `#cobblemon:is_peak`
+* ❌ Exclut les biomes avec le tag `#cobblemon:is_snowy`
+* _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Bonheur élevé dans **The End**
+* Atteindre au moins **160 d'amitié**
+* être dans **The End**
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Les cristaux de la queue de Vouivrali sont actuellement des écailles durcies, quand ils se sent en danger, Vouivrali peut éjecter ces écailles sur leurs ennemis. Vouivrali est extrêmement territorial.
+> Les cristaux incrustés dans le corps de Vouivrali sont en réalité des écailles durcies. Lorsqu'il se sent menacé, Vouivrali peut projeter ces écailles vers ses ennemis et se montre extrêmement territorial. Il apporte également différentes pierres évolutives dans des ruines afin de tenter d'invoquer un Évoli mythique capable de maîtriser tous les éléments.
 
 ***
 
@@ -457,11 +471,11 @@ Vous les trouverez dans :
 
 | Stat            | Valeur |
 | --------------- | ------ |
-| ❤️ HP           | 65     |
-| ⚔️ Attaque      | 130    |
-| 🛡️ Défense     | 110    |
-| ✨ Attaque Spé.  | 95     |
-| 🌙 Défense Spé. | 65     |
+| ❤️ HP           | 75     |
+| ⚔️ Attaque      | 115    |
+| 🛡️ Défense     | 100    |
+| ✨ Attaque Spé. | 70     |
+| 🌙 Défense Spé. | 75     |
 | ⚡ Vitesse       | 60     |
 
 ![Donjonli](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/dungeon.png) ![Donjonli Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Extra-Eeeveelution/dungeon_shiny.png)
@@ -477,21 +491,22 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🏜️ Badlands _(Ultra Rare)_
-* 🌑 Deep Dark / Abyss-like _(Rare)_
+* 🏜️ Biomes avec le tag Badlands _(Ultra Rare, niveau 18-40)_
+* 🌑 Biomes avec le tag `#cobblemon:is_abyss` _(Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
 * Tenir une **Lanterne**
-* dans le **Deep Dark**
+* être dans le **Deep Dark**
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Donjonli rôde dans les profondeurs des cavernes, là où certains entraîneurs n’osent jamais s’aventurer. La lanterne suspendue à sa queue peut servir d’appât pour attirer les Pokémon errant eux aussi dans l’obscurité. Lorsqu’il se sent seul, Donjonli sculpte parfois des statues de pierre qu’il considère comme ses seuls compagnons. On raconte que lorsque la lumière de sa lanterne s’éteint… Donjonli est déjà mort.
+> Donjonli rôde dans les profondeurs des cavernes, là où certains entraîneurs n'osent jamais s'aventurer. La lanterne suspendue à sa queue peut attirer les Pokémon qui errent dans l'obscurité. Lorsqu'un entraîneur se perd dans une grotte, Donjonli peut au contraire utiliser cette lumière pour le guider jusqu'à la sortie et parfois même décider de l'accompagner dans son aventure.
 
 ***
 
@@ -511,7 +526,7 @@ Vous les trouverez dans :
 | ❤️ HP           | 98     |
 | ⚔️ Attaque      | 115    |
 | 🛡️ Défense     | 90     |
-| ✨ Attaque Spé.  | 115    |
+| ✨ Attaque Spé. | 115    |
 | 🌙 Défense Spé. | 90     |
 | ⚡ Vitesse       | 92     |
 
@@ -535,15 +550,15 @@ Vous les trouverez dans :
 
 ### 🔮 Méthode d’évolution
 
-* Vaincre les **11 Eeveelutions**
-* du mod de base **et** de l’addon
-* avec **Évoli portant le coup final**
+* Vaincre les **18 Eeveelutions requises**
+* **8 Eeveelutions classiques + 10 Extra Eeveelutions**
+* avec **Évoli portant le coup final** sur chacune
 
 ***
 
 ### 📜 Description
 
-> Evereon, longtemps considéré comme une simple légende, apparaît lorsqu’un Évoli exceptionnel parvient à surpasser toutes ses évolutions. Cette prouesse éveille un ancien pouvoir enfoui dans son âme et le fait évoluer en Evereon.
+> Lorsqu'un Évoli s'est entraîné contre les maîtres de chaque élément, son code génétique devient capable de devenir n'importe quoi. Très rarement, cet Évoli peut même devenir tout à la fois. Longtemps connu uniquement à travers les mythes, Evereon peut apparaître lorsqu'un Évoli exceptionnel réveille ce pouvoir ancien.
 
 ***
 
@@ -562,7 +577,7 @@ Vous les trouverez dans :
 | ❤️ HP           | 85     |
 | ⚔️ Attaque      | 105    |
 | 🛡️ Défense     | 85     |
-| ✨ Attaque Spé.  | 100    |
+| ✨ Attaque Spé. | 100    |
 | 🌙 Défense Spé. | 95     |
 | ⚡ Vitesse       | 110    |
 
@@ -579,20 +594,21 @@ Vous les trouverez dans :
 
 ### 🌍 Lieux d’apparition
 
-* 🌍 Partout dans l’Overworld
+* 🌍 Biomes de l'Overworld avec vue sur le ciel _(Ultra Rare, niveau 18-40)_
 
 ***
 
 ### 🔮 Méthode d’évolution
 
-* Amitié maximale
-* pendant qu’Évoli apprends **Dernier Recours**
+* Atteindre **255 d'amitié**
+* Évoli doit connaître **Dernier Recours**
+* faire monter Évoli de niveau
 
 ***
 
 ### 📜 Description
 
-> Lorsqu’un Évoli tarde à évoluer, son ADN se stabilise naturellement et il développe une endurance ainsi que des capacités de combat supérieures. Les scientifiques l’avaient d’abord surnommé « Évolili » comme une plaisanterie, mais ce nom est finalement devenu son appellation officielle après l’apparition de plusieurs spécimens.
+> Lorsqu'un Évoli reste sans évoluer suffisamment longtemps, il grandit naturellement et développe une meilleure endurance ainsi que de meilleures capacités au combat. Les scientifiques avaient d'abord surnommé ces Évoli adultes « Évolili » pour plaisanter, avant que le nom ne devienne courant. Évolili est aussi étroitement lié au mythe d'un Évoli capable d'utiliser tous les types.
 
 ***
 
