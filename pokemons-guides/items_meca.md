@@ -1,4 +1,4 @@
-# Myths & Legends Items
+# 🧝🏼 Myths & Legends Items
 
 {% hint style="info" %}
 <p align="center">
