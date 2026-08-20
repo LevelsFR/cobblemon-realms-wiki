@@ -1,6 +1,6 @@
 # 🦠 Meta Groudon
 
-## ☣️ Meta Groudon
+## ☣️ Groudon Virus
 
 ### 🧾 Informations générales
 
