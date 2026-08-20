@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-The <strong>Extra Eeveelutions</strong> datapack adds many new Eevee evolutions to discover throughout your adventure. This page lists all of these Eeveelutions along with their evolution methods. The mechanics below have been checked against <strong>Extra Eeveelutions 1.2</strong>.
+The <strong>Extra Eeveelutions</strong> datapack adds many new Eevee evolutions to discover throughout your adventure. This page lists all of these Eeveelutions along with their evolution methods.
 </p>
 {% endhint %}
 
@@ -14,43 +14,6 @@ Each Eeveelution has its own characteristics:
 - 🔮 New evolution methods
 - 🌍 Specific spawning conditions
 </p>
-
----
-
-<details>
-<summary align="center"><strong>❓ Quick FAQ</strong></summary>
-
-## 🧬 How do I evolve Eevee into Evereon?
-
-In Extra Eeveelutions 1.2, Eevee has to satisfy **18 separate defeat requirements**:
-
-- all **8 standard Eeveelutions** from Cobblemon
-- all **10 other Extra Eeveelutions**
-- with **Eevee landing the finishing blow** for each required Eeveelution
-
-The datapack does **not** define these requirements as wild-only. If Trainer battles do not register consistently, use wild Pokémon instead.
-
-The 18 required targets are: **Vaporeon, Flareon, Jolteon, Umbreon, Espeon, Leafeon, Glaceon, Sylveon, Spectreon, Acideon, Champeon, Aereon, Minereon, Hiveon, Automeon, Wyveon, Dungeon, and Eeveeon**.
-
----
-
-## 📖 I can't find the Eeveelutions in the Pokédex
-
-The datapack defines its own Pokédex section containing all **11 custom species**, including Evereon.
-
-You can find them in:
-
-**Pokédex → Regions → Extra Eeveelutions**
-
----
-
-## 🪽 What Flying-type move can Eevee learn?
-
-**Extra Eeveelutions 1.2 does not add Mirror Move or Mirror Shot to Eevee.**
-
-Older FAQ information mentioned **Mirror Move at level 20**, but that move addition is not present in the 1.2 datapack files.
-
-</details>
 
 ---
 
@@ -610,6 +573,41 @@ Older FAQ information mentioned **Mirror Move at level 20**, but that move addit
 ## 📜 Description
 
 > When an Eevee remains unevolved for long enough, it grows naturally on its own and develops better stamina and battling capabilities. Scientists jokingly called these matured Eevee "Eeveeon", and the name eventually became common. Eeveeon are also closely tied to the myth of an Eevee capable of utilizing every type.
+
+---
+
+<details>
+<summary align="center"><strong>❓ Quick FAQ</strong></summary>
+
+**🧬 How do I evolve Eevee into Evereon?**
+
+Eevee has to satisfy **18 separate defeat requirements**:
+
+- all **8 standard Eeveelutions** from Cobblemon
+- all **10 other Extra Eeveelutions**
+- with **Eevee landing the finishing blow** for each required Eeveelution
+
+The datapack does **not** define these requirements as wild-only. If Trainer battles do not register consistently, use wild Pokémon instead.
+
+The 18 required targets are: **Vaporeon, Flareon, Jolteon, Umbreon, Espeon, Leafeon, Glaceon, Sylveon, Spectreon, Acideon, Champeon, Aereon, Minereon, Hiveon, Automeon, Wyveon, Dungeon, and Eeveeon**.
+
+---
+
+**📖 I can't find the Eeveelutions in the Pokédex**
+
+The datapack defines its own Pokédex section containing all **11 custom species**, including Evereon.
+
+You can find them in:
+
+**Pokédex → Regions → Extra Eeveelutions**
+
+---
+
+**🪽 What Flying-type move can Eevee learn?**
+
+Extra Eeveelutions does **not** add Mirror Move or Mirror Shot to Eevee.
+
+</details>
 
 ---
 
