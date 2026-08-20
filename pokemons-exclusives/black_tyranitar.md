@@ -52,7 +52,7 @@ Black Tyranitar is an **Ultra Rare** encounter found in naturally generated vill
 ---
 
 {% hint style="success" %}
-## Contact Us
+## 📥 Contact Us
 
 <p align="center">
 If you have any questions, suggestions, or feedback, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
