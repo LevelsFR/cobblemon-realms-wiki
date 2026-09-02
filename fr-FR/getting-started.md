@@ -22,7 +22,7 @@ Vous êtes libre d'explorer l'île, mais le parcours de départ prévu est clair
 
 Près de la zone de départ, vous pouvez parler à **Mila, le guide du spawn**.
 
-Elle vous indiquera les lieux les plus importants de la Spawn Island et peut vous téléporter directement vers :
+Elle peut vous téléporter directement vers plusieurs lieux utiles :
 
 - 🧪 **le laboratoire du Professeur Chen**
 - 🏥 **le PokéCenter**
@@ -30,7 +30,9 @@ Elle vous indiquera les lieux les plus importants de la Spawn Island et peut vou
 - 🏘️ **le village**
 - 🏆 **le Hall de la Ligue**
 
-Utiliser Mila est optionnel, mais c'est le moyen le plus rapide de comprendre l'organisation de l'île au début d'une nouvelle aventure.
+Utiliser Mila est optionnel, mais c'est un moyen pratique d'atteindre rapidement les principaux lieux du début de partie.
+
+Son menu de téléportation sert uniquement de raccourci. **La Spawn Island contient bien plus de bâtiments, boutiques, activités et points d'intérêt que les destinations proposées par Mila.**
 {% endstep %}
 
 {% step %}
@@ -54,7 +56,7 @@ Il n'existe pas de choix parfait. Prenez simplement le partenaire avec lequel vo
 {% step %}
 ### 📘 Recevez votre Pokédex et votre Badge Box
 
-Après avoir choisi votre starter, le Professeur Chen vous remettra également :
+Après avoir choisi votre starter, vous recevrez également :
 
 - 📕 un **Pokédex**, utilisé pour suivre vos découvertes de Pokémon ;
 - 🏅 une **Badge Box**, utilisée pour suivre les Badges d'Arène remportés pendant votre **Gym World Tour**.
@@ -71,18 +73,28 @@ Ces objets marquent le véritable début de votre progression dans Cobblemon Rea
 
 ## 🗺️ 2. Découvrez la Spawn Island
 
-La Spawn Island est bien plus qu'un simple point de départ. Elle sert de hub principal pour plusieurs systèmes importants et contient de nombreux PNJ qui présentent différentes parties du modpack.
+La Spawn Island est bien plus qu'une simple zone de tutoriel. C'est le hub principal de Cobblemon Realms, avec des boutiques, des activités, des systèmes de progression, des PNJ et de nombreux lieux à découvrir avant de partir à l'aventure.
 
 | 📍 Lieu | 🔎 Ce que vous y trouverez |
 | --- | --- |
-| 🧪 **Laboratoire** | Le Professeur Chen, votre starter et le début de votre aventure |
+| 🧪 **Laboratoire du Professeur Chen** | Votre starter et le début de votre aventure |
 | 🏥 **PokéCenter** | Une zone centrale dédiée aux services Pokémon et l'un des principaux repères de l'île |
-| 🛒 **PokéShop** | Des boutiques et des ressources utiles pour votre aventure |
-| 🏘️ **Village** | Des habitants, des PNJ et différents points d'intérêt |
+| 🛒 **PokéShop** | Des ressources Cobblemon utiles pour votre aventure |
+| 🚲 **Boutique de vélos** | Une boutique dédiée aux vélos et au contenu associé |
+| 🏘️ **Village et marché** | Des habitants et plusieurs stands proposant des baies, des objets supplémentaires et diverses ressources utiles |
 | 🏆 **Hall de la Ligue** | Gym World Tour, Défis de Ligue, Battle Court PvP et mode spectateur |
+| 🏰 **Manoir** | Une Tour de Combat et plusieurs classements différents |
+| 🌿 **Bâtiment du Safari** | Accès au Safari Pokémon pour **20 Realms Coins par défaut** |
+| ⚙️ **Usine Create** | Une présentation des machines Create et de la production de Poké Balls |
+| 🎰 **Casino** | Des machines de gacha et d'autres attractions |
+| ❓ **Encore des choses à découvrir** | D'autres bâtiments, zones cachées et futurs ajouts attendent d'être découverts |
 
 {% hint style="info" %}
-💡 Prenez un peu de temps pour parler aux PNJ présents sur l'île. Plusieurs d'entre eux présentent des mécaniques, des lieux, des services et des personnages que vous pourrez retrouver plus tard.
+💡 Prenez le temps de parcourir l'île et de parler à ses PNJ. Mila permet d'atteindre quelques destinations clés, mais elle ne remplace pas l'exploration.
+{% endhint %}
+
+{% hint style="success" %}
+🔎 Tout n'est volontairement pas documenté sur la Spawn Island. Certains lieux sont plus amusants à découvrir par vous-même, et l'île continuera d'évoluer au fil des futures mises à jour.
 {% endhint %}
 
 ### 🔄 Revenir sur la Spawn Island
