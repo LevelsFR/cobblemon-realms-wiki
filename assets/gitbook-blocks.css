@@ -80,10 +80,10 @@
   min-height:51px;
   grid-template-columns:42px minmax(0,1fr);
   gap:13px;
-  padding:0 0 0;
+  padding:0 0 1.15rem;
 }
 
-.gitbook-step:last-child{min-height:43px}
+.gitbook-step:last-child{min-height:43px;padding-bottom:.2rem}
 .gitbook-step:not(:last-child)::before{
   content:"";
   position:absolute;
@@ -120,7 +120,7 @@
 }
 .gitbook-step-content>:first-child{margin-top:0}
 .gitbook-step-content>:last-child{margin-bottom:0}
-.gitbook-step-content p{margin:0}
+.gitbook-step-content p{margin:.25rem 0}
 .gitbook-step-content pre{margin:10px 0 8px}
 .gitbook-step-content ul,
 .gitbook-step-content ol{margin:.4rem 0 .7rem;padding-left:1.35rem}
@@ -154,7 +154,7 @@ html[data-theme="light"] .gitbook-step-number{
   .gitbook-tab{padding:0 13px;font-size:14px}
   .gitbook-tab-panel{padding:25px 14px 20px}
   .gitbook-tab-panel h3{font-size:1.35rem}
-  .gitbook-step{min-height:49px;grid-template-columns:38px minmax(0,1fr);gap:9px}
+  .gitbook-step{min-height:49px;grid-template-columns:38px minmax(0,1fr);gap:9px;padding-bottom:.95rem}
   .gitbook-step-number{width:29px;height:29px;font-size:14px}
   .gitbook-step:not(:last-child)::before{top:30px;left:14px}
   .gitbook-step-content{padding-top:2px;font-size:15px}
