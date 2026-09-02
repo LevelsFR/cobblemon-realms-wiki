@@ -1,79 +1,156 @@
 # 🧭 Premiers pas
 
-## 🎒 Les bases de l'aventure
+## 🎒 Vos premiers pas dans Cobblemon Realms
 
 {% hint style="info" %}
 <p align="center">
-Avant de partir à l'aventure, voici les principales étapes à suivre pour bien débuter sur <strong>Cobblemon Realms</strong>.
+Votre aventure dans <strong>Cobblemon Realms</strong> commence sur la <strong>Spawn Island</strong>, le hub central conçu pour vous présenter le monde, ses personnages et les principaux systèmes de progression du modpack.
 </p>
 {% endhint %}
 
 ---
 
-## 🐾 1. Choisissez votre Pokémon de départ
+## 🏝️ 1. Commencez sur la Spawn Island
 
-Lors de votre première connexion, vous devrez sélectionner un starter.
+Lors de votre première arrivée dans un monde, votre premier objectif est simple : **rencontrer le Professeur Chen et choisir votre premier Pokémon**.
 
-Prenez un Pokémon adapté à votre style de jeu :
+Vous êtes libre d'explorer l'île, mais le parcours de départ prévu est clairement indiqué en jeu.
 
-- 🧭 Exploration
-- ⚔️ Combat
-- 📈 Progression rapide
-- 📚 Collection
+{% stepper %}
+{% step %}
+### 🧭 Trouvez le guide du spawn
 
----
+Près de la zone de départ, vous pouvez parler à **Mila, le guide du spawn**.
 
-## 🌍 2. Explorez le monde
+Elle vous indiquera les lieux les plus importants de la Spawn Island et peut vous téléporter directement vers :
 
-Le monde de Cobblemon Realms contient de nombreux éléments à découvrir :
+- 🧪 **le laboratoire du Professeur Chen**
+- 🏥 **le PokéCenter**
+- 🛒 **le PokéShop**
+- 🏘️ **le village**
+- 🏆 **le Hall de la Ligue**
 
-- 🌿 Biomes uniques
-- 🏛️ Structures rares
-- ✨ Événements spéciaux
-- 🐾 Zones d’apparition spécifiques
+Utiliser Mila est optionnel, mais c'est le moyen le plus rapide de comprendre l'organisation de l'île au début d'une nouvelle aventure.
+{% endstep %}
 
-Commencez par :
+{% step %}
+### 🧪 Rencontrez le Professeur Chen
 
-- 🪵 Récupérer des ressources
-- ⛏️ Fabriquer vos premiers outils
-- 🏠 Construire une petite base
-- 📍 Trouver une zone sûre
+Votre première vraie destination est **le laboratoire du Professeur Chen**, situé sur la gauche de la Spawn Island.
 
-{% hint style="info" %}
-🧭 L’exploration est essentielle pour découvrir de nouveaux Pokémon et progresser efficacement.
-{% endhint %}
+Vous reconnaîtrez le bâtiment grâce à son **moulin qui tourne**.
 
----
+Parlez au Professeur Chen pour commencer la séquence de choix du starter.
+{% endstep %}
 
-## 🎯 3. Capturez et entraînez vos Pokémon
+{% step %}
+### 🐾 Choisissez votre starter
 
-Utilisez des Poké Balls pour agrandir votre équipe et affronter des Pokémon plus puissants.
+Le Professeur Chen ouvrira l'écran de sélection du starter et vous permettra de choisir votre premier Pokémon.
 
-Certaines espèces apparaissent uniquement :
+Il n'existe pas de choix parfait. Prenez simplement le partenaire avec lequel vous souhaitez commencer votre aventure.
+{% endstep %}
 
-- 🌙 À certaines heures
-- 🌧️ Sous certaines conditions météo
-- 🌿 Dans des biomes spécifiques
+{% step %}
+### 📘 Recevez votre Pokédex et votre Badge Box
+
+Après avoir choisi votre starter, le Professeur Chen vous remettra également :
+
+- 📕 un **Pokédex**, utilisé pour suivre vos découvertes de Pokémon ;
+- 🏅 une **Badge Box**, utilisée pour suivre les Badges d'Arène remportés pendant votre **Gym World Tour**.
+
+Ces objets marquent le véritable début de votre progression dans Cobblemon Realms.
+{% endstep %}
+{% endstepper %}
 
 {% hint style="success" %}
-📘 Consultez la page [`Pokémon et apparitions`](pokemon-and-spawns.md) pour plus d’informations.
+✅ Une fois votre starter, votre Pokédex et votre Badge Box obtenus, votre aventure principale peut réellement commencer.
 {% endhint %}
 
 ---
 
-## 📖 4. Suivez les quêtes et objectifs
+## 🗺️ 2. Découvrez la Spawn Island
 
-Le modpack propose plusieurs quêtes et systèmes de progression pour guider les nouveaux joueurs.
+La Spawn Island est bien plus qu'un simple point de départ. Elle sert de hub principal pour plusieurs systèmes importants et contient de nombreux PNJ qui présentent différentes parties du modpack.
 
-Les quêtes permettent notamment de :
+| 📍 Lieu | 🔎 Ce que vous y trouverez |
+| --- | --- |
+| 🧪 **Laboratoire** | Le Professeur Chen, votre starter et le début de votre aventure |
+| 🏥 **PokéCenter** | Une zone centrale dédiée aux services Pokémon et l'un des principaux repères de l'île |
+| 🛒 **PokéShop** | Des boutiques et des ressources utiles pour votre aventure |
+| 🏘️ **Village** | Des habitants, des PNJ et différents points d'intérêt |
+| 🏆 **Hall de la Ligue** | Gym World Tour, Défis de Ligue, Battle Court PvP et mode spectateur |
+
+{% hint style="info" %}
+💡 Prenez un peu de temps pour parler aux PNJ présents sur l'île. Plusieurs d'entre eux présentent des mécaniques, des lieux, des services et des personnages que vous pourrez retrouver plus tard.
+{% endhint %}
+
+### 🔄 Revenir sur la Spawn Island
+
+Vous pouvez revenir au hub principal à tout moment avec :
+
+- `/spawn`
+- `/hub`
+
+---
+
+## 🏆 3. Découvrez le Hall de la Ligue
+
+Le **Hall de la Ligue** est le point central de la progression officielle des Arènes de Cobblemon Realms.
+
+Parlez à l'**Arena Host** pour découvrir les différents systèmes de combat disponibles.
+
+| ⚔️ Activité | 📖 Utilité |
+| --- | --- |
+| 🏅 **Défi de Ligue (PvE)** | Affronter les Champions d'Arène et progresser dans le Gym World Tour |
+| 🥊 **Battle Court (PvP)** | Affronter d'autres joueurs sans modifier votre progression d'Arène |
+| 👁️ **Mode spectateur** | Observer les combats de Ligue déjà en cours |
+
+Chaque victoire contre un Champion d'Arène vous fait gagner un **Badge** et débloque la prochaine étape disponible de votre Gym World Tour.
+
+Vous pouvez rejoindre votre prochain Défi de Ligue via les **portes de la Ligue** dans le hall. Des **Entrées d'Arène** peuvent aussi être découvertes en explorant l'Overworld et mènent au même prochain défi disponible.
+
+{% hint style="warning" %}
+⚠️ Le Battle Court est totalement séparé du Gym World Tour. Les combats PvP ne donnent pas de Badge et ne font pas progresser votre parcours de Ligue.
+{% endhint %}
+
+---
+
+## 🌍 4. Commencez à explorer le monde
+
+Une fois vos premiers pas terminés sur la Spawn Island, vous êtes prêt à partir explorer le reste du monde.
+
+Une bonne routine de début de partie consiste à :
+
+- 🪵 Récupérer vos premières ressources
+- ⛏️ Fabriquer des outils et de l'équipement utile
+- 🏠 Trouver un emplacement pour votre première base
+- 🐾 Capturer de nouveaux Pokémon et construire votre équipe
+- 🗺️ Explorer les biomes, structures et dimensions
+- 📜 Suivre les quêtes et objectifs de progression
+
+Cobblemon Realms contient de nombreuses règles d'apparition personnalisées, structures, dimensions, rencontres et systèmes de progression. L'exploration fait donc partie intégrante de l'expérience.
+
+{% hint style="success" %}
+📘 Consultez la page [`Pokémon et apparitions`](pokemon-and-spawns.md) pour comprendre comment les biomes, l'heure, la météo, les structures, l'altitude et d'autres conditions peuvent influencer les rencontres Pokémon.
+{% endhint %}
+
+---
+
+## 📖 5. Suivez votre progression
+
+Le modpack propose des quêtes, des advancements, une progression d'Arène et d'autres systèmes pensés pour vous guider sur le long terme.
+
+Ils peuvent vous aider à :
 
 - 🧠 Découvrir les mécaniques importantes
 - 🎁 Obtenir des récompenses
-- 🔓 Débloquer certains contenus
-- ⚙️ Comprendre les systèmes exclusifs du modpack
+- 🏅 Suivre votre progression d'Arène
+- 🔓 Débloquer de nouveaux défis et contenus
+- ⚙️ Comprendre les systèmes personnalisés du modpack
 
 {% hint style="info" %}
-✨ Il est fortement recommandé de suivre les quêtes au début de votre aventure.
+✨ Si vous ne savez plus quoi faire, consultez vos quêtes, vos advancements, votre Badge Box, ou revenez sur la Spawn Island pour parler aux PNJ.
 {% endhint %}
 
 ---
@@ -91,7 +168,7 @@ Les quêtes permettent notamment de :
 ## 🧠 Astuce
 
 <p align="center">
-Cobblemon Realms est pensé pour une progression sur le long terme, avec beaucoup d’exploration, de découverte et d’objectifs à débloquer progressivement.
+Cobblemon Realms est pensé autour d'une progression sur le long terme. Inutile de se presser. Explorez, construisez votre équipe, rencontrez les personnages du monde et avancez dans les différents systèmes à votre rythme.
 </p>
 {% endhint %}
 
