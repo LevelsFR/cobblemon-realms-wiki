@@ -22,7 +22,7 @@ You are free to look around the island, but the intended starting route is clear
 
 Near the starting area, you can speak with **Mila, the Spawn Guide**.
 
-She will point you toward the most important locations on Spawn Island and can teleport you directly to:
+She can teleport you directly to several useful landmarks:
 
 - 🧪 **Professor Oak's Laboratory**
 - 🏥 **PokéCenter**
@@ -30,7 +30,9 @@ She will point you toward the most important locations on Spawn Island and can t
 - 🏘️ **Village**
 - 🏆 **League Hall**
 
-Using Mila is optional, but she is the fastest way to understand the island when starting a new adventure.
+Using Mila is optional, but she is a convenient way to quickly reach the main starting locations.
+
+Her teleport menu is only a shortcut. **Spawn Island contains many more buildings, shops, activities, and points of interest than the destinations listed by Mila.**
 {% endstep %}
 
 {% step %}
@@ -54,7 +56,7 @@ There is no single best choice. Pick the partner you want to begin your journey 
 {% step %}
 ### 📘 Receive Your Pokédex and Badge Box
 
-After your starter has been selected, Professor Oak will also provide you with:
+After your starter has been selected, you will also receive:
 
 - 📕 a **Pokédex**, used to follow your Pokémon discoveries;
 - 🏅 a **Badge Box**, used to keep track of the Gym Badges earned during your **Gym World Tour**.
@@ -71,18 +73,28 @@ These items mark the real beginning of your progression through Cobblemon Realms
 
 ## 🗺️ 2. Discover Spawn Island
 
-Spawn Island is more than a starting point. It acts as the main hub for several important systems and contains many NPCs that introduce different parts of the modpack.
+Spawn Island is much more than a tutorial area. It is the main hub of Cobblemon Realms, with shops, activities, progression systems, NPCs, and several places worth exploring before you leave.
 
 | 📍 Location | 🔎 What You Will Find |
 | --- | --- |
-| 🧪 **Laboratory** | Professor Oak, your starter, and the beginning of your adventure |
+| 🧪 **Professor Oak's Laboratory** | Your starter and the beginning of your adventure |
 | 🏥 **PokéCenter** | A central Pokémon service area and one of the island's main landmarks |
-| 🛒 **PokéShop** | Shops and useful supplies for your journey |
-| 🏘️ **Village** | Residents, NPCs, and additional points of interest |
+| 🛒 **PokéShop** | Useful Cobblemon supplies for your journey |
+| 🚲 **Bike Shop** | A dedicated shop for bikes and related content |
+| 🏘️ **Village & Market** | Residents and several stands with berries, extra items, and other useful supplies |
 | 🏆 **League Hall** | Gym World Tour, League Challenges, Battle Court PvP, and spectating |
+| 🏰 **Manor** | A Battle Tower and several different leaderboards |
+| 🌿 **Safari Facility** | Access to the Pokémon Safari for **20 Realms Coins by default** |
+| ⚙️ **Create Factory** | A showcase of Create machinery and Poké Ball production |
+| 🎰 **Casino** | Gacha machines and other attractions |
+| ❓ **More to Discover** | Other buildings, hidden areas, and future additions are waiting to be found |
 
 {% hint style="info" %}
-💡 Take a little time to speak with the NPCs around the island. Several of them introduce mechanics, locations, services, and characters that you may encounter again later.
+💡 Take some time to walk around the island and speak with its NPCs. Mila helps you reach a few key destinations, but she does not replace exploration.
+{% endhint %}
+
+{% hint style="success" %}
+🔎 Not everything on Spawn Island is documented on purpose. Some places are better discovered by exploring, and the island will continue to evolve with future updates.
 {% endhint %}
 
 ### 🔄 Returning to Spawn Island
