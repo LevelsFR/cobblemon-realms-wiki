@@ -2,10 +2,10 @@
 
 ## 🧭 Navigation rapide
 
-* [🌫️🏗️ Structures du Monde Distorsion](mods-guides/legendary_monuments/distortion_world.md)
-* [🌍🏗️ Structures de l’Overworld](mods-guides/legendary_monuments/overworld_world.md)
-* [🔥🏗️ Structures du Nether](mods-guides/legendary_monuments/nether_world.md)
-* [🌌🏗️ Structures de l’End](mods-guides/legendary_monuments/end_world.md)
+* [🌫️🏗️ Structures du Monde Distorsion](distortion_world.md)
+* [🌍🏗️ Structures de l’Overworld](overworld_world.md)
+* [🔥🏗️ Structures du Nether](nether_world.md)
+* [🌌🏗️ Structures de l’End](end_world.md)
 
 {% hint style="success" %}
 ## Nous contacter
