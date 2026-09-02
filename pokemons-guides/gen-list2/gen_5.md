@@ -84,7 +84,7 @@ To obtain Cobalion, you must collect `50 Cobalion Footprints` by right-clicking 
 
 Once the 50th footprint has been collected, a **Level 40 Cobalion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Meat Chunks` when summoning Cobalion. These can be combined with those obtained from [Virizion](ttps://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#viridium) and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakium) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
+You will also receive `Special Meat Chunks` when summoning Cobalion. These can be combined with those obtained from [Virizion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#virizion) and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -129,7 +129,7 @@ To obtain Terrakion, you must collect `50 Terrakion Footprints` by right-clickin
 
 Once the 50th footprint has been collected, a **Level 40 Terrakion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Spices` when summoning Terrakion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobaltium) and [Virizion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#virizion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
+You will also receive `Special Spices` when summoning Terrakion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobalion) and [Virizion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#virizion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -174,7 +174,7 @@ To obtain Virizion, you must collect `50 Virizion Footprints` by right-clicking 
 
 Once the 50th footprint has been collected, a **Level 40 Virizion** will appear, with a **2% chance of being Shiny**.
 
-You will also receive `Special Leafy Greens` when summoning Virizion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobaltium) and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakium) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
+You will also receive `Special Leafy Greens` when summoning Virizion. These can be combined with those obtained from [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobalion) and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakion) to craft the `Curry of Justice`, which is used to obtain [Keldeo](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#keldeo).
 
 ---
 
@@ -348,7 +348,7 @@ Once you have both vials, you must find the [Kyurem Cave](https://wiki.cobblemon
 
 ### 🗝️ How to Obtain
 
-To obtain Keldeo, you must first summon [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobaltium), [Virizion](ttps://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#viridium), and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakium) by collecting their footprints. This will allow you to obtain three ingredients: `Special Meat Chunks`, `Special Spices`, and `Special Leafy Greens`.
+To obtain Keldeo, you must first summon [Cobalion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#cobalion), [Virizion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#virizion), and [Terrakion](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_5#terrakion) by collecting their footprints. This will allow you to obtain three ingredients: `Special Meat Chunks`, `Special Spices`, and `Special Leafy Greens`.
 
 By combining these three ingredients, you will obtain the `Curry of Justice`.
 
