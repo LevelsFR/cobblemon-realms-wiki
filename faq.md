@@ -50,6 +50,66 @@ Yes, provided that your system can handle them and that the shaders you use are 
 
 ## 🐾 Gameplay & Progression
 
+### 🏝️ Where does my adventure begin in v6?
+
+Your adventure begins on **Spawn Island**, the central hub of Cobblemon Realms.
+
+Your first main objective is to meet **Professor Oak** and choose your starter. If you are unsure where to go, speak with **Mila, the Spawn Guide**, near the starting area. She can teleport you to important locations such as Professor Oak's Laboratory, the PokéCenter, PokéShop, Village, and League Hall.
+
+📘 [Getting Started](getting-started.md)
+
+### 🎒 What do I receive when starting my adventure?
+
+After choosing your starter with Professor Oak, you receive a **Pokédex** and a **Badge Box**.
+
+The Pokédex helps you follow your Pokémon discoveries, while the Badge Box tracks the Gym Badges earned during the **Gym World Tour**.
+
+### 🔄 How do I return to Spawn Island?
+
+You can return to the main hub at any time with:
+
+- `/spawn`
+- `/hub`
+
+### 🏆 How does the Gym World Tour work?
+
+The official v6 trainer progression is a single continuous **Gym World Tour**. You battle Gym Leaders in a strict order, earn their Badges, and progressively increase your personal Level Cap.
+
+The current World Tour contains **66 Gym Leaders across 8 regions**, from Kanto through Paldea. Your adventure starts with a personal **Level Cap of 15**.
+
+📘 [Gym World Tour & Level Caps](pokemons-guides/levelcap-and-trainers.md)
+
+### 🚪 How do I enter my next Gym challenge?
+
+There are two official ways to reach your next eligible Gym Leader:
+
+- use either **League Door** inside the League Hall on Spawn Island;
+- discover an **Arena Entrance** while exploring the Overworld.
+
+Both methods lead to the same next challenge in your current Gym World Tour progression.
+
+### 🏅 I defeated a Gym Leader, where is my Badge?
+
+Gym Badges are no longer handled as normal physical item drops during the official progression.
+
+Your victory is recorded through the integrated **PokeBadges** system and the Badge is displayed in your **Badge Box**. Gym victories are also tracked through dedicated advancements.
+
+{% hint style="info" %}
+💡 If you are looking for a Badge item in your normal inventory after a Gym victory, this is not the intended v6 progression flow.
+{% endhint %}
+
+### 🥊 Does the Battle Court PvP advance my Gym progression?
+
+No. The **Battle Court** inside the League Hall is completely separate from the Gym World Tour.
+
+PvP battles do not award Gym Badges, increase your Level Cap, defeat a Gym Leader, or advance your official progression.
+
+### 🏁 Where does the current Gym World Tour end?
+
+The currently implemented Gym World Tour ends after the **Paldea Gym Leaders**, with **Grusha** as the final Gym challenge.
+
+The **Elite Four** and **League Champion** stages are not currently implemented in this progression and are planned as future extensions.
+
 ### 🐾 Why aren't any Pokémon spawning around me?
 
 Spawns depend on many factors: **biome, time, weather, player position, and spawn conditions**.
@@ -57,6 +117,12 @@ Spawns depend on many factors: **biome, time, weather, player position, and spaw
 Use `/checkspawns` to check which Pokémon are likely to spawn in your area.
 
 📘 [Pokémon and Spawns](pokemon-and-spawns.md)
+
+### 🔎 Can I search Pokémon information directly through JEI?
+
+Yes. The Cobblemon JEI integration included in the current v6 branch can search Pokémon by information such as **type, ability, biome, generation, form, and dropped items**.
+
+Filters can be combined, and values containing spaces can be quoted, for example `biome:"flower forest"`. The interface also provides Pokémon evolution navigation, move information, and reverse drop recipes showing which Pokémon can drop an item.
 
 ### 📈 Where can I find information about level caps?
 
@@ -125,11 +191,12 @@ If you don't know where to start, here are some useful starting points:
 | 🔎 I'm looking for... | 📖 Check... |
 | --- | --- |
 | Installing the modpack | [Installation Guide](installation.md) |
-| Discovering the modpack | [Getting Started](getting-started.md) |
+| Starting my adventure | [Getting Started](getting-started.md) |
+| Understanding the Gym World Tour and Badges | [Gym World Tour & Level Caps](pokemons-guides/levelcap-and-trainers.md) |
 | Playing multiplayer | [Multiplayer Servers](multiplayer-servers.md) |
 | Understanding spawns | [Pokémon and Spawns](pokemon-and-spawns.md) |
 | Understanding Legendaries | [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md) |
-| Checking what's new | [What's New v6.0+](whats-new-v6.md) |
+| Following quests | [Quests](quests.md) |
 | Reporting a bug | [Report an Issue](report-a-bug.md) |
 
 ***
