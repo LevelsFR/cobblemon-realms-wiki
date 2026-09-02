@@ -1,296 +1,377 @@
-# 🎯 Level Cap and Trainers
+# 🎯 Level Cap & Gym World Tour
 
-## 📈 Understanding Progression
+## 📈 Understanding the Current Progression
 
 {% hint style="info" %}
 <p align="center">
-The trainer progression system in <strong>Cobblemon Realms</strong> is based on three main elements: <strong>Trainer Cards</strong>, <strong>Key Trainers</strong> and <strong>Trainer Series</strong>. Together, they structure your adventure and guide your progression towards increasingly difficult challenges.
+The official trainer progression in <strong>Cobblemon Realms v6</strong> is built around a single continuous challenge: the <strong>Gym World Tour</strong>. You progress through the Gym Leaders of each region in a strict order, earn their Badges, and gradually increase your personal Level Cap.
 </p>
 {% endhint %}
 
-***
+{% hint style="warning" %}
+<strong>Returning player?</strong> The old progression based on multiple Radical Trainers series, the Trainers Association, and additional trainer-series datapacks is no longer the official Cobblemon Realms progression. The current Gym World Tour is managed directly through the <strong>Cobblemon Realms Core</strong> experience.
+{% endhint %}
 
-## 🌍 Freeroam Guide - Playing Without a Level Cap
+---
+
+## 🧭 How the Gym World Tour Works
+
+The system is intentionally simple: **one journey, one next Gym Leader, one continuous progression**.
+
+{% stepper %}
+{% step %}
+### 🏝️ Begin Your Adventure
+
+After choosing your starter with Professor Oak, you receive your **Pokédex** and **Badge Box**.
+
+Your initial personal **Level Cap is 15**.
+{% endstep %}
+
+{% step %}
+### 🏆 Enter Your Next Gym Challenge
+
+Visit the **League Hall** on Spawn Island and use either League Door.
+
+You can also discover **Arena Entrances** while exploring the Overworld.
+
+Both methods send you to the same next Gym Leader for which you are currently eligible.
+{% endstep %}
+
+{% step %}
+### ⚔️ Defeat the Gym Leader
+
+Each Gym Leader uses a predefined team with a fixed battle level, moveset, IV progression, held items, and battle items depending on the stage of the World Tour.
+
+The current Gym World Tour uses **single battles**.
+{% endstep %}
+
+{% step %}
+### 🏅 Earn the Badge
+
+When you defeat the current Gym Leader, their Badge is awarded through **PokeBadges** and recorded for your progression.
+
+Your Badge Box is the main place to view the Badges earned during the journey.
+{% endstep %}
+
+{% step %}
+### 📈 Unlock the Next Level Cap
+
+The victory unlocks the next Gym Leader and your Level Cap updates to match the next stage of the World Tour.
+
+You can then train your team further and continue immediately toward the next region or Gym.
+{% endstep %}
+{% endstepper %}
+
+---
+
+## 📊 How the Level Cap Works
+
+Your **Level Cap** is a personal maximum level tied to your Gym World Tour progression.
+
+| 📌 Rule | 🔎 How It Works |
+| --- | --- |
+| 🎚️ **Starting Cap** | Your adventure begins with a Level Cap of **15**. |
+| 🏆 **Progression** | Defeating the current Gym Leader unlocks the cap required for the next eligible Gym Leader. |
+| 🛑 **Experience** | Pokémon at the active cap cannot continue progressing normally beyond the permitted level while the cap is enforced. |
+| 🚫 **Arena Eligibility** | A team containing Pokémon above the allowed arena cap can be refused entry to that challenge. |
+| 💯 **Maximum** | The progression eventually reaches the normal maximum of **level 100**. |
 
 {% hint style="info" %}
-The **Freeroam Mode** allows you to temporarily pause your story progression in order to freely explore the world, train your Pokémon up to **level 100**, and enjoy the modpack without any level restrictions.
+💡 <strong>Brock is the only unusual starting case.</strong> His team is level <strong>14</strong>, while the player begins with a Level Cap of <strong>15</strong>. After Brock, the cap becomes <strong>16</strong> for Misty and then follows the next Gym Leader's battle level.
 {% endhint %}
 
-### ℹ️ What is Freeroam?
+### 🔄 Example
 
-The **Freeroam Mode** allows you to temporarily disable the restrictions associated with your current trainer series. Your main progression remains intact and can be resumed at any time.
+| Step | Current Challenge | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | Brock | 14 | **16** |
+| 2 | Misty | 16 | **18** |
+| 3 | Lt. Surge | 18 | **20** |
+| 4 | Erika | 20 | **22** |
 
-| | Function |
-| :---: | --- |
-| ✅ | No more level restrictions |
-| ✅ | Pokémon can reach **level 100** |
-| ✅ | Free exploration of all regions |
-| ✅ | Capture and train without restrictions |
-| ✅ | Return to your main series at any time |
+This same logic continues throughout the complete Gym World Tour.
 
-{% hint style="warning" %}
-⚠️ Freeroam **does not delete your progression**. Your main series is simply paused while you play freely.
-{% endhint %}
+---
 
-### 📖 Activating Freeroam
+## 🌍 Gym World Tour Overview
 
-Follow these four steps from the quests menu:
+The current progression contains **66 Gym Leaders** across **8 regions**.
 
-#### 🧭 1. Open Quests
-
-Open your inventory and click on the small `Quests` book, located at the top left of your screen.
-
-#### 📂 2. Display the categories
-
-Move your cursor to the left side of the screen to make the list of available categories appear.
-
-#### 📘 3. Open the Welcome Guide
-
-From the list of categories, select `Welcome Guide`.
-
-#### 🪙 4. Activate Freeroam
-
-At the very bottom of the menu, you will find a `Realms Coin`. Click on it to enter `Freeroam` mode.
-
-### 🔄 Resuming Your Progression
-
-You can return to your main adventure **at any time**.
-
-| Method | Action |
-| :---: | --- |
-| 📌 **FTB Quests Menu** | Use the button dedicated to your region. |
-| 🧑‍🏫 **Trainers Association** | Spawn a `Trainers Association` NPC, then select the series you wish to resume. |
+| 🌍 Region | 🏆 Leaders | ⚔️ Battle Levels |
+| --- | :---: | --- |
+| Kanto | 8 | 14 - 28 |
+| Johto | 8 | 31 - 45 |
+| Hoenn | 8 | 48 - 62 |
+| Sinnoh | 8 | 65 - 79 |
+| Unova | 8 | 82 - 89 |
+| Kalos | 8 | 91 - 98 |
+| Galar | 10 | 99 - 100 |
+| Paldea | 8 | 100 |
 
 {% hint style="success" %}
-✅ Your progression will remain exactly where you left it.
+✅ Progression is strictly sequential. You cannot skip ahead to a later Gym Leader through the official League Challenge system.
 {% endhint %}
-
-### ✨ Why Use Freeroam?
-
-Freeroam is particularly useful if you want to:
-
-- 🌍 **Freely explore** all regions
-- ⚔️ **Train your teams** without a level limit
-- 📚 **Complete your Pokédex**
-- 🎣 **Hunt for rare Pokémon**
-- 🧪 **Test different teams**
-- 🏕️ **Play in a more sandbox-like and relaxed way**
-
-{% hint style="info" %}
-💡 Freeroam is an **optional alternative** to the traditional progression system. You can freely switch between the story-driven adventure and free exploration depending on how you want to play.
-{% endhint %}
-
-***
-
-## 📊 Maximum Level System (Level Cap)
-
-Each player has their own **personal maximum level**, starting at **25** in this modpack (by default, it is lower in the original mod).
-
-### ⚙️ What Does the Level Cap Do?
-
-The maximum level directly affects your Pokémon and the trainers you can battle:
-
-| Effect | How it works |
-| :---: | --- |
-| 🛑 **Experience** | Pokémon that have **reached or exceeded** your maximum level **can no longer gain experience**. |
-| 🚫 **Battles** | Trainers will **refuse to battle** if a Pokémon on your team exceeds this level. |
-| 🎯 **Trainer levels** | The **strength of nearby trainers** adapts to your team, but **never exceeds your maximum level**. |
-
-### 🧭 How to Increase Your Cap
-
-To increase your maximum level, you must progress through the **Key Trainer** system:
-
-1. 🏆 Defeat the **Key Trainers** in the exact order defined by the progression system.
-2. 🪪 Check your **Trainer Card** to find out who your next Key Trainer is and get clues about where to find them.
-3. 📖 Check the **Advancements** tab to discover additional steps and obtain new clues.
-
-***
-
-## 🔍 Key Trainers & Tracking System
-
-The **Key Trainers** are the main progression milestones. Defeating them increases your maximum level and progressively unlocks more difficult challenges.
-
-### 🧭 How Tracking Works
-
-At the beginning of the game, when you obtain a **Trainer Card** but **do not have an active trainer series**, a **holographic arrow** appears.
-
-→ This arrow **always points towards the Trainers Association NPC**, allowing you to start your first series.
-
-Once a series has been selected:
-
-- the arrow disappears;
-- there is **no arrow pointing towards the Key Trainers** themselves;
-- you must use the information on your **Trainer Card** to locate them.
-
-The available information may include:
-
-- 🗺️ **Biome names**;
-- ✨ **Special conditions**;
-- 🎒 **Required items** to summon them, when necessary.
-
-### 🌍 Finding Key Trainers in Cobblemon Realms
-
-In **Cobblemon Realms**, the quest system provides several additional tools to make finding them easier.
-
-Each quest category lists **all trainers in a series**. You can also **exchange Realms Coins** to instantly spawn the trainer you need to battle.
-
-{% hint style="info" %}
-💡 Trainers can be generated **indefinitely** this way.
-{% endhint %}
-
-However, once defeated, a trainer cannot be battled again immediately.
-
-> ⏱️ **Cooldown:** a defeated trainer must wait **one Minecraft day**, or approximately **20 minutes IRL**, before they can be battled again.
-
-The quests also feature an **Info button**, which provides access to several tools:
-
-| Function | Description |
-| :---: | --- |
-| 🧭 **Activate a series remotely** | Allows you to activate a series without having to physically find the Trainers Association. |
-| 📈 **Progression graph** | Displays the order of the trainers as well as their **average level**. |
-| 🏆 **Advancements** | Takes you to the corresponding **Advancements** so you can directly track your progression in Minecraft. |
-
-{% hint style="warning" %}
-⚠️ <strong>Only one series can be active at a time.</strong> Activating another series resets the progression of the current series, unless it has already been completed.
-{% endhint %}
-
-***
-
-## 🏆 Gym Leaders & Major Trainers
-
-Progression is not limited to increasing the **Level Cap**. As you advance through the different series, you also unlock access to **Gym Leaders**, **Rivals**, the **Elite Four**, **villain teams**, and other major challenges.
-
-### 🔓 Unlock Requirements
-
-| | Requirement |
-| :---: | --- |
-| 🥇 | Defeat the required **Key Trainers** in a series to unlock its high-level opponents. |
-| 💠 | Some trainers require **special items** (e.g. _Hard Stone_) to be summoned. |
-| 🧱 | Use a **Trainer Spawner**, found in villages or gyms, then right-click with the required item to summon the trainer after a short delay. |
-| 🧩 | Advanced content such as **Leagues**, the **Elite Four**, or **team leaders** may require several completed series. |
-
-{% hint style="info" %}
-💡 <strong>Your progression is non-linear.</strong> You can follow a single path or progress through several series in parallel in order to unlock different content.
-{% endhint %}
-
-***
-
-## 🤝 Trainers Association
-
-The **Trainers Association** is a special NPC that allows you to start a new series and access its progression path.
-
-### 🧑‍🏫 When Does It Appear?
-
-The Trainers Association appears near a player who:
-
-- has a **Trainer Card**, either in their hand or in their inventory;
-- **does not have an active trainer series**.
-
-When it is nearby, your **Trainer Card**:
-
-- ✨ **glows**;
-- 🧭 displays an **arrow** indicating the NPC's direction.
-
-Once you are near the Trainers Association, it offers a **series menu**. Each series has its own theme, progression path, and difficulty.
-
-***
-
-## 📋 Available Trainer Series
-
-Cobblemon Realms includes the base content of **Radical Trainers**, as well as the additional series provided by **More Radical Trainers**.
-
-### 🟢 Independent Series
-
-These series can be started **without any prerequisites**:
-
-| # | Series | Special Feature |
-| :---: | --- | --- |
-| **1** | **Pokémon Adventures** | Manga heroes, with branching paths. |
-| **2** | **Sinnoh Gym Challenge** | Double battles against the Sinnoh Gym Leaders. |
-| **3** | **Team Aqua** | Appears in the Overworld. |
-| **4** | **Team Magma** | Appears in the Nether. |
-| **5** | **Unova Gym Challenge** _(5/10)_ | Battle all Unova Gym Leaders. |
-| **6** | **Hoenn Gym Challenge** | Hoenn Gym Leaders. |
-| **7** | **Kalos Gym Challenge** | Level 90+ teams with Mega Evolutions. |
-| **8** | **Paldea Gym Challenge** | Gyms from the most recent generation. |
-
-### 🔒 Series With Prerequisites
-
-These series require certain content to be completed before they can be activated:
-
-| # | Series | Prerequisite |
-| :---: | --- | --- |
-| **9** | **Team Plasma** | _Unova Gym Challenge_ |
-| **10** | **Unova League Challenge** | _Unova Gym Challenge_ |
-| **11** | **Hoenn League Challenge** | _Hoenn Gym Challenge_ |
-| **12** | **Kalos League Challenge** | _Kalos Gym Challenge_ |
-| **13** | **Seven Sages of Team Plasma** | _Team Plasma_ + _Unova League_ |
-| **14** | **Unova (B2W2) Challenge** _(6/10)_ | _Unova Gym Challenge_ + _Unova League Challenge_ |
-| **15** | **Neo Team Plasma** | _Seven Sages of Team Plasma_ |
-| **16** | **Elite Four & Paldea Champion** | _Paldea Gym Challenge_ |
-| **17** | **Starfall Street (Team Star)** | _Paldea Gym Challenge_ |
-
-{% hint style="warning" %}
-⚔️ All advanced trainers use **fully EV/IV-trained teams** and have **competitive movesets**. Make sure to prepare your teams accordingly before taking on the high-level series.
-{% endhint %}
-
-***
-
-## 📈 Progression Graph
-
-The **Radical Trainers** system allows you to visualize your complete progression through the different trainer series.
-
-Use the command: `/rctmod player get progress <pseudo> graph include_defeated include_optionals`
-
-The graph allows you to see:
-
-| Indicator | Meaning |
-| :---: | --- |
-| ✔️ | Completed series |
-| 🟡 | Optional paths |
-| 🔒 | Content still locked |
-| 🔁 | Dependencies between the different series |
 
 ---
 
-## 🎯 Advancements
+## 🗺️ Complete Leader & Level Cap Progression
 
-**Advancements** allow you to track your progression directly in-game and can also serve as a hint system.
+{% tabs %}
+{% tab title="Kanto" %}
 
-Each series has its **own advancements**, some of which may be hidden. Depending on your progression, they can help you identify the next steps or unlock new content.
+### 🔴 Kanto
 
-Rewards may include:
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Brock** | 14 | **16** |
+| 2 | **Misty** | 16 | **18** |
+| 3 | **Lt. Surge** | 18 | **20** |
+| 4 | **Erika** | 20 | **22** |
+| 5 | **Koga** | 22 | **24** |
+| 6 | **Sabrina** | 24 | **26** |
+| 7 | **Blaine** | 26 | **28** |
+| 8 | **Giovanni** | 28 | **31** |
 
-* 🎁 Items
-* 🪙 Realms Coins
-* 🔓 Conditions that allow new content to be unlocked
+{% endtab %}
+{% tab title="Johto" %}
+
+### 🟡 Johto
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Falkner** | 31 | **33** |
+| 2 | **Bugsy** | 33 | **35** |
+| 3 | **Whitney** | 35 | **37** |
+| 4 | **Morty** | 37 | **39** |
+| 5 | **Chuck** | 39 | **41** |
+| 6 | **Jasmine** | 41 | **43** |
+| 7 | **Pryce** | 43 | **45** |
+| 8 | **Clair** | 45 | **48** |
+
+{% endtab %}
+{% tab title="Hoenn" %}
+
+### 🟢 Hoenn
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Roxanne** | 48 | **50** |
+| 2 | **Brawly** | 50 | **52** |
+| 3 | **Wattson** | 52 | **54** |
+| 4 | **Flannery** | 54 | **56** |
+| 5 | **Norman** | 56 | **58** |
+| 6 | **Winona** | 58 | **60** |
+| 7 | **Tate & Liza** | 60 | **62** |
+| 8 | **Juan** | 62 | **65** |
+
+{% endtab %}
+{% tab title="Sinnoh" %}
+
+### 🔵 Sinnoh
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Roark** | 65 | **67** |
+| 2 | **Gardenia** | 67 | **69** |
+| 3 | **Fantina** | 69 | **71** |
+| 4 | **Maylene** | 71 | **73** |
+| 5 | **Crasher Wake** | 73 | **75** |
+| 6 | **Byron** | 75 | **77** |
+| 7 | **Candice** | 77 | **79** |
+| 8 | **Volkner** | 79 | **82** |
+
+{% endtab %}
+{% tab title="Unova" %}
+
+### ⚫ Unova
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Cheren** | 82 | **83** |
+| 2 | **Roxie** | 83 | **84** |
+| 3 | **Burgh** | 84 | **85** |
+| 4 | **Elesa** | 85 | **86** |
+| 5 | **Clay** | 86 | **87** |
+| 6 | **Skyla** | 87 | **88** |
+| 7 | **Drayden** | 88 | **89** |
+| 8 | **Marlon** | 89 | **91** |
+
+{% endtab %}
+{% tab title="Kalos" %}
+
+### 🔷 Kalos
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Viola** | 91 | **92** |
+| 2 | **Grant** | 92 | **93** |
+| 3 | **Korrina** | 93 | **94** |
+| 4 | **Ramos** | 94 | **95** |
+| 5 | **Clemont** | 95 | **96** |
+| 6 | **Valerie** | 96 | **97** |
+| 7 | **Olympia** | 97 | **98** |
+| 8 | **Wulfric** | 98 | **99** |
+
+{% endtab %}
+{% tab title="Galar" %}
+
+### 🟣 Galar
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Milo** | 99 | **100** |
+| 2 | **Nessa** | 100 | **100** |
+| 3 | **Kabu** | 100 | **100** |
+| 4 | **Bea** | 100 | **100** |
+| 5 | **Allister** | 100 | **100** |
+| 6 | **Opal** | 100 | **100** |
+| 7 | **Gordie** | 100 | **100** |
+| 8 | **Melony** | 100 | **100** |
+| 9 | **Piers** | 100 | **100** |
+| 10 | **Raihan** | 100 | **100** |
+
+{% hint style="info" %}
+💡 Cobblemon Realms includes both version-exclusive Galar Leaders in its World Tour, so **Bea and Allister**, as well as **Gordie and Melony**, are all part of the same continuous progression.
+{% endhint %}
+
+{% endtab %}
+{% tab title="Paldea" %}
+
+### 🟠 Paldea
+
+| # | Gym Leader | Battle Level | Level Cap After Victory |
+| :---: | --- | :---: | :---: |
+| 1 | **Katy** | 100 | **100** |
+| 2 | **Brassius** | 100 | **100** |
+| 3 | **Iono** | 100 | **100** |
+| 4 | **Kofu** | 100 | **100** |
+| 5 | **Larry** | 100 | **100** |
+| 6 | **Ryme** | 100 | **100** |
+| 7 | **Tulip** | 100 | **100** |
+| 8 | **Grusha** | 100 | **100** |
+
+{% endtab %}
+{% endtabs %}
+
+---
+
+## ⚔️ Difficulty Increases With Every Region
+
+The Gym World Tour is not scaled only by Pokémon level. The trainer data itself becomes progressively stronger as you advance.
+
+| 🌍 Region | 🧬 IV Progression | 👥 Team Size | 🎒 General Difficulty |
+| --- | --- | :---: | --- |
+| **Kanto** | 1 to 8 IVs | 2 - 5 | Introductory teams with limited held-item usage |
+| **Johto** | 8 to 12 IVs | 2 - 4 | More developed teams and stronger coverage |
+| **Hoenn** | 12 to 15 IVs | 3 - 5 | More held items and larger teams |
+| **Sinnoh** | 16 to 22 IVs | 3 - 4 | Stronger sets and increasingly optimized Pokémon |
+| **Unova** | 22 to 26 IVs | 2 - 3 | High-level teams with better item support |
+| **Kalos** | 26 to 30 IVs | 2 - 3 | Near-optimized IVs and widespread held items |
+| **Galar** | 30 IVs | 2 - 4 | Level 100 teams with held items on essentially every Pokémon |
+| **Paldea** | **31 IVs** | 3 - 4 | Fully optimized IV values and complete level 100 teams |
+
+{% hint style="warning" %}
+⚠️ Reaching level 100 does not mean the difficulty has stopped increasing. From Galar onward, team composition, movesets, held items, and IV quality become much more important than raw level alone.
+{% endhint %}
+
+---
+
+## 🏅 Badges & PokeBadges
+
+Cobblemon Realms uses **PokeBadges** for its Gym Badge system.
+
+Professor Oak gives you a **Badge Box** at the beginning of your adventure. From that point onward, defeating Gym Leaders awards the corresponding regional Badge through the progression system.
+
+| 🏅 Feature | 📖 Purpose |
+| --- | --- |
+| **Regional Badges** | Each Gym Leader awards the Badge associated with their challenge. |
+| **Badge Box** | Displays and organizes your collected Badges by region. |
+| **Advancements** | Gym victories are also tracked through dedicated advancements. |
+| **World Tour Progression** | Your victories determine which Gym Leader becomes eligible next. |
+
+{% hint style="success" %}
+✅ You no longer need to manage physical Gym Badge drops as part of the normal progression flow. The Badge system is integrated directly into the World Tour.
+{% endhint %}
+
+---
+
+## 🏟️ Where to Start a Gym Battle
+
+There are currently two official ways to enter your next Gym challenge.
+
+### 🏆 League Hall
+
+The **League Hall** is located on Spawn Island and is the main hub for the Gym World Tour.
+
+Speak with the **Arena Host** for information, then use either **League Door** to enter your next eligible challenge.
+
+### 🌍 Overworld Arena Entrances
+
+Special **Arena Entrances** can also be discovered while exploring the Overworld.
+
+They do not provide a different progression path. They route you to the **same next eligible Gym Leader** as the League Hall.
+
+{% hint style="info" %}
+💡 Use `/spawn` or `/hub` whenever you want to return to Spawn Island and access the League Hall again.
+{% endhint %}
+
+---
+
+## 🥊 Battle Court PvP Is Separate
+
+The **Battle Court** inside the League Hall is designed for player-versus-player battles.
+
+It does **not**:
+
+- award Gym Badges;
+- increase your Level Cap;
+- defeat a Gym Leader for you;
+- advance your Gym World Tour.
+
+You can also use the League Hall's spectator system to watch active League battles without affecting your own progression.
+
+---
+
+## 🎯 Tracking Your Progress
+
+Your Gym World Tour can be followed through several in-game systems:
+
+- 🏅 **Badge Box** for your collected Badges
+- 🏆 **Advancements** for completed Gym Leaders and regions
+- 🚪 **League Doors** for automatic routing to your next eligible challenge
+- 🧑‍💼 **Arena Host** for an explanation of the League systems
+
+There is no need to choose between multiple trainer series anymore. The World Tour itself defines your next official Gym challenge.
+
+---
+
+## 🚧 Current End of the World Tour
+
+{% hint style="warning" %}
+### League Expansion Planned
+
+The current Gym World Tour finishes after the **Paldea Gym Leaders**, with **Grusha** as the final implemented Gym challenge.
+
+The **Elite Four** and **League Champion** stages are **not currently implemented** in this progression. They are planned as future extensions of the system.
+{% endhint %}
 
 ---
 
 {% hint style="success" %}
-## 💡 Tips for Progressing
+## 💡 Tips for the Gym World Tour
 
-* 🧠 **Rotate your team** to avoid locking your XP behind a single Pokémon.
-* 🎯 **Prioritize trainer battles** to quickly increase your Level Cap and unlock new series.
-* 🗺️ **Check your Trainer Card regularly**, especially for clues related to biomes and dimensions.
-* 📖 **Keep an eye on your Advancements** so you don't miss hidden objectives.
-* 💬 **Need help?** Join our [Discord](https://discord.gg/kb8NSTF45n) server.
-</p>
+- 🧠 Build several Pokémon instead of relying on a single overleveled carry.
+- 🎯 Prepare around the next Gym Leader's typing and team composition.
+- 🎒 Held items become increasingly important in later regions.
+- 🧬 IV quality matters much more from Sinnoh onward and becomes highly optimized in Galar and Paldea.
+- 🏅 Check your Badge Box and Advancements if you are unsure how far you have progressed.
+- 🏆 Return to the League Hall whenever you want a simple route to your next Gym battle.
+
 {% endhint %}
 
 ---
 
-## ℹ️ Learn More
-
-To discover more about how the trainer system works, check out the following resources:
-
-* 📘 [**Official Radical Trainers Documentation**](https://srcmc.gitlab.io/rct/docs/0.13/)
-* 📦 [**More Radical Trainers - Datapack**](https://modrinth.com/datapack/more-radical-trainers)
-
----
-
 {% hint style="success" %}
-
 ## 📥 Contact Us
 
 <p align="center">
