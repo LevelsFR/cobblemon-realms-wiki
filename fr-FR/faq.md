@@ -50,6 +50,66 @@ Oui, à condition que votre configuration puisse les supporter et que les shader
 
 ## 🐾 Gameplay & progression
 
+### 🏝️ Où commence mon aventure dans la v6 ?
+
+Votre aventure commence sur **Spawn Island**, le hub central de Cobblemon Realms.
+
+Votre premier objectif principal est de rencontrer **Professor Oak** et de choisir votre starter. Si vous ne savez pas où aller, parlez à **Mila, la Spawn Guide**, près de la zone de départ. Elle peut vous téléporter vers plusieurs lieux importants comme le laboratoire de Professor Oak, le PokéCenter, le PokéShop, le village et le League Hall.
+
+📘 [Premiers pas](getting-started.md)
+
+### 🎒 Que reçoit-on au début de l'aventure ?
+
+Après avoir choisi votre starter avec Professor Oak, vous recevez un **Pokédex** et une **Badge Box**.
+
+Le Pokédex vous aide à suivre vos découvertes de Pokémon, tandis que la Badge Box permet de suivre les Badges obtenus pendant le **Gym World Tour**.
+
+### 🔄 Comment retourner sur Spawn Island ?
+
+Vous pouvez revenir au hub principal à tout moment avec :
+
+- `/spawn`
+- `/hub`
+
+### 🏆 Comment fonctionne le Gym World Tour ?
+
+La progression officielle des dresseurs en v6 repose sur un unique **Gym World Tour** continu. Vous affrontez les Champions d'Arène dans un ordre strict, gagnez leurs Badges et augmentez progressivement votre Level Cap personnel.
+
+Le World Tour actuel contient **66 Champions d'Arène répartis sur 8 régions**, de Kanto à Paldea. Votre aventure commence avec un **Level Cap de 15**.
+
+📘 [Gym World Tour & Level Caps](pokemons-guides/levelcap-and-trainers.md)
+
+### 🚪 Comment accéder à mon prochain combat d'Arène ?
+
+Il existe deux moyens officiels d'accéder au prochain Champion auquel vous êtes éligible :
+
+- utiliser l'une des **League Doors** dans le League Hall de Spawn Island ;
+- découvrir une **Arena Entrance** en explorant l'Overworld.
+
+Les deux méthodes mènent au même prochain défi de votre progression actuelle dans le Gym World Tour.
+
+### 🏅 J'ai vaincu un Champion d'Arène, où est mon Badge ?
+
+Les Badges ne sont plus gérés comme de simples objets physiques déposés dans l'inventaire pendant la progression officielle.
+
+Votre victoire est enregistrée via le système intégré **PokeBadges** et le Badge apparaît dans votre **Badge Box**. Les victoires d'Arène sont également suivies via des advancements dédiés.
+
+{% hint style="info" %}
+💡 Si vous cherchez un objet Badge dans votre inventaire après une victoire, ce n'est pas le fonctionnement prévu de la progression v6.
+{% endhint %}
+
+### 🥊 Le Battle Court PvP fait-il avancer ma progression d'Arène ?
+
+Non. Le **Battle Court** situé dans le League Hall est complètement séparé du Gym World Tour.
+
+Les combats PvP n'accordent pas de Badge, n'augmentent pas votre Level Cap, ne valident pas un Champion d'Arène et ne font pas avancer votre progression officielle.
+
+### 🏁 Où se termine actuellement le Gym World Tour ?
+
+Le Gym World Tour actuellement implémenté se termine après les **Champions d'Arène de Paldea**, avec **Grusha** comme dernier défi d'Arène.
+
+Les étapes **Elite Four** et **League Champion** ne sont pas encore implémentées dans cette progression et sont prévues pour de futures extensions.
+
 ### 🐾 Pourquoi aucun Pokémon n'apparaît autour de moi ?
 
 Les apparitions dépendent de nombreux facteurs : **biome, heure, météo, position du joueur et conditions de spawn**.
@@ -57,6 +117,12 @@ Les apparitions dépendent de nombreux facteurs : **biome, heure, météo, posit
 Utilisez `/checkspawns` pour consulter les Pokémon susceptibles d'apparaître dans votre zone.
 
 📘 [Pokémon et apparitions](pokemon-and-spawns.md)
+
+### 🔎 Puis-je rechercher des informations Pokémon directement dans JEI ?
+
+Oui. L'intégration Cobblemon JEI incluse dans la branche v6 actuelle permet de rechercher des Pokémon selon des informations comme le **type, le talent, le biome, la génération, la forme et les objets obtenus**.
+
+Les filtres peuvent être combinés et les valeurs contenant des espaces peuvent être placées entre guillemets, par exemple `biome:"flower forest"`. L'interface propose également la navigation entre les évolutions, les informations sur les attaques et des recettes inversées indiquant quels Pokémon peuvent donner un objet.
 
 ### 📈 Où trouver les informations sur les level caps ?
 
@@ -125,11 +191,12 @@ Si vous ne savez pas par où commencer, voici quelques points d'entrée utiles :
 | 🔎 Je cherche... | 📖 Consultez... |
 | --- | --- |
 | Installer le modpack | [Guide d'installation](installation.md) |
-| Découvrir le modpack | [Premiers pas](getting-started.md) |
+| Commencer mon aventure | [Premiers pas](getting-started.md) |
+| Comprendre le Gym World Tour et les Badges | [Gym World Tour & Level Caps](pokemons-guides/levelcap-and-trainers.md) |
 | Jouer en multijoueur | [Serveurs multijoueur](multiplayer-servers.md) |
 | Comprendre les apparitions | [Pokémon et apparitions](pokemon-and-spawns.md) |
 | Comprendre les légendaires | [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md) |
-| Consulter les nouveautés | [Nouveautés v6.0+](whats-new-v6.md) |
+| Suivre les quêtes | [Quêtes](quests.md) |
 | Signaler un bug | [Signaler un problème](report-a-bug.md) |
 
 ***
