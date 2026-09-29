@@ -23,19 +23,6 @@ Ces créatures apparaissent naturellement dans le monde selon :
 
 ## 📚 Catégories
 
-Les formes sont regroupées en plusieurs familles thématiques :
-
-- 🧲 Série de Fer 
-- 🌿 Paradoxes Sauvages
-- 🌑 Formes Abyssales 
-- 🌪️ Formes Tempête  
-- 🧪 Anomalies Biologiques  
-- 🌊 Léviathans Anciens  
-
----
-
-## 📖 Navigation
-
 Retrouvez les détails de chaque catégorie ici :
 
 - [🧲 Série de Fer](iron_series.md)
