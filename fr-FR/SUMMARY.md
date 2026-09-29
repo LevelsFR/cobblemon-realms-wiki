@@ -93,7 +93,7 @@
   * [🎓 Génération 9 - Paldea/Kitakami](pokemons-guides/gen-list/gen_9.md)
 * [🎒⚙️ Objets & Mécaniques](pokemons-guides/items_meca.md)
 
-## Exclusivités Pokémon
+## Pokémon Exclusif
 
 * [👶 Baby Legends](pokemons-exclusives/baby-legends.md)
 * [🌊 Ash Greninja](pokemons-exclusives/ash-greninja.md)
