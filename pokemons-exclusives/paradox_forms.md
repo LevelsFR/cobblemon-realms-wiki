@@ -23,19 +23,6 @@ These creatures naturally appear in the world according to:
 
 ## 📚 Categories
 
-The forms are grouped into several thematic families:
-
-- 🧲 Iron Series 
-- 🌿 Wild Paradoxes  
-- 🌑 Shadow / Abyss Forms  
-- 🌪️ Storm / Energy Forms  
-- 🧪 Mutation / Bio Anomalies  
-- 🌊 Ancient Leviathans  
-
----
-
-## 📖 Navigation
-
 Find the details of each category here:
 
 → [🧲 Iron Series ](iron_series.md)  
