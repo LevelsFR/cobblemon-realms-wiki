@@ -111,7 +111,7 @@ Ces effets :
 
 {% hint style="warning" %}
 <p align="center">
-Les effets du PC sont basés sur les mécaniques des objets <strong><a href="../../mods-guides/CobbleSafari/perfumes_incense_repels.md">Parfums et Encens</a></strong>.
+Les effets du PC sont basés sur les mécaniques des objets <strong><a href="/fr-FR/mods-guides/CobbleSafari/perfumes_incense_repels">Parfums et Encens</a></strong>.
 <br>
 Leur puissance est donc directement liée à ces systèmes.
 </p>
