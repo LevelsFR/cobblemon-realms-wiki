@@ -111,7 +111,7 @@ These effects:
 
 {% hint style="warning" %}
 <p align="center">
-PC effects are based on the mechanics of <strong><a href="perfumes_incense_repels.md">Scents and Incenses</a></strong>.
+PC effects are based on the mechanics of <strong><a href="/mods-guides/CobbleSafari/perfumes_incense_repels">Scents and Incenses</a></strong>.
 <br>
 Their strength is therefore directly tied to these systems.
 </p>
