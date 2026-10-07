@@ -32,7 +32,7 @@ Some items also fall under utility or component categories, such as those relate
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Ticketaurora.png) | Aurora Ticket | A ticket required to board the ship to Birth Island, where the Mythical Pokémon Deoxys resides |
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Carte_Membre.png) | Member Card | An odd card needed to enter the locked Harbor Inn in Canalave City, leading to an encounter with the Mythical Pokémon Darkrai on Newmoon Island |
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Lettre_Chen.png) | Oak's Letter | A letter from Professor Oak requesting you go to Route 224 to meet the Mythical Pokémon Shaymin |
-| ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/GS_Ball.png) | GS Ball | A mysterious gold-and-silver Poké Ball related to the Mythical Pokémon Celebi, primarily featured in the anime and Japanese Pokémon Crystal |
+| ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/gs_ball.png) | GS Ball | A mysterious gold-and-silver Poké Ball related to the Mythical Pokémon Celebi, primarily featured in the anime and Japanese Pokémon Crystal |
 
 ## 🎶 Flutes, Bells & Feathers
 
