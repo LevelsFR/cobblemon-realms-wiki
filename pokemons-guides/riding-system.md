@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-This guide covers <strong>only the native riding system in Cobblemon 1.8.1</strong>, on Minecraft 1.21.1. The Pokémon, styles, seats and stat ranges below are based on the <strong>official Cobblemon riding reference</strong> and the versioned 1.8.1 species data.
+This guide covers <strong>only the native riding system in Cobblemon 1.8.1</strong>, on Minecraft 1.21.1. The Pokémon, styles, seats and stat ranges below are based on the <strong>official Cobblemon riding reference</strong> and the official 1.8.0/1.8.1 release notes. Versioned species JSON files are linked below for independent checking.
 </p>
 {% endhint %}
 
@@ -130,6 +130,123 @@ The **1.8.0** update also introduced support for **conditional seats**, includin
 
 ---
 
+## 🗂️ Complete Native Mounts and Seats
+
+**99 species or form entries** are listed for the native riding system in **Cobblemon 1.8.1**. This overview shows their environments, ride styles and declared seat counts. The detailed stat ranges follow in the three tables below.
+
+{% hint style="info" %}
+Seat counts come from the native riding definitions. Some seats may be conditional (for example by form or Alpha status) or depend on model seat locators. A configured seat does not guarantee an available passenger position on every visual variant.
+{% endhint %}
+
+<details>
+<summary><strong>📖 Show all 99 mount entries</strong></summary>
+
+| Pokémon | Seats | Land | Water | Air |
+| --- | :---: | --- | --- | --- |
+| Venusaur | 1 | Standard | — | — |
+| Charizard | 1 | Standard | — | Bird |
+| Blastoise | 1 | Standard | Submarine | Rocket |
+| Pidgeot | 1 | Standard | — | Bird |
+| Parasect | 1 | Standard | — | — |
+| Arcanine | 1 | Standard | — | — |
+| Dewgong | 2 | Standard | Dolphin | — |
+| Rhyhorn | 1 | Standard | — | — |
+| Rhydon | 1 | Standard | — | — |
+| Seaking | 1 | — | Submarine | — |
+| Mr. Mime | 1 | Standard | — | — |
+| Tauros | 1 | Standard | — | — |
+| Tauros (Paldea-Aqua) | 1 | Standard | Boat | — |
+| Tauros (Paldea-Blaze) | 1 | Standard | — | — |
+| Tauros (Paldea-Combat) | 1 | Standard | — | — |
+| Gyarados | 1 | Standard | Dolphin | Jet |
+| Lapras | 1 | Standard | Boat | — |
+| Aerodactyl | 1 | Standard | — | Bird |
+| Articuno | 1 | Standard | — | Bird |
+| Zapdos | 1 | Standard | — | Bird |
+| Moltres | 1 | Standard | — | Bird |
+| Dragonite | 2 | Standard | Dolphin | Jet |
+| Ariados | 1 | Standard | — | — |
+| Crobat | 1 | Standard | — | Bird |
+| Girafarig | 1 | Standard | — | — |
+| Forretress | 1 | — | — | Hover |
+| Heracross | 1 | Standard | — | Bird |
+| Ursaring | 1 | Standard | — | — |
+| Piloswine | 1 | Standard | — | — |
+| Mantine | 1 | Standard | Dolphin | Bird |
+| Skarmory | 1 | Standard | — | Bird |
+| Lugia | 1 | Standard | Dolphin | Bird |
+| Ho-Oh | 2 | Standard | — | Bird |
+| Slaking | 1 | Standard | — | — |
+| Sharpedo | 1 | — | Dolphin | — |
+| Wailmer | 1 | Standard | Submarine | — |
+| Wailord | 19 | Standard | Submarine | — |
+| Camerupt | 6 | Standard | — | — |
+| Flygon | 1 | Standard | — | Bird |
+| Altaria | 1 | Standard | — | Bird |
+| Claydol | 1 | — | — | Hover |
+| Milotic | 1 | Standard | Dolphin | — |
+| Tropius | 2 | Standard | — | Bird |
+| Relicanth | 1 | — | Submarine | — |
+| Salamence | 2 | Standard | — | Bird |
+| Metagross | 4 | Standard | — | Hover |
+| Latias | 1 | Standard | — | Jet |
+| Latios | 1 | Standard | — | Jet |
+| Staraptor | 1 | Standard | — | Bird |
+| Bastiodon | 2 | Standard | — | — |
+| Gastrodon | 1 | Standard | — | — |
+| Drifblim | 1 | — | — | Hover |
+| Honchkrow | 1 | Standard | — | Bird |
+| Bronzong | 2 | — | — | Hover |
+| Garchomp | 1 | Standard | Boat | Jet |
+| Magnezone | 1 | — | — | Hover |
+| Lickilicky | 2 | Standard | — | — |
+| Rhyperior | 1 | Standard | — | — |
+| Togekiss | 1 | Standard | — | Jet |
+| Mamoswine | 3 | Standard | — | — |
+| Dusknoir | 1 | — | — | Hover |
+| Serperior | 1 | Standard | — | — |
+| Zebstrika | 1 | Standard | — | — |
+| Scolipede | 1 | Standard | — | — |
+| Darmanitan | 1 | Standard | — | — |
+| Crustle | 4 | Standard | — | — |
+| Archeops | 1 | Standard | — | Bird |
+| Klinklang | 1 | — | — | Hover |
+| Golurk | 3 | Standard | — | Rocket |
+| Bouffalant | 1 | Standard | — | — |
+| Braviary | 1 | Standard | — | Bird |
+| Braviary (Hisui) | 1 | Standard | — | Bird |
+| Hydreigon | 2 | Standard | — | Bird |
+| Volcarona | 1 | Standard | — | Bird |
+| Skiddo | 1 | Standard | — | — |
+| Gogoat | 1 | Standard | — | — |
+| Tyrantrum | 2 | Standard | — | — |
+| Goodra | 1 | Standard | — | — |
+| Goodra (Hisui) | 1 | Standard | — | — |
+| Noivern | 1 | Standard | — | Bird |
+| Mudsdale | 1 | Standard | — | — |
+| Drampa | 1 | Standard | Boat | Bird |
+| Dhelmise | 1 | Standard | Submarine | — |
+| Corviknight | 2 | Standard | — | Bird |
+| Duraludon | 1 | Standard | — | — |
+| Dragapult | 1 | Standard | Dolphin | Jet |
+| Wyrdeer | 1 | Standard | — | — |
+| Ursaluna | 2 | Standard | — | — |
+| Sneasler | 1 | Standard | — | — |
+| Kilowattrel | 1 | Standard | — | Bird |
+| Espathra | 1 | Standard | — | — |
+| Revavroom | 2 | Standard | — | — |
+| Cyclizar | 1 | Standard | — | — |
+| Orthworm | 1 | Standard | — | — |
+| Dondozo | 7 | Standard | Submarine | — |
+| Farigiraf | 1 | Standard | — | — |
+| Dudunsparce | 2 | Standard | — | — |
+| Dudunsparce (Three-Segment) | 2 | Standard | — | — |
+| Archaludon | 1 | Standard | — | — |
+
+</details>
+
+---
+
 ## 📋 Complete Native Ride Stats — 1.8.1
 
 The three expandable tables preserve the **configured stats for each environment separately**. A Pokémon may appear in several tables with **different values**. Abbreviations: **Accel.**, **Skill**, **Speed**, **Stam.**, **Jump**.
@@ -205,7 +322,7 @@ These are the **native Cobblemon** listings, not the additional Cobblemon Ride+ 
 | Crustle | 15-45 | 25-35 | 1-5 | 60-85 | 0-5 |
 | Archeops | 55-65 | 10-25 | 25-40 | 20-40 | 25-35 |
 | Golurk | 65-80 | 40-65 | 35-50 | 60-85 | 40-60 |
-| Frison | 50-75 | 15-30 | 45-65 | 55-70 | 20-30 |
+| Bouffalant | 50-75 | 15-30 | 45-65 | 55-70 | 20-30 |
 | Braviary | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
 | Braviary (Hisui) | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
 | Hydreigon | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
@@ -330,11 +447,11 @@ These are the **native Cobblemon** listings, not the additional Cobblemon Ride+ 
 ---
 
 {% hint style="info" %}
-**Sources for this 1.8.1 snapshot:**
+**References for this 1.8.1-focused guide:**
 - [Cobblemon official Riding wiki](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) — ride styles, seat counts and configured stat ranges.
 - [Cobblemon 1.8.0 changelog](https://wiki.cobblemon.com/index.php/1.8.0) — the ten new native mounts and conditional seating.
 - [Cobblemon 1.8.1 changelog](https://wiki.cobblemon.com/index.php/1.8.1) — the Blastoise passenger-seat correction.
-- [Cobblemon 1.8.1 species source](https://gitlab.com/cable-mc/cobblemon/-/tree/1.8.1/common/src/main/resources/data/cobblemon/species) — the version-specific `riding.behaviours`, `stats` and `seats` definitions.
+- [Cobblemon 1.8.1 species source](https://gitlab.com/cable-mc/cobblemon/-/tree/1.8.1/common/src/main/resources/data/cobblemon/species) — versioned JSON files for independent verification of ride definitions. The complete raw 1.8.1 archive has not been audited here.
 
 Future Cobblemon versions or additional datapacks may change these entries. This page intentionally targets **Cobblemon 1.8.1 only**.
 {% endhint %}
