@@ -2,7 +2,7 @@
 
 {% hint style="warning" %}
 <p align="center">
-These forms do not exist in the official Cobblemon mod. This is neither a bug nor an oversight. Although they may appear in the <code>Party</code> menu, they retain their normal appearance in-game. This is <strong>normal</strong>. Therefore, no images are displayed, but the alt text is preserved in case they are added officially in the future.
+These forms do not exist in the official Cobblemon mod. This is neither a bug nor an oversight. Although they may appear in the <code>Party</code> menu, they retain their normal appearance in-game. This is <strong>normal</strong>. No artwork is displayed; text labels identify the unavailable illustrations until suitable artwork becomes available.
 </p>
 {% endhint %}
 
