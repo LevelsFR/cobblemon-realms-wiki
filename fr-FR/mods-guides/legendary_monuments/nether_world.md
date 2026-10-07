@@ -10,7 +10,7 @@ Structure permettant d'obtenir <strong>Heatran</strong>.
 
 ### 🧭 Aperçu rapide
 
-- 🎯 Objectif : obtenir [Heatran](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#heatran)
+- 🎯 Objectif : obtenir [Heatran](../../pokemons-guides/gen-list2/gen_4.md#heatran)
 - 🗺️ Gameplay : exploration et invocation
 - ⚠️ Difficulté : élevée
 - 🎁 Loot : nombreux coffres, dont une salle secrète
@@ -21,7 +21,7 @@ Structure permettant d'obtenir <strong>Heatran</strong>.
 - Nombreux monstres dangereux
 - Grande quantité de coffres à explorer
 - Salle secrète contenant du butin supplémentaire
-- Piédestal permettant d'invoquer [Heatran](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_4#heatran)
+- Piédestal permettant d'invoquer [Heatran](../../pokemons-guides/gen-list2/gen_4.md#heatran)
 
 ### 🌍 Génération
 
@@ -53,10 +53,10 @@ Structures permettant d'obtenir <strong>Chongjian</strong>, <strong>Baojian</str
 
 ### 🌍 Génération
 
-- 🍃 **Sanctuaire du Fléau Plante** → invoque **[Chongjian](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#chongjian)** → 🌳 Forêt Biscornue
-- 🧊 **Sanctuaire du Fléau Glace** → invoque **[Baojian](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#baojian)** → 🪨 Delta de Basalte
-- 🎭 **Sanctuaire du Fléau Terre** → invoque **[Dinglu](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#dinglu)** → 💀 Vallée des Âmes
-- 🔥 **Sanctuaire du Fléau Feu** → invoque **[Yuyu](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#yuyu)** → 🌋 Étendues du Nether
+- 🍃 **Sanctuaire du Fléau Plante** → invoque **[Chongjian](../../pokemons-guides/gen-list2/gen_9.md#chongjian)** → 🌳 Forêt Biscornue
+- 🧊 **Sanctuaire du Fléau Glace** → invoque **[Baojian](../../pokemons-guides/gen-list2/gen_9.md#baojian)** → 🪨 Delta de Basalte
+- 🎭 **Sanctuaire du Fléau Terre** → invoque **[Dinglu](../../pokemons-guides/gen-list2/gen_9.md#dinglu)** → 💀 Vallée des Âmes
+- 🔥 **Sanctuaire du Fléau Feu** → invoque **[Yuyu](../../pokemons-guides/gen-list2/gen_9.md#yuyu)** → 🌋 Étendues du Nether
 
 ***
 
