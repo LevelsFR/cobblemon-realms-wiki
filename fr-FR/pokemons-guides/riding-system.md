@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-Ce guide décrit <strong>uniquement les montures natives de Cobblemon 1.8.1</strong>, pour Minecraft 1.21.1. Les espèces, styles, places et plages de statistiques ci-dessous sont établis d'après le <strong>wiki officiel de Cobblemon</strong> et les données d'espèces de la version 1.8.1.
+Ce guide décrit <strong>uniquement les montures natives de Cobblemon 1.8.1</strong>, pour Minecraft 1.21.1. Les espèces, styles, places et plages de statistiques ci-dessous sont établis d'après le <strong>wiki officiel de Cobblemon</strong> et les notes de version officielles 1.8.0/1.8.1. Les JSON d'espèces sont liés en fin de page pour une vérification indépendante.
 </p>
 {% endhint %}
 
@@ -127,6 +127,123 @@ Ces dix Pokémon ajoutés au système de montures en **1.8.0** sont également p
 {% hint style="info" %}
 La version **1.8.0** a également introduit les **places conditionnelles** : certaines peuvent dépendre de propriétés du Pokémon, comme le statut Alpha. Une valeur maximale de places ne signifie donc pas que chaque forme ou modèle dispose systématiquement de tous ces emplacements.
 {% endhint %}
+
+---
+
+## 🗂️ Liste complète des montures natives et de leurs places
+
+**99 entrées d'espèces ou de formes** prises en charge par le système natif de **Cobblemon 1.8.1**. Ce récapitulatif indique précisément les milieux, les styles et le nombre de places déclarés. Les statistiques détaillées se trouvent dans les trois tableaux suivants.
+
+{% hint style="info" %}
+Le nombre de places est celui de la définition native. Certaines places peuvent être conditionnelles (par exemple selon la forme ou l'état Alpha) ou nécessiter un point d'ancrage adapté dans le modèle. Une place déclarée n'est donc pas une garantie pour toutes les variantes visuelles.
+{% endhint %}
+
+<details>
+<summary><strong>📖 Afficher les 99 entrées de montures</strong></summary>
+
+| Pokémon | Places | Terre | Eau | Air |
+| --- | :---: | --- | --- | --- |
+| Florizarre | 1 | Standard | — | — |
+| Dracaufeu | 1 | Standard | — | Oiseau |
+| Tortank | 1 | Standard | Sous-marin | Fusée |
+| Roucarnage | 1 | Standard | — | Oiseau |
+| Parasect | 1 | Standard | — | — |
+| Arcanin | 1 | Standard | — | — |
+| Lamantine | 2 | Standard | Dauphin | — |
+| Rhinocorne | 1 | Standard | — | — |
+| Rhinoféros | 1 | Standard | — | — |
+| Poissoroy | 1 | — | Sous-marin | — |
+| Mr. Mime | 1 | Standard | — | — |
+| Tauros | 1 | Standard | — | — |
+| Tauros (Paldea-Aqua) | 1 | Standard | Bateau | — |
+| Tauros (Paldea-Blaze) | 1 | Standard | — | — |
+| Tauros (Paldea-Combat) | 1 | Standard | — | — |
+| Léviator | 1 | Standard | Dauphin | Jet |
+| Lokhlass | 1 | Standard | Bateau | — |
+| Ptéra | 1 | Standard | — | Oiseau |
+| Artikodin | 1 | Standard | — | Oiseau |
+| Électhor | 1 | Standard | — | Oiseau |
+| Sulfura | 1 | Standard | — | Oiseau |
+| Dracolosse | 2 | Standard | Dauphin | Jet |
+| Migalos | 1 | Standard | — | — |
+| Nostenfer | 1 | Standard | — | Oiseau |
+| Girafarig | 1 | Standard | — | — |
+| Forêtress | 1 | — | — | Stationnaire |
+| Scarhino | 1 | Standard | — | Oiseau |
+| Ursaring | 1 | Standard | — | — |
+| Cochignon | 1 | Standard | — | — |
+| Démanta | 1 | Standard | Dauphin | Oiseau |
+| Airmure | 1 | Standard | — | Oiseau |
+| Lugia | 1 | Standard | Dauphin | Oiseau |
+| Ho-Oh | 2 | Standard | — | Oiseau |
+| Monaflèmit | 1 | Standard | — | — |
+| Sharpedo | 1 | — | Dauphin | — |
+| Wailmer | 1 | Standard | Sous-marin | — |
+| Wailord | 19 | Standard | Sous-marin | — |
+| Camérupt | 6 | Standard | — | — |
+| Libégon | 1 | Standard | — | Oiseau |
+| Altaria | 1 | Standard | — | Oiseau |
+| Kaorine | 1 | — | — | Stationnaire |
+| Milobellus | 1 | Standard | Dauphin | — |
+| Tropius | 2 | Standard | — | Oiseau |
+| Relicanth | 1 | — | Sous-marin | — |
+| Drattak | 2 | Standard | — | Oiseau |
+| Métalosse | 4 | Standard | — | Stationnaire |
+| Latias | 1 | Standard | — | Jet |
+| Latios | 1 | Standard | — | Jet |
+| Étouraptor | 1 | Standard | — | Oiseau |
+| Bastiodon | 2 | Standard | — | — |
+| Tritosor | 1 | Standard | — | — |
+| Grodrive | 1 | — | — | Stationnaire |
+| Corboss | 1 | Standard | — | Oiseau |
+| Archéodong | 2 | — | — | Stationnaire |
+| Carchacrok | 1 | Standard | Bateau | Jet |
+| Magnézone | 1 | — | — | Stationnaire |
+| Coudlangue | 2 | Standard | — | — |
+| Rhinastoc | 1 | Standard | — | — |
+| Togekiss | 1 | Standard | — | Jet |
+| Mammochon | 3 | Standard | — | — |
+| Noctunoir | 1 | — | — | Stationnaire |
+| Majaspic | 1 | Standard | — | — |
+| Zéblitz | 1 | Standard | — | — |
+| Brutapode | 1 | Standard | — | — |
+| Darumacho | 1 | Standard | — | — |
+| Crabaraque | 4 | Standard | — | — |
+| Aéroptéryx | 1 | Standard | — | Oiseau |
+| Cliticlic | 1 | — | — | Stationnaire |
+| Golemastoc | 3 | Standard | — | Fusée |
+| Frison | 1 | Standard | — | — |
+| Gueriaigle | 1 | Standard | — | Oiseau |
+| Gueriaigle (Hisui) | 1 | Standard | — | Oiseau |
+| Trioxhydre | 2 | Standard | — | Oiseau |
+| Pyrax | 1 | Standard | — | Oiseau |
+| Cabriolaine | 1 | Standard | — | — |
+| Chevroum | 1 | Standard | — | — |
+| Rexillius | 2 | Standard | — | — |
+| Muplodocus | 1 | Standard | — | — |
+| Muplodocus (Hisui) | 1 | Standard | — | — |
+| Bruyverne | 1 | Standard | — | Oiseau |
+| Bourrinos | 1 | Standard | — | — |
+| Draïeul | 1 | Standard | Bateau | Oiseau |
+| Sinistrail | 1 | Standard | Sous-marin | — |
+| Corvaillus | 2 | Standard | — | Oiseau |
+| Duralugon | 1 | Standard | — | — |
+| Lanssorien | 1 | Standard | Dauphin | Jet |
+| Cerbyllin | 1 | Standard | — | — |
+| Ursaking | 2 | Standard | — | — |
+| Farfurex | 1 | Standard | — | — |
+| Fulgulairo | 1 | Standard | — | Oiseau |
+| Cléopsytra | 1 | Standard | — | — |
+| Vrombotor | 2 | Standard | — | — |
+| Motorizard | 1 | Standard | — | — |
+| Ferdeter | 1 | Standard | — | — |
+| Oyacata | 7 | Standard | Sous-marin | — |
+| Farigiraf | 1 | Standard | — | — |
+| Deusolourdo | 2 | Standard | — | — |
+| Deusolourdo (Forme Triple) | 2 | Standard | — | — |
+| Pondralugon | 1 | Standard | — | — |
+
+</details>
 
 ---
 
@@ -330,11 +447,11 @@ Les montures supplémentaires de **Cobblemon Ride+** ne figurent pas dans ces ta
 ---
 
 {% hint style="info" %}
-**Sources utilisées pour cette version 1.8.1 :**
+**Références de cette page ciblant 1.8.1 :**
 - [Wiki officiel Cobblemon — Riding](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) : styles, places et plages de statistiques.
 - [Changelog Cobblemon 1.8.0](https://wiki.cobblemon.com/index.php/1.8.0) : les dix nouvelles montures natives et les places conditionnelles.
 - [Changelog Cobblemon 1.8.1](https://wiki.cobblemon.com/index.php/1.8.1) : correction du siège supplémentaire de Tortank.
-- [Source des espèces Cobblemon 1.8.1](https://gitlab.com/cable-mc/cobblemon/-/tree/1.8.1/common/src/main/resources/data/cobblemon/species) : déclarations versionnées `riding.behaviours`, `stats` et `seats`.
+- [Source des espèces Cobblemon 1.8.1](https://gitlab.com/cable-mc/cobblemon/-/tree/1.8.1/common/src/main/resources/data/cobblemon/species) : fichiers JSON versionnés à consulter pour vérifier les données de monture. Le contenu brut complet de cette archive n'a pas été audité ici.
 
 Les versions ultérieures de Cobblemon ou des datapacks supplémentaires peuvent modifier ces données. Cette page est volontairement limitée à **Cobblemon 1.8.1**.
 {% endhint %}
