@@ -40,7 +40,7 @@ The legends of Johto tell the story of sacred guardians watching over the balanc
 
 To obtain **Raikou**, you must first craft a `Raikou Treat`. Its crafting requires several Cobblemon berries as well as a `Poketreat Box`, occasionally sold by the [Entrepreneur Villager](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/entrepreneur_villager).
 
-Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#tour-cendree) and place it on the [Raikou Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
+Once you have obtained the treat, go to the [Burned Tower](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/overworld_world#burned-tower) and place it on the [Raikou Pedestal](https://wiki.cobblemon-realms.com/mods-guides/legendary_monuments/pedestals).
 
 A **level 40 Raikou will then appear**, with a **2% chance of being shiny**.
 
@@ -182,7 +182,7 @@ Using the pedestal will also reward you with a `Blue Feather`. By combining it w
 
 ### 🗝️ How to obtain
 
-To obtain **Lugia**, you must first summon [Articuno](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#artikodin), [Zapdos](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#electhor) and [Moltres](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#sulfura) using the urns. Each of them will give you a stone: the `Arctic Stone`, the `Zap Stone` and the `Molten Stone`.
+To obtain **Lugia**, you must first summon [Articuno](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#articuno), [Zapdos](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#zapdos) and [Moltres](https://wiki.cobblemon-realms.com/pokemons-guides/gen-list2/gen_1#moltres) using the urns. Each of them will give you a stone: the `Arctic Stone`, the `Zap Stone` and the `Molten Stone`.
 
 By combining these three stones on a crafting table, you will obtain a `Vortex Stone`.
 
