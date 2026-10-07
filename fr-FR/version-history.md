@@ -35,7 +35,7 @@ La branche **v6.x** est publique. **v6.1 introduit Cobblemon 1.8**, ainsi que de
 
 Cette chronologie réunit les versions client historiques et les publications de la branche **v6.x** identifiées sur CurseForge. Certains fichiers supplémentaires correspondent à des **Server Packs** ; ils ne constituent pas de nouvelles versions client. La numérotation officielle n’est pas toujours continue.
 
-Sauf indication contraire, toutes les versions ciblent **Minecraft 1.21.1 avec NeoForge**.
+Les versions récentes des branches **5.x et 6.x** listées ici ciblent **Minecraft 1.21.1 avec NeoForge**. Pour toute archive plus ancienne, vérifiez les versions Minecraft et le modloader directement sur sa fiche CurseForge.
 
 ---
 
