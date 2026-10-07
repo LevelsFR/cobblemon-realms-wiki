@@ -10,7 +10,7 @@ Structure used to obtain <strong>Hoopa</strong>.
 
 ### 🧭 Quick Overview
 
-- 🎯 Objective: obtain [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_6#hoopa)
+- 🎯 Objective: obtain [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
 - 🗺️ Gameplay: exploration, puzzles, battles, and quiz
 - ⚠️ Difficulty: high
 - 🎁 Loot: rewards throughout the exploration
@@ -20,8 +20,8 @@ Structure used to obtain <strong>Hoopa</strong>.
 - Large main maze
 - Two secondary mazes
 - Battle against a **Shiny Hoopa Unbound** illusion
-- Quiz about the world of [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_6#hoopa)
-- Final reward allowing you to summon [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_6#hoopa)
+- Quiz about the world of [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
+- Final reward allowing you to summon [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
 
 ### 🌍 Generation
 
@@ -40,7 +40,7 @@ Structure used to obtain <strong>Eternatus</strong>.
 
 ### 🧭 Quick Overview
 
-- 🎯 Objective: obtain [Eternatus](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_8#eternatus)
+- 🎯 Objective: obtain [Eternatus](../../pokemons-guides/gen-list2/gen_8.md#eternatus)
 - 🧩 Gameplay: fill the Eternatus Cocoon
 - ⚠️ Difficulty: high
 - 🎁 Loot: none
@@ -49,7 +49,7 @@ Structure used to obtain <strong>Eternatus</strong>.
 
 - Contains an `Eternatus Cocoon`
 - The cocoon must be fully filled before Eternatus can be summoned
-- Once activated, it summons [Eternatus](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_8#eternatus)
+- Once activated, it summons [Eternatus](../../pokemons-guides/gen-list2/gen_8.md#eternatus)
 
 ### 🌍 Generation
 
