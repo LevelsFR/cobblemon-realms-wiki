@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns v6.0</strong> pour proposer des apparitions adaptées à chaque environnement du modpack. Un Pokémon peut apparaître selon son <strong>biome</strong>, la <strong>dimension</strong>, l'<strong>heure</strong>, la <strong>météo</strong>, la <strong>luminosité</strong>, l'<strong>altitude</strong>, les <strong>structures</strong>, les <strong>blocs environnants</strong> et bien d'autres conditions.
+<strong>Cobblemon Realms</strong> utilise le datapack personnalisé <strong>Biome Expanded Spawns (branche v6.x)</strong> pour proposer des apparitions adaptées à chaque environnement du modpack. Un Pokémon peut apparaître selon son <strong>biome</strong>, la <strong>dimension</strong>, l'<strong>heure</strong>, la <strong>météo</strong>, la <strong>luminosité</strong>, l'<strong>altitude</strong>, les <strong>structures</strong>, les <strong>blocs environnants</strong> et bien d'autres conditions.
 </p>
 {% endhint %}
 
@@ -49,8 +49,9 @@ Chaque dimension possède ses propres environnements et donc ses propres groupes
 | 🌎 **Overworld** | Principal terrain d'exploration : forêts, océans, grottes, montagnes, structures et autres environnements naturels. |
 | 🔥 **Nether** | Rencontres adaptées aux environnements volcaniques, à la lave, aux fossiles, aux ruines et aux structures du Nether. |
 | 🌌 **End** | Pokémon rares et rencontres de fin de progression répartis dans les différents environnements et structures de l'End. |
-| ☁️ **The Aether** | Apparitions personnalisées dans les quatre biomes Skyroot, incluant notamment des starters, fossiles, Pokémon Paradoxes, Ultra-Chimères et légendaires. |
+| ☁️ **The Aether** | Apparitions personnalisées dans les biomes de l'Aether, avec leurs propres règles de biome, d'altitude et de dimension. |
 | 🌑 **The Otherside** | Rencontres principalement orientées Spectre, Ténèbres, Dragon, Psy et contenu de fin de progression. |
+| 🐝 **The Bumblezone (si accessible)** | Le datapack contient aussi des règles pour des biomes de The Bumblezone. Ces apparitions nécessitent que la dimension correspondante soit effectivement installée et accessible. |
 
 ### 📖 Guides dédiés
 
@@ -79,7 +80,29 @@ Par exemple :
 
 Un même tag peut regrouper des **biomes Vanilla et des biomes ajoutés par des mods**, permettant de définir une règle d'apparition sans devoir répertorier chaque biome individuellement.
 
+Certains tags contiennent également des références à d'autres tags ou à des biomes de mods **optionnels** : un tag présent dans le fichier ne prouve pas qu'un biome est accessible dans votre installation.
+
 ⮕ Consultez la [**Référence des tags de biome**](pokemons-guides/biome-tags-reference.md) pour retrouver les tags utilisés par le modpack et les biomes associés.
+
+---
+
+## 📂 Comment lire les données du datapack
+
+Le datapack fourni pour la branche **v6.x** contient des fichiers d'apparitions individuelles, des **troupeaux** (`pokemon-herd`), des **tags de biome**, des presets et des pools d'habitats. Il ne s'agit donc pas d'une simple liste « Pokémon → biome ».
+
+| Élément | Ce qu'il signifie |
+| --- | --- |
+| **Pokémon / forme** | L'espèce, et parfois une forme ou des propriétés spéciales |
+| **Biome ou tag** | Les lieux où la règle peut s'appliquer ; un tag commençant par `#` représente plusieurs biomes |
+| **Conditions** | Les paramètres qui doivent être réunis : lumière, heure, météo, altitude, structure, etc. |
+| **Exclusions** | Les paramètres qui empêchent cette règle de fonctionner, même si le biome correspond |
+| **Position** | Pokémon au sol, immergé, à la surface, au fond de l'eau ou obtenu par la pêche |
+| **Rareté et poids** | Le groupe de sélection et le poids relatif **par rapport aux autres règles éligibles**, pas un pourcentage fixe de capture ou d'apparition |
+| **Troupeau** | Une règle d'apparition de groupe dont les membres et les tailles varient selon sa configuration |
+
+{% hint style="info" %}
+Un tag de biome n'est **pas** un biome Minecraft unique. Par exemple, le datapack associe `#cobblemon:is_jungle` à des biomes vanilla et, lorsque les mods correspondants sont installés, à des biomes additionnels. L'ensemble dépend des mods réellement présents sur le serveur.
+{% endhint %}
 
 ---
 
@@ -182,9 +205,27 @@ Les apparitions liées à la pêche peuvent également dépendre de la **canne, 
 
 ---
 
+## 🔬 Exemples vérifiés dans le datapack
+
+Les exemples ci-dessous proviennent des **fichiers de spawn joints**, et non d'une estimation des probabilités en jeu.
+
+| Pokémon | Règle présente dans le datapack | Ce qu'il faut retenir |
+| --- | --- | --- |
+| 🌱 **Bulbizarre** | Apparition au sol en zone `#cobblemon:is_jungle` ou `#cobblemon:is_tropical_island`, avec luminosité du ciel de 8 à 15 | Il existe aussi une **règle distincte liée aux PokéSnacks** en jungle : ce n'est pas une obligation pour toutes ses apparitions |
+| ⚡ **Pikachu** | Une règle en `#cobblemon:is_forest`, hors `#cobblemon:is_spooky`, avec un **multiplicateur de poids ×5 pendant l'orage** | L'orage augmente le poids de cette règle ; il ne garantit pas de voir Pikachu ni de multiplier par cinq le nombre total de Pokémon |
+| 🎣 **Magicarpe** | Plusieurs règles aquatiques et de pêche, dont une rencontre immergée en eau douce ou océan avec accès au ciel | Il faut distinguer la pêche des apparitions naturelles dans l'eau |
+| 🌸 **Mew** | Règle Ultra Rare en `#cobblemon:is_floral` ou `#cobblemon:is_jungle`, avec un bonus de poids de **1,15× à midi** | Le bonus ne signifie pas que Mew est impossible à rencontrer hors de midi |
+| 🏛️ **Mewtwo** | Règle Ultra Rare demandant `#cobblemon:is_deep_dark` **et** la structure `minecraft:stronghold` | Être simplement dans le Deep Dark n'est pas suffisant : plusieurs conditions doivent coïncider |
+
+{% hint style="warning" %}
+Les exemples illustrent les **règles déclarées** dans cette version du datapack, pas une garantie de rencontre. Les presets, les limites de spawn, les règles de Cobblemon et les autres mods peuvent également influencer le résultat final.
+{% endhint %}
+
+---
+
 ## ✨ Comprendre la rareté
 
-Les rencontres sont réparties en **quatre grandes catégories de rareté** :
+Les apparitions ordinaires utilisent **quatre catégories de rareté principales**. Le datapack inclut également un bucket spécial **Boss**, utilisé par certaines règles spécifiques :
 
 | ✨ Rareté | 📖 Signification |
 | --- | --- |
@@ -192,8 +233,11 @@ Les rencontres sont réparties en **quatre grandes catégories de rareté** :
 | 🔵 **Peu commune** | Rencontre moins fréquente, mais relativement accessible. |
 | 🟣 **Rare** | Rencontre peu courante nécessitant souvent des conditions plus précises. |
 | 🟡 **Ultra Rare** | Rencontres extrêmement difficiles à obtenir naturellement. |
+| 🔴 **Boss (spécial)** | Groupe distinct utilisé pour des apparitions spéciales, notamment certaines règles de Pokémon Alpha ou de troupeaux. Ce n'est pas une cinquième rareté « normale ». |
 
 Les catégories **Ultra Rare** regroupent notamment de nombreux starters, fossiles, Pokémon Paradoxes, Ultra-Chimères ainsi que des Pokémon légendaires et mythiques.
+
+Les **poids des règles** et les conditions actives influencent aussi la sélection. Une espèce classée Ultra Rare ne possède pas un taux d'apparition universel : plusieurs Pokémon et règles peuvent entrer en concurrence dans le même environnement.
 
 {% hint style="info" %}
 💡 <strong>Un Pokémon peut posséder plusieurs apparitions avec des raretés différentes.</strong> Sa rareté dépend donc de la règle d'apparition utilisée, et non uniquement de l'espèce.
@@ -227,6 +271,8 @@ Le bot Discord **@Our Story** permet également de rechercher les données d'app
 | 🇫🇷 Français | `/tesou <pokemon_name>` |
 | 🇩🇪 Allemand | `/wobistdu <pokemon_name>` |
 | 🇯🇵 Japonais / Rōmaji | `/doko <pokemon_name>` |
+
+Les résultats doivent être lus comme des **conditions d'apparition**, pas comme la position GPS actuelle d'un Pokémon. Le bot et le serveur doivent aussi disposer de données cohérentes avec la version du datapack utilisée.
 
 Les résultats peuvent notamment afficher :
 
