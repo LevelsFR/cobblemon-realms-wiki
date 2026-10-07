@@ -86,7 +86,12 @@ marked.use({
 
 function renderGitBookMarkdown(source, sourceDir) {
   const blocks = [];
-  let text = source;
+  // The wiki repository was transferred from LevelsCraft7 to LevelsFR.
+  // Keep legacy Markdown image URLs working in generated pages without changing the original content/layout.
+  let text = source.replace(
+    /https:\/\/raw\.githubusercontent\.com\/LevelsCraft7\/cobblemon-realms-wiki\/(?:refs\/heads\/main|main)\//g,
+    'https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/'
+  );
 
   const storeBlock = (html) => {
     const token = `@@GITBOOK_BLOCK_${blocks.length}@@`;
