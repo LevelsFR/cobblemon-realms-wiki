@@ -18,11 +18,47 @@ Consultez les guides associés ou contactez-nous directement sur <a href="https:
 
 ### 🚫 Mon jeu plante au lancement
 
-Les problèmes au lancement peuvent avoir plusieurs causes : version de Java incorrecte, mémoire insuffisante, installation incomplète ou fichiers du modpack corrompus.
+Un crash au lancement peut provenir de **Java**, de la **mémoire**, d'un téléchargement incomplet ou d'un mod ajouté manuellement.
 
-Avant toute chose, vérifiez que vous utilisez **Java 21** et que suffisamment de mémoire est allouée au jeu.
+{% stepper %}
+{% step %}
+☕ Vérifiez **Minecraft 1.21.1**, **NeoForge**, **Java 21** et la version exacte de Cobblemon Realms.
+{% endstep %}
 
-📘 [Consulter le guide d'installation](installation.md)
+{% step %}
+💾 Commencez avec environ **8 Go de RAM alloués** si votre PC le permet, sans attribuer toute la mémoire à Minecraft.
+{% endstep %}
+
+{% step %}
+📦 Vérifiez que tous les fichiers ont été téléchargés et qu'aucun ancien mod ne subsiste après une mise à jour.
+{% endstep %}
+
+{% step %}
+🧪 Testez **un nouveau profil propre** dans CurseForge. Sauvegardez vos mondes avant toute manipulation.
+{% endstep %}
+
+{% step %}
+📄 Si le problème persiste, récupérez `logs/latest.log` et le rapport dans `crash-reports/` s'il existe. Précisez quand le crash se produit et si vous avez ajouté des mods.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" %}
+Le **code de sortie 1** ne permet pas, à lui seul, d'identifier la cause. Les dernières lignes du journal peuvent correspondre à une erreur secondaire : transmettez le **journal complet**, après avoir masqué les informations privées.
+{% endhint %}
+
+📘 [Guide d'installation](installation.md) · [Signaler un problème](report-a-bug.md)
+
+### 📦 Comment mettre à jour le modpack sans casser mon profil ?
+
+Pour une mise à jour importante de la branche **v6.x**, privilégiez **un profil CurseForge séparé**. Sauvegardez vos mondes dans `saves/` et testez le nouveau profil avant d'importer vos données personnelles. Ne fusionnez pas les anciens dossiers `mods/`, `config/`, `kubejs/` et `defaultconfigs/` avec la nouvelle version.
+
+📘 [Mise à jour du client](installation.md)
+
+### 🖥️ Quelle est la différence entre le client et le Server Pack ?
+
+Le **client** permet de jouer sur votre ordinateur ; le **Server Pack** fournit les fichiers nécessaires à un serveur dédié. Les deux ne sont pas interchangeables et doivent correspondre à **la même version exacte** de Cobblemon Realms.
+
+📘 [Installation du serveur](installation.md)
 
 ### 💾 Quelle quantité de RAM faut-il allouer ?
 
@@ -112,9 +148,13 @@ Les étapes **Elite Four** et **League Champion** ne sont pas encore implément�
 
 ### 🐾 Pourquoi aucun Pokémon n'apparaît autour de moi ?
 
-Les apparitions dépendent de nombreux facteurs : **biome, heure, météo, position du joueur et conditions de spawn**.
+Le datapack **Biome Expanded Spawns v6.x** vérifie de nombreuses conditions : **biomes et tags, heure, météo, luminosité, altitude, structures, blocs proches et position d'apparition**.
 
-Utilisez `/checkspawns` pour consulter les Pokémon susceptibles d'apparaître dans votre zone.
+- 🔎 `/checkspawns` permet d'examiner les apparitions possibles autour de vous.
+- 🤖 Sur le Discord **Our Story**, `/tesou` et `/where` permettent de rechercher les règles d'une espèce.
+- 🎣 Certaines rencontres se produisent par **pêche** ou en **troupeau**.
+
+**Même avec le bon biome et les bonnes conditions, une rencontre n'est pas garantie.**
 
 📘 [Pokémon et apparitions](pokemon-and-spawns.md)
 
@@ -148,9 +188,11 @@ Oui. Le modpack ajoute notamment **des formes spéciales, des mécaniques inédi
 
 ### 👥 Puis-je commencer en solo puis rejoindre un serveur ?
 
-Oui. Une sauvegarde commencée en solo peut être transférée vers un serveur sans avoir à recommencer votre progression, à condition de transférer correctement les données du monde.
+**Souvent oui**, en transférant le **monde complet** vers un serveur compatible. Mais la progression peut dépendre des **données des joueurs, des UUID et des données propres aux mods**. Le transfert d'un inventaire seul ne garantit rien.
 
-📘 [Serveurs multijoueur](multiplayer-servers.md)
+Faites une **sauvegarde complète**, testez la migration sur une copie et vérifiez vos Pokémon, quêtes et données de progression.
+
+📘 [Serveurs multijoueur](multiplayer-servers.md) · [Guide de migration](installation.md)
 
 ### 🖥️ Puis-je héberger le modpack moi-même ?
 
@@ -160,7 +202,9 @@ Oui. Vous pouvez héberger votre propre serveur, à condition de disposer d'une 
 
 ### ☁️ Puis-je utiliser un hébergeur gratuit comme Aternos ou Minehut ?
 
-C'est techniquement possible, mais les performances peuvent être limitées pour un modpack aussi conséquent. Nous recommandons de privilégier un hébergement disposant de suffisamment de **RAM**, du **support de Java 21** et d'un accès aux fichiers du serveur.
+**Uniquement si cet hébergeur accepte réellement le pack.** Il doit prendre en charge **NeoForge 1.21.1**, **Java 21**, l'import du **Server Pack complet** et la RAM nécessaire. Certains hébergeurs gratuits limitent les fichiers personnalisés ou empêchent d'installer l'ensemble des mods.
+
+Vérifiez les limitations de votre hébergeur avant d'essayer : une offre « Minecraft » ne garantit pas la compatibilité.
 
 ***
 
@@ -174,15 +218,11 @@ Si le problème persiste, [signaler le problème](report-a-bug.md) afin qu'il pu
 
 ### ✏️ Puis-je contribuer au wiki ?
 
-Oui ! Les contributions sont les bienvenues. Vous pouvez notamment :
+Le wiki est **maintenu directement par l'équipe**. Vous pouvez néanmoins nous aider en **signalant une erreur**, en proposant une précision, une source fiable ou une traduction via Discord ou un signalement GitHub.
 
-- Corriger des erreurs ;
-- Améliorer des informations existantes ;
-- Ajouter de nouvelles informations ;
-- Traduire des pages ;
-- Signaler des informations obsolètes.
+L'équipe vérifie ensuite les propositions avant toute modification.
 
-📘 [Guide de contribution](contributing.md)
+📘 [Soutenir le projet](contributing.md) · [Signaler une erreur](report-a-bug.md)
 
 ### 🧭 Je ne sais pas quelle page consulter
 
@@ -198,6 +238,7 @@ Si vous ne savez pas par où commencer, voici quelques points d'entrée utiles :
 | Comprendre les légendaires | [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md) |
 | Suivre les quêtes | [Quêtes](quests.md) |
 | Signaler un bug | [Signaler un problème](report-a-bug.md) |
+| Consulter les anciennes versions | [Historique des versions](version-history.md) |
 
 ***
 
