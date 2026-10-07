@@ -1,7 +1,7 @@
 # 🥋 Évolutions de Wushours
 
 {% hint style="warning" %}
-<p align="center">Les formes n'existent pas dans le mod officiel de Cobblemon. Il ne s'agit ni d'une erreur ni d'un oubli. Bien qu'elles puissent apparaître dans le menu <code>Équipe</code>, elles conservent leur apparence normale en jeu. Ceci est <strong>normal</strong>. Aucune image n'est donc affichée, mais les textes alternatifs sont conservés en prévision d'un éventuel ajout futur.</p>
+<p align="center">Les formes n'existent pas dans le mod officiel de Cobblemon. Il ne s'agit ni d'une erreur ni d'un oubli. Bien qu'elles puissent apparaître dans le menu <code>Équipe</code>, elles conservent leur apparence normale en jeu. Ceci est <strong>normal</strong>. Aucune illustration n'est donc affichée : une mention textuelle indique les visuels indisponibles, en attendant un éventuel ajout futur.</p>
 {% endhint %}
 
 ## 👊🏼 Shifours - Style Poing Final
