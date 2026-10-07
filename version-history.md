@@ -35,7 +35,7 @@ The **v6.x** branch is public. **v6.1 introduces Cobblemon 1.8** along with subs
 
 This timeline covers historic client releases as well as confirmed **v6.x** releases on CurseForge. Some additional files are **Server Packs**, not separate client releases. Official version numbering is not always continuous.
 
-Unless stated otherwise, every release below targets **Minecraft 1.21.1 with NeoForge**.
+Recent **5.x and 6.x** releases listed here target **Minecraft 1.21.1 with NeoForge**. For older archived releases, check the exact Minecraft version and modloader on their individual CurseForge file pages.
 
 ---
 
