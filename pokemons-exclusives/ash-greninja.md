@@ -39,7 +39,7 @@
 
 - 🖱️ Right-click Greninja with the `Ash Cap` item to give it the `Battle Bond` ability
 - ℹ️ Requires a friendship level above 200.
-> ![]()💡 When a Greninja with this ability knocks out another Pokémon using an offensive move, unless the battle ends immediately afterward, it transforms into Ash Greninja. After the battle, it returns to its original form.
+> 💡 When a Greninja with this ability knocks out another Pokémon using an offensive move, unless the battle ends immediately afterward, it transforms into Ash Greninja. After the battle, it returns to its original form.
 
 ---
 
