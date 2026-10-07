@@ -160,7 +160,7 @@ Structure permettant d’obtenir les <strong>Fruits Dyna</strong>.
 
 Les Dyna Fruits sont utilisés pour :
 
-- ⚱️ Craft des [Urnes Galariennes](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/items_meca/urns_and_galarian_urns)
+- ⚱️ Craft des [Urnes Galariennes](urns_and_galarian_urns.md)
 - 🕊️ Progression vers le **Trio des Oiseaux de Galar**
 
 👉 Ils sont contenus dans un coffre situé **au pied de l’arbre**
