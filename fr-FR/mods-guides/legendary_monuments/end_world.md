@@ -10,7 +10,7 @@ Structure permettant d'obtenir <strong>Hoopa</strong>.
 
 ### 🧭 Aperçu rapide
 
-- 🎯 Objectif : obtenir [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
+- 🎯 Objectif : obtenir [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
 - 🗺️ Gameplay : exploration, énigmes, combat et quiz
 - ⚠️ Difficulté : élevée
 - 🎁 Loot : récompenses tout au long de l'exploration
@@ -20,8 +20,8 @@ Structure permettant d'obtenir <strong>Hoopa</strong>.
 - Grand labyrinthe principal
 - Deux labyrinthes secondaires
 - Combat contre une illusion de **Hoopa Déchaîné chromatique**
-- Quiz sur l'univers de [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
-- Récompense finale permettant d'invoquer [Hoopa](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_6#hoopa)
+- Quiz sur l'univers de [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
+- Récompense finale permettant d'invoquer [Hoopa](../../pokemons-guides/gen-list2/gen_6.md#hoopa)
 
 ### 🌍 Génération
 
@@ -40,8 +40,8 @@ Structure permettant d'obtenir <strong>Eternatus</strong>.
 
 ### 🧭 Aperçu rapide
 
-- 🎯 Objectif : obtenir [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
-- 🧩 Gameplay : remplir le Cocon d'[Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
+- 🎯 Objectif : obtenir [Éternatus](../../pokemons-guides/gen-list2/gen_8.md#ethernatos)
+- 🧩 Gameplay : remplir le Cocon d'[Éternatus](../../pokemons-guides/gen-list2/gen_8.md#ethernatos)
 - ⚠️ Difficulté : élevée
 - 🎁 Loot : aucun
 
@@ -49,7 +49,7 @@ Structure permettant d'obtenir <strong>Eternatus</strong>.
 
 - Contient un `Cocon d'Éternatus`
 - Le cocon doit être entièrement rempli avant de pouvoir invoquer Éternatus
-- Une fois activé, il fait apparaître [Éternatus](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_8#ethernatos)
+- Une fois activé, il fait apparaître [Éternatus](../../pokemons-guides/gen-list2/gen_8.md#ethernatos)
 
 ### 🌍 Génération
 
