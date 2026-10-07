@@ -23,7 +23,7 @@
 | 🌙 Défense Spé. | 60     |
 | ⚡ Vitesse       | 97     |
 
-![Shifours Poing Final](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_point_final.png) ![Shifours Poing Final Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_point_final_shiny.png)
+*Illustrations de Shifours Poing Final (normal et chromatique) non disponibles.*
 
 ***
 
@@ -74,7 +74,7 @@
 | 🌙 Défense Spé. | 60     |
 | ⚡ Vitesse       | 97     |
 
-![Shifours Mille Poings](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_mille_poings.png) ![Shifours Mille Poings Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_mille_poings_shiny.png)
+*Illustrations de Shifours Mille Poings (normal et chromatique) non disponibles.*
 
 ***
 
