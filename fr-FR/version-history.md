@@ -8,19 +8,19 @@ Cette page retrace les versions publiques de **Cobblemon Realms** publiées sur 
 
 ## ✅ État officiel actuel
 
-**Dernière vérification : 7 août 2026**
+**Dernière vérification : 8 octobre 2026**. L'état ci-dessous correspond aux publications vérifiées à cette date ; consultez CurseForge pour les nouvelles versions.
 
-| Élément | Version | Minecraft | Loader | Publication |
+| Élément | Dernière version vérifiée | Minecraft | Loader | Publication |
 | --- | --- | --- | --- | --- |
-| Modpack client | **5.9.4** | 1.21.1 | NeoForge | 14 juin 2026 |
-| Server pack | **5.9.4b** | 1.21.1 | NeoForge | 14 juin 2026 |
+| Modpack client | **6.1** | **1.21.1** | **NeoForge** | **7 octobre 2026** |
+| Server Pack | **6.1** | **1.21.1** | **NeoForge** | **7 octobre 2026** |
 
-[**Ouvrir la version 5.9.4 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8249569)
+[**Télécharger le client 6.1 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) · [**Télécharger le Server Pack 6.1 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516)
 
-[**Consulter toute l’archive CurseForge →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all)
+[**Consulter toutes les versions sur CurseForge →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all)
 
-{% hint style="warning" %}
-La version **6.0** ne sera indiquée comme version officielle actuelle qu’après la publication de son fichier client public sur CurseForge.
+{% hint style="success" %}
+La branche **v6.x** est publique. **v6.1 introduit Cobblemon 1.8**, ainsi que de nombreuses nouveautés et améliorations. Les versions 5.x restent disponibles dans les archives pour les installations historiques.
 {% endhint %}
 
 ---
@@ -33,13 +33,27 @@ La version **6.0** ne sera indiquée comme version officielle actuelle qu’apr�
 - **a, b, c, bis** : rebuild, correctif ou révision conservant la branche principale.
 - **+1 / +2 sur CurseForge** : fichiers supplémentaires associés, généralement un server pack ou un correctif.
 
-CurseForge affiche actuellement **65 entrées publiques** et plusieurs versions possèdent aussi des fichiers supplémentaires. La chronologie ci-dessous recense **57 versions client identifiées**. La numérotation officielle n’est pas toujours continue.
+Cette chronologie réunit les versions client historiques et les publications de la branche **v6.x** identifiées sur CurseForge. Certains fichiers supplémentaires correspondent à des **Server Packs** ; ils ne constituent pas de nouvelles versions client. La numérotation officielle n’est pas toujours continue.
 
 Sauf indication contraire, toutes les versions ciblent **Minecraft 1.21.1 avec NeoForge**.
 
 ---
 
 ## 📅 Chronologie complète des versions client
+
+### Série 6.x
+
+| Version client | Publication | Type | Changelog officiel |
+| --- | --- | --- | --- |
+| **6.1** | **7 octobre 2026** | Release | [Voir les nouveautés](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) |
+| **6.0.3** | 30 août 2026 | Release | [Voir les nouveautés](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8772169) |
+| **6.0.2** | 21 août 2026 | Release | [Voir les nouveautés](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8703149) |
+| **6.0.1** | 17 août 2026 | Release | [Voir les nouveautés](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8673302) |
+| **6.0** | 16 août 2026 | Release | [Voir les nouveautés](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8661106) |
+
+{% hint style="info" %}
+**6.0 → 6.1** représente une évolution majeure du modpack, et non un simple correctif. Pour les serveurs, utilisez le **Server Pack correspondant exactement** à la version choisie et consultez le [guide d'installation et de migration](installation.md).
+{% endhint %}
 
 ### Série 5.x
 
@@ -125,6 +139,39 @@ Sauf indication contraire, toutes les versions ciblent **Minecraft 1.21.1 avec N
 
 ---
 
+## 🚀 Branche v6.x, nouveautés principales
+
+### 6.1 · 7 octobre 2026 · Release
+
+- **Cobblemon 1.8** : adoption des systèmes natifs de **Pokémon Alpha**, **CT/TM** et **variations de taille**, en remplacement de plusieurs anciens mods complémentaires.
+- **Pokémon et exploration** : nouveaux contenus Pokémon, nombreux troupeaux du Safari, ajouts Legendary Monuments et rencontres étendues.
+- **Gameplay et confort** : raids enrichis, boutiques et récompenses, Battle Tower, traductions françaises et correctifs de compatibilité.
+
+[**Lire le changelog officiel de la 6.1 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509)
+
+### 6.0.3 · 30 août 2026 · Release
+
+- Recherche d'informations Pokémon enrichie dans **JEI**, nouvelles structures d'exploration et ajustements de Hoopa Rings, Alpha Dens et RTP.
+- Correctifs des arènes, Safari, quêtes, PNJ et du multijoueur.
+
+### 6.0.2 · 21 août 2026 · Release
+
+- Améliorations de **Team Rocket**, de la progression des dresseurs, des arènes et de Music Interface.
+- Correctifs de stabilité des combats PvE et des connexions.
+
+### 6.0.1 · 17 août 2026 · Release
+
+- Premier correctif public après la sortie de la branche 6.0. [Consulter les détails officiels](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8673302).
+
+### 6.0 · 16 août 2026 · Release
+
+- Nouvelle étape majeure : **cinq nouveaux mods dédiés**, exploration élargie, **Legendary Monuments**, structures et donjons enrichis.
+- **Team Rocket**, nouvelles formes, progression, interfaces et optimisations.
+
+[**Lire le changelog officiel de la 6.0 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8661106)
+
+---
+
 ## 🚀 Branche 5.9, version par version
 
 {% hint style="success" %}
@@ -201,6 +248,14 @@ La 5.9 constitue la grosse base fonctionnelle de cette branche.
 
 ## 🌟 Grandes étapes du modpack
 
+### Versions 6.x
+
+- **6.1** : Cobblemon 1.8, systèmes natifs Alpha/CT/tailles, nouvelles rencontres, Safari, raids et améliorations générales.
+- **6.0.3** : JEI Pokémon enrichi, exploration, équilibrage et fiabilité multijoueur.
+- **6.0.2** : Team Rocket, dresseurs, arènes et correctifs de progression.
+- **6.0.1** : correctif de la première version 6.0.
+- **6.0** : cinq nouveaux mods, Legendary Monuments, donjons, Pokémon et refonte de nombreux systèmes.
+
 ### Versions 5.x
 
 - **5.9.4** : maintenance des arènes, commande de régénération, PNJ dupliqués, placement des schematics et Cobbreeding.
@@ -271,7 +326,7 @@ Liens : [4.9](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/fil
 
 Le server pack est distinct du fichier client et doit correspondre à la version utilisée par les joueurs.
 
-- Server pack officiel actuel : **5.9.4b**.
+- **Dernier Server Pack vérifié (8 octobre 2026) : 6.1**, disponible [sur CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516). Vérifiez les publications plus récentes dans la [liste des fichiers](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files).
 - Consultez les **Additional Files** lorsqu’un `+1` ou `+2` apparaît sur CurseForge.
 - Certains server packs possèdent leurs propres instructions ou hotfixes.
 - Ne mélangez pas des fichiers client et serveur de branches différentes.
