@@ -19,7 +19,7 @@ Install <strong>Cobblemon Realms</strong>, keep your game updated, and set up or
 | **Java** | **Java 21** |
 | **Client modpack** | [Cobblemon Realms on CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms) |
 | **Server Pack** | [Official Cobblemon Realms files](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files) |
-| **Version 6.1** | [Client v6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) · [Server Pack v6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516) |
+| **v6.x releases** | [Download the matching client and Server Pack](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files): ensure both files have exactly the same version number. |
 
 {% hint style="warning" %}
 **The client and server are separate downloads.** To host a server, download the **Server Pack** matching the exact modpack version used by your players. Do not install the client modpack in place of the Server Pack on a dedicated server.
@@ -203,7 +203,7 @@ Install <strong>Cobblemon Realms</strong>, keep your game updated, and set up or
 {% endstep %}
 
 {% step %}
-🛡️ For a major update such as **v6.1**, prefer **Update to a separate modpack profile**. This retains your previous installation as a fallback.
+🛡️ For a **v6.x update**, especially one with significant changes, prefer **Update to a separate modpack profile**. This retains your previous installation as a fallback.
 {% endstep %}
 
 {% step %}
@@ -279,7 +279,7 @@ With a managed host, use its **control panel** to select Java 21, start the serv
 
 {% stepper %}
 {% step %}
-📥 Download the **official Server Pack** from [CurseForge files](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files). For v6.1, use [Server Pack 6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516).
+📥 Download the **official v6.x Server Pack** from [CurseForge files](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files). Choose the exact same version as your clients, not simply the most recent file.
 {% endstep %}
 
 {% step %}
@@ -313,7 +313,7 @@ It must use **Java 21**. Configure memory using your host control panel or the J
 
 {% tab title="Update" %}
 
-### 🔄 Existing Server, Including v6.0.x to v6.1
+### 🔄 Updating an Existing Server (v6.x)
 
 {% stepper %}
 {% step %}
