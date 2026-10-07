@@ -10,7 +10,7 @@ Structure used to obtain <strong>Heatran</strong>.
 
 ### 🧭 Quick Overview
 
-- 🎯 Objective: obtain [Heatran](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_4#heatran)
+- 🎯 Objective: obtain [Heatran](../../pokemons-guides/gen-list2/gen_4.md#heatran)
 - 🗺️ Gameplay: exploration and summoning
 - ⚠️ Difficulty: high
 - 🎁 Loot: numerous chests, including a secret room
@@ -21,7 +21,7 @@ Structure used to obtain <strong>Heatran</strong>.
 - Numerous dangerous monsters
 - Large amount of chests to explore
 - Secret room containing additional loot
-- Pedestal used to summon [Heatran](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/legendary_monuments/gen_4#heatran)
+- Pedestal used to summon [Heatran](../../pokemons-guides/gen-list2/gen_4.md#heatran)
 
 ### 🌍 Generation
 
@@ -53,10 +53,10 @@ Structures used to obtain <strong>Wo-Chien</strong>, <strong>Chien-Pao</strong>,
 
 ### 🌍 Generation
 
-- 🍃 **Grasswither Shrine** → Summons **[Wo-Chien](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#chongjian)** → 🌳 Warped Forest
-- 🧊 **Icerend Shrine** → Summons **[Chien-Pao](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#baojian)** → 🪨 Basalt Deltas
-- 🎭 **Groundblight Shrine** → Summons **[Ting-Lu](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#dinglu)** → 💀 Soul Sand Valley
-- 🔥 **Firescourge Shrine** → Summons **[Chi-Yu](https://our-story-network.gitbook.io/cr-wiki/cr-fr/legendary-monuments/legendary_monuments/gen_9#yuyu)** → 🌋 Nether Wastes
+- 🍃 **Grasswither Shrine** → Summons **[Wo-Chien](../../pokemons-guides/gen-list2/gen_9.md#wo-chien)** → 🌳 Warped Forest
+- 🧊 **Icerend Shrine** → Summons **[Chien-Pao](../../pokemons-guides/gen-list2/gen_9.md#chien-pao)** → 🪨 Basalt Deltas
+- 🎭 **Groundblight Shrine** → Summons **[Ting-Lu](../../pokemons-guides/gen-list2/gen_9.md#ting-lu)** → 💀 Soul Sand Valley
+- 🔥 **Firescourge Shrine** → Summons **[Chi-Yu](../../pokemons-guides/gen-list2/gen_9.md#chi-yu)** → 🌋 Nether Wastes
 
 ***
 
