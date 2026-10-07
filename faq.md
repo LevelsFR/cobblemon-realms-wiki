@@ -18,11 +18,47 @@ Check the related guides or contact us directly on <a href="https://discord.gg/k
 
 ### 🚫 My game crashes on launch
 
-Launch issues can have several causes: incorrect Java version, insufficient memory, incomplete installation, or corrupted modpack files.
+A startup crash may be caused by **Java**, **memory**, incomplete downloads, or manually added mods.
 
-First of all, make sure you are using **Java 21** and that enough memory is allocated to the game.
+{% stepper %}
+{% step %}
+☕ Confirm **Minecraft 1.21.1**, **NeoForge**, **Java 21**, and your exact Cobblemon Realms version.
+{% endstep %}
 
-📘 [View the installation guide](installation.md)
+{% step %}
+💾 Start with around **8 GB of allocated RAM** if your computer has enough memory. Do not allocate all available RAM to Minecraft.
+{% endstep %}
+
+{% step %}
+📦 Confirm that every file downloaded correctly and no outdated mods remain after an update.
+{% endstep %}
+
+{% step %}
+🧪 Try **a fresh, clean profile** in CurseForge. Back up your worlds before making changes.
+{% endstep %}
+
+{% step %}
+📄 If it still crashes, collect `logs/latest.log` and any report under `crash-reports/`. Explain when it happens and whether you added other mods.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" %}
+**Exit code 1** alone cannot identify the cause. The final lines may describe a secondary error: share the **complete log** after removing private information.
+{% endhint %}
+
+📘 [Installation Guide](installation.md) · [Report an Issue](report-a-bug.md)
+
+### 📦 How can I update without breaking my profile?
+
+For significant **v6.x** updates, prefer **a separate CurseForge profile**. Back up your worlds from `saves/` and test the new profile before transferring personal data. Do not merge your old `mods/`, `config/`, `kubejs/`, or `defaultconfigs/` into the fresh version.
+
+📘 [Updating the Client](installation.md)
+
+### 🖥️ What is the difference between the client and Server Pack?
+
+The **client** runs the game on your computer; the **Server Pack** provides the files for a dedicated server. They are not interchangeable and must match **the exact same Cobblemon Realms version**.
+
+📘 [Server Installation](installation.md)
 
 ### 💾 How much RAM should I allocate?
 
@@ -112,9 +148,13 @@ The **Elite Four** and **League Champion** stages are not currently implemented 
 
 ### 🐾 Why aren't any Pokémon spawning around me?
 
-Spawns depend on many factors: **biome, time, weather, player position, and spawn conditions**.
+The **Biome Expanded Spawns v6.x** datapack checks many conditions: **biomes and tags, time, weather, light, altitude, structures, nearby blocks, and spawn position**.
 
-Use `/checkspawns` to check which Pokémon are likely to spawn in your area.
+- 🔎 `/checkspawns` helps inspect possible spawns around your current location.
+- 🤖 On the **Our Story** Discord, `/where` and `/tesou` let you look up a species' spawn rules.
+- 🎣 Some encounters use **fishing** or **herd** mechanics.
+
+**Even with the correct biome and conditions, an encounter is never guaranteed.**
 
 📘 [Pokémon and Spawns](pokemon-and-spawns.md)
 
@@ -148,9 +188,11 @@ Yes. The modpack notably adds **special forms, unique mechanics, and exclusive e
 
 ### 👥 Can I start in single-player and then join a server?
 
-Yes. A save started in single-player can be transferred to a server without having to restart your progression, provided that the world data is transferred correctly.
+**Often, yes**, by moving the **entire world** to a compatible server. However, progress can also depend on **player data, UUIDs, and mod-specific saved data**. Copying an inventory alone is not a guarantee.
 
-📘 [Multiplayer Servers](multiplayer-servers.md)
+Make a **complete backup**, test the move with a copy, and verify your Pokémon, quests, and progression data.
+
+📘 [Multiplayer Servers](multiplayer-servers.md) · [Migration Guide](installation.md)
 
 ### 🖥️ Can I host the modpack myself?
 
@@ -160,7 +202,9 @@ Yes. You can host your own server, provided that you have a suitable setup and u
 
 ### ☁️ Can I use a free host like Aternos or Minehut?
 
-This is technically possible, but performance may be limited for such a large modpack. We recommend choosing a host with sufficient **RAM**, **Java 21 support**, and access to the server files.
+**Only if the provider really supports this modpack.** It must allow **NeoForge 1.21.1**, **Java 21**, the **complete Server Pack**, and enough memory. Some free hosts restrict custom files or cannot install all required mods.
+
+Check the provider's limitations first: a generic "Minecraft server" offer does not guarantee compatibility.
 
 ***
 
@@ -174,15 +218,11 @@ If the issue persists, [report the issue](report-a-bug.md) so it can be investig
 
 ### ✏️ Can I contribute to the wiki?
 
-Yes! Contributions are welcome. You can:
+The wiki is **maintained directly by the team**. You can still help by **reporting mistakes**, proposing clarifications, providing reliable sources, or suggesting translations through Discord or GitHub issues.
 
-- Correct errors;
-- Improve existing information;
-- Add new information;
-- Translate pages;
-- Report outdated information.
+The team reviews proposals before making editorial changes.
 
-📘 [Contribution Guide](contributing.md)
+📘 [Support the Project](contributing.md) · [Report a Wiki Issue](report-a-bug.md)
 
 ### 🧭 I don't know which page to check
 
@@ -198,6 +238,7 @@ If you don't know where to start, here are some useful starting points:
 | Understanding Legendaries | [Myths & Legends](pokemons-guides/myths-and-legends-legendaries.md) |
 | Following quests | [Quests](quests.md) |
 | Reporting a bug | [Report an Issue](report-a-bug.md) |
+| Finding older releases | [Version History](version-history.md) |
 
 ***
 
