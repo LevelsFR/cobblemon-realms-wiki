@@ -32,7 +32,7 @@ Certains objets relèvent également de catégories utilitaires ou de composants
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Ticketaurora.png) | Ticketaurora | Un ticket nécessaire pour embarquer à bord du navire à destination de l'Île Aurore, où réside le Pokémon fabuleux Deoxys |
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Carte_Membre.png) | Carte Membre | Une carte étrange nécessaire pour entrer dans l’auberge verrouillée de Joliberges, menant à une rencontre avec le Pokémon fabuleux Darkrai sur l’Île de la Nouvelle Lune |
 | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/Lettre_Chen.png) | Lettre Chen | Une lettre du Professeur Chen vous demandant de vous rendre sur la Route 224 afin de rencontrer le Pokémon fabuleux Shaymin |
-| ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/GS_Ball.png) | GS Ball | Une mystérieuse Poké Ball dorée et argentée liée au Pokémon fabuleux Celebi, principalement apparue dans l’anime et dans la version japonaise de Pokémon Cristal |
+| ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/sprites/gs_ball.png) | GS Ball | Une mystérieuse Poké Ball dorée et argentée liée au Pokémon fabuleux Celebi, principalement apparue dans l’anime et dans la version japonaise de Pokémon Cristal |
 
 ## 🎶 Flûtes, Cloches et Ailes
 
