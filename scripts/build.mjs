@@ -93,6 +93,10 @@ function renderGitBookMarkdown(source, sourceDir) {
     'https://raw.githubusercontent.com/LevelsFR/cobblemon-realms-wiki/refs/heads/main/'
   );
 
+  // Raw HTML links bypass marked's Markdown link renderer, so convert local .md routes too.
+  text = text.replace(/(<a\b[^>]*\bhref=["'])([^"']+\.md(?:#[^"']*)?)(["'])/gi,
+    (_, prefix, href, quote) => `${prefix}${normalizeHref(href, sourceDir)}${quote}`);
+
   const storeBlock = (html) => {
     const token = `@@GITBOOK_BLOCK_${blocks.length}@@`;
     blocks.push(html);
