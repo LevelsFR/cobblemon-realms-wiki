@@ -39,7 +39,7 @@
 
 - 🖱️ Right-click Lugia with the `Shadow Energy` item
 - ℹ️ Requires a friendship level above 250 and resets friendship back to 0.
-> ![]()💡 The effect can be reversed by using the energy again.
+> 💡 The effect can be reversed by using the energy again.
 
 ---
 
