@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 <p align="center">
-<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns v6.0</strong> datapack to provide spawns adapted to each environment of the modpack. A Pokémon can spawn depending on its <strong>biome</strong>, <strong>dimension</strong>, <strong>time</strong>, <strong>weather</strong>, <strong>light level</strong>, <strong>altitude</strong>, <strong>structures</strong>, <strong>surrounding blocks</strong>, and many other conditions.
+<strong>Cobblemon Realms</strong> uses the custom <strong>Biome Expanded Spawns (v6.x branch)</strong> datapack to provide spawns adapted to each environment of the modpack. A Pokémon can spawn depending on its <strong>biome</strong>, <strong>dimension</strong>, <strong>time</strong>, <strong>weather</strong>, <strong>light level</strong>, <strong>altitude</strong>, <strong>structures</strong>, <strong>surrounding blocks</strong>, and many other conditions.
 </p>
 {% endhint %}
 
@@ -49,8 +49,9 @@ Each dimension has its own environments and therefore its own groups of Pokémon
 | 🌎 **Overworld** | Main exploration area: forests, oceans, caves, mountains, structures, and other natural environments. |
 | 🔥 **Nether** | Encounters adapted to volcanic environments, lava, fossils, ruins, and Nether structures. |
 | 🌌 **End** | Rare Pokémon and late-game encounters spread across the different environments and structures of the End. |
-| ☁️ **The Aether** | Custom spawns across the four Skyroot biomes, including starters, fossils, Paradox Pokémon, Ultra Beasts, and Legendaries. |
+| ☁️ **The Aether** | Custom spawns across Aether biomes, with their own biome, altitude, and dimension rules. |
 | 🌑 **The Otherside** | Encounters primarily focused on Ghost, Dark, Dragon, Psychic, and late-game content. |
+| 🐝 **The Bumblezone (when accessible)** | The datapack also contains rules for Bumblezone biomes. These encounters only apply if the matching dimension is actually installed and accessible. |
 
 ### 📖 Dedicated Guides
 
@@ -79,7 +80,29 @@ For example:
 
 The same tag can group together **Vanilla biomes and biomes added by mods**, allowing a spawn rule to be defined without having to list every biome individually.
 
+Some tags also reference other tags or **optional mod biomes**: seeing a biome in the datapack does not prove it is accessible in your installation.
+
 ⮕ Check the [**Biome Tag Reference**](pokemons-guides/biome-tags-reference.md) to find the tags used by the modpack and their associated biomes.
+
+---
+
+## 📂 How to Read the Datapack
+
+The supplied **v6.x** datapack contains individual Pokémon spawn files, **herds** (`pokemon-herd`), **biome tags**, presets, and habitat pools. It is not simply a list matching Pokémon species to biomes.
+
+| Element | What it means |
+| --- | --- |
+| **Pokémon / form** | The species and sometimes a form or special properties |
+| **Biome or tag** | Where a rule may apply; a tag starting with `#` can represent multiple biomes |
+| **Conditions** | Requirements such as light, time, weather, altitude, or structures |
+| **Exclusions** | Conditions that prevent a rule from applying even in a matching biome |
+| **Position** | Ground, submerged, surface, seafloor, or fishing-based encounter |
+| **Bucket and weight** | The rarity group and **relative weighting among eligible rules**, not a fixed spawn or capture percentage |
+| **Herd** | A group-spawn rule whose members and group sizes are defined separately |
+
+{% hint style="info" %}
+A biome tag is **not** a single Minecraft biome. For example, the datapack's `#cobblemon:is_jungle` tag includes vanilla biomes and optional modded biomes when those mods are present. The exact matches depend on the mods actually installed on your server.
+{% endhint %}
 
 ---
 
@@ -182,9 +205,27 @@ Fishing-related spawns may also depend on the **rod, lure, or bait used**.
 
 ---
 
+## 🔬 Examples Verified in the Datapack
+
+The following examples are taken from the **attached spawn definitions**, not estimated in-game encounter percentages.
+
+| Pokémon | Rule present in the datapack | What to remember |
+| --- | --- | --- |
+| 🌱 **Bulbasaur** | Ground spawn in `#cobblemon:is_jungle` or `#cobblemon:is_tropical_island` with sky light between 8 and 15 | There is also a **separate PokéSnack-related rule** in jungles; PokéSnacks are not required for all Bulbasaur encounters |
+| ⚡ **Pikachu** | A rule in `#cobblemon:is_forest`, excluding `#cobblemon:is_spooky`, with **5× weight during thunderstorms** | This modifies one rule's weight; it does not guarantee a Pikachu or multiply all Pokémon spawning by five |
+| 🎣 **Magikarp** | Several water and fishing rules, including submerged encounters in freshwater or ocean biomes with sky access | Fishing encounters and natural underwater spawns are separate methods |
+| 🌸 **Mew** | An Ultra Rare rule in `#cobblemon:is_floral` or `#cobblemon:is_jungle`, with **1.15× weight at noon** | The bonus does not mean Mew is impossible to encounter at other times |
+| 🏛️ **Mewtwo** | An Ultra Rare rule requiring `#cobblemon:is_deep_dark` **and** the `minecraft:stronghold` structure | Being in the Deep Dark alone is not enough: both conditions must be satisfied |
+
+{% hint style="warning" %}
+These are **declared rules** from this datapack snapshot, not guarantees of encounters. Presets, spawn limits, Cobblemon's own logic, and other mods can affect actual results.
+{% endhint %}
+
+---
+
 ## ✨ Understanding rarity
 
-Encounters are divided into **four main rarity categories**:
+Ordinary spawns use **four main rarity categories**. This datapack also includes a special **Boss** bucket for specific encounter rules:
 
 | ✨ Rarity | 📖 Meaning |
 | --- | --- |
@@ -192,8 +233,11 @@ Encounters are divided into **four main rarity categories**:
 | 🔵 **Uncommon** | Less frequent encounter, but relatively accessible. |
 | 🟣 **Rare** | Uncommon encounter that often requires more specific conditions. |
 | 🟡 **Ultra Rare** | Encounters that are extremely difficult to obtain naturally. |
+| 🔴 **Boss (special)** | A separate group used by special spawn rules, including some Alpha Pokémon and herd definitions. It is not a fifth ordinary rarity. |
 
 The **Ultra Rare** categories notably include many starters, fossils, Paradox Pokémon, Ultra Beasts, as well as Legendary and Mythical Pokémon.
+
+The **relative weights** of eligible rules and active conditions also matter. An Ultra Rare Pokémon has no universal fixed spawn percentage: multiple species and rules can compete in the same environment.
 
 {% hint style="info" %}
 💡 <strong>A Pokémon can have multiple spawns with different rarities.</strong> Its rarity therefore depends on the spawn rule being used, and not solely on the species.
@@ -227,6 +271,8 @@ The **@Our Story** Discord bot also allows you to search for spawn data without 
 | 🇫🇷 French | `/tesou <pokemon_name>` |
 | 🇩🇪 German | `/wobistdu <pokemon_name>` |
 | 🇯🇵 Japanese / Rōmaji | `/doko <pokemon_name>` |
+
+Treat these results as **spawn conditions**, not live GPS coordinates for a Pokémon. The bot and the server also need data matching the datapack version being played.
 
 The results may notably display:
 
