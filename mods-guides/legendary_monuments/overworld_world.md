@@ -160,7 +160,7 @@ Structure used to obtain <strong>Dyna Fruits</strong>.
 
 Dyna Fruits are used for:
 
-- ⚱️ Crafting [Galarian Urns](https://our-story-network.gitbook.io/cr-wiki/cr-en/legendary-monuments/items_meca/urns_and_galarian_urns)
+- ⚱️ Crafting [Galarian Urns](urns_and_galarian_urns.md)
 - 🕊️ Progression towards the **Galarian Bird Trio**
 
 👉 They are contained in a chest located **at the base of the tree**
