@@ -204,7 +204,7 @@ Vous obtenez également une `Tablette de Regirock`, pouvant être combinée avec
 | 🌙 Défense Spé. | 50     |
 | ⚡ Vitesse       | 80     |
 
-![Regidrago](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/gen_8/Regidraco.png) ![Regidrago Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/gen_8/Regidraco_shiny.png)
+![Regidrago](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/gen_8/regidraco.png) ![Regidrago Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Myth_Legends/gen_8/regidraco_shiny.png)
 
 ---
 
