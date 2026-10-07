@@ -19,7 +19,7 @@ Installez <strong>Cobblemon Realms</strong>, mettez votre jeu à jour et héberg
 | **Java** | **Java 21** |
 | **Modpack client** | [Cobblemon Realms sur CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms) |
 | **Server Pack** | [Fichiers officiels de Cobblemon Realms](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files) |
-| **Version 6.1** | [Client v6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) · [Server Pack v6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516) |
+| **Versions v6.x** | [Télécharger le client et le Server Pack correspondant](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files) : vérifiez que les deux fichiers ont exactement le même numéro de version. |
 
 {% hint style="warning" %}
 **Client et serveur sont deux téléchargements différents.** Pour héberger une partie, téléchargez le **Server Pack** correspondant exactement à la version utilisée par les joueurs. N'installez pas le modpack client à la place du Server Pack sur un serveur dédié.
@@ -203,7 +203,7 @@ Installez <strong>Cobblemon Realms</strong>, mettez votre jeu à jour et héberg
 {% endstep %}
 
 {% step %}
-🛡️ Pour une mise à jour majeure comme la **v6.1**, privilégiez **Mettre à jour vers un profil séparé**. Vous conserverez ainsi l'ancienne installation en secours.
+🛡️ Pour une mise à jour **v6.x**, notamment lorsqu'elle apporte des changements importants, privilégiez **Mettre à jour vers un profil séparé**. Vous conserverez ainsi l'ancienne installation en secours.
 {% endstep %}
 
 {% step %}
@@ -279,7 +279,7 @@ Sur un hébergement géré, utilisez le **panneau de contrôle** pour sélection
 
 {% stepper %}
 {% step %}
-📥 Téléchargez le **Server Pack officiel** depuis les [fichiers CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files). Pour la v6.1, utilisez le [Server Pack 6.1](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516).
+📥 Téléchargez le **Server Pack officiel v6.x** depuis les [fichiers CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files). Choisissez la même version exacte que celle des clients, et non simplement le fichier le plus récent.
 {% endstep %}
 
 {% step %}
@@ -313,7 +313,7 @@ La version doit être **Java 21**. Configurez la RAM via votre panneau d'héberg
 
 {% tab title="Mise à jour" %}
 
-### 🔄 Serveur existant, notamment v6.0.x vers v6.1
+### 🔄 Mettre à jour un serveur existant (v6.x)
 
 {% stepper %}
 {% step %}
