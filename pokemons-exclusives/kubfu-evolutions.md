@@ -25,7 +25,7 @@ These forms do not exist in the official Cobblemon mod. This is neither a bug no
 | 🌙 Sp. Defense  | 60    |
 | ⚡ Speed        | 97     |
 
-![Urshifu Single Strike](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_point_final.png) ![Urshifu Single Strike Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_point_final_shiny.png)
+*Urshifu Single Strike artwork (normal and shiny) is not available.*
 
 ---
 
@@ -48,7 +48,7 @@ These forms do not exist in the official Cobblemon mod. This is neither a bug no
 
 - 🖱️ Right-click Kubfu with the `Scroll of Darkness` item to assign this style.
 - ℹ️ The choice is permanent for the evolution line.
-> ![]()💡 The scroll is not consumed upon use.
+> 💡 The scroll is not consumed upon use.
 
 ---
 
@@ -77,7 +77,7 @@ These forms do not exist in the official Cobblemon mod. This is neither a bug no
 | 🌙 Sp. Defense  | 60    |
 | ⚡ Speed        | 97     |
 
-![Urshifu Rapid Strike](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_mille_poings.png) ![Urshifu Rapid Strike Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Mega-Shadown/shifours_mille_poings_shiny.png)
+*Urshifu Rapid Strike artwork (normal and shiny) is not available.*
 
 ---
 
@@ -99,7 +99,7 @@ These forms do not exist in the official Cobblemon mod. This is neither a bug no
 
 - 🖱️ Right-click Kubfu with the `Scroll of Waters` item to assign this style.
 - ℹ️ The choice is permanent for the evolution line.
-> ![]()💡 The scroll is not consumed upon use.
+> 💡 The scroll is not consumed upon use.
 
 ---
 
