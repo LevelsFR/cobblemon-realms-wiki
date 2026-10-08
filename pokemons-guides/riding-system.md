@@ -505,6 +505,55 @@ The following records are sourced from **Mega Showdown 1.3.0** JSON, not vanilla
 
 Source files : [hooh.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/hooh.json), [entei.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/entei.json), [lugia.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lugia.json), [lunala.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lunala.json), [arceus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/arceus.json), [kyogre.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/kyogre.json), [zekrom.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/zekrom.json), [keldeo.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/keldeo.json), [wochien.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/wochien.json), [groudon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/groudon.json), [genesect.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/genesect.json), [reshiram.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/reshiram.json)
 
+### Mega Showdown: species addition definitions (2/3)
+
+| Pokémon | Seats | Land | Water | Air | Origin |
+| --- | :---: | --- | --- | --- | --- |
+| Type: Null | 1 | Standard | — | — | Addon addition |
+| Miraidon | 1 | Standard | Boat | Bird | Addon addition |
+| Koraidon | 1 | Standard | Boat | Bird | Addon addition |
+| Melmetal | 1 | Standard | — | — | Addon addition |
+| Virizion | 1 | Standard | — | — | Addon addition |
+| Silvally | 1 | Standard | — | — | Addon addition |
+| Glastrier | 1 | Standard | — | — | Addon addition |
+| Spectrier | 1 | Standard | — | — | Addon addition |
+| Volcanion | 1 | Standard | — | — | Addon addition |
+| Latias | 1 | Standard | Dolphin | Jet | Native override |
+| Latios | 1 | Standard | Dolphin | Jet | Native override |
+| Yveltal | 1 | Standard | Boat | Bird | Addon addition |
+
+<details>
+<summary><strong>📊 Exact configured stat ranges</strong></summary>
+
+| Pokémon | Environment | Style | Accel. | Skill | Speed | Stamina | Jump |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Type: Null | Land | Standard | 30-60 | 40-70 | 20-40 | 60-95 | 30-65 |
+| Miraidon | Air | Bird | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Miraidon | Land | Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
+| Miraidon | Water | Boat | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
+| Koraidon | Air | Bird | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Koraidon | Land | Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
+| Koraidon | Water | Boat | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
+| Melmetal | Land | Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
+| Virizion | Land | Standard | 75-85 | 60-80 | 60-80 | 45-65 | 40-60 |
+| Silvally | Land | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Glastrier | Land | Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
+| Spectrier | Land | Standard | 50-70 | 20-50 | 50-70 | 60-120 | 30-65 |
+| Volcanion | Land | Standard | 30-60 | 20-50 | 20-40 | 60-105 | 30-65 |
+| Latias | Air | Jet | 70-90 | 100-130 | 75-85 | 82-120 | 41-60 |
+| Latias | Land | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Latias | Water | Dolphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
+| Latios | Air | Jet | 70-90 | 100-130 | 85-95 | 82-120 | 41-60 |
+| Latios | Land | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Latios | Water | Dolphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
+| Yveltal | Air | Bird | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Yveltal | Land | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Yveltal | Water | Boat | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+
+</details>
+
+Source files : [typenull.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/typenull.json), [miraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/miraidon.json), [koraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/koraidon.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/melmetal.json), [virizion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/virizion.json), [silvally.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/silvally.json), [glastrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/glastrier.json), [spectrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/spectrier.json), [volcanion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/volcanion.json), [latias.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latias.json), [latios.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latios.json), [yveltal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/yveltal.json)
+
 <!-- cr-addon-riding-next -->
 
 {% hint style="info" %}
