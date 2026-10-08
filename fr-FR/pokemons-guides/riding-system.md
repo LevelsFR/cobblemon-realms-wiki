@@ -446,6 +446,67 @@ Les montures supplémentaires de **Cobblemon Ride+** ne figurent pas dans ces ta
 
 ---
 
+<!-- cr-addon-riding-start -->
+## 🧩 Montures des addons pour Cobblemon 1.8.1
+
+Les tableaux précédents restent strictement **natifs**. Cette section présente les données ajoutées ou modifiées par les addons **compatibles Cobblemon 1.8.1**, sans les mélanger aux valeurs d'origine. Certains réglages de mods dépassent 100.
+
+{% hint style="warning" %}
+**Conflit documenté :** la définition Mega Showdown 1.3.0 de **Tortank / Méga-Tortank indique deux sièges** alors que le Tortank natif 1.8.1 n'en possède qu'un. Les fichiers réellement chargés et leurs priorités déterminent le résultat en jeu.
+{% endhint %}
+
+## 🔷 Cobblemon: Mega Showdown
+
+### Définitions Mega Showdown : espèces additionnelles (1/3)
+
+Les données ci-dessous proviennent des JSON de **Mega Showdown 1.3.0**, pas des statistiques natives. Certains Pokémon déjà montables voient leurs paramètres remplacés.
+
+| Pokémon | Places | Terre | Eau | Air | Origine |
+| --- | :---: | --- | --- | --- | --- |
+| Hooh | 1 | Standard | — | Oiseau | Modification native |
+| Entei | 1 | Standard | — | — | Ajout du mod |
+| Lugia | 1 | Standard | Dauphin | Oiseau | Modification native |
+| Lunala | 1 | — | — | Oiseau | Ajout du mod |
+| Arceus | 1 | Standard | — | Oiseau | Ajout du mod |
+| Kyogre | 1 | — | Dauphin | — | Ajout du mod |
+| Zekrom | 1 | Standard | — | Oiseau | Ajout du mod |
+| Keldeo | 1 | Standard | — | — | Ajout du mod |
+| Chongjian | 1 | Standard | — | — | Ajout du mod |
+| Groudon | 1 | Standard | — | — | Ajout du mod |
+| Genesect | 1 | Standard | — | Oiseau | Ajout du mod |
+| Reshiram | 1 | Standard | — | Oiseau | Ajout du mod |
+
+<details>
+<summary><strong>📊 Plages statistiques exactes</strong></summary>
+
+| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Hooh | Air | Oiseau | 20-100 | 50-100 | 25-50 | 30-70 | 25-50 |
+| Hooh | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Entei | Terre | Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
+| Lugia | Air | Oiseau | 20-100 | 50-100 | 70-95 | 130-150 | 25-50 |
+| Lugia | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Lugia | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Lunala | Air | Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Arceus | Air | Oiseau | 30-65 | 30-65 | 55-85 | 80-160 | 30-65 |
+| Arceus | Terre | Standard | 10-40 | 30-65 | 30-65 | 30-65 | 55-85 |
+| Kyogre | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Zekrom | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Zekrom | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Keldeo | Terre | Standard | 30-60 | 20-50 | 40-50 | 100-145 | 30-65 |
+| Chongjian | Terre | Standard | 20-30 | 45-65 | 20-30 | 80-100 | 5-20 |
+| Groudon | Terre | Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
+| Genesect | Air | Oiseau | 41-60 | 41-60 | 80-160 | 80-120 | 41-60 |
+| Genesect | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Reshiram | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Reshiram | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+
+</details>
+
+Fichiers sources : [hooh.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/hooh.json), [entei.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/entei.json), [lugia.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lugia.json), [lunala.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lunala.json), [arceus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/arceus.json), [kyogre.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/kyogre.json), [zekrom.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/zekrom.json), [keldeo.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/keldeo.json), [wochien.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/wochien.json), [groudon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/groudon.json), [genesect.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/genesect.json), [reshiram.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/reshiram.json)
+
+<!-- cr-addon-riding-next -->
+
 {% hint style="info" %}
 **Références de cette page ciblant 1.8.1 :**
 - [Wiki officiel Cobblemon — Riding](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) : styles, places et plages de statistiques.
