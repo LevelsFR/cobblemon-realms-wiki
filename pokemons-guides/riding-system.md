@@ -446,6 +446,67 @@ These are the **native Cobblemon** listings, not the additional Cobblemon Ride+ 
 
 ---
 
+<!-- cr-addon-riding-start -->
+## 🧩 Addon Mounts for Cobblemon 1.8.1
+
+The preceding tables remain strictly **native**. This section covers settings added or overridden by addons **targeting Cobblemon 1.8.1**, without mixing them into vanilla values. Some mod stat values exceed 100.
+
+{% hint style="warning" %}
+**Documented conflict:** Mega Showdown 1.3.0 declares **two seats for Blastoise / Mega Blastoise**, whereas native Cobblemon 1.8.1 declares one for Blastoise. Loaded files and data override priority determine the effective in-game result.
+{% endhint %}
+
+## 🔷 Cobblemon: Mega Showdown
+
+### Mega Showdown: species addition definitions (1/3)
+
+The following records are sourced from **Mega Showdown 1.3.0** JSON, not vanilla stats. Some already-rideable Pokémon have overridden parameters.
+
+| Pokémon | Seats | Land | Water | Air | Origin |
+| --- | :---: | --- | --- | --- | --- |
+| Ho-Oh | 1 | Standard | — | Bird | Native override |
+| Entei | 1 | Standard | — | — | Addon addition |
+| Lugia | 1 | Standard | Dolphin | Bird | Native override |
+| Lunala | 1 | — | — | Bird | Addon addition |
+| Arceus | 1 | Standard | — | Bird | Addon addition |
+| Kyogre | 1 | — | Dolphin | — | Addon addition |
+| Zekrom | 1 | Standard | — | Bird | Addon addition |
+| Keldeo | 1 | Standard | — | — | Addon addition |
+| Wo-Chien | 1 | Standard | — | — | Addon addition |
+| Groudon | 1 | Standard | — | — | Addon addition |
+| Genesect | 1 | Standard | — | Bird | Addon addition |
+| Reshiram | 1 | Standard | — | Bird | Addon addition |
+
+<details>
+<summary><strong>📊 Exact configured stat ranges</strong></summary>
+
+| Pokémon | Environment | Style | Accel. | Skill | Speed | Stamina | Jump |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Ho-Oh | Air | Bird | 20-100 | 50-100 | 25-50 | 30-70 | 25-50 |
+| Ho-Oh | Land | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Entei | Land | Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
+| Lugia | Air | Bird | 20-100 | 50-100 | 70-95 | 130-150 | 25-50 |
+| Lugia | Land | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Lugia | Water | Dolphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Lunala | Air | Bird | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Arceus | Air | Bird | 30-65 | 30-65 | 55-85 | 80-160 | 30-65 |
+| Arceus | Land | Standard | 10-40 | 30-65 | 30-65 | 30-65 | 55-85 |
+| Kyogre | Water | Dolphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Zekrom | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Zekrom | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Keldeo | Land | Standard | 30-60 | 20-50 | 40-50 | 100-145 | 30-65 |
+| Wo-Chien | Land | Standard | 20-30 | 45-65 | 20-30 | 80-100 | 5-20 |
+| Groudon | Land | Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
+| Genesect | Air | Bird | 41-60 | 41-60 | 80-160 | 80-120 | 41-60 |
+| Genesect | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Reshiram | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Reshiram | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+
+</details>
+
+Source files : [hooh.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/hooh.json), [entei.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/entei.json), [lugia.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lugia.json), [lunala.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lunala.json), [arceus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/arceus.json), [kyogre.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/kyogre.json), [zekrom.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/zekrom.json), [keldeo.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/keldeo.json), [wochien.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/wochien.json), [groudon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/groudon.json), [genesect.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/genesect.json), [reshiram.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/reshiram.json)
+
+<!-- cr-addon-riding-next -->
+
 {% hint style="info" %}
 **References for this 1.8.1-focused guide:**
 - [Cobblemon official Riding wiki](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) — ride styles, seat counts and configured stat ranges.
