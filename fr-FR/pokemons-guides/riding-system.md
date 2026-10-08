@@ -679,7 +679,75 @@ Sources JSON : [absol_mega_z.json](https://github.com/yajatkaul/CobblemonMegaSho
 
 Sources JSON : [machamp.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/machamp.json), [thundurus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/thundurus.json), [ursaluna.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/ursaluna.json), [charizard.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/charizard.json), [zamazenta.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zamazenta.json), [butterfree.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/butterfree.json), [metagross.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/metagross.json), [lapras.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/lapras.json), [blastoise.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/blastoise.json), [swampert.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/swampert.json), [rayquaza.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/rayquaza.json), [necrozma.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7/necrozma.json), [darmanitan.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/darmanitan.json)
 
-<!-- cr-addon-riding-next -->
+## 📜 Lost Lore 3.2.0
+
+Montures et formes spéciales avec **comportements `riding.behaviours` explicitement déclarés** dans les fichiers de Lost Lore. Les cinq versions Starmobile possèdent quatre emplacements chacune.
+
+| Pokémon / forme | Places | Terre | Eau | Air |
+| --- | :---: | --- | --- | --- |
+| MT | 1 | Standard | — | — |
+| MT2 | 1 | Standard | — | — |
+| Black Fog | 1 | Standard | — | Stationnaire |
+| Tyranocif (Black) | 1 | Standard | — | — |
+| Dialga (Primal) | 1 | Standard | — | Oiseau |
+| Vrombotor (Segin) | 4 | Standard | — | — |
+| Vrombotor (Caph) | 4 | Standard | — | — |
+| Vrombotor (Ruchbah) | 4 | Standard | — | — |
+| Vrombotor (Schedar) | 4 | Standard | — | — |
+| Vrombotor (Navi) | 4 | Standard | — | — |
+| Lugia (Shadow) | 1 | Standard | Dauphin | Oiseau |
+| Mewtwo (Armored) | 1 | Standard | Dauphin | Jet |
+| Mewtwo (Mega-Armored) | 1 | Standard | Dauphin | Jet |
+| Mewtwo (Shadow) | 1 | Standard | Dauphin | Jet |
+
+<details>
+<summary><strong>📊 Statistiques exactes Lost Lore</strong></summary>
+
+| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| MT | Terre | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| MT2 | Terre | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| Black Fog | Air | Stationnaire | 60-75 | 35-55 | 55-85 | 65-80 | 25-45 |
+| Black Fog | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Tyranocif (Black) | Terre | Standard | 50-75 | 35-55 | 40-60 | 60-85 | 10-25 |
+| Dialga (Primal) | Air | Oiseau | 45-75 | 55-85 | 30-80 | 45-77 | 30-65 |
+| Dialga (Primal) | Terre | Standard | 55-65 | 20-55 | 40-70 | 55-99 | 20-80 |
+| Vrombotor (Segin) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Caph) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Ruchbah) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Schedar) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Navi) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Lugia (Shadow) | Air | Oiseau | 20-100 | 50-100 | 85-110 | 150-180 | 25-50 |
+| Lugia (Shadow) | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Lugia (Shadow) | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Mewtwo (Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Armored) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Armored) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Mega-Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Mega-Armored) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Mega-Armored) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Shadow) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Shadow) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Shadow) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+
+</details>
+
+{% hint style="warning" %}
+Le changelog de Lost Lore mentionne des corrections de montures pour les **starters clonés, Groudon Virus et Rayquaza Illusion**. Leurs fichiers ne définissent toutefois aucun nouveau `riding.behaviours` : ils pourraient utiliser des propriétés héritées. **Ils ne sont pas comptés comme nouvelles montures explicites** sans vérification en jeu. La forme **Ronflex Snowman** possède une configuration `riding.behaviour` au singulier, sans `behaviours` : son fonctionnement n'est pas confirmé.
+{% endhint %}
+
+Sources JSON : [mt.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt.json), [mt2.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt2.json), [blackfog.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/lost_lore/blackfog.json), [black_tyranitar.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/black_tyranitar.json), [primal_dialga.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/primal_dialga.json), [starmobile_revavroom.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/starmobile_revavroom.json), [shadow_lugia.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_lugia.json), [armored_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/armored_mewtwo.json), [shadow_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_mewtwo.json)
+
+## 🧬 Navas ZA Mega (ZaMega 1.8.1+1.8)
+
+Analyse directe du JAR `zamega-neoforge-1.8.1+1.8.jar` fourni : **aucune définition `riding`** dans les JSON de ce mod. Il contient des formes supplémentaires pour **Darkrai, Heatran, Zygarde, Magearna, Zeraora et Tatsugiri**, ainsi que la forme **Ange de Floette**. Aucune de ces variantes ne peut être ajoutée en tant que **nouvelle monture confirmée par les données**. Certaines peuvent hériter de propriétés du Pokémon de base ou d'un autre addon, sans preuve de montabilité autonome.
+
+{% hint style="info" %}
+Le JAR demande notamment `cobblemon >= 1.8.0` et la dépendance `mega_showdown`. Les informations de cette section sont bornées au **JAR fourni**, et non à d'éventuelles versions ultérieures.
+{% endhint %}
+
+<!-- cr-addon-riding-end -->
+
 
 {% hint style="info" %}
 **Références de cette page ciblant 1.8.1 :**
