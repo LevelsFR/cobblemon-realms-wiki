@@ -866,6 +866,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Steelix | 1 | Standard | — | — | Ajout Ride+ |
 | Stonjourner | 1 | Standard | — | — | Ajout Ride+ |
 | Stoutland | 1 | Standard | — | — | Ajout Ride+ |
+| Swampert | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Swellow | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Talonflame | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Tangrowth | 1 | Standard | — | — | Ajout Ride+ |
+| Tentacruel | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Thundurus | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Torkoal | 1 | Standard | — | — | Ajout Ride+ |
+| Tornadus | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Torterra | 1 | Standard | — | — | Ajout Ride+ |
+| Toucannon | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Toxicroak | 1 | Standard | — | — | Ajout Ride+ |
+| Turtonator | 1 | Standard | — | — | Ajout Ride+ |
+| Tyranitar | 1 | Standard | — | — | Ajout Ride+ |
+| Tyrantrum | 1 | Standard | — | — | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -996,6 +1010,27 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Steelix | Terre | Standard | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
 | Stonjourner | Terre | Standard | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
 | Stoutland | Terre | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Swampert | Terre | Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
+| Swampert | Eau | Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
+| Swellow | Air | Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Swellow | Terre | Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Talonflame | Air | Oiseau | 50-80 | 55-85 | 45-85 | 35-65 | 35-65 |
+| Talonflame | Terre | Standard | 35-55 | 20-40 | 25-45 | 20-35 | 15-30 |
+| Tangrowth | Terre | Standard | 15-30 | 35-60 | 15-30 | 45-80 | 10-25 |
+| Tentacruel | Terre | Standard | 5-20 | 20-40 | 5-20 | 30-60 | 0-5 |
+| Tentacruel | Eau | Dauphin | 40-65 | 45-75 | 30-60 | 40-80 | 25-55 |
+| Thundurus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Thundurus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Torkoal | Terre | Standard | 10-25 | 30-55 | 10-25 | 50-90 | 10-20 |
+| Tornadus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Tornadus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Torterra | Terre | Standard | 15-35 | 35-60 | 15-35 | 55-90 | 15-30 |
+| Toucannon | Air | Oiseau | 40-70 | 55-85 | 35-70 | 35-65 | 25-60 |
+| Toucannon | Terre | Standard | 20-40 | 30-50 | 15-30 | 25-45 | 15-30 |
+| Toxicroak | Terre | Standard | 40-65 | 35-60 | 40-65 | 30-55 | 25-45 |
+| Turtonator | Terre | Standard | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
+| Tyranitar | Terre | Standard | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
+| Tyrantrum | Terre | Standard | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
