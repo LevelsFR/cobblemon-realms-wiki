@@ -7,7 +7,7 @@ This guide covers <strong>only the native riding system in Cobblemon 1.8.1</stro
 {% endhint %}
 
 {% hint style="warning" %}
-This is the <strong>unmodified Cobblemon 1.8.1 roster</strong>. Additional rideable Pokémon or altered riding settings provided by <strong>Cobblemon Ride+</strong>, other add-ons or datapacks are **not included**.
+The <strong>native riding tables</strong> below show <strong>unmodified Cobblemon 1.8.1</strong>. Additional mounts and riding settings from <strong>Cobblemon Ride+</strong>, Mega Showdown and Lost Lore are documented <strong>separately, further down this page</strong>.
 {% endhint %}
 
 ---
