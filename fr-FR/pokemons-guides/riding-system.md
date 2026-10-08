@@ -7,7 +7,7 @@ Ce guide décrit <strong>uniquement les montures natives de Cobblemon 1.8.1</str
 {% endhint %}
 
 {% hint style="warning" %}
-Cette liste concerne le <strong>jeu Cobblemon 1.8.1 sans modification de ses montures</strong>. Les Pokémon supplémentaires ou les caractéristiques modifiées par <strong>Cobblemon Ride+</strong>, un autre addon ou un datapack **ne sont pas inclus**.
+Les tableaux <strong>natifs</strong> ci-dessous décrivent Cobblemon 1.8.1 <strong>sans modification de ses montures</strong>. Les montures et réglages supplémentaires de <strong>Cobblemon Ride+</strong>, de Mega Showdown et de Lost Lore sont présentés <strong>séparément, en fin de page</strong>.
 {% endhint %}
 
 ---
@@ -786,7 +786,7 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Cloyster | 1 | Standard | Sous-marin | — | Ajout Ride+ |
 | Copperajah | 1 | Standard | — | — | Ajout Ride+ |
 | Dialga | 1 | Standard | — | — | Ajout Ride+ |
-| Dondozo | 1 | — | Dauphin | — | Ajout Ride+ |
+| Dondozo | 1 | — | Dauphin | — | Aussi natif |
 | Donphan | 1 | Standard | — | — | Ajout Ride+ |
 | Dracovish | 1 | Standard | Sous-marin | — | Ajout Ride+ |
 | Dragalge | 1 | — | Dauphin | — | Ajout Ride+ |
@@ -852,7 +852,7 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Regigigas | 1 | Standard | — | — | Ajout Ride+ |
 | Regirock | 1 | Standard | — | — | Ajout Ride+ |
 | Registeel | 1 | Standard | — | — | Ajout Ride+ |
-| Revavroom | 1 | Standard | — | — | Ajout Ride+ |
+| Revavroom | 1 | Standard | — | — | Aussi natif |
 | Rillaboom | 1 | Standard | — | — | Ajout Ride+ |
 | Samurott | 1 | Standard | Dauphin | — | Ajout Ride+ |
 | Sandslash | 1 | Standard | — | — | Ajout Ride+ |
@@ -879,7 +879,7 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Toxicroak | 1 | Standard | — | — | Ajout Ride+ |
 | Turtonator | 1 | Standard | — | — | Ajout Ride+ |
 | Tyranitar | 1 | Standard | — | — | Ajout Ride+ |
-| Tyrantrum | 1 | Standard | — | — | Ajout Ride+ |
+| Tyrantrum | 1 | Standard | — | — | Aussi natif |
 | Veluza | 1 | — | Dauphin | — | Ajout Ride+ |
 | Walking Wake | 1 | Standard | Dauphin | — | Ajout Ride+ |
 | Walrein | 1 | Standard | Dauphin | — | Ajout Ride+ |
