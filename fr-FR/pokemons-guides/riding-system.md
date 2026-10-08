@@ -796,6 +796,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Emboar | 1 | Standard | — | — | Ajout Ride+ |
 | Empoleon | 1 | Standard | Dauphin | — | Ajout Ride+ |
 | Enamorus | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Exeggutor | 1 | Standard | — | — | Ajout Ride+ |
+| Exploud | 1 | Standard | — | — | Ajout Ride+ |
+| Feraligatr | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Flamigo | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Floatzel | 1 | — | Dauphin | — | Ajout Ride+ |
+| Garganacl | 1 | Standard | — | — | Ajout Ride+ |
+| Gengar | 1 | Standard | — | Stationnaire | Ajout Ride+ |
+| Gliscor | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Gorebyss | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Gouging Fire | 1 | Standard | — | — | Ajout Ride+ |
+| Hariyama | 1 | Standard | — | — | Ajout Ride+ |
+| Haxorus | 1 | Standard | — | — | Ajout Ride+ |
+| Hippowdon | 1 | Standard | — | — | Ajout Ride+ |
+| Houndoom | 1 | Standard | — | — | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -840,6 +854,25 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Empoleon | Eau | Dauphin | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
 | Enamorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
 | Enamorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Exeggutor | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Exploud | Terre | Standard | 20-40 | 25-45 | 15-35 | 30-55 | 15-30 |
+| Feraligatr | Terre | Standard | 30-55 | 25-45 | 30-50 | 45-70 | 25-40 |
+| Feraligatr | Eau | Dauphin | 40-65 | 40-70 | 35-60 | 45-80 | 30-55 |
+| Flamigo | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Flamigo | Air | Oiseau | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Floatzel | Eau | Dauphin | 40-70 | 45-75 | 35-65 | 35-65 | 25-45 |
+| Garganacl | Terre | Standard | 10-25 | 30-55 | 10-30 | 55-85 | 10-20 |
+| Gengar | Terre | Standard | 35-55 | 45-65 | 25-40 | 30-55 | 20-35 |
+| Gengar | Air | Stationnaire | 25-45 | 55-80 | 20-35 | 30-60 | 25-45 |
+| Gliscor | Air | Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Gliscor | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Gorebyss | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Gorebyss | Eau | Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Gouging Fire | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Hariyama | Terre | Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Haxorus | Terre | Standard | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
+| Hippowdon | Terre | Standard | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
+| Houndoom | Terre | Standard | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
