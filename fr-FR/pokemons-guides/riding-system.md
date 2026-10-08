@@ -852,6 +852,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Regigigas | 1 | Standard | — | — | Ajout Ride+ |
 | Regirock | 1 | Standard | — | — | Ajout Ride+ |
 | Registeel | 1 | Standard | — | — | Ajout Ride+ |
+| Revavroom | 1 | Standard | — | — | Ajout Ride+ |
+| Rillaboom | 1 | Standard | — | — | Ajout Ride+ |
+| Samurott | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Sandslash | 1 | Standard | — | — | Ajout Ride+ |
+| Sawsbuck | 1 | Standard | — | — | Ajout Ride+ |
+| Sceptile | 1 | Standard | — | — | Ajout Ride+ |
+| Shiftry | 1 | Standard | — | — | Ajout Ride+ |
+| Skeledirge | 1 | Standard | — | — | Ajout Ride+ |
+| Slowbro | 1 | Standard | — | — | Ajout Ride+ |
+| Snorlax | 1 | Standard | — | — | Ajout Ride+ |
+| Solgaleo | 1 | Standard | — | — | Ajout Ride+ |
+| Steelix | 1 | Standard | — | — | Ajout Ride+ |
+| Stonjourner | 1 | Standard | — | — | Ajout Ride+ |
+| Stoutland | 1 | Standard | — | — | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -967,6 +981,21 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Regigigas | Terre | Standard | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
 | Regirock | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
 | Registeel | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Revavroom | Terre | Standard | 60-95 | 40-65 | 55-90 | 45-70 | 5-20 |
+| Rillaboom | Terre | Standard | 30-55 | 40-65 | 30-50 | 55-85 | 20-35 |
+| Samurott | Terre | Standard | 20-40 | 30-55 | 20-40 | 40-70 | 15-30 |
+| Samurott | Eau | Dauphin | 30-55 | 45-75 | 30-55 | 50-85 | 25-45 |
+| Sandslash | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Sawsbuck | Terre | Standard | 25-50 | 35-60 | 25-50 | 35-65 | 25-45 |
+| Sceptile | Terre | Standard | 40-70 | 45-75 | 40-70 | 30-55 | 35-60 |
+| Shiftry | Terre | Standard | 25-45 | 40-70 | 25-50 | 30-60 | 20-40 |
+| Skeledirge | Terre | Standard | 20-40 | 45-75 | 25-45 | 45-80 | 20-35 |
+| Slowbro | Terre | Standard | 20-35 | 20-35 | 18-30 | 65-95 | 10-20 |
+| Snorlax | Terre | Standard | 0-20 | 0-25 | 15-35 | 70-100 | 10-25 |
+| Solgaleo | Terre | Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Steelix | Terre | Standard | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
+| Stonjourner | Terre | Standard | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
+| Stoutland | Terre | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
