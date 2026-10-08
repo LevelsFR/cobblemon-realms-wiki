@@ -746,6 +746,74 @@ The supplied `zamega-neoforge-1.8.1+1.8.jar` was inspected directly. Its JSON fi
 The JAR declares `cobblemon >= 1.8.0` and requires `mega_showdown`. These findings apply to the **supplied JAR**, not necessarily to later releases.
 {% endhint %}
 
+<!-- cr-rideplus-start -->
+## 🐎 Cobblemon Ride+ (v1.2.7b)
+
+Created by **LevelsFR**, Ride+ targets **Minecraft 1.21.1 / Cobblemon 1.8.1** for Fabric and NeoForge. The source repository contains **118 riding species addition JSON files**. The tables below document **Ride+ definitions** separately from native mounts and other addons.
+
+{% hint style="info" %}
+“Also native” means that a species already appears in the native riding roster and must **not be double-counted**. Ride+ data may also overlap Mega Showdown or Lost Lore. International names match the JSON species identifiers.
+{% endhint %}
+
+{% hint style="warning" %}
+This is an audit of JSON definitions, **not an in-game test**. Seats may depend on forms, model locators and load priority. **Alolan Exeggutor** uses a head-bone anchor; **Dondozo** has Ride+ settings distinct from native Cobblemon.
+{% endhint %}
+
+Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-Plus), `master` branch, version `1.2.7b` (source access may be restricted).
+
+<details>
+<summary><strong>📖 View all Ride+ riding species</strong></summary>
+
+| Pokémon | Seats | Land | Water | Air | Origin |
+| --- | :---: | --- | --- | --- | --- |
+| Absol | 1 | Standard | — | — | Ride+ addition |
+| Aggron | 1 | Standard | — | — | Ride+ addition |
+| Ampharos | 1 | Standard | — | — | Ride+ addition |
+| Arbok | 1 | Standard | — | — | Ride+ addition |
+| Armarouge | 1 | Standard | — | — | Ride+ addition |
+| Aurorus | 1 | Standard | — | — | Ride+ addition |
+| Basculegion | 1 | — | Dolphin | — | Ride+ addition |
+| Beartic | 1 | Standard | — | — | Ride+ addition |
+| Bewear | 1 | Standard | — | — | Ride+ addition |
+| Breloom | 1 | Standard | — | — | Ride+ addition |
+| Butterfree | 1 | — | — | Bird | Ride+ addition |
+| Carracosta | 1 | Standard | Dolphin | — | Ride+ addition |
+| Centiskorch | 1 | Standard | — | — | Ride+ addition |
+| Ceruledge | 1 | Standard | — | — | Ride+ addition |
+| Cetitan | 1 | Standard | — | — | Ride+ addition |
+| Chesnaught | 1 | Standard | — | — | Ride+ addition |
+<!-- cr-rideplus-list-next -->
+
+</details>
+
+<details>
+<summary><strong>📊 Detailed Ride+ riding stats</strong></summary>
+
+| Pokémon | Environment | Style | Accel. | Skill | Speed | Stamina | Jump |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Absol | Land | Standard | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
+| Aggron | Land | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Ampharos | Land | Standard | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
+| Arbok | Land | Standard | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
+| Armarouge | Land | Standard | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
+| Aurorus | Land | Standard | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
+| Basculegion | Water | Dolphin | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
+| Beartic | Land | Standard | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
+| Bewear | Land | Standard | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
+| Breloom | Land | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Butterfree | Air | Bird | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
+| Carracosta | Land | Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Carracosta | Water | Dolphin | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
+| Centiskorch | Land | Standard | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
+| Ceruledge | Land | Standard | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
+| Cetitan | Land | Standard | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
+| Chesnaught | Land | Standard | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
+<!-- cr-rideplus-stats-next -->
+
+</details>
+
+<!-- cr-rideplus-end -->
+
 <!-- cr-addon-riding-end -->
 
 
