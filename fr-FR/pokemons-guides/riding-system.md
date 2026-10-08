@@ -616,6 +616,69 @@ Fichiers sources : [typenull.json](https://github.com/yajatkaul/CobblemonMegaSho
 
 Sources JSON : [absol_mega_z.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/absol_mega_z.json), [delphox_mega.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/delphox_mega.json), [zygarde.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation6/zygarde.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7b/melmetal.json), [venusaur.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/venusaur.json), [kyurem.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/kyurem.json), [eternatus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/eternatus.json), [enamorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/enamorus.json), [tornadus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/tornadus.json), [zacian.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zacian.json), [landorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/landorus.json), [duraludon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/duraludon.json)
 
+### Autres espèces et formes Mega Showdown (3/3, partie B)
+
+| Pokémon | Places | Terre | Eau | Air | Origine |
+| --- | :---: | --- | --- | --- | --- |
+| Fulguris | 1 | Standard | — | Oiseau | Forme / espèce du mod |
+| Ursaking | 2 | Standard | — | — | Remplace le natif |
+| Ursaking (Bloodmoon) | 0* | Standard | — | — | Forme / espèce du mod |
+| Dracaufeu | 1 | Standard | — | Oiseau | Remplace le natif |
+| Dracaufeu (Mega-X) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
+| Dracaufeu (Mega-Y) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
+| Zamazenta | 1 | Standard | — | — | Forme / espèce du mod |
+| Métalosse | 4 | Standard | — | Stationnaire | Remplace le natif |
+| Métalosse (Mega) | 4 | Standard | — | Stationnaire | Forme / espèce du mod |
+| Lokhlass | 1 | Standard | Bateau | — | Remplace le natif |
+| Tortank | 2 | Standard | Sous-marin | Fusée | Remplace le natif |
+| Tortank (Mega) | 2 | Standard | Sous-marin | Fusée | Forme / espèce du mod |
+| Laggron (Mega) | 2 | Standard | Dauphin | — | Forme / espèce du mod |
+| Rayquaza | 4 | Standard | Bateau | Jet | Forme / espèce du mod |
+| Necrozma | 1 | — | — | Stationnaire | Forme / espèce du mod |
+| Darumacho | 1 | Standard | — | — | Remplace le natif |
+
+*0* signale une définition sans siège explicite : monture non confirmée en jeu.
+
+<details>
+<summary><strong>📊 Statistiques des définitions</strong></summary>
+
+| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Fulguris | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Fulguris | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Ursaking | Terre | Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
+| Ursaking (Bloodmoon) | Terre | Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
+| Dracaufeu | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Dracaufeu (Mega-X) | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu (Mega-X) | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Dracaufeu (Mega-Y) | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu (Mega-Y) | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Zamazenta | Terre | Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
+| Métalosse | Air | Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
+| Métalosse | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Métalosse (Mega) | Air | Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
+| Métalosse (Mega) | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Lokhlass | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Lokhlass | Eau | Bateau | 30-55 | 50-75 | 25-40 | 45-75 | 20-30 |
+| Tortank | Air | Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
+| Tortank | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Tortank | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Tortank (Mega) | Air | Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
+| Tortank (Mega) | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Tortank (Mega) | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Laggron (Mega) | Terre | Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
+| Laggron (Mega) | Eau | Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
+| Rayquaza | Air | Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Rayquaza | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Rayquaza | Eau | Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+| Necrozma | Air | Stationnaire | 65-90 | 41-80 | 34-70 | 20-25 | 45-65 |
+| Darumacho | Terre | Standard | 45-65 | 15-25 | 40-50 | 35-60 | 35-45 |
+
+</details>
+
+Sources JSON : [machamp.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/machamp.json), [thundurus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/thundurus.json), [ursaluna.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/ursaluna.json), [charizard.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/charizard.json), [zamazenta.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zamazenta.json), [butterfree.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/butterfree.json), [metagross.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/metagross.json), [lapras.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/lapras.json), [blastoise.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/blastoise.json), [swampert.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/swampert.json), [rayquaza.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/rayquaza.json), [necrozma.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7/necrozma.json), [darmanitan.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/darmanitan.json)
+
 <!-- cr-addon-riding-next -->
 
 {% hint style="info" %}
