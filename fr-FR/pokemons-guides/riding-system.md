@@ -746,6 +746,74 @@ Analyse directe du JAR `zamega-neoforge-1.8.1+1.8.jar` fourni : **aucune défini
 Le JAR demande notamment `cobblemon >= 1.8.0` et la dépendance `mega_showdown`. Les informations de cette section sont bornées au **JAR fourni**, et non à d'éventuelles versions ultérieures.
 {% endhint %}
 
+<!-- cr-rideplus-start -->
+## 🐎 Cobblemon Ride+ (v1.2.7b)
+
+Cette extension de **LevelsFR** cible **Minecraft 1.21.1 / Cobblemon 1.8.1**, pour Fabric et NeoForge. Le dépôt contient **118 JSON d'ajout de montures**. Les données Ride+ sont présentées séparément des montures natives et des autres addons.
+
+{% hint style="info" %}
+« Aussi natif » signifie que l'espèce figure déjà parmi les montures natives. **Ne comptez pas deux fois cette espèce.** Des chevauchements avec Mega Showdown et Lost Lore sont également possibles. Les noms internationaux correspondent aux identifiants JSON.
+{% endhint %}
+
+{% hint style="warning" %}
+Cette section documente les fichiers JSON, **pas des tests en jeu**. L'accès à un siège peut varier avec la forme, les points d'ancrage du modèle ou les priorités des datapacks. **Noadkoko d'Alola** utilise notamment un ancrage de tête ; **Oyacata** possède une configuration Ride+ distincte du natif.
+{% endhint %}
+
+Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride-Plus), branche `master`, version `1.2.7b` (accès au code potentiellement restreint).
+
+<details>
+<summary><strong>📖 Afficher les montures Ride+</strong></summary>
+
+| Pokémon | Places | Terre | Eau | Air | Origine |
+| --- | :---: | --- | --- | --- | --- |
+| Absol | 1 | Standard | — | — | Ajout Ride+ |
+| Aggron | 1 | Standard | — | — | Ajout Ride+ |
+| Ampharos | 1 | Standard | — | — | Ajout Ride+ |
+| Arbok | 1 | Standard | — | — | Ajout Ride+ |
+| Armarouge | 1 | Standard | — | — | Ajout Ride+ |
+| Aurorus | 1 | Standard | — | — | Ajout Ride+ |
+| Basculegion | 1 | — | Dauphin | — | Ajout Ride+ |
+| Beartic | 1 | Standard | — | — | Ajout Ride+ |
+| Bewear | 1 | Standard | — | — | Ajout Ride+ |
+| Breloom | 1 | Standard | — | — | Ajout Ride+ |
+| Butterfree | 1 | — | — | Oiseau | Ajout Ride+ |
+| Carracosta | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Centiskorch | 1 | Standard | — | — | Ajout Ride+ |
+| Ceruledge | 1 | Standard | — | — | Ajout Ride+ |
+| Cetitan | 1 | Standard | — | — | Ajout Ride+ |
+| Chesnaught | 1 | Standard | — | — | Ajout Ride+ |
+<!-- cr-rideplus-list-next -->
+
+</details>
+
+<details>
+<summary><strong>📊 Statistiques détaillées de Ride+</strong></summary>
+
+| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Absol | Terre | Standard | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
+| Aggron | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Ampharos | Terre | Standard | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
+| Arbok | Terre | Standard | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
+| Armarouge | Terre | Standard | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
+| Aurorus | Terre | Standard | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
+| Basculegion | Eau | Dauphin | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
+| Beartic | Terre | Standard | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
+| Bewear | Terre | Standard | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
+| Breloom | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Butterfree | Air | Oiseau | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
+| Carracosta | Terre | Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Carracosta | Eau | Dauphin | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
+| Centiskorch | Terre | Standard | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
+| Ceruledge | Terre | Standard | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
+| Cetitan | Terre | Standard | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
+| Chesnaught | Terre | Standard | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
+<!-- cr-rideplus-stats-next -->
+
+</details>
+
+<!-- cr-rideplus-end -->
+
 <!-- cr-addon-riding-end -->
 
 
