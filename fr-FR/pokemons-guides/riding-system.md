@@ -1,1101 +1,807 @@
-# 🐎 Système de montures — Cobblemon 1.8.1
+# 🐎 Guide des montures | Cobblemon 1.8.1
+
+**Un seul catalogue pour toutes les montures de Cobblemon Realms.** Retrouvez les Pokémon pris en charge par Cobblemon, **Ride+**, **Mega Showdown** et **Lost Lore** sur Minecraft 1.21.1.
+
+**Accès rapide :** [Catalogue des montures](#catalogue-des-montures) · [Statistiques](#statistiques-detaillees) · [Comment monter](#comment-monter-un-pokemon) · [Sources](#sources-et-compatibilite)
 
 {% hint style="info" %}
-<p align="center">
-Ce guide décrit <strong>uniquement les montures natives de Cobblemon 1.8.1</strong>, pour Minecraft 1.21.1. Les espèces, styles, places et plages de statistiques ci-dessous sont établis d'après le <strong>wiki officiel de Cobblemon</strong> et les notes de version officielles 1.8.0/1.8.1. Les JSON d'espèces sont liés en fin de page pour une vérification indépendante.
-</p>
+**Vous cherchez un Pokémon ?** Ouvrez la tranche alphabétique correspondant à son nom, puis utilisez **Ctrl + F** (ou **Cmd + F** sur Mac). Les noms français connus sont accompagnés du nom anglais pour faciliter la recherche.
 {% endhint %}
+
+## 🔎 Catalogue des montures
+
+**264 entrées Pokémon/formes**, regroupées et dédoublonnées. Chaque Pokémon apparaît **une seule fois** dans ce catalogue, même lorsque plusieurs mods lui fournissent une monture.
+
+| Code | Origine |
+| --- | --- |
+| **C** | Cobblemon 1.8.1 natif |
+| **R+** | Cobblemon Ride+ 1.2.7b |
+| **MS** | Mega Showdown 1.3.0 |
+| **LL** | Lost Lore 3.2.0 |
+
+**Lecture :** Terre, Eau et Air affichent les **styles disponibles selon les sources**. **Places** indique le nombre de sièges déclaré. Quand deux mods ne sont pas d'accord, les valeurs sont précisées par source (ex. `C:7 · R+:1`). Ce n'est **pas** un nombre de sièges cumulatif.
+
+<details>
+<summary><strong>📖 A-F · 81 entrées</strong></summary>
+
+| Pokémon | 🌍 Terre | 🌊 Eau | ☁️ Air | Places | Sources |
+| --- | --- | --- | --- | :---: | --- |
+| **Absol** | Standard | — | — | 1 | R+ |
+| **Absol (Mega-Z)** | Standard | — | — | 1 | MS |
+| **Ptéra (Aerodactyl)** | Standard | — | Oiseau | 1 | C |
+| **Aggron** | Standard | — | — | 1 | R+ |
+| **Altaria** | Standard | — | Oiseau | 1 | C |
+| **Ampharos** | Standard | — | — | 1 | R+ |
+| **Arbok** | Standard | — | — | 1 | R+ |
+| **Arcanin (Arcanine)** | Standard | — | — | 1 | C |
+| **Arceus** | Standard | — | Oiseau | 1 | MS |
+| **Pondralugon (Archaludon)** | Standard | — | — | 1 | C |
+| **Aéroptéryx (Archeops)** | Standard | — | Oiseau | 1 | C |
+| **Migalos (Ariados)** | Standard | — | — | 1 | C |
+| **Armarouge** | Standard | — | — | 1 | R+ |
+| **Artikodin (Articuno)** | Standard | — | Oiseau | 1 | C |
+| **Aurorus** | Standard | — | — | 1 | R+ |
+| **Basculegion** | — | Dauphin | — | 1 | R+ |
+| **Bastiodon** | Standard | — | — | 2 | C |
+| **Beartic** | Standard | — | — | 1 | R+ |
+| **Bewear** | Standard | — | — | 1 | R+ |
+| **Black Fog** | Standard | — | Stationnaire | 1 | LL |
+| **Tortank (Blastoise)** | Standard | Sous-marin | Fusée | C:1 · MS:2 | C · MS |
+| **Tortank (Mega) (Blastoise (Mega))** | Standard | Sous-marin | Fusée | 2 | MS |
+| **Frison (Bouffalant)** | Standard | — | — | 1 | C |
+| **Gueriaigle (Braviary)** | Standard | — | Oiseau | 1 | C |
+| **Gueriaigle (Hisui) (Braviary (Hisui))** | Standard | — | Oiseau | 1 | C |
+| **Breloom** | Standard | — | — | 1 | R+ |
+| **Archéodong (Bronzong)** | — | — | Stationnaire | 2 | C |
+| **Butterfree** | — | — | Oiseau | 1 | R+ |
+| **Camerupt** | Standard | — | — | 6 | C |
+| **Carracosta** | Standard | Dauphin | — | 1 | R+ |
+| **Centiskorch** | Standard | — | — | 1 | R+ |
+| **Ceruledge** | Standard | — | — | 1 | R+ |
+| **Cetitan** | Standard | — | — | 1 | R+ |
+| **Dracaufeu (Charizard)** | Standard | — | Oiseau | 1 | C · MS |
+| **Dracaufeu (Mega-X) (Charizard (Mega-X))** | Standard | — | Oiseau | 1 | MS |
+| **Dracaufeu (Mega-Y) (Charizard (Mega-Y))** | Standard | — | Oiseau | 1 | MS |
+| **Chesnaught** | Standard | — | — | 1 | R+ |
+| **Kaorine (Claydol)** | — | — | Stationnaire | 1 | C |
+| **Clodsire** | Standard | — | — | 1 | R+ |
+| **Cloyster** | Standard | Sous-marin | — | 1 | R+ |
+| **Copperajah** | Standard | — | — | 1 | R+ |
+| **Corvaillus (Corviknight)** | Standard | — | Oiseau | 2 | C |
+| **Nostenfer (Crobat)** | Standard | — | Oiseau | 1 | C |
+| **Crabaraque (Crustle)** | Standard | — | — | 4 | C |
+| **Motorizard (Cyclizar)** | Standard | — | — | 1 | C |
+| **Darumacho (Darmanitan)** | Standard | — | — | 1 | C · MS |
+| **Goupelin (Mega) (Delphox (Mega))** | Standard | — | Jet | 2 | MS |
+| **Lamantine (Dewgong)** | Standard | Dauphin | — | 2 | C |
+| **Sinistrail (Dhelmise)** | Standard | Sous-marin | — | 1 | C |
+| **Dialga** | Standard | — | — | 1 | R+ |
+| **Dialga (Primal)** | Standard | — | Oiseau | 1 | LL |
+| **Oyacata (Dondozo)** | Standard | Sous-marin / Dauphin | — | C:7 · R+:1 | C · R+ |
+| **Donphan** | Standard | — | — | 1 | R+ |
+| **Dracovish** | Standard | Sous-marin | — | 1 | R+ |
+| **Dragalge** | — | Dauphin | — | 1 | R+ |
+| **Lanssorien (Dragapult)** | Standard | Dauphin | Jet | 1 | C |
+| **Dracolosse (Dragonite)** | Standard | Dauphin | Jet | 2 | C |
+| **Draïeul (Drampa)** | Standard | Bateau | Oiseau | 1 | C |
+| **Drapion** | Standard | — | — | 1 | R+ |
+| **Grodrive (Drifblim)** | — | — | Stationnaire | 1 | C |
+| **Druddigon** | Standard | — | — | 1 | R+ |
+| **Deusolourdo (Dudunsparce)** | Standard | — | — | 2 | C |
+| **Deusolourdo (Forme Triple) (Dudunsparce (Three-Segment))** | Standard | — | — | 2 | C |
+| **Duraludon** | Standard | — | — | 1 | C · MS |
+| **Noctunoir (Dusknoir)** | — | — | Stationnaire | 1 | C |
+| **Eelektross** | — | Dauphin | — | 1 | R+ |
+| **Emboar** | Standard | — | — | 1 | R+ |
+| **Empoleon** | Standard | Dauphin | — | 1 | R+ |
+| **Enamorus** | Standard | — | Oiseau | 1 | R+ |
+| **Amovénus (Therian) (Enamorus (Therian))** | Standard | — | Oiseau | 1 | MS |
+| **Entei** | Standard | — | — | 1 | MS |
+| **Cléopsytra (Espathra)** | Standard | — | — | 1 | C |
+| **Éthernatos (Eternatus)** | Standard | — | Oiseau | 1 | MS |
+| **Exeggutor** | Standard | — | — | 1 | R+ |
+| **Exploud** | Standard | — | — | 1 | R+ |
+| **Farigiraf** | Standard | — | — | 1 | C |
+| **Feraligatr** | Standard | Dauphin | — | 1 | R+ |
+| **Flamigo** | Standard | — | Oiseau | 1 | R+ |
+| **Floatzel** | — | Dauphin | — | 1 | R+ |
+| **Libégon (Flygon)** | Standard | — | Oiseau | 1 | C |
+| **Forêtress (Forretress)** | — | — | Stationnaire | 1 | C |
+
+</details>
+
+<details>
+<summary><strong>📖 G-L · 52 entrées</strong></summary>
+
+| Pokémon | 🌍 Terre | 🌊 Eau | ☁️ Air | Places | Sources |
+| --- | --- | --- | --- | :---: | --- |
+| **Carchacrok (Garchomp)** | Standard | Bateau | Jet | 1 | C |
+| **Garganacl** | Standard | — | — | 1 | R+ |
+| **Tritosor (Gastrodon)** | Standard | — | — | 1 | C |
+| **Genesect** | Standard | — | Oiseau | 1 | MS |
+| **Gengar** | Standard | — | Stationnaire | 1 | R+ |
+| **Girafarig** | Standard | — | — | 1 | C |
+| **Blizzeval (Glastrier)** | Standard | — | — | 1 | MS |
+| **Gliscor** | Standard | — | Oiseau | 1 | R+ |
+| **Chevroum (Gogoat)** | Standard | — | — | 1 | C |
+| **Golemastoc (Golurk)** | Standard | — | Fusée | 3 | C |
+| **Muplodocus (Goodra)** | Standard | — | — | 1 | C |
+| **Muplodocus (Hisui) (Goodra (Hisui))** | Standard | — | — | 1 | C |
+| **Gorebyss** | Standard | Dauphin | — | 1 | R+ |
+| **Gouging Fire** | Standard | — | — | 1 | R+ |
+| **Groudon** | Standard | — | — | 1 | MS |
+| **Léviator (Gyarados)** | Standard | Dauphin | Jet | 1 | C |
+| **Hariyama** | Standard | — | — | 1 | R+ |
+| **Haxorus** | Standard | — | — | 1 | R+ |
+| **Scarhino (Heracross)** | Standard | — | Oiseau | 1 | C |
+| **Hippowdon** | Standard | — | — | 1 | R+ |
+| **Ho-Oh** | Standard | — | Oiseau | C:2 · MS:1 | C · MS |
+| **Corboss (Honchkrow)** | Standard | — | Oiseau | 1 | C |
+| **Houndoom** | Standard | — | — | 1 | R+ |
+| **Huntail** | Standard | Dauphin | — | 1 | R+ |
+| **Hydrapple** | Standard | — | — | 1 | R+ |
+| **Trioxhydre (Hydreigon)** | Standard | — | Oiseau | 2 | C |
+| **Iron Leaves** | Standard | — | — | 1 | R+ |
+| **Jellicent** | — | Dauphin | — | 1 | R+ |
+| **Keldeo** | Standard | — | — | 1 | MS |
+| **Fulgulairo (Kilowattrel)** | Standard | — | Oiseau | 1 | C |
+| **Kingdra** | — | Dauphin | — | 1 | R+ |
+| **Kingler** | Standard | Sous-marin | — | 1 | R+ |
+| **Klawf** | Standard | — | — | 1 | R+ |
+| **Cliticlic (Klinklang)** | — | — | Stationnaire | 1 | C |
+| **Kommo-o** | Standard | — | — | 1 | R+ |
+| **Koraidon** | Standard | Bateau | Oiseau | 1 | MS |
+| **Krookodile** | Standard | — | — | 1 | R+ |
+| **Kyogre** | — | Dauphin | — | 1 | MS |
+| **Kyurem** | Standard | — | — | 1 | R+ · MS |
+| **Kyurem (Black)** | Standard | — | Oiseau | 1 | MS |
+| **Kyurem (White)** | Standard | — | Oiseau | 1 | MS |
+| **Landorus** | Standard | — | Oiseau | 1 | R+ · MS |
+| **Lanturn** | — | Dauphin | — | 1 | R+ |
+| **Lokhlass (Lapras)** | Standard | Bateau | — | 1 | C · MS |
+| **Latias** | Standard | Dauphin | Jet | 1 | C · MS |
+| **Latios** | Standard | Dauphin | Jet | 1 | C · MS |
+| **Coudlangue (Lickilicky)** | Standard | — | — | 2 | C |
+| **Ludicolo** | Standard | Dauphin | — | 1 | R+ |
+| **Lugia** | Standard | Dauphin | Oiseau | 1 | C · MS |
+| **Lugia (Shadow)** | Standard | Dauphin | Oiseau | 1 | LL |
+| **Lunala** | — | — | Oiseau | 1 | R+ · MS |
+| **Luxray** | Standard | — | — | 1 | R+ |
+
+</details>
+
+<details>
+<summary><strong>📖 M-R · 61 entrées</strong></summary>
+
+| Pokémon | 🌍 Terre | 🌊 Eau | ☁️ Air | Places | Sources |
+| --- | --- | --- | --- | :---: | --- |
+| **Mabosstiff** | Standard | — | — | 1 | R+ |
+| **Magnezone** | — | — | Stationnaire | 1 | C |
+| **Mammochon (Mamoswine)** | Standard | — | — | 3 | C |
+| **Manectric** | Standard | — | — | 1 | R+ |
+| **Démanta (Mantine)** | Standard | Dauphin | Oiseau | 1 | C |
+| **Meganium** | Standard | — | — | 1 | R+ |
+| **Melmetal** | Standard | — | — | 1 | MS |
+| **Métalosse (Metagross)** | Standard | — | Stationnaire | 4 | C · MS |
+| **Métalosse (Mega) (Metagross (Mega))** | Standard | — | Stationnaire | 4 | MS |
+| **Mewtwo (Armored)** | Standard | Dauphin | Jet | 1 | LL |
+| **Mewtwo (Mega-Armored)** | Standard | Dauphin | Jet | 1 | LL |
+| **Mewtwo (Shadow)** | Standard | Dauphin | Jet | 1 | LL |
+| **Mightyena** | Standard | — | — | 1 | R+ |
+| **Milobellus (Milotic)** | Standard | Dauphin | — | 1 | C |
+| **Miltank** | Standard | — | — | 1 | R+ |
+| **Miraidon** | Standard | Bateau | Oiseau | 1 | MS |
+| **Sulfura (Moltres)** | Standard | — | Oiseau | 1 | C |
+| **Mr. Mime** | Standard | — | — | 1 | C |
+| **MT** | Standard | — | — | 1 | LL |
+| **MT2** | Standard | — | — | 1 | LL |
+| **Bourrinos (Mudsdale)** | Standard | — | — | 1 | C |
+| **Necrozma** | — | — | Stationnaire | 1 | MS |
+| **Nidoking** | Standard | — | — | 1 | R+ |
+| **Nihilego** | — | — | Oiseau | 1 | R+ |
+| **Ninetales** | Standard | — | — | 1 | R+ |
+| **Noctowl** | Standard | — | Oiseau | 1 | R+ |
+| **Bruyverne (Noivern)** | Standard | — | Oiseau | 1 | C |
+| **Oinkologne** | Standard | — | — | 1 | R+ |
+| **Ferdeter (Orthworm)** | Standard | — | — | 1 | C |
+| **Overqwil** | — | Dauphin | — | 1 | R+ |
+| **Palafin** | — | Dauphin | — | 1 | R+ |
+| **Pangoro** | Standard | — | — | 1 | R+ |
+| **Parasect** | Standard | — | — | 1 | C |
+| **Pelipper** | Standard | — | Oiseau | 1 | R+ |
+| **Roucarnage (Pidgeot)** | Standard | — | Oiseau | 1 | C |
+| **Cochignon (Piloswine)** | Standard | — | — | 1 | C |
+| **Pyroar** | Standard | — | — | 1 | R+ |
+| **Raging Bolt** | Standard | — | — | 1 | R+ |
+| **Raichu** | Standard | — | — | 1 | R+ |
+| **Rampardos** | Standard | — | — | 1 | R+ |
+| **Rapidash** | Standard | — | — | 1 | R+ |
+| **Raticate** | Standard | — | — | 1 | R+ |
+| **Rayquaza** | Standard | Bateau | Jet | 4 | R+ · MS |
+| **Regice** | Standard | — | — | 1 | R+ |
+| **Regidrago** | Standard | — | — | 1 | R+ |
+| **Regieleki** | Standard | Bateau | Jet | 1 | R+ |
+| **Regigigas** | Standard | — | — | 1 | R+ |
+| **Regirock** | Standard | — | — | 1 | R+ |
+| **Registeel** | Standard | — | — | 1 | R+ |
+| **Relicanth** | — | Sous-marin | — | 1 | C |
+| **Reshiram** | Standard | — | Oiseau | 1 | MS |
+| **Vrombotor (Revavroom)** | Standard | — | — | C:2 · R+:1 | C · R+ |
+| **Vrombotor (Caph) (Revavroom (Caph))** | Standard | — | — | 4 | LL |
+| **Vrombotor (Navi) (Revavroom (Navi))** | Standard | — | — | 4 | LL |
+| **Vrombotor (Ruchbah) (Revavroom (Ruchbah))** | Standard | — | — | 4 | LL |
+| **Vrombotor (Schedar) (Revavroom (Schedar))** | Standard | — | — | 4 | LL |
+| **Vrombotor (Segin) (Revavroom (Segin))** | Standard | — | — | 4 | LL |
+| **Rhinoféros (Rhydon)** | Standard | — | — | 1 | C |
+| **Rhinocorne (Rhyhorn)** | Standard | — | — | 1 | C |
+| **Rhinastoc (Rhyperior)** | Standard | — | — | 1 | C |
+| **Rillaboom** | Standard | — | — | 1 | R+ |
+
+</details>
+
+<details>
+<summary><strong>📖 S-Z · 70 entrées</strong></summary>
+
+| Pokémon | 🌍 Terre | 🌊 Eau | ☁️ Air | Places | Sources |
+| --- | --- | --- | --- | :---: | --- |
+| **Drattak (Salamence)** | Standard | — | Oiseau | 2 | C |
+| **Samurott** | Standard | Dauphin | — | 1 | R+ |
+| **Sandslash** | Standard | — | — | 1 | R+ |
+| **Sawsbuck** | Standard | — | — | 1 | R+ |
+| **Sceptile** | Standard | — | — | 1 | R+ |
+| **Brutapode (Scolipede)** | Standard | — | — | 1 | C |
+| **Poissoroy (Seaking)** | — | Sous-marin | — | 1 | C |
+| **Majaspic (Serperior)** | Standard | — | — | 1 | C |
+| **Sharpedo** | — | Dauphin | — | 1 | C |
+| **Shiftry** | Standard | — | — | 1 | R+ |
+| **Silvallié (Silvally)** | Standard | — | — | 1 | MS |
+| **Airmure (Skarmory)** | Standard | — | Oiseau | 1 | C |
+| **Skeledirge** | Standard | — | — | 1 | R+ |
+| **Cabriolaine (Skiddo)** | Standard | — | — | 1 | C |
+| **Monaflèmit (Slaking)** | Standard | — | — | 1 | C |
+| **Slowbro** | Standard | — | — | 1 | R+ |
+| **Farfurex (Sneasler)** | Standard | — | — | 1 | C |
+| **Snorlax** | Standard | — | — | 1 | R+ |
+| **Solgaleo** | Standard | — | — | 1 | R+ |
+| **Spectreval (Spectrier)** | Standard | — | — | 1 | MS |
+| **Étouraptor (Staraptor)** | Standard | — | Oiseau | 1 | C |
+| **Steelix** | Standard | — | — | 1 | R+ |
+| **Stonjourner** | Standard | — | — | 1 | R+ |
+| **Stoutland** | Standard | — | — | 1 | R+ |
+| **Swampert** | Standard | Dauphin | — | 1 | R+ |
+| **Laggron (Mega) (Swampert (Mega))** | Standard | Dauphin | — | 2 | MS |
+| **Swellow** | Standard | — | Oiseau | 1 | R+ |
+| **Talonflame** | Standard | — | Oiseau | 1 | R+ |
+| **Tangrowth** | Standard | — | — | 1 | R+ |
+| **Tauros** | Standard | — | — | 1 | C |
+| **Tauros (Paldea-Aqua)** | Standard | Bateau | — | 1 | C |
+| **Tauros (Paldea-Blaze)** | Standard | — | — | 1 | C |
+| **Tauros (Paldea-Combat)** | Standard | — | — | 1 | C |
+| **Tentacruel** | Standard | Dauphin | — | 1 | R+ |
+| **Fulguris (Thundurus)** | Standard | — | Oiseau | 1 | R+ · MS |
+| **Togekiss** | Standard | — | Jet | 1 | C |
+| **Torkoal** | Standard | — | — | 1 | R+ |
+| **Boréas (Tornadus)** | Standard | — | Oiseau | 1 | R+ · MS |
+| **Torterra** | Standard | — | — | 1 | R+ |
+| **Toucannon** | Standard | — | Oiseau | 1 | R+ |
+| **Toxicroak** | Standard | — | — | 1 | R+ |
+| **Tropius** | Standard | — | Oiseau | 2 | C |
+| **Turtonator** | Standard | — | — | 1 | R+ |
+| **Type:0 (Type: Null)** | Standard | — | — | 1 | MS |
+| **Tyranitar** | Standard | — | — | 1 | R+ |
+| **Tyranocif (Black) (Tyranitar (Black))** | Standard | — | — | 1 | LL |
+| **Rexillius (Tyrantrum)** | Standard | — | — | C:2 · R+:1 | C · R+ |
+| **Ursaking (Ursaluna)** | Standard | — | — | 2 | C · MS |
+| **Ursaring** | Standard | — | — | 1 | C |
+| **Veluza** | — | Dauphin | — | 1 | R+ |
+| **Florizarre (Venusaur)** | Standard | — | — | 1 | C · MS |
+| **Florizarre (Mega) (Venusaur (Mega))** | Standard | — | — | 1 | MS |
+| **Viridium (Virizion)** | Standard | — | — | 1 | MS |
+| **Volcanion** | Standard | — | — | 1 | MS |
+| **Pyrax (Volcarona)** | Standard | — | Oiseau | 1 | C |
+| **Wailmer** | Standard | Sous-marin | — | 1 | C |
+| **Wailord** | Standard | Sous-marin | — | 19 | C |
+| **Walking Wake** | Standard | Dauphin | — | 1 | R+ |
+| **Walrein** | Standard | Dauphin | — | 1 | R+ |
+| **Chongjian (Wo-Chien)** | Standard | — | — | 1 | MS |
+| **Cerbyllin (Wyrdeer)** | Standard | — | — | 1 | C |
+| **Yveltal** | Standard | Bateau | Oiseau | 1 | MS |
+| **Zacian** | Standard | — | — | 1 | MS |
+| **Zamazenta** | Standard | — | — | 1 | MS |
+| **Électhor (Zapdos)** | Standard | — | Oiseau | 1 | C |
+| **Zarude** | Standard | — | — | 1 | R+ |
+| **Zéblitz (Zebstrika)** | Standard | — | — | 1 | C |
+| **Zekrom** | Standard | — | Oiseau | 1 | MS |
+| **Zygarde** | Standard | — | — | 1 | MS |
+| **Zygarde (50%-C)** | Standard | — | — | 1 | MS |
+
+</details>
 
 {% hint style="warning" %}
-Les tableaux <strong>natifs</strong> ci-dessous décrivent Cobblemon 1.8.1 <strong>sans modification de ses montures</strong>. Les montures et réglages supplémentaires de <strong>Cobblemon Ride+</strong>, de Mega Showdown et de Lost Lore sont présentés <strong>séparément, en fin de page</strong>.
+**Attention aux chevauchements :** plusieurs addons peuvent modifier le même Pokémon. Les styles et places ci-dessus regroupent **ce que déclarent les fichiers**, sans garantir que toutes les options seront actives simultanément. En particulier, les sièges déclarés diffèrent pour **Tortank, Oyacata, Ho-Oh, Vrombotor et Rexillius** selon le fournisseur. La priorité des données chargées détermine le comportement en jeu.
 {% endhint %}
 
----
+## 📊 Statistiques détaillées
+
+Ces trois sous-tableaux sont **facultatifs** : utilisez-les uniquement pour comparer les statistiques. Les statistiques de monture sont indépendantes des statistiques de combat. Les colonnes indiquent les plages **Accél.**, **Maniab.** (maniabilité), **Vit.**, **End.** et **Saut**.
+
+Une même espèce peut figurer plusieurs fois lorsque **plusieurs sources** ou **plusieurs milieux** définissent des caractéristiques différentes. **Configuration** combine le code du fournisseur avec son style de monture. Les plages peuvent dépasser 100 dans les addons.
+
+<details>
+<summary><strong>🐾 Montures terrestres · 258 configurations</strong></summary>
+
+| Pokémon | Configuration | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Absol | R+ · Standard | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
+| Absol (Mega-Z) | MS · Standard | 75-85 | 60-80 | 50-70 | 35-55 | 30-50 |
+| Ptéra (Aerodactyl) | C · Standard | 55-75 | 15-45 | 10-20 | 20-45 | 25-35 |
+| Aggron | R+ · Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Altaria | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Ampharos | R+ · Standard | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
+| Arbok | R+ · Standard | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
+| Arcanin (Arcanine) | C · Standard | 70-90 | 40-80 | 45-70 | 35-80 | 45-65 |
+| Arceus | MS · Standard | 10-40 | 30-65 | 30-65 | 30-65 | 55-85 |
+| Pondralugon (Archaludon) | C · Standard | 45-70 | 5-25 | 5-10 | 50-90 | 25-30 |
+| Aéroptéryx (Archeops) | C · Standard | 55-65 | 10-25 | 25-40 | 20-40 | 25-35 |
+| Migalos (Ariados) | C · Standard | 55-85 | 45-65 | 30-45 | 15-30 | 25-45 |
+| Armarouge | R+ · Standard | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
+| Artikodin (Articuno) | C · Standard | 70-90 | 30-60 | 10-20 | 40-80 | 25-50 |
+| Aurorus | R+ · Standard | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
+| Bastiodon | C · Standard | 15-25 | 0-5 | 15-35 | 50-90 | 0-5 |
+| Beartic | R+ · Standard | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
+| Bewear | R+ · Standard | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
+| Black Fog | LL · Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Tortank (Blastoise) | C · Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Tortank (Blastoise) | MS · Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Tortank (Mega) (Blastoise (Mega)) | MS · Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Frison (Bouffalant) | C · Standard | 50-75 | 15-30 | 45-65 | 55-70 | 20-30 |
+| Gueriaigle (Braviary) | C · Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Gueriaigle (Hisui) (Braviary (Hisui)) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Breloom | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Camerupt | C · Standard | 45-60 | 10-30 | 25-35 | 50-80 | 10-25 |
+| Carracosta | R+ · Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Centiskorch | R+ · Standard | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
+| Ceruledge | R+ · Standard | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
+| Cetitan | R+ · Standard | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
+| Dracaufeu (Charizard) | C · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Dracaufeu (Charizard) | MS · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Dracaufeu (Mega-X) (Charizard (Mega-X)) | MS · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Dracaufeu (Mega-Y) (Charizard (Mega-Y)) | MS · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Chesnaught | R+ · Standard | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
+| Clodsire | R+ · Standard | 10-25 | 20-40 | 5-20 | 60-90 | 0-10 |
+| Cloyster | R+ · Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Copperajah | R+ · Standard | 20-35 | 25-45 | 15-30 | 70-100 | 5-15 |
+| Corvaillus (Corviknight) | C · Standard | 60-80 | 30-50 | 15-30 | 60-80 | 30-45 |
+| Nostenfer (Crobat) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Crabaraque (Crustle) | C · Standard | 15-45 | 25-35 | 1-5 | 60-85 | 0-5 |
+| Motorizard (Cyclizar) | C · Standard | 65-85 | 35-60 | 50-80 | 30-60 | 35-45 |
+| Darumacho (Darmanitan) | C · Standard | 45-65 | 15-25 | 40-50 | 35-60 | 35-45 |
+| Darumacho (Darmanitan) | MS · Standard | 45-65 | 15-25 | 40-50 | 35-60 | 35-45 |
+| Goupelin (Mega) (Delphox (Mega)) | MS · Standard | 50-70 | 35-55 | 35-45 | 60-75 | 10-25 |
+| Lamantine (Dewgong) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Sinistrail (Dhelmise) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Dialga | R+ · Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Dialga (Primal) | LL · Standard | 55-65 | 20-55 | 40-70 | 55-99 | 20-80 |
+| Oyacata (Dondozo) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Donphan | R+ · Standard | 30-45 | 25-40 | 30-50 | 60-90 | 20-35 |
+| Dracovish | R+ · Standard | 25-45 | 30-55 | 25-45 | 45-75 | 10-25 |
+| Lanssorien (Dragapult) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Dracolosse (Dragonite) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Draïeul (Drampa) | C · Standard | 10-40 | 30-65 | 0-10 | 55-85 | 30-65 |
+| Drapion | R+ · Standard | 20-40 | 35-60 | 20-40 | 40-70 | 15-30 |
+| Druddigon | R+ · Standard | 20-45 | 35-65 | 20-45 | 45-75 | 20-35 |
+| Deusolourdo (Dudunsparce) | C · Standard | 30-50 | 30-40 | 5-25 | 30-75 | 20-45 |
+| Deusolourdo (Forme Triple) (Dudunsparce (Three-Segment)) | C · Standard | 35-60 | 30-40 | 5-25 | 35-85 | 25-55 |
+| Duraludon | C · Standard | 35-60 | 5-25 | 10-20 | 40-80 | 20-25 |
+| Duraludon | MS · Standard | 35-60 | 5-25 | 10-20 | 40-80 | 20-25 |
+| Emboar | R+ · Standard | 25-45 | 35-60 | 25-45 | 45-80 | 20-35 |
+| Empoleon | R+ · Standard | 15-35 | 30-55 | 15-35 | 30-60 | 15-30 |
+| Enamorus | R+ · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Amovénus (Therian) (Enamorus (Therian)) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Entei | MS · Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
+| Cléopsytra (Espathra) | C · Standard | 30-65 | 15-40 | 55-70 | 25-35 | 40-55 |
+| Éthernatos (Eternatus) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Exeggutor | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Exploud | R+ · Standard | 20-40 | 25-45 | 15-35 | 30-55 | 15-30 |
+| Farigiraf | C · Standard | 40-60 | 35-50 | 45-60 | 50-70 | 45-55 |
+| Feraligatr | R+ · Standard | 30-55 | 25-45 | 30-50 | 45-70 | 25-40 |
+| Flamigo | R+ · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Libégon (Flygon) | C · Standard | 60-75 | 15-25 | 15-25 | 25-40 | 15-30 |
+| Carchacrok (Garchomp) | C · Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Garganacl | R+ · Standard | 10-25 | 30-55 | 10-30 | 55-85 | 10-20 |
+| Tritosor (Gastrodon) | C · Standard | 70-90 | 0-15 | 5-10 | 10-20 | 0-10 |
+| Genesect | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Gengar | R+ · Standard | 35-55 | 45-65 | 25-40 | 30-55 | 20-35 |
+| Girafarig | C · Standard | 40-65 | 20-35 | 25-45 | 30-50 | 30-45 |
+| Blizzeval (Glastrier) | MS · Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
+| Gliscor | R+ · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Chevroum (Gogoat) | C · Standard | 65-75 | 40-60 | 45-65 | 45-65 | 40-60 |
+| Golemastoc (Golurk) | C · Standard | 65-80 | 40-65 | 35-50 | 60-85 | 40-60 |
+| Muplodocus (Goodra) | C · Standard | 60-70 | 20-35 | 20-35 | 55-85 | 45-60 |
+| Muplodocus (Hisui) (Goodra (Hisui)) | C · Standard | 50-60 | 10-25 | 10-25 | 70-100 | 20-35 |
+| Gorebyss | R+ · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Gouging Fire | R+ · Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Groudon | MS · Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
+| Léviator (Gyarados) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Hariyama | R+ · Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Haxorus | R+ · Standard | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
+| Scarhino (Heracross) | C · Standard | 55-70 | 40-65 | 15-30 | 35-50 | 35-50 |
+| Hippowdon | R+ · Standard | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
+| Ho-Oh | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Ho-Oh | MS · Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Corboss (Honchkrow) | C · Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Houndoom | R+ · Standard | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
+| Huntail | R+ · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Hydrapple | R+ · Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Trioxhydre (Hydreigon) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Iron Leaves | R+ · Standard | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
+| Keldeo | MS · Standard | 30-60 | 20-50 | 40-50 | 100-145 | 30-65 |
+| Fulgulairo (Kilowattrel) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Kingler | R+ · Standard | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
+| Klawf | R+ · Standard | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
+| Kommo-o | R+ · Standard | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
+| Koraidon | MS · Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
+| Krookodile | R+ · Standard | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
+| Kyurem | R+ · Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Kyurem | MS · Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Kyurem (Black) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Kyurem (White) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Landorus | R+ · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Landorus | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Lokhlass (Lapras) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Lokhlass (Lapras) | MS · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Latias | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Latias | MS · Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Latios | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Latios | MS · Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Coudlangue (Lickilicky) | C · Standard | 0-15 | 0-5 | 10-25 | 20-40 | 40-60 |
+| Ludicolo | R+ · Standard | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
+| Lugia | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Lugia | MS · Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Lugia (Shadow) | LL · Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Luxray | R+ · Standard | 25-50 | 40-70 | 25-50 | 35-65 | 20-40 |
+| Mabosstiff | R+ · Standard | 35-55 | 30-50 | 35-60 | 40-70 | 20-35 |
+| Mammochon (Mamoswine) | C · Standard | 30-40 | 20-30 | 20-35 | 60-90 | 10-20 |
+| Manectric | R+ · Standard | 35-65 | 30-55 | 35-65 | 25-45 | 20-40 |
+| Démanta (Mantine) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Meganium | R+ · Standard | 35-60 | 20-45 | 25-45 | 50-80 | 30-55 |
+| Melmetal | MS · Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
+| Métalosse (Metagross) | C · Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Métalosse (Metagross) | MS · Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Métalosse (Mega) (Metagross (Mega)) | MS · Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Mewtwo (Armored) | LL · Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Mega-Armored) | LL · Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Shadow) | LL · Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mightyena | R+ · Standard | 25-50 | 30-55 | 30-55 | 25-45 | 20-40 |
+| Milobellus (Milotic) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Miltank | R+ · Standard | 30-55 | 25-45 | 35-60 | 50-80 | 20-35 |
+| Miraidon | MS · Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
+| Sulfura (Moltres) | C · Standard | 70-90 | 30-60 | 10-20 | 40-80 | 25-50 |
+| Mr. Mime | C · Standard | 20-40 | 15-45 | 25-45 | 35-60 | 15-35 |
+| MT | LL · Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| MT2 | LL · Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| Bourrinos (Mudsdale) | C · Standard | 50-70 | 30-60 | 30-40 | 70-100 | 30-40 |
+| Nidoking | R+ · Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Ninetales | R+ · Standard | 65-85 | 40-75 | 45-70 | 30-60 | 40-60 |
+| Noctowl | R+ · Standard | 35-55 | 15-30 | 20-35 | 20-35 | 10-25 |
+| Bruyverne (Noivern) | C · Standard | 65-85 | 30-50 | 35-50 | 10-20 | 30-45 |
+| Oinkologne | R+ · Standard | 20-40 | 20-40 | 25-45 | 40-70 | 15-30 |
+| Ferdeter (Orthworm) | C · Standard | 15-25 | 0-15 | 30-40 | 25-75 | 0-5 |
+| Pangoro | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Parasect | C · Standard | 50-70 | 45-65 | 15-30 | 15-30 | 0-15 |
+| Pelipper | R+ · Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Roucarnage (Pidgeot) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Cochignon (Piloswine) | C · Standard | 30-50 | 30-45 | 10-25 | 35-70 | 5-10 |
+| Pyroar | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Raging Bolt | R+ · Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Raichu | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rampardos | R+ · Standard | 20-45 | 35-60 | 15-35 | 40-75 | 20-35 |
+| Rapidash | R+ · Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Raticate | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rayquaza | R+ · Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Rayquaza | MS · Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Regice | R+ · Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Regidrago | R+ · Standard | 25-45 | 35-60 | 35-55 | 45-80 | 25-45 |
+| Regieleki | R+ · Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Regigigas | R+ · Standard | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
+| Regirock | R+ · Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Registeel | R+ · Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Reshiram | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Vrombotor (Revavroom) | C · Standard | 0-5 | 25-40 | 70-85 | 20-40 | 15-20 |
+| Vrombotor (Revavroom) | R+ · Standard | 60-95 | 40-65 | 55-90 | 45-70 | 5-20 |
+| Vrombotor (Caph) (Revavroom (Caph)) | LL · Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Navi) (Revavroom (Navi)) | LL · Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Ruchbah) (Revavroom (Ruchbah)) | LL · Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Schedar) (Revavroom (Schedar)) | LL · Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Vrombotor (Segin) (Revavroom (Segin)) | LL · Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Rhinoféros (Rhydon) | C · Standard | 55-75 | 30-60 | 5-15 | 55-90 | 20-30 |
+| Rhinocorne (Rhyhorn) | C · Standard | 5-20 | 5-25 | 25-60 | 40-80 | 5-15 |
+| Rhinastoc (Rhyperior) | C · Standard | 45-75 | 25-55 | 5-15 | 75-100 | 10-25 |
+| Rillaboom | R+ · Standard | 30-55 | 40-65 | 30-50 | 55-85 | 20-35 |
+| Drattak (Salamence) | C · Standard | 60-80 | 5-20 | 10-20 | 35-70 | 15-25 |
+| Samurott | R+ · Standard | 20-40 | 30-55 | 20-40 | 40-70 | 15-30 |
+| Sandslash | R+ · Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Sawsbuck | R+ · Standard | 25-50 | 35-60 | 25-50 | 35-65 | 25-45 |
+| Sceptile | R+ · Standard | 40-70 | 45-75 | 40-70 | 30-55 | 35-60 |
+| Brutapode (Scolipede) | C · Standard | 20-25 | 25-35 | 45-75 | 50-70 | 25-35 |
+| Majaspic (Serperior) | C · Standard | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
+| Shiftry | R+ · Standard | 25-45 | 40-70 | 25-50 | 30-60 | 20-40 |
+| Silvallié (Silvally) | MS · Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Airmure (Skarmory) | C · Standard | 50-65 | 20-35 | 30-45 | 30-55 | 25-35 |
+| Skeledirge | R+ · Standard | 20-40 | 45-75 | 25-45 | 45-80 | 20-35 |
+| Cabriolaine (Skiddo) | C · Standard | 40-65 | 20-40 | 30-45 | 30-45 | 30-40 |
+| Monaflèmit (Slaking) | C · Standard | 0-20 | 0-20 | 25-65 | 60-100 | 25-40 |
+| Slowbro | R+ · Standard | 20-35 | 20-35 | 18-30 | 65-95 | 10-20 |
+| Farfurex (Sneasler) | C · Standard | 75-90 | 65-85 | 35-45 | 10-20 | 30-40 |
+| Snorlax | R+ · Standard | 0-20 | 0-25 | 15-35 | 70-100 | 10-25 |
+| Solgaleo | R+ · Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Spectreval (Spectrier) | MS · Standard | 50-70 | 20-50 | 50-70 | 60-120 | 30-65 |
+| Étouraptor (Staraptor) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Steelix | R+ · Standard | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
+| Stonjourner | R+ · Standard | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
+| Stoutland | R+ · Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Swampert | R+ · Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
+| Laggron (Mega) (Swampert (Mega)) | MS · Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
+| Swellow | R+ · Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Talonflame | R+ · Standard | 35-55 | 20-40 | 25-45 | 20-35 | 15-30 |
+| Tangrowth | R+ · Standard | 15-30 | 35-60 | 15-30 | 45-80 | 10-25 |
+| Tauros | C · Standard | 15-50 | 15-30 | 55-75 | 35-55 | 25-35 |
+| Tauros (Paldea-Aqua) | C · Standard | 15-50 | 15-30 | 50-70 | 40-60 | 25-30 |
+| Tauros (Paldea-Blaze) | C · Standard | 20-55 | 15-30 | 55-75 | 30-50 | 25-40 |
+| Tauros (Paldea-Combat) | C · Standard | 15-50 | 15-30 | 55-75 | 35-55 | 25-35 |
+| Tentacruel | R+ · Standard | 5-20 | 20-40 | 5-20 | 30-60 | 0-5 |
+| Fulguris (Thundurus) | R+ · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Fulguris (Thundurus) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Togekiss | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Torkoal | R+ · Standard | 10-25 | 30-55 | 10-25 | 50-90 | 10-20 |
+| Boréas (Tornadus) | R+ · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Boréas (Tornadus) | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Torterra | R+ · Standard | 15-35 | 35-60 | 15-35 | 55-90 | 15-30 |
+| Toucannon | R+ · Standard | 20-40 | 30-50 | 15-30 | 25-45 | 15-30 |
+| Toxicroak | R+ · Standard | 40-65 | 35-60 | 40-65 | 30-55 | 25-45 |
+| Tropius | C · Standard | 30-50 | 30-50 | 15-25 | 55-85 | 10-20 |
+| Turtonator | R+ · Standard | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
+| Type:0 (Type: Null) | MS · Standard | 30-60 | 40-70 | 20-40 | 60-95 | 30-65 |
+| Tyranitar | R+ · Standard | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
+| Tyranocif (Black) (Tyranitar (Black)) | LL · Standard | 50-75 | 35-55 | 40-60 | 60-85 | 10-25 |
+| Rexillius (Tyrantrum) | C · Standard | 50-70 | 40-60 | 20-30 | 70-100 | 40-55 |
+| Rexillius (Tyrantrum) | R+ · Standard | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
+| Ursaking (Ursaluna) | C · Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
+| Ursaking (Ursaluna) | MS · Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
+| Ursaring | C · Standard | 45-80 | 20-45 | 30-40 | 30-65 | 25-40 |
+| Florizarre (Venusaur) | C · Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
+| Florizarre (Venusaur) | MS · Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
+| Florizarre (Mega) (Venusaur (Mega)) | MS · Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
+| Viridium (Virizion) | MS · Standard | 75-85 | 60-80 | 60-80 | 45-65 | 40-60 |
+| Volcanion | MS · Standard | 30-60 | 20-50 | 20-40 | 60-105 | 30-65 |
+| Pyrax (Volcarona) | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Wailmer | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Wailord | C · Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Walking Wake | R+ · Standard | 35-60 | 25-45 | 35-60 | 40-70 | 25-45 |
+| Walrein | R+ · Standard | 15-35 | 30-55 | 10-25 | 40-80 | 10-20 |
+| Chongjian (Wo-Chien) | MS · Standard | 20-30 | 45-65 | 20-30 | 80-100 | 5-20 |
+| Cerbyllin (Wyrdeer) | C · Standard | 60-80 | 40-60 | 45-65 | 55-70 | 45-55 |
+| Yveltal | MS · Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Zacian | MS · Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
+| Zamazenta | MS · Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
+| Électhor (Zapdos) | C · Standard | 70-90 | 30-60 | 10-20 | 40-80 | 25-50 |
+| Zarude | R+ · Standard | 55-80 | 45-65 | 60-85 | 40-65 | 30-50 |
+| Zéblitz (Zebstrika) | C · Standard | 65-85 | 50-75 | 35-75 | 25-45 | 35-45 |
+| Zekrom | MS · Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Zygarde | MS · Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (50%-C) | MS · Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+
+</details>
+
+<details>
+<summary><strong>🌊 Montures aquatiques · 62 configurations</strong></summary>
+
+| Pokémon | Configuration | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Basculegion | R+ · Dauphin | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
+| Tortank (Blastoise) | C · Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Tortank (Blastoise) | MS · Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Tortank (Mega) (Blastoise (Mega)) | MS · Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Carracosta | R+ · Dauphin | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
+| Cloyster | R+ · Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Lamantine (Dewgong) | C · Dauphin | 50-75 | 30-65 | 25-45 | 25-50 | 25-50 |
+| Sinistrail (Dhelmise) | C · Sous-marin | 40-55 | 20-30 | 15-30 | 45-65 | 70-100 |
+| Oyacata (Dondozo) | C · Sous-marin | 45-65 | 50-75 | 25-45 | 60-75 | 10-25 |
+| Oyacata (Dondozo) | R+ · Dauphin | 15-35 | 25-45 | 25-50 | 75-100 | 10-25 |
+| Dracovish | R+ · Sous-marin | 35-60 | 40-70 | 40-65 | 50-85 | 30-55 |
+| Dragalge | R+ · Dauphin | 35-60 | 40-65 | 30-55 | 45-75 | 20-40 |
+| Lanssorien (Dragapult) | C · Dauphin | 60-85 | 55-70 | 50-65 | 25-35 | 40-55 |
+| Dracolosse (Dragonite) | C · Dauphin | 30-65 | 35-50 | 30-50 | 60-90 | 55-85 |
+| Draïeul (Drampa) | C · Bateau | 10-25 | 50-70 | 10-30 | 50-65 | 20-40 |
+| Eelektross | R+ · Dauphin | 35-65 | 45-75 | 30-60 | 45-75 | 20-40 |
+| Empoleon | R+ · Dauphin | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
+| Feraligatr | R+ · Dauphin | 40-65 | 40-70 | 35-60 | 45-80 | 30-55 |
+| Floatzel | R+ · Dauphin | 40-70 | 45-75 | 35-65 | 35-65 | 25-45 |
+| Carchacrok (Garchomp) | C · Bateau | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
+| Gorebyss | R+ · Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Léviator (Gyarados) | C · Dauphin | 40-60 | 35-65 | 30-55 | 45-75 | 40-70 |
+| Huntail | R+ · Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Jellicent | R+ · Dauphin | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
+| Kingdra | R+ · Dauphin | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
+| Kingler | R+ · Sous-marin | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
+| Koraidon | MS · Bateau | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
+| Kyogre | MS · Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Lanturn | R+ · Dauphin | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
+| Lokhlass (Lapras) | C · Bateau | 30-55 | 50-75 | 25-40 | 45-75 | 20-30 |
+| Lokhlass (Lapras) | MS · Bateau | 30-55 | 50-75 | 25-40 | 45-75 | 20-30 |
+| Latias | MS · Dauphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
+| Latios | MS · Dauphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
+| Ludicolo | R+ · Dauphin | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
+| Lugia | C · Dauphin | 80-100 | 75-95 | 60-80 | 80-100 | 75-90 |
+| Lugia | MS · Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Lugia (Shadow) | LL · Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Démanta (Mantine) | C · Dauphin | 30-55 | 45-75 | 20-40 | 20-40 | 40-80 |
+| Mewtwo (Armored) | LL · Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Mega-Armored) | LL · Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Shadow) | LL · Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Milobellus (Milotic) | C · Dauphin | 40-55 | 65-90 | 45-70 | 45-60 | 25-40 |
+| Miraidon | MS · Bateau | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
+| Overqwil | R+ · Dauphin | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
+| Palafin | R+ · Dauphin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
+| Rayquaza | R+ · Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+| Rayquaza | MS · Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+| Regieleki | R+ · Bateau | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
+| Relicanth | C · Sous-marin | 25-40 | 40-80 | 15-35 | 50-90 | 50-75 |
+| Samurott | R+ · Dauphin | 30-55 | 45-75 | 30-55 | 50-85 | 25-45 |
+| Poissoroy (Seaking) | C · Sous-marin | 35-70 | 25-55 | 35-65 | 20-40 | 15-35 |
+| Sharpedo | C · Dauphin | 55-85 | 25-65 | 55-85 | 20-45 | 45-75 |
+| Swampert | R+ · Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
+| Laggron (Mega) (Swampert (Mega)) | MS · Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
+| Tauros (Paldea-Aqua) | C · Bateau | 55-65 | 40-55 | 30-40 | 30-65 | 20-30 |
+| Tentacruel | R+ · Dauphin | 40-65 | 45-75 | 30-60 | 40-80 | 25-55 |
+| Veluza | R+ · Dauphin | 50-80 | 40-70 | 45-75 | 35-70 | 20-40 |
+| Wailmer | C · Sous-marin | 30-55 | 30-55 | 30-50 | 40-85 | 25-40 |
+| Wailord | C · Sous-marin | 20-45 | 30-55 | 20-40 | 65-100 | 40-55 |
+| Walking Wake | R+ · Dauphin | 40-70 | 35-60 | 45-75 | 45-75 | 30-55 |
+| Walrein | R+ · Dauphin | 30-55 | 45-75 | 30-60 | 50-90 | 25-40 |
+| Yveltal | MS · Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+
+</details>
+
+<details>
+<summary><strong>🪶 Montures aériennes · 96 configurations</strong></summary>
+
+| Pokémon | Configuration | Accél. | Maniab. | Vit. | End. | Saut |
+| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Ptéra (Aerodactyl) | C · Oiseau | 35-65 | 35-70 | 45-75 | 40-65 | 45-75 |
+| Altaria | C · Oiseau | 25-45 | 40-50 | 25-35 | 70-90 | 25-45 |
+| Arceus | MS · Oiseau | 30-65 | 30-65 | 55-85 | 80-160 | 30-65 |
+| Aéroptéryx (Archeops) | C · Oiseau | 55-75 | 60-85 | 10-20 | 0-5 | 30-65 |
+| Artikodin (Articuno) | C · Oiseau | 70-85 | 80-100 | 65-90 | 70-90 | 65-90 |
+| Black Fog | LL · Stationnaire | 60-75 | 35-55 | 55-85 | 65-80 | 25-45 |
+| Tortank (Blastoise) | C · Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
+| Tortank (Blastoise) | MS · Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
+| Tortank (Mega) (Blastoise (Mega)) | MS · Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
+| Gueriaigle (Braviary) | C · Oiseau | 35-55 | 30-50 | 45-70 | 55-85 | 35-55 |
+| Gueriaigle (Hisui) (Braviary (Hisui)) | C · Oiseau | 30-50 | 30-50 | 40-65 | 60-90 | 40-60 |
+| Archéodong (Bronzong) | C · Stationnaire | 40-65 | 25-40 | 15-30 | 10-20 | 30-50 |
+| Butterfree | R+ · Oiseau | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
+| Dracaufeu (Charizard) | C · Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu (Charizard) | MS · Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu (Mega-X) (Charizard (Mega-X)) | MS · Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Dracaufeu (Mega-Y) (Charizard (Mega-Y)) | MS · Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
+| Kaorine (Claydol) | C · Stationnaire | 65-85 | 50-70 | 10-20 | 5-10 | 35-70 |
+| Corvaillus (Corviknight) | C · Oiseau | 35-55 | 20-35 | 25-40 | 80-100 | 80-100 |
+| Nostenfer (Crobat) | C · Oiseau | 50-75 | 65-85 | 65-85 | 25-40 | 45-65 |
+| Goupelin (Mega) (Delphox (Mega)) | MS · Jet | 50-70 | 35-55 | 65-85 | 60-75 | 40-60 |
+| Dialga (Primal) | LL · Oiseau | 45-75 | 55-85 | 30-80 | 45-77 | 30-65 |
+| Lanssorien (Dragapult) | C · Jet | 60-85 | 55-70 | 55-90 | 25-35 | 45-80 |
+| Dracolosse (Dragonite) | C · Jet | 35-50 | 50-85 | 40-60 | 50-85 | 50-70 |
+| Draïeul (Drampa) | C · Oiseau | 10-25 | 45-60 | 10-30 | 80-100 | 0-10 |
+| Grodrive (Drifblim) | C · Stationnaire | 10-20 | 15-25 | 5-15 | 40-80 | 60-100 |
+| Noctunoir (Dusknoir) | C · Stationnaire | 45-60 | 60-70 | 15-25 | 0-5 | 45-80 |
+| Enamorus | R+ · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Amovénus (Therian) (Enamorus (Therian)) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Éthernatos (Eternatus) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 81-130 | 41-60 |
+| Flamigo | R+ · Oiseau | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Libégon (Flygon) | C · Oiseau | 40-75 | 40-85 | 50-80 | 45-65 | 45-60 |
+| Forêtress (Forretress) | C · Stationnaire | 20-40 | 25-45 | 15-25 | 0-5 | 5-10 |
+| Carchacrok (Garchomp) | C · Jet | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
+| Genesect | MS · Oiseau | 41-60 | 41-60 | 80-160 | 80-120 | 41-60 |
+| Gengar | R+ · Stationnaire | 25-45 | 55-80 | 20-35 | 30-60 | 25-45 |
+| Gliscor | R+ · Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Golemastoc (Golurk) | C · Fusée | 10-35 | 15-30 | 45-75 | 30-50 | 25-40 |
+| Léviator (Gyarados) | C · Jet | 35-60 | 45-65 | 15-50 | 15-55 | 20-45 |
+| Scarhino (Heracross) | C · Oiseau | 40-65 | 55-85 | 35-50 | 35-55 | 0-5 |
+| Ho-Oh | C · Oiseau | 75-95 | 65-85 | 75-90 | 80-100 | 75-100 |
+| Ho-Oh | MS · Oiseau | 20-100 | 50-100 | 25-50 | 30-70 | 25-50 |
+| Corboss (Honchkrow) | C · Oiseau | 20-40 | 30-50 | 20-35 | 55-75 | 50-70 |
+| Trioxhydre (Hydreigon) | C · Oiseau | 35-55 | 30-60 | 45-60 | 75-100 | 5-10 |
+| Fulgulairo (Kilowattrel) | C · Oiseau | 35-50 | 40-65 | 30-45 | 40-65 | 50-70 |
+| Cliticlic (Klinklang) | C · Stationnaire | 40-60 | 40-60 | 30-40 | 5-10 | 15-25 |
+| Koraidon | MS · Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Kyurem (Black) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Kyurem (White) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Landorus | R+ · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Landorus | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Latias | C · Jet | 70-95 | 70-95 | 75-90 | 85-100 | 85-100 |
+| Latias | MS · Jet | 70-90 | 100-130 | 75-85 | 82-120 | 41-60 |
+| Latios | C · Jet | 70-95 | 70-95 | 85-100 | 70-95 | 80-100 |
+| Latios | MS · Jet | 70-90 | 100-130 | 85-95 | 82-120 | 41-60 |
+| Lugia | C · Oiseau | 65-85 | 60-80 | 60-80 | 65-90 | 75-90 |
+| Lugia | MS · Oiseau | 20-100 | 50-100 | 70-95 | 130-150 | 25-50 |
+| Lugia (Shadow) | LL · Oiseau | 20-100 | 50-100 | 85-110 | 150-180 | 25-50 |
+| Lunala | R+ · Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Lunala | MS · Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Magnezone | C · Stationnaire | 65-90 | 35-50 | 20-35 | 5-15 | 45-65 |
+| Démanta (Mantine) | C · Oiseau | 75-100 | 30-50 | 20-40 | 0-0 | 25-45 |
+| Métalosse (Metagross) | C · Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
+| Métalosse (Metagross) | MS · Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
+| Métalosse (Mega) (Metagross (Mega)) | MS · Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
+| Mewtwo (Armored) | LL · Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Mega-Armored) | LL · Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Shadow) | LL · Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Miraidon | MS · Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Sulfura (Moltres) | C · Oiseau | 70-85 | 65-90 | 70-85 | 80-100 | 65-90 |
+| Necrozma | MS · Stationnaire | 65-90 | 41-80 | 34-70 | 20-25 | 45-65 |
+| Nihilego | R+ · Oiseau | 30-55 | 50-75 | 35-60 | 55-80 | 20-45 |
+| Noctowl | R+ · Oiseau | 30-55 | 45-75 | 25-55 | 30-60 | 30-55 |
+| Bruyverne (Noivern) | C · Oiseau | 40-65 | 50-85 | 55-90 | 30-45 | 55-85 |
+| Pelipper | R+ · Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Roucarnage (Pidgeot) | C · Oiseau | 45-70 | 35-65 | 30-65 | 25-40 | 55-80 |
+| Rayquaza | R+ · Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Rayquaza | MS · Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Regieleki | R+ · Jet | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
+| Reshiram | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Drattak (Salamence) | C · Oiseau | 60-75 | 40-65 | 60-75 | 65-85 | 60-85 |
+| Airmure (Skarmory) | C · Oiseau | 35-50 | 30-55 | 30-50 | 50-75 | 50-70 |
+| Étouraptor (Staraptor) | C · Oiseau | 45-70 | 25-55 | 45-70 | 45-70 | 45-65 |
+| Swellow | R+ · Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Talonflame | R+ · Oiseau | 50-80 | 55-85 | 45-85 | 35-65 | 35-65 |
+| Fulguris (Thundurus) | R+ · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Fulguris (Thundurus) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Togekiss | C · Jet | 20-30 | 45-65 | 20-30 | 70-100 | 10-20 |
+| Boréas (Tornadus) | R+ · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Boréas (Tornadus) | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Toucannon | R+ · Oiseau | 40-70 | 55-85 | 35-70 | 35-65 | 25-60 |
+| Tropius | C · Oiseau | 20-45 | 20-40 | 20-45 | 55-80 | 70-90 |
+| Pyrax (Volcarona) | C · Oiseau | 45-65 | 55-75 | 30-50 | 65-90 | 25-35 |
+| Yveltal | MS · Oiseau | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Électhor (Zapdos) | C · Oiseau | 65-90 | 70-85 | 80-100 | 65-85 | 70-85 |
+| Zekrom | MS · Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+
+</details>
 
 ## 🎮 Comment monter un Pokémon
 
-{% stepper %}
-{% step %}
-🐾 Envoyez un Pokémon prenant en charge les montures.
-{% endstep %}
+1. Envoyez un Pokémon ayant une configuration de monture.
+2. **Accroupissez-vous (Shift) et faites un clic droit** sur lui, puis sélectionnez l'interaction de monture.
+3. Utilisez vos touches de déplacement. Le pilotage dépend du style choisi ; **Shift** permet normalement de descendre.
 
-{% step %}
-🖱️ **Accroupissez-vous (Shift par défaut) et faites un clic droit** sur le Pokémon, puis choisissez l'interaction de monture.
-{% endstep %}
+**Aucune selle n'est nécessaire.** Un Pokémon peut avoir un style terrestre, aquatique ou aérien, parfois plusieurs.
 
-{% step %}
-🎮 Utilisez vos touches de déplacement. **Les commandes dépendent du style** : les montures terrestres, aquatiques et aériennes ne se dirigent pas toutes de la même façon.
-{% endstep %}
+## 🧭 Styles de déplacement
 
-{% step %}
-🚶 Descendez avec la touche habituelle de Minecraft (**Shift** par défaut).
-{% endstep %}
-{% endstepper %}
-
-{% hint style="info" %}
-**Aucune selle n'est nécessaire.** Un Pokémon peut posséder plusieurs styles selon le milieu : **Dracaufeu** utilise par exemple **Standard** au sol et **Oiseau (Bird)** dans les airs. Certaines montures disposent de plusieurs places pour les joueurs.
-{% endhint %}
-
----
-
-## 🧭 Styles de monture natifs
-
-### 🌍 Terre
-
-| Style | Fonctionnement |
+| Milieu | Styles et utilisation |
 | --- | --- |
-| **Standard** (`land/horse`) | Similaire à un cheval de Minecraft : suit la direction du regard, déplacement latéral et sprint consommant de l'endurance. |
+| 🌍 **Terre** | **Standard** : conduite de type cheval, avec sprint. |
+| 🌊 **Eau** | **Bateau** : en surface ; **Sous-marin** : plongée ; **Dauphin** : plongeons et sauts. |
+| ☁️ **Air** | **Oiseau** : vol polyvalent ; **Jet** : vol rapide sans stationnaire ; **Stationnaire** : déplacement précis ; **Fusée** : vol stationnaire avec accélération. |
 
-Le wiki officiel décrit également le style **Véhicule (Vehicle)** de manière générale, mais **aucune monture terrestre native de la liste 1.8.1 ne l'utilise** : les entrées terrestres ci-dessous fonctionnent avec **Standard**.
+**Statistiques :** la Vitesse détermine la vitesse maximale, l'Accélération la réactivité, la Maniabilité les virages, l'Endurance l'utilisation des capacités spéciales et le Saut les mouvements verticaux. Le Saut se comporte différemment selon le style. Certaines valeurs peuvent être améliorées avec les [Aprijuices](../cobblemon-craft/aprijuice-guide.md).
 
-### 🌊 Eau et autres liquides
+## ⚙️ Réglages utiles
 
-| Style | Fonctionnement |
-| --- | --- |
-| **Bateau (Boat)** (`liquid/boat`) | Se déplace en surface ; les touches gauche/droite dirigent la monture indépendamment de la caméra. |
-| **Sous-marin (Submarine)** (`liquid/submarine`) | Permet de naviguer en surface et de plonger sous l'eau. |
-| **Dauphin (Dolphin)** (`liquid/dolphin`) | Permet de plonger et d'effectuer des bonds hors de l'eau. |
+Les préférences de caméra et de pilotage figurent dans `config/cobblemon/main.json`. Pour limiter l'inclinaison de la caméra, modifiez **l'option existante** `"disableRoll": true`. Ne remplacez pas tout le fichier de configuration.
 
-### ☁️ Air
+## 📚 Sources et compatibilité
 
-| Style | Fonctionnement |
-| --- | --- |
-| **Oiseau (Bird)** (`air/bird`) | Vol dirigé par la caméra, déplacements latéraux et vol stationnaire ; un mode de contrôle proche des élytres existe dans la configuration. |
-| **Jet** (`air/jet`) | Vol rapide orienté vers l'avant, sans vol stationnaire ; **Saut** et **Accroupissement** contrôlent l'altitude. |
-| **Vol stationnaire (Hover)** (`air/hover`) | Déplacements précis dans toutes les directions ; dépasser l'altitude habituelle sollicite l'endurance. |
-| **Fusée (Rocket)** (`air/rocket`) | Variante du vol stationnaire, avec déplacement vers l'avant plus rapide. |
+- [Wiki officiel du système de montures Cobblemon](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) et [notes de version 1.8.1](https://wiki.cobblemon.com/index.php/1.8.1) pour les données natives.
+- [Cobblemon Ride+](https://github.com/LevelsFR/Cobblemon-Ride-Plus), version source **1.2.7b** (118 définitions d'espèces).
+- [Cobblemon Mega Showdown](https://github.com/yajatkaul/CobblemonMegaShowdown), version source **1.3.0**.
+- [Lost Lore](https://github.com/Lvnatic-T/Lost-Lore), version source **3.2.0**.
+
+**Navas ZA Mega** : le JAR `zamega-neoforge-1.8.1+1.8.jar` précédemment étudié n'apportait aucune déclaration `riding` supplémentaire. Les formes sans siège explicite ne figurent pas dans le catalogue principal.
 
 {% hint style="info" %}
-Les styles sont des **comportements de monture**, pas des types de Pokémon ni des capacités de combat. Un Pokémon Eau n'est pas automatiquement une monture aquatique, et un Pokémon Vol n'est pas forcément montable.
+Ce tableau compile les données documentées sur cette page. Le JAR brut complet de Cobblemon natif 1.8.1 n'a pas été audité ici et la compatibilité réelle de tous les overrides entre addons n'a pas été testée en jeu.
 {% endhint %}
 
 ---
 
-## 📊 Statistiques des montures
-
-Ces statistiques sont **indépendantes des statistiques de combat** (Vitesse, Attaque, Défense, etc.). Les tableaux ci-dessous présentent des **plages configurées de 0 à 100** : chaque Pokémon possède des valeurs individuelles déterminées à partir de ces plages.
-
-| Statistique | Effet |
-| --- | --- |
-| **Vitesse** | Vitesse maximale de déplacement |
-| **Accélération** | Rapidité à atteindre la vitesse maximale |
-| **Maniabilité (Skill)** | Facilité à tourner ; en **Hover**, influe sur la décélération |
-| **Saut** | Hauteur de saut au sol ; plongée, vol plané, décollage ou altitude selon le style |
-| **Endurance** | Durée des capacités spéciales comme le sprint, le vol prolongé ou le maintien en altitude |
-
-Le **Saut** intervient différemment selon le style : plongée en **Sous-marin**, plongée et bonds en **Dauphin**, vol plané en **Oiseau**, vitesse nécessaire au décollage en **Jet**, altitude sans dépense supplémentaire en **Hover** et vitesse de montée en **Fusée**.
-
-{% hint style="success" %}
-Certaines statistiques de monture peuvent être améliorées grâce aux [Aprijuices](../cobblemon-craft/aprijuice-guide.md). Les valeurs de monture ne correspondent **pas** aux statistiques des combats Pokémon.
-{% endhint %}
-
----
-
-## ⚙️ Configuration des montures
-
-Les paramètres natifs du client peuvent être modifiés dans `config/cobblemon/main.json`. Par exemple, pour limiter le mal des transports causé par l'inclinaison de la caméra, réglez **l'option existante** sur `"disableRoll": true`.
-
-- **Inversion des axes** (pitch, yaw, roll) et **sensibilité** : ajustent les préférences de caméra et de conduite.
-- **Remember Riding Camera** : permet de conserver les préférences de caméra lors de la descente.
-- Certaines options peuvent également être disponibles dans l'interface de configuration de Cobblemon.
-
-{% hint style="warning" %}
-Ne **remplacez pas tout le fichier de configuration** par un petit exemple JSON. Sauvegardez-le et modifiez uniquement les options nécessaires. La configuration du serveur et les mods additionnels peuvent aussi modifier le comportement.
-{% endhint %}
-
----
-
-## 🆕 Les 10 nouvelles montures natives depuis Cobblemon 1.8
-
-Ces dix Pokémon ajoutés au système de montures en **1.8.0** sont également présents en **1.8.1** :
-
-| Pokémon | Places | Terre | Eau | Air |
-| --- | :---: | --- | --- | --- |
-| **Roucarnage** | 1 | Standard | — | Oiseau |
-| **Nostenfer** | 1 | Standard | — | Oiseau |
-| **Airmure** | 1 | Standard | — | Oiseau |
-| **Milobellus** | 1 | Standard | Dauphin | — |
-| **Aéroptéryx** | 1 | Standard | — | Oiseau |
-| **Muplodocus** | 1 | Standard | — | — |
-| **Muplodocus (Hisui)** | 1 | Standard | — | — |
-| **Draïeul** | 1 | Standard | Bateau | Oiseau |
-| **Duralugon** | 1 | Standard | — | — |
-| **Pondralugon** | 1 | Standard | — | — |
-
-**Places et formes :** chaque espèce possède ses propres emplacements natifs. Quelques exemples : **Wailord (19)**, **Oyacata (7)**, **Camérupt (6)** et **Métalosse (4)**. **Tortank n'a plus qu'une place en 1.8.1** : un siège supplémentaire involontaire a été supprimé.
-
-{% hint style="info" %}
-La version **1.8.0** a également introduit les **places conditionnelles** : certaines peuvent dépendre de propriétés du Pokémon, comme le statut Alpha. Une valeur maximale de places ne signifie donc pas que chaque forme ou modèle dispose systématiquement de tous ces emplacements.
-{% endhint %}
-
----
-
-## 🗂️ Liste complète des montures natives et de leurs places
-
-**99 entrées d'espèces ou de formes** prises en charge par le système natif de **Cobblemon 1.8.1**. Ce récapitulatif indique précisément les milieux, les styles et le nombre de places déclarés. Les statistiques détaillées se trouvent dans les trois tableaux suivants.
-
-{% hint style="info" %}
-Le nombre de places est celui de la définition native. Certaines places peuvent être conditionnelles (par exemple selon la forme ou l'état Alpha) ou nécessiter un point d'ancrage adapté dans le modèle. Une place déclarée n'est donc pas une garantie pour toutes les variantes visuelles.
-{% endhint %}
-
-<details>
-<summary><strong>📖 Afficher les 99 entrées de montures</strong></summary>
-
-| Pokémon | Places | Terre | Eau | Air |
-| --- | :---: | --- | --- | --- |
-| Florizarre | 1 | Standard | — | — |
-| Dracaufeu | 1 | Standard | — | Oiseau |
-| Tortank | 1 | Standard | Sous-marin | Fusée |
-| Roucarnage | 1 | Standard | — | Oiseau |
-| Parasect | 1 | Standard | — | — |
-| Arcanin | 1 | Standard | — | — |
-| Lamantine | 2 | Standard | Dauphin | — |
-| Rhinocorne | 1 | Standard | — | — |
-| Rhinoféros | 1 | Standard | — | — |
-| Poissoroy | 1 | — | Sous-marin | — |
-| Mr. Mime | 1 | Standard | — | — |
-| Tauros | 1 | Standard | — | — |
-| Tauros (Paldea-Aqua) | 1 | Standard | Bateau | — |
-| Tauros (Paldea-Blaze) | 1 | Standard | — | — |
-| Tauros (Paldea-Combat) | 1 | Standard | — | — |
-| Léviator | 1 | Standard | Dauphin | Jet |
-| Lokhlass | 1 | Standard | Bateau | — |
-| Ptéra | 1 | Standard | — | Oiseau |
-| Artikodin | 1 | Standard | — | Oiseau |
-| Électhor | 1 | Standard | — | Oiseau |
-| Sulfura | 1 | Standard | — | Oiseau |
-| Dracolosse | 2 | Standard | Dauphin | Jet |
-| Migalos | 1 | Standard | — | — |
-| Nostenfer | 1 | Standard | — | Oiseau |
-| Girafarig | 1 | Standard | — | — |
-| Forêtress | 1 | — | — | Stationnaire |
-| Scarhino | 1 | Standard | — | Oiseau |
-| Ursaring | 1 | Standard | — | — |
-| Cochignon | 1 | Standard | — | — |
-| Démanta | 1 | Standard | Dauphin | Oiseau |
-| Airmure | 1 | Standard | — | Oiseau |
-| Lugia | 1 | Standard | Dauphin | Oiseau |
-| Ho-Oh | 2 | Standard | — | Oiseau |
-| Monaflèmit | 1 | Standard | — | — |
-| Sharpedo | 1 | — | Dauphin | — |
-| Wailmer | 1 | Standard | Sous-marin | — |
-| Wailord | 19 | Standard | Sous-marin | — |
-| Camérupt | 6 | Standard | — | — |
-| Libégon | 1 | Standard | — | Oiseau |
-| Altaria | 1 | Standard | — | Oiseau |
-| Kaorine | 1 | — | — | Stationnaire |
-| Milobellus | 1 | Standard | Dauphin | — |
-| Tropius | 2 | Standard | — | Oiseau |
-| Relicanth | 1 | — | Sous-marin | — |
-| Drattak | 2 | Standard | — | Oiseau |
-| Métalosse | 4 | Standard | — | Stationnaire |
-| Latias | 1 | Standard | — | Jet |
-| Latios | 1 | Standard | — | Jet |
-| Étouraptor | 1 | Standard | — | Oiseau |
-| Bastiodon | 2 | Standard | — | — |
-| Tritosor | 1 | Standard | — | — |
-| Grodrive | 1 | — | — | Stationnaire |
-| Corboss | 1 | Standard | — | Oiseau |
-| Archéodong | 2 | — | — | Stationnaire |
-| Carchacrok | 1 | Standard | Bateau | Jet |
-| Magnézone | 1 | — | — | Stationnaire |
-| Coudlangue | 2 | Standard | — | — |
-| Rhinastoc | 1 | Standard | — | — |
-| Togekiss | 1 | Standard | — | Jet |
-| Mammochon | 3 | Standard | — | — |
-| Noctunoir | 1 | — | — | Stationnaire |
-| Majaspic | 1 | Standard | — | — |
-| Zéblitz | 1 | Standard | — | — |
-| Brutapode | 1 | Standard | — | — |
-| Darumacho | 1 | Standard | — | — |
-| Crabaraque | 4 | Standard | — | — |
-| Aéroptéryx | 1 | Standard | — | Oiseau |
-| Cliticlic | 1 | — | — | Stationnaire |
-| Golemastoc | 3 | Standard | — | Fusée |
-| Frison | 1 | Standard | — | — |
-| Gueriaigle | 1 | Standard | — | Oiseau |
-| Gueriaigle (Hisui) | 1 | Standard | — | Oiseau |
-| Trioxhydre | 2 | Standard | — | Oiseau |
-| Pyrax | 1 | Standard | — | Oiseau |
-| Cabriolaine | 1 | Standard | — | — |
-| Chevroum | 1 | Standard | — | — |
-| Rexillius | 2 | Standard | — | — |
-| Muplodocus | 1 | Standard | — | — |
-| Muplodocus (Hisui) | 1 | Standard | — | — |
-| Bruyverne | 1 | Standard | — | Oiseau |
-| Bourrinos | 1 | Standard | — | — |
-| Draïeul | 1 | Standard | Bateau | Oiseau |
-| Sinistrail | 1 | Standard | Sous-marin | — |
-| Corvaillus | 2 | Standard | — | Oiseau |
-| Duralugon | 1 | Standard | — | — |
-| Lanssorien | 1 | Standard | Dauphin | Jet |
-| Cerbyllin | 1 | Standard | — | — |
-| Ursaking | 2 | Standard | — | — |
-| Farfurex | 1 | Standard | — | — |
-| Fulgulairo | 1 | Standard | — | Oiseau |
-| Cléopsytra | 1 | Standard | — | — |
-| Vrombotor | 2 | Standard | — | — |
-| Motorizard | 1 | Standard | — | — |
-| Ferdeter | 1 | Standard | — | — |
-| Oyacata | 7 | Standard | Sous-marin | — |
-| Farigiraf | 1 | Standard | — | — |
-| Deusolourdo | 2 | Standard | — | — |
-| Deusolourdo (Forme Triple) | 2 | Standard | — | — |
-| Pondralugon | 1 | Standard | — | — |
-
-</details>
-
----
-
-## 📋 Toutes les statistiques de monture natives — 1.8.1
-
-Les trois tableaux repliables ci-dessous regroupent les **valeurs de chaque milieu**. Un même Pokémon peut apparaître plusieurs fois avec des **statistiques différentes**. Colonnes : **Accél.**, **Maniab.**, **Vit.**, **End.**, **Saut**.
-
-Les montures supplémentaires de **Cobblemon Ride+** ne figurent pas dans ces tableaux.
-
----
-
-<details>
-
-<summary><strong>🐾 Liste des montures terrestres</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. |  Vit. |  End.  |  Saut |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Florizarre |  40-75 |  10-40  | 30-55 |  45-85 | 40-60 |
-| Dracaufeu |  55-65 |  10-25  | 25-40 |  20-30 | 15-25 |
-| Tortank |  30-50 |  10-35  | 30-65 |  15-35 | 15-30 |
-| Roucarnage | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Parasect |  50-70 |  45-65  | 15-30 |  15-30 |  0-15 |
-| Arcanin |  70-90 |  40-80  | 45-70 |  35-80 | 45-65 |
-| Lamantine |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Rhinocorne |  5-20  |   5-25  | 25-60 |  40-80 |  5-15 |
-| Rhinoféros |  55-75 |  30-60  |  5-15 |  55-90 | 20-30 |
-| Mr. Mime |  20-40 |  15-45  | 25-45 |  35-60 | 15-35 |
-| Tauros |  15-50 |  15-30  | 55-75 |  35-55 | 25-35 |
-| Tauros (Paldea-Aqua) |  15-50 |  15-30  | 50-70 |  40-60 | 25-30 |
-| Tauros (Paldea-Blaze) |  20-55 |  15-30  | 55-75 |  30-50 | 25-40 |
-| Tauros (Paldea-Combat) |  15-50 |  15-30  | 55-75 |  35-55 | 25-35 |
-| Léviator |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Lokhlass |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Ptéra |  55-75 |  15-45  | 10-20 |  20-45 | 25-35 |
-| Artikodin |  70-90 |  30-60  | 10-20 |  40-80 | 25-50 |
-| Électhor |  70-90 |  30-60  | 10-20 |  40-80 | 25-50 |
-| Sulfura |  70-90 |  30-60  | 10-20 |  40-80 | 25-50 |
-| Dracolosse |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Migalos |  55-85 |  45-65  | 30-45 |  15-30 | 25-45 |
-| Nostenfer | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Girafarig |  40-65 |  20-35  | 25-45 |  30-50 | 30-45 |
-| Scarhino |  55-70 |  40-65  | 15-30 |  35-50 | 35-50 |
-| Ursaring |  45-80 |  20-45  | 30-40 |  30-65 | 25-40 |
-| Cochignon |  30-50 |  30-45  | 10-25 |  35-70 |  5-10 |
-| Démanta |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Airmure | 50-65 | 20-35 | 30-45 | 30-55 | 25-35 |
-| Lugia |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Ho-Oh |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Monaflèmit |  0-20  |   0-20  | 25-65 | 60-100 | 25-40 |
-| Wailmer |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Wailord |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Camérupt |  45-60 |  10-30  | 25-35 |  50-80 | 10-25 |
-| Libégon |  60-75 |  15-25  | 15-25 |  25-40 | 15-30 |
-| Altaria |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Milobellus | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Tropius |  30-50 |  30-50  | 15-25 |  55-85 | 10-20 |
-| Drattak |  60-80 |   5-20  | 10-20 |  35-70 | 15-25 |
-| Métalosse |  50-70 |  35-50  | 10-20 |  55-70 | 30-45 |
-| Latias |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Latios |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Étouraptor |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Bastiodon |  15-25 |   0-5   | 15-35 |  50-90 |  0-5  |
-| Tritosor |  70-90 |   0-15  |  5-10 |  10-20 |  0-10 |
-| Corboss |  55-65 |  10-25  | 25-40 |  20-30 | 15-25 |
-| Carchacrok |  65-75 |  40-70  | 40-55 |  30-45 | 30-50 |
-| Coudlangue |  0-15  |   0-5   | 10-25 |  20-40 | 40-60 |
-| Rhinastoc |  45-75 |  25-55  |  5-15 | 75-100 | 10-25 |
-| Togekiss |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Mammochon |  30-40 |  20-30  | 20-35 |  60-90 | 10-20 |
-| Majaspic |  65-80 |   0-30  | 25-45 |  35-55 |  0-5  |
-| Zéblitz |  65-85 | 50-75 | 35-75 |  25-45 | 35-45 |
-| Brutapode |  20-25 |  25-35  | 45-75 |  50-70 | 25-35 |
-| Darumacho |  45-65 |  15-25  | 40-50 |  35-60 | 35-45 |
-| Crabaraque |  15-45 |  25-35  |  1-5  |  60-85 |  0-5  |
-| Aéroptéryx | 55-65 | 10-25 | 25-40 | 20-40 | 25-35 |
-| Golemastoc |  65-80 |  40-65  | 35-50 |  60-85 | 40-60 |
-| Frison |  50-75 |  15-30  | 45-65 |  55-70 | 20-30 |
-| Gueriaigle | 90-100 |  15-30  | 10-20 |  15-30 | 10-20 |
-| Gueriaigle (Hisui) |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Trioxhydre |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Pyrax |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Cabriolaine |  40-65 |  20-40  | 30-45 |  30-45 | 30-40 |
-| Chevroum |  65-75 |  40-60  | 45-65 |  45-65 | 40-60 |
-| Rexillius |  50-70 |  40-60  | 20-30 | 70-100 | 40-55 |
-| Muplodocus | 60-70 | 20-35 | 20-35 | 55-85 | 45-60 |
-| Muplodocus (Hisui) | 50-60 | 10-25 | 10-25 | 70-100 | 20-35 |
-| Bruyverne |  65-85 |  30-50  | 35-50 |  10-20 | 30-45 |
-| Bourrinos |  50-70 |  30-60  | 30-40 | 70-100 | 30-40 |
-| Draïeul | 10-40 | 30-65 | 0-10 | 55-85 | 30-65 |
-| Sinistrail |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Corvaillus |  60-80 |  30-50  | 15-30 |  60-80 | 30-45 |
-| Duralugon | 35-60 | 5-25 | 10-20 | 40-80 | 20-25 |
-| Lanssorien |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Cerbyllin |  60-80 |  40-60  | 45-65 |  55-70 | 45-55 |
-| Ursaking |  30-40 |  10-25  | 40-65 |  65-85 | 25-35 |
-| Farfurex |  75-90 |  65-85  | 35-45 |  10-20 | 30-40 |
-| Fulgulairo |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Cléopsytra |  30-65 |  15-40  | 55-70 |  25-35 | 40-55 |
-| Vrombotor |   0-5  |  25-40  | 70-85 |  20-40 | 15-20 |
-| Motorizard |  65-85 |  35-60  | 50-80 |  30-60 | 35-45 |
-| Ferdeter |  15-25 |   0-15  | 30-40 |  25-75 |  0-5  |
-| Oyacata |  10-40 |  80-100 | 10-40 |  10-40 | 10-40 |
-| Farigiraf |  40-60 |  35-50  | 45-60 |  50-70 | 45-55 |
-| Deusolourdo |  30-50 |  30-40  |  5-25 |  30-75 | 20-45 |
-| Deusolourdo (Forme Triple) |  35-60 |  30-40  |  5-25 |  35-85 | 25-55 |
-| Pondralugon | 45-70 | 5-25 | 5-10 | 50-90 | 25-30 |
-
-</details>
-
----
-
-<details>
-
-<summary><strong>🌊 Liste des montures aquatiques</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. |  Vit. |  End.  |  Saut  |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Tortank |  45-65 |  50-75  | 35-65 |  35-70 |  30-50 |
-| Lamantine |  50-75 |  30-65  | 25-45 |  25-50 |  25-50 |
-| Poissoroy |  35-70 |  25-55  | 35-65 |  20-40 |  15-35 |
-| Tauros (Paldea-Aqua) |  55-65 |  40-55  | 30-40 |  30-65 |  20-30 |
-| Léviator |  40-60 |  35-65  | 30-55 |  45-75 |  40-70 |
-| Lokhlass |  30-55 |  50-75  | 25-40 |  45-75 |  20-30 |
-| Dracolosse |  30-65 |  35-50  | 30-50 |  60-90 |  55-85 |
-| Démanta |  30-55 |  45-75  | 20-40 |  20-40 |  40-80 |
-| Lugia | 80-100 |  75-95  | 60-80 | 80-100 |  75-90 |
-| Sharpedo |  55-85 |  25-65  | 55-85 |  20-45 |  45-75 |
-| Wailmer |  30-55 |  30-55  | 30-50 |  40-85 |  25-40 |
-| Wailord |  20-45 |  30-55  | 20-40 | 65-100 |  40-55 |
-| Milobellus | 40-55 | 65-90 | 45-70 | 45-60 | 25-40 |
-| Relicanth |  25-40 |  40-80  | 15-35 |  50-90 |  50-75 |
-| Carchacrok |  75-85 |  10-25  | 35-60 |  5-10  |  40-80 |
-| Draïeul | 10-25 | 50-70 | 10-30 | 50-65 | 20-40 |
-| Sinistrail |  40-55 |  20-30  | 15-30 |  45-65 | 70-100 |
-| Lanssorien |  60-85 |  55-70  | 50-65 |  25-35 |  40-55 |
-| Oyacata |  45-65 |  50-75  | 25-45 |  60-75 |  10-25 |
-
-</details>
-
----
-
-<details>
-
-<summary><strong>🪶 Liste des montures aériennes</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. |  Vit.  |  End.  |  Saut  |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Dracaufeu |  45-75 |  55-85  |  30-65 |  45-75 |  30-65 |
-| Tortank |  5-40  |  30-60  |  5-15  |  2-20  |  10-20 |
-| Roucarnage | 45-70 | 35-65 | 30-65 | 25-40 | 55-80 |
-| Léviator |  35-60 |  45-65  |  15-50 |  15-55 |  20-45 |
-| Ptéra |  35-65 |  35-70  |  45-75 |  40-65 |  45-75 |
-| Artikodin |  70-85 |  80-100 |  65-90 |  70-90 |  65-90 |
-| Électhor |  65-90 |  70-85  | 80-100 |  65-85 |  70-85 |
-| Sulfura |  70-85 |  65-90  |  70-85 | 80-100 |  65-90 |
-| Dracolosse |  35-50 |  50-85  |  40-60 |  50-85 |  50-70 |
-| Nostenfer | 50-75 | 65-85 | 65-85 | 25-40 | 45-65 |
-| Forêtress |  20-40 |  25-45  |  15-25 |   0-5  |  5-10  |
-| Scarhino |  40-65 |  55-85  |  35-50 |  35-55 |   0-5  |
-| Démanta | 75-100 |  30-50  |  20-40 |   0-0  |  25-45 |
-| Airmure | 35-50 | 30-55 | 30-50 | 50-75 | 50-70 |
-| Lugia |  65-85 |  60-80  |  60-80 |  65-90 |  75-90 |
-| Ho-Oh |  75-95 |  65-85  |  75-90 | 80-100 | 75-100 |
-| Libégon |  40-75 |  40-85  |  50-80 |  45-65 |  45-60 |
-| Altaria |  25-45 |  40-50  |  25-35 |  70-90 |  25-45 |
-| Kaorine |  65-85 |  50-70  |  10-20 |  5-10  |  35-70 |
-| Tropius |  20-45 |  20-40  |  20-45 |  55-80 |  70-90 |
-| Drattak |  60-75 |  40-65  |  60-75 |  65-85 |  60-85 |
-| Métalosse |  60-75 |  35-55  |  45-75 |  10-25 |  25-45 |
-| Latias |  70-95 |  70-95  |  75-90 | 85-100 | 85-100 |
-| Latios |  70-95 |  70-95  | 85-100 |  70-95 | 80-100 |
-| Étouraptor |  45-70 | 25-55 | 45-70 |  45-70 |  45-65 |
-| Grodrive |  10-20 |  15-25  |  5-15  |  40-80 | 60-100 |
-| Corboss |  20-40 |  30-50  |  20-35 |  55-75 |  50-70 |
-| Archéodong |  40-65 |  25-40  |  15-30 |  10-20 |  30-50 |
-| Carchacrok |  50-70 |  50-60  |  70-80 |  30-50 |  20-70 |
-| Magnézone |  65-90 |  35-50  |  20-35 |  5-15  |  45-65 |
-| Togekiss |  20-30 |  45-65  |  20-30 | 70-100 |  10-20 |
-| Noctunoir |  45-60 |  60-70  |  15-25 |   0-5  |  45-80 |
-| Aéroptéryx | 55-75 | 60-85 | 10-20 | 0-5 | 30-65 |
-| Cliticlic |  40-60 |  40-60  |  30-40 |  5-10  |  15-25 |
-| Golemastoc |  10-35 |  15-30  |  45-75 |  30-50 |  25-40 |
-| Gueriaigle |  35-55 |  30-50  |  45-70 |  55-85 |  35-55 |
-| Gueriaigle (Hisui) |  30-50 |  30-50  |  40-65 |  60-90 |  40-60 |
-| Trioxhydre |  35-55 |  30-60  |  45-60 | 75-100 |  5-10  |
-| Pyrax |  45-65 |  55-75  |  30-50 |  65-90 |  25-35 |
-| Bruyverne |  40-65 |  50-85  |  55-90 |  30-45 |  55-85 |
-| Draïeul | 10-25 | 45-60 | 10-30 | 80-100 | 0-10 |
-| Corvaillus |  35-55 |  20-35  |  25-40 | 80-100 | 80-100 |
-| Lanssorien |  60-85 |  55-70  |  55-90 |  25-35 |  45-80 |
-| Fulgulairo |  35-50 |  40-65  |  30-45 |  40-65 |  50-70 |
-
-</details>
-
----
-
-<!-- cr-addon-riding-start -->
-## 🧩 Montures des addons pour Cobblemon 1.8.1
-
-Les tableaux précédents restent strictement **natifs**. Cette section présente les données ajoutées ou modifiées par les addons **compatibles Cobblemon 1.8.1**, sans les mélanger aux valeurs d'origine. Certains réglages de mods dépassent 100.
-
-{% hint style="warning" %}
-**Conflit documenté :** la définition Mega Showdown 1.3.0 de **Tortank / Méga-Tortank indique deux sièges** alors que le Tortank natif 1.8.1 n'en possède qu'un. Les fichiers réellement chargés et leurs priorités déterminent le résultat en jeu.
-{% endhint %}
-
-## 🔷 Cobblemon: Mega Showdown
-
-### Définitions Mega Showdown : espèces additionnelles (1/3)
-
-Les données ci-dessous proviennent des JSON de **Mega Showdown 1.3.0**, pas des statistiques natives. Certains Pokémon déjà montables voient leurs paramètres remplacés.
-
-| Pokémon | Places | Terre | Eau | Air | Origine |
-| --- | :---: | --- | --- | --- | --- |
-| Hooh | 1 | Standard | — | Oiseau | Modification native |
-| Entei | 1 | Standard | — | — | Ajout du mod |
-| Lugia | 1 | Standard | Dauphin | Oiseau | Modification native |
-| Lunala | 1 | — | — | Oiseau | Ajout du mod |
-| Arceus | 1 | Standard | — | Oiseau | Ajout du mod |
-| Kyogre | 1 | — | Dauphin | — | Ajout du mod |
-| Zekrom | 1 | Standard | — | Oiseau | Ajout du mod |
-| Keldeo | 1 | Standard | — | — | Ajout du mod |
-| Chongjian | 1 | Standard | — | — | Ajout du mod |
-| Groudon | 1 | Standard | — | — | Ajout du mod |
-| Genesect | 1 | Standard | — | Oiseau | Ajout du mod |
-| Reshiram | 1 | Standard | — | Oiseau | Ajout du mod |
-
-<details>
-<summary><strong>📊 Plages statistiques exactes</strong></summary>
-
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Hooh | Air | Oiseau | 20-100 | 50-100 | 25-50 | 30-70 | 25-50 |
-| Hooh | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
-| Entei | Terre | Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
-| Lugia | Air | Oiseau | 20-100 | 50-100 | 70-95 | 130-150 | 25-50 |
-| Lugia | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
-| Lugia | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
-| Lunala | Air | Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
-| Arceus | Air | Oiseau | 30-65 | 30-65 | 55-85 | 80-160 | 30-65 |
-| Arceus | Terre | Standard | 10-40 | 30-65 | 30-65 | 30-65 | 55-85 |
-| Kyogre | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
-| Zekrom | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Zekrom | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Keldeo | Terre | Standard | 30-60 | 20-50 | 40-50 | 100-145 | 30-65 |
-| Chongjian | Terre | Standard | 20-30 | 45-65 | 20-30 | 80-100 | 5-20 |
-| Groudon | Terre | Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
-| Genesect | Air | Oiseau | 41-60 | 41-60 | 80-160 | 80-120 | 41-60 |
-| Genesect | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Reshiram | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Reshiram | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-
-</details>
-
-Fichiers sources : [hooh.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/hooh.json), [entei.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/entei.json), [lugia.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lugia.json), [lunala.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/lunala.json), [arceus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/arceus.json), [kyogre.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/kyogre.json), [zekrom.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/zekrom.json), [keldeo.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/keldeo.json), [wochien.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/wochien.json), [groudon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/groudon.json), [genesect.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/genesect.json), [reshiram.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/reshiram.json)
-
-### Définitions Mega Showdown : espèces additionnelles (2/3)
-
-| Pokémon | Places | Terre | Eau | Air | Origine |
-| --- | :---: | --- | --- | --- | --- |
-| Type:0 | 1 | Standard | — | — | Ajout du mod |
-| Miraidon | 1 | Standard | Bateau | Oiseau | Ajout du mod |
-| Koraidon | 1 | Standard | Bateau | Oiseau | Ajout du mod |
-| Melmetal | 1 | Standard | — | — | Ajout du mod |
-| Viridium | 1 | Standard | — | — | Ajout du mod |
-| Silvallié | 1 | Standard | — | — | Ajout du mod |
-| Blizzeval | 1 | Standard | — | — | Ajout du mod |
-| Spectreval | 1 | Standard | — | — | Ajout du mod |
-| Volcanion | 1 | Standard | — | — | Ajout du mod |
-| Latias | 1 | Standard | Dauphin | Jet | Remplace le natif |
-| Latios | 1 | Standard | Dauphin | Jet | Remplace le natif |
-| Yveltal | 1 | Standard | Bateau | Oiseau | Ajout du mod |
-
-<details>
-<summary><strong>📊 Plages statistiques exactes</strong></summary>
-
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Type:0 | Terre | Standard | 30-60 | 40-70 | 20-40 | 60-95 | 30-65 |
-| Miraidon | Air | Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
-| Miraidon | Terre | Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
-| Miraidon | Eau | Bateau | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
-| Koraidon | Air | Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
-| Koraidon | Terre | Standard | 65-85 | 35-60 | 50-85 | 30-60 | 35-45 |
-| Koraidon | Eau | Bateau | 0-20 | 35-60 | 30-65 | 30-60 | 35-45 |
-| Melmetal | Terre | Standard | 30-60 | 20-50 | 20-40 | 80-135 | 30-65 |
-| Viridium | Terre | Standard | 75-85 | 60-80 | 60-80 | 45-65 | 40-60 |
-| Silvallié | Terre | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
-| Blizzeval | Terre | Standard | 30-60 | 20-50 | 20-40 | 60-120 | 30-65 |
-| Spectreval | Terre | Standard | 50-70 | 20-50 | 50-70 | 60-120 | 30-65 |
-| Volcanion | Terre | Standard | 30-60 | 20-50 | 20-40 | 60-105 | 30-65 |
-| Latias | Air | Jet | 70-90 | 100-130 | 75-85 | 82-120 | 41-60 |
-| Latias | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Latias | Eau | Dauphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
-| Latios | Air | Jet | 70-90 | 100-130 | 85-95 | 82-120 | 41-60 |
-| Latios | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Latios | Eau | Dauphin | 0-20 | 60-80 | 41-60 | 60-90 | 41-60 |
-| Yveltal | Air | Oiseau | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
-| Yveltal | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Yveltal | Eau | Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
-
-</details>
-
-Fichiers sources : [typenull.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/typenull.json), [miraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/miraidon.json), [koraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/koraidon.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/melmetal.json), [virizion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/virizion.json), [silvally.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/silvally.json), [glastrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/glastrier.json), [spectrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/spectrier.json), [volcanion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/volcanion.json), [latias.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latias.json), [latios.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latios.json), [yveltal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/yveltal.json)
-
-### Autres espèces et formes Mega Showdown (3/3, partie A)
-
-| Pokémon | Places | Terre | Eau | Air | Origine |
-| --- | :---: | --- | --- | --- | --- |
-| Absol (Mega-Z) | 1 | Standard | — | — | Forme / espèce du mod |
-| Goupelin (Mega) | 2 | Standard | — | Jet | Forme / espèce du mod |
-| Zygarde | 1 | Standard | — | — | Forme / espèce du mod |
-| Zygarde (10%) | 0* | Standard | — | — | Forme / espèce du mod |
-| Zygarde (10%-C) | 0* | Standard | — | — | Forme / espèce du mod |
-| Zygarde (50%-C) | 1 | Standard | — | — | Forme / espèce du mod |
-| Zygarde (Complete) | 0* | Standard | — | — | Forme / espèce du mod |
-| Zygarde (Core) | 0* | Standard | — | — | Forme / espèce du mod |
-| Florizarre | 1 | Standard | — | — | Remplace le natif |
-| Florizarre (Mega) | 1 | Standard | — | — | Forme / espèce du mod |
-| Kyurem | 1 | Standard | — | — | Forme / espèce du mod |
-| Kyurem (White) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Kyurem (Black) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Éthernatos | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Amovénus (Therian) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Boréas | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Zacian | 1 | Standard | — | — | Forme / espèce du mod |
-| Landorus | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Duraludon | 1 | Standard | — | — | Remplace le natif |
-
-*Une définition de comportement avec 0 siège explicite ne confirme pas un siège utilisable en jeu.*
-
-<details>
-<summary><strong>📊 Statistiques des définitions</strong></summary>
-
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Absol (Mega-Z) | Terre | Standard | 75-85 | 60-80 | 50-70 | 35-55 | 30-50 |
-| Goupelin (Mega) | Air | Jet | 50-70 | 35-55 | 65-85 | 60-75 | 40-60 |
-| Goupelin (Mega) | Terre | Standard | 50-70 | 35-55 | 35-45 | 60-75 | 10-25 |
-| Zygarde | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Zygarde (10%) | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Zygarde (10%-C) | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Zygarde (50%-C) | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Zygarde (Complete) | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Zygarde (Core) | Terre | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
-| Florizarre | Terre | Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
-| Florizarre (Mega) | Terre | Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
-| Kyurem | Terre | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
-| Kyurem (White) | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Kyurem (White) | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Kyurem (Black) | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Kyurem (Black) | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Éthernatos | Air | Oiseau | 41-60 | 41-60 | 21-40 | 81-130 | 41-60 |
-| Éthernatos | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Amovénus (Therian) | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Amovénus (Therian) | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Boréas | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Boréas | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Zacian | Terre | Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
-| Landorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Landorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Duraludon | Terre | Standard | 35-60 | 5-25 | 10-20 | 40-80 | 20-25 |
-
-</details>
-
-Sources JSON : [absol_mega_z.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/absol_mega_z.json), [delphox_mega.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/delphox_mega.json), [zygarde.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation6/zygarde.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7b/melmetal.json), [venusaur.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/venusaur.json), [kyurem.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/kyurem.json), [eternatus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/eternatus.json), [enamorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/enamorus.json), [tornadus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/tornadus.json), [zacian.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zacian.json), [landorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/landorus.json), [duraludon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/duraludon.json)
-
-### Autres espèces et formes Mega Showdown (3/3, partie B)
-
-| Pokémon | Places | Terre | Eau | Air | Origine |
-| --- | :---: | --- | --- | --- | --- |
-| Fulguris | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Ursaking | 2 | Standard | — | — | Remplace le natif |
-| Ursaking (Bloodmoon) | 0* | Standard | — | — | Forme / espèce du mod |
-| Dracaufeu | 1 | Standard | — | Oiseau | Remplace le natif |
-| Dracaufeu (Mega-X) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Dracaufeu (Mega-Y) | 1 | Standard | — | Oiseau | Forme / espèce du mod |
-| Zamazenta | 1 | Standard | — | — | Forme / espèce du mod |
-| Métalosse | 4 | Standard | — | Stationnaire | Remplace le natif |
-| Métalosse (Mega) | 4 | Standard | — | Stationnaire | Forme / espèce du mod |
-| Lokhlass | 1 | Standard | Bateau | — | Remplace le natif |
-| Tortank | 2 | Standard | Sous-marin | Fusée | Remplace le natif |
-| Tortank (Mega) | 2 | Standard | Sous-marin | Fusée | Forme / espèce du mod |
-| Laggron (Mega) | 2 | Standard | Dauphin | — | Forme / espèce du mod |
-| Rayquaza | 4 | Standard | Bateau | Jet | Forme / espèce du mod |
-| Necrozma | 1 | — | — | Stationnaire | Forme / espèce du mod |
-| Darumacho | 1 | Standard | — | — | Remplace le natif |
-
-*0* signale une définition sans siège explicite : monture non confirmée en jeu.
-
-<details>
-<summary><strong>📊 Statistiques des définitions</strong></summary>
-
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
-| Fulguris | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Fulguris | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Ursaking | Terre | Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
-| Ursaking (Bloodmoon) | Terre | Standard | 30-40 | 10-25 | 40-65 | 65-85 | 25-35 |
-| Dracaufeu | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
-| Dracaufeu | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
-| Dracaufeu (Mega-X) | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
-| Dracaufeu (Mega-X) | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
-| Dracaufeu (Mega-Y) | Air | Oiseau | 45-75 | 55-85 | 30-65 | 45-75 | 30-65 |
-| Dracaufeu (Mega-Y) | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
-| Zamazenta | Terre | Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
-| Métalosse | Air | Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
-| Métalosse | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
-| Métalosse (Mega) | Air | Stationnaire | 60-75 | 35-55 | 45-75 | 10-25 | 25-45 |
-| Métalosse (Mega) | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
-| Lokhlass | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Lokhlass | Eau | Bateau | 30-55 | 50-75 | 25-40 | 45-75 | 20-30 |
-| Tortank | Air | Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
-| Tortank | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
-| Tortank | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
-| Tortank (Mega) | Air | Fusée | 5-40 | 30-60 | 5-15 | 2-20 | 10-20 |
-| Tortank (Mega) | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
-| Tortank (Mega) | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
-| Laggron (Mega) | Terre | Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
-| Laggron (Mega) | Eau | Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
-| Rayquaza | Air | Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
-| Rayquaza | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Rayquaza | Eau | Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
-| Necrozma | Air | Stationnaire | 65-90 | 41-80 | 34-70 | 20-25 | 45-65 |
-| Darumacho | Terre | Standard | 45-65 | 15-25 | 40-50 | 35-60 | 35-45 |
-
-</details>
-
-Sources JSON : [machamp.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/machamp.json), [thundurus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/thundurus.json), [ursaluna.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/ursaluna.json), [charizard.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/charizard.json), [zamazenta.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zamazenta.json), [butterfree.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/butterfree.json), [metagross.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/metagross.json), [lapras.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/lapras.json), [blastoise.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/blastoise.json), [swampert.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/swampert.json), [rayquaza.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/rayquaza.json), [necrozma.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7/necrozma.json), [darmanitan.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/darmanitan.json)
-
-## 📜 Lost Lore 3.2.0
-
-Montures et formes spéciales avec **comportements `riding.behaviours` explicitement déclarés** dans les fichiers de Lost Lore. Les cinq versions Starmobile possèdent quatre emplacements chacune.
-
-| Pokémon / forme | Places | Terre | Eau | Air |
-| --- | :---: | --- | --- | --- |
-| MT | 1 | Standard | — | — |
-| MT2 | 1 | Standard | — | — |
-| Black Fog | 1 | Standard | — | Stationnaire |
-| Tyranocif (Black) | 1 | Standard | — | — |
-| Dialga (Primal) | 1 | Standard | — | Oiseau |
-| Vrombotor (Segin) | 4 | Standard | — | — |
-| Vrombotor (Caph) | 4 | Standard | — | — |
-| Vrombotor (Ruchbah) | 4 | Standard | — | — |
-| Vrombotor (Schedar) | 4 | Standard | — | — |
-| Vrombotor (Navi) | 4 | Standard | — | — |
-| Lugia (Shadow) | 1 | Standard | Dauphin | Oiseau |
-| Mewtwo (Armored) | 1 | Standard | Dauphin | Jet |
-| Mewtwo (Mega-Armored) | 1 | Standard | Dauphin | Jet |
-| Mewtwo (Shadow) | 1 | Standard | Dauphin | Jet |
-
-<details>
-<summary><strong>📊 Statistiques exactes Lost Lore</strong></summary>
-
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
-| MT | Terre | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
-| MT2 | Terre | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
-| Black Fog | Air | Stationnaire | 60-75 | 35-55 | 55-85 | 65-80 | 25-45 |
-| Black Fog | Terre | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
-| Tyranocif (Black) | Terre | Standard | 50-75 | 35-55 | 40-60 | 60-85 | 10-25 |
-| Dialga (Primal) | Air | Oiseau | 45-75 | 55-85 | 30-80 | 45-77 | 30-65 |
-| Dialga (Primal) | Terre | Standard | 55-65 | 20-55 | 40-70 | 55-99 | 20-80 |
-| Vrombotor (Segin) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
-| Vrombotor (Caph) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
-| Vrombotor (Ruchbah) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
-| Vrombotor (Schedar) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
-| Vrombotor (Navi) | Terre | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
-| Lugia (Shadow) | Air | Oiseau | 20-100 | 50-100 | 85-110 | 150-180 | 25-50 |
-| Lugia (Shadow) | Terre | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
-| Lugia (Shadow) | Eau | Dauphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
-| Mewtwo (Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
-| Mewtwo (Armored) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
-| Mewtwo (Armored) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
-| Mewtwo (Mega-Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
-| Mewtwo (Mega-Armored) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
-| Mewtwo (Mega-Armored) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
-| Mewtwo (Shadow) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
-| Mewtwo (Shadow) | Terre | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
-| Mewtwo (Shadow) | Eau | Dauphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
-
-</details>
-
-{% hint style="warning" %}
-Le changelog de Lost Lore mentionne des corrections de montures pour les **starters clonés, Groudon Virus et Rayquaza Illusion**. Leurs fichiers ne définissent toutefois aucun nouveau `riding.behaviours` : ils pourraient utiliser des propriétés héritées. **Ils ne sont pas comptés comme nouvelles montures explicites** sans vérification en jeu. La forme **Ronflex Snowman** possède une configuration `riding.behaviour` au singulier, sans `behaviours` : son fonctionnement n'est pas confirmé.
-{% endhint %}
-
-Sources JSON : [mt.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt.json), [mt2.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt2.json), [blackfog.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/lost_lore/blackfog.json), [black_tyranitar.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/black_tyranitar.json), [primal_dialga.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/primal_dialga.json), [starmobile_revavroom.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/starmobile_revavroom.json), [shadow_lugia.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_lugia.json), [armored_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/armored_mewtwo.json), [shadow_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_mewtwo.json)
-
-## 🧬 Navas ZA Mega (ZaMega 1.8.1+1.8)
-
-Analyse directe du JAR `zamega-neoforge-1.8.1+1.8.jar` fourni : **aucune définition `riding`** dans les JSON de ce mod. Il contient des formes supplémentaires pour **Darkrai, Heatran, Zygarde, Magearna, Zeraora et Tatsugiri**, ainsi que la forme **Ange de Floette**. Aucune de ces variantes ne peut être ajoutée en tant que **nouvelle monture confirmée par les données**. Certaines peuvent hériter de propriétés du Pokémon de base ou d'un autre addon, sans preuve de montabilité autonome.
-
-{% hint style="info" %}
-Le JAR demande notamment `cobblemon >= 1.8.0` et la dépendance `mega_showdown`. Les informations de cette section sont bornées au **JAR fourni**, et non à d'éventuelles versions ultérieures.
-{% endhint %}
-
-<!-- cr-rideplus-start -->
-## 🐎 Cobblemon Ride+ (v1.2.7b)
-
-Cette extension de **LevelsFR** cible **Minecraft 1.21.1 / Cobblemon 1.8.1**, pour Fabric et NeoForge. Le dépôt contient **118 JSON d'ajout de montures**. Les données Ride+ sont présentées séparément des montures natives et des autres addons.
-
-{% hint style="info" %}
-« Aussi natif » signifie que l'espèce figure déjà parmi les montures natives. **Ne comptez pas deux fois cette espèce.** Des chevauchements avec Mega Showdown et Lost Lore sont également possibles. Les noms internationaux correspondent aux identifiants JSON.
-{% endhint %}
-
-{% hint style="warning" %}
-Cette section documente les fichiers JSON, **pas des tests en jeu**. L'accès à un siège peut varier avec la forme, les points d'ancrage du modèle ou les priorités des datapacks. **Noadkoko d'Alola** utilise notamment un ancrage de tête ; **Oyacata** possède une configuration Ride+ distincte du natif.
-{% endhint %}
-
-Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride-Plus), branche `master`, version `1.2.7b` (accès au code potentiellement restreint).
-
-<details>
-<summary><strong>📖 Afficher les montures Ride+</strong></summary>
-
-| Pokémon | Places | Terre | Eau | Air | Origine |
-| --- | :---: | --- | --- | --- | --- |
-| Absol | 1 | Standard | — | — | Ajout Ride+ |
-| Aggron | 1 | Standard | — | — | Ajout Ride+ |
-| Ampharos | 1 | Standard | — | — | Ajout Ride+ |
-| Arbok | 1 | Standard | — | — | Ajout Ride+ |
-| Armarouge | 1 | Standard | — | — | Ajout Ride+ |
-| Aurorus | 1 | Standard | — | — | Ajout Ride+ |
-| Basculegion | 1 | — | Dauphin | — | Ajout Ride+ |
-| Beartic | 1 | Standard | — | — | Ajout Ride+ |
-| Bewear | 1 | Standard | — | — | Ajout Ride+ |
-| Breloom | 1 | Standard | — | — | Ajout Ride+ |
-| Butterfree | 1 | — | — | Oiseau | Ajout Ride+ |
-| Carracosta | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Centiskorch | 1 | Standard | — | — | Ajout Ride+ |
-| Ceruledge | 1 | Standard | — | — | Ajout Ride+ |
-| Cetitan | 1 | Standard | — | — | Ajout Ride+ |
-| Chesnaught | 1 | Standard | — | — | Ajout Ride+ |
-| Clodsire | 1 | Standard | — | — | Ajout Ride+ |
-| Cloyster | 1 | Standard | Sous-marin | — | Ajout Ride+ |
-| Copperajah | 1 | Standard | — | — | Ajout Ride+ |
-| Dialga | 1 | Standard | — | — | Ajout Ride+ |
-| Dondozo | 1 | — | Dauphin | — | Aussi natif |
-| Donphan | 1 | Standard | — | — | Ajout Ride+ |
-| Dracovish | 1 | Standard | Sous-marin | — | Ajout Ride+ |
-| Dragalge | 1 | — | Dauphin | — | Ajout Ride+ |
-| Drapion | 1 | Standard | — | — | Ajout Ride+ |
-| Druddigon | 1 | Standard | — | — | Ajout Ride+ |
-| Eelektross | 1 | — | Dauphin | — | Ajout Ride+ |
-| Emboar | 1 | Standard | — | — | Ajout Ride+ |
-| Empoleon | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Enamorus | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Exeggutor | 1 | Standard | — | — | Ajout Ride+ |
-| Exploud | 1 | Standard | — | — | Ajout Ride+ |
-| Feraligatr | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Flamigo | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Floatzel | 1 | — | Dauphin | — | Ajout Ride+ |
-| Garganacl | 1 | Standard | — | — | Ajout Ride+ |
-| Gengar | 1 | Standard | — | Stationnaire | Ajout Ride+ |
-| Gliscor | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Gorebyss | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Gouging Fire | 1 | Standard | — | — | Ajout Ride+ |
-| Hariyama | 1 | Standard | — | — | Ajout Ride+ |
-| Haxorus | 1 | Standard | — | — | Ajout Ride+ |
-| Hippowdon | 1 | Standard | — | — | Ajout Ride+ |
-| Houndoom | 1 | Standard | — | — | Ajout Ride+ |
-| Huntail | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Hydrapple | 1 | Standard | — | — | Ajout Ride+ |
-| Iron Leaves | 1 | Standard | — | — | Ajout Ride+ |
-| Jellicent | 1 | — | Dauphin | — | Ajout Ride+ |
-| Kingdra | 1 | — | Dauphin | — | Ajout Ride+ |
-| Kingler | 1 | Standard | Sous-marin | — | Ajout Ride+ |
-| Klawf | 1 | Standard | — | — | Ajout Ride+ |
-| Kommo-o | 1 | Standard | — | — | Ajout Ride+ |
-| Krookodile | 1 | Standard | — | — | Ajout Ride+ |
-| Kyurem | 1 | Standard | — | — | Ajout Ride+ |
-| Landorus | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Lanturn | 1 | — | Dauphin | — | Ajout Ride+ |
-| Ludicolo | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Lunala | 1 | — | — | Oiseau | Ajout Ride+ |
-| Luxray | 1 | Standard | — | — | Ajout Ride+ |
-| Mabosstiff | 1 | Standard | — | — | Ajout Ride+ |
-| Manectric | 1 | Standard | — | — | Ajout Ride+ |
-| Meganium | 1 | Standard | — | — | Ajout Ride+ |
-| Mightyena | 1 | Standard | — | — | Ajout Ride+ |
-| Miltank | 1 | Standard | — | — | Ajout Ride+ |
-| Nidoking | 1 | Standard | — | — | Ajout Ride+ |
-| Nihilego | 1 | — | — | Oiseau | Ajout Ride+ |
-| Ninetales | 1 | Standard | — | — | Ajout Ride+ |
-| Noctowl | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Oinkologne | 1 | Standard | — | — | Ajout Ride+ |
-| Overqwil | 1 | — | Dauphin | — | Ajout Ride+ |
-| Palafin | 1 | — | Dauphin | — | Ajout Ride+ |
-| Pangoro | 1 | Standard | — | — | Ajout Ride+ |
-| Pelipper | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Pyroar | 1 | Standard | — | — | Ajout Ride+ |
-| Raging Bolt | 1 | Standard | — | — | Ajout Ride+ |
-| Raichu | 1 | Standard | — | — | Ajout Ride+ |
-| Rampardos | 1 | Standard | — | — | Ajout Ride+ |
-| Rapidash | 1 | Standard | — | — | Ajout Ride+ |
-| Raticate | 1 | Standard | — | — | Ajout Ride+ |
-| Rayquaza | 4 | Standard | Bateau | Jet | Ajout Ride+ |
-| Regice | 1 | Standard | — | — | Ajout Ride+ |
-| Regidrago | 1 | Standard | — | — | Ajout Ride+ |
-| Regieleki | 1 | Standard | Bateau | Jet | Ajout Ride+ |
-| Regigigas | 1 | Standard | — | — | Ajout Ride+ |
-| Regirock | 1 | Standard | — | — | Ajout Ride+ |
-| Registeel | 1 | Standard | — | — | Ajout Ride+ |
-| Revavroom | 1 | Standard | — | — | Aussi natif |
-| Rillaboom | 1 | Standard | — | — | Ajout Ride+ |
-| Samurott | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Sandslash | 1 | Standard | — | — | Ajout Ride+ |
-| Sawsbuck | 1 | Standard | — | — | Ajout Ride+ |
-| Sceptile | 1 | Standard | — | — | Ajout Ride+ |
-| Shiftry | 1 | Standard | — | — | Ajout Ride+ |
-| Skeledirge | 1 | Standard | — | — | Ajout Ride+ |
-| Slowbro | 1 | Standard | — | — | Ajout Ride+ |
-| Snorlax | 1 | Standard | — | — | Ajout Ride+ |
-| Solgaleo | 1 | Standard | — | — | Ajout Ride+ |
-| Steelix | 1 | Standard | — | — | Ajout Ride+ |
-| Stonjourner | 1 | Standard | — | — | Ajout Ride+ |
-| Stoutland | 1 | Standard | — | — | Ajout Ride+ |
-| Swampert | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Swellow | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Talonflame | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Tangrowth | 1 | Standard | — | — | Ajout Ride+ |
-| Tentacruel | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Thundurus | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Torkoal | 1 | Standard | — | — | Ajout Ride+ |
-| Tornadus | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Torterra | 1 | Standard | — | — | Ajout Ride+ |
-| Toucannon | 1 | Standard | — | Oiseau | Ajout Ride+ |
-| Toxicroak | 1 | Standard | — | — | Ajout Ride+ |
-| Turtonator | 1 | Standard | — | — | Ajout Ride+ |
-| Tyranitar | 1 | Standard | — | — | Ajout Ride+ |
-| Tyrantrum | 1 | Standard | — | — | Aussi natif |
-| Veluza | 1 | — | Dauphin | — | Ajout Ride+ |
-| Walking Wake | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Walrein | 1 | Standard | Dauphin | — | Ajout Ride+ |
-| Zarude | 1 | Standard | — | — | Ajout Ride+ |
-<!-- cr-rideplus-list-next -->
-
-</details>
-
-Les **statistiques Ride+** sont réparties par milieu comme les tableaux natifs ci-dessus. Les styles de déplacement et le nombre de places figurent dans la liste récapitulative. Un Pokémon pouvant se déplacer dans plusieurs milieux apparaît dans chaque sous-tableau concerné.
-
-<details>
-<summary><strong>🐾 Liste des montures terrestres Ride+ (104)</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Absol | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
-| Aggron | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Ampharos | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
-| Arbok | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
-| Armarouge | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
-| Aurorus | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
-| Beartic | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
-| Bewear | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
-| Breloom | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Carracosta | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
-| Centiskorch | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
-| Ceruledge | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
-| Cetitan | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
-| Chesnaught | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
-| Clodsire | 10-25 | 20-40 | 5-20 | 60-90 | 0-10 |
-| Cloyster | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
-| Copperajah | 20-35 | 25-45 | 15-30 | 70-100 | 5-15 |
-| Dialga | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Donphan | 30-45 | 25-40 | 30-50 | 60-90 | 20-35 |
-| Dracovish | 25-45 | 30-55 | 25-45 | 45-75 | 10-25 |
-| Drapion | 20-40 | 35-60 | 20-40 | 40-70 | 15-30 |
-| Druddigon | 20-45 | 35-65 | 20-45 | 45-75 | 20-35 |
-| Emboar | 25-45 | 35-60 | 25-45 | 45-80 | 20-35 |
-| Empoleon | 15-35 | 30-55 | 15-35 | 30-60 | 15-30 |
-| Enamorus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Exeggutor | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Exploud | 20-40 | 25-45 | 15-35 | 30-55 | 15-30 |
-| Feraligatr | 30-55 | 25-45 | 30-50 | 45-70 | 25-40 |
-| Flamigo | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Garganacl | 10-25 | 30-55 | 10-30 | 55-85 | 10-20 |
-| Gengar | 35-55 | 45-65 | 25-40 | 30-55 | 20-35 |
-| Gliscor | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
-| Gorebyss | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Gouging Fire | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Hariyama | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
-| Haxorus | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
-| Hippowdon | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
-| Houndoom | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
-| Huntail | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Hydrapple | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
-| Iron Leaves | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
-| Kingler | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
-| Klawf | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
-| Kommo-o | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
-| Krookodile | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
-| Kyurem | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
-| Landorus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Ludicolo | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
-| Luxray | 25-50 | 40-70 | 25-50 | 35-65 | 20-40 |
-| Mabosstiff | 35-55 | 30-50 | 35-60 | 40-70 | 20-35 |
-| Manectric | 35-65 | 30-55 | 35-65 | 25-45 | 20-40 |
-| Meganium | 35-60 | 20-45 | 25-45 | 50-80 | 30-55 |
-| Mightyena | 25-50 | 30-55 | 30-55 | 25-45 | 20-40 |
-| Miltank | 30-55 | 25-45 | 35-60 | 50-80 | 20-35 |
-| Nidoking | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
-| Ninetales | 65-85 | 40-75 | 45-70 | 30-60 | 40-60 |
-| Noctowl | 35-55 | 15-30 | 20-35 | 20-35 | 10-25 |
-| Oinkologne | 20-40 | 20-40 | 25-45 | 40-70 | 15-30 |
-| Pangoro | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Pelipper | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
-| Pyroar | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Raging Bolt | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Raichu | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Rampardos | 20-45 | 35-60 | 15-35 | 40-75 | 20-35 |
-| Rapidash | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
-| Raticate | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Rayquaza | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Regice | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Regidrago | 25-45 | 35-60 | 35-55 | 45-80 | 25-45 |
-| Regieleki | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
-| Regigigas | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
-| Regirock | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Registeel | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Revavroom | 60-95 | 40-65 | 55-90 | 45-70 | 5-20 |
-| Rillaboom | 30-55 | 40-65 | 30-50 | 55-85 | 20-35 |
-| Samurott | 20-40 | 30-55 | 20-40 | 40-70 | 15-30 |
-| Sandslash | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Sawsbuck | 25-50 | 35-60 | 25-50 | 35-65 | 25-45 |
-| Sceptile | 40-70 | 45-75 | 40-70 | 30-55 | 35-60 |
-| Shiftry | 25-45 | 40-70 | 25-50 | 30-60 | 20-40 |
-| Skeledirge | 20-40 | 45-75 | 25-45 | 45-80 | 20-35 |
-| Slowbro | 20-35 | 20-35 | 18-30 | 65-95 | 10-20 |
-| Snorlax | 0-20 | 0-25 | 15-35 | 70-100 | 10-25 |
-| Solgaleo | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
-| Steelix | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
-| Stonjourner | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
-| Stoutland | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
-| Swampert | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
-| Swellow | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
-| Talonflame | 35-55 | 20-40 | 25-45 | 20-35 | 15-30 |
-| Tangrowth | 15-30 | 35-60 | 15-30 | 45-80 | 10-25 |
-| Tentacruel | 5-20 | 20-40 | 5-20 | 30-60 | 0-5 |
-| Thundurus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Torkoal | 10-25 | 30-55 | 10-25 | 50-90 | 10-20 |
-| Tornadus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Torterra | 15-35 | 35-60 | 15-35 | 55-90 | 15-30 |
-| Toucannon | 20-40 | 30-50 | 15-30 | 25-45 | 15-30 |
-| Toxicroak | 40-65 | 35-60 | 40-65 | 30-55 | 25-45 |
-| Turtonator | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
-| Tyranitar | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
-| Tyrantrum | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
-| Walking Wake | 35-60 | 25-45 | 35-60 | 40-70 | 25-45 |
-| Walrein | 15-35 | 30-55 | 10-25 | 40-80 | 10-20 |
-| Zarude | 55-80 | 45-65 | 60-85 | 40-65 | 30-50 |
-<!-- cr-rideplus-land-next -->
-
-</details>
-
----
-
-<details>
-<summary><strong>🌊 Liste des montures aquatiques Ride+ (27)</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Basculegion | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
-| Carracosta | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
-| Cloyster | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
-| Dondozo | 15-35 | 25-45 | 25-50 | 75-100 | 10-25 |
-| Dracovish | 35-60 | 40-70 | 40-65 | 50-85 | 30-55 |
-| Dragalge | 35-60 | 40-65 | 30-55 | 45-75 | 20-40 |
-| Eelektross | 35-65 | 45-75 | 30-60 | 45-75 | 20-40 |
-| Empoleon | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
-| Feraligatr | 40-65 | 40-70 | 35-60 | 45-80 | 30-55 |
-| Floatzel | 40-70 | 45-75 | 35-65 | 35-65 | 25-45 |
-| Gorebyss | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Huntail | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Jellicent | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
-| Kingdra | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
-| Kingler | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
-| Lanturn | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
-| Ludicolo | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
-| Overqwil | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
-| Palafin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
-| Rayquaza | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
-| Regieleki | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
-| Samurott | 30-55 | 45-75 | 30-55 | 50-85 | 25-45 |
-| Swampert | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
-| Tentacruel | 40-65 | 45-75 | 30-60 | 40-80 | 25-55 |
-| Veluza | 50-80 | 40-70 | 45-75 | 35-70 | 20-40 |
-| Walking Wake | 40-70 | 35-60 | 45-75 | 45-75 | 30-55 |
-| Walrein | 30-55 | 45-75 | 30-60 | 50-90 | 25-40 |
-<!-- cr-rideplus-liquid-next -->
-
-</details>
-
----
-
-<details>
-<summary><strong>🪶 Liste des montures aériennes Ride+ (17)</strong></summary>
-
-***
-
-| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Butterfree | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
-| Enamorus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Flamigo | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Gengar | 25-45 | 55-80 | 20-35 | 30-60 | 25-45 |
-| Gliscor | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
-| Landorus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Lunala | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
-| Nihilego | 30-55 | 50-75 | 35-60 | 55-80 | 20-45 |
-| Noctowl | 30-55 | 45-75 | 25-55 | 30-60 | 30-55 |
-| Pelipper | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
-| Rayquaza | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
-| Regieleki | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
-| Swellow | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
-| Talonflame | 50-80 | 55-85 | 45-85 | 35-65 | 35-65 |
-| Thundurus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Tornadus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Toucannon | 40-70 | 55-85 | 35-70 | 35-65 | 25-60 |
-<!-- cr-rideplus-air-next -->
-
-</details>
-
-<!-- cr-rideplus-end -->
-
-<!-- cr-addon-riding-end -->
-
-
-{% hint style="info" %}
-**Références de cette page ciblant 1.8.1 :**
-- [Wiki officiel Cobblemon — Riding](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Riding) : styles, places et plages de statistiques.
-- [Changelog Cobblemon 1.8.0](https://wiki.cobblemon.com/index.php/1.8.0) : les dix nouvelles montures natives et les places conditionnelles.
-- [Changelog Cobblemon 1.8.1](https://wiki.cobblemon.com/index.php/1.8.1) : correction du siège supplémentaire de Tortank.
-- [Source des espèces Cobblemon 1.8.1](https://gitlab.com/cable-mc/cobblemon/-/tree/1.8.1/common/src/main/resources/data/cobblemon/species) : fichiers JSON versionnés à consulter pour vérifier les données de monture. Le contenu brut complet de cette archive n'a pas été audité ici.
-
-Les versions ultérieures de Cobblemon ou des datapacks supplémentaires peuvent modifier ces données. Cette page est volontairement limitée à **Cobblemon 1.8.1**.
-{% endhint %}
-
----
-
-{% hint style="success" %}
-## Nous contacter
-
-<p align="center">
-Si vous avez des questions, des suggestions ou des modifications à proposer, n'hésitez pas à nous rejoindre sur <a href="https://discord.gg/kb8NSTF45n">Discord</a> et à contacter directement <strong>@FabLeKebab</strong> sur le serveur pour tout ce qui concerne le wiki, ou <strong>@Levels</strong> pour tout ce qui concerne le modpack.
-</p>
-{% endhint %}
+**Une erreur ou une monture manquante ?** Faites un signalement sur notre [Discord](https://discord.gg/kb8NSTF45n).
