@@ -838,6 +838,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Overqwil | 1 | — | Dauphin | — | Ajout Ride+ |
 | Palafin | 1 | — | Dauphin | — | Ajout Ride+ |
 | Pangoro | 1 | Standard | — | — | Ajout Ride+ |
+| Pelipper | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Pyroar | 1 | Standard | — | — | Ajout Ride+ |
+| Raging Bolt | 1 | Standard | — | — | Ajout Ride+ |
+| Raichu | 1 | Standard | — | — | Ajout Ride+ |
+| Rampardos | 1 | Standard | — | — | Ajout Ride+ |
+| Rapidash | 1 | Standard | — | — | Ajout Ride+ |
+| Raticate | 1 | Standard | — | — | Ajout Ride+ |
+| Rayquaza | 4 | Standard | Bateau | Jet | Ajout Ride+ |
+| Regice | 1 | Standard | — | — | Ajout Ride+ |
+| Regidrago | 1 | Standard | — | — | Ajout Ride+ |
+| Regieleki | 1 | Standard | Bateau | Jet | Ajout Ride+ |
+| Regigigas | 1 | Standard | — | — | Ajout Ride+ |
+| Regirock | 1 | Standard | — | — | Ajout Ride+ |
+| Registeel | 1 | Standard | — | — | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -934,6 +948,25 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Overqwil | Eau | Dauphin | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
 | Palafin | Eau | Dauphin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
 | Pangoro | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Pelipper | Air | Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Pelipper | Terre | Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Pyroar | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Raging Bolt | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Raichu | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rampardos | Terre | Standard | 20-45 | 35-60 | 15-35 | 40-75 | 20-35 |
+| Rapidash | Terre | Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Raticate | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rayquaza | Air | Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Rayquaza | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Rayquaza | Eau | Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+| Regice | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Regidrago | Terre | Standard | 25-45 | 35-60 | 35-55 | 45-80 | 25-45 |
+| Regieleki | Air | Jet | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
+| Regieleki | Terre | Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Regieleki | Eau | Bateau | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
+| Regigigas | Terre | Standard | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
+| Regirock | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Registeel | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
