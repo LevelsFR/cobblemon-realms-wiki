@@ -810,6 +810,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Haxorus | 1 | Standard | — | — | Ajout Ride+ |
 | Hippowdon | 1 | Standard | — | — | Ajout Ride+ |
 | Houndoom | 1 | Standard | — | — | Ajout Ride+ |
+| Huntail | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Hydrapple | 1 | Standard | — | — | Ajout Ride+ |
+| Iron Leaves | 1 | Standard | — | — | Ajout Ride+ |
+| Jellicent | 1 | — | Dauphin | — | Ajout Ride+ |
+| Kingdra | 1 | — | Dauphin | — | Ajout Ride+ |
+| Kingler | 1 | Standard | Sous-marin | — | Ajout Ride+ |
+| Klawf | 1 | Standard | — | — | Ajout Ride+ |
+| Kommo-o | 1 | Standard | — | — | Ajout Ride+ |
+| Krookodile | 1 | Standard | — | — | Ajout Ride+ |
+| Kyurem | 1 | Standard | — | — | Ajout Ride+ |
+| Landorus | 1 | Standard | — | Oiseau | Ajout Ride+ |
+| Lanturn | 1 | — | Dauphin | — | Ajout Ride+ |
+| Ludicolo | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Lunala | 1 | — | — | Oiseau | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -873,6 +887,24 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Haxorus | Terre | Standard | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
 | Hippowdon | Terre | Standard | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
 | Houndoom | Terre | Standard | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
+| Huntail | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Huntail | Eau | Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Hydrapple | Terre | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Iron Leaves | Terre | Standard | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
+| Jellicent | Eau | Dauphin | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
+| Kingdra | Eau | Dauphin | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
+| Kingler | Terre | Standard | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
+| Kingler | Eau | Sous-marin | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
+| Klawf | Terre | Standard | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
+| Kommo-o | Terre | Standard | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
+| Krookodile | Terre | Standard | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
+| Kyurem | Terre | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Landorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Landorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Lanturn | Eau | Dauphin | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
+| Ludicolo | Terre | Standard | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
+| Ludicolo | Eau | Dauphin | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
+| Lunala | Air | Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
