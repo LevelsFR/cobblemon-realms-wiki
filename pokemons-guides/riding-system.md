@@ -810,6 +810,20 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Haxorus | 1 | Standard | — | — | Ride+ addition |
 | Hippowdon | 1 | Standard | — | — | Ride+ addition |
 | Houndoom | 1 | Standard | — | — | Ride+ addition |
+| Huntail | 1 | Standard | Dolphin | — | Ride+ addition |
+| Hydrapple | 1 | Standard | — | — | Ride+ addition |
+| Iron Leaves | 1 | Standard | — | — | Ride+ addition |
+| Jellicent | 1 | — | Dolphin | — | Ride+ addition |
+| Kingdra | 1 | — | Dolphin | — | Ride+ addition |
+| Kingler | 1 | Standard | Submarine | — | Ride+ addition |
+| Klawf | 1 | Standard | — | — | Ride+ addition |
+| Kommo-o | 1 | Standard | — | — | Ride+ addition |
+| Krookodile | 1 | Standard | — | — | Ride+ addition |
+| Kyurem | 1 | Standard | — | — | Ride+ addition |
+| Landorus | 1 | Standard | — | Bird | Ride+ addition |
+| Lanturn | 1 | — | Dolphin | — | Ride+ addition |
+| Ludicolo | 1 | Standard | Dolphin | — | Ride+ addition |
+| Lunala | 1 | — | — | Bird | Ride+ addition |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -873,6 +887,24 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Haxorus | Land | Standard | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
 | Hippowdon | Land | Standard | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
 | Houndoom | Land | Standard | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
+| Huntail | Land | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Huntail | Water | Dolphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Hydrapple | Land | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Iron Leaves | Land | Standard | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
+| Jellicent | Water | Dolphin | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
+| Kingdra | Water | Dolphin | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
+| Kingler | Land | Standard | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
+| Kingler | Water | Submarine | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
+| Klawf | Land | Standard | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
+| Kommo-o | Land | Standard | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
+| Krookodile | Land | Standard | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
+| Kyurem | Land | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Landorus | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Landorus | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Lanturn | Water | Dolphin | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
+| Ludicolo | Land | Standard | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
+| Ludicolo | Water | Dolphin | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
+| Lunala | Air | Bird | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
