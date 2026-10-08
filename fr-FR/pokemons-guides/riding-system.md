@@ -782,6 +782,20 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Ceruledge | 1 | Standard | — | — | Ajout Ride+ |
 | Cetitan | 1 | Standard | — | — | Ajout Ride+ |
 | Chesnaught | 1 | Standard | — | — | Ajout Ride+ |
+| Clodsire | 1 | Standard | — | — | Ajout Ride+ |
+| Cloyster | 1 | Standard | Sous-marin | — | Ajout Ride+ |
+| Copperajah | 1 | Standard | — | — | Ajout Ride+ |
+| Dialga | 1 | Standard | — | — | Ajout Ride+ |
+| Dondozo | 1 | — | Dauphin | — | Ajout Ride+ |
+| Donphan | 1 | Standard | — | — | Ajout Ride+ |
+| Dracovish | 1 | Standard | Sous-marin | — | Ajout Ride+ |
+| Dragalge | 1 | — | Dauphin | — | Ajout Ride+ |
+| Drapion | 1 | Standard | — | — | Ajout Ride+ |
+| Druddigon | 1 | Standard | — | — | Ajout Ride+ |
+| Eelektross | 1 | — | Dauphin | — | Ajout Ride+ |
+| Emboar | 1 | Standard | — | — | Ajout Ride+ |
+| Empoleon | 1 | Standard | Dauphin | — | Ajout Ride+ |
+| Enamorus | 1 | Standard | — | Oiseau | Ajout Ride+ |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -808,6 +822,24 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 | Ceruledge | Terre | Standard | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
 | Cetitan | Terre | Standard | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
 | Chesnaught | Terre | Standard | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
+| Clodsire | Terre | Standard | 10-25 | 20-40 | 5-20 | 60-90 | 0-10 |
+| Cloyster | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Cloyster | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Copperajah | Terre | Standard | 20-35 | 25-45 | 15-30 | 70-100 | 5-15 |
+| Dialga | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Dondozo | Eau | Dauphin | 15-35 | 25-45 | 25-50 | 75-100 | 10-25 |
+| Donphan | Terre | Standard | 30-45 | 25-40 | 30-50 | 60-90 | 20-35 |
+| Dracovish | Terre | Standard | 25-45 | 30-55 | 25-45 | 45-75 | 10-25 |
+| Dracovish | Eau | Sous-marin | 35-60 | 40-70 | 40-65 | 50-85 | 30-55 |
+| Dragalge | Eau | Dauphin | 35-60 | 40-65 | 30-55 | 45-75 | 20-40 |
+| Drapion | Terre | Standard | 20-40 | 35-60 | 20-40 | 40-70 | 15-30 |
+| Druddigon | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-75 | 20-35 |
+| Eelektross | Eau | Dauphin | 35-65 | 45-75 | 30-60 | 45-75 | 20-40 |
+| Emboar | Terre | Standard | 25-45 | 35-60 | 25-45 | 45-80 | 20-35 |
+| Empoleon | Terre | Standard | 15-35 | 30-55 | 15-35 | 30-60 | 15-30 |
+| Empoleon | Eau | Dauphin | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
+| Enamorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Enamorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
