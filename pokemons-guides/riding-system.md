@@ -554,6 +554,68 @@ Source files : [hooh.json](https://github.com/yajatkaul/CobblemonMegaShowdown/bl
 
 Source files : [typenull.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/typenull.json), [miraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/miraidon.json), [koraidon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/koraidon.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/melmetal.json), [virizion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/virizion.json), [silvally.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/silvally.json), [glastrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/glastrier.json), [spectrier.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/spectrier.json), [volcanion.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/volcanion.json), [latias.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latias.json), [latios.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/latios.json), [yveltal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/yveltal.json)
 
+### Other Mega Showdown species and forms (3/3, part A)
+
+| Pokémon | Seats | Land | Water | Air | Origin |
+| --- | :---: | --- | --- | --- | --- |
+| Absol (Mega-Z) | 1 | Standard | — | — | Addon form/species |
+| Delphox (Mega) | 2 | Standard | — | Jet | Addon form/species |
+| Zygarde | 1 | Standard | — | — | Addon form/species |
+| Zygarde (10%) | 0* | Standard | — | — | Addon form/species |
+| Zygarde (10%-C) | 0* | Standard | — | — | Addon form/species |
+| Zygarde (50%-C) | 1 | Standard | — | — | Addon form/species |
+| Zygarde (Complete) | 0* | Standard | — | — | Addon form/species |
+| Zygarde (Core) | 0* | Standard | — | — | Addon form/species |
+| Venusaur | 1 | Standard | — | — | Native override |
+| Venusaur (Mega) | 1 | Standard | — | — | Addon form/species |
+| Kyurem | 1 | Standard | — | — | Addon form/species |
+| Kyurem (White) | 1 | Standard | — | Bird | Addon form/species |
+| Kyurem (Black) | 1 | Standard | — | Bird | Addon form/species |
+| Eternatus | 1 | Standard | — | Bird | Addon form/species |
+| Enamorus (Therian) | 1 | Standard | — | Bird | Addon form/species |
+| Tornadus | 1 | Standard | — | Bird | Addon form/species |
+| Zacian | 1 | Standard | — | — | Addon form/species |
+| Landorus | 1 | Standard | — | Bird | Addon form/species |
+| Duraludon | 1 | Standard | — | — | Native override |
+
+*A ride behaviour defined with zero explicit seats does not confirm that a player seat is usable.*
+
+<details>
+<summary><strong>📊 Exact configured stat ranges</strong></summary>
+
+| Pokémon | Environment | Style | Accel. | Skill | Speed | Stamina | Jump |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Absol (Mega-Z) | Land | Standard | 75-85 | 60-80 | 50-70 | 35-55 | 30-50 |
+| Delphox (Mega) | Air | Jet | 50-70 | 35-55 | 65-85 | 60-75 | 40-60 |
+| Delphox (Mega) | Land | Standard | 50-70 | 35-55 | 35-45 | 60-75 | 10-25 |
+| Zygarde | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (10%) | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (10%-C) | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (50%-C) | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (Complete) | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Zygarde (Core) | Land | Standard | 30-60 | 20-50 | 20-40 | 90-130 | 30-65 |
+| Venusaur | Land | Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
+| Venusaur (Mega) | Land | Standard | 40-75 | 10-40 | 30-55 | 45-85 | 40-60 |
+| Kyurem | Land | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Kyurem (White) | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Kyurem (White) | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Kyurem (Black) | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Kyurem (Black) | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Eternatus | Air | Bird | 41-60 | 41-60 | 21-40 | 81-130 | 41-60 |
+| Eternatus | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Enamorus (Therian) | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Enamorus (Therian) | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Tornadus | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Tornadus | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Zacian | Land | Standard | 30-60 | 20-50 | 50-80 | 60-95 | 30-65 |
+| Landorus | Air | Bird | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Landorus | Land | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Duraludon | Land | Standard | 35-60 | 5-25 | 10-20 | 40-80 | 20-25 |
+
+</details>
+
+JSON sources : [absol_mega_z.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/absol_mega_z.json), [delphox_mega.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species_additions/delphox_mega.json), [zygarde.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation6/zygarde.json), [melmetal.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7b/melmetal.json), [venusaur.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/venusaur.json), [kyurem.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/kyurem.json), [eternatus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/eternatus.json), [enamorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/enamorus.json), [tornadus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/tornadus.json), [zacian.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zacian.json), [landorus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/landorus.json), [duraludon.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/duraludon.json)
+
 <!-- cr-addon-riding-next -->
 
 {% hint style="info" %}
