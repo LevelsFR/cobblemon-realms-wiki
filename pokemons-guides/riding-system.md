@@ -824,6 +824,20 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Lanturn | 1 | — | Dolphin | — | Ride+ addition |
 | Ludicolo | 1 | Standard | Dolphin | — | Ride+ addition |
 | Lunala | 1 | — | — | Bird | Ride+ addition |
+| Luxray | 1 | Standard | — | — | Ride+ addition |
+| Mabosstiff | 1 | Standard | — | — | Ride+ addition |
+| Manectric | 1 | Standard | — | — | Ride+ addition |
+| Meganium | 1 | Standard | — | — | Ride+ addition |
+| Mightyena | 1 | Standard | — | — | Ride+ addition |
+| Miltank | 1 | Standard | — | — | Ride+ addition |
+| Nidoking | 1 | Standard | — | — | Ride+ addition |
+| Nihilego | 1 | — | — | Bird | Ride+ addition |
+| Ninetales | 1 | Standard | — | — | Ride+ addition |
+| Noctowl | 1 | Standard | — | Bird | Ride+ addition |
+| Oinkologne | 1 | Standard | — | — | Ride+ addition |
+| Overqwil | 1 | — | Dolphin | — | Ride+ addition |
+| Palafin | 1 | — | Dolphin | — | Ride+ addition |
+| Pangoro | 1 | Standard | — | — | Ride+ addition |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -905,6 +919,21 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Ludicolo | Land | Standard | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
 | Ludicolo | Water | Dolphin | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
 | Lunala | Air | Bird | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Luxray | Land | Standard | 25-50 | 40-70 | 25-50 | 35-65 | 20-40 |
+| Mabosstiff | Land | Standard | 35-55 | 30-50 | 35-60 | 40-70 | 20-35 |
+| Manectric | Land | Standard | 35-65 | 30-55 | 35-65 | 25-45 | 20-40 |
+| Meganium | Land | Standard | 35-60 | 20-45 | 25-45 | 50-80 | 30-55 |
+| Mightyena | Land | Standard | 25-50 | 30-55 | 30-55 | 25-45 | 20-40 |
+| Miltank | Land | Standard | 30-55 | 25-45 | 35-60 | 50-80 | 20-35 |
+| Nidoking | Land | Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Nihilego | Air | Bird | 30-55 | 50-75 | 35-60 | 55-80 | 20-45 |
+| Ninetales | Land | Standard | 65-85 | 40-75 | 45-70 | 30-60 | 40-60 |
+| Noctowl | Air | Bird | 30-55 | 45-75 | 25-55 | 30-60 | 30-55 |
+| Noctowl | Land | Standard | 35-55 | 15-30 | 20-35 | 20-35 | 10-25 |
+| Oinkologne | Land | Standard | 20-40 | 20-40 | 25-45 | 40-70 | 15-30 |
+| Overqwil | Water | Dolphin | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
+| Palafin | Water | Dolphin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
+| Pangoro | Land | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
