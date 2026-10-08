@@ -880,6 +880,10 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Turtonator | 1 | Standard | — | — | Ride+ addition |
 | Tyranitar | 1 | Standard | — | — | Ride+ addition |
 | Tyrantrum | 1 | Standard | — | — | Also native |
+| Veluza | 1 | — | Dolphin | — | Ride+ addition |
+| Walking Wake | 1 | Standard | Dolphin | — | Ride+ addition |
+| Walrein | 1 | Standard | Dolphin | — | Ride+ addition |
+| Zarude | 1 | Standard | — | — | Ride+ addition |
 <!-- cr-rideplus-list-next -->
 
 </details>
@@ -1031,6 +1035,12 @@ Source: [Cobblemon Ride+ on GitHub](https://github.com/LevelsFR/Cobblemon-Ride-P
 | Turtonator | Land | Standard | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
 | Tyranitar | Land | Standard | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
 | Tyrantrum | Land | Standard | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
+| Veluza | Water | Dolphin | 50-80 | 40-70 | 45-75 | 35-70 | 20-40 |
+| Walking Wake | Land | Standard | 35-60 | 25-45 | 35-60 | 40-70 | 25-45 |
+| Walking Wake | Water | Dolphin | 40-70 | 35-60 | 45-75 | 45-75 | 30-55 |
+| Walrein | Land | Standard | 15-35 | 30-55 | 10-25 | 40-80 | 10-20 |
+| Walrein | Water | Dolphin | 30-55 | 45-75 | 30-60 | 50-90 | 25-40 |
+| Zarude | Land | Standard | 55-80 | 45-65 | 60-85 | 40-65 | 30-50 |
 <!-- cr-rideplus-stats-next -->
 
 </details>
