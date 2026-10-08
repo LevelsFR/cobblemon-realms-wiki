@@ -888,160 +888,190 @@ Source : [Cobblemon Ride+ sur GitHub](https://github.com/LevelsFR/Cobblemon-Ride
 
 </details>
 
-<details>
-<summary><strong>📊 Statistiques détaillées de Ride+</strong></summary>
+Les **statistiques Ride+** sont réparties par milieu comme les tableaux natifs ci-dessus. Les styles de déplacement et le nombre de places figurent dans la liste récapitulative. Un Pokémon pouvant se déplacer dans plusieurs milieux apparaît dans chaque sous-tableau concerné.
 
-| Pokémon | Milieu | Style | Accél. | Maniab. | Vit. | End. | Saut |
-| --- | --- | --- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Absol | Terre | Standard | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
-| Aggron | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Ampharos | Terre | Standard | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
-| Arbok | Terre | Standard | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
-| Armarouge | Terre | Standard | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
-| Aurorus | Terre | Standard | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
-| Basculegion | Eau | Dauphin | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
-| Beartic | Terre | Standard | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
-| Bewear | Terre | Standard | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
-| Breloom | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Butterfree | Air | Oiseau | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
-| Carracosta | Terre | Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
-| Carracosta | Eau | Dauphin | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
-| Centiskorch | Terre | Standard | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
-| Ceruledge | Terre | Standard | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
-| Cetitan | Terre | Standard | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
-| Chesnaught | Terre | Standard | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
-| Clodsire | Terre | Standard | 10-25 | 20-40 | 5-20 | 60-90 | 0-10 |
-| Cloyster | Terre | Standard | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
-| Cloyster | Eau | Sous-marin | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
-| Copperajah | Terre | Standard | 20-35 | 25-45 | 15-30 | 70-100 | 5-15 |
-| Dialga | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Dondozo | Eau | Dauphin | 15-35 | 25-45 | 25-50 | 75-100 | 10-25 |
-| Donphan | Terre | Standard | 30-45 | 25-40 | 30-50 | 60-90 | 20-35 |
-| Dracovish | Terre | Standard | 25-45 | 30-55 | 25-45 | 45-75 | 10-25 |
-| Dracovish | Eau | Sous-marin | 35-60 | 40-70 | 40-65 | 50-85 | 30-55 |
-| Dragalge | Eau | Dauphin | 35-60 | 40-65 | 30-55 | 45-75 | 20-40 |
-| Drapion | Terre | Standard | 20-40 | 35-60 | 20-40 | 40-70 | 15-30 |
-| Druddigon | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-75 | 20-35 |
-| Eelektross | Eau | Dauphin | 35-65 | 45-75 | 30-60 | 45-75 | 20-40 |
-| Emboar | Terre | Standard | 25-45 | 35-60 | 25-45 | 45-80 | 20-35 |
-| Empoleon | Terre | Standard | 15-35 | 30-55 | 15-35 | 30-60 | 15-30 |
-| Empoleon | Eau | Dauphin | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
-| Enamorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Enamorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Exeggutor | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Exploud | Terre | Standard | 20-40 | 25-45 | 15-35 | 30-55 | 15-30 |
-| Feraligatr | Terre | Standard | 30-55 | 25-45 | 30-50 | 45-70 | 25-40 |
-| Feraligatr | Eau | Dauphin | 40-65 | 40-70 | 35-60 | 45-80 | 30-55 |
-| Flamigo | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Flamigo | Air | Oiseau | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Floatzel | Eau | Dauphin | 40-70 | 45-75 | 35-65 | 35-65 | 25-45 |
-| Garganacl | Terre | Standard | 10-25 | 30-55 | 10-30 | 55-85 | 10-20 |
-| Gengar | Terre | Standard | 35-55 | 45-65 | 25-40 | 30-55 | 20-35 |
-| Gengar | Air | Stationnaire | 25-45 | 55-80 | 20-35 | 30-60 | 25-45 |
-| Gliscor | Air | Oiseau | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
-| Gliscor | Terre | Standard | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
-| Gorebyss | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Gorebyss | Eau | Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Gouging Fire | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Hariyama | Terre | Standard | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
-| Haxorus | Terre | Standard | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
-| Hippowdon | Terre | Standard | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
-| Houndoom | Terre | Standard | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
-| Huntail | Terre | Standard | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
-| Huntail | Eau | Dauphin | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Hydrapple | Terre | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
-| Iron Leaves | Terre | Standard | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
-| Jellicent | Eau | Dauphin | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
-| Kingdra | Eau | Dauphin | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
-| Kingler | Terre | Standard | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
-| Kingler | Eau | Sous-marin | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
-| Klawf | Terre | Standard | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
-| Kommo-o | Terre | Standard | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
-| Krookodile | Terre | Standard | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
-| Kyurem | Terre | Standard | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
-| Landorus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Landorus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Lanturn | Eau | Dauphin | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
-| Ludicolo | Terre | Standard | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
-| Ludicolo | Eau | Dauphin | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
-| Lunala | Air | Oiseau | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
-| Luxray | Terre | Standard | 25-50 | 40-70 | 25-50 | 35-65 | 20-40 |
-| Mabosstiff | Terre | Standard | 35-55 | 30-50 | 35-60 | 40-70 | 20-35 |
-| Manectric | Terre | Standard | 35-65 | 30-55 | 35-65 | 25-45 | 20-40 |
-| Meganium | Terre | Standard | 35-60 | 20-45 | 25-45 | 50-80 | 30-55 |
-| Mightyena | Terre | Standard | 25-50 | 30-55 | 30-55 | 25-45 | 20-40 |
-| Miltank | Terre | Standard | 30-55 | 25-45 | 35-60 | 50-80 | 20-35 |
-| Nidoking | Terre | Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
-| Nihilego | Air | Oiseau | 30-55 | 50-75 | 35-60 | 55-80 | 20-45 |
-| Ninetales | Terre | Standard | 65-85 | 40-75 | 45-70 | 30-60 | 40-60 |
-| Noctowl | Air | Oiseau | 30-55 | 45-75 | 25-55 | 30-60 | 30-55 |
-| Noctowl | Terre | Standard | 35-55 | 15-30 | 20-35 | 20-35 | 10-25 |
-| Oinkologne | Terre | Standard | 20-40 | 20-40 | 25-45 | 40-70 | 15-30 |
-| Overqwil | Eau | Dauphin | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
-| Palafin | Eau | Dauphin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
-| Pangoro | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Pelipper | Air | Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
-| Pelipper | Terre | Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
-| Pyroar | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Raging Bolt | Terre | Standard | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
-| Raichu | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Rampardos | Terre | Standard | 20-45 | 35-60 | 15-35 | 40-75 | 20-35 |
-| Rapidash | Terre | Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
-| Raticate | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Rayquaza | Air | Jet | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
-| Rayquaza | Terre | Standard | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
-| Rayquaza | Eau | Bateau | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
-| Regice | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Regidrago | Terre | Standard | 25-45 | 35-60 | 35-55 | 45-80 | 25-45 |
-| Regieleki | Air | Jet | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
-| Regieleki | Terre | Standard | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
-| Regieleki | Eau | Bateau | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
-| Regigigas | Terre | Standard | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
-| Regirock | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Registeel | Terre | Standard | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
-| Revavroom | Terre | Standard | 60-95 | 40-65 | 55-90 | 45-70 | 5-20 |
-| Rillaboom | Terre | Standard | 30-55 | 40-65 | 30-50 | 55-85 | 20-35 |
-| Samurott | Terre | Standard | 20-40 | 30-55 | 20-40 | 40-70 | 15-30 |
-| Samurott | Eau | Dauphin | 30-55 | 45-75 | 30-55 | 50-85 | 25-45 |
-| Sandslash | Terre | Standard | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
-| Sawsbuck | Terre | Standard | 25-50 | 35-60 | 25-50 | 35-65 | 25-45 |
-| Sceptile | Terre | Standard | 40-70 | 45-75 | 40-70 | 30-55 | 35-60 |
-| Shiftry | Terre | Standard | 25-45 | 40-70 | 25-50 | 30-60 | 20-40 |
-| Skeledirge | Terre | Standard | 20-40 | 45-75 | 25-45 | 45-80 | 20-35 |
-| Slowbro | Terre | Standard | 20-35 | 20-35 | 18-30 | 65-95 | 10-20 |
-| Snorlax | Terre | Standard | 0-20 | 0-25 | 15-35 | 70-100 | 10-25 |
-| Solgaleo | Terre | Standard | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
-| Steelix | Terre | Standard | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
-| Stonjourner | Terre | Standard | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
-| Stoutland | Terre | Standard | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
-| Swampert | Terre | Standard | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
-| Swampert | Eau | Dauphin | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
-| Swellow | Air | Oiseau | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
-| Swellow | Terre | Standard | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
-| Talonflame | Air | Oiseau | 50-80 | 55-85 | 45-85 | 35-65 | 35-65 |
-| Talonflame | Terre | Standard | 35-55 | 20-40 | 25-45 | 20-35 | 15-30 |
-| Tangrowth | Terre | Standard | 15-30 | 35-60 | 15-30 | 45-80 | 10-25 |
-| Tentacruel | Terre | Standard | 5-20 | 20-40 | 5-20 | 30-60 | 0-5 |
-| Tentacruel | Eau | Dauphin | 40-65 | 45-75 | 30-60 | 40-80 | 25-55 |
-| Thundurus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Thundurus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Torkoal | Terre | Standard | 10-25 | 30-55 | 10-25 | 50-90 | 10-20 |
-| Tornadus | Air | Oiseau | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
-| Tornadus | Terre | Standard | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
-| Torterra | Terre | Standard | 15-35 | 35-60 | 15-35 | 55-90 | 15-30 |
-| Toucannon | Air | Oiseau | 40-70 | 55-85 | 35-70 | 35-65 | 25-60 |
-| Toucannon | Terre | Standard | 20-40 | 30-50 | 15-30 | 25-45 | 15-30 |
-| Toxicroak | Terre | Standard | 40-65 | 35-60 | 40-65 | 30-55 | 25-45 |
-| Turtonator | Terre | Standard | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
-| Tyranitar | Terre | Standard | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
-| Tyrantrum | Terre | Standard | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
-| Veluza | Eau | Dauphin | 50-80 | 40-70 | 45-75 | 35-70 | 20-40 |
-| Walking Wake | Terre | Standard | 35-60 | 25-45 | 35-60 | 40-70 | 25-45 |
-| Walking Wake | Eau | Dauphin | 40-70 | 35-60 | 45-75 | 45-75 | 30-55 |
-| Walrein | Terre | Standard | 15-35 | 30-55 | 10-25 | 40-80 | 10-20 |
-| Walrein | Eau | Dauphin | 30-55 | 45-75 | 30-60 | 50-90 | 25-40 |
-| Zarude | Terre | Standard | 55-80 | 45-65 | 60-85 | 40-65 | 30-50 |
-<!-- cr-rideplus-stats-next -->
+<details>
+<summary><strong>🐾 Liste des montures terrestres Ride+ (104)</strong></summary>
+
+***
+
+| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Absol | 75-85 | 60-80 | 50-70 | 35-55 | 20-40 |
+| Aggron | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Ampharos | 25-45 | 35-60 | 20-40 | 30-55 | 10-25 |
+| Arbok | 65-80 | 0-30 | 25-45 | 35-55 | 0-5 |
+| Armarouge | 40-65 | 50-80 | 35-55 | 35-60 | 20-35 |
+| Aurorus | 30-55 | 25-45 | 20-40 | 50-80 | 15-30 |
+| Beartic | 20-45 | 30-55 | 20-45 | 50-85 | 20-35 |
+| Bewear | 40-65 | 25-45 | 35-55 | 55-85 | 20-30 |
+| Breloom | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Carracosta | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Centiskorch | 35-60 | 35-60 | 35-65 | 50-85 | 20-35 |
+| Ceruledge | 45-70 | 60-85 | 35-60 | 30-55 | 25-40 |
+| Cetitan | 20-45 | 30-55 | 20-40 | 45-80 | 10-25 |
+| Chesnaught | 30-55 | 35-60 | 25-45 | 55-85 | 20-35 |
+| Clodsire | 10-25 | 20-40 | 5-20 | 60-90 | 0-10 |
+| Cloyster | 30-50 | 10-35 | 30-65 | 15-35 | 15-30 |
+| Copperajah | 20-35 | 25-45 | 15-30 | 70-100 | 5-15 |
+| Dialga | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Donphan | 30-45 | 25-40 | 30-50 | 60-90 | 20-35 |
+| Dracovish | 25-45 | 30-55 | 25-45 | 45-75 | 10-25 |
+| Drapion | 20-40 | 35-60 | 20-40 | 40-70 | 15-30 |
+| Druddigon | 20-45 | 35-65 | 20-45 | 45-75 | 20-35 |
+| Emboar | 25-45 | 35-60 | 25-45 | 45-80 | 20-35 |
+| Empoleon | 15-35 | 30-55 | 15-35 | 30-60 | 15-30 |
+| Enamorus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Exeggutor | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Exploud | 20-40 | 25-45 | 15-35 | 30-55 | 15-30 |
+| Feraligatr | 30-55 | 25-45 | 30-50 | 45-70 | 25-40 |
+| Flamigo | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Garganacl | 10-25 | 30-55 | 10-30 | 55-85 | 10-20 |
+| Gengar | 35-55 | 45-65 | 25-40 | 30-55 | 20-35 |
+| Gliscor | 55-65 | 10-25 | 25-40 | 20-30 | 15-25 |
+| Gorebyss | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Gouging Fire | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Hariyama | 15-35 | 30-55 | 15-35 | 45-80 | 10-25 |
+| Haxorus | 30-55 | 35-65 | 30-55 | 45-80 | 25-45 |
+| Hippowdon | 15-35 | 25-45 | 20-40 | 60-90 | 15-30 |
+| Houndoom | 55-80 | 30-60 | 40-65 | 25-55 | 25-45 |
+| Huntail | 10-40 | 80-100 | 10-40 | 10-40 | 10-40 |
+| Hydrapple | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Iron Leaves | 55-80 | 45-70 | 55-85 | 35-60 | 25-45 |
+| Kingler | 25-50 | 20-40 | 20-40 | 30-55 | 10-25 |
+| Klawf | 20-35 | 35-55 | 20-40 | 45-75 | 10-25 |
+| Kommo-o | 40-60 | 45-70 | 35-55 | 50-80 | 20-35 |
+| Krookodile | 25-50 | 40-70 | 30-55 | 45-80 | 20-40 |
+| Kyurem | 30-60 | 20-50 | 20-40 | 30-65 | 30-65 |
+| Landorus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Ludicolo | 20-40 | 25-45 | 20-40 | 30-55 | 15-30 |
+| Luxray | 25-50 | 40-70 | 25-50 | 35-65 | 20-40 |
+| Mabosstiff | 35-55 | 30-50 | 35-60 | 40-70 | 20-35 |
+| Manectric | 35-65 | 30-55 | 35-65 | 25-45 | 20-40 |
+| Meganium | 35-60 | 20-45 | 25-45 | 50-80 | 30-55 |
+| Mightyena | 25-50 | 30-55 | 30-55 | 25-45 | 20-40 |
+| Miltank | 30-55 | 25-45 | 35-60 | 50-80 | 20-35 |
+| Nidoking | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Ninetales | 65-85 | 40-75 | 45-70 | 30-60 | 40-60 |
+| Noctowl | 35-55 | 15-30 | 20-35 | 20-35 | 10-25 |
+| Oinkologne | 20-40 | 20-40 | 25-45 | 40-70 | 15-30 |
+| Pangoro | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Pelipper | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Pyroar | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Raging Bolt | 20-45 | 35-65 | 20-45 | 45-80 | 20-40 |
+| Raichu | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rampardos | 20-45 | 35-60 | 15-35 | 40-75 | 20-35 |
+| Rapidash | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Raticate | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Rayquaza | 41-60 | 21-40 | 21-40 | 61-80 | 41-60 |
+| Regice | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Regidrago | 25-45 | 35-60 | 35-55 | 45-80 | 25-45 |
+| Regieleki | 65-75 | 40-70 | 40-55 | 30-45 | 30-50 |
+| Regigigas | 10-25 | 60-85 | 18-32 | 70-100 | 10-22 |
+| Regirock | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Registeel | 10-30 | 35-60 | 15-30 | 40-80 | 10-25 |
+| Revavroom | 60-95 | 40-65 | 55-90 | 45-70 | 5-20 |
+| Rillaboom | 30-55 | 40-65 | 30-50 | 55-85 | 20-35 |
+| Samurott | 20-40 | 30-55 | 20-40 | 40-70 | 15-30 |
+| Sandslash | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Sawsbuck | 25-50 | 35-60 | 25-50 | 35-65 | 25-45 |
+| Sceptile | 40-70 | 45-75 | 40-70 | 30-55 | 35-60 |
+| Shiftry | 25-45 | 40-70 | 25-50 | 30-60 | 20-40 |
+| Skeledirge | 20-40 | 45-75 | 25-45 | 45-80 | 20-35 |
+| Slowbro | 20-35 | 20-35 | 18-30 | 65-95 | 10-20 |
+| Snorlax | 0-20 | 0-25 | 15-35 | 70-100 | 10-25 |
+| Solgaleo | 55-80 | 35-55 | 60-85 | 35-55 | 30-50 |
+| Steelix | 15-35 | 35-60 | 10-30 | 60-100 | 0-10 |
+| Stonjourner | 20-35 | 20-40 | 15-30 | 60-90 | 5-15 |
+| Stoutland | 25-45 | 35-60 | 25-50 | 50-80 | 20-35 |
+| Swampert | 80-85 | 35-70 | 10-35 | 45-65 | 40-60 |
+| Swellow | 15-35 | 25-40 | 15-30 | 20-40 | 15-30 |
+| Talonflame | 35-55 | 20-40 | 25-45 | 20-35 | 15-30 |
+| Tangrowth | 15-30 | 35-60 | 15-30 | 45-80 | 10-25 |
+| Tentacruel | 5-20 | 20-40 | 5-20 | 30-60 | 0-5 |
+| Thundurus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Torkoal | 10-25 | 30-55 | 10-25 | 50-90 | 10-20 |
+| Tornadus | 21-40 | 21-40 | 21-40 | 41-60 | 41-60 |
+| Torterra | 15-35 | 35-60 | 15-35 | 55-90 | 15-30 |
+| Toucannon | 20-40 | 30-50 | 15-30 | 25-45 | 15-30 |
+| Toxicroak | 40-65 | 35-60 | 40-65 | 30-55 | 25-45 |
+| Turtonator | 20-40 | 25-45 | 15-30 | 55-85 | 5-15 |
+| Tyranitar | 30-55 | 40-60 | 20-35 | 70-100 | 15-30 |
+| Tyrantrum | 30-55 | 30-50 | 35-60 | 65-95 | 20-35 |
+| Walking Wake | 35-60 | 25-45 | 35-60 | 40-70 | 25-45 |
+| Walrein | 15-35 | 30-55 | 10-25 | 40-80 | 10-20 |
+| Zarude | 55-80 | 45-65 | 60-85 | 40-65 | 30-50 |
+<!-- cr-rideplus-land-next -->
+
+</details>
+
+---
+
+<details>
+<summary><strong>🌊 Liste des montures aquatiques Ride+ (27)</strong></summary>
+
+***
+
+| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Basculegion | 40-65 | 35-60 | 45-75 | 30-65 | 25-45 |
+| Carracosta | 20-40 | 40-70 | 25-50 | 55-90 | 20-35 |
+| Cloyster | 45-65 | 50-75 | 35-65 | 35-70 | 30-50 |
+| Dondozo | 15-35 | 25-45 | 25-50 | 75-100 | 10-25 |
+| Dracovish | 35-60 | 40-70 | 40-65 | 50-85 | 30-55 |
+| Dragalge | 35-60 | 40-65 | 30-55 | 45-75 | 20-40 |
+| Eelektross | 35-65 | 45-75 | 30-60 | 45-75 | 20-40 |
+| Empoleon | 30-60 | 45-75 | 30-60 | 40-80 | 25-45 |
+| Feraligatr | 40-65 | 40-70 | 35-60 | 45-80 | 30-55 |
+| Floatzel | 40-70 | 45-75 | 35-65 | 35-65 | 25-45 |
+| Gorebyss | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Huntail | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Jellicent | 25-50 | 35-65 | 25-50 | 45-80 | 20-35 |
+| Kingdra | 45-70 | 45-75 | 40-70 | 35-70 | 20-40 |
+| Kingler | 35-60 | 45-70 | 30-55 | 40-75 | 15-35 |
+| Lanturn | 35-60 | 45-75 | 30-55 | 40-80 | 25-45 |
+| Ludicolo | 30-55 | 40-70 | 30-55 | 35-65 | 20-35 |
+| Overqwil | 30-50 | 40-70 | 35-60 | 45-80 | 15-35 |
+| Palafin | 45-70 | 50-80 | 45-75 | 40-70 | 35-60 |
+| Rayquaza | 0-20 | 21-40 | 41-60 | 0-20 | 41-60 |
+| Regieleki | 75-85 | 10-25 | 35-60 | 5-10 | 40-80 |
+| Samurott | 30-55 | 45-75 | 30-55 | 50-85 | 25-45 |
+| Swampert | 75-85 | 60-80 | 30-50 | 45-65 | 40-60 |
+| Tentacruel | 40-65 | 45-75 | 30-60 | 40-80 | 25-55 |
+| Veluza | 50-80 | 40-70 | 45-75 | 35-70 | 20-40 |
+| Walking Wake | 40-70 | 35-60 | 45-75 | 45-75 | 30-55 |
+| Walrein | 30-55 | 45-75 | 30-60 | 50-90 | 25-40 |
+<!-- cr-rideplus-liquid-next -->
+
+</details>
+
+---
+
+<details>
+<summary><strong>🪶 Liste des montures aériennes Ride+ (17)</strong></summary>
+
+***
+
+| Pokémon | Accél. | Maniab. | Vit. | End. | Saut |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Butterfree | 45-65 | 60-85 | 25-45 | 40-65 | 25-40 |
+| Enamorus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Flamigo | 45-65 | 45-65 | 45-65 | 45-65 | 45-65 |
+| Gengar | 25-45 | 55-80 | 20-35 | 30-60 | 25-45 |
+| Gliscor | 45-75 | 55-85 | 30-65 | 30-65 | 30-65 |
+| Landorus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Lunala | 45-75 | 55-85 | 30-80 | 70-100 | 30-65 |
+| Nihilego | 30-55 | 50-75 | 35-60 | 55-80 | 20-45 |
+| Noctowl | 30-55 | 45-75 | 25-55 | 30-60 | 30-55 |
+| Pelipper | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Rayquaza | 61-68 | 150-180 | 41-75 | 162-220 | 41-60 |
+| Regieleki | 50-70 | 50-60 | 70-80 | 30-50 | 20-70 |
+| Swellow | 40-70 | 45-75 | 35-65 | 25-50 | 30-55 |
+| Talonflame | 50-80 | 55-85 | 45-85 | 35-65 | 35-65 |
+| Thundurus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Tornadus | 41-60 | 41-60 | 21-40 | 41-60 | 41-60 |
+| Toucannon | 40-70 | 55-85 | 35-70 | 35-65 | 25-60 |
+<!-- cr-rideplus-air-next -->
 
 </details>
 
