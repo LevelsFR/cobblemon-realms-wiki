@@ -679,7 +679,75 @@ JSON sources : [absol_mega_z.json](https://github.com/yajatkaul/CobblemonMegaSho
 
 JSON sources : [machamp.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/machamp.json), [thundurus.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/thundurus.json), [ursaluna.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8a/ursaluna.json), [charizard.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/charizard.json), [zamazenta.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation8/zamazenta.json), [butterfree.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/butterfree.json), [metagross.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/metagross.json), [lapras.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/lapras.json), [blastoise.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation1/blastoise.json), [swampert.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/swampert.json), [rayquaza.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation3/rayquaza.json), [necrozma.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation7/necrozma.json), [darmanitan.json](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/ba22a7317f35543cbef7e5e28cb26fd068391516/common/src/main/resources/data/cobblemon/species/generation5/darmanitan.json)
 
-<!-- cr-addon-riding-next -->
+## 📜 Lost Lore 3.2.0
+
+Special Pokémon and forms with **explicit `riding.behaviours` declarations** in Lost Lore. The five Starmobile variants each declare four seats.
+
+| Pokémon / form | Seats | Land | Water | Air |
+| --- | :---: | --- | --- | --- |
+| MT | 1 | Standard | — | — |
+| MT2 | 1 | Standard | — | — |
+| Black Fog | 1 | Standard | — | Hover |
+| Tyranitar (Black) | 1 | Standard | — | — |
+| Dialga (Primal) | 1 | Standard | — | Bird |
+| Revavroom (Segin) | 4 | Standard | — | — |
+| Revavroom (Caph) | 4 | Standard | — | — |
+| Revavroom (Ruchbah) | 4 | Standard | — | — |
+| Revavroom (Schedar) | 4 | Standard | — | — |
+| Revavroom (Navi) | 4 | Standard | — | — |
+| Lugia (Shadow) | 1 | Standard | Dolphin | Bird |
+| Mewtwo (Armored) | 1 | Standard | Dolphin | Jet |
+| Mewtwo (Mega-Armored) | 1 | Standard | Dolphin | Jet |
+| Mewtwo (Shadow) | 1 | Standard | Dolphin | Jet |
+
+<details>
+<summary><strong>📊 Exact Lost Lore configured stats</strong></summary>
+
+| Pokémon | Environment | Style | Accel. | Skill | Speed | Stamina | Jump |
+| --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
+| MT | Land | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| MT2 | Land | Standard | 50-75 | 35-55 | 20-40 | 125-150 | 10-25 |
+| Black Fog | Air | Hover | 60-75 | 35-55 | 55-85 | 65-80 | 25-45 |
+| Black Fog | Land | Standard | 50-70 | 35-50 | 10-20 | 55-70 | 30-45 |
+| Tyranitar (Black) | Land | Standard | 50-75 | 35-55 | 40-60 | 60-85 | 10-25 |
+| Dialga (Primal) | Air | Bird | 45-75 | 55-85 | 30-80 | 45-77 | 30-65 |
+| Dialga (Primal) | Land | Standard | 55-65 | 20-55 | 40-70 | 55-99 | 20-80 |
+| Revavroom (Segin) | Land | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Revavroom (Caph) | Land | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Revavroom (Ruchbah) | Land | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Revavroom (Schedar) | Land | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Revavroom (Navi) | Land | Standard | 40-60 | 5-20 | 85-105 | 105-125 | 5-15 |
+| Lugia (Shadow) | Air | Bird | 20-100 | 50-100 | 85-110 | 150-180 | 25-50 |
+| Lugia (Shadow) | Land | Standard | 90-100 | 15-30 | 10-20 | 15-30 | 10-20 |
+| Lugia (Shadow) | Water | Dolphin | 55-85 | 10-40 | 55-85 | 80-135 | 30-65 |
+| Mewtwo (Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Armored) | Land | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Armored) | Water | Dolphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Mega-Armored) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Mega-Armored) | Land | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Mega-Armored) | Water | Dolphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+| Mewtwo (Shadow) | Air | Jet | 50-70 | 60-80 | 70-95 | 95-105 | 40-60 |
+| Mewtwo (Shadow) | Land | Standard | 65-75 | 35-55 | 15-25 | 30-45 | 10-25 |
+| Mewtwo (Shadow) | Water | Dolphin | 55-75 | 10-30 | 45-65 | 85-105 | 30-65 |
+
+</details>
+
+{% hint style="warning" %}
+The Lost Lore changelog mentions riding fixes for **clone starters, Virus Groudon and Illusion Rayquaza**. Their species addition files define no new `riding.behaviours`; they may inherit existing properties. **They are not counted as new explicit riding definitions** without in-game verification. **Snowman Snorlax** uses `riding.behaviour` (singular), not `behaviours`; its ride functionality is unconfirmed.
+{% endhint %}
+
+JSON sources : [mt.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt.json), [mt2.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/generation5/mt2.json), [blackfog.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species/lost_lore/blackfog.json), [black_tyranitar.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/black_tyranitar.json), [primal_dialga.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/primal_dialga.json), [starmobile_revavroom.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/starmobile_revavroom.json), [shadow_lugia.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_lugia.json), [armored_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/armored_mewtwo.json), [shadow_mewtwo.json](https://github.com/Lvnatic-T/Lost-Lore/blob/227a317d44000d32fc3feea9e059468325bd4ab1/common/src/main/resources/data/cobblemon/species_additions/shadow_mewtwo.json)
+
+## 🧬 Navas ZA Mega (ZaMega 1.8.1+1.8)
+
+The supplied `zamega-neoforge-1.8.1+1.8.jar` was inspected directly. Its JSON files contain **no `riding` declarations**. It adds forms for **Darkrai, Heatran, Zygarde, Magearna, Zeraora and Tatsugiri**, plus **Floette Ange**. None can be listed as a **new confirmed riding definition** from ZaMega itself. Some forms could inherit riding from their base species or another addon, but independent rideability is not established.
+
+{% hint style="info" %}
+The JAR declares `cobblemon >= 1.8.0` and requires `mega_showdown`. These findings apply to the **supplied JAR**, not necessarily to later releases.
+{% endhint %}
+
+<!-- cr-addon-riding-end -->
+
 
 {% hint style="info" %}
 **References for this 1.8.1-focused guide:**
