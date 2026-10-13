@@ -40,7 +40,7 @@ Les deux méthodes vous envoient vers le même prochain Champion auquel vous êt
 {% step %}
 ### ⚔️ Battez le Champion d'Arène
 
-Chaque Champion utilise une équipe prédéfinie avec un niveau fixe, un moveset défini, une progression d'IV, des objets tenus et des objets de combat adaptés à l'étape atteinte dans le World Tour.
+Chaque Champion utilise une équipe prédéfinie avec un niveau de combat et des movesets fixes. Les IV, les EV, la nature et le talent de chaque Pokémon sont configurés ; les objets tenus et les objets de combat varient selon l'équipe.
 
 Le Gym World Tour actuel utilise des **combats simples**.
 {% endstep %}
@@ -257,21 +257,27 @@ La progression actuelle contient **66 Champions d'Arène** répartis sur **8 ré
 
 ## ⚔️ Une difficulté croissante à chaque région
 
-Le Gym World Tour ne se contente pas d'augmenter le niveau des Pokémon. Les données des Champions deviennent elles aussi progressivement plus exigeantes.
+En v6.2.1, les Champions proposent des équipes plus complètes et des Pokémon mieux optimisés : le défi ne repose pas seulement sur les niveaux. Le Level Cap maximal reste à 100. Les IV atteignent 31 dès Unys et restent à ce niveau jusqu'à Paldea.
 
-| 🌍 Région | 🧬 Progression des IV | 👥 Taille des équipes | 🎒 Difficulté générale |
-| --- | --- | :---: | --- |
-| **Kanto** | 1 à 8 IV | 2 - 5 | Équipes d'introduction avec peu d'objets tenus |
-| **Johto** | 8 à 12 IV | 2 - 4 | Équipes plus développées et meilleure couverture |
-| **Hoenn** | 12 à 15 IV | 3 - 5 | Davantage d'objets tenus et des équipes plus grandes |
-| **Sinnoh** | 16 à 22 IV | 3 - 4 | Sets plus solides et Pokémon de mieux en mieux optimisés |
-| **Unys** | 22 à 26 IV | 2 - 3 | Équipes de haut niveau avec un meilleur support d'objets |
-| **Kalos** | 26 à 30 IV | 2 - 3 | IV presque optimisés et objets tenus largement utilisés |
-| **Galar** | 30 IV | 2 - 4 | Équipes niveau 100 avec des objets tenus sur pratiquement chaque Pokémon |
-| **Paldea** | **31 IV** | 3 - 4 | IV totalement optimisés et équipes complètes niveau 100 |
+| 🌍 Région | 🧬 Plage d'IV | ⚡ Total d'EV par Pokémon | 👥 Taille d'équipe | 🎒 Pokémon avec un objet tenu |
+| --- | --- | --- | :---: | :---: |
+| **Kanto** | 25–27 | 128–256 | 2–5 | 9 / 27 |
+| **Johto** | 27 | 256 | 4–5 | 21 / 35 |
+| **Hoenn** | 27–29 | 256–384 | 4–5 | 19 / 36 |
+| **Sinnoh** | 29 | 384 | 4–5 | 27 / 38 |
+| **Unys** | 31 | 508 | 4–5 | 31 / 38 |
+| **Kalos** | 31 | 508 | 4–5 | 36 / 38 |
+| **Galar** | 31 | 508 | 4–5 | 42 / 42 |
+| **Paldea** | 31 | 508 | 4–5 | 36 / 36 |
+
+La plage d'IV correspond aux valeurs observées dans les équipes de chaque région ; les EV indiqués sont le total par Pokémon. La dernière colonne compte les Pokémon qui portent un objet tenu dans l'ensemble des équipes de la région.
+
+{% hint style="info" %}
+🧬 Chaque Pokémon des équipes actuelles a une **nature** et un **talent** configurés. Kanto conserve ses effectifs d'origine ; toutes les régions suivantes alignent désormais des équipes de **4 à 5 Pokémon par Champion**.
+{% endhint %}
 
 {% hint style="warning" %}
-⚠️ Atteindre le niveau 100 ne signifie pas que la difficulté cesse d'augmenter. À partir de Galar, la composition des équipes, les movesets, les objets tenus et la qualité des IV deviennent beaucoup plus importants que le niveau brut.
+⚠️ Dès Unys, chaque Pokémon des Champions atteint **31 IV** et **508 EV au total**. Ces valeurs restent à leur maximum jusqu'à Galar et Paldea. Le défi de fin de parcours s'appuie alors sur des sets aboutis et le soutien des objets tenus : chaque Pokémon de Galar et de Paldea en possède un.
 {% endhint %}
 
 ---
@@ -362,8 +368,8 @@ Le **Conseil 4** et le **Maître de la Ligue** ne sont **pas encore intégrés**
 
 - 🧠 Préparez plusieurs Pokémon plutôt que de dépendre d'un seul Pokémon surentraîné.
 - 🎯 Construisez votre équipe en fonction du type et de la composition du prochain Champion.
-- 🎒 Les objets tenus deviennent de plus en plus importants dans les régions avancées.
-- 🧬 La qualité des IV devient particulièrement importante à partir de Sinnoh et atteint un niveau très élevé à Galar et Paldea.
+- 🎒 Les objets tenus deviennent particulièrement fréquents à partir de Sinnoh et équipent tous les Pokémon des équipes de Galar et de Paldea.
+- 🧬 Les Pokémon des Champions atteignent 31 IV dès Unys et conservent ce maximum jusqu'à Paldea ; les EV, les natures et les talents comptent aussi.
 - 🏅 Consultez votre Badge Box et vos Avancements si vous ne savez plus où vous en êtes.
 - 🏆 Retournez au Hall de la Ligue lorsque vous voulez accéder simplement à votre prochain combat d'Arène.
 

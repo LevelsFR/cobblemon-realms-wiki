@@ -40,7 +40,7 @@ Both methods send you to the same next Gym Leader for which you are currently el
 {% step %}
 ### ⚔️ Defeat the Gym Leader
 
-Each Gym Leader uses a predefined team with a fixed battle level, moveset, IV progression, held items, and battle items depending on the stage of the World Tour.
+Each Gym Leader uses a predefined team with a fixed battle level and movesets. Every Pokémon has configured IVs, EVs, a nature, and an ability; held items and battle items vary by team.
 
 The current Gym World Tour uses **single battles**.
 {% endstep %}
@@ -257,21 +257,27 @@ The current progression contains **66 Gym Leaders** across **8 regions**.
 
 ## ⚔️ Difficulty Increases With Every Region
 
-The Gym World Tour is not scaled only by Pokémon level. The trainer data itself becomes progressively stronger as you advance.
+The v6.2.1 trainer data makes the challenge about more than levels: builds get stronger and teams get deeper. The Level Cap remains 100, while Gym Pokémon reach 31 IVs by Unova and keep that maximum through Paldea.
 
-| 🌍 Region | 🧬 IV Progression | 👥 Team Size | 🎒 General Difficulty |
-| --- | --- | :---: | --- |
-| **Kanto** | 1 to 8 IVs | 2 - 5 | Introductory teams with limited held-item usage |
-| **Johto** | 8 to 12 IVs | 2 - 4 | More developed teams and stronger coverage |
-| **Hoenn** | 12 to 15 IVs | 3 - 5 | More held items and larger teams |
-| **Sinnoh** | 16 to 22 IVs | 3 - 4 | Stronger sets and increasingly optimized Pokémon |
-| **Unova** | 22 to 26 IVs | 2 - 3 | High-level teams with better item support |
-| **Kalos** | 26 to 30 IVs | 2 - 3 | Near-optimized IVs and widespread held items |
-| **Galar** | 30 IVs | 2 - 4 | Level 100 teams with held items on essentially every Pokémon |
-| **Paldea** | **31 IVs** | 3 - 4 | Fully optimized IV values and complete level 100 teams |
+| 🌍 Region | 🧬 IV range | ⚡ Total EVs per Pokémon | 👥 Team size | 🎒 Pokémon holding an item |
+| --- | --- | --- | :---: | :---: |
+| **Kanto** | 25–27 | 128–256 | 2–5 | 9 / 27 |
+| **Johto** | 27 | 256 | 4–5 | 21 / 35 |
+| **Hoenn** | 27–29 | 256–384 | 4–5 | 19 / 36 |
+| **Sinnoh** | 29 | 384 | 4–5 | 27 / 38 |
+| **Unova** | 31 | 508 | 4–5 | 31 / 38 |
+| **Kalos** | 31 | 508 | 4–5 | 36 / 38 |
+| **Galar** | 31 | 508 | 4–5 | 42 / 42 |
+| **Paldea** | 31 | 508 | 4–5 | 36 / 36 |
+
+IV ranges show the stat values found across each region's teams; EV figures are totals per Pokémon. Held-item figures count how many Pokémon carry an item across all Gym teams in that region.
+
+{% hint style="info" %}
+🧬 Every Pokémon in the current trainer data has a configured **nature** and **ability**. Kanto keeps its original team sizes; every later region now fields **4–5 Pokémon per Gym Leader**.
+{% endhint %}
 
 {% hint style="warning" %}
-⚠️ Reaching level 100 does not mean the difficulty has stopped increasing. From Galar onward, team composition, movesets, held items, and IV quality become much more important than raw level alone.
+⚠️ By Unova, every Gym Pokémon has reached **31 IVs** and **508 total EVs**. Those stats stay at their maximum through Galar and Paldea. Late-tour battles rely on fully built Pokémon and held-item support: every team Pokémon carries an item in both Galar and Paldea.
 {% endhint %}
 
 ---
@@ -362,8 +368,8 @@ The **Elite Four** and **League Champion** stages are **not currently implemente
 
 - 🧠 Build several Pokémon instead of relying on a single overleveled carry.
 - 🎯 Prepare around the next Gym Leader's typing and team composition.
-- 🎒 Held items become increasingly important in later regions.
-- 🧬 IV quality matters much more from Sinnoh onward and becomes highly optimized in Galar and Paldea.
+- 🎒 Held items become especially common from Sinnoh onward and are equipped on every team Pokémon in Galar and Paldea.
+- 🧬 Gym Pokémon reach 31 IVs by Unova and keep that maximum through Paldea; EV spreads, natures, and abilities matter just as much.
 - 🏅 Check your Badge Box and Advancements if you are unsure how far you have progressed.
 - 🏆 Return to the League Hall whenever you want a simple route to your next Gym battle.
 
