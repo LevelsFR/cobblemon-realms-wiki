@@ -257,7 +257,7 @@ La progression actuelle contient **66 Champions d'Arène** répartis sur **8 ré
 
 ## ⚔️ Une difficulté croissante à chaque région
 
-Les données des Champions en v6.2.1 renforcent le défi avec des builds plus aboutis et des équipes plus étoffées, pas seulement avec les niveaux. Le Level Cap reste fixé à 100 au maximum ; les Pokémon des Champions atteignent 31 IV dès Unys et conservent ce maximum jusqu'à Paldea.
+En v6.2.1, les Champions proposent des équipes plus complètes et des Pokémon mieux optimisés : le défi ne repose pas seulement sur les niveaux. Le Level Cap maximal reste à 100. Les IV atteignent 31 dès Unys et restent à ce niveau jusqu'à Paldea.
 
 | 🌍 Région | 🧬 Plage d'IV | ⚡ Total d'EV par Pokémon | 👥 Taille d'équipe | 🎒 Pokémon avec un objet tenu |
 | --- | --- | --- | :---: | :---: |
@@ -270,15 +270,17 @@ Les données des Champions en v6.2.1 renforcent le défi avec des builds plus ab
 | **Galar** | 31 | 508 | 4–5 | 42 / 42 |
 | **Paldea** | 31 | 508 | 4–5 | 36 / 36 |
 
-Les plages d'IV et les totaux d'EV sont indiqués par Pokémon. Les objets tenus indiquent combien de Pokémon en possèdent sur l'ensemble des équipes de la région.
+La plage d'IV correspond aux valeurs observées dans les équipes de chaque région ; les EV indiqués sont le total par Pokémon. La dernière colonne compte les Pokémon qui portent un objet tenu dans l'ensemble des équipes de la région.
 
 {% hint style="info" %}
-🧬 Chaque Pokémon des équipes actuelles a une **nature** et une **capacité** configurées. Kanto conserve ses effectifs d'origine ; toutes les régions suivantes alignent désormais des équipes de **4 à 5 Pokémon par Champion**.
+🧬 Chaque Pokémon des équipes actuelles a une **nature** et un **talent** configurés. Kanto conserve ses effectifs d'origine ; toutes les régions suivantes alignent désormais des équipes de **4 à 5 Pokémon par Champion**.
 {% endhint %}
 
 {% hint style="warning" %}
-⚠️ Dès Unys, chaque Pokémon des Champions atteint **31 IV** et **508 EV au total**. Ces valeurs restent à leur maximum jusqu'à Galar et Paldea. Le défi de fin de parcours s'appuie alors sur des équipes mieux construites et davantage d'objets tenus : tous les Pokémon de Galar et de Paldea en possèdent un.
+⚠️ Dès Unys, chaque Pokémon des Champions atteint **31 IV** et **508 EV au total**. Ces valeurs restent à leur maximum jusqu'à Galar et Paldea. Le défi de fin de parcours s'appuie alors sur des sets aboutis et le soutien des objets tenus : chaque Pokémon de Galar et de Paldea en possède un.
 {% endhint %}
+
+---
 
 ## 🏅 Badges & PokeBadges
 
@@ -366,8 +368,8 @@ Le **Conseil 4** et le **Maître de la Ligue** ne sont **pas encore intégrés**
 
 - 🧠 Préparez plusieurs Pokémon plutôt que de dépendre d'un seul Pokémon surentraîné.
 - 🎯 Construisez votre équipe en fonction du type et de la composition du prochain Champion.
-- 🎒 Les objets tenus deviennent particulièrement fréquents à partir de Sinnoh et équipent tous les Pokémon des équipes de Galar et Paldea.
-- 🧬 Les Pokémon des Champions atteignent 31 IV dès Unys et conservent ce maximum jusqu'à Paldea ; les EV, les natures et les capacités comptent aussi.
+- 🎒 Les objets tenus deviennent particulièrement fréquents à partir de Sinnoh et équipent tous les Pokémon des équipes de Galar et de Paldea.
+- 🧬 Les Pokémon des Champions atteignent 31 IV dès Unys et conservent ce maximum jusqu'à Paldea ; les EV, les natures et les talents comptent aussi.
 - 🏅 Consultez votre Badge Box et vos Avancements si vous ne savez plus où vous en êtes.
 - 🏆 Retournez au Hall de la Ligue lorsque vous voulez accéder simplement à votre prochain combat d'Arène.
 
