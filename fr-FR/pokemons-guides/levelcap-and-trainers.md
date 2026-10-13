@@ -40,7 +40,7 @@ Les deux méthodes vous envoient vers le même prochain Champion auquel vous êt
 {% step %}
 ### ⚔️ Battez le Champion d'Arène
 
-Chaque Champion utilise une équipe prédéfinie avec un niveau de combat et des movesets fixes. Les IV, les EV, la nature et la capacité de chaque Pokémon sont configurés ; les objets tenus et les objets de combat varient selon l'équipe.
+Chaque Champion utilise une équipe prédéfinie avec un niveau de combat et des movesets fixes. Les IV, les EV, la nature et le talent de chaque Pokémon sont configurés ; les objets tenus et les objets de combat varient selon l'équipe.
 
 Le Gym World Tour actuel utilise des **combats simples**.
 {% endstep %}
