@@ -257,7 +257,7 @@ The current progression contains **66 Gym Leaders** across **8 regions**.
 
 ## ⚔️ Difficulty Increases With Every Region
 
-The v6.2.1 trainer data scales the challenge through stronger builds and deeper teams—not levels alone. The Level Cap still ends at 100, while Gym Pokémon reach 31 IVs by Unova and keep that maximum through Paldea.
+The v6.2.1 trainer data makes the challenge about more than levels: builds get stronger and teams get deeper. The Level Cap remains 100, while Gym Pokémon reach 31 IVs by Unova and keep that maximum through Paldea.
 
 | 🌍 Region | 🧬 IV range | ⚡ Total EVs per Pokémon | 👥 Team size | 🎒 Pokémon holding an item |
 | --- | --- | --- | :---: | :---: |
@@ -270,15 +270,17 @@ The v6.2.1 trainer data scales the challenge through stronger builds and deeper 
 | **Galar** | 31 | 508 | 4–5 | 42 / 42 |
 | **Paldea** | 31 | 508 | 4–5 | 36 / 36 |
 
-IV and EV values are listed per Pokémon. Held-item figures show how many Pokémon carry an item across all Gym teams in that region.
+IV ranges show the stat values found across each region's teams; EV figures are totals per Pokémon. Held-item figures count how many Pokémon carry an item across all Gym teams in that region.
 
 {% hint style="info" %}
 🧬 Every Pokémon in the current trainer data has a configured **nature** and **ability**. Kanto keeps its original team sizes; every later region now fields **4–5 Pokémon per Gym Leader**.
 {% endhint %}
 
 {% hint style="warning" %}
-⚠️ By Unova, every Gym Pokémon has reached **31 IVs** and **508 total EVs**. Those stats stay at their maximum through Galar and Paldea. Late-tour battles keep the pressure on with increasingly complete held-item coverage—every Pokémon carries an item in both Galar and Paldea.
+⚠️ By Unova, every Gym Pokémon has reached **31 IVs** and **508 total EVs**. Those stats stay at their maximum through Galar and Paldea. Late-tour battles rely on fully built Pokémon and held-item support: every team Pokémon carries an item in both Galar and Paldea.
 {% endhint %}
+
+---
 
 ## 🏅 Badges & PokeBadges
 
