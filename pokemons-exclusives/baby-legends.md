@@ -410,6 +410,102 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 ---
 
+### 🌱 Vertrice
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Forests |
+| 🔁 Evolution | Virizion |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_plante.png) |
+| 🧬 Ability | Defiant |
+| 📊 Stats | Balanced Stats |
+
+💡 Vertrice evolves at **level 50**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice_shiny.png" width="100">
+
+---
+
+### 🔥 Volcaroar
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Sandy biomes |
+| 🔁 Evolution | Entei |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_feu.png) |
+| 🧬 Ability | Flash Fire |
+| 📊 Stats | Balanced Stats |
+
+💡 Volcaroar evolves at **level 40** with a **Thunder**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png" width="100">
+
+---
+
+### ⚡ Fulguroar
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Savannas |
+| 🔁 Evolution | Raikou |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_electrique.png) |
+| 🧬 Ability | Static |
+| 📊 Stats | Balanced Stats |
+
+💡 Fulguroar evolves at **level 40** with a **Thunder**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png" width="100">
+
+---
+
+### 💧 Foreroar
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Plains and Hills biomes |
+| 🔁 Evolution | Suicune |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_eau.png) |
+| 🧬 Ability | Cloud Nine |
+| 📊 Stats | Balanced Stats |
+
+💡 Foreroar evolves at **level 40** with a **Thunder**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png" width="100">
+
+---
+
+### 🧠 Myu
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Forests |
+| 🔁 Evolution | Mew |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
+| 🧬 Ability | Trace |
+| 📊 Stats | Balanced Stats |
+
+💡 Myu evolves with **high friendship**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png" width="100">
+
+---
+
+### 🌀 Myutu
+
+| 📌 Information | 📋 Details |
+| --- | --- |
+| 🌍 Spawn | Forests |
+| 🔁 Evolution | Mewtwo |
+| ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
+| 🧬 Ability | Run Away |
+| 📊 Stats | Balanced Stats |
+
+💡 Myutu evolves at **level 50**
+
+ <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100"> 
+ 
+---
+
 {% hint style="info" %}
 ## 📝 Gameplay Notes
 
