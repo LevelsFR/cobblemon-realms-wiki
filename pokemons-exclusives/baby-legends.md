@@ -494,13 +494,13 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 | 📌 Information | 📋 Details |
 | --- | --- |
-| 🌍 Spawn | Forests |
+| 🌍 Spawn | Forests (Ultra rarely) |
 | 🔁 Evolution | Mewtwo |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
 | 🧬 Ability | Run Away |
 | 📊 Stats | Balanced Stats |
 
-💡 Myutu evolves at **level 50**
+💡 Myutu evolves at **level 60**
 
  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100"> 
  
