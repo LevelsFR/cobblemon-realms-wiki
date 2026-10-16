@@ -401,10 +401,106 @@
 | 🧬 Talent       | Adaptabilité                                                                                                            |
 | 📊 Stats        | Statistiques équilibrées                                                                                                |
 
-💡 Beta évolue par **au niveau 80** avec l'objet **Étoile du Nether**
+💡 Beta évolue **au niveau 80** avec l'objet **Étoile du Nether**
 
 ![Beta](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Beta.png) ![Beta Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Beta_shiny.png)
 
+***
+
+### 🌱 Vertrice
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Forêts                                                                                                                  |
+| 🔁 Évolution    | Viridium                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_plante.png) |
+| 🧬 Talent       | Acharné                                                                                                             |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Vertrice évolue **au niveau 50** 
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png" width="100">
+
+***
+
+### 🔥 Volcaroar
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Biomes Sableux                                                                                                          |
+| 🔁 Évolution    | Entei                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_feu.png) |
+| 🧬 Talent       | Torche                                                                                                            |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Volcaroar évolue **au niveau 40 pendnat** un orage 
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png" width="100">
+
+***
+
+### ⚡ Fulguroar
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Savannes                                                                                                                  |
+| 🔁 Évolution    | Raikou                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_electrique.png) |
+| 🧬 Talent       | Statik                                                                                                            |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Fulguroar évolue **au niveau 40 pendant** un orage
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png" width="100">
+
+***
+
+### 💧 Foreroar
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Plaines et Collines                                                                                                                  |
+| 🔁 Évolution    | Suicune                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_eau.png) |
+| 🧬 Talent       | Ciel Gris                                                                                                            |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Foreroar évolue **au niveau 40 pendant** un orage
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png" width="100">
+
+***
+
+### 🧠 Myu
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Jungles                                                                                                                  |
+| 🔁 Évolution    | Mew                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
+| 🧬 Talent       | Calque                                                                                                            |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Myu évolue avec l’**amitié**
+
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png" width="100">
+
+***
+
+### 🌀 Myutu
+
+| 📌 Informations | 📋 Détails                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 🌍 Spawn        | Jungles (Ultra Rare)                                                                                                                  |
+| 🔁 Évolution    | Mewtwo                                                                                                                |
+| ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
+| 🧬 Talent       | Fuite                                                                                                            |
+| 📊 Stats        | Statistiques équilibrées                                                                                                |
+
+💡 Myutu évolue **au niveau 50** 
+
+ <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100"> 
+ 
 ***
 
 {% hint style="info" %}
