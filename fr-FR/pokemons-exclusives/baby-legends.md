@@ -491,13 +491,13 @@
 
 | 📌 Informations | 📋 Détails                                                                                                              |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 🌍 Spawn        | Jungles (Ultra Rare)                                                                                                                  |
-| 🔁 Évolution    | Mewtwo                                                                                                                |
+| 🌍 Spawn        | Jungles (Ultra Rare) |
+| 🔁 Évolution    | Mewtwo |
 | ⚔️ Type         | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
 | 🧬 Talent       | Fuite                                                                                                            |
 | 📊 Stats        | Statistiques équilibrées                                                                                                |
 
-💡 Myutu évolue **au niveau 50** 
+💡 Myutu évolue **au niveau 60** 
 
  <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100"> 
  
