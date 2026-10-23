@@ -413,7 +413,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 ### 🌱 Vertrice
 
 | 📌 Information | 📋 Details |
-| --- | --- |
+|---|---|
 | 🌍 Spawn | Forests |
 | 🔁 Evolution | Virizion |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_plante.png) |
@@ -422,63 +422,63 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Vertrice evolves at **level 50**
 
-<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice_shiny.png" width="100">
+![Vertrice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice.png) ![Vertrice Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice_shiny.png)
 
 ---
 
 ### 🔥 Volcaroar
 
 | 📌 Information | 📋 Details |
-| --- | --- |
+|---|---|
 | 🌍 Spawn | Sandy biomes |
 | 🔁 Evolution | Entei |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_feu.png) |
 | 🧬 Ability | Flash Fire |
 | 📊 Stats | Balanced Stats |
 
-💡 Volcaroar evolves at **level 40** with a **Thunder**
+💡 Volcaroar evolves at **level 40** during a **thunderstorm**
 
-<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png" width="100">
+![Volcaroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png) ![Volcaroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png)
 
 ---
 
 ### ⚡ Fulguroar
 
 | 📌 Information | 📋 Details |
-| --- | --- |
+|---|---|
 | 🌍 Spawn | Savannas |
 | 🔁 Evolution | Raikou |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_electrique.png) |
 | 🧬 Ability | Static |
 | 📊 Stats | Balanced Stats |
 
-💡 Fulguroar evolves at **level 40** with a **Thunder**
+💡 Fulguroar evolves at **level 40** during a **thunderstorm**
 
-<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png" width="100">
+![Fulguroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png) ![Fulguroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png)
 
 ---
 
 ### 💧 Foreroar
 
 | 📌 Information | 📋 Details |
-| --- | --- |
+|---|---|
 | 🌍 Spawn | Plains and Hills biomes |
 | 🔁 Evolution | Suicune |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_eau.png) |
 | 🧬 Ability | Cloud Nine |
 | 📊 Stats | Balanced Stats |
 
-💡 Foreroar evolves at **level 40** with a **Thunder**
+💡 Foreroar evolves at **level 40** during a **thunderstorm**
 
-<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png" width="100">
+![Foreroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png) ![Foreroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png)
 
 ---
 
 ### 🧠 Myu
 
 | 📌 Information | 📋 Details |
-| --- | --- |
-| 🌍 Spawn | Forests |
+|---|---|
+| 🌍 Spawn | Jungles |
 | 🔁 Evolution | Mew |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
 | 🧬 Ability | Trace |
@@ -486,15 +486,15 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Myu evolves with **high friendship**
 
-<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png" width="100">
+![Myu](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png) ![Myu Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png)
 
 ---
 
 ### 🌀 Myutu
 
 | 📌 Information | 📋 Details |
-| --- | --- |
-| 🌍 Spawn | Forests (Ultra rarely) |
+|---|---|
+| 🌍 Spawn | Jungles (ultra-rare) |
 | 🔁 Evolution | Mewtwo |
 | ⚔️ Type | ![](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Types/type_psy.png) |
 | 🧬 Ability | Run Away |
@@ -502,8 +502,8 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Myutu evolves at **level 60**
 
- <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100"> 
- 
+![Myutu](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png) ![Myutu Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png)
+
 ---
 
 {% hint style="info" %}
