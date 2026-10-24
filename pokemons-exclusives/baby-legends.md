@@ -422,7 +422,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Vertrice evolves at **level 50**
 
-![Vertrice](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice.png) ![Vertrice Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/vertrice_shiny.png" width="100">
 
 ---
 
@@ -438,7 +438,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Volcaroar evolves at **level 40** during a **thunderstorm**
 
-![Volcaroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png) ![Volcaroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/volcaroar_shiny.png" width="100">
 
 ---
 
@@ -454,7 +454,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Fulguroar evolves at **level 40** during a **thunderstorm**
 
-![Fulguroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png) ![Fulguroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/fulguroar_shiny.png" width="100">
 
 ---
 
@@ -470,7 +470,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Foreroar evolves at **level 40** during a **thunderstorm**
 
-![Foreroar](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png) ![Foreroar Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/foreroar_shiny.png" width="100">
 
 ---
 
@@ -486,7 +486,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Myu evolves with **high friendship**
 
-![Myu](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png) ![Myu Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myu_shiny.png" width="100">
 
 ---
 
@@ -502,7 +502,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 
 💡 Myutu evolves at **level 60**
 
-![Myutu](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png) ![Myutu Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png)
+<img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu.png" width="100"> <img src="https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/myutu_shiny.png" width="100">
 
 ---
 
