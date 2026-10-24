@@ -21,13 +21,13 @@ function escapeHtml(value = '') {
 
 function decodeEntities(value = '') {
   return String(value)
+    .replace(/&amp;/gi, '&')
     .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
     .replace(/&#(\d+);/g, (_, decimal) => String.fromCodePoint(parseInt(decimal, 10)))
     .replace(/&quot;/g, '"')
     .replace(/&#039;|&apos;/g, "'")
     .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&amp;/g, '&');
+    .replace(/&gt;/g, '>');
 }
 
 function stripTags(value = '') {
