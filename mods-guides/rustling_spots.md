@@ -15,7 +15,7 @@ While you explore, temporary **Rustling Spots** can appear in nearby terrain. Th
 1. **Explore** an area with a compatible surface.
 2. **Look for movement and particles** marking a temporary spot. In v5.1+, a quiet terrain-themed sound plays once when you get close to a newly spawned spot.
 3. **Walk up to the spot.** The event triggers **automatically when you are close enough**. No right-click or special item is required.
-4. **Collect your reward** or meet the Pokémon that appears. The spot then disappears.
+4. **Collect your reward** or meet the Pokémon that appears. A family-themed particle burst marks the activation in v5.1, then the spot disappears.
 
 {% hint style="success" %}
 No new structures, blocks or terrain generation are required. Rustling Spots can be added to an existing world without regenerating its chunks.
