@@ -36,6 +36,22 @@ Dans CobbleSafari, il existe **deux façons** de trouver un Motisma dans la natu
 - ⚡ **Le biome Électrik de la Dimension Safari :** Motisma y apparaît très rarement.
 - 📱 **Les téléphones vides peuvent naturellement attirer Motisma :** placez un téléphone vide au sol et il existe une petite chance qu'un Motisma apparaisse à proximité. Cette méthode fonctionne également en dehors de la Dimension Safari, ce qui en fait l'option la plus simple si vous ne l'avez pas encore débloquée.
 
+
+#### ⚡ Apparitions supplémentaires de Motisma dans Cobblemon Realms
+
+Le datapack **Biome Expanded Spawns v6.2.4** permet également de rencontrer **Motisma à l'état sauvage (niveaux 20 à 75)** :
+
+- 🔴 **Près de la Redstone ou de machines (Rare) :** Motisma peut apparaître dans les biomes compatibles de l'Overworld près d'un **bloc de Redstone, d'une torche de Redstone, d'un répéteur, d'un comparateur, d'un minerai de Redstone, d'une lampe de Redstone, d'un capteur de lumière ou d'un paratonnerre**. Les **PC, moniteurs, machines de soin, cuves de restauration et analyseurs de fossiles Cobblemon** sont également pris en compte.
+- 🏚️ **Manoirs (Uncommon) :** Explorez l'intérieur des manoirs, sur des sols et blocs de construction compatibles.
+- 🏙️ **Cités antiques (Uncommon) :** Cherchez près des **composants de Redstone**, à l'intérieur de la structure.
+- ⛈️ **Plages (Ultra-rare) :** Motisma peut apparaître naturellement sur un terrain adapté. **Les orages multiplient son poids d'apparition par 5**, sans garantir sa présence.
+
+{% hint style="info" %}
+💡 **Conseil d'exploration :** Essayez de chercher près d'un **PC Cobblemon ou d'une petite installation de Redstone**, avec suffisamment de terrain compatible pour les apparitions. Vous n'êtes pas obligé de vous limiter à la Dimension Safari ou à l'attraction par téléphone vide.
+
+Le datapack prend également en charge les biomes compatibles de **Paradise Lost**. Les apparitions restent soumises à leurs conditions habituelles.
+{% endhint %}
+
 ### 3️⃣ Étape 3 - Faire entrer Motisma
 
 <p align="center">
