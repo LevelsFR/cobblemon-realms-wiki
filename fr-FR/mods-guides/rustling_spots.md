@@ -15,7 +15,7 @@ Pendant vos explorations, des **spots temporaires** apparaissent sur certains te
 1. **Explorez** une zone présentant une surface compatible.
 2. **Repérez les mouvements et particules** qui signalent un spot. Depuis la v5.1, un discret son lié au terrain est joué une fois lorsque vous approchez d'un nouveau spot.
 3. **Approchez-vous du spot.** L'événement se déclenche **automatiquement à courte distance**. Aucun clic droit ni objet spécial n'est nécessaire.
-4. **Récupérez votre récompense** ou rencontrez le Pokémon apparu. Le spot disparaît ensuite.
+4. **Récupérez votre récompense** ou rencontrez le Pokémon apparu. Une explosion de particules propre à la famille marque l'activation en v5.1, puis le spot disparaît.
 
 {% hint style="success" %}
 Le mod n'ajoute ni structures ni génération de terrain. Il peut être installé dans un monde existant sans régénérer les chunks.
@@ -159,7 +159,7 @@ Ces multiplicateurs contrôlent l'apparition des familles de spots, **pas** la p
 | `rustlingspots-sound.json` | Volume des sons d'apparition Pokémon et de butin |
 | `pokemon/families/*.json` | Pools avancés de Pokémon |
 
-**Migration v5.1 :** lors du premier chargement, une ancienne valeur shiny Pokémon de exactement `0.05` (5 %) devient `0.01` (1 %), avec mémorisation de la version de configuration. Les autres valeurs numériques sont conservées. Si vous aviez volontairement choisi **exactement 5 %**, le mod ne peut pas la distinguer de l'ancien réglage par défaut : vérifiez votre configuration et réappliquez cette valeur si nécessaire.
+**Migration v5.1 :** lors du premier chargement, une ancienne valeur shiny Pokémon égale à `0.05` (5 %) devient `0.01` (1 %), avec mémorisation de la version de configuration. Les autres valeurs numériques sont conservées. Si vous aviez volontairement choisi **exactement 5 %**, le mod ne peut pas la distinguer de l'ancien réglage par défaut : vérifiez votre configuration et réappliquez cette valeur si nécessaire.
 
 Le nouveau son de proximité est joué une seule fois pour chaque spot nouvellement reçu, à un volume fixe en v5.1. Les réglages de volume ci-dessus concernent les **sons de rencontre Pokémon et de butin**, et non ce signal sonore d'approche.
 
