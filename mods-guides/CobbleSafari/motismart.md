@@ -36,6 +36,22 @@ In CobbleSafari, there are **two ways** to find a Rotom in the wild:
 - ⚡ **The Electric-type biome of the Safari Dimension:** Rotom appears there very rarely.
 - 📱 **Empty phones can naturally attract Rotom:** place an empty phone on the ground and there is a small chance that a Rotom will appear nearby. This method also works outside the Safari Dimension, making it the easiest option if you have not unlocked it yet.
 
+
+#### ⚡ Additional Rotom Spawns in Cobblemon Realms
+
+The **Biome Expanded Spawns v6.2.4** datapack adds more ways to encounter wild **Rotom (level 20–75)**:
+
+- 🔴 **Near Redstone or machines (Rare):** Rotom can spawn in supported Overworld biomes near a **Redstone Block, Redstone Torch, Repeater, Comparator, Redstone Ore, Redstone Lamp, Daylight Detector, or Lightning Rod**. **Cobblemon PCs, Monitors, Healing Machines, Restoration Tanks, and Fossil Analyzers** also count.
+- 🏚️ **Woodland Mansions (Uncommon):** Look inside mansions, around suitable floors and building blocks.
+- 🏙️ **Ancient Cities (Uncommon):** Search near **Redstone components** inside the structure.
+- ⛈️ **Beaches (Ultra-rare):** Rotom can appear naturally on suitable terrain. **Thunderstorms multiply its spawn weight by 5**, but do not guarantee an encounter.
+
+{% hint style="info" %}
+💡 **Exploration tip:** Try searching near a **Cobblemon PC or a small Redstone setup** with valid ground space for Pokémon to spawn. You do not have to rely exclusively on the Safari Dimension or the empty-phone attraction method.
+
+The datapack also includes compatible **Paradise Lost** biomes. All encounters remain subject to their normal spawning conditions.
+{% endhint %}
+
 ### 3️⃣ Step 3 - Getting Rotom Inside
 
 <p align="center">
