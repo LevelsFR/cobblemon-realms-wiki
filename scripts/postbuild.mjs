@@ -140,12 +140,26 @@ function stripHtml(value = '') {
 }
 
 function decodeEntities(value = '') {
-  return value
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'");
+  const named = {
+    lt: '<', gt: '>', quot: '"', apos: "'", nbsp: '\u00a0',
+    lsquo: '\u2018', rsquo: '\u2019', ldquo: '\u201c', rdquo: '\u201d',
+    ndash: '\u2013', mdash: '\u2014', hellip: '\u2026'
+  };
+
+  return String(value)
+    // Decode ampersands first to handle doubly encoded sequences like &amp;#39;.
+    .replace(/&amp;/gi, '&')
+    .replace(/&#(x[0-9a-f]+|[0-9]+);/gi, (entity, number) => {
+      const codePoint = number[0].toLowerCase() === 'x'
+        ? Number.parseInt(number.slice(1), 16)
+        : Number.parseInt(number, 10);
+      return codePoint > 0 && codePoint <= 0x10ffff
+        && !(codePoint >= 0xd800 && codePoint <= 0xdfff)
+        ? String.fromCodePoint(codePoint)
+        : entity;
+    })
+    .replace(/&(lt|gt|quot|apos|nbsp|lsquo|rsquo|ldquo|rdquo|ndash|mdash|hellip);/gi,
+      (entity, name) => named[name.toLowerCase()]);
 }
 
 function extractTitle(html, fallback) {
