@@ -21,11 +21,9 @@ If you experience freezes, rollbacks, memory slowdowns, or performance issues wh
 
 # ⚙️ Recommended JVM Arguments
 
-Copy the following arguments into your additional Java settings:
+Copy the following JVM tuning arguments into your additional Java settings. Set the RAM allocation separately using the CurseForge slider:
 
 ```
--Xms10G
--Xmx10G
 -XX:+UseG1GC
 -XX:MaxGCPauseMillis=100
 -XX:InitiatingHeapOccupancyPercent=30
@@ -43,13 +41,13 @@ Copy the following arguments into your additional Java settings:
 3. Go to `Game Specific → Minecraft`.
 4. Scroll down to `Java Settings`.
 5. Disable `Use System Memory Settings`.
-6. Allocate between `8 and 10 GB of RAM`.
-7. Paste the JVM arguments above into `Additional Java Arguments`.
+6. Start with `8 GB (8192 MB)` of RAM. You can use up to `10 GB (10240 MB)` if needed and your PC has enough available memory.
+7. Paste the JVM arguments above into `Additional Java Arguments`. Remove any existing `-Xms` and `-Xmx` entries so they do not conflict with the memory slider.
 8. Save and restart the modpack.
 
 {% hint style="warning" %}
 <p align="center">
-CurseForge automatically adds some Java arguments. However, the last defined values for <code>-Xms</code> and <code>-Xmx</code> will take priority.
+CurseForge manages Minecraft's Java memory allocation through its RAM slider. Do not manually set <code>-Xms</code> or <code>-Xmx</code> in Additional Java Arguments, as they may override or conflict with that setting. Also check for per-profile memory overrides.
 </p>
 {% endhint %}
 
@@ -71,6 +69,7 @@ CurseForge automatically adds some Java arguments. However, the last defined val
 - ❌ Avoid running heavy background applications
 - 🎮 Limit highly demanding shaders
 - 📦 Keep your graphics drivers up to date
+- 🖥️ Java RAM allocation and graphics card memory (VRAM) are separate. Increasing Java RAM will not resolve a GPU memory allocation error.
 - 🗺️ Use Chunky to pre-generate chunks in your worlds
 {% endhint %}
 
