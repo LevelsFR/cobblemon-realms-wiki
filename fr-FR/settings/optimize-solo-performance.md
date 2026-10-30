@@ -19,11 +19,9 @@
 
 ## ⚙️ Arguments JVM recommandés
 
-Copiez les arguments suivants dans les paramètres Java supplémentaires :
+Copiez les arguments JVM suivants dans les paramètres Java supplémentaires. Réglez séparément la mémoire allouée à Minecraft avec le curseur CurseForge :
 
 ```
--Xms10G
--Xmx10G
 -XX:+UseG1GC
 -XX:MaxGCPauseMillis=100
 -XX:InitiatingHeapOccupancyPercent=30
@@ -41,12 +39,12 @@ Copiez les arguments suivants dans les paramètres Java supplémentaires :
 3. Rendez-vous dans `Game Specific → Minecraft`.
 4. Descendez jusqu'à `Java Settings`.
 5. Désactivez `Use System Memory Settings`.
-6. Allouez entre `8 et 10 Go de RAM`.
-7. Collez les arguments JVM ci-dessus dans `Additional Java Arguments`.
+6. Commencez avec `8 Go (8192 Mo)` de RAM. Vous pouvez monter jusqu'à `10 Go (10240 Mo)` si nécessaire et si votre PC dispose de suffisamment de mémoire disponible.
+7. Collez les arguments JVM ci-dessus dans `Additional Java Arguments`. Supprimez toute entrée `-Xms` ou `-Xmx` existante afin d'éviter un conflit avec le curseur de mémoire.
 8. Sauvegardez puis redémarrez le modpack.
 
 {% hint style="warning" %}
-<p align="center">CurseForge ajoute automatiquement certains arguments Java. Les dernières valeurs définies pour <code>-Xms</code> et <code>-Xmx</code> restent toutefois prioritaires.</p>
+<p align="center">CurseForge gère la mémoire Java de Minecraft à l'aide de son curseur RAM. Ne définissez pas manuellement <code>-Xms</code> ou <code>-Xmx</code> dans les arguments Java supplémentaires : ces valeurs peuvent remplacer le réglage du curseur ou entrer en conflit avec lui. Vérifiez aussi les éventuels réglages propres au profil.</p>
 {% endhint %}
 
 ***
@@ -67,6 +65,7 @@ Copiez les arguments suivants dans les paramètres Java supplémentaires :
 * ❌ Évitez les applications gourmandes en arrière-plan
 * 🎮 Limitez les shaders très exigeants
 * 📦 Maintenez vos pilotes graphiques à jour
+* 🖥️ La RAM allouée à Java et la mémoire de la carte graphique (VRAM) sont distinctes. Augmenter la RAM Java ne corrige pas une erreur d'allocation de mémoire GPU.
 * 🗺️ Utilisez Chunky pour pré-générer les chunks de vos mondes
 {% endhint %}
 
