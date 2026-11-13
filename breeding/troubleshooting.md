@@ -24,7 +24,7 @@ Check all of the following:
 2. The parents share an **Egg Group**, have compatible genders, or form a valid **Ditto** pairing.
 3. Neither parent belongs to the **Undiscovered** Egg Group.
 4. The Pasture nesting inventory still has room for eggs.
-5. Enough time has passed under the server's configured breeding interval.
+5. Enough time has passed under the server's configured breeding interval. The supplied configuration uses **8,000 to 14,000 ticks** for the breeding interval, but the public server's live values are not independently confirmed.
 
 ### 🩹 My Pastured Pokémon Are Fainting
 
@@ -100,6 +100,7 @@ This command creates Pokémon Eggs using arguments comparable to Cobblemon's Pok
 - [🏡 Pastures & Eggs](pastures-and-eggs.md): placement, compatibility and egg collection.
 - [🧬 Inheritance & Shiny Hunting](inheritance-and-shinies.md): traits, items and Shiny methods.
 - [🔥 CobbleSafari Egg Incubators](../mods-guides/CobbleSafari/wild_eggs_incubators.md): an alternate way to incubate Cobbreeding eggs.
+- [⚙️ Settings & Server Rules](configuration.md): actual settings found in the supplied Cobblemon Realms archive.
 
 ---
 
