@@ -56,6 +56,8 @@ Après un certain délai, récupérez les œufs **sous le bloc de pâturage**. G
 
 ## 📚 Guides d'élevage
 
+Ces pages se consultent directement sur notre wiki. Les captures tirées du guide d'origine sont intégrées au tutoriel sur les pâturages.
+
 | Guide | Ce que vous apprendrez |
 | --- | --- |
 | [🏡 Pâturages et œufs](pastures-and-eggs.md) | Installation, activation, parents compatibles, collecte et éclosion |
@@ -72,7 +74,7 @@ Après un certain délai, récupérez les œufs **sous le bloc de pâturage**. G
 
 ## 📖 Sources
 
-Cette rubrique adapte le [guide officiel de Cobbreeding](https://docs.google.com/document/d/1Hk5Iqnzm2NqkXGwzUIvPVFKhAwVHSEM3hyP3Qdhl5g4/edit) rédigé par **Ludichat** et la [page officielle du mod](https://modrinth.com/mod/cobbreeding). Elle est conçue pour les joueurs de Cobblemon Realms et ne remplace pas la documentation technique du mod.
+Cette rubrique adapte le [guide officiel de Cobbreeding](https://docs.google.com/document/d/1Hk5Iqnzm2NqkXGwzUIvPVFKhAwVHSEM3hyP3Qdhl5g4/edit) rédigé par **Ludichat** et la [page officielle du mod](https://modrinth.com/mod/cobbreeding). Toutes les étapes essentielles, illustrations, règles de compatibilité et explications de configuration sont regroupées sur le wiki Cobblemon Realms : les joueurs n'ont pas besoin de consulter le document du développeur pour jouer.
 
 {% hint style="success" %}
 ## 📥 Nous contacter
