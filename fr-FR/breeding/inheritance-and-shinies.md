@@ -20,7 +20,7 @@ Cobbreeding permet la transmission des **valeurs individuelles (IV)**, des **Nat
 | **Hérédité des Poké Balls** | Permet de transmettre des caractéristiques de la Poké Ball aux descendants |
 
 {% hint style="info" %}
-L'implémentation du mod ne reproduit pas forcément chaque détail de toutes les générations des jeux Pokémon. Pour les interactions précises des objets, consultez la [documentation officielle](https://modrinth.com/mod/cobbreeding).
+L'implémentation du mod ne reproduit pas forcément chaque détail de toutes les générations des jeux Pokémon. Retrouvez les paramètres du modpack dans [⚙️ Configuration et règles serveur](configuration.md).
 {% endhint %}
 
 ---
@@ -83,7 +83,7 @@ Si une capacité Œuf attendue n'est pas transmise, essayez de la placer parmi l
 Un Pokémon tenant une **Herbe Miroir (Mirror Herb)** dans le pâturage peut apprendre certaines capacités Œuf auprès d'un autre Pokémon présent.
 
 - Les Pokémon concernés n'ont **pas besoin d'appartenir au même groupe d'œufs** pour ce transfert.
-- La vérification est effectuée à chaque tentative de génération d'œuf du pâturage, même si elle échoue.
+- L'Herbe Miroir peut transmettre une capacité Œuf sans nécessiter la génération d'un œuf. Le fichier fourni possède un intervalle distinct `mirrorHerbTimeInTicks` réglé sur **600 ticks**, soit environ **30 secondes** à 20 TPS. Le serveur actuel peut différer.
 
 ---
 
@@ -97,7 +97,7 @@ Cobbreeding comprend plusieurs méthodes de bonus chromatique configurables. Voi
 | **Crystal** | Au moins un parent chromatique ; applicable deux fois si les deux le sont | **×1** |
 | **Always** | S'applique à tous les œufs | **×1** |
 
-Lorsqu'elles sont actives, ces méthodes peuvent **se cumuler de manière multiplicative**. Le taux chromatique de base dépend des paramètres de Cobblemon.
+Lorsqu'elles sont actives, ces méthodes peuvent **se cumuler de manière multiplicative**. Le taux chromatique de base dépend des paramètres de Cobblemon. Consultez les [réglages observés dans l'archive Cobblemon Realms](configuration.md) pour connaître les multiplicateurs qui y figurent.
 
 {% hint style="warning" %}
 **Ces valeurs ne sont pas des taux vérifiés pour le serveur public.** Les multiplicateurs `shinyMethod`, les chances chromatiques de base et les options actives peuvent varier entre les instances de Cobblemon Realms. Dans Cobbreeding, la condition **Masuda** documentée compare les **dresseurs d'origine**, et non la langue des jeux.
