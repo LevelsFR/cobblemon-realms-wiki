@@ -43,6 +43,15 @@ Toutes les apparences et formes spéciales ne sont pas automatiquement transmiss
 
 ---
 
+## 🐺 Pokémon Alpha (Cobbreeding 2.4.x)
+
+**Cobbreeding 2.4.0** a ajouté une **probabilité configurable d'obtenir un Pokémon Alpha à l'éclosion** ainsi qu'une option permettant **l'hérédité du statut Alpha**. Leur disponibilité dépend de la version de Cobbreeding et des réglages du serveur.
+
+{% hint style="warning" %}
+L'obtention d'un œuf Alpha ou la transmission de ce statut n'est **pas garantie automatiquement** dans Cobblemon Realms. La configuration active du serveur n'a pas été vérifiée indépendamment.
+{% endhint %}
+
+
 ## ✨ Talents et talents cachés
 
 L'auteur présente les probabilités suivantes pour conserver l'emplacement du talent de la mère :
