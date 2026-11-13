@@ -26,6 +26,13 @@
 * [🦴 Les fossiles](pokemons-guides/fossils.md)
 * [🗺️ Référence des tags de biome](pokemons-guides/biome-tags-reference.md)
 
+## Cobbreeding
+
+* [🥚 Élevage Pokémon](breeding/README.md)
+  * [🏡 Pâturages et œufs](breeding/pastures-and-eggs.md)
+  * [🧬 Hérédité et Pokémon chromatiques](breeding/inheritance-and-shinies.md)
+  * [🛠️ FAQ et dépannage](breeding/troubleshooting.md)
+
 ## Legendary Monuments
 
 * [🌟 Légendaire - Toutes les générations](pokemons-guides/legendary_monuments.md)
