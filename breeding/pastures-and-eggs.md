@@ -16,17 +16,29 @@ The <strong>Pasture Block</strong> is the heart of Cobbreeding. Use it to let Po
 
 Obtain a **Pasture Block** from Cobblemon. Place it on suitable terrain with enough free space **behind it**, since that is where selected Pokémon appear.
 
-Use the in-game recipe viewer, when available, to find the current crafting recipe.
+Use the in-game recipe viewer, when available, to confirm the recipe for your installed modpack version.
+
+![Pasture Block crafting recipe, from the official Cobbreeding guide](../imgwiki/Cobbreeding/pasture-recipe.webp)
+
+*Pasture Block recipe illustrated in the original guide.*
 {% endstep %}
 {% step %}
 ### 2. Open the Interface
 
 Right-click the block. Select the Pokémon you want to place in your pasture from your Pokémon storage.
+
+![Pokémon selection in the Pasture interface](../imgwiki/Cobbreeding/pasture-selection.webp)
+
+*Select Pokémon in the Pasture interface. The screenshot uses the original mod UI.*
 {% endstep %}
 {% step %}
 ### 3. Activate Breeding
 
 Look for the **breeding toggle near the top-right corner** of the Pasture interface and turn it on. A newly placed pasture does **not** automatically breed Pokémon.
+
+![Breeding activated on the Pasture interface](../imgwiki/Cobbreeding/breeding-enabled.webp)
+
+*The activated breeding icon in the Pasture interface.*
 
 {% hint style="warning" %}
 A server can limit how many Pasture Blocks each player may activate for breeding. If activation is refused, check your server's rules or configuration.
@@ -60,6 +72,10 @@ Place compatible Pokémon together and give them time. They can breed even when 
 
 When breeding succeeds, eggs appear in the **nesting inventory at the bottom of the Pasture Block**.
 
+![Egg visible inside the nesting area beneath the Pasture Block](../imgwiki/Cobbreeding/pasture-egg-collection.webp)
+
+*The nesting area is accessible underneath the Pasture Block.*
+
 - **Manual collection:** right-click the bottom of the block.
 - **Hopper collection:** can work when the server setting `allowHoppersToPullFromPastureBlock` allows it.
 - **Limited storage:** a pasture can hold only its configured number of eggs. Collect them regularly so the nesting inventory does not stay full.
@@ -75,6 +91,10 @@ The author notes that some egg collection statistics may require **manual collec
 Keep the collected egg in your **player inventory** while its hatching timer progresses. Time does not progress normally while it is stored outside a player's inventory, such as in a chest.
 
 The exact hatching duration depends on the Pokémon and active settings. Some Pokémon Abilities can reduce this time.
+
+![An egg in the inventory showing the species and timer](../imgwiki/Cobbreeding/egg-item-tooltip.webp)
+
+*An egg item tooltip from the mod author's guide. The timer may differ for your Pokémon.*
 
 ### 🔥 Another Option: Egg Incubators
 
