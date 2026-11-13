@@ -43,6 +43,15 @@ Not every appearance or special form is guaranteed to pass down. The `inheritedF
 
 ---
 
+## 🐺 Alpha Pokémon (Cobbreeding 2.4.x)
+
+**Cobbreeding 2.4.0** introduced a **configurable chance of hatching Alpha Pokémon**, along with an option for **Alpha status inheritance**. These mechanics depend on the installed Cobbreeding version and server settings.
+
+{% hint style="warning" %}
+An Alpha egg chance or Alpha inheritance is **not automatically guaranteed** in Cobblemon Realms. The active server configuration has not been independently verified.
+{% endhint %}
+
+
 ## ✨ Abilities & Hidden Abilities
 
 The author describes these Ability slot inheritance rules:
