@@ -51,6 +51,7 @@ Toutes les apparences et formes spéciales ne sont pas automatiquement transmiss
 L'obtention d'un œuf Alpha ou la transmission de ce statut n'est **pas garantie automatiquement** dans Cobblemon Realms. La configuration active du serveur n'a pas été vérifiée indépendamment.
 {% endhint %}
 
+---
 
 ## ✨ Talents et talents cachés
 
