@@ -32,6 +32,7 @@
   * [🏡 Pastures & Eggs](breeding/pastures-and-eggs.md)
   * [🧬 Inheritance & Shiny Hunting](breeding/inheritance-and-shinies.md)
   * [🛠️ FAQ & Troubleshooting](breeding/troubleshooting.md)
+  * [⚙️ Settings & Server Rules](breeding/configuration.md)
 
 ## Legendary Monuments
 
