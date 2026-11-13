@@ -60,7 +60,8 @@ Après un certain délai, récupérez les œufs **sous le bloc de pâturage**. G
 | --- | --- |
 | [🏡 Pâturages et œufs](pastures-and-eggs.md) | Installation, activation, parents compatibles, collecte et éclosion |
 | [🧬 Hérédité et Pokémon chromatiques](inheritance-and-shinies.md) | IV, Natures, formes, talents, capacités Œuf, Herbe Miroir et méthodes chromatiques |
-| [🛠️ FAQ et dépannage](troubleshooting.md) | Problèmes courants, chunks déchargés, minuteurs et réglages serveur |
+| [🛠️ FAQ et dépannage](troubleshooting.md) | Problèmes courants, chunks déchargés et minuteurs |
+| [⚙️ Configuration et règles serveur](configuration.md) | Paramètres du fichier fourni, délais, méthodes chromatiques et réglages techniques |
 
 ### 🔗 Autres guides de Cobblemon Realms
 
