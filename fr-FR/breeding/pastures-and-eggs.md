@@ -16,17 +16,29 @@ Le <strong>bloc de pâturage (Pasture Block)</strong> est au cœur de Cobbreedin
 
 Obtenez un **Pasture Block** de Cobblemon. Installez-le sur un terrain adapté avec assez d'espace libre **derrière le bloc**, là où les Pokémon sélectionnés apparaîtront.
 
-Consultez l'afficheur de recettes du jeu, s'il est disponible, pour trouver sa recette de fabrication actuelle.
+Consultez l'afficheur de recettes du jeu, s'il est disponible, pour confirmer la recette de la version installée du modpack.
+
+![Recette du Pasture Block issue du guide officiel](../../imgwiki/Cobbreeding/pasture-recipe.webp)
+
+*Recette du Pasture Block illustrée dans le guide d'origine.*
 {% endstep %}
 {% step %}
 ### 2. Ouvrez son interface
 
 Faites un clic droit sur le bloc et sélectionnez les Pokémon à placer dans le pâturage depuis votre stockage Pokémon.
+
+![Sélection des Pokémon dans l'interface du pâturage](../../imgwiki/Cobbreeding/pasture-selection.webp)
+
+*Sélection des Pokémon dans l'interface de pâturage du mod.*
 {% endstep %}
 {% step %}
 ### 3. Activez l'élevage
 
 Repérez le **bouton d'activation près du coin supérieur droit** de l'interface et activez-le. Un nouveau pâturage ne produit **pas** automatiquement des œufs.
+
+![Bouton d'élevage activé dans l'interface du pâturage](../../imgwiki/Cobbreeding/breeding-enabled.webp)
+
+*Icône de reproduction activée dans l'interface du pâturage.*
 
 {% hint style="warning" %}
 Un serveur peut limiter le nombre de blocs de pâturage actifs pour l'élevage par joueur. Si l'activation est refusée, vérifiez les règles ou la configuration du serveur.
@@ -60,6 +72,10 @@ Placez des Pokémon compatibles ensemble et laissez-leur du temps. Ils peuvent s
 
 Quand la reproduction réussit, les œufs apparaissent dans **l'inventaire de nidification situé sous le bloc de pâturage**.
 
+![Œuf présent dans la zone de nidification sous le Pasture Block](../../imgwiki/Cobbreeding/pasture-egg-collection.webp)
+
+*La partie inférieure du bloc donne accès aux œufs.*
+
 - **Collecte manuelle :** faites un clic droit sur la partie inférieure du bloc.
 - **Entonnoirs :** ils peuvent collecter les œufs si le paramètre serveur `allowHoppersToPullFromPastureBlock` l'autorise.
 - **Stockage limité :** un pâturage ne peut conserver qu'un nombre d'œufs défini par la configuration. Pensez à les récupérer régulièrement.
@@ -75,6 +91,10 @@ L'auteur indique que certaines statistiques de collecte des œufs peuvent néces
 Conservez l'œuf dans **l'inventaire de votre personnage** pour que son minuteur d'éclosion progresse. Le temps n'avance pas normalement si l'œuf se trouve dans un stockage extérieur, comme un coffre.
 
 La durée dépend de l'espèce et des paramètres actifs. Certains talents Pokémon peuvent la réduire.
+
+![Info-bulle d'un œuf indiquant le Pokémon et son minuteur](../../imgwiki/Cobbreeding/egg-item-tooltip.webp)
+
+*Exemple de l'info-bulle d'un œuf dans le guide officiel. La durée varie selon le Pokémon.*
 
 ### 🔥 Autre possibilité : les incubateurs
 
