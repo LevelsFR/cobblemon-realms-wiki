@@ -60,7 +60,8 @@ After the configured waiting time, collect eggs from the **bottom of the Pasture
 | --- | --- |
 | [🏡 Pastures & Eggs](pastures-and-eggs.md) | Placement, activation, compatible parents, collection and hatching |
 | [🧬 Inheritance & Shiny Hunting](inheritance-and-shinies.md) | IVs, Natures, forms, Abilities, Egg Moves, Mirror Herb and Shiny methods |
-| [🛠️ FAQ & Troubleshooting](troubleshooting.md) | Common issues, unloaded chunks, egg timers and server settings |
+| [🛠️ FAQ & Troubleshooting](troubleshooting.md) | Common issues, unloaded chunks and egg timers |
+| [⚙️ Settings & Server Rules](configuration.md) | The Cobblemon Realms configuration snapshot, timings, Shiny methods and technical settings |
 
 ### 🔗 Related Cobblemon Realms Guides
 
