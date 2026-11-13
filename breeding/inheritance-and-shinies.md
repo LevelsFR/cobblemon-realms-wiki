@@ -51,6 +51,7 @@ Not every appearance or special form is guaranteed to pass down. The `inheritedF
 An Alpha egg chance or Alpha inheritance is **not automatically guaranteed** in Cobblemon Realms. The active server configuration has not been independently verified.
 {% endhint %}
 
+---
 
 ## ✨ Abilities & Hidden Abilities
 
