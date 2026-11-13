@@ -32,6 +32,7 @@
   * [🏡 Pâturages et œufs](breeding/pastures-and-eggs.md)
   * [🧬 Hérédité et Pokémon chromatiques](breeding/inheritance-and-shinies.md)
   * [🛠️ FAQ et dépannage](breeding/troubleshooting.md)
+  * [⚙️ Configuration et règles serveur](breeding/configuration.md)
 
 ## Legendary Monuments
 
