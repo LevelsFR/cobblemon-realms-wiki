@@ -26,6 +26,13 @@
 * [🦴 Fossils](pokemons-guides/fossils.md)
 * [🗺️ Biome tag reference](pokemons-guides/biome-tags-reference.md)
 
+## Cobbreeding
+
+* [🥚 Pokémon Breeding](breeding/README.md)
+  * [🏡 Pastures & Eggs](breeding/pastures-and-eggs.md)
+  * [🧬 Inheritance & Shiny Hunting](breeding/inheritance-and-shinies.md)
+  * [🛠️ FAQ & Troubleshooting](breeding/troubleshooting.md)
+
 ## Legendary Monuments
 
 * [🌟 Legendary - All Generations](pokemons-guides/legendary_monuments.md)
