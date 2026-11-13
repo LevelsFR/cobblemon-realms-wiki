@@ -20,7 +20,7 @@ Cobbreeding supports the inheritance of **Individual Values (IVs)**, **Natures**
 | **Poké Ball inheritance** | Allows Poké Ball traits to be passed to offspring |
 
 {% hint style="info" %}
-The mod's implementation is not identical to every main-series game. Consult the [official project documentation](https://modrinth.com/mod/cobbreeding) for specific breeding item interactions.
+The mod's implementation is not identical to every main-series game. For the configuration actually present in the supplied Cobblemon Realms files, see [⚙️ Settings & Server Rules](configuration.md).
 {% endhint %}
 
 ---
@@ -83,7 +83,7 @@ If an expected Egg Move is not passed down, try moving it into the parent's **be
 A Pokémon holding a **Mirror Herb** in a Pasture can learn eligible Egg Moves from another pastured Pokémon.
 
 - The Pokémon involved do **not** need to share an Egg Group for this transfer.
-- The herb's check happens when the Pasture attempts to generate an egg, even if egg creation fails.
+- The herb can transfer an eligible Egg Move without generating an egg. The supplied configuration includes a separate `mirrorHerbTimeInTicks` interval of **600 ticks**, approximately **30 seconds** at 20 TPS. The actual server may differ.
 
 ---
 
@@ -97,7 +97,7 @@ Cobbreeding includes optional, configurable Shiny methods. The mod author's docu
 | **Crystal** | At least one Shiny parent; can apply twice if both are Shiny | **×1** |
 | **Always** | Applies to every egg | **×1** |
 
-When enabled, the methods can **stack multiplicatively**. The base Shiny rate is taken from the relevant Cobblemon settings.
+When enabled, the methods can **stack multiplicatively**. The base Shiny rate is taken from the relevant Cobblemon settings. See the [Cobblemon Realms configuration snapshot](configuration.md) for the values found in the supplied modpack files.
 
 {% hint style="warning" %}
 **These are not verified public-server rates.** The `shinyMethod` multipliers, base Shiny rate and enabled options can differ between Cobblemon Realms instances. In Cobbreeding, the documented **Masuda** condition checks **Original Trainers**, not language regions.
