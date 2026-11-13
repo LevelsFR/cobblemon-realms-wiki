@@ -56,6 +56,8 @@ After the configured waiting time, collect eggs from the **bottom of the Pasture
 
 ## 📚 Breeding Guides
 
+The following pages are designed to be read on this wiki, with the original guide's screenshots reproduced in the Pastures tutorial.
+
 | Guide | What You'll Learn |
 | --- | --- |
 | [🏡 Pastures & Eggs](pastures-and-eggs.md) | Placement, activation, compatible parents, collection and hatching |
@@ -72,7 +74,7 @@ After the configured waiting time, collect eggs from the **bottom of the Pasture
 
 ## 📖 Sources
 
-This section adapts the [official Cobbreeding guide](https://docs.google.com/document/d/1Hk5Iqnzm2NqkXGwzUIvPVFKhAwVHSEM3hyP3Qdhl5g4/edit) by **Ludichat** and the [official Cobbreeding project page](https://modrinth.com/mod/cobbreeding). It is written for Cobblemon Realms players, not as a replacement for the mod's technical documentation.
+This section adapts the [official Cobbreeding guide](https://docs.google.com/document/d/1Hk5Iqnzm2NqkXGwzUIvPVFKhAwVHSEM3hyP3Qdhl5g4/edit) by **Ludichat** and the [official Cobbreeding project page](https://modrinth.com/mod/cobbreeding). The guides above bring the essential instructions, images, compatibility rules and configuration notes together on the Cobblemon Realms Wiki, so players do not need the developer's guide for normal gameplay.
 
 {% hint style="success" %}
 ## 📥 Contact Us
