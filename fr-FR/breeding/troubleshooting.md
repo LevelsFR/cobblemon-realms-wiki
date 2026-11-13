@@ -24,7 +24,7 @@ Vérifiez les points suivants :
 2. Les parents partagent un **groupe d'œufs**, possèdent des sexes compatibles ou constituent une association valide avec **Métamorph**.
 3. Aucun parent n'appartient au groupe **Inconnu / Undiscovered**.
 4. L'inventaire de nidification du pâturage n'est pas plein.
-5. Le délai de reproduction prévu par la configuration du serveur est écoulé.
+5. Le délai de reproduction prévu par la configuration du serveur est écoulé. Le fichier fourni indique **8 000 à 14 000 ticks**, sans confirmation en direct des valeurs du serveur public.
 
 ### 🩹 Mes Pokémon perdent leurs PV dans le pâturage
 
@@ -100,6 +100,7 @@ Cette commande crée des œufs Pokémon avec des arguments comparables aux comma
 - [🏡 Pâturages et œufs](pastures-and-eggs.md) : installation, compatibilité et collecte.
 - [🧬 Hérédité et Pokémon chromatiques](inheritance-and-shinies.md) : caractéristiques, objets et méthodes chromatiques.
 - [🔥 Incubateurs CobbleSafari](../mods-guides/CobbleSafari/wild_eggs_incubators.md) : une autre façon de faire éclore les œufs Cobbreeding.
+- [⚙️ Configuration et règles serveur](configuration.md) : tous les réglages trouvés dans l'archive Cobblemon Realms.
 
 ---
 
