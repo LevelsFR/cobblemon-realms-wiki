@@ -8,6 +8,37 @@
 
 ---
 
+## 🧩 Datapack v6.4.0: what's different?
+
+{% hint style="info" %}
+**Biome Expanded Spawns v6.4.0** is the **datapack** version, not the public modpack version. It targets **Minecraft 1.21.1** and **Cobblemon 1.8.4+**. Check which version your server actually runs before treating these rules as active.
+{% endhint %}
+
+- **Additive extensions:** native Cobblemon spawn pools and biome lists remain intact rather than being replaced.
+- **Six additional habitat profiles:** missing Pokémon gain dedicated extensions for matching native habitats.
+- **Optional compatibility:** modded biomes and dimensions can add encounters where those mods and environments are actually available.
+- **Unique `OS-` identifiers:** custom spawn entries are easier to distinguish from native rules.
+- **Cleanup:** duplicate custom entries and repeated spawn IDs have been addressed.
+
+### 🔍 Why exclusions matter: Togepi
+
+**Togepi** demonstrates why a positive biome tag alone is not sufficient:
+
+| Biome | v6.4.0 condition analysis | Result |
+| --- | --- | --- |
+| **Allium Shrubland** (`biomeswevegone:allium_shrubland`) | Matches `#cobblemon:is_floral` **and** `#cobblemon:is_plains`, which native entry `togepi-1` explicitly excludes | **Do not list as a Togepi spawn biome** |
+| **Mushroom Caves** (`still_life:mushroom_caves`) | Matches none of Togepi's positive tags or its v6.4.0 extension rules | **No confirmed Togepi spawn** |
+
+Four custom Togepi extensions instead target **Aether**, **Paradise Lost**, and **The Bumblezone**, subject to those dimensions and all conditions being available.
+
+{% hint style="warning" %}
+**Historical data notice:** the Pokémon examples further down this page come from an earlier datapack snapshot. They illustrate rule structure, but are not an exhaustive, revalidated v6.4.0 spawn catalogue. Check the installed version's definitions for species-specific guidance.
+{% endhint %}
+
+[**Official datapack v6.4.0 changelog**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.0.md) · [**Biome and condition audit**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
+
+---
+
 ## 🧭 How does the system work?
 
 Unlike a system where each Pokémon would simply be associated with a biome, **each species has its own spawn rules**.
