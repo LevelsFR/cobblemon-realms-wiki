@@ -39,6 +39,36 @@ Quatre extensions spécifiques ciblent plutôt **Aether**, **Paradise Lost** et 
 
 ---
 
+## 🧪 Audit statique v6.4.0 : limites et règles à surveiller
+
+L'[audit source v6.4.0](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) a comparé le datapack avec Minecraft 1.21.1 et **344 JARs** d'une instance NeoForge locale. Il a examiné **16 141 entrées**, dont **9 496 entrées propres au pack**, et chargé **930 tags de biome** et **277 biomes enregistrés**. Ces nombres décrivent l'**environnement de l'audit**, pas le nombre de tags personnalisés du datapack.
+
+| Contrôle | Résultat |
+| --- | --- |
+| Entrées du pack présentant une intersection entre biomes autorisés et exclus | **2 210** |
+| Parmi elles, entrées conservant d'autres biomes possibles | **2 145** |
+| Règles du pack classées inatteignables par l'audit | **8** |
+| Autres règles à revoir pour exclusions potentielles et données optionnelles manquantes | **57** |
+| Entrées du pack nécessitant une revue à cause d'au moins une référence de biome non résolue | **2 750** |
+| Cycles de tags, doublons fonctionnels exacts et JSON invalides détectés dans le pack | **0** |
+
+### 🦋 Huit entrées Vivillon à examiner
+
+| Groupe | Identifiants exacts | Biomes concernés |
+| --- | --- | --- |
+| **Biomes We've Gone, Tundra** | `OS-vivillon-biomeswevegone-03`, `OS-vivillon-biomeswevegone-22`, `OS-vivillon-herd-biomeswevegone-11`, `OS-vivillon-herd-biomeswevegone-22` | `biomeswevegone:shattered_glacier` |
+| **Regions Unexplored, Archipelago** | `OS-vivillon-regions-unexplored-06`, `OS-vivillon-regions-unexplored-12`, `OS-vivillon-herd-regions-unexplored-01`, `OS-vivillon-herd-regions-unexplored-12` | `regions_unexplored:blackwood_taiga`, `regions_unexplored:fungal_fen` |
+
+Dans l'environnement analysé, les exclusions couvrent toutes les candidates connues de ces huit règles. Les quatre entrées Regions Unexplored référencent également des tags optionnels absents de l'instance. **Aucun rééquilibrage ni correctif de spawn n'a été appliqué automatiquement** : ces cas nécessitent un arbitrage sur les exclusions.
+
+{% hint style="warning" %}
+Une référence optionnelle non résolue **n'est pas nécessairement un bug**. Un audit statique ne prouve ni le chargement effectif de tous les tags en jeu, ni qu'une rencontre aura lieu. Les tests Fabric et NeoForge en jeu restent distincts.
+{% endhint %}
+
+[**Rapport de synthèse**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) · [**Résultats détaillés JSON**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.json) · [**Intersections CSV**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_INTERSECTIONS_v6.4.0.csv)
+
+---
+
 ## 🧭 Comment fonctionne le système ?
 
 Contrairement à un système où chaque Pokémon serait simplement associé à un biome, **chaque espèce possède ses propres règles d'apparition**.
