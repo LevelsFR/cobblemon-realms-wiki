@@ -8,6 +8,37 @@
 
 ---
 
+## 🧩 Datapack v6.4.0 : ce qui change
+
+{% hint style="info" %}
+**Biome Expanded Spawns v6.4.0** est la version du **datapack**, pas celle du modpack public. Elle cible **Minecraft 1.21.1** et **Cobblemon 1.8.4+**. Vérifiez la version effectivement installée sur votre serveur avant d'utiliser ces règles comme référence.
+{% endhint %}
+
+- **Extensions additives :** les règles natives de Cobblemon et ses listes de biomes sont conservées au lieu d'être remplacées.
+- **Six profils d'habitat complémentaires :** les Pokémon manquants dans les pools natifs correspondants obtiennent des extensions dédiées.
+- **Compatibilité optionnelle :** des biomes et dimensions moddés peuvent ajouter des rencontres, uniquement lorsque leurs contenus sont disponibles.
+- **Identifiants `OS-` :** les entrées personnalisées disposent d'identifiants uniques pour mieux distinguer leurs règles des spawns natifs.
+- **Nettoyage :** doublons personnalisés et identifiants répétés corrigés.
+
+### 🔍 Pourquoi les exclusions comptent : Togepi
+
+Le cas de **Togepi** illustre l'importance d'appliquer l'ensemble des conditions, pas uniquement les biomes positifs :
+
+| Biome | Analyse des conditions v6.4.0 | Conclusion |
+| --- | --- | --- |
+| **Allium Shrubland** (`biomeswevegone:allium_shrubland`) | Appartient à `#cobblemon:is_floral`, **mais aussi** à `#cobblemon:is_plains`, que l'entrée native `togepi-1` exclut | **Ne pas le présenter comme un biome de Togepi** |
+| **Mushroom Caves** (`still_life:mushroom_caves`) | Aucun tag positif de Togepi ni règle d'extension v6.4.0 ne le sélectionne | **Pas de spawn Togepi confirmé** |
+
+Quatre extensions spécifiques ciblent plutôt **Aether**, **Paradise Lost** et **The Bumblezone**, sous réserve que ces dimensions et leurs conditions soient réellement disponibles.
+
+{% hint style="warning" %}
+**Attention aux données historiques :** les exemples Pokémon présentés plus bas sont issus d'un snapshot antérieur du datapack. Ils expliquent la structure des règles, mais ne constituent pas une liste exhaustive validée pour la v6.4.0. Consultez les définitions de la version utilisée pour confirmer chaque espèce.
+{% endhint %}
+
+[**Changelog officiel du datapack v6.4.0**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.0.md) · [**Audit des tags et conditions**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
+
+---
+
 ## 🧭 Comment fonctionne le système ?
 
 Contrairement à un système où chaque Pokémon serait simplement associé à un biome, **chaque espèce possède ses propres règles d'apparition**.
