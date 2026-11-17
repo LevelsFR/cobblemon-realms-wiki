@@ -1,26 +1,30 @@
 # 🗂️ Complete Version History
 
 {% hint style="info" %}
-This page tracks the public **Cobblemon Realms** releases published on CurseForge. It separates client releases, patches, and server packs. **Every published version is treated as important**, including intermediate patches such as 5.9.1, 5.9.2, 5.9.3b, and 5.9.4.
+This page tracks public releases of **Cobblemon Realms** and **Cobblemon Realms Lite** on CurseForge. It separates client releases, patches, and server packs. **Every published version is treated as important**, including intermediate patches such as 5.9.1, 5.9.2, 5.9.3b, and 5.9.4.
 {% endhint %}
 
 ---
 
 ## ✅ Current Official Status
 
-**Last verified: October 8, 2026.** The status below reflects publicly confirmed releases at that date; check CurseForge for newer versions.
+**Public release verification: November 17, 2026.** These versions are confirmed on CurseForge. This page does not independently monitor live game-server status.
 
-| Item | Latest verified version | Minecraft | Loader | Published |
-| --- | --- | --- | --- | --- |
-| Client modpack | **6.1** | **1.21.1** | **NeoForge** | **October 7, 2026** |
-| Server Pack | **6.1** | **1.21.1** | **NeoForge** | **October 7, 2026** |
+| Edition | Client | Server Pack | Minecraft | Loader | Published |
+| --- | --- | --- | --- | --- | --- |
+| **Cobblemon Realms (Full)** | **6.3** | **6.3** | **1.21.1** | **NeoForge** | **November 6, 2026** |
+| **Cobblemon Realms Lite** | **6.3** | **6.3** | **1.21.1** | **NeoForge** | **November 6, 2026** |
 
-[**Download client 6.1 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) · [**Download Server Pack 6.1 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516)
+[**Download Realms 6.3 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600) · [**Download Lite 6.3 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/9468037)
 
-[**Browse all releases on CurseForge →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all)
+[**Realms release archive →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) · [**Lite release archive →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all)
 
 {% hint style="success" %}
-The **v6.x** branch is public. **v6.1 introduces Cobblemon 1.8** along with substantial content and quality-of-life improvements. Historic 5.x files remain available in the release archive.
+**Full and Lite editions are both available again in v6.3**, now with **Cobblemon 1.8.4**. Use the matching edition and version when joining a server. Official 6.3 Server Packs are supplied as additional files alongside their respective client releases.
+{% endhint %}
+
+{% hint style="info" %}
+**Live servers:** the project team reports that its servers have been updated to match the latest published modpacks. This is a team-provided status, not an independently verified live check. **6.4** is in development and is not listed as a public release.
 {% endhint %}
 
 ---
@@ -45,6 +49,12 @@ Recent **5.x and 6.x** releases listed here target **Minecraft 1.21.1 with NeoFo
 
 | Client version | Published | Type | Official changelog |
 | --- | --- | --- | --- |
+| **6.3** | **November 6, 2026** | Release | [Official changelog](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600) |
+| **6.2b** | Date not verified | 6.2 branch revision | [Archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) |
+| **6.2.4** | Date not verified | 6.2 branch patch | [Archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) |
+| **6.2** | Date not verified | Major update | [Archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) |
+| **6.1.2** | Date not verified | Patch | [Archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) |
+| **6.1.1** | Date not verified | Patch | [Archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all) |
 | **6.1** | **October 7, 2026** | Release | [View release](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085509) |
 | **6.0.3** | August 30, 2026 | Release | [View release](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8772169) |
 | **6.0.2** | August 21, 2026 | Release | [View release](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/8703149) |
@@ -140,6 +150,27 @@ Recent **5.x and 6.x** releases listed here target **Minecraft 1.21.1 with NeoFo
 ---
 
 ## 🚀 v6.x Branch Highlights
+
+### 6.3 · November 6, 2026 · Release
+
+- **Cobblemon 1.8.4** and the major **CobbleSafari 0.4** exploration expansion.
+- **Exploration**: Ultra Space, Hyperspace Lumiose, Bell Tower, additional dimensions, rare encounters, and new rewards.
+- **Onboarding and progression**: new Welcome Screen, expanded Rustling Spots, Pokémon costumes, and a substantial chest-loot rebalance.
+- **Quality of life**: Cobblemon QoL Suite improvements, additional gear and items, and compatibility fixes.
+- **Server performance**: adaptive wild Pokémon AI and spawning throttling during low TPS, alongside further optimizations.
+
+[**Full official 6.3 changelog →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600)
+
+### 6.2 and follow-up patches · October–November 2026
+
+- **6.2**: updated to **Cobblemon 1.8.2** with further content changes.
+- **6.2.4**: extended **Paradise Lost** world coverage and expanded **Iron Jugulis** spawn locations.
+- **6.2b**: integrated **Cobblemon 1.8.3** and **OS Weather × Cobblemon** battle-weather features.
+- **6.1.1 and 6.1.2**: incremental updates to the 6.1 branch.
+
+{% hint style="info" %}
+Exact dates and per-file URLs for these intermediate releases still need verification against the [CurseForge archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/all). No unverified dates have been assigned.
+{% endhint %}
 
 ### 6.1 · October 7, 2026 · Release
 
@@ -322,17 +353,49 @@ Links: [4.9](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/file
 
 ---
 
+## 🌿 Cobblemon Realms Lite Release History
+
+{% hint style="success" %}
+**Lite returns with version 6.3**, published **November 6, 2026**, following its previous **5.8** release on **April 5, 2026**. Lite has its own client downloads and Server Packs and is not interchangeable with the Full edition.
+{% endhint %}
+
+| Lite version | Published | Official link |
+| --- | --- | --- |
+| **6.3** | **November 6, 2026** | [Changelog and client](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/9468037) |
+| 5.8 | April 5, 2026 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.7 | March 14, 2026 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.5 | January 22, 2026 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.4 | January 21, 2026 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.3 | January 4, 2026 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.2 | December 23, 2025 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.1 | December 10, 2025 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 5.0d | December 3, 2025 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+| 4.9.1 · 4.9 · 4.8 · 4.7b · 4.6 · 4.5 · 4.4 · 4.3 · 4.2 · 4.1 · 4.0 · 3.9 | August–November 2025 | [Lite archive](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/all) |
+
+### ✨ Lite 6.3 Highlights
+
+- Dedicated **Professor Oak** starter onboarding and Welcome Screen.
+- **CobbleSafari 0.4**, Ultra Space, Hyperspace Lumiose, Bell Tower, and new dimensions.
+- Improved **Trainer Sprint Shoes**, Rustling Spots, Pokémon costumes, and items.
+- Loot rebalance, performance work, fixes, and **Cobblemon 1.8.4**.
+
+[**Read the complete Lite 6.3 changelog →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/9468037)
+
+---
+
 ## 🖥️ Server Packs
 
-A server pack is separate from the client modpack and must match the version used by players.
+Server Packs are distinct from client downloads. **Server and client must use matching editions and versions.**
 
-- **Latest verified Server Pack (October 8, 2026): 6.1**, available [on CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9085516). Check the [file list](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files) for newer releases.
-- Check **Additional Files** whenever `+1` or `+2` appears on CurseForge.
-- Some server packs include their own instructions or hotfixes.
-- Never mix client and server files from different release branches.
+| Edition | Latest published Server Pack | Where to find it |
+| --- | --- | --- |
+| **Cobblemon Realms** | **6.3**, November 6, 2026 | [Realms 6.3 additional files](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600/additional-files) |
+| **Cobblemon Realms Lite** | **6.3**, November 6, 2026 | [Lite 6.3 additional files](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/9468037/additional-files) |
+
+The project team reports its game servers are running the latest modpack versions. This statement is not a real-time server availability check.
 
 {% hint style="danger" %}
-Incompatible client and server versions may cause connection errors, mismatched registries, missing quests, or data loss.
+Do not mix versions or **Full** and **Lite** editions. Back up worlds, players, and configurations before migrating: incompatibilities can block connections or affect saved data.
 {% endhint %}
 
 ---
