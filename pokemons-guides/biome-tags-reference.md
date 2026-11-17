@@ -20,6 +20,36 @@ Use the complete tag identifier shown below, including the <code>#cobblemon:</co
 The [v6.4.0 technical audit](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) is static, not an in-game validation. **The historical listings below still need to be regenerated** against effective v6.4.0 tags and installed mods.
 {% endhint %}
 
+## 🧪 v6.4.0 static audit: limits and rules to review
+
+The [v6.4.0 source audit](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) compared the datapack against Minecraft 1.21.1 and **344 JARs** from a local NeoForge instance. It analyzed **16,141 entries**, including **9,496 entries belonging to the pack**, loading **930 biome tags** and **277 registered biomes**. These are **audit-environment totals**, not a count of custom datapack tags.
+
+| Check | Result |
+| --- | --- |
+| Pack entries whose allowed and excluded biomes intersect | **2,210** |
+| Among those, entries still retaining other allowed biomes | **2,145** |
+| Pack rules classified unreachable by the static audit | **8** |
+| Other rules requiring manual review of exclusions and unresolved optional data | **57** |
+| Pack entries requiring review due to at least one unresolved biome reference | **2,750** |
+| Tag cycles, exact functional duplicates, and invalid JSON detected in the pack | **0** |
+
+### 🦋 Eight Vivillon entries to review
+
+| Group | Exact rule identifiers | Affected biomes |
+| --- | --- | --- |
+| **Biomes We've Gone, Tundra** | `OS-vivillon-biomeswevegone-03`, `OS-vivillon-biomeswevegone-22`, `OS-vivillon-herd-biomeswevegone-11`, `OS-vivillon-herd-biomeswevegone-22` | `biomeswevegone:shattered_glacier` |
+| **Regions Unexplored, Archipelago** | `OS-vivillon-regions-unexplored-06`, `OS-vivillon-regions-unexplored-12`, `OS-vivillon-herd-regions-unexplored-01`, `OS-vivillon-herd-regions-unexplored-12` | `regions_unexplored:blackwood_taiga`, `regions_unexplored:fungal_fen` |
+
+In the analyzed environment, exclusions remove all known candidate biomes for these eight rules. The four Regions Unexplored entries also reference optional tags absent from the instance. **No spawn-balancing changes or automatic fixes were applied**: deciding whether those exclusions should remain is a separate design decision.
+
+{% hint style="warning" %}
+An unresolved optional reference **does not automatically mean a bug**. A static audit cannot prove every tag loads at runtime or guarantee an actual encounter. In-game Fabric and NeoForge tests remain separate.
+{% endhint %}
+
+[**Audit summary**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) · [**Detailed JSON**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.json) · [**Intersections CSV**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_INTERSECTIONS_v6.4.0.csv)
+
+---
+
 ## 📖 Table of Contents
 
 - [❄️ Snow, Ice and Cold](#snow-ice-and-cold)
