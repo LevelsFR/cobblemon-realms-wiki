@@ -303,6 +303,186 @@ The definitions below come directly from the **v6.4.0** repository JSON files. T
 
 </details>
 
+<details>
+<summary><strong><code>#cobblemon:is_mountain</code></strong> · 40 JSON additions</summary>
+
+- `#ourstory:space/is_rocky`
+- `#ourstory:twilight_forest/is_mountain`
+- `#ourstory:is_high_mountain`
+- `biomesoplenty:muskeg` *(optional)*
+- `#forge:is_mountain` *(optional)*
+- `regions_unexplored:mountains` *(optional)*
+- `regions_unexplored:arid_mountains` *(optional)*
+- `regions_unexplored:towering_cliffs` *(optional)*
+- `biomeswevegone:crag_gardens` *(optional)*
+- `biomeswevegone:howling_peaks` *(optional)*
+- `biomesoplenty:highland` *(optional)*
+- `biomesoplenty:jade_cliffs` *(optional)*
+- `biomesoplenty:moor` *(optional)*
+- `biomesoplenty:volcano` *(optional)*
+- `still_life:alpine_heathlands` *(optional)*
+- `still_life:alpine_plains` *(optional)*
+- `still_life:alpine_tundra` *(optional)*
+- `still_life:arid_highlands` *(optional)*
+- `still_life:barren_mediterranean_highlands` *(optional)*
+- `still_life:barren_peaks` *(optional)*
+- `still_life:boreal_alpine_tundra` *(optional)*
+- `still_life:cold_barren_highlands` *(optional)*
+- `still_life:dry_tropical_highlands` *(optional)*
+- `still_life:larch_woodlands` *(optional)*
+- `still_life:mediterranean_highlands` *(optional)*
+- `still_life:mediterranean_wooded_highlands` *(optional)*
+- `still_life:savanna_highlands` *(optional)*
+- `still_life:snowy_barren_peaks` *(optional)*
+- `still_life:snowy_boreal_alpine_tundra` *(optional)*
+- `still_life:snowy_peaks` *(optional)*
+- `still_life:taiga_highlands` *(optional)*
+- `still_life:tropical_highlands` *(optional)*
+- `still_life:wooded_highlands` *(optional)*
+- `#natures_spirit:is_highlands` *(optional)*
+- `#natures_spirit:is_alpine` *(optional)*
+- `natures_spirit:red_peaks` *(optional)*
+- `natures_spirit:snowcapped_red_peaks` *(optional)*
+- `natures_spirit:dusty_slopes` *(optional)*
+- `paradise_lost:calcite_craglands` *(optional)*
+- `paradise_lost:continental_plateau` *(optional)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_swamp</code></strong> · 24 JSON additions</summary>
+
+- `#ourstory:twilight_forest/is_swamp`
+- `regions_unexplored:bayou` *(optional)*
+- `regions_unexplored:fen` *(optional)*
+- `regions_unexplored:marsh` *(optional)*
+- `regions_unexplored:muddy_river` *(optional)*
+- `regions_unexplored:old_growth_bayou` *(optional)*
+- `#biomeswevegone:swamp` *(optional)*
+- `still_life:mediterranean_swamp` *(optional)*
+- `still_life:temperate_swamp` *(optional)*
+- `still_life:bog` *(optional)*
+- `still_life:arctic_wetlands` *(optional)*
+- `still_life:desert_wetlands` *(optional)*
+- `still_life:fen` *(optional)*
+- `still_life:flooded_grasslands` *(optional)*
+- `still_life:flooded_savanna` *(optional)*
+- `still_life:mediterranean_marsh` *(optional)*
+- `still_life:mire` *(optional)*
+- `still_life:temperate_marsh` *(optional)*
+- `still_life:tropical_wetlands` *(optional)*
+- `biomesoplenty:moor` *(optional)*
+- `biomesoplenty:muskeg` *(optional)*
+- `still_life:mangrove_marsh` *(optional)*
+- `#byg:is_swamp` *(optional)*
+- `#natures_spirit:is_wetland` *(optional)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_desert</code></strong> · 27 JSON additions</summary>
+
+- `#ourstory:space/is_desert`
+- `yungscavebiomes:lost_caves` *(optional)*
+- `biomesoplenty:wasteland` *(optional)*
+- `regions_unexplored:saguaro_desert` *(optional)*
+- `regions_unexplored:joshua_desert` *(optional)*
+- `biomeswevegone:atacama_outback` *(optional)*
+- `biomeswevegone:mojave_desert` *(optional)*
+- `biomeswevegone:windswept_desert` *(optional)*
+- `biomeswevegone:rugged_badlands` *(optional)*
+- `still_life:arid_desert` *(optional)*
+- `still_life:cold_desert` *(optional)*
+- `still_life:cold_semi_desert` *(optional)*
+- `still_life:desert_river` *(optional)*
+- `still_life:desert_wetlands` *(optional)*
+- `still_life:semiarid_desert` *(optional)*
+- `still_life:wooded_semiarid_desert` *(optional)*
+- `still_life:xeric_shrubland` *(optional)*
+- `biomesoplenty:cold_desert` *(optional)*
+- `biomesoplenty:dryland` *(optional)*
+- `still_life:arctic_desert` *(optional)*
+- `still_life:arctic_desert_basin` *(optional)*
+- `still_life:arid_beach` *(optional)*
+- `still_life:arid_highlands` *(optional)*
+- `still_life:barren_arctic_desert` *(optional)*
+- `#byg:is_desert` *(optional)*
+- `#atmospheric:is_dunes` *(optional)*
+- `#natures_spirit:is_desert` *(optional)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_sky</code></strong> · 6 JSON additions</summary>
+
+- `#ourstory:space/is_gas_giant`
+- `#ourstory:space/is_orbit`
+- `still_life:barren_peaks` *(optional)*
+- `still_life:snowy_barren_peaks` *(optional)*
+- `still_life:snowy_peaks` *(optional)*
+- `#ourstory:is_paradise_lost`
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_spooky</code></strong> · 11 JSON additions</summary>
+
+- `#ourstory:twilight_forest/is_spooky`
+- `#ourstory:is_ominous`
+- `biomesoplenty:undergrowth` *(optional)*
+- `regions_unexplored:pumpkin_fields` *(optional)*
+- `wythers:bayou` *(optional)*
+- `still_life:barren_caves` *(optional)*
+- `still_life:infested_tunnels` *(optional)*
+- `still_life:scorched_caves` *(optional)*
+- `still_life:haunted_depths` *(optional)*
+- `#byg:is_spooky` *(optional)*
+- `byg:ebony_woods` *(optional)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_grassland</code></strong> · 36 JSON additions</summary>
+
+- `biomesoplenty:grassland` *(optional)*
+- `biomesoplenty:clover_patch` *(optional)*
+- `biomesoplenty:field` *(optional)*
+- `biomesoplenty:lavender_field` *(optional)*
+- `biomesoplenty:mediterranean_forest` *(optional)*
+- `biomesoplenty:orchard` *(optional)*
+- `biomesoplenty:pasture` *(optional)*
+- `biomesoplenty:dead_forest` *(optional)*
+- `biomesoplenty:wooded_scrubland` *(optional)*
+- `biomesoplenty:scrubland` *(optional)*
+- `biomesoplenty:pumpkin_patch` *(optional)*
+- `biomesoplenty:shrubland` *(optional)*
+- `regions_unexplored:grassland` *(optional)*
+- `regions_unexplored:prairie` *(optional)*
+- `regions_unexplored:shrubland` *(optional)*
+- `biomeswevegone:allium_shrubland` *(optional)*
+- `biomeswevegone:amaranth_grassland` *(optional)*
+- `biomeswevegone:coconino_meadow` *(optional)*
+- `biomeswevegone:crimson_tundra` *(optional)*
+- `biomeswevegone:firecracker_chaparral` *(optional)*
+- `biomeswevegone:prairie` *(optional)*
+- `biomeswevegone:pumpkin_valley` *(optional)*
+- `biomeswevegone:rose_fields` *(optional)*
+- `biomeswevegone:temperate_grove` *(optional)*
+- `still_life:cold_steppe` *(optional)*
+- `still_life:flooded_grasslands` *(optional)*
+- `still_life:grassland_savanna` *(optional)*
+- `still_life:mediterranean_steppe` *(optional)*
+- `still_life:tropical_highlands` *(optional)*
+- `biomesoplenty:prairie` *(optional)*
+- `#natures_spirit:is_field` *(optional)*
+- `paradise_lost:continental_plateau` *(optional)*
+- `paradise_lost:highlands` *(optional)*
+- `paradise_lost:highlands_grand_glade` *(optional)*
+- `paradise_lost:tradewinds` *(optional)*
+- `nomansland:prairie` *(optional)*
+
+</details>
+
 {% hint style="warning" %}
 The `is_otherside.json` and `is_aether.json` files were not found at the same source paths as these six tags. Their older listings are therefore not claimed as verified against v6.4.0.
 {% endhint %}
