@@ -50,6 +50,265 @@ Une référence optionnelle non résolue **n'est pas nécessairement un bug**. U
 
 ---
 
+## 🧬 Tags essentiels vérifiés dans le dépôt v6.4.0
+
+{% hint style="info" %}
+Les définitions ci-dessous proviennent directement des fichiers JSON du dépôt **v6.4.0**. Elles représentent les **ajouts du datapack**, et non la composition complète des tags Cobblemon natifs ou d'autres mods. L'option `replace: false` conserve les contributions des autres datapacks au même tag. Les références marquées optionnelles ne garantissent pas la présence de leur biome en jeu.
+{% endhint %}
+
+<details>
+<summary><strong><code>#cobblemon:is_floral</code></strong> · 35 ajouts JSON</summary>
+
+- `#ourstory:bumblezone/is_floral`
+- `#c:is_flower_forest` *(optionnel)*
+- `biomesoplenty:cherry_blossom_grove` *(optionnel)*
+- `biomesoplenty:clover_patch` *(optionnel)*
+- `biomeswevegone:allium_shrubland` *(optionnel)*
+- `biomeswevegone:amaranth_grassland` *(optionnel)*
+- `biomeswevegone:coconino_meadow` *(optionnel)*
+- `biomeswevegone:orchard` *(optionnel)*
+- `biomeswevegone:sakura_grove` *(optionnel)*
+- `regions_unexplored:clover_plains` *(optionnel)*
+- `regions_unexplored:flower_fields` *(optionnel)*
+- `regions_unexplored:highland_fields` *(optionnel)*
+- `regions_unexplored:magnolia_woodland` *(optionnel)*
+- `regions_unexplored:mauve_hills` *(optionnel)*
+- `regions_unexplored:orchard` *(optionnel)*
+- `regions_unexplored:poppy_fields` *(optionnel)*
+- `regions_unexplored:rocky_meadow` *(optionnel)*
+- `terralith:sakura_grove` *(optionnel)*
+- `terralith:sakura_valley` *(optionnel)*
+- `wythers:sakura_forest` *(optionnel)*
+- `biomesoplenty:auroral_garden` *(optionnel)*
+- `biomesoplenty:jacaranda_glade` *(optionnel)*
+- `biomesoplenty:pumpkin_patch` *(optionnel)*
+- `biomesoplenty:snowblossom_grove` *(optionnel)*
+- `#byg:is_floral` *(optionnel)*
+- `byg:amaranth_fields` *(optionnel)*
+- `byg:allium_fields` *(optionnel)*
+- `byg:rose_fields` *(optionnel)*
+- `byg:skyris_vale` *(optionnel)*
+- `byg:orchard` *(optionnel)*
+- `atmospheric:flourishing_dunes` *(optionnel)*
+- `#natures_spirit:is_flowering` *(optionnel)*
+- `#natures_spirit:is_wisteria` *(optionnel)*
+- `paradise_lost:highlands_shield` *(optionnel)*
+- `paradise_lost:wisteria_woods` *(optionnel)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_plains</code></strong> · 45 ajouts JSON</summary>
+
+- `#ourstory:bumblezone/is_plains`
+- `#ourstory:twilight_forest/is_plains`
+- `biomesoplenty:forested_field` *(optionnel)*
+- `biomesoplenty:pumpkin_patch` *(optionnel)*
+- `biomesoplenty:old_growth_dead_forest` *(optionnel)*
+- `biomesoplenty:shrubland` *(optionnel)*
+- `#c:plains` *(optionnel)*
+- `#forge:is_plains` *(optionnel)*
+- `regions_unexplored:barley_fields` *(optionnel)*
+- `regions_unexplored:shrubland` *(optionnel)*
+- `regions_unexplored:clover_plains` *(optionnel)*
+- `regions_unexplored:grassland` *(optionnel)*
+- `regions_unexplored:prairie` *(optionnel)*
+- `regions_unexplored:flower_fields` *(optionnel)*
+- `biomeswevegone:allium_shrubland` *(optionnel)*
+- `biomeswevegone:amaranth_grassland` *(optionnel)*
+- `biomeswevegone:coconino_meadow` *(optionnel)*
+- `biomeswevegone:crimson_tundra` *(optionnel)*
+- `biomeswevegone:firecracker_chaparral` *(optionnel)*
+- `biomeswevegone:prairie` *(optionnel)*
+- `biomeswevegone:pumpkin_valley` *(optionnel)*
+- `biomeswevegone:rose_fields` *(optionnel)*
+- `biomeswevegone:temperate_grove` *(optionnel)*
+- `still_life:alpine_plains` *(optionnel)*
+- `still_life:cold_steppe` *(optionnel)*
+- `still_life:cold_taiga_clearings` *(optionnel)*
+- `still_life:warm_temperate_clearings` *(optionnel)*
+- `still_life:dry_cold_steppe` *(optionnel)*
+- `still_life:mediterranean_steppe` *(optionnel)*
+- `still_life:mixed_forest_steppe` *(optionnel)*
+- `still_life:shrub_steppe` *(optionnel)*
+- `still_life:wooded_mediterranean_steppe` *(optionnel)*
+- `still_life:alpine_heathlands` *(optionnel)*
+- `biomesoplenty:snowy_fir_clearing` *(optionnel)*
+- `biomesoplenty:volcanic_plains` *(optionnel)*
+- `biomesoplenty:wasteland_steppe` *(optionnel)*
+- `still_life:flooded_grasslands` *(optionnel)*
+- `still_life:grassland_savanna` *(optionnel)*
+- `still_life:steppe_river` *(optionnel)*
+- `#byg:is_plains` *(optionnel)*
+- `#natures_spirit:is_field` *(optionnel)*
+- `paradise_lost:continental_plateau` *(optionnel)*
+- `paradise_lost:highlands` *(optionnel)*
+- `paradise_lost:highlands_grand_glade` *(optionnel)*
+- `paradise_lost:tradewinds` *(optionnel)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_jungle</code></strong> · 23 ajouts JSON</summary>
+
+- `#ourstory:is_bamboo_forest`
+- `biomesoplenty:rocky_rainforest` *(optionnel)*
+- `biomesoplenty:tropics` *(optionnel)*
+- `biomesoplenty:fungal_jungle` *(optionnel)*
+- `biomesoplenty:bamboo_grove` *(optionnel)*
+- `regions_unexplored:rainforest` *(optionnel)*
+- `regions_unexplored:sparse_rainforest` *(optionnel)*
+- `regions_unexplored:eucalyptus_forest` *(optionnel)*
+- `biomeswevegone:crag_gardens` *(optionnel)*
+- `biomeswevegone:fragment_jungle` *(optionnel)*
+- `biomeswevegone:jacaranda_jungle` *(optionnel)*
+- `biomeswevegone:tropical_rainforest` *(optionnel)*
+- `still_life:humid_savanna` *(optionnel)*
+- `still_life:monsoon_forest` *(optionnel)*
+- `still_life:old_growth_tropical_rainforest` *(optionnel)*
+- `still_life:tropical_rainforest` *(optionnel)*
+- `still_life:tropical_rainforest_river` *(optionnel)*
+- `still_life:tropical_wetlands` *(optionnel)*
+- `atmospheric:kousa_jungle` *(optionnel)*
+- `#atmospheric:is_rainforest` *(optionnel)*
+- `nomansland:bayou` *(optionnel)*
+- `nomansland:lush_river` *(optionnel)*
+- `nomansland:tropical_beach` *(optionnel)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_forest</code></strong> · 77 ajouts JSON</summary>
+
+- `#ourstory:twilight_forest/is_forest`
+- `#ourstory:is_bamboo_forest`
+- `biomesoplenty:fir_clearing` *(optionnel)*
+- `biomesoplenty:forested_field` *(optionnel)*
+- `biomesoplenty:redwood_forest` *(optionnel)*
+- `biomesoplenty:grassland` *(optionnel)*
+- `biomesoplenty:coniferous_forest` *(optionnel)*
+- `#c:flower_forests` *(optionnel)*
+- `#c:is_tree/deciduous` *(optionnel)*
+- `wythers:subtropical_forest` *(optionnel)*
+- `regions_unexplored:alpha_grove` *(optionnel)*
+- `regions_unexplored:autumnal_maple_forest` *(optionnel)*
+- `regions_unexplored:deciduous_forest` *(optionnel)*
+- `regions_unexplored:maple_forest` *(optionnel)*
+- `regions_unexplored:redwoods` *(optionnel)*
+- `regions_unexplored:sparse_redwoods` *(optionnel)*
+- `regions_unexplored:magnolia_woodland` *(optionnel)*
+- `regions_unexplored:mauve_hills` *(optionnel)*
+- `regions_unexplored:mountains` *(optionnel)*
+- `regions_unexplored:orchard` *(optionnel)*
+- `regions_unexplored:pine_slopes` *(optionnel)*
+- `regions_unexplored:silver_birch_forest` *(optionnel)*
+- `regions_unexplored:temperate_grove` *(optionnel)*
+- `regions_unexplored:willow_forest` *(optionnel)*
+- `biomesoplenty:aspen_glade` *(optionnel)*
+- `biomesoplenty:dead_forest` *(optionnel)*
+- `biomesoplenty:jacaranda_glade` *(optionnel)*
+- `biomesoplenty:old_growth_dead_forest` *(optionnel)*
+- `biomesoplenty:pumpkin_patch` *(optionnel)*
+- `biomesoplenty:rainforest` *(optionnel)*
+- `biomesoplenty:rocky_rainforest` *(optionnel)*
+- `biomesoplenty:snowblossom_grove` *(optionnel)*
+- `biomesoplenty:snowy_coniferous_forest` *(optionnel)*
+- `biomesoplenty:snowy_maple_woods` *(optionnel)*
+- `still_life:birch_forest` *(optionnel)*
+- `still_life:larch_woodlands` *(optionnel)*
+- `still_life:mangrove_marsh` *(optionnel)*
+- `still_life:mediterranean_forest` *(optionnel)*
+- `still_life:mediterranean_wooded_highlands` *(optionnel)*
+- `still_life:mixed_forest_steppe` *(optionnel)*
+- `still_life:monsoon_forest` *(optionnel)*
+- `still_life:old_growth_temperate_forest` *(optionnel)*
+- `still_life:old_growth_tropical_rainforest` *(optionnel)*
+- `still_life:pine_woods` *(optionnel)*
+- `still_life:temperate_forest` *(optionnel)*
+- `still_life:temperate_mixed_forest` *(optionnel)*
+- `still_life:tropical_dry_forest` *(optionnel)*
+- `still_life:tropical_rainforest` *(optionnel)*
+- `still_life:tropical_rainforest_river` *(optionnel)*
+- `still_life:warm_temperate_woodlands` *(optionnel)*
+- `atmospheric:aspen_parkland` *(optionnel)*
+- `atmospheric:grimwoods` *(optionnel)*
+- `atmospheric:laurel_forest` *(optionnel)*
+- `#atmospheric:is_rainforest` *(optionnel)*
+- `natures_spirit:blooming_sugi_forest` *(optionnel)*
+- `natures_spirit:wisteria_forest` *(optionnel)*
+- `natures_spirit:boreal_taiga` *(optionnel)*
+- `natures_spirit:snowy_fir_forest` *(optionnel)*
+- `natures_spirit:sugi_forest` *(optionnel)*
+- `natures_spirit:sparse_tropical_woods` *(optionnel)*
+- `natures_spirit:tropical_woods` *(optionnel)*
+- `natures_spirit:fir_forest` *(optionnel)*
+- `natures_spirit:windswept_sugi_forest` *(optionnel)*
+- `natures_spirit:redwood_forest` *(optionnel)*
+- `natures_spirit:aspen_forest` *(optionnel)*
+- `natures_spirit:snowy_redwood_forest` *(optionnel)*
+- `natures_spirit:maple_woodlands` *(optionnel)*
+- `natures_spirit:coniferous_covert` *(optionnel)*
+- `paradise_lost:highlands_forest` *(optionnel)*
+- `paradise_lost:highlands_shield` *(optionnel)*
+- `paradise_lost:highlands_thicket` *(optionnel)*
+- `paradise_lost:wisteria_woods` *(optionnel)*
+- `nomansland:dark_taiga` *(optionnel)*
+- `nomansland:frozen_woods` *(optionnel)*
+- `nomansland:bayou` *(optionnel)*
+- `nomansland:lush_river` *(optionnel)*
+- `nomansland:tropical_beach` *(optionnel)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_cave</code></strong> · 19 ajouts JSON</summary>
+
+- `#ourstory:space/is_cave`
+- `#ourstory:twilight_forest/is_underground`
+- `#ourstory:is_lush_cave`
+- `#cobblemon:is_deep_dark`
+- `still_life:barren_caves` *(optionnel)*
+- `still_life:glowing_caves` *(optionnel)*
+- `still_life:haunted_depths` *(optionnel)*
+- `still_life:infested_tunnels` *(optionnel)*
+- `still_life:scorched_caves` *(optionnel)*
+- `still_life:frozen_caves` *(optionnel)*
+- `still_life:mushroom_caves` *(optionnel)*
+- `regions_unexplored:prismachasm` *(optionnel)*
+- `regions_unexplored:redstone_caves` *(optionnel)*
+- `biomesoplenty:fungal_jungle` *(optionnel)*
+- `biomeswevegone:dead_sea` *(optionnel)*
+- `byg:dead_sea` *(optionnel)*
+- `nomansland:alchemist_ruins` *(optionnel)*
+- `nomansland:caves` *(optionnel)*
+- `nomansland:cave_depths` *(optionnel)*
+
+</details>
+
+<details>
+<summary><strong><code>#cobblemon:is_ocean</code></strong> · 12 ajouts JSON</summary>
+
+- `#cobblemon:is_coast`
+- `regions_unexplored:hyacinth_deeps` *(optionnel)*
+- `still_life:arctic_deep_ocean` *(optionnel)*
+- `still_life:arctic_shallow_ocean` *(optionnel)*
+- `still_life:cold_deep_ocean` *(optionnel)*
+- `still_life:cold_shallow_ocean` *(optionnel)*
+- `still_life:subtropical_deep_ocean` *(optionnel)*
+- `still_life:subtropical_shallow_ocean` *(optionnel)*
+- `still_life:temperate_deep_ocean` *(optionnel)*
+- `still_life:temperate_shallow_ocean` *(optionnel)*
+- `still_life:tropical_deep_ocean` *(optionnel)*
+- `still_life:tropical_shallow_ocean` *(optionnel)*
+
+</details>
+
+{% hint style="warning" %}
+Les fichiers `is_otherside.json` et `is_aether.json` ne sont pas présents aux mêmes chemins que ces six tags dans le dépôt consulté. Leurs anciennes listes ne sont donc pas prétendues vérifiées pour la v6.4.0.
+{% endhint %}
+
+---
+
 ## 📖 Sommaire
 
 - [❄️ Neige, glace et froid](#neige-glace-et-froid)
