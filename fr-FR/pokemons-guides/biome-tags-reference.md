@@ -4,7 +4,7 @@
 
 {% hint style="info" %}
 <p align="center">
-Cette page répertorie les <strong>99 tags de biome principaux</strong> utilisés par Cobblemon Realms Biome Expanded Spawns v6.0. Ces tags regroupent les biomes partageant des caractéristiques environnementales et servent à définir les conditions d’apparition des Pokémon.
+Cette page conserve une <strong>référence historique de 99 tags de biome principaux, issue de Biome Expanded Spawns v6.0</strong>. Les associations et nombres d'entrées affichés ci-dessous ne constituent pas un inventaire revérifié pour le datapack v6.4.0. Ces tags regroupent les biomes partageant des caractéristiques environnementales et servent à définir les conditions d’apparition des Pokémon.
 </p>
 {% endhint %}
 
@@ -13,6 +13,12 @@ Utilisez l’identifiant complet affiché ci-dessous, avec le préfixe <code>#co
 {% endhint %}
 
 ---
+
+{% hint style="warning" %}
+**Compatibilité v6.4.0 :** le datapack conserve les tags natifs de Cobblemon et ajoute des règles sans remplacer les listes de biomes de base. Les tags peuvent être imbriqués, et une exclusion (`anticondition.biomes`) prévaut sur une condition positive. Exemple confirmé : **Allium Shrubland ne permet pas le spawn de Togepi**, malgré son appartenance à `#cobblemon:is_floral`, car il appartient également à `#cobblemon:is_plains`, explicitement exclu. Les biomes des mods absents ne doivent pas être supposés accessibles.
+
+Les résultats détaillés de l'[audit technique v6.4.0](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) sont statiques et ne remplacent pas un test en jeu. **La liste historique ci-dessous reste à régénérer** depuis les tags effectifs de v6.4.0 et des mods installés.
+{% endhint %}
 
 ## 📖 Sommaire
 
