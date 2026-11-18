@@ -106,7 +106,7 @@ Lorsqu'un événement est actif, une bannière apparaît dans l'application avec
 
 {% hint style="info" %}
 <p align="center">
-Les événements nécessitent actuellement des <strong>privilèges administrateur</strong> pour être lancés et ne sont donc pas actifs dans le fonctionnement vanilla de CobbleSafari. Des événements automatiques et périodiques sont toutefois prévus pour de futures mises à jour.
+Les événements dépendent des activités proposées sur le serveur. Consultez les annonces en jeu pour savoir si un événement Échange Miracle est en cours.
 </p>
 {% endhint %}
 
@@ -147,32 +147,9 @@ La **Salle Union** convient particulièrement aux petits groupes souhaitant simp
 - Les joueurs peuvent quitter la salle à tout moment grâce au **téléporteur de sortie**, via leur **Motismart**, ou simplement attendre la fin du compte à rebours.
 - Certaines dimensions sont **bloquées comme points d'entrée**. Il est notamment impossible d'entrer dans une Salle Union depuis la Dimension Safari afin de contourner sa limite de temps.
 
-### 🛠️ Instances et personnalisation
+## 🆕 Disponibilité des Pokémon dans les échanges
 
-Les instances de Salle Union sont **réutilisées plutôt que supprimées** après chaque session. Cela permet notamment de rendre l'entrée dans une salle déjà utilisée quasiment instantanée, mais cette particularité peut avoir des conséquences pour les administrateurs disposant du mode Créatif.
-
-Un administrateur peut modifier ou personnaliser l'apparence d'une Salle Union. Si une structure est ensuite détruite ou modifiée par erreur, ces changements peuvent être conservés et apparaître lors des prochaines sessions utilisant cette instance.
-
-{% hint style="warning" %}
-<p align="center">
-En cas de modification indésirable d'une instance, la seule manière de restaurer complètement la structure d'origine est de <strong>supprimer le dossier de la dimension de la Salle Union</strong> afin de forcer sa réinitialisation.
-</p>
-{% endhint %}
-
-***
-
-## 🆕 Compatibilité des addons et Onboarding (0.4+)
-
-Le nouvel écran **[Onboarding de CobbleSafari](admin_configuration.md)** permet aux administrateurs d'indiquer quels addons de Pokémon sont installés, notamment pour les légendaires, les fabuleux, les Ultra-Chimères, les Paradoxes et les autres espèces manquantes.
-
-- **Échange Miracle :** les pools par défaut peuvent être adaptés aux addons déclarés.
-- **GTS :** les offres uniques impliquant des espèces absentes sont filtrées si l'addon correspondant n'est pas activé.
-
-{% hint style="info" %}
-Ces réglages relèvent de **l'administration du serveur** et ne permettent pas aux joueurs de débloquer directement de nouvelles espèces. Une configuration personnalisée des échanges peut remplacer les règles d'origine.
-{% endhint %}
-
-[Changelog officiel 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+Les Pokémon proposés via la **GTS** ou l'**Échange Miracle** dépendent des espèces présentes dans le modpack. Certaines offres spéciales ne sont donc pas disponibles partout.
 
 ---
 
