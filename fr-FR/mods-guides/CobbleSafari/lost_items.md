@@ -1,7 +1,7 @@
 # ✨ Lost Items et Poké Balls porte-bonheur
 
 {% hint style="info" %}
-<p align="center">Trouvez des objets dans les donjons et découvrez leurs nouveaux visuels, récompenses et options de configuration depuis CobbleSafari 0.4.</p>
+<p align="center">Trouvez des objets dans les donjons et découvrez leurs nouveaux visuels, récompenses depuis CobbleSafari 0.4.</p>
 {% endhint %}
 
 
@@ -21,16 +21,9 @@ Les **Lost Items** sont des objets à récupérer au cours d'une exploration. Il
 
 Le modèle de Poké Ball peut utiliser différents modèles 3D de Cobblemon.
 
-## 🛠️ Administration et mode Créatif
+## 🛡️ Comment les récupérer ?
 
-- En mode 2, **Maj + clic droit avec un objet en main** sur un Lost Item enregistre la pile exacte, quantité et données comprises.
-- L'interface de configuration permet d'éditer son identifiant, sa quantité et ses composants.
-- Le **Lost Item Template** copie et réapplique la configuration d'un collectible.
-- Les Lost Items, Lost Notes et Poké Balls porte-bonheur **ne peuvent plus être détruits en survie**.
-
-{% hint style="warning" %}
-Ces réglages nécessitent des droits de création ou d'administration. Ils ne sont pas des fonctions accessibles à tous les joueurs en survie. Les tables de butin peuvent être personnalisées.
-{% endhint %}
+Interagissez avec les objets trouvés dans les donjons pour obtenir leurs récompenses. Les Lost Items, Lost Notes et Poké Balls porte-bonheur **ne peuvent pas être cassés en survie**.
 
 ## 🧭 Où les rencontrer ?
 
