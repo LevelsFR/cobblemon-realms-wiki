@@ -160,6 +160,8 @@ Les versions récentes des branches **5.x et 6.x** listées ici ciblent **Minecr
 - **Performances serveur** : réduction adaptative de l'IA et des apparitions de Pokémon sauvages lorsque le TPS baisse, ainsi que d'autres optimisations.
 
 [**Changelog complet officiel 6.3 →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600)
+**Nouveaux guides de gameplay :** [CobbleSafari 0.4.1](mods-guides/CobbleSafari/cobblesafari.md), [Ultra Space](mods-guides/CobbleSafari/ultra_space.md), [Hyperspace Lumiose](mods-guides/CobbleSafari/hyperspace_lumiose.md) et [Tour Carillon](mods-guides/CobbleSafari/bell_tower.md).
+
 
 ### 6.2 et correctifs · octobre–novembre 2026
 
