@@ -117,11 +117,11 @@
     if (event.key === 'Escape') closeSearch();
   });
 
-  async function fetchWithTimeout(url, timeout = 6000) {
+  async function fetchWithTimeout(url, timeout = 6000, cache = 'no-store') {
     const controller = new AbortController();
     const timer = window.setTimeout(() => controller.abort(), timeout);
     try {
-      return await fetch(url, { signal: controller.signal, cache: 'no-store' });
+      return await fetch(url, { signal: controller.signal, cache });
     } finally {
       window.clearTimeout(timer);
     }
@@ -290,46 +290,90 @@
 
     if (!badge) return;
     loadServerStats(badge, language);
-    window.setInterval(() => loadServerStats(badge, language), 60000);
+    window.setInterval(() => loadServerStats(badge, language), SERVER_STATUS_TTL_MS);
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) loadServerStats(badge, language);
+    });
+    window.addEventListener('storage', (event) => {
+      if (event.key !== SERVER_STATUS_STORAGE_KEY) return;
+      const cached = readServerStatusCache();
+      if (cached) renderServerStats(badge, language, cached);
+    });
+  }
+
+  const SERVER_STATUS_TTL_MS = 5 * 60 * 1000;
+  const SERVER_STATUS_STORAGE_KEY = 'cr-wiki-server-status-v2';
+  let serverStatusNextFetchAt = 0;
+  let serverStatusLoading = false;
+
+  function readServerStatusCache() {
+    try {
+      const cached = JSON.parse(window.localStorage.getItem(SERVER_STATUS_STORAGE_KEY) || 'null');
+      if (!cached || typeof cached.online !== 'boolean' || !Number.isFinite(cached.checkedAt)) return null;
+      if (Date.now() - cached.checkedAt >= SERVER_STATUS_TTL_MS || cached.checkedAt > Date.now()) return null;
+      return cached;
+    } catch {
+      return null;
+    }
+  }
+
+  function renderServerStats(badge, language, data) {
+    const formatter = new Intl.NumberFormat(language === 'fr' ? 'fr-FR' : 'en-US');
+    const online = data.online === true;
+    const onlineCount = Number.isFinite(data.players?.online) ? data.players.online : 0;
+    const maxCount = Number.isFinite(data.players?.max) ? data.players.max : 0;
+    const label = document.getElementById('server-status-label');
+    const onlineTarget = document.getElementById('server-online');
+    const maxTarget = document.getElementById('server-max');
+    if (label) label.textContent = online
+      ? (language === 'fr' ? 'En ligne' : 'Online')
+      : (language === 'fr' ? 'Hors ligne' : 'Offline');
+    if (onlineTarget) onlineTarget.textContent = formatter.format(onlineCount);
+    if (maxTarget) maxTarget.textContent = formatter.format(maxCount);
+    badge.classList.remove('is-checking', 'is-unavailable', 'is-online', 'is-offline');
+    badge.classList.add(online ? 'is-online' : 'is-offline');
+    badge.title = online
+      ? `${language === 'fr' ? 'En ligne' : 'Online'} • ${formatter.format(onlineCount)} / ${formatter.format(maxCount)}`
+      : (language === 'fr' ? 'Serveur hors ligne' : 'Server offline');
   }
 
   async function loadServerStats(badge, language) {
+    // Do not poll while the wiki is in a background tab.
+    if (document.hidden || serverStatusLoading) return;
+    const cached = readServerStatusCache();
+    if (cached) {
+      renderServerStats(badge, language, cached);
+      return;
+    }
+    if (Date.now() < serverStatusNextFetchAt) return;
+
+    serverStatusLoading = true;
+    serverStatusNextFetchAt = Date.now() + SERVER_STATUS_TTL_MS;
     badge.classList.add('is-checking');
     try {
-      const response = await fetchWithTimeout('/api/server', 8000);
+      const response = await fetchWithTimeout('/api/server', 8000, 'default');
       if (!response.ok) throw new Error(`Server status HTTP ${response.status}`);
       const data = await response.json();
-      const isOnline = data.online === true;
-      const playerOnline = Number.isFinite(data.players?.online) ? data.players.online : 0;
-      const playerMax = Number.isFinite(data.players?.max) ? data.players.max : 0;
-      const formatter = new Intl.NumberFormat(language === 'fr' ? 'fr-FR' : 'en-US');
-
-      const statusLabel = document.getElementById('server-status-label');
-      const onlineTarget = document.getElementById('server-online');
-      const maxTarget = document.getElementById('server-max');
-      if (statusLabel) {
-        statusLabel.textContent = isOnline
-          ? (language === 'fr' ? 'En ligne' : 'Online')
-          : (language === 'fr' ? 'Hors ligne' : 'Offline');
+      if (typeof data?.online !== 'boolean') throw new Error('Invalid server status payload');
+      const status = { online: data.online, players: data.players, checkedAt: Date.now() };
+      try {
+        window.localStorage.setItem(SERVER_STATUS_STORAGE_KEY, JSON.stringify(status));
+      } catch {
+        // The badge still works when storage is blocked.
       }
-      if (onlineTarget) onlineTarget.textContent = formatter.format(playerOnline);
-      if (maxTarget) maxTarget.textContent = formatter.format(playerMax);
-
-      badge.classList.remove('is-checking', 'is-unavailable', 'is-online', 'is-offline');
-      badge.classList.add(isOnline ? 'is-online' : 'is-offline');
-      badge.title = isOnline
-        ? `${language === 'fr' ? 'En ligne' : 'Online'} • ${formatter.format(playerOnline)} / ${formatter.format(playerMax)}`
-        : (language === 'fr' ? 'Serveur hors ligne' : 'Server offline');
+      renderServerStats(badge, language, status);
     } catch (error) {
       console.debug('Minecraft server status unavailable:', error);
-      const statusLabel = document.getElementById('server-status-label');
+      const label = document.getElementById('server-status-label');
       const onlineTarget = document.getElementById('server-online');
       const maxTarget = document.getElementById('server-max');
-      if (statusLabel) statusLabel.textContent = language === 'fr' ? 'Indisponible' : 'Unavailable';
+      if (label) label.textContent = language === 'fr' ? 'Indisponible' : 'Unavailable';
       if (onlineTarget) onlineTarget.textContent = '–';
       if (maxTarget) maxTarget.textContent = '–';
       badge.classList.remove('is-checking', 'is-online', 'is-offline');
       badge.classList.add('is-unavailable');
+    } finally {
+      serverStatusLoading = false;
     }
   }
 
