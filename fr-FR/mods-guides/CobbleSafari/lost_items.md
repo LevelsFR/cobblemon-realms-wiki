@@ -32,7 +32,7 @@ Interagissez avec les objets trouvés dans les donjons pour obtenir leurs récom
 - [Objectifs dimensionnels](dimensional_objectives.md), dont certaines tâches consistent à les ramasser.
 
 {% hint style="warning" %}
-**Cobblemon Realms :** ces informations proviennent de CobbleSafari **0.4.0/0.4.1**, intégré au modpack **6.3**. Les conditions peuvent dépendre de la configuration du serveur, des addons et des datapacks. Référez-vous à l'interface du jeu lorsqu'elle indique des règles différentes.
+**Cobblemon Realms :** les rencontres, récompenses et durées peuvent varier selon le monde. Référez-vous aux indications affichées en jeu.
 {% endhint %}
 
 ## 📖 Sources
