@@ -10,7 +10,7 @@
 Cliquez sur le nom de chaque destination pour consulter les **huit Pokémon du pool ordinaire**, les poids des récompenses et les tables de butin correspondantes.
 
 
-Les exemples suivants proviennent directement des fichiers de destination du mod officiel, sous `data/cobblesafari/ultra_warp_ride/destination/`.
+Voici les Pokémon que vous pouvez rencontrer dans les sept destinations.
 
 | Destination | Exemples de Pokémon ordinaires | Pool spécial |
 | --- | --- | --- |
