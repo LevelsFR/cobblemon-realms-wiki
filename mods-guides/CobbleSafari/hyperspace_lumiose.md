@@ -20,7 +20,7 @@ Each Hyperspace Lumiose instance is assigned a **1-star to 5-star** rank and **o
 
 ## 🎯 Objective Examples
 
-The upstream `dungeon_paris.json` defines weighted tasks that can involve:
+Possible tasks include:
 
 - Claiming floating Lost Items or sparkling collectibles;
 - Capturing Pokémon, designated species or types;
@@ -30,9 +30,9 @@ The upstream `dungeon_paris.json` defines weighted tasks that can involve:
 
 Complete all required objectives to make the **Golden Auspicious Poké Ball** appear with special rewards. The actual task set is selected for the instance.
 
-## ⏳ Respawns and Configuration
+## ⏳ Respawns
 
-The upstream 0.4 system documents **5 minutes** as the default obstacle respawn time and **15 minutes** for Shard Cluster resources. Shard Clusters are **disabled by default** unless activated by server configuration/onboarding, including the Mega Showdown integration option.
+In the base mod, obstacles return after around **5 minutes** and Shard Cluster resources after around **15 minutes**. Shard Clusters may not appear in every world.
 
 ## 🍩 Make Donuts
 
