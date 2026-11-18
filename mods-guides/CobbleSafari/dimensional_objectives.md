@@ -33,7 +33,7 @@ The 0.4 update rebalanced Lost Item and Auspicious Poké Ball loot. Some objecti
 See [Lost Items](lost_items.md) and [Hyperspace Lumiose](hyperspace_lumiose.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms:** CobbleSafari 0.4.1 is included in modpack v6.3, but the default behavior described here can be altered by server settings, custom datapacks, difficulty or enabled addons. When in doubt, follow the actual in-game interface.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
