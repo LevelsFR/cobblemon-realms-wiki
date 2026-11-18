@@ -35,9 +35,9 @@ In <strong>Cobblemon Realms</strong>, crafting the teleporter is not possible. T
 
 ### 🔹 Leaving the Safari
 
-- Command: `/safariexit`
-- You can leave at any time
-- Remaining time is **preserved for the day**
+- **`/safariexit` was removed in 0.4.0.**
+- Find a **Safari Exit Drone**: right-click it to confirm the exit, or stand beneath it for a few seconds.
+- Exit Drones appear near players according to the server's configured intervals.
 
 ---
 
