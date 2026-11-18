@@ -146,6 +146,16 @@ Si vous souhaitez configurer les probabilités de relance des Pokémon chromatiq
 
 ---
 
+## 🆕 Objectifs et récompenses du donjon (0.4.1)
+
+Le Monde Distorsion utilise maintenant le système d'[Objectifs dimensionnels](dimensional_objectives.md). Les tâches et récompenses sont paramétrables dans les datapacks. Le correctif **0.4.1** répare un Lost Item de la zone de départ qui ne distribuait pas la récompense attendue.
+
+Depuis la 0.4.0, le donjon n'est plus détruit immédiatement lorsque son portail d'entrée expire. **Les joueurs déjà présents conservent leur session**, dans les limites de leur minuteur.
+
+[Changements 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Correctif 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
