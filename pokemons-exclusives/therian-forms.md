@@ -37,7 +37,7 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click on Thundurus with the `Sacred Mirror`
+- 🖱️ Use the **Reveal Glass** (`mega_showdown:reveal_glass`) and select **Thundurus** from your party
 - ℹ️ The same item can both activate and revert the transformation
 
 ---
@@ -86,7 +86,7 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click on Tornadus with the `Sacred Mirror`
+- 🖱️ Use the **Reveal Glass** (`mega_showdown:reveal_glass`) and select **Tornadus** from your party
 - ℹ️ The same item can both activate and revert the transformation
 
 ---
@@ -135,12 +135,22 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click on Landorus with the `Sacred Mirror`
+- 🖱️ Use the **Reveal Glass** (`mega_showdown:reveal_glass`) and select **Landorus** from your party
 - ℹ️ The same item can both activate and revert the transformation
 
 ### 📜 Description
 
 > Taking the appearance of a sacred tiger, Landorus watches over fertile lands. Its presence encourages abundant harvests, but its anger can also unleash the forces of nature.
+
+---
+
+## 💗 Enamorus Therian Form
+
+Mega Showdown's **Reveal Glass** also supports **Enamorus**, in addition to the three Forces of Nature described above. Use the same item and select Enamorus in your party to toggle between **Incarnate** and **Therian** forms.
+
+{% hint style="info" %}
+This fourth Pokémon is confirmed by the [upstream item registration](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/main/common/src/main/java/com/github/yajatkaul/mega_showdown/item/MegaShowdownItems.java). Availability may differ depending on the installed modpack version.
+{% endhint %}
 
 ---
 
