@@ -146,6 +146,16 @@ If you wish to configure shiny reroll probabilities and the list of available Po
 
 ---
 
+## 🆕 Dungeon Objectives and Rewards (0.4.1)
+
+The Distortion World now uses the shared [Dimensional Objectives system](dimensional_objectives.md). Objectives and reward pools are defined by datapacks. CobbleSafari **0.4.1** fixes the opening section's Lost Item so it grants the intended objective reward.
+
+Since 0.4.0, a dungeon no longer immediately disappears just because its entrance Hoopa Portal expires. **Players already inside keep their active session**, subject to the instance timer.
+
+[Official 0.4.0 changes](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 Lost Item fix](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact us
 
