@@ -39,11 +39,6 @@ Lorsque le portail disparaît, la dimension s'effondre et tous les joueurs encor
 </p>
 {% endhint %}
 
-Comme toutes les dimensions spéciales, le comportement du Monde Distorsion peut être entièrement personnalisé grâce aux configurations suivantes :
-
-- [Dimensional Restrictions](https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config)
-- [Dimensional Timer](https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config)
-
 ---
 
 ## 🪨 Plateformes et gravité
@@ -132,23 +127,13 @@ Cependant, Giratina accepte les **Fragments de Chaîne Rouge** et peut les trans
 
 ---
 
-{% hint style="info" %}
-## Plus d'informations
 
-<p align="center">
-Les objets peuvent être rendus inaccessibles en les supprimant de la table de butin giratina_core_trade. Vous pouvez également configurer les probabilités de relance des Pokémon chromatiques ainsi que la liste des Poké Balls disponibles dans le fichier de configuration.<br><br>
-</p>
-
-<p align="center">
-Si vous souhaitez configurer les probabilités de relance des Pokémon chromatiques ainsi que la liste des Poké Balls disponibles, consultez la page officielle du mod : <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_randomizer_items_config">config_randomizer_items_config</a>
-</p>
-{% endhint %}
 
 ---
 
 ## 🆕 Objectifs et récompenses du donjon (0.4.1)
 
-Le Monde Distorsion utilise maintenant le système d'[Objectifs dimensionnels](dimensional_objectives.md). Les tâches et récompenses sont paramétrables dans les datapacks. Le correctif **0.4.1** répare un Lost Item de la zone de départ qui ne distribuait pas la récompense attendue.
+Le Monde Distorsion utilise maintenant le système d'[Objectifs dimensionnels](dimensional_objectives.md). Le correctif **0.4.1** répare un Lost Item de la zone de départ qui ne distribuait pas la récompense attendue.
 
 Depuis la 0.4.0, le donjon n'est plus détruit immédiatement lorsque son portail d'entrée expire. **Les joueurs déjà présents conservent leur session**, dans les limites de leur minuteur.
 
