@@ -32,10 +32,6 @@ La version 0.4 rééquilibre leurs récompenses et celles des Poké Balls porte-
 
 Consultez [Lost Items](lost_items.md) et [Hyperspace Lumiose](hyperspace_lumiose.md).
 
-## 🛠️ Pour les créateurs de datapacks
-
-Les définitions se trouvent sous `data/cobblesafari/dimensional_objectives/`. Avant toute personnalisation, étudiez `tasks`, `weight`, `countRange` et les tables de récompenses de chaque donjon.
-
 {% hint style="warning" %}
 **Cobblemon Realms :** ces informations proviennent de CobbleSafari **0.4.0/0.4.1**, intégré au modpack **6.3**. Les conditions peuvent dépendre de la configuration du serveur, des addons et des datapacks. Référez-vous à l'interface du jeu lorsqu'elle indique des règles différentes.
 {% endhint %}
