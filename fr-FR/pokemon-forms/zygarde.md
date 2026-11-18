@@ -5,7 +5,7 @@
 {% endhint %}
 
 
-![Zygarde](../imgwiki/Myth_Legends/gen_6/zygarde.png)
+![Zygarde](../../imgwiki/Myth_Legends/gen_6/zygarde.png)
 
 ## 🧰 Objets nécessaires
 
