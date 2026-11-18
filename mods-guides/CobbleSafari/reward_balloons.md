@@ -87,6 +87,16 @@ You can find a complete description of the configuration files on the mod's offi
 
 ---
 
+## 🆕 Update 0.4: Balloon Spawn Limit
+
+To prevent unused balloons from accumulating, the upstream `misc_config.json` now includes **`balloonMaxNearby`**, with a **default limit of 3**. A new Reward Balloon cannot spawn while at least three unlooted balloons are already nearby. Set the value to `0` to disable this limit on a customized server.
+
+The Safari-specific balloon system remains separate. These settings can be modified by Cobblemon Realms and are not guaranteed to match the upstream defaults.
+
+[Official CobbleSafari 0.4.0 changes](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+
+---
+
 {% hint style="success" %}
 ## Contact Us
 
