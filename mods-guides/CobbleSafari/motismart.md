@@ -181,15 +181,14 @@ Unlike a simple double jump that could be used to gain height, this feature is p
 
 {% hint style="info" %}
 <p align="center">
-By default, not all apps are immediately available. Each app can be <strong>locked, unlocked, or completely disabled</strong> by server owners and modpack creators. Locked apps simply do not appear in the menu until they have been obtained.
+By default, not all apps are immediately available. Each app can be <strong>locked, unlocked, or completely disabled</strong> as you progress. Locked apps simply do not appear in the menu until they have been obtained.
 </p>
 {% endhint %}
 
-There are **three ways** to unlock an app:
+There are **two main ways** for players to unlock an app:
 
-- 🎁 **Mission reward:** a mission can be configured to unlock an app when it starts.
+- 🎁 **Mission reward:** completing missions can unlock apps.
 - 🔑 **Unlock item:** consumable items exist for each app and can be used to unlock them, including as dungeon loot or mission rewards.
-- 🛠️ **Administrator command:** server administrators, command blocks, and other systems external to CobbleSafari can use commands to directly grant apps.
 
 ***
 
@@ -197,15 +196,15 @@ There are **three ways** to unlock an app:
 
 ### ✨ New Roto-Fall and Roto-Glide Animations
 
-When Roto-Fall prevents severe fall damage or Roto-Glide activates, the Rotom Phone plays an animation with Rotom's cry. As of **0.4.1**, players can disable these totem-style animations in the local `client_settings.json` for accessibility.
+When Roto-Fall prevents severe fall damage or Roto-Glide activates, the Rotom Phone plays an animation with Rotom's cry. As of **0.4.1**, players can disable these totem-style animations in the client accessibility settings.
 
 ### ⛔ Dungeon Restrictions
 
-Some dungeons, including **[Bell Tower](bell_tower.md)**, disable **both Roto-Fall and Roto-Glide** through the dimension's `allowRotomSafety` setting. Do not rely on the phone to rescue you there. The **Ultra Warp Ride** also has a separate option to disable flashing effects.
+Some dungeons, including **[Bell Tower](bell_tower.md)**, disable **both Roto-Fall and Roto-Glide** inside those dimensions. Do not rely on the phone to rescue you there. The **Ultra Warp Ride** also has a separate option to disable flashing effects.
 
 ### ⚡ Haunted Data Monitor
 
-At certain in-game hours, a Cobblemon **Data Monitor with a lit candle** on top may be struck by a harmless lightning bolt and become haunted. Interacting with it breaks the setup and releases a wild **Rotom**. The upstream chance is configurable with `hauntedMonitorStrikeChance` in `misc_config.json`.
+At certain in-game hours, a Cobblemon **Data Monitor with a lit candle** on top may be struck by a harmless lightning bolt and become haunted. Interacting with it breaks the setup and releases a wild **Rotom**. This is a rare encounter.
 
 [Official 0.4.0 release](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 accessibility changes](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 
