@@ -60,38 +60,9 @@ Un petit bonus conçu pour faciliter l’exploration du Safari.
 
 ---
 
-## ⚙️ Configuration
+## 🎈 Ballons non récupérés (0.4+)
 
-Les fichiers de configuration sont séparés selon le type de ballon :
-
-- 🎈 `config/cobblesafari/misc_config.json` → Ballon Récompense
-- 🏝️ `config/cobblesafari/safari_config.json` → Ballon Safari
-
-### 🔧 Paramètres principaux
-
-- 🎈 **Ballon Récompense**
-  - `balloonEnabled` → activation/désactivation
-
-- 🏝️ **Ballon Safari*
-  - `balloonSafariEnabled` → activation/désactivation
-
----
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Vous trouverez une description complète du fichier de configuration sur les pages officielle du mod : <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_misc_config">Configuration des Ballons Récompenses</a> et <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_safari_config">Configuration des Ballons du Safari</a>
-</p>
-{% endhint %}
-
----
-
-## 🆕 Changement 0.4 : limiter l'accumulation des ballons
-
-Pour éviter l'accumulation des ballons oubliés, `misc_config.json` comporte désormais l'option **`balloonMaxNearby`**. Sa valeur officielle par défaut est **3** : aucun nouveau Ballon Récompense n'apparaît si trois ballons non récupérés se trouvent déjà à proximité. La valeur `0` supprime cette limite sur un serveur personnalisé.
-
-Le système des ballons Safari reste distinct. La configuration du serveur Cobblemon Realms peut différer de ces paramètres d'origine.
+Pour éviter l'accumulation d'objets, **les nouveaux ballons peuvent cesser d'apparaître** lorsque plusieurs ballons non récupérés sont déjà à proximité. Avec les règles habituelles du mod, cette limite est de **trois**. Ramassez les ballons que vous croisez pendant vos explorations.
 
 [Notes officielles CobbleSafari 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
 
