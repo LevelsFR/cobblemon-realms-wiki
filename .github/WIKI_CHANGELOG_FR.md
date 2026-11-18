@@ -48,6 +48,13 @@
 - Actualisation de `page-meta.json` : date, nouvelles thématiques `form-changes` et `mega-showdown`, règle des pages `pokemon-forms/`.
 - Les nouvelles pages sont classées « À vérifier » pour ne pas présenter une vérification du code *upstream* comme une validation du serveur Cobblemon Realms.
 
+### 08. Vérification des références après les commits
+- Contrôle statique de la navigation à partir de l'arborescence GitHub actuelle : **138 liens valides sur 138** dans chacun des deux sommaires.
+- Contrôle des liens locaux des neuf nouvelles pages anglaises : **21 liens valides, aucun lien cassé**.
+- Contrôle des liens locaux des neuf nouvelles pages françaises : **21 liens valides, aucun lien cassé**.
+- Correction des chemins d'image des pages françaises Shaymin et Zygarde vers le dossier partagé `imgwiki/`.
+- Vérifications non effectuées : compilation locale du site et tests en jeu, faute d'accès direct aux exécutables du modpack et à un clone du dépôt dans cet environnement. Ces points restent à réaliser après déploiement.
+
 ### 07. Points à valider après publication
 - Construire le site et exécuter `npm run test:static-routing`.
 - Vérifier le menu EN/FR, la navigation et les liens entre rubriques, les illustrations, les transformations en jeu et la disponibilité des objets en survie.
