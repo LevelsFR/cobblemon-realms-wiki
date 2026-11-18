@@ -135,7 +135,7 @@ Allows you to spawn CobbleSafari traders.
 ## View active portals
 
 ```
-/cobblesafari dungeon list
+/cobblesafari dungeon list portal
 ```
 
 ℹ️ Displays active entrance portals. **`/cobblesafari dungeon list`** now lists the live dungeon instances and their occupants.
