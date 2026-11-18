@@ -461,8 +461,7 @@ export default {
     const url = new URL(req.url);
     const res = await baseWorker.fetch(req, env, ctx);
     const ct = res.headers.get('content-type') || '';
-    if (!ct.includes('text/html')) return res;
-    const admin = isAdminPage(url);
-    return new HTMLRewriter().on('head', new HeadInject(admin)).on('body', new BodyInject(admin)).transform(res);
+    if (!ct.includes('text/html') || !isAdminPage(url)) return res;
+    return new HTMLRewriter().on('head', new HeadInject(true)).on('body', new BodyInject(true)).transform(res);
   }
 };
