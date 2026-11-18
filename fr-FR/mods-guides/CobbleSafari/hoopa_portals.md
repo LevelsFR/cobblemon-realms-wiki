@@ -31,11 +31,11 @@ Chaque donjon est instancié : vous ne rejoignez pas un monde partagé, mais une
 
 Les donjons ne sont pas éternels.
 
-* ⏳ Vous disposez de **15 minutes** par défaut dans une dimension ;
+* ⏳ Chaque donjon possède une **durée de session configurable** ; les 15 minutes ne sont plus une valeur universelle pour tous les donjons de la 0.4 ;
 * 💥 Les portails finissent par expirer ou être détruits ;
 * 🚪 Les joueurs encore présents sont expulsés à la fin du timer dimensionnel.
 
-Une fois le portail disparu, l’instance du donjon est entièrement supprimée.
+**Depuis CobbleSafari 0.4.0 :** la disparition du portail ne ferme pas immédiatement le donjon. L'instance reste active tant qu'elle accueille des joueurs, selon les nouvelles règles de session.
 
 ***
 
@@ -61,7 +61,7 @@ Toujours vérifier la destination avant d’accepter une téléportation.
 
 ## 🗺️ Dungeon Pool par défaut
 
-Les portails peuvent actuellement mener vers :
+Le choix des destinations dépend du pool de donjons et de la configuration du serveur. Le mod d'origine propose notamment :
 
 * 🌍 **Souterrain de Sinnoh**
   Exploration souterraine, mini-jeu d’excavation, trésors rares et Pokémon cachés.
@@ -71,6 +71,24 @@ Les portails peuvent actuellement mener vers :
   → [Voir la page](distortion_world.md)
 
 ***
+
+- 🌃 **[Ultra Mégalopole](ultra_megalopolis.md)** : ville sombre et accès à Ultra Warp Ride.
+- 🏙️ **[Hyperspace Lumiose](hyperspace_lumiose.md)** : Zones Sauvages, rencontres rares et objectifs d'instance.
+- 🔔 **[Tour Carillon](bell_tower.md)** : ascension et combat contre Ho-Oh.
+
+---
+
+## 🆕 Changements depuis la 0.4.0/0.4.1
+
+- Chaque visite possède désormais son propre **temps de session**, indépendant de la durée de vie du portail.
+- Le donjon **reste actif pour les joueurs déjà à l'intérieur** lorsque le portail d'entrée expire.
+- Un **[générateur de portails](portal_spawner.md)** réservé aux admins propose des intervalles fixes, aléatoires ou un déclenchement redstone.
+- La génération naturelle peut être restreinte via `bannedBiomes` et les tags `#cobblesafari:portal_spawnable_on` et `#cobblesafari:portal_repellents`.
+- Depuis la 0.4.1, l'entrée d'Ultra Mégalopole prend l'apparence d'une Ultra-Brèche.
+
+[Version 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Version 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
 
 ## ⚙️ Configuration
 
