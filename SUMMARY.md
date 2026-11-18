@@ -81,8 +81,6 @@
   * [🔔 Bell Tower](mods-guides/CobbleSafari/bell_tower.md)
   * [🎯 Dimensional Objectives](mods-guides/CobbleSafari/dimensional_objectives.md)
   * [✨ Lost Items](mods-guides/CobbleSafari/lost_items.md)
-  * [🌀 Portal Spawner (Admin)](mods-guides/CobbleSafari/portal_spawner.md)
-  * [⚙️ 0.4 Server Setup (Admin)](mods-guides/CobbleSafari/admin_configuration.md)
   * [📱 Rotom Phone](mods-guides/CobbleSafari/motismart.md)
     * [👔 Rotom Phone Holo-Skins](mods-guides/CobbleSafari/holo_skin.md)
     * [🗒️ List of all Missions](mods-guides/CobbleSafari/list_miss.md)
@@ -97,7 +95,6 @@
   * [🏠 Secret Base PC](mods-guides/CobbleSafari/secret_base_pc.md)
   * [🤝 Trader Exchanges](mods-guides/CobbleSafari/traders_trade_list.md)
   * [💡 Useful Blocks](mods-guides/CobbleSafari/blocs_utiles.md)
-  * [⌨️ /cobblesafari Command](mods-guides/CobbleSafari/cobblesafari_command.md)
 
 ## Myths & Legends
 
