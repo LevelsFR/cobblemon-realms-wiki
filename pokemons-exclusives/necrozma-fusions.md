@@ -37,7 +37,7 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click Solgaleo with the `N-Solarizer`
+- 🖱️ Send out **Solgaleo** and use the N-Solarizer on it to store the partner. Then send out **Necrozma** and use the charged item on Necrozma. Repeat on the fused Necrozma to separate them.
 
 ---
 
@@ -84,7 +84,7 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click Lunala with the `N-Lunarizer`
+- 🖱️ Send out **Lunala** and use the N-Lunarizer on it to store the partner. Then send out **Necrozma** and use the charged item on Necrozma. Repeat on the fused Necrozma to separate them.
 
 ---
 
@@ -131,7 +131,7 @@
 
 ### 🔄 Usage
 
-- 🖱️ Right-click Lunala with the `Ultranecrozium Z`
+- ⚠️ **Do not right-click Lunala:** Ultranecrozium Z is registered as a **Z-Crystal**, not as a form-change item for Lunala. The exact Ultra Necrozma activation procedure has not been verified for the Cobblemon Realms mod version.
 
 ---
 
