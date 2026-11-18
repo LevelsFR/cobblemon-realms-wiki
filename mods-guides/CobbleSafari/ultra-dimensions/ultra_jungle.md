@@ -4,12 +4,10 @@
 <p align="center">This guide documents the <strong>upstream encounter pools</strong> for this Ultra Dimension. The encounter depends on your wormhole rank and may be modified by the server configuration.</p>
 {% endhint %}
 
-## 🗺️ Destination Reference
+## 🗺️ Recognizing This Destination
 
 | Property | Value |
 | --- | --- |
-| Destination ID | `cobblesafari:ultra_jungle` |
-| Type ID | `2` |
 | Portal tint | `#339933` |
 | Mod | CobbleSafari 0.4.x |
 
@@ -43,11 +41,9 @@ The upstream destination file lists the following eight Pokémon in its normal p
 
 ---
 
-## 🎁 Related Loot & Souvenirs
+## 🎁 Possible Special Loot
 
-The source includes a loot table associated with this destination's featured special Pokémon. It includes an entry for `cobblesafari:buzzwole_seeds`.
-
-This **does not guarantee** the item will drop on each run. The source tables may also contain equipment such as Ultra Recon Armor pieces.
+This destination's reward pool can include items associated with its featured Pokémon, such as **Beefy Seeds**. Rewards are not guaranteed on every visit.
 
 ---
 
