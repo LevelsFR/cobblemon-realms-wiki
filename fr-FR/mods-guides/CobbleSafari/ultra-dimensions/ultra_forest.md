@@ -4,12 +4,10 @@
 <p align="center">Cette fiche présente les <strong>pools de rencontres du mod officiel</strong> pour cette Ultra-Dimension. Les valeurs dépendent du rang de votre Ultra-Brèche et peuvent être modifiées par les réglages du serveur.</p>
 {% endhint %}
 
-## 🗺️ Informations sur la destination
+## 🗺️ Reconnaître cette dimension
 
 | Propriété | Valeur |
 | --- | --- |
-| Identifiant de destination | `cobblesafari:ultra_forest` |
-| Type ID | `6` |
 | Teinte du portail | `#99cc00` |
 | Extension | CobbleSafari 0.4.x |
 
@@ -43,11 +41,9 @@ Le fichier officiel propose ces huit Pokémon pour le pool ordinaire :
 
 ---
 
-## 🎁 Butin et souvenirs associés
+## 🎁 Récompenses spéciales possibles
 
-Le mod contient une table de butin associée au Pokémon spécial de cette destination. Elle référence notamment `cobblesafari:kartana_canon`.
-
-La présence de l'objet dans cette table **ne garantit pas sa récupération** pendant chaque visite. D'autres objets comme des éléments d'armure Ultra Recon peuvent également être inclus dans les tables officielles.
+Les récompenses de cette dimension peuvent contenir des objets associés à ses Pokémon vedettes, comme **Origami Carrier**. Ces objets ne sont pas garantis à chaque visite.
 
 ---
 
