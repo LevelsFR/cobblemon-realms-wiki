@@ -20,7 +20,7 @@ Chaque visite reçoit un rang de **1 à 5 étoiles** et **un ou deux types Poké
 
 ## 🎯 Exemples de tâches
 
-Le fichier `dungeon_paris.json` définit notamment :
+Parmi les objectifs possibles :
 
 - Récupérer des Lost Items flottants ou scintillants ;
 - Capturer des Pokémon, parfois d'espèces ou de types précis ;
@@ -32,7 +32,7 @@ Une fois les objectifs requis terminés, une **Poké Ball dorée porte-bonheur**
 
 ## ⏳ Réapparitions
 
-Par défaut, les obstacles réapparaissent après **5 minutes** et les gisements Shard Cluster après **15 minutes**. Ces derniers sont **désactivés par défaut** sauf activation du serveur ou de l'intégration Mega Showdown dans l'Onboarding.
+Dans le mod d'origine, les obstacles réapparaissent après environ **5 minutes** et les gisements Shard Cluster après environ **15 minutes**. Ces gisements ne sont pas présents dans tous les mondes.
 
 ## 🍩 Cuisiner des donuts
 
