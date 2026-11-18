@@ -55,7 +55,7 @@ The 0.4.1 update also fixes the distribution of **Bell Tower Lost Item loot**. D
 [Boss Battles](fight_boss.md) · [Dimensional Objectives](dimensional_objectives.md) · [Hoopa Portals](hoopa_portals.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms:** CobbleSafari 0.4.1 is included in modpack v6.3, but the default behavior described here can be altered by server settings, custom datapacks, difficulty or enabled addons. When in doubt, follow the actual in-game interface.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
