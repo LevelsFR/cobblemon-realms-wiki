@@ -40,7 +40,8 @@ If Cobbreeding is removed during incubation, encrypted data is lost, but the spe
 </p>
 {% endhint %}
 
-{% hint style="info" %}
+---
+
 {% hint style="success" %}
 ## Contact Us
 
