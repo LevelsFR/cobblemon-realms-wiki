@@ -32,11 +32,11 @@ Each dungeon is instanced: you are not joining a shared world, but a unique vers
 
 Dungeons are not permanent.
 
-- ⏳ You have **15 minutes** by default inside a dimension;
+- ⏳ Each dungeon has its own configurable **session duration**; 15 minutes is not a universal value for the new 0.4 dungeons;
 - 💥 Portals eventually expire or are destroyed;
 - 🚪 Players still inside are expelled when the dimensional timer ends.
 
-Once the portal disappears, the dungeon instance is completely removed.
+**New in CobbleSafari 0.4.0:** an entrance portal may expire while its dungeon is still active. The instance remains available to its occupants and closes only when its session ends under the new per-visit rules.
 
 ---
 
@@ -70,6 +70,25 @@ Portals can currently lead to:
 - 🌀 **Distortion World**  
   Giratina's chaotic dimension featuring inverted platforms, illusion labyrinths, and battles against Distorted Pokémon.  
   → [View page](distortion_world.md)
+
+---
+
+
+- 🌃 **[Ultra Megalopolis](ultra_megalopolis.md)**: a dark city and access point to Ultra Warp Ride.
+- 🏙️ **[Hyperspace Lumiose](hyperspace_lumiose.md)**: special encounters, Wild Zones and star-rated dungeon objectives.
+- 🔔 **[Bell Tower](bell_tower.md)**: vertical platforming and the Ho-Oh boss.
+
+---
+
+## 🆕 Portal Changes in 0.4.0/0.4.1
+
+- Dungeon time is now tracked **per visit/session**. Entrance portal lifetime and dungeon session lifetime are distinct.
+- A portal may disappear after its configured lifespan, but the **dungeon stays active for players inside**.
+- A new admin **[Portal Spawner](portal_spawner.md)** can create renewable portals using fixed, random or redstone-driven intervals.
+- Natural spawns can be restricted by `bannedBiomes`, `#cobblesafari:portal_spawnable_on` and `#cobblesafari:portal_repellents`.
+- The **Megalopolis portal** uses an Ultra Wormhole appearance as of 0.4.1.
+
+[Official 0.4.0 changes](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 refinements](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 
 ---
 
