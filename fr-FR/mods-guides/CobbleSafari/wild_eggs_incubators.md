@@ -40,7 +40,8 @@ Si Cobbreeding est retiré pendant l’incubation, les données cryptées sont p
 </p>
 {% endhint %}
 
-{% hint style="info" %}
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
