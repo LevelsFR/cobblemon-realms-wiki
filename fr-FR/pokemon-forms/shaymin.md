@@ -5,7 +5,7 @@
 {% endhint %}
 
 
-![Shaymin](../imgwiki/Myth_Legends/gen_4/shaymin.png)
+![Shaymin](../../imgwiki/Myth_Legends/gen_4/shaymin.png)
 
 ## 🔄 Comment changer sa forme ?
 
