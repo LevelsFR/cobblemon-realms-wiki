@@ -138,7 +138,7 @@ Allows you to spawn CobbleSafari traders.
 /cobblesafari dungeon list
 ```
 
-ℹ️ Displays all currently active portals.
+ℹ️ Displays active entrance portals. **`/cobblesafari dungeon list`** now lists the live dungeon instances and their occupants.
 
 ## Display registered dimensions
 
@@ -147,6 +147,52 @@ Allows you to spawn CobbleSafari traders.
 ```
 
 ℹ️ Displays the available dungeon dimensions and their configured durations.
+
+---
+
+
+---
+
+## 🆕 CobbleSafari 0.4 Commands
+
+### 🧭 Initial admin setup
+
+```mcfunction
+/cobblesafari onboarding
+```
+
+Opens the onboarding screen for operators (permission level 2). It can enable portal/balloon systems and declare compatible species addons, including Ultra Beasts and Mega Showdown.
+
+### 🌀 Active portals vs. live instances
+
+```mcfunction
+/cs dungeon list
+/cs dungeon list portal
+/cs dungeon list portal force
+/cs dungeon spawn [player] [dungeon]
+/cs reset dungeon force
+```
+
+- `list` reports **active dungeon sessions**, occupants and entry state.
+- `list portal` reports **entrance portals**; `force` requests a rescan of loaded chunks.
+- `spawn` can target a specific configured dungeon without using the force flag.
+- `reset dungeon force` overrides the normal protection for occupied dungeons; **use only when evacuation is intended**.
+
+### ⏳ Per-visit session timers
+
+```mcfunction
+/cs timer session list <player>
+/cs timer session add <player> <scope> <seconds>
+/cs timer session set <player> <scope> <seconds>
+```
+
+Sessions now belong to **individual dungeon visits**. The older `timer dimension` command only modifies an existing matching session and cannot create one.
+
+### 🛠️ Related admin guides
+
+[Portal Spawner](portal_spawner.md) · [0.4 Configuration](admin_configuration.md) · [Dimensional Objectives](dimensional_objectives.md).
+
+**Sources:** [0.4.0 release](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Command registration](https://github.com/maxigregrze/CobbleSafari/blob/main/common/src/main/java/maxigregrze/cobblesafari/command/CobbleSafariCommand.java).
 
 ---
 
