@@ -37,18 +37,18 @@ The source-defined difficulty model uses distance bands and four portal ranks. D
 - Selection of a rarer reward encounter, including potential Ultra Beasts.
 
 {% hint style="warning" %}
-The system defines probabilities, not guaranteed Shiny, Alpha or Ultra Beast outcomes. The exact parameters are datapack-driven and server-adjustable.
+The system uses probabilities, not guaranteed Shiny, Alpha or Ultra Beast outcomes.
 {% endhint %}
 
 ## 📊 How Distance Works
 
-The upstream `difficulty.json` defines bands beginning at **0, 300, 600, 1,000, 1,500** and farther light-years. At high distances, top-ranked portals have a nonzero chance to occur. The reference configuration sets `noBonusDistance` to **5,100**, where additional positive energy boosts no longer appear.
+Longer flights unlock increasingly valuable portals, with early distance milestones at **300, 600, 1,000 and 1,500 light-years**. In the base mod, positive energy boosts stop appearing after around **5,100 light-years**.
 
 The **Ultra Recon Armor** set can provide additional protection during the ride and grants an Elytra-like effect when its configured full-set bonus is enabled.
 
 ## ♿ Accessibility and Settings
 
-As of **0.4.1**, the Ultra Warp Ride flash effects can be disabled in client settings. This option belongs to `client_settings.json`, not the main server settings.
+As of **0.4.1**, the Ultra Warp Ride flash effects can be disabled in client settings. 
 
 Explore [the seven destinations](ultra_dimensions.md) and [their unique equipment](ultra_loot.md).
 
