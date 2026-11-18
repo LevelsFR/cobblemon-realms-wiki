@@ -9,7 +9,7 @@ CobbleSafari enrichit l'expérience Cobblemon Realms avec de nouvelles dimension
 ---
 
 {% hint style="info" %}
-**Guide actualisé pour CobbleSafari 0.4.1**, intégré à Cobblemon Realms v6.3. Cette rubrique couvre désormais Ultra Space, Hyperspace Lumiose, la Tour Carillon, ainsi que les nouvelles mécaniques de portails, donjons et administration. [Notes officielles](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+**Guide actualisé pour CobbleSafari 0.4.1**, intégré à Cobblemon Realms v6.3. Cette rubrique couvre désormais Ultra Space, Hyperspace Lumiose, la Tour Carillon, ainsi que les nouvelles mécaniques de portails et de donjons. [Notes officielles](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 {% endhint %}
 
 ---
@@ -32,8 +32,6 @@ Retrouvez les différentes fonctionnalités de CobbleSafari dans les pages suiva
   * [🔔 Tour Carillon](bell_tower.md)
   * [🎯 Objectifs dimensionnels](dimensional_objectives.md)
   * [✨ Lost Items](lost_items.md)
-  * [🌀 Générateur de portails (Admin)](portal_spawner.md)
-  * [⚙️ Configuration CobbleSafari 0.4 (Admin)](admin_configuration.md)
   * [📱 Motismart](motismart.md)
     * [👔 Holo-Skins du Motismart](holo_skin.md)
     * [🗒️ Liste des Missions](list_miss.md)
@@ -48,4 +46,3 @@ Retrouvez les différentes fonctionnalités de CobbleSafari dans les pages suiva
   * [🏠 PC de Base Secrète](secret_base_pc.md)
   * [🤝 Échanges des Marchands](traders_trade_list.md)
   * [💡 Blocs Utiles](blocs_utiles.md)
-  * [⌨️ Commande `/cobblesafari`](cobblesafari_command.md)
