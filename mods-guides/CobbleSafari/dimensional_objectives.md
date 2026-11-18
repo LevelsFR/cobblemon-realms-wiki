@@ -32,10 +32,6 @@ The 0.4 update rebalanced Lost Item and Auspicious Poké Ball loot. Some objecti
 
 See [Lost Items](lost_items.md) and [Hyperspace Lumiose](hyperspace_lumiose.md).
 
-## 🛠️ For Server Creators
-
-The definitions live in `data/cobblesafari/dimensional_objectives/`. You can inspect `tasks`, `weight`, optional `countRange`, and reward tables before overriding them in a datapack.
-
 {% hint style="warning" %}
 **Cobblemon Realms:** CobbleSafari 0.4.1 is included in modpack v6.3, but the default behavior described here can be altered by server settings, custom datapacks, difficulty or enabled addons. When in doubt, follow the actual in-game interface.
 {% endhint %}
