@@ -31,5 +31,5 @@ const entry = fs.readFileSync(path.join(root, 'scripts/worker-entry.mjs'), 'utf8
 assert.ok(entry.includes("!isAdminPage(url)"), 'HTML rewriting must be restricted to admin pages');
 const worker = fs.readFileSync(path.join(root, 'scripts/worker.mjs'), 'utf8');
 assert.ok(worker.includes("new URL('/404.html',url)"), 'Worker must preserve the branded 404 fallback');
-assert.ok(worker.includes('getRedirectMap'), 'D1 redirect support must remain available');
+assert.ok(entry.includes('getRedirectMap'), 'D1 redirect support must remain available');
 console.log('Static-first routing checks passed: EN/FR, 404, admin isolation and D1 preserved.');
