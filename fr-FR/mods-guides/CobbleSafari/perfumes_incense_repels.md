@@ -87,35 +87,6 @@ Simple, efficace… et un peu radical.
 
 ***
 
-## ⚙️ Configuration
-
-Les paramètres de ces systèmes sont définis dans :
-
-`config/cobblesafari/encounter_boost_config.json`
-
-### 🔧 Catégories principales
-
-* ⚙️ **Paramètres d'effet** → `effectSettings`\
-  Définit le fonctionnement des effets (y compris ceux d’autres systèmes comme le [PC de Base Secrète](secret_base_pc.md)).
-* ⏱️ **Paramètres de durée** → `durationSettings`\
-  Définit la durée des objets donnant les effets.
-
-***
-
-{% hint style="warning" %}
-## Avertissement
-
-<p align="center">Certaines valeurs présentes dans le fichier de configuration ne sont pas encore actives en jeu.<br>Elles seront utilisées dans de futures mises à jour.</p>
-{% endhint %}
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">Vous trouverez une description complète du fichier de configuration sur la page officielle du mod : <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_encounter_boost_config">Encounter_boost_config</a></p>
-{% endhint %}
-
-***
-
 {% hint style="success" %}
 ## Nous contacter
 
