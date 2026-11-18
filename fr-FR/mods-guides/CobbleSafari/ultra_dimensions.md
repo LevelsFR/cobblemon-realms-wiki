@@ -38,7 +38,7 @@ Les destinations utilisent généralement les poids relatifs **70 pour l'Ultra-C
 [Ultra Space](ultra_space.md) · [Ultra Warp Ride](ultra_warp_ride.md) · [Récompenses Ultra](ultra_loot.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms :** ce guide décrit les mécaniques officielles de CobbleSafari **0.4.0/0.4.1**, intégrées au modpack **6.3**. Les apparitions, récompenses, durées et fonctionnalités disponibles peuvent être modifiées par le serveur, les addons ou les datapacks. Les valeurs du mod d'origine ne sont pas des garanties pour le serveur public.
+**Cobblemon Realms :** les rencontres, récompenses et durées peuvent varier selon le monde. Référez-vous aux indications affichées en jeu.
 {% endhint %}
 
 ## 📖 Sources
