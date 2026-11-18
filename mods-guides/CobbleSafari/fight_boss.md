@@ -99,7 +99,7 @@ Certain restrictions apply during a Boss Battle:
 
 ## 📍 Where to Find Bosses?
 
-The upstream **CobbleSafari 0.4** release includes **Giratina's Shadow** in the Distortion World and **Ho-Oh** at the top of the new Bell Tower. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
+The upstream **CobbleSafari 0.4** release includes **Giratina's Shadow** in the Distortion World and **Ho-Oh** at the top of the new Bell Tower. To discover Giratina's arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
 
 *** 
 
