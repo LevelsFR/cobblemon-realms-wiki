@@ -99,7 +99,7 @@ Certaines restrictions s'appliquent pendant un Combat de Boss :
 
 ## 📍 Où trouver les Boss ?
 
-Dans la version **0.4+ de CobbleSafari**, deux combats sont notamment présents : **l'Ombre de Giratina** et **Ho-Oh** à la Tour Carillon, qui vous attend sur l'autel situé au cœur de l'arène du Monde Distorsion. Pour découvrir cette arène et tout savoir sur le combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
+Dans **CobbleSafari 0.4+**, deux combats de boss sont disponibles : **l'Ombre de Giratina**, située dans le Monde Distorsion, et **Ho-Oh**, au sommet de la Tour Carillon. Pour découvrir l'arène de Giratina et ses mécaniques, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
 
 *** 
 
