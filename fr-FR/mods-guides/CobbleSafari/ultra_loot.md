@@ -44,6 +44,32 @@ Explorez [les Ultra-Dimensions](ultra_dimensions.md) pour découvrir leurs souve
 
 ---
 
+## 🧾 Identifiants techniques confirmés
+
+Les identifiants ci-dessous apparaissent dans les tables de butin officielles de la 0.4. Ils peuvent aider à retrouver les objets dans JEI ou à contrôler un datapack.
+
+| Objet / Ensemble | Identifiant |
+| --- | --- |
+| Needle Dart | `cobblesafari:poipole_arrow` |
+| Harlequin Bomb | `cobblesafari:blacephalon_bomb` |
+| Static Heap | `cobblesafari:xurkitree_bomb` |
+| Stellar Canon | `cobblesafari:celesteela_canon` |
+| Origami Carrier | `cobblesafari:kartana_canon` |
+| Stacked Shield | `cobblesafari:stakataka_shield` |
+| Nihilhat | `cobblesafari:nihilego_hat` |
+| Graines Beefy | `cobblesafari:buzzwole_seeds` |
+| Graines Beauty | `cobblesafari:pheromosa_seeds` |
+| Armure Ultra Recon | `cobblesafari:recon_armor_helmet` etc. |
+| Armure Glutton | `cobblesafari:gluton_armor_helmet` etc. |
+
+{% hint style="info" %}
+Un identifiant est plus fiable qu'une traduction du nom de l'objet. Sa présence dans une table de butin **ne suffit pas à garantir son obtention** avec les paramètres du serveur.
+{% endhint %}
+
+[Tables de butin officielles Ultra Space](https://github.com/maxigregrze/CobbleSafari/tree/main/common/src/main/resources/data/cobblesafari/loot_table/ultraspace).
+
+---
+
 {% hint style="success" %}
 ## 📥 Nous contacter
 
