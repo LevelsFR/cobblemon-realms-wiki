@@ -42,7 +42,7 @@ Atteignez l'arène supérieure et combattez **Ho-Oh** via le système CSBoss.
 
 ## 🔥 Boss et récompenses
 
-Le fichier officiel `csboss/hooh.json` définit des attaques Feu, Vol et des mécaniques de saut, avec un multiplicateur de dégâts de **2,0**. Il prévoit un pool commun et un pool unique.
+Ho-Oh utilise des attaques de **Feu et de Vol**, ainsi que des mécaniques de saut. Restez mobile et observez l'arène pour éviter ses attaques.
 
 | Objet | Effet décrit dans les notes officielles |
 | --- | --- |
