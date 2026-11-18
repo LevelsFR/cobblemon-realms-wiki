@@ -99,9 +99,21 @@ Certaines restrictions s'appliquent pendant un Combat de Boss :
 
 ## 📍 Où trouver les Boss ?
 
-Dans la version vanilla de **CobbleSafari**, un seul Combat de Boss est actuellement disponible : **l'Ombre de Giratina**, qui vous attend sur l'autel situé au cœur de l'arène du Monde Distorsion. Pour découvrir cette arène et tout savoir sur le combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
+Dans la version **0.4+ de CobbleSafari**, deux combats sont notamment présents : **l'Ombre de Giratina** et **Ho-Oh** à la Tour Carillon, qui vous attend sur l'autel situé au cœur de l'arène du Monde Distorsion. Pour découvrir cette arène et tout savoir sur le combat contre l'Ombre de Giratina, consultez la page <a href="https://wiki.cobblemon-realms.com/fr-FR/mods-guides/CobbleSafari/distortion_world"><strong>Monde Distorsion</strong></a>.
 
 *** 
+
+---
+
+## 🔔 Ho-Oh et les nouveaux réglages de boss
+
+La nouvelle **[Tour Carillon](bell_tower.md)** abrite le boss Ho-Oh, avec des attaques de Feu, de Vol et des mécaniques de saut. Sa définition `csboss/hooh.json` fixe `damageMultiplier: 2.0`, une particule de retour de type feu et des récompenses communes et uniques.
+
+Depuis la 0.4.0, chaque boss peut définir son multiplicateur de dégâts et ses particules de retour. Le rayon des Pacifisphères (`balmSplashRadius`) est configurable, avec une valeur par défaut de **2,5 blocs**.
+
+[Notes officielles 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Données officielles de Ho-Oh](https://github.com/maxigregrze/CobbleSafari/blob/main/common/src/main/resources/data/cobblesafari/csboss/hooh.json).
+
+---
 
 {% hint style="success" %}
 ## Nous contacter
