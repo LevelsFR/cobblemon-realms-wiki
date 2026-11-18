@@ -39,7 +39,7 @@ In the base mod, obstacles return after around **5 minutes** and Shard Cluster r
 Collect dungeon ingredients and visit a **Cooking Pot** to prepare donuts with encounter-related or stat-related bonuses. [See the donut guide](hyperspace_donuts.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms:** this guide describes the upstream mechanics introduced in CobbleSafari **0.4.0/0.4.1**, included in Cobblemon Realms **6.3**. Actual encounter pools, dungeon availability, loot and timers may be overridden by the server, addons or datapacks. Do not treat upstream defaults as guaranteed public-server settings.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base CobbleSafari mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
