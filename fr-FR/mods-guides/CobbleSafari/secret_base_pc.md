@@ -101,42 +101,6 @@ Ces effets :
 
 ***
 
-## 🧪 Mode Créatif & Administration
-
-Un **drapeau spécial créatif** existe.
-
-Lorsqu’il est inséré dans un PC :
-
-* 🔋 batterie infinie
-* ⚙️ tous les coûts sont supprimés
-* 🌍 effets illimités
-
-{% hint style="danger" %}
-<p align="center">Attention : le PC reste destructible et modifiable même en mode créatif. Il est fortement recommandé de le <strong>sécuriser dans une structure protégée</strong>.</p>
-{% endhint %}
-
-***
-
-## 📊 Valeurs & configuration
-
-Les paramètres suivants sont modifiables :
-
-* 🔋 capacité de batterie par rang
-* 💰 coût des effets
-* 🏁 valeur des drapeaux
-
-📁 Fichier de config : `secretbase_pc_config.json`
-
-***
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">Un guide complet pour ajouter ou modifier toutes les limites de batterie de niveau, les coûts des effets et les valeurs de batterie des indicateurs est disponible sur la page officielle du mod : <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-safari-spawns">Datapack : Safari Spawns</a></p>
-{% endhint %}
-
-***
-
 {% hint style="success" %}
 ## Nous contacter
 
