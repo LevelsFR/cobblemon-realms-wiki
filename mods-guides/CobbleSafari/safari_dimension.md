@@ -185,91 +185,18 @@ Each biome contains:
 
 ---
 
-## 💰 Safari Entry (Optional)
+## 🎟️ Entering the Safari
 
-By default:
-- Free entry
-
-But configurable per server/modpack:
-
-### 🔹 Available Payment Types
-
-- 🎟️ item (e.g. Safari Ticket)
-- 💰 Realms Coins (e.g. 5000)
-
-### 🔹 Advanced Options
-
-- Multiple payments allowed
-- Time refills + additional entries
-- Daily reward reset through payment
-
----
-
-## ⚙️ Configuration
-
-Most Safari settings are grouped in:
-<br>
-➡️ `config/cobblesafari/safari_config.json`
-
-Some useful options:
-
-- `dailySafariBallsCount` → number of free daily Safari Balls (default: `16`)
-- `enableEntryFee` → enables entry fees
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-You can find a complete description of the configuration file on the mod's official page:
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_safari_config">Safari_config</a>
-</p>
-{% endhint %}
-
----
-
-### 🔒 Dimensional Restrictions
-
-Allowed items, battle rules, and some Safari restrictions are defined in:
-<br>
-➡️ `config/cobblesafari/dimensional_restrictions_config.json`
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-Full details of this configuration are available on the mod's official page:
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config">Dimensional Restrictions Configuration</a>
-</p>
-{% endhint %}
-
----
-
-### ⏱️ Timer and Teleportation
-
-Session duration, entry cooldowns, and teleportation logic are defined in:
-<br>
-➡️ `config/cobblesafari/dimensional_timer_config.json`
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-Full details of this configuration are available on the mod's official page:
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config">Dimensional Timer Configuration</a>
-</p>
-{% endhint %}
-
----
-
+In Cobblemon Realms, use the teleporter at spawn. If an entry cost applies, check the instructions shown in game.
 
 ---
 
 ## 🛸 Exit Drones (0.4+)
 
-Safari Exit Drones spawn around players every few minutes. The upstream configuration adds `safariDroneEnabled` and `safariDroneSpawnMultiplier` (default multiplier **10**) in `config/cobblesafari/safari_config.json`. Drones replace the old exit command, and their appearance timing depends on the server settings.
+Safari Exit Drones appear near players periodically. Right-click one or stand underneath it for a few seconds to leave.
 
 {% hint style="warning" %}
-Never rely on `/safariexit` for version 0.4+. If you cannot see a drone, keep exploring nearby and check whether the feature is enabled on the server.
+Never rely on `/safariexit` for version 0.4+. If you cannot see one yet, keep exploring and watch for the next drone.
 {% endhint %}
 
 [Official 0.4.0 release notes](https://modrinth.com/mod/cobblesafari/version/0.4.0).
