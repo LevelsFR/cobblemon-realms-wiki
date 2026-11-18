@@ -81,8 +81,6 @@
   * [🔔 Tour Carillon](mods-guides/CobbleSafari/bell_tower.md)
   * [🎯 Objectifs dimensionnels](mods-guides/CobbleSafari/dimensional_objectives.md)
   * [✨ Lost Items](mods-guides/CobbleSafari/lost_items.md)
-  * [🌀 Générateur de portails (Admin)](mods-guides/CobbleSafari/portal_spawner.md)
-  * [⚙️ Configuration 0.4 (Admin)](mods-guides/CobbleSafari/admin_configuration.md)
   * [📱 Motismart](mods-guides/CobbleSafari/motismart.md)
     * [👔 Holo-Skins du Motismart](mods-guides/CobbleSafari/holo_skin.md)
     * [🗒️ Liste des Missions](mods-guides/CobbleSafari/list_miss.md)
@@ -97,7 +95,6 @@
   * [🏠 PC de Base Secrète](mods-guides/CobbleSafari/secret_base_pc.md)
   * [🤝 Échanges des Marchands](mods-guides/CobbleSafari/traders_trade_list.md)
   * [💡 Blocs Utiles](mods-guides/CobbleSafari/blocs_utiles.md)
-  * [⌨️ Commande /cobblesafari](mods-guides/CobbleSafari/cobblesafari_command.md)
 
 ## Myths & Legends
 
