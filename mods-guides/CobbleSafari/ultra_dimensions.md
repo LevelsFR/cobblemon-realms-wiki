@@ -7,17 +7,20 @@
 
 ## 🗺️ Destinations and Encounters
 
+Click any destination name to see its **full eight-Pokémon normal pool**, weighted special rewards and related loot table.
+
+
 These examples are read directly from `data/cobblesafari/ultra_warp_ride/destination/` in the upstream repository.
 
 | Destination | Example normal encounters | Special reward pool |
 | --- | --- | --- |
-| **Ultra Crater** | Metagross, Clefable, Lunatone, Solrock | Celesteela, Poipole |
-| **Ultra Deep** | Kingdra, Lanturn, Wailmer, Dhelmise | Nihilego, Poipole |
-| **Ultra Desert** | Garchomp, Sableye, Glimmora, Krookodile | Pheromosa, Poipole |
-| **Ultra Forest** | Scizor, Lurantis, Kleavor, Leavanny | Kartana, Poipole |
-| **Ultra Jungle** | Salamence, Alolan Exeggutor, Tropius, Hawlucha | Buzzwole, Poipole |
-| **Ultra Plant** | Magnezone, Eelektross, Electivire, Archaludon | Xurkitree, Poipole |
-| **Ultra Ruins** | Tyranitar, Galarian Weezing, Golurk, Obstagoon | Guzzlord, Stakataka, Blacephalon, Poipole |
+| [**Ultra Crater**](ultra-dimensions/ultra_crater.md) | Metagross, Clefable, Lunatone, Solrock | Celesteela, Poipole |
+| [**Ultra Deep**](ultra-dimensions/ultra_deep.md) | Kingdra, Lanturn, Wailmer, Dhelmise | Nihilego, Poipole |
+| [**Ultra Desert**](ultra-dimensions/ultra_desert.md) | Garchomp, Sableye, Glimmora, Krookodile | Pheromosa, Poipole |
+| [**Ultra Forest**](ultra-dimensions/ultra_forest.md) | Scizor, Lurantis, Kleavor, Leavanny | Kartana, Poipole |
+| [**Ultra Jungle**](ultra-dimensions/ultra_jungle.md) | Salamence, Alolan Exeggutor, Tropius, Hawlucha | Buzzwole, Poipole |
+| [**Ultra Plant**](ultra-dimensions/ultra_plant.md) | Magnezone, Eelektross, Electivire, Archaludon | Xurkitree, Poipole |
+| [**Ultra Ruins**](ultra-dimensions/ultra_ruins.md) | Tyranitar, Galarian Weezing, Golurk, Obstagoon | Guzzlord, Stakataka, Blacephalon, Poipole |
 
 {% hint style="warning" %}
 **How to read this table:** these are upstream **encounter definitions**, not guaranteed spawns or current Cobblemon Realms rates. A dimension gives an encounter, and the special reward pool only applies when the warp system selects that reward tier. Addon support for individual species must also be enabled.
