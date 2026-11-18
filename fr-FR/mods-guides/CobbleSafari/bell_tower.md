@@ -55,7 +55,7 @@ Le correctif **0.4.1** répare également la distribution des récompenses des L
 [Combats de boss](fight_boss.md) · [Objectifs dimensionnels](dimensional_objectives.md) · [Portails de Hoopa](hoopa_portals.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms :** ces informations proviennent de CobbleSafari **0.4.0/0.4.1**, intégré au modpack **6.3**. Les conditions peuvent dépendre de la configuration du serveur, des addons et des datapacks. Référez-vous à l'interface du jeu lorsqu'elle indique des règles différentes.
+**Cobblemon Realms :** les rencontres, récompenses et durées peuvent varier selon le monde. Référez-vous aux indications affichées en jeu.
 {% endhint %}
 
 ## 📖 Sources
