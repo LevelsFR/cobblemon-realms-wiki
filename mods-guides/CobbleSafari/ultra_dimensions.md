@@ -10,7 +10,7 @@
 Click any destination name to see its **full eight-Pokémon normal pool**, weighted special rewards and related loot table.
 
 
-These examples are read directly from `data/cobblesafari/ultra_warp_ride/destination/` in the upstream repository.
+Here are the Pokémon you may encounter in the seven destinations.
 
 | Destination | Example normal encounters | Special reward pool |
 | --- | --- | --- |
