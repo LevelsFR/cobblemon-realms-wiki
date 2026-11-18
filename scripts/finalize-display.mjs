@@ -83,6 +83,16 @@ function injectDisplayAssets(html) {
   if (!html.includes('/assets/wiki-navigation-state.js')) {
     html = html.replace('</body>', `  <script defer src="/assets/wiki-navigation-state.js?v=${assetVersion}"></script>\n</body>`);
   }
+  // Preserve the former public HTMLRewriter injections at build time, after all other styles/scripts.
+  if (!html.includes('/assets/wiki-public-v4.css')) {
+    html = html.replace('</head>', '  <link rel="stylesheet" href="/assets/wiki-public-v4.css?v=public-v4">\n</head>');
+  }
+  if (!html.includes('/assets/gitbook-blocks.js')) {
+    html = html.replace('</body>', '  <script src="/assets/gitbook-blocks.js?v=gitbook-reference-3"></script>\n</body>');
+  }
+  if (!html.includes('/assets/wiki-public-v4.js')) {
+    html = html.replace('</body>', '  <script src="/assets/wiki-public-v4.js?v=public-v4"></script>\n</body>');
+  }
   return html;
 }
 
