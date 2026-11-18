@@ -193,6 +193,24 @@ There are **three ways** to unlock an app:
 
 ***
 
+## 🆕 Changes in CobbleSafari 0.4.0/0.4.1
+
+### ✨ New Roto-Fall and Roto-Glide Animations
+
+When Roto-Fall prevents severe fall damage or Roto-Glide activates, the Rotom Phone plays an animation with Rotom's cry. As of **0.4.1**, players can disable these totem-style animations in the local `client_settings.json` for accessibility.
+
+### ⛔ Dungeon Restrictions
+
+Some dungeons, including **[Bell Tower](bell_tower.md)**, disable **both Roto-Fall and Roto-Glide** through the dimension's `allowRotomSafety` setting. Do not rely on the phone to rescue you there. The **Ultra Warp Ride** also has a separate option to disable flashing effects.
+
+### ⚡ Haunted Data Monitor
+
+At certain in-game hours, a Cobblemon **Data Monitor with a lit candle** on top may be struck by a harmless lightning bolt and become haunted. Interacting with it breaks the setup and releases a wild **Rotom**. The upstream chance is configurable with `hauntedMonitorStrikeChance` in `misc_config.json`.
+
+[Official 0.4.0 release](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 accessibility changes](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact us
 
