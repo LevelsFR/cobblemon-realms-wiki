@@ -222,6 +222,31 @@ All traps can be <strong>oriented in different directions</strong>, even though 
 
 ***
 
+## 🆕 Additional Building & Utility Blocks (0.4+)
+
+CobbleSafari 0.4 introduces many building families inspired by **Bell Tower, Kalos, Hyperspace Lumiose, Ultra Space and Megalopolis**. Some are collectible, some craftable and some reserved for Creative mode. **Maple Trees** are also introduced in the Grass-type Safari biome.
+
+### 🎨 More Creative Options
+
+- **Pokémon Statues** can now play animations, be frozen at a chosen time, change animation speed, emit relevant particles and be waterlogged.
+- **Creative mode:** sneak + right-click with an empty hand to open the configuration of supported blocks such as Survival Teleport Pads and Pokémon Statues.
+- **Creative Teleport Pads** can be placed on road blocks.
+- **Lightning Spot** is an invisible, indestructible creative block that summons lightning when approached.
+- New decorative blocks for **Ultra Warp Ride** are available to map makers.
+- **Hyperspace Chair** and **Kalosian Bench** can be used as seats.
+
+### 🌀 Portal Spawner
+
+The [Portal Spawner](portal_spawner.md) replaces the old Creative Portal as the maintained portal-generation utility. It supports fixed intervals, randomized intervals and redstone.
+
+### 🛒 Kalosian Worker
+
+The upstream 0.4 release added **21 new trade offers** to the Kalosian Worker. Workers generated before the update keep their previous selection.
+
+[Official 0.4.0 notes](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 ceiling placement changes](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact Us
 
