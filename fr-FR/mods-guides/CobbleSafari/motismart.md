@@ -185,11 +185,10 @@ Par défaut, toutes les applications ne sont pas disponibles immédiatement. Cha
 </p>
 {% endhint %}
 
-Il existe **trois façons** de débloquer une application :
+Il existe **deux façons principales** de débloquer une application :
 
 - 🎁 **Récompense de mission :** une mission peut être configurée pour débloquer une application lorsqu'elle commence.
 - 🔑 **Objet de déblocage :** des objets consommables existent pour chaque application et peuvent être utilisés pour débloquer celles-ci, notamment comme butin de donjon ou récompense de mission.
-- 🛠️ **Commande administrateur :** les administrateurs de serveur, blocs de commande et autres systèmes externes à CobbleSafari peuvent utiliser des commandes pour attribuer directement les applications.
 
 ***
 
@@ -197,15 +196,15 @@ Il existe **trois façons** de débloquer une application :
 
 ### ✨ Animations de Roto-Chute et Roto-Glisse
 
-Lorsqu'un Motismart évite une chute importante ou active Roto-Glisse, une animation accompagnée du cri de Motisma apparaît. Depuis la **0.4.1**, il est possible de désactiver ces animations dans le fichier local `client_settings.json` pour améliorer l'accessibilité.
+Lorsqu'un Motismart évite une chute importante ou active Roto-Glisse, une animation accompagnée du cri de Motisma apparaît. Depuis la **0.4.1**, il est possible de désactiver ces animations dans les réglages d'accessibilité du client pour améliorer l'accessibilité.
 
 ### ⛔ Restrictions de certaines dimensions
 
-Plusieurs donjons, dont la **[Tour Carillon](bell_tower.md)**, désactivent **Roto-Chute et Roto-Glisse** grâce au réglage `allowRotomSafety`. Ne comptez pas sur le téléphone pour vous sauver à cet endroit. Le minijeu **Ultra Warp Ride** possède également une option permettant de désactiver les flashs lumineux.
+Plusieurs donjons, dont la **[Tour Carillon](bell_tower.md)**, désactivent **Roto-Chute et Roto-Glisse** dans ces dimensions. Ne comptez pas sur le téléphone pour vous sauver à cet endroit. Le minijeu **Ultra Warp Ride** possède également une option permettant de désactiver les flashs lumineux.
 
 ### ⚡ Data Monitor hanté
 
-À certaines heures du jeu, un **Data Monitor Cobblemon surmonté d'une bougie allumée** peut être frappé par un éclair inoffensif et devenir hanté. Interagir avec lui détruit le dispositif et libère un **Motisma sauvage**. La probabilité est réglable via `hauntedMonitorStrikeChance`.
+À certaines heures du jeu, un **Data Monitor Cobblemon surmonté d'une bougie allumée** peut être frappé par un éclair inoffensif et devenir hanté. Interagir avec lui détruit le dispositif et libère un **Motisma sauvage**. Cette rencontre reste rare.
 
 [Version 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Accessibilité 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 
