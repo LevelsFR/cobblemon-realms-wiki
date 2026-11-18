@@ -134,25 +134,9 @@ Si vous apercevez une étrange ouverture dans un mur, prenez le temps d'aller vo
 
 ***
 
-## ⚙️ Configuration
-
-Les restrictions de la dimension (objets interdits, combats autorisés, etc.) sont définies dans :\
-➡️ `Dimensional Restrictions`
-
-Le système de téléportation ainsi que les minuteries sont quant à eux définis dans :\
-➡️ `Dimensional Timer`
-
-{% hint style="info" %}
-### Plus d'informations
-
-<p align="center">Le détail complet de ces fichiers est disponible sur leurs pages de configuration respectives :<br><a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config">Restrictions Dimensionnelles</a><br><a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config">Minuteur Dimensionnel</a></p>
-{% endhint %}
-
-***
-
 ## 🆕 Objectifs et temps de session (0.4+)
 
-Le Souterrain de Sinnoh possède maintenant ses propres [Objectifs dimensionnels](dimensional_objectives.md), avec des tâches et des tables de récompenses séparées. Le système de minuterie de la **0.4** suit chaque visite, de sorte qu'un portail expiré ne ferme pas immédiatement le donjon si des joueurs s'y trouvent encore.
+Le Souterrain de Sinnoh propose désormais des [Objectifs dimensionnels](dimensional_objectives.md) avec de nouveaux défis et récompenses. Le système de minuterie de la **0.4** suit chaque visite, de sorte qu'un portail expiré ne ferme pas immédiatement le donjon si des joueurs s'y trouvent encore.
 
 {% hint style="info" %}
 Les mécaniques historiques du Souterrain, comme l'excavation, les randonneurs, les bases secrètes et les cachettes de Pokémon, restent décrites dans cette page. Les objectifs viennent **compléter** ces activités.
