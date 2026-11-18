@@ -35,14 +35,9 @@ Once inside, several restrictions apply:
 
 {% hint style="warning" %}
 <p align="center">
-When the portal disappears, the dimension collapses and all players still inside are automatically expelled.
+The entrance portal may expire during your visit. Players already inside can continue while their dungeon session remains active.
 </p>
 {% endhint %}
-
-Like all special dimensions, the behavior of the Distortion World can be fully customized using the following configurations:
-
-- [Dimensional Restrictions](https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config)
-- [Dimensional Timer](https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config)
 
 ---
 
@@ -132,23 +127,13 @@ However, Giratina accepts **Red Chain Fragments** and can transform them into my
 
 ---
 
-{% hint style="info" %}
-## More Information
 
-<p align="center">
-Items can be made unavailable by removing them from the giratina_core_trade loot table. You can also configure the reroll probabilities for shiny Pokémon as well as the list of available Poké Balls in the configuration file.<br><br>
-</p>
-
-<p align="center">
-If you wish to configure shiny reroll probabilities and the list of available Poké Balls, consult the mod's official page: <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_randomizer_items_config">config_randomizer_items_config</a>
-</p>
-{% endhint %}
 
 ---
 
 ## 🆕 Dungeon Objectives and Rewards (0.4.1)
 
-The Distortion World now uses the shared [Dimensional Objectives system](dimensional_objectives.md). Objectives and reward pools are defined by datapacks. CobbleSafari **0.4.1** fixes the opening section's Lost Item so it grants the intended objective reward.
+The Distortion World now uses the shared [Dimensional Objectives system](dimensional_objectives.md). CobbleSafari **0.4.1** fixes the opening section's Lost Item so it grants the intended objective reward.
 
 Since 0.4.0, a dungeon no longer immediately disappears just because its entrance Hoopa Portal expires. **Players already inside keep their active session**, subject to the instance timer.
 
