@@ -112,7 +112,6 @@
 * [💠 Primal Dialga](pokemons-exclusives/primal_dialga.md)
 * [🌌 Rayquaza Illusion](pokemons-exclusives/illusionary_rayquaza.md)
 * [🦖 Tyranocif Noir](pokemons-exclusives/black_tyranitar.md)
-* [☀️ Fusions de Necrozma](pokemons-exclusives/necrozma-fusions.md)
 * [🌕 Ursaluna Bloodmoon](pokemons-exclusives/bloodmoon-ursaluna.md)
 * [☃️ Snowman Goinfrex & Ronflex](pokemons-exclusives/snowman_munchlax_snorlax.md)
 * [💎 Onix & Steelix de Cristal](pokemons-exclusives/crystal-onix.md)
@@ -131,9 +130,22 @@
   * [🌪️ Formes Tempête / Énergie](pokemons-exclusives/storm_energy.md)
   * [🧪 Anomalies Biologiques](pokemons-exclusives/mutation_bio.md)
   * [🌊 Léviathans Anciens](pokemons-exclusives/ancient_leviathans.md)
-* [🔌 Formes Motisma](pokemons-exclusives/rotom-forms.md)
-* [🌀 Formes Totémique](pokemons-exclusives/therian-forms.md)
 * [🤖 MT & MT2](pokemons-exclusives/mt_mt2.md)
+
+## Formes Pokémon
+
+* [🔄 Guide des transformations](pokemon-forms/README.md)
+  * [🌸 Shaymin : Terrestre et Céleste](pokemon-forms/shaymin.md)
+  * [🧬 Formes de Deoxys](pokemon-forms/deoxys.md)
+  * [🌀 Formes de Hoopa](pokemon-forms/hoopa.md)
+  * [🧊 Fusions Kyurem et Sylveroy](pokemon-forms/fusions.md)
+  * [☀️ Fusions de Necrozma](pokemons-exclusives/necrozma-fusions.md)
+  * [🐉 Formes de Zygarde](pokemon-forms/zygarde.md)
+  * [🪞 Formes Totémiques](pokemons-exclusives/therian-forms.md)
+  * [🪐 Objets de formes légendaires](pokemon-forms/legendary-items.md)
+  * [🌈 Types d'Arceus et Silvallié](pokemon-forms/type-forms.md)
+  * [⚡ Formes de Motisma](pokemons-exclusives/rotom-forms.md)
+  * [🎭 Autres transformations](pokemon-forms/other-forms.md)
 
 ## Cosmétiques Pokémon
 
