@@ -106,7 +106,7 @@ When an event is active, a banner appears in the application with a countdown sh
 
 {% hint style="info" %}
 <p align="center">
-Events currently require <strong>administrator privileges</strong> to be launched and are therefore not active in the vanilla functionality of CobbleSafari. Automatic and periodic events are planned for future updates, however.
+Event availability varies by server. Check in-game announcements for any active Wonder Trade events.
 </p>
 {% endhint %}
 
@@ -147,32 +147,9 @@ The **Union Room** is particularly suited to small groups who simply want to tra
 - Players can leave the room at any time using the **exit teleporter**, through their **Motismart**, or simply wait for the countdown to end.
 - Certain dimensions are **blocked as entry points**. In particular, it is impossible to enter a Union Room from the Safari Dimension in order to bypass its time limit.
 
-### 🛠️ Instances and customization
+## 🆕 Which Pokémon Can Appear in Trades?
 
-Union Room instances are **reused rather than deleted** after each session. This notably makes entering a previously used room almost instantaneous, but this feature can have consequences for administrators using Creative mode.
-
-An administrator can modify or customize the appearance of a Union Room. If a structure is then accidentally destroyed or modified, these changes may be preserved and appear during future sessions using that instance.
-
-{% hint style="warning" %}
-<p align="center">
-In the event of an unwanted modification to an instance, the only way to completely restore the original structure is to <strong>delete the Union Room dimension folder</strong> in order to force it to reset.
-</p>
-{% endhint %}
-
-***
-
-## 🆕 Addon Compatibility and Onboarding (0.4+)
-
-The new **[CobbleSafari Onboarding](admin_configuration.md)** screen lets operators declare which Pokémon addons are installed, including Legendary and Mythical Pokémon, Ultra Beasts, Paradox Pokémon and other missing species.
-
-- **Wonder Trade:** its upstream default pool can be updated to match the installed addons.
-- **GTS:** unique NPC offers referencing species unavailable in the installed setup are filtered unless the corresponding addon is enabled.
-
-{% hint style="info" %}
-These are **server administration settings**, not a switch ordinary players can use to unlock new Pokémon. Existing server-specific Wonder Trade and GTS configuration may override the defaults.
-{% endhint %}
-
-[Official 0.4.0 changelog](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+The Pokémon offered through the **GTS** and **Wonder Trade** depend on the species available in the modpack. Some special offers may not be available in every setup.
 
 ---
 
