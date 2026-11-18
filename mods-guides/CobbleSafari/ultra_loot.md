@@ -44,6 +44,32 @@ Explore the [Ultra Dimensions](ultra_dimensions.md) and search for their destina
 
 ---
 
+## 🧾 Verified Item IDs
+
+These identifiers appear in the official 0.4 Ultra Space loot tables and can be found through JEI or referenced by datapacks.
+
+| Item / Set | Technical ID |
+| --- | --- |
+| Needle Dart | `cobblesafari:poipole_arrow` |
+| Harlequin Bomb | `cobblesafari:blacephalon_bomb` |
+| Static Heap | `cobblesafari:xurkitree_bomb` |
+| Stellar Canon | `cobblesafari:celesteela_canon` |
+| Origami Carrier | `cobblesafari:kartana_canon` |
+| Stacked Shield | `cobblesafari:stakataka_shield` |
+| Nihilhat | `cobblesafari:nihilego_hat` |
+| Beefy Seeds | `cobblesafari:buzzwole_seeds` |
+| Beauty Seeds | `cobblesafari:pheromosa_seeds` |
+| Ultra Recon Armor | `cobblesafari:recon_armor_helmet` etc. |
+| Glutton Armor | `cobblesafari:gluton_armor_helmet` etc. |
+
+{% hint style="warning" %}
+An item listed in an upstream loot table is **not** guaranteed to be obtainable on every Cobblemon Realms server or run.
+{% endhint %}
+
+[Official Ultra Space loot tables](https://github.com/maxigregrze/CobbleSafari/tree/main/common/src/main/resources/data/cobblesafari/loot_table/ultraspace).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact Us
 
