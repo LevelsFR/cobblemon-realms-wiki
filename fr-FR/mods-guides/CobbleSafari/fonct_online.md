@@ -161,6 +161,21 @@ En cas de modification indésirable d'une instance, la seule manière de restaur
 
 ***
 
+## 🆕 Compatibilité des addons et Onboarding (0.4+)
+
+Le nouvel écran **[Onboarding de CobbleSafari](admin_configuration.md)** permet aux administrateurs d'indiquer quels addons de Pokémon sont installés, notamment pour les légendaires, les fabuleux, les Ultra-Chimères, les Paradoxes et les autres espèces manquantes.
+
+- **Échange Miracle :** les pools par défaut peuvent être adaptés aux addons déclarés.
+- **GTS :** les offres uniques impliquant des espèces absentes sont filtrées si l'addon correspondant n'est pas activé.
+
+{% hint style="info" %}
+Ces réglages relèvent de **l'administration du serveur** et ne permettent pas aux joueurs de débloquer directement de nouvelles espèces. Une configuration personnalisée des échanges peut remplacer les règles d'origine.
+{% endhint %}
+
+[Changelog officiel 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
