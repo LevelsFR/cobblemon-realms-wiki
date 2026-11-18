@@ -62,7 +62,7 @@ Always check the destination before accepting a teleportation.
 
 ## 🗺️ Default Dungeon Pool
 
-Portals can currently lead to:
+The destination list below depends on the server's enabled dungeons and portal pool:
 
 - 🌍 **Sinnoh Underground**  
   Underground exploration, excavation mini-game, rare treasures, and hidden Pokémon.
@@ -70,9 +70,6 @@ Portals can currently lead to:
 - 🌀 **Distortion World**  
   Giratina's chaotic dimension featuring inverted platforms, illusion labyrinths, and battles against Distorted Pokémon.  
   → [View page](distortion_world.md)
-
----
-
 
 - 🌃 **[Ultra Megalopolis](ultra_megalopolis.md)**: a dark city and access point to Ultra Warp Ride.
 - 🏙️ **[Hyperspace Lumiose](hyperspace_lumiose.md)**: special encounters, Wild Zones and star-rated dungeon objectives.
