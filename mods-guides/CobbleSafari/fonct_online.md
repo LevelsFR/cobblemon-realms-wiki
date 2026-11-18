@@ -161,6 +161,21 @@ In the event of an unwanted modification to an instance, the only way to complet
 
 ***
 
+## 🆕 Addon Compatibility and Onboarding (0.4+)
+
+The new **[CobbleSafari Onboarding](admin_configuration.md)** screen lets operators declare which Pokémon addons are installed, including Legendary and Mythical Pokémon, Ultra Beasts, Paradox Pokémon and other missing species.
+
+- **Wonder Trade:** its upstream default pool can be updated to match the installed addons.
+- **GTS:** unique NPC offers referencing species unavailable in the installed setup are filtered unless the corresponding addon is enabled.
+
+{% hint style="info" %}
+These are **server administration settings**, not a switch ordinary players can use to unlock new Pokémon. Existing server-specific Wonder Trade and GTS configuration may override the defaults.
+{% endhint %}
+
+[Official 0.4.0 changelog](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact us
 
