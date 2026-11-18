@@ -46,7 +46,7 @@ The generated bonus level and type affect its strength. A given donut is **not g
 [Hyperspace Lumiose](hyperspace_lumiose.md) · [Dimensional Objectives](dimensional_objectives.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms:** this guide describes the upstream mechanics introduced in CobbleSafari **0.4.0/0.4.1**, included in Cobblemon Realms **6.3**. Actual encounter pools, dungeon availability, loot and timers may be overridden by the server, addons or datapacks. Do not treat upstream defaults as guaranteed public-server settings.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base CobbleSafari mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
