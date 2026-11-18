@@ -36,7 +36,7 @@ Tasks reward loot from the Megalopolis objective table. The upstream definition 
 The warp system uses the remaining **parent dungeon session**. The upstream settings include a **180-second minimum** to open the ride device and **30 seconds** kept in reserve; emergency energy drain starts when the available time becomes low. These numbers can be configured by the server.
 
 {% hint style="warning" %}
-**Cobblemon Realms:** this guide describes the upstream mechanics introduced in CobbleSafari **0.4.0/0.4.1**, included in Cobblemon Realms **6.3**. Actual encounter pools, dungeon availability, loot and timers may be overridden by the server, addons or datapacks. Do not treat upstream defaults as guaranteed public-server settings.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base CobbleSafari mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
