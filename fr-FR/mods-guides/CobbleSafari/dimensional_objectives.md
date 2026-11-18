@@ -33,7 +33,7 @@ La version 0.4 rééquilibre leurs récompenses et celles des Poké Balls porte-
 Consultez [Lost Items](lost_items.md) et [Hyperspace Lumiose](hyperspace_lumiose.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms :** ces informations proviennent de CobbleSafari **0.4.0/0.4.1**, intégré au modpack **6.3**. Les conditions peuvent dépendre de la configuration du serveur, des addons et des datapacks. Référez-vous à l'interface du jeu lorsqu'elle indique des règles différentes.
+**Cobblemon Realms :** les rencontres, récompenses et durées peuvent varier selon le monde. Référez-vous aux indications affichées en jeu.
 {% endhint %}
 
 ## 📖 Sources
