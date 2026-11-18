@@ -12,7 +12,7 @@
 | **Armure Ultra Recon** | Effet Élytres avec l'ensemble complet si activé, protection supplémentaire en Ultra Warp Ride |
 | **Armure Glutton** | Confère des bonus liés à la satiété lors des repas |
 | **Stacked Shield** | Bloque les dégâts et procure un bonus, puis nécessite un rechargement |
-| **Nihilhat** | Offre Conduit Power au contact de l'eau, mais augmente fortement la faim |
+| **Nihilhat** | Procure Conduit Power sous l'eau ou sous la pluie avec une barre de faim non vide, mais applique Faim III et peut provoquer des nausées |
 
 ## 🎯 Outils et projectiles
 
