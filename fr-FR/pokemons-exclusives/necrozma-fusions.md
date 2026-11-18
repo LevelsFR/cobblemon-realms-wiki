@@ -37,7 +37,7 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Solgaleo avec l'objet `N-Solarizer`
+* 🖱️ Sortez **Solgaleo** et utilisez le N-Solarizer sur lui pour stocker le partenaire. Sortez ensuite **Necrozma** et utilisez l'objet chargé sur Necrozma. Répétez l'opération sur Necrozma fusionné pour séparer les deux Pokémon.
 
 ***
 
@@ -84,7 +84,7 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Lunala avec l'objet `N-Lunarizer`
+* 🖱️ Sortez **Lunala** et utilisez le N-Lunarizer sur lui pour stocker le partenaire. Sortez ensuite **Necrozma** et utilisez l'objet chargé sur Necrozma. Répétez l'opération sur Necrozma fusionné pour séparer les deux Pokémon.
 
 ***
 
@@ -131,7 +131,7 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Lunala avec l'objet `Ultranecrozium Z`
+* ⚠️ **Ne faites pas de clic droit sur Lunala :** l'Ultranécrozélite Z est enregistrée en tant que **Cristal Z**, et non comme un objet de changement de forme de Lunala. La procédure exacte pour activer Ultra-Necrozma n'a pas été vérifiée dans la version de Cobblemon Realms.
 
 ***
 
