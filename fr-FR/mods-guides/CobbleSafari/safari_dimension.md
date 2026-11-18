@@ -186,90 +186,18 @@ Chaque biome contient :
 
 ***
 
-## 💰 Entrée au Safari (optionnel)
+## 🎟️ Entrer dans le Safari
 
-Par défaut :
-* Entrée gratuite
-
-Mais configurable par serveur/modpack :
-
-### 🔹 Types de paiement possibles
-
-* 🎟️ item (ex: Safari Ticket)
-* 💰 Realms Coins (ex: 5000)
-
-### 🔹 Options avancées
-
-* Paiements multiples autorisés
-* Recharge de temps + entrées supplémentaires
-* Reset des récompenses quotidiennes par paiement
-
-***
-
-## ⚙️ Configuration
-
-La plupart des paramètres du Safari sont regroupés dans :
-<br>
-➡️ `config/cobblesafari/safari_config.json`
-
-Quelques options utiles :
-
-* `dailySafariBallsCount` → nombre de Safari Balls gratuites quotidiennes (défaut : `16`)
-* `enableEntryFee` → active les frais d'entrée
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Vous trouverez une description complète du fichier de configuration sur la page officielle du mod : 
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_safari_config">Safari_config</a>
-</p>
-{% endhint %}
-
-***
-
-### 🔒 Restrictions dimensionnelles
-
-Les objets autorisés, les règles de combat et certaines restrictions du Safari sont définis dans :
-<br>
-➡️ `config/cobblesafari/dimensional_restrictions_config.json`
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Le détail complet de cette configuration est disponible sur la page officielle du mod : 
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config">Configuration des Restrictions Dimensionnelles</a>
-</p>
-{% endhint %}
-
-***
-
-### ⏱️ Minuteur et téléportation
-
-La durée des sessions, les délais entre les entrées et la logique de téléportation sont définis dans :
-<br>
-➡️ `config/cobblesafari/dimensional_timer_config.json`
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Le détail complet de cette configuration est disponible sur la page officielle du mod : 
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config">Configuration du Minuteur Dimensionnel</a>
-</p>
-{% endhint %}
-
-***
+Dans Cobblemon Realms, rejoignez le téléporteur au spawn. Si une participation est demandée, les conditions sont affichées directement dans le jeu.
 
 ---
 
 ## 🛸 Drones de sortie (0.4+)
 
-Les drones remplacent la commande de sortie historique et apparaissent près des joueurs après des intervalles configurables. Le fichier `config/cobblesafari/safari_config.json` comprend `safariDroneEnabled` et `safariDroneSpawnMultiplier` (multiplicateur d'origine : **10**).
+Les drones de sortie apparaissent régulièrement près des joueurs. Faites un clic droit dessus, ou restez quelques secondes en dessous, pour quitter le Safari.
 
 {% hint style="warning" %}
-Ne comptez plus sur `/safariexit`. Si vous ne voyez aucun drone, vérifiez que le serveur active bien cette fonctionnalité.
+Ne comptez plus sur `/safariexit`. Si aucun drone n'est visible pour le moment, continuez à explorer et surveillez son apparition.
 {% endhint %}
 
 [Notes officielles CobbleSafari 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
