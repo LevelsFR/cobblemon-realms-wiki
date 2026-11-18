@@ -41,40 +41,6 @@ Si Cobbreeding est retiré pendant l’incubation, les données cryptées sont p
 {% endhint %}
 
 {% hint style="info" %}
-## Compatibilité datapack
-
-<p align="center">
-L’incubateur est également compatible avec les datapacks. Vous pouvez utiliser n’importe quel objet comme œuf, définir plusieurs résultats possibles, et ajuster le temps d’éclosion ainsi que le multiplicateur de brillance.
-
-Pour plus d’informations sur la structure des données, consultez la page officielle : <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-egg-incubator">Incubateur d'œufs</a>
-</p>
-{% endhint %}
-
----
-
-## ⚙️ Configuration
-
-Le système d’incubation est entièrement configurable via le fichier `incubator_config.json`.
-<br>
-Il permet notamment de modifier le temps d’éclosion des œufs sauvages ainsi que la vitesse d’incubation des œufs Cobbreeding.
-
-### Paramètres principaux
-
-- `defaultWildEggHatchTimeTicks` → temps d’éclosion des œufs sauvages (défaut : `14400`)
-- `cobbreedingHatchSpeedMultiplier` → vitesse d’incubation des œufs Cobbreeding (défaut : `0.66`)
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Le détail complet de cette configuration est disponible sur la page officielle du mod :
-<br>
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_incubator_config">Configuration de l'Incubateur</a>
-</p>
-{% endhint %}
-
----
-
 {% hint style="success" %}
 ## Nous contacter
 
