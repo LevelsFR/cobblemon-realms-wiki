@@ -53,7 +53,7 @@ As of **0.4.1**, the Ultra Warp Ride flash effects can be disabled in client set
 Explore [the seven destinations](ultra_dimensions.md) and [their unique equipment](ultra_loot.md).
 
 {% hint style="warning" %}
-**Cobblemon Realms:** this guide describes the upstream mechanics introduced in CobbleSafari **0.4.0/0.4.1**, included in Cobblemon Realms **6.3**. Actual encounter pools, dungeon availability, loot and timers may be overridden by the server, addons or datapacks. Do not treat upstream defaults as guaranteed public-server settings.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base CobbleSafari mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
