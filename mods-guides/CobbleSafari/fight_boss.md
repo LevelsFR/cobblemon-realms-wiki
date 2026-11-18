@@ -99,9 +99,22 @@ Certain restrictions apply during a Boss Battle:
 
 ## 📍 Where to Find Bosses?
 
-In the vanilla version of **CobbleSafari**, only one Boss Battle is currently available: **Giratina's Shadow**, which awaits you at the altar located in the heart of the Distortion World arena. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
+The upstream **CobbleSafari 0.4** release includes **Giratina's Shadow** in the Distortion World and **Ho-Oh** at the top of the new Bell Tower. To discover this arena and learn everything about the battle against Giratina's Shadow, visit the <a href="https://wiki.cobblemon-realms.com/mods-guides/CobbleSafari/distortion_world"><strong>Distortion World</strong></a> page.
 
 *** 
+
+
+---
+
+## 🔔 Ho-Oh Boss (0.4+)
+
+The new **[Bell Tower](bell_tower.md)** houses a Ho-Oh CSBoss encounter with fire, flying and jumping attacks. The upstream `csboss/hooh.json` defines `damageMultiplier: 2.0`, a fire return particle and both common and unique loot. The author describes it as slightly easier than Giratina's Shadow.
+
+From 0.4.0, a boss can set its individual damage multiplier and return particle in its JSON definition. The boss balm splash radius is configurable (`balmSplashRadius`, default **2.5 blocks**).
+
+[Official 0.4.0 release](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Ho-Oh source definition](https://github.com/maxigregrze/CobbleSafari/blob/main/common/src/main/resources/data/cobblesafari/csboss/hooh.json).
+
+---
 
 {% hint style="success" %}
 ## 📥 Contact us
