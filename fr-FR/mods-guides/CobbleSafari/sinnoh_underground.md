@@ -150,6 +150,18 @@ Le système de téléportation ainsi que les minuteries sont quant à eux défin
 
 ***
 
+## 🆕 Objectifs et temps de session (0.4+)
+
+Le Souterrain de Sinnoh possède maintenant ses propres [Objectifs dimensionnels](dimensional_objectives.md), avec des tâches et des tables de récompenses séparées. Le système de minuterie de la **0.4** suit chaque visite, de sorte qu'un portail expiré ne ferme pas immédiatement le donjon si des joueurs s'y trouvent encore.
+
+{% hint style="info" %}
+Les mécaniques historiques du Souterrain, comme l'excavation, les randonneurs, les bases secrètes et les cachettes de Pokémon, restent décrites dans cette page. Les objectifs viennent **compléter** ces activités.
+{% endhint %}
+
+[Version officielle 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Objectifs du Souterrain](https://github.com/maxigregrze/CobbleSafari/blob/main/common/src/main/resources/data/cobblesafari/dimensional_objectives/dungeon_underground.json).
+
+---
+
 {% hint style="success" %}
 ### Nous contacter
 
