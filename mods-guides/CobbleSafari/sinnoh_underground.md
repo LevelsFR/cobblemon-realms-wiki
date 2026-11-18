@@ -186,6 +186,18 @@ Full details of these files are available on their respective configuration page
 
 ---
 
+## 🆕 Objective and Dungeon Session Changes (0.4+)
+
+The Underground has its own configurable [Dimensional Objectives](dimensional_objectives.md), including tasks and separate reward tables. The **0.4** timer model attaches to individual dungeon visits, so an expiring entrance portal does not immediately remove a session if players are still inside.
+
+{% hint style="info" %}
+The original 0.3 Underground mechanics, such as digging, Hikers, Secret Bases and Pokémon Hideaways, remain documented above. The newer objectives are additional activities, not a replacement for excavation.
+{% endhint %}
+
+[Official 0.4.0 release](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Upstream Underground objective data](https://github.com/maxigregrze/CobbleSafari/blob/main/common/src/main/resources/data/cobblesafari/dimensional_objectives/dungeon_underground.json).
+
+---
+
 {% hint style="success" %}
 ## 📥 Contact us
 
