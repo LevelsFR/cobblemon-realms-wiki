@@ -222,6 +222,31 @@ Tous les pièges peuvent être <strong>orientés dans différentes directions</s
 
 ***
 
+## 🆕 Nouveaux blocs de construction et utilitaires (0.4+)
+
+CobbleSafari 0.4 ajoute des familles de blocs inspirées de la **Tour Carillon, Kalos, Hyperspace Lumiose, Ultra Space et Ultra Mégalopole**. Certains s'obtiennent en survie, d'autres se fabriquent, et d'autres sont réservés au mode Créatif. Des **érables** ont également été ajoutés au biome Plante du Safari.
+
+### 🎨 Nouveautés du mode Créatif
+
+- Les **statues Pokémon** peuvent désormais jouer leurs animations, être figées, changer leur vitesse, afficher des particules et être immergées.
+- En mode **Créatif**, utilisez **Maj + clic droit à main vide** pour configurer certains blocs comme les Pads de Téléportation Survie et les statues.
+- Les **Pads de Téléportation Créatif** peuvent être installés sur les blocs de route.
+- Le **Lightning Spot** est un bloc invisible et indestructible qui invoque la foudre lorsqu'un joueur s'approche.
+- Trois nouveaux blocs décoratifs sont disponibles pour reproduire **Ultra Warp Ride**.
+- La **chaise Hyperspace** et le **banc kalosien** permettent de s'asseoir.
+
+### 🌀 Générateur de portails
+
+Le [Portal Spawner](portal_spawner.md) remplace l'ancien Creative Portal. Il prend en charge les intervalles fixes ou aléatoires et le contrôle redstone.
+
+### 🛒 Ouvrier kalosien
+
+Le mod officiel a ajouté **21 nouvelles offres commerciales**. Les ouvriers déjà présents avant la mise à jour conservent leur ancien catalogue.
+
+[Notes officielles 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Ajustements 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
