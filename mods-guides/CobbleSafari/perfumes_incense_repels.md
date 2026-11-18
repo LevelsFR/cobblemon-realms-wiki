@@ -102,42 +102,6 @@ Repel blocks spawns, completely canceling the effects of the boosts.
 
 ---
 
-## ⚙️ Configuration
-
-The settings for these systems are defined in:
-
-`config/cobblesafari/encounter_boost_config.json`
-
-### 🔧 Main Categories
-
-- ⚙️ **Effect Settings** → `effectSettings`  
-  Defines how effects work (including those from other systems such as the [Secret Base PC](secret_base_pc.md)).
-
-- ⏱️ **Duration Settings** → `durationSettings`  
-  Defines the duration of items that grant effects.
-
----
-
-{% hint style="warning" %}
-## Warning
-
-<p align="center">
-Some values present in the configuration file are not yet active in-game.
-<br>
-They will be used in future updates.
-</p>
-{% endhint %}
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-You can find a complete description of the configuration file on the mod's official page: <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_encounter_boost_config">Encounter_boost_config</a>
-</p>
-{% endhint %}
-
----
-
 {% hint style="success" %}
 ## Contact Us
 
