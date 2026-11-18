@@ -70,11 +70,9 @@ Le choix des destinations dépend du pool de donjons et de la configuration du s
   Dimension chaotique de Giratina avec plateformes inversées, labyrinthes d’illusions et combats de Pokémon Distordus.
   → [Voir la page](distortion_world.md)
 
-***
-
-- 🌃 **[Ultra Mégalopole](ultra_megalopolis.md)** : ville sombre et accès à Ultra Warp Ride.
-- 🏙️ **[Hyperspace Lumiose](hyperspace_lumiose.md)** : Zones Sauvages, rencontres rares et objectifs d'instance.
-- 🔔 **[Tour Carillon](bell_tower.md)** : ascension et combat contre Ho-Oh.
+* 🌃 **[Ultra Mégalopole](ultra_megalopolis.md)** : ville sombre et accès à Ultra Warp Ride.
+* 🏙️ **[Hyperspace Lumiose](hyperspace_lumiose.md)** : Zones Sauvages, rencontres rares et objectifs d'instance.
+* 🔔 **[Tour Carillon](bell_tower.md)** : ascension et combat contre Ho-Oh.
 
 ---
 
