@@ -13,7 +13,7 @@ Ces failles, que l’on dit créées par <strong>Hoopa lui-même</strong>, perme
 
 Les portails apparaissent **périodiquement dans l’Overworld**, près d’un joueur choisi aléatoirement.
 <br>
-Toutes les 10 minutes par défaut. Vous pouvez modifier ce temps dans les fichiers de configurations.
+Les portails apparaissent périodiquement dans l'Overworld, près des joueurs.
 
 Chaque portail est relié à une **instance unique de donjon**, sélectionnée dans le _Dungeon Pool_.
 <br>
@@ -80,37 +80,11 @@ Le choix des destinations dépend du pool de donjons et de la configuration du s
 
 - Chaque visite possède désormais son propre **temps de session**, indépendant de la durée de vie du portail.
 - Le donjon **reste actif pour les joueurs déjà à l'intérieur** lorsque le portail d'entrée expire.
-- Un **[générateur de portails](portal_spawner.md)** réservé aux admins propose des intervalles fixes, aléatoires ou un déclenchement redstone.
-- La génération naturelle peut être restreinte via `bannedBiomes` et les tags `#cobblesafari:portal_spawnable_on` et `#cobblesafari:portal_repellents`.
 - Depuis la 0.4.1, l'entrée d'Ultra Mégalopole prend l'apparence d'une Ultra-Brèche.
 
 [Version 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Version 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 
 ---
-
-## ⚙️ Configuration
-
-Le comportement des portails est défini dans :
-
-`config/cobblesafari/dungeon_spawn_config.json`
-
-### 🔧 Paramètres principaux
-
-* ⏱️ **Intervalle d'apparition** → `spawnIntervalSeconds` (défaut : 600)
-* 🌀 **Durée de vie du portail** → `portalLifetimeMinutes` (défaut : 30)
-* 🔘 **Activer les portails** → `enabled` (true/false)
-
-***
-
-{% hint style="info" %}
-## Plus d'informations
-
-<p align="center">
-Vous trouverez une description complète du fichier de configuration sur la page officielle du mod : <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dungeon_spawn_config">dungeon_spawn_config</a>
-</p>
-{% endhint %}
-
-***
 
 {% hint style="success" %}
 ## Nous contacter
