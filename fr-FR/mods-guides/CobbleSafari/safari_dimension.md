@@ -35,9 +35,10 @@ Dans <strong>Cobblemon Realms</strong>, la fabrication du téléporteur n’est 
 
 ### 🔹 Sortir du Safari
 
-* Commande : `/safariexit`
-* Sortie possible à tout moment
-* Le temps restant est **conservé pour la journée**
+* **La commande `/safariexit` a été supprimée en 0.4.0.**
+* Repérez un **drone de sortie** apparaissant périodiquement près des joueurs.
+* Faites un **clic droit** sur le drone pour confirmer la sortie, ou restez **dessous quelques secondes** pour quitter le Safari.
+* Le temps disponible et le rythme d'apparition des drones dépendent du serveur.
 
 ***
 
