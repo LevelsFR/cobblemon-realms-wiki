@@ -7,17 +7,20 @@
 
 ## 🗺️ Dimensions et rencontres
 
+Cliquez sur le nom de chaque destination pour consulter les **huit Pokémon du pool ordinaire**, les poids des récompenses et les tables de butin correspondantes.
+
+
 Les exemples suivants proviennent directement des fichiers de destination du mod officiel, sous `data/cobblesafari/ultra_warp_ride/destination/`.
 
 | Destination | Exemples de Pokémon ordinaires | Pool spécial |
 | --- | --- | --- |
-| **Ultra Crater** | Métalosse, Mélodelfe, Séléroc, Solaroc | Bamboiselle, Vémini |
-| **Ultra Deep** | Hyporoi, Lanturn, Wailmer, Sinistrail | Zéroïd, Vémini |
-| **Ultra Desert** | Carchacrok, Ténéfix, Floréclat, Crocorible | Cancrelove, Vémini |
-| **Ultra Forest** | Cizayox, Floramantis, Hachécateur, Manternel | Katagami, Vémini |
-| **Ultra Jungle** | Drattak, Noadkoko d'Alola, Tropius, Brutalibré | Mouscoto, Vémini |
-| **Ultra Plant** | Magnézone, Ohmassacre, Élekable, Pondralugon | Câblifère, Vémini |
-| **Ultra Ruins** | Tyranocif, Smogogo de Galar, Golemastoc, Ixon | Engloutyran, Ama-Ama, Pierroteknik, Vémini |
+| [**Ultra Crater**](ultra-dimensions/ultra_crater.md) | Métalosse, Mélodelfe, Séléroc, Solaroc | Bamboiselle, Vémini |
+| [**Ultra Deep**](ultra-dimensions/ultra_deep.md) | Hyporoi, Lanturn, Wailmer, Sinistrail | Zéroïd, Vémini |
+| [**Ultra Desert**](ultra-dimensions/ultra_desert.md) | Carchacrok, Ténéfix, Floréclat, Crocorible | Cancrelove, Vémini |
+| [**Ultra Forest**](ultra-dimensions/ultra_forest.md) | Cizayox, Floramantis, Hachécateur, Manternel | Katagami, Vémini |
+| [**Ultra Jungle**](ultra-dimensions/ultra_jungle.md) | Drattak, Noadkoko d'Alola, Tropius, Brutalibré | Mouscoto, Vémini |
+| [**Ultra Plant**](ultra-dimensions/ultra_plant.md) | Magnézone, Ohmassacre, Élekable, Pondralugon | Câblifère, Vémini |
+| [**Ultra Ruins**](ultra-dimensions/ultra_ruins.md) | Tyranocif, Smogogo de Galar, Golemastoc, Ixon | Engloutyran, Ama-Ama, Pierroteknik, Vémini |
 
 {% hint style="warning" %}
 **Important :** il s'agit des **pools définis par le mod**, pas d'une liste de spawns garantis dans Cobblemon Realms. Les rencontres spéciales dépendent de la sélection du rang de récompense et de la disponibilité des espèces apportées par les addons.
