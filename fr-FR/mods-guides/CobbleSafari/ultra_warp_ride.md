@@ -37,18 +37,18 @@ Le modèle de difficulté officiel utilise des paliers de distance et **quatre r
 - La sélection d'une rencontre rare, notamment une Ultra-Chimère.
 
 {% hint style="warning" %}
-Il s'agit de **probabilités**, et non de garanties. Les valeurs sont configurables par datapack. Un long vol ne garantit pas une Ultra-Chimère ou un Pokémon chromatique.
+Il s'agit de **probabilités**, et non de garanties. Un long vol ne garantit pas une Ultra-Chimère ou un Pokémon chromatique.
 {% endhint %}
 
 ## 📊 Distance et difficultés
 
-Le fichier de difficulté d'origine prévoit des paliers à **0, 300, 600, 1 000, 1 500** années-lumière et au-delà. Certains portails de rang élevé deviennent accessibles plus loin. Le paramètre `noBonusDistance` vaut **5 100**, distance à partir de laquelle les bonus d'énergie positifs cessent d'apparaître.
+Les vols les plus longs donnent accès à des portails plus intéressants, avec des paliers à **300, 600, 1 000 et 1 500 années-lumière**. Dans le mod d'origine, les bonus d'énergie positifs cessent d'apparaître après environ **5 100 années-lumière**.
 
 L'ensemble d'armure **Ultra Recon** peut conférer une fonction Élytres et augmenter la protection pendant le vol, si cette option est activée.
 
 ## ♿ Accessibilité
 
-Depuis la **0.4.1**, les flashs visuels du minijeu peuvent être désactivés dans le fichier client `client_settings.json`.
+Depuis la **0.4.1**, les flashs visuels du minijeu peuvent être désactivés dans les paramètres d'accessibilité du client.
 
 Découvrez [les sept destinations](ultra_dimensions.md) et [leurs équipements](ultra_loot.md).
 
