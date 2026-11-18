@@ -87,6 +87,16 @@ Vous trouverez une description complète du fichier de configuration sur les pag
 
 ---
 
+## 🆕 Changement 0.4 : limiter l'accumulation des ballons
+
+Pour éviter l'accumulation des ballons oubliés, `misc_config.json` comporte désormais l'option **`balloonMaxNearby`**. Sa valeur officielle par défaut est **3** : aucun nouveau Ballon Récompense n'apparaît si trois ballons non récupérés se trouvent déjà à proximité. La valeur `0` supprime cette limite sur un serveur personnalisé.
+
+Le système des ballons Safari reste distinct. La configuration du serveur Cobblemon Realms peut différer de ces paramètres d'origine.
+
+[Notes officielles CobbleSafari 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
