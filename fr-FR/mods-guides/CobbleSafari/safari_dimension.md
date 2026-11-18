@@ -261,6 +261,20 @@ Le détail complet de cette configuration est disponible sur la page officielle 
 
 ***
 
+---
+
+## 🛸 Drones de sortie (0.4+)
+
+Les drones remplacent la commande de sortie historique et apparaissent près des joueurs après des intervalles configurables. Le fichier `config/cobblesafari/safari_config.json` comprend `safariDroneEnabled` et `safariDroneSpawnMultiplier` (multiplicateur d'origine : **10**).
+
+{% hint style="warning" %}
+Ne comptez plus sur `/safariexit`. Si vous ne voyez aucun drone, vérifiez que le serveur active bien cette fonctionnalité.
+{% endhint %}
+
+[Notes officielles CobbleSafari 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0).
+
+---
+
 {% hint style="success" %}
 ## Nous contacter
 
