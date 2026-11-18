@@ -14,7 +14,7 @@ These rifts, said to have been created by <strong>Hoopa itself</strong>, provide
 
 Portals appear **periodically in the Overworld**, near a randomly selected player.
 <br>
-By default, they spawn every 10 minutes. You can modify this interval in the configuration files.
+They appear periodically in the Overworld near adventurers.
 
 Each portal is linked to a **unique dungeon instance**, selected from the *Dungeon Pool*.
 <br>
@@ -81,35 +81,9 @@ The destination list below depends on the server's enabled dungeons and portal p
 
 - Dungeon time is now tracked **per visit/session**. Entrance portal lifetime and dungeon session lifetime are distinct.
 - A portal may disappear after its configured lifespan, but the **dungeon stays active for players inside**.
-- A new admin **[Portal Spawner](portal_spawner.md)** can create renewable portals using fixed, random or redstone-driven intervals.
-- Natural spawns can be restricted by `bannedBiomes`, `#cobblesafari:portal_spawnable_on` and `#cobblesafari:portal_repellents`.
 - The **Megalopolis portal** uses an Ultra Wormhole appearance as of 0.4.1.
 
 [Official 0.4.0 changes](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [0.4.1 refinements](https://modrinth.com/mod/cobblesafari/version/0.4.1).
-
----
-
-## ⚙️ Configuration
-
-Portal behavior is defined in:
-
-`config/cobblesafari/dungeon_spawn_config.json`
-
-### 🔧 Main Settings
-
-- ⏱️ **Spawn interval** → `spawnIntervalSeconds` (default: 600)
-- 🌀 **Portal lifetime** → `portalLifetimeMinutes` (default: 30)
-- 🔘 **Enable portals** → `enabled` (true/false)
-
----
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-You can find a complete description of the configuration file on the mod's official page: <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dungeon_spawn_config">dungeon_spawn_config</a>
-</p>
-{% endhint %}
 
 ---
 
