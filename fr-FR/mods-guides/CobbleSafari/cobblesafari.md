@@ -8,6 +8,12 @@ CobbleSafari enrichit l'expérience Cobblemon Realms avec de nouvelles dimension
 
 ---
 
+{% hint style="info" %}
+**Guide actualisé pour CobbleSafari 0.4.1**, intégré à Cobblemon Realms v6.3. Cette rubrique couvre désormais Ultra Space, Hyperspace Lumiose, la Tour Carillon, ainsi que les nouvelles mécaniques de portails, donjons et administration. [Notes officielles](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+{% endhint %}
+
+---
+
 ## 📚 Guides disponibles
 
 Retrouvez les différentes fonctionnalités de CobbleSafari dans les pages suivantes :
@@ -16,6 +22,18 @@ Retrouvez les différentes fonctionnalités de CobbleSafari dans les pages suiva
   * [🎡 Dimension Safari](safari_dimension.md)
     * [🐾 Pokémon du Safari](wild_pokemon_safari.md)
   * [🌀 Portail d'Hoopa](hoopa_portals.md)
+  * [🌌 Ultra Space](ultra_space.md)
+    * [🌃 Ultra Mégalopole](ultra_megalopolis.md)
+    * [🪽 Ultra Warp Ride](ultra_warp_ride.md)
+    * [🌀 Ultra-Dimensions et Pokémon](ultra_dimensions.md)
+    * [🎁 Objets Ultra Space](ultra_loot.md)
+  * [🏙️ Hyperspace Lumiose](hyperspace_lumiose.md)
+    * [🍩 Donuts d'Hyperspace](hyperspace_donuts.md)
+  * [🔔 Tour Carillon](bell_tower.md)
+  * [🎯 Objectifs dimensionnels](dimensional_objectives.md)
+  * [✨ Lost Items](lost_items.md)
+  * [🌀 Générateur de portails (Admin)](portal_spawner.md)
+  * [⚙️ Configuration CobbleSafari 0.4 (Admin)](admin_configuration.md)
   * [📱 Motismart](motismart.md)
     * [👔 Holo-Skins du Motismart](holo_skin.md)
     * [🗒️ Liste des Missions](list_miss.md)
