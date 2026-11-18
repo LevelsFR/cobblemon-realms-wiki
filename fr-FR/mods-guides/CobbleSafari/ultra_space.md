@@ -39,7 +39,7 @@ Les Ultra-Dimensions proposent un Pokémon dont les IV, attaques supplémentaire
 | [🎯 Objectifs dimensionnels](dimensional_objectives.md) | Tâches, récompenses et progression |
 
 {% hint style="warning" %}
-**Cobblemon Realms :** ce guide décrit les mécaniques officielles de CobbleSafari **0.4.0/0.4.1**, intégrées au modpack **6.3**. Les apparitions, récompenses, durées et fonctionnalités disponibles peuvent être modifiées par le serveur, les addons ou les datapacks. Les valeurs du mod d'origine ne sont pas des garanties pour le serveur public.
+**Cobblemon Realms :** les rencontres, récompenses et durées peuvent varier selon le monde. Référez-vous aux indications affichées en jeu.
 {% endhint %}
 
 ## 📖 Sources
