@@ -9,7 +9,7 @@ CobbleSafari enhances the Cobblemon Realms experience with new dimensions, mecha
 ---
 
 {% hint style="info" %}
-**Updated for CobbleSafari 0.4.1**, as included in Cobblemon Realms v6.3. This section now covers the Ultra Space expansion, Hyperspace Lumiose, Bell Tower and the refreshed portal, dungeon and admin mechanics. [Official release notes](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+**Updated for CobbleSafari 0.4.1**, as included in Cobblemon Realms v6.3. This section now covers the Ultra Space expansion, Hyperspace Lumiose, Bell Tower and the refreshed portal and dungeon mechanics. [Official release notes](https://modrinth.com/mod/cobblesafari/version/0.4.1).
 {% endhint %}
 
 ---
@@ -32,8 +32,6 @@ Find all CobbleSafari features in the following pages:
   * [🔔 Bell Tower](bell_tower.md)
   * [🎯 Dimensional Objectives](dimensional_objectives.md)
   * [✨ Lost Items](lost_items.md)
-  * [🌀 Portal Spawner (Admin)](portal_spawner.md)
-  * [⚙️ CobbleSafari 0.4 Setup (Admin)](admin_configuration.md)
   * [📱 Rotom Phone](motismart.md)
     * [👔 Rotom Phone Holo-Skins](holo_skin.md)
     * [🗒️ List of all Missions](list_miss.md)
@@ -48,4 +46,3 @@ Find all CobbleSafari features in the following pages:
   * [🏠 Secret Base PC](secret_base_pc.md)
   * [🤝 Trader Exchanges](traders_trade_list.md)
   * [💡 Useful Blocks](blocs_utiles.md)
-  * [⌨️ `/cobblesafari` Command](cobblesafari_command.md)
