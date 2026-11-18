@@ -162,33 +162,9 @@ If you notice a strange opening in a wall, take the time to investigate: an old 
 
 ---
 
-# ⚙️ Configuration
-
-Dimension restrictions (forbidden items, allowed battles, etc.) are defined in:
-<br>
-➡️ `Dimensional Restrictions`
-
-The teleportation system and timers are defined in:
-<br>
-➡️ `Dimensional Timer`
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-Full details of these files are available on their respective configuration pages:
-<br>
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_restrictions_config">Dimensional Restrictions</a>
-<br>
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config">Dimensional Timer</a>
-</p>
-{% endhint %}
-
----
-
 ## 🆕 Objective and Dungeon Session Changes (0.4+)
 
-The Underground has its own configurable [Dimensional Objectives](dimensional_objectives.md), including tasks and separate reward tables. The **0.4** timer model attaches to individual dungeon visits, so an expiring entrance portal does not immediately remove a session if players are still inside.
+The Underground has its own [Dimensional Objectives](dimensional_objectives.md), with exploration challenges and rewards. The **0.4** timer model attaches to individual dungeon visits, so an expiring entrance portal does not immediately remove a session if players are still inside.
 
 {% hint style="info" %}
 The original 0.3 Underground mechanics, such as digging, Hikers, Secret Bases and Pokémon Hideaways, remain documented above. The newer objectives are additional activities, not a replacement for excavation.
