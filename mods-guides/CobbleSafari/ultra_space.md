@@ -39,7 +39,7 @@ Each Ultra Dimension offers an encounter whose IVs, bonus moves and Shiny/Alpha 
 | [🎯 Dimensional Objectives](dimensional_objectives.md) | Tasks, dungeon rewards and new progression rules |
 
 {% hint style="warning" %}
-**Cobblemon Realms:** this guide describes the upstream mechanics introduced in CobbleSafari **0.4.0/0.4.1**, included in Cobblemon Realms **6.3**. Actual encounter pools, dungeon availability, loot and timers may be overridden by the server, addons or datapacks. Do not treat upstream defaults as guaranteed public-server settings.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base CobbleSafari mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
