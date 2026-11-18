@@ -612,27 +612,6 @@
       ]
     },
     {
-      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(portal_spawner|admin_configuration)$",
-      "badges": [
-        "v6",
-        "server",
-        "admin",
-        "mods"
-      ],
-      "filters": [
-        "mods",
-        "server",
-        "commands"
-      ],
-      "topics": [
-        "mod-guide",
-        "cobblesafari",
-        "dungeons",
-        "server-admin"
-      ],
-      "status": "needs-review"
-    },
-    {
       "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(ultra_space|ultra_megalopolis|ultra_warp_ride|ultra_dimensions|ultra_loot)$",
       "badges": [
         "v6",
@@ -743,38 +722,15 @@
       "badges": [
         "v6",
         "client",
-        "server",
         "mods"
       ],
       "filters": [
-        "mods",
-        "server"
+        "mods"
       ],
       "topics": [
         "mod-guide",
         "cobblesafari",
-        "multiplayer"
-      ]
-    },
-    {
-      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/cobblesafari_command$",
-      "badges": [
-        "v6",
-        "server",
-        "admin",
-        "mods",
-        "commands"
-      ],
-      "filters": [
-        "mods",
-        "server",
-        "commands"
-      ],
-      "topics": [
-        "mod-guide",
-        "cobblesafari",
-        "commands",
-        "server-admin"
+        "gameplay"
       ]
     },
     {
