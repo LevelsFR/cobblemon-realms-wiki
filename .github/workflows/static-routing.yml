@@ -6,6 +6,7 @@ on:
       - 'wrangler.jsonc'
       - 'package.json'
       - 'scripts/**'
+      - 'assets/wiki.js'
       - '.github/workflows/static-routing.yml'
   workflow_dispatch:
 
