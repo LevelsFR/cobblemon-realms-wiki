@@ -12,7 +12,7 @@
 | **Ultra Recon Armor** | Full-set Elytra ability (if enabled) and additional protection during Ultra Warp Ride |
 | **Glutton Armor** | Eating with the set grants Gluttonous bonuses depending on fullness |
 | **Stacked Shield** | Blocks damage and grants a boost, then needs to recharge |
-| **Nihilhat** | Grants Conduit Power while in contact with water, with a strong hunger drawback |
+| **Nihilhat** | Grants Conduit Power in water or rain when the hunger bar is nonempty, but applies Hunger III and can also cause nausea |
 
 ## 🎯 Tools and Projectiles
 
