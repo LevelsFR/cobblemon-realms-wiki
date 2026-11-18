@@ -41,40 +41,6 @@ If Cobbreeding is removed during incubation, encrypted data is lost, but the spe
 {% endhint %}
 
 {% hint style="info" %}
-## Datapack Compatibility
-
-<p align="center">
-The incubator is also compatible with datapacks. You can use any item as an egg, define multiple possible outcomes, and adjust hatching time as well as shiny multipliers.
-
-For more information about the data structure, check the official page: <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-egg-incubator">Egg Incubator</a>
-</p>
-{% endhint %}
-
----
-
-## ⚙️ Configuration
-
-The incubation system is fully configurable via the `incubator_config.json` file.
-<br>
-It allows you to modify wild egg hatching time as well as Cobbreeding egg incubation speed.
-
-### Main Parameters
-
-- `defaultWildEggHatchTimeTicks` → wild egg hatching time (default: `14400`)
-- `cobbreedingHatchSpeedMultiplier` → Cobbreeding incubation speed (default: `0.66`)
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-Full details of this configuration are available on the mod's official page:
-<br>
-<a href="https://cobblesafari.maxigregrze.fr/en/addons/config_incubator_config">Incubator Configuration</a>
-</p>
-{% endhint %}
-
----
-
 {% hint style="success" %}
 ## Contact Us
 
