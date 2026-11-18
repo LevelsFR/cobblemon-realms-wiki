@@ -126,6 +126,27 @@
 - Nettoyage d'un séparateur Markdown en double dans le guide français des combats de boss (`fr-FR/mods-guides/CobbleSafari/fight_boss.md`).
 - Aucun déploiement Cloudflare ni test en jeu n'est présenté comme réalisé.
 
+### 19. CobbleSafari : retrait des parties administrateur du wiki public
+
+**Décision éditoriale :** la documentation CobbleSafari du wiki Cobblemon Realms est destinée aux **joueurs**. Les procédures réservées aux opérateurs, au mode Créatif technique et aux créateurs de datapacks ne doivent pas apparaître dans ses guides publics.
+
+- **Six pages supprimées** : `admin_configuration.md`, `portal_spawner.md` et `cobblesafari_command.md`, en anglais et en français, dans `mods-guides/CobbleSafari/` et `fr-FR/mods-guides/CobbleSafari/`.
+- Menus et index nettoyés : `SUMMARY.md`, `fr-FR/SUMMARY.md`, `mods-guides/CobbleSafari/cobblesafari.md`, `fr-FR/mods-guides/CobbleSafari/cobblesafari.md`.
+- `page-meta.json` : suppression des règles réservées aux commandes et outils d'administration CobbleSafari ; catégorisation de la page d'accueil recentrée sur le gameplay.
+- **Guides existants allégés EN/FR** : Safari Dimension, Portails Hoopa, Ballons, PC de Base Secrète, Parfums/Encens, Œufs sauvages, Souterrain de Sinnoh, Monde Distorsion, Échanges, Motismart, Blocs utiles, Lost Items et Objectifs dimensionnels. Suppression des sections sur les fichiers de configuration, outils d'admin, flags Creative, modifications des instances, Onboarding et datapacks.
+- **Guides 0.4 EN/FR recentrés sur le joueur** : Ultra Warp Ride, Ultra-Dimensions et fiches individuelles, Hyperspace Lumiose, Bell Tower, Ultra Loot, ainsi que les notices des récompenses. Les détails internes comme les identifiants de dimension, valeurs techniques de boss ou listes d'identifiants d'objets réservées au débogage ont été retirés.
+- **Fonctions joueurs préservées** : obtenir et utiliser les objets, gérer les captures et les œufs, trouver les donjons, lire les récompenses, configurer ses propres statues et Teleport Pads avec le Tinkhammer, profiter des options locales d'accessibilité et sortir du Safari avec les drones.
+- Correction de l'avertissement périmé concernant l'expiration du portail dans `fr-FR/mods-guides/CobbleSafari/distortion_world.md`.
+- Correction d'un encadré GitBook orphelin, laissé après suppression de la partie datapacks dans `wild_eggs_incubators.md` EN et FR.
+
+**Vérifications après modification :**
+- Les six fichiers administrateur sont absents de l'arborescence actuelle.
+- Sommaires EN et FR : **147/147 liens Markdown valides** pour chaque langue.
+- Index CobbleSafari EN et FR : **28/28 liens Markdown valides** pour chaque langue.
+- Les **70 pages Markdown CobbleSafari restantes** (35 par langue) ont été contrôlées pour les liens locaux, les références aux trois guides supprimés et l'équilibre des encadrés. Aucun lien local cassé ni renvoi aux pages supprimées n'a été relevé ; le seul déséquilibre d'encadré détecté dans les incubateurs a été corrigé.
+- Ce contrôle est **statique sur GitHub**. Le build complet, le déploiement Cloudflare et les tests en jeu restent à exécuter.
+
+
 ---
 
 ## Historique précédent
