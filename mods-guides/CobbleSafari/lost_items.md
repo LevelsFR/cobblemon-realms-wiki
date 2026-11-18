@@ -1,7 +1,7 @@
 # ✨ Lost Items & Auspicious Poké Balls
 
 {% hint style="info" %}
-<p align="center">Find collectibles in dungeon areas and explore the many new appearance, loot and configuration options added in CobbleSafari 0.4.</p>
+<p align="center">Find collectibles in dungeon areas and explore the many new appearance, loot added in CobbleSafari 0.4.</p>
 {% endhint %}
 
 
@@ -21,16 +21,9 @@ A **Lost Item** is a dungeon collectible. Some use a Poké Ball model; others lo
 
 The collectible's Poké Ball can use a variety of Cobblemon ball models.
 
-## 🛠️ Creative / Server Configuration
+## 🛡️ How Do I Collect Them?
 
-- **Sneak + right-click with a held item** in Lost Item mode 2 can store an exact item stack, including count and data.
-- The configuration UI can edit the item ID, amount and data components.
-- The **Lost Item Template** copies an existing item's configuration for reuse on another.
-- Lost Items, Lost Notes and Auspicious Poké Balls **cannot be broken in survival**.
-
-{% hint style="warning" %}
-Some configuration actions require creative/admin access; they are not general survival-player features. Also, the loot pools are datapack-configurable, so default drops may differ in Cobblemon Realms.
-{% endhint %}
+Interact with dungeon collectibles to claim their rewards. Lost Items, Lost Notes and Auspicious Poké Balls **cannot be broken in survival mode**.
 
 ## 🧭 Relevant Locations
 
