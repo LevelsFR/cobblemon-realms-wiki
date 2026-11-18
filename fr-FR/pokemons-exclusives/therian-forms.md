@@ -37,7 +37,7 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Fulguris avec l'objet `Miroir Sacré`
+* 🖱️ Utilisez le **Miroir Sacré** (`mega_showdown:reveal_glass`), puis sélectionnez **Fulguris** dans votre équipe
 * ℹ️ Le même objet permet d’activer ou d’annuler la transformation
 
 ***
@@ -85,7 +85,7 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Boréas avec l'objet `Miroir Sacré`
+* 🖱️ Utilisez le **Miroir Sacré** (`mega_showdown:reveal_glass`), puis sélectionnez **Boréas** dans votre équipe
 * ℹ️ Le même objet permet d’activer ou d’annuler la transformation
 
 ***
@@ -133,12 +133,22 @@
 
 ### 🔄 Utilisation
 
-* 🖱️ Clic-droit sur Démétéros avec l'objet `Miroir Sacré`
+* 🖱️ Utilisez le **Miroir Sacré** (`mega_showdown:reveal_glass`), puis sélectionnez **Démétéros** dans votre équipe
 * ℹ️ Le même objet permet d’activer ou d’annuler la transformation
 
 ### 📜 Description
 
 > Prenant l'apparence d'un tigre sacré, Démétéros veille sur les terres fertiles. Son passage favorise l'abondance des récoltes, mais sa colère peut également déchaîner les éléments.
+
+***
+
+## 💗 Amovénus, Forme Totémique
+
+Le **Miroir Sacré** de Mega Showdown fonctionne également sur **Amovénus**, en plus de Boréas, Fulguris et Démétéros. Utilisez cet objet puis sélectionnez Amovénus dans votre équipe pour alterner entre **Forme Avatar** et **Forme Totémique**.
+
+{% hint style="info" %}
+Ce quatrième Pokémon est confirmé par le [registre officiel des objets](https://github.com/yajatkaul/CobblemonMegaShowdown/blob/main/common/src/main/java/com/github/yajatkaul/mega_showdown/item/MegaShowdownItems.java). Sa disponibilité dépend de la version du modpack.
+{% endhint %}
 
 ***
 
