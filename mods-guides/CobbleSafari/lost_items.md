@@ -32,7 +32,7 @@ Interact with dungeon collectibles to claim their rewards. Lost Items, Lost Note
 - [Dimensional Objectives](dimensional_objectives.md), where some tasks reward collecting Lost Items.
 
 {% hint style="warning" %}
-**Cobblemon Realms:** CobbleSafari 0.4.1 is included in modpack v6.3, but the default behavior described here can be altered by server settings, custom datapacks, difficulty or enabled addons. When in doubt, follow the actual in-game interface.
+**Cobblemon Realms:** some encounters, rewards and timers may differ from the base mod. Follow the information shown in game.
 {% endhint %}
 
 ## 📖 Sources
