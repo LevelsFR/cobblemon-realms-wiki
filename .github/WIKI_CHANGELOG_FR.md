@@ -121,6 +121,11 @@
 
 
 
+### 18. Relecture finale
+- Vérification de la numérotation chronologique des 18 entrées du journal, du 18 novembre 2026.
+- Nettoyage d'un séparateur Markdown en double dans le guide français des combats de boss (`fr-FR/mods-guides/CobbleSafari/fight_boss.md`).
+- Aucun déploiement Cloudflare ni test en jeu n'est présenté comme réalisé.
+
 ---
 
 ## Historique précédent
