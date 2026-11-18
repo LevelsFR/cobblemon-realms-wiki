@@ -119,48 +119,6 @@ Their strength is therefore directly tied to these systems.
 
 ---
 
-## 🧪 Creative Mode & Administration
-
-A special **creative flag** exists.
-
-When inserted into a PC:
-
-- 🔋 infinite battery
-- ⚙️ all costs are removed
-- 🌍 unlimited effects
-
-{% hint style="danger" %}
-<p align="center">
-Warning: the PC remains breakable and editable even in Creative Mode.  
-It is strongly recommended to <strong>secure it inside a protected structure</strong>.
-</p>
-{% endhint %}
-
----
-
-## 📊 Values & Configuration
-
-The following settings can be modified:
-
-- 🔋 battery capacity per rank
-- 💰 effect costs
-- 🏁 flag values
-
-📁 Config file:
-`secretbase_pc_config.json`
-
----
-
-{% hint style="info" %}
-## More Information
-
-<p align="center">
-A complete guide for adding or modifying all level battery limits, effect costs, and flag battery values is available on the mod's official page: <a href="https://cobblesafari.maxigregrze.fr/en/addons/datapack-safari-spawns">Datapack: Safari Spawns</a>
-</p>
-{% endhint %}
-
----
-
 {% hint style="success" %}
 ## Contact Us
 
