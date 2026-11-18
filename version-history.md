@@ -160,6 +160,8 @@ Recent **5.x and 6.x** releases listed here target **Minecraft 1.21.1 with NeoFo
 - **Server performance**: adaptive wild Pokémon AI and spawning throttling during low TPS, alongside further optimizations.
 
 [**Full official 6.3 changelog →**](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600)
+**New gameplay guides:** [CobbleSafari 0.4.1](mods-guides/CobbleSafari/cobblesafari.md), [Ultra Space](mods-guides/CobbleSafari/ultra_space.md), [Hyperspace Lumiose](mods-guides/CobbleSafari/hyperspace_lumiose.md) and [Bell Tower](mods-guides/CobbleSafari/bell_tower.md).
+
 
 ### 6.2 and follow-up patches · October–November 2026
 
