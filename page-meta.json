@@ -612,7 +612,28 @@
       ]
     },
     {
-      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(ultra_space|ultra_megalopolis|ultra_warp_ride|ultra_dimensions|ultra_loot|hyperspace_lumiose|hyperspace_donuts|bell_tower|dimensional_objectives|lost_items)$",
+      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(portal_spawner|admin_configuration)$",
+      "badges": [
+        "v6",
+        "server",
+        "admin",
+        "mods"
+      ],
+      "filters": [
+        "mods",
+        "server",
+        "commands"
+      ],
+      "topics": [
+        "mod-guide",
+        "cobblesafari",
+        "dungeons",
+        "server-admin"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(ultra_space|ultra_megalopolis|ultra_warp_ride|ultra_dimensions|ultra_loot)$",
       "badges": [
         "v6",
         "client",
@@ -631,23 +652,59 @@
       "status": "needs-review"
     },
     {
-      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(portal_spawner|admin_configuration)$",
+      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/ultra-dimensions/",
       "badges": [
         "v6",
-        "server",
-        "admin",
+        "client",
         "mods"
       ],
       "filters": [
         "mods",
-        "server",
-        "commands"
+        "gameplay"
       ],
       "topics": [
         "mod-guide",
         "cobblesafari",
         "dungeons",
-        "server-admin"
+        "ultra-space",
+        "pokemon"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(hyperspace_lumiose|hyperspace_donuts)$",
+      "badges": [
+        "v6",
+        "client",
+        "mods"
+      ],
+      "filters": [
+        "mods",
+        "gameplay"
+      ],
+      "topics": [
+        "mod-guide",
+        "cobblesafari",
+        "dungeons",
+        "hyperspace"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "match": "^/(fr-FR/)?mods-guides/CobbleSafari/(bell_tower|dimensional_objectives|lost_items)$",
+      "badges": [
+        "v6",
+        "client",
+        "mods"
+      ],
+      "filters": [
+        "mods",
+        "gameplay"
+      ],
+      "topics": [
+        "mod-guide",
+        "cobblesafari",
+        "dungeons"
       ],
       "status": "needs-review"
     },
