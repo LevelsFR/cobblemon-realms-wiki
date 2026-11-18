@@ -45,7 +45,7 @@ In <strong>Cobblemon Realms</strong>, crafting the teleporter is not possible. T
 
 Inside the Safari Dimension:
 
-- ⏳ You have a maximum of **15 minutes**
+- ⏳ The default guide assumes **15 minutes**, but the server can change the duration
 - ⚪ Only Safari Balls can be used
 - ❌ No battles allowed
 - ❌ Pokémon cannot be sent out
@@ -258,6 +258,21 @@ Full details of this configuration are available on the mod's official page:
 <a href="https://cobblesafari.maxigregrze.fr/en/addons/config_dimensional_timer_config">Dimensional Timer Configuration</a>
 </p>
 {% endhint %}
+
+---
+
+
+---
+
+## 🛸 Exit Drones (0.4+)
+
+Safari Exit Drones spawn around players every few minutes. The upstream configuration adds `safariDroneEnabled` and `safariDroneSpawnMultiplier` (default multiplier **10**) in `config/cobblesafari/safari_config.json`. Drones replace the old exit command, and their appearance timing depends on the server settings.
+
+{% hint style="warning" %}
+Never rely on `/safariexit` for version 0.4+. If you cannot see a drone, keep exploring nearby and check whether the feature is enabled on the server.
+{% endhint %}
+
+[Official 0.4.0 release notes](https://modrinth.com/mod/cobblesafari/version/0.4.0).
 
 ---
 
