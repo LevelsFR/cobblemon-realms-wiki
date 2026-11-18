@@ -35,7 +35,7 @@ Une fois à l'intérieur, plusieurs restrictions s'appliquent :
 
 {% hint style="warning" %}
 <p align="center">
-Lorsque le portail disparaît, la dimension s'effondre et tous les joueurs encore présents sont automatiquement expulsés.
+Le portail d'entrée peut disparaître pendant votre exploration. Les joueurs déjà à l'intérieur peuvent continuer tant que leur session de donjon reste active.
 </p>
 {% endhint %}
 
