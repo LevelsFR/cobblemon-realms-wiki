@@ -42,7 +42,7 @@ Reach the upper arena and face **Ho-Oh**, which uses the CobbleSafari CSBoss sys
 
 ## 🔥 Boss Battle and Rewards
 
-The upstream boss file registers a Ho-Oh encounter with fire, flying and jump-themed attacks and **damageMultiplier: 2.0**. Its defined rewards include common and unique Ho-Oh loot.
+Ho-Oh attacks with **Fire, Flying and jumping mechanics**. Stay mobile and watch the arena to survive the fight.
 
 | Item | Description from the official release |
 | --- | --- |
