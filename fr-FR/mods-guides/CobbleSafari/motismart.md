@@ -193,6 +193,24 @@ Il existe **trois façons** de débloquer une application :
 
 ***
 
+## 🆕 Nouveautés des versions 0.4.0 et 0.4.1
+
+### ✨ Animations de Roto-Chute et Roto-Glisse
+
+Lorsqu'un Motismart évite une chute importante ou active Roto-Glisse, une animation accompagnée du cri de Motisma apparaît. Depuis la **0.4.1**, il est possible de désactiver ces animations dans le fichier local `client_settings.json` pour améliorer l'accessibilité.
+
+### ⛔ Restrictions de certaines dimensions
+
+Plusieurs donjons, dont la **[Tour Carillon](bell_tower.md)**, désactivent **Roto-Chute et Roto-Glisse** grâce au réglage `allowRotomSafety`. Ne comptez pas sur le téléphone pour vous sauver à cet endroit. Le minijeu **Ultra Warp Ride** possède également une option permettant de désactiver les flashs lumineux.
+
+### ⚡ Data Monitor hanté
+
+À certaines heures du jeu, un **Data Monitor Cobblemon surmonté d'une bougie allumée** peut être frappé par un éclair inoffensif et devenir hanté. Interagir avec lui détruit le dispositif et libère un **Motisma sauvage**. La probabilité est réglable via `hauntedMonitorStrikeChance`.
+
+[Version 0.4.0](https://modrinth.com/mod/cobblesafari/version/0.4.0) · [Accessibilité 0.4.1](https://modrinth.com/mod/cobblesafari/version/0.4.1).
+
+---
+
 {% hint style="success" %}
 ### Nous contacter
 
