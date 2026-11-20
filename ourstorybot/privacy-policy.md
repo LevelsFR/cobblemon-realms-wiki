@@ -1,6 +1,6 @@
 # OurStoryBot Privacy Policy
 
-**Last updated: 14 November 2026**
+**Last updated: 20 November 2026**
 
 This policy explains how **OurStoryBot**, the community Discord application maintained for **Our Story Collection** by **LevelsFR**, uses data when you interact with its features. It does not replace [Discord's Privacy Policy](https://discord.com/privacy) or the privacy notices of third-party sites.
 
@@ -15,6 +15,7 @@ Depending on the features you use, the bot may process:
 - Recruitment applications, relevant answers, optional portfolios, consent to automated clarification, case status and private staff notes. Recruitment discussions are handled in private threads, but Discord administrators and users with relevant thread-management permissions may still have technical access.
 - Your selected project-release subscriptions and delivery status, plus bot service statistics, audit trails and moderation actions.
 - Technical diagnostics such as Minecraft version, loader and suspected error categories from log files.
+- When the file-sharing feature is used, eligible attachment names, sizes, supported text contents, mclo.gs file identifiers, expiration timestamps, and the Discord author's numeric ID. To manage deletion requests, the bot persists the mclo.gs deletion token, the associated log ID, the author's numeric Discord ID and the registration time in a local JSON store. The original file contents are not kept in that deletion-token store.
 
 **Please do not send passwords, access tokens, identity documents, payment information or unnecessary personal details.** Technical logs can contain sensitive information even when automatic masking is used.
 
@@ -27,7 +28,7 @@ The processing relies, as relevant, on provision of requested services and legit
 ## 3. Third parties and automated processing
 
 - **Discord** hosts the messages, accounts, permissions, files and interactions through which you use the bot.
-- **mclo.gs** may receive **sanitized Minecraft logs** automatically submitted from supported attachments in eligible channels, or through explicit upload workflows. Token masking is best-effort, not a guarantee. Do not submit secret material.
+- **mclo.gs** receives **processed Minecraft logs and eligible plain-text files** automatically shared from non-excluded server channels and public threads, including text documents that are not Minecraft logs. Direct messages and private threads are not automatically processed. Files are checked for supported extensions, size, format and certain content restrictions before forwarding. The bot masks several common credential patterns, but this redaction is best-effort and not guaranteed. Text submitted through this workflow should be treated as potentially public.
 - **Google Gemini** may process limited, filtered text from publicly visible support conversations when AI support is enabled. Raw log files and attachments are not intentionally forwarded to that support model. Recruitment AI clarification runs only when the applicant explicitly agrees and the optional feature is enabled; selected application text is filtered before submission. A model provider may process submitted content under its own applicable terms, including terms for free-tier services.
 - The bot's infrastructure, hosting and authorized administrators handle stored feature data to run the service. Public project links may lead to independent services such as CurseForge, Modrinth, Patreon or BisectHosting, each with its own privacy practices.
 
@@ -44,6 +45,16 @@ A message set as ephemeral is shown only to its intended user by Discord. This d
 Different features have different lifecycles. Support cases may be retained in active or archived histories to allow investigations and restoration; closing a ticket **does not automatically erase its record**. Recruitment records, staff audit history, feedback and knowledge-base entries may remain for operational review. Release subscriptions remain until changed or removed, while delivery-attempt receipts have a rolling retention mechanism (currently up to 90 days). Some aggregated message statistics are periodically pruned.
 
 The bot currently does **not** enforce one universal automatic deletion deadline across all these records, and backups or Discord-hosted messages may have separate lifecycles. The operator must define and document appropriate retention periods for each category before representing this policy as fully compliant. You may request access, correction or deletion of eligible records using the contact method above. Requests will be assessed in light of applicable obligations, safety and the rights of others.
+
+### Automatic file sharing: Minecraft logs and text documents
+
+OurStoryBot automatically processes eligible attachments in allowed Discord server channels. Supported files currently include plain-text files such as `.txt` and `.log`, recognized Minecraft crash reports and supported gzip-compressed text. A maximum of **10 eligible attachments per message** may be processed, with a **10 MiB per-file limit** and **25,000-line limit** after decompression. Unsupported files, excluded channels, direct messages and private threads are not uploaded by this feature.
+
+When accepted, a sanitized copy of each eligible file is sent to the external **[mclo.gs](https://mclo.gs/)** service to make it readable in a browser. **Anyone with the resulting mclo.gs link may access that hosted copy.** The original Discord attachment stays in Discord; deleting the original Discord message does not remove the externally hosted file. Do not post sensitive or private documents in channels where automatic sharing is enabled.
+
+The bot attempts to send the author **one private receipt** per message, listing uploaded files, their links and available deletion controls. A receipt may not arrive if Discord blocks direct messages. Where mclo.gs supplies a valid deletion token and the bot can persist it, **only the original author's Discord account can use the bot's delete control** to request deletion of the hosted copy. The bot keeps this credential server-side and does not expose the token in the public channel or private receipt. Successful deletion through this control **does not delete** the original Discord attachment or copies previously downloaded, cached or redistributed by others. Files are otherwise subject to the **expiration date returned by mclo.gs**, which may change under the provider's own retention rules. OurStoryBot does not control that third-party retention schedule.
+
+The bot's deletion-token records are local operational data; **no universal automatic deletion deadline is currently enforced for these records**. Contact Levels privately through the official Discord to request help with a remaining hosted file or related local data. OurStoryBot is not affiliated with mclo.gs. See the [mclo.gs API documentation](https://api.mclo.gs/) for the external hosting and deletion mechanism.
 
 ## 6. Your choices and rights
 
