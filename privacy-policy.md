@@ -1,0 +1,37 @@
+# Website Privacy Policy
+
+**Last reviewed: 20 November 2026.**
+
+This policy applies to the **Cobblemon Realms Wiki website**, not to the independent [OurStoryBot Privacy Policy](/ourstorybot/privacy-policy), Discord, Patreon or Minecraft servers.
+
+## Website operator and contact
+
+The wiki is maintained under the name **Cobblemon Realms / Our Story Collection** by **LevelsFR**. For a request concerning your data, privately contact **Levels** through the [official Discord](https://discord.gg/kb8NSTF45n). Please do not disclose private details in public channels. A dedicated privacy email and the operator's legally required identification details are still to be confirmed.
+
+## Data processed and purposes
+
+Based on the publicly available application source, the website includes:
+
+- **Technical website delivery and security:** requests are processed by Cloudflare infrastructure, which may process connection metadata necessary to serve and protect the site.
+- **Usage statistics:** the wiki sends events such as page visits, unavailable pages, broad search categories and outbound-link destinations. Its application analytics do not intentionally transmit visitor names, user IDs or IP addresses.
+- **Search telemetry:** search text entered in the wiki search field (up to 120 characters), result category, language, and search, click or no-result events may be recorded in Cloudflare D1. Search text can contain personal information if a visitor types it. Avoid entering sensitive data.
+- **Article feedback:** ratings and, when voluntarily provided, comments or reasons can be stored for moderation and content improvement.
+- **Browser preferences:** theme, favourites, recently visited wiki pages, some server-status caches and the analytics preference can be stored locally in your browser.
+
+The intended legal grounds are the legitimate interests of website operation, security and improvement, and the user's request for optional feedback or preferences, as relevant. The exact legal assessment and the definitive processing register require operator review.
+
+## Service providers and recipients
+
+**Cloudflare** provides the wiki's application infrastructure and data storage. Authorized site administrators may access site statistics and submitted feedback. External services reached through links, including Discord, GitHub, CurseForge, Modrinth, Patreon and BisectHosting, operate under their own privacy policies. International processing may occur through these providers; the applicable safeguards require confirmation.
+
+## Retention and your rights
+
+The source code confirms database storage of analytics, search terms and feedback, but **does not establish a verified universal retention period for every category**. Appropriate schedules, deletion procedures and backup rules must be confirmed by the operator. This is an outstanding compliance item, not a claim that information is instantly deleted.
+
+Subject to applicable law, you may request access, correction, erasure, restriction or objection and, where relevant, portability. Contact the operator privately as described above. You may also [complain to the CNIL](https://www.cnil.fr/).
+
+## Analytics choice
+
+The website respects browser Global Privacy Control and Do Not Track signals in its own analytics code. You can also disable optional wiki telemetry with the privacy control available in the site footer. Your preference is saved locally in this browser; it does not retroactively erase previously stored records. Essential service requests and technical hosting logs are not disabled by this choice.
+
+For local storage details, see [Cookies & Local Storage](/cookies). For hosting and editorial information, see [Legal Notice](/legal-notice).
