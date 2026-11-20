@@ -228,6 +228,36 @@ function renderCredits(language) {
   </footer>`;
 }
 
+function renderLegalFooter(language) {
+  const french = language === 'fr';
+  const prefix = french ? '/fr-FR' : '';
+  const links = french
+    ? [['Mentions légales', 'legal-notice'], ['Confidentialité', 'privacy-policy'], ['Cookies', 'cookies'], ["Conditions d'utilisation", 'terms-of-use']]
+    : [['Legal Notice', 'legal-notice'], ['Privacy Policy', 'privacy-policy'], ['Cookies', 'cookies'], ['Terms of Use', 'terms-of-use']];
+  const nav = links.map(([label, route]) =>
+    `<a href="${prefix}/${route}">${escapeHtml(label)}</a>`
+  ).join('');
+  return `<footer class="site-legal-footer" aria-label="${french ? 'Informations légales' : 'Legal information'}">
+    <div class="site-legal-inner">
+      <div class="site-legal-top">
+        <div class="site-legal-brand"><strong>Cobblemon Realms Wiki</strong><span>© ${new Date().getFullYear()} Our Story Collection</span></div>
+        <nav class="site-legal-links" aria-label="${french ? 'Liens juridiques' : 'Legal links'}">${nav}</nav>
+      </div>
+      <div class="site-legal-bottom">
+        <p class="site-legal-disclaimer">${french
+          ? "Projet indépendant. Ceci n'est pas un produit officiel Minecraft ou Pokémon. Non approuvé ni affilié à Mojang Studios, Microsoft, Nintendo, The Pokémon Company ou GAME FREAK."
+          : 'Independent community project. NOT AN OFFICIAL MINECRAFT OR POKÉMON PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT, NINTENDO, THE POKÉMON COMPANY OR GAME FREAK.'}</p>
+        <div class="site-legal-controls">
+          <button class="site-legal-analytics" type="button" data-analytics-toggle aria-pressed="false">
+            ${french ? 'Désactiver les statistiques facultatives' : 'Disable optional analytics'}
+          </button>
+          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer">${french ? 'Contact communauté' : 'Community contact'}</a>
+        </div>
+      </div>
+    </div>
+  </footer>`;
+}
+
 function getLastUpdated(file) {
   const relative = path.relative(root, file).split(path.sep).join('/');
   try {
@@ -287,8 +317,10 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
   <script>(()=>{try{const t=localStorage.getItem('cobblemon-wiki-theme');document.documentElement.dataset.theme=t==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();</script>
   <link rel="stylesheet" href="/assets/wiki.css?v=${buildVersion}">
   <link rel="stylesheet" href="/assets/wiki-enhancements.css?v=${buildVersion}">
+  <link rel="stylesheet" href="/assets/legal-footer.css?v=${buildVersion}">
   <script defer src="/assets/wiki.js?v=${buildVersion}"></script>
   <script defer src="/assets/wiki-enhancements.js?v=${buildVersion}"></script>
+  <script defer src="/assets/privacy-controls.js?v=${buildVersion}"></script>
 </head>
 <body>
   <div id="reading-progress" class="reading-progress" aria-hidden="true"><span></span></div>
@@ -328,6 +360,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
       <nav></nav>
     </aside>
   </div>
+  ${renderLegalFooter(language)}
   <button id="back-to-top" class="back-to-top" type="button" aria-label="${french ? 'Retour en haut' : 'Back to top'}" title="${french ? 'Retour en haut' : 'Back to top'}">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 14 6-6 6 6"></path></svg>
   </button>
