@@ -15,7 +15,7 @@ Utilisez l’identifiant complet affiché ci-dessous, avec le préfixe <code>#co
 ---
 
 {% hint style="warning" %}
-**Compatibilité v6.4.0 :** le datapack conserve les tags natifs de Cobblemon et ajoute des règles sans remplacer les listes de biomes de base. Les tags peuvent être imbriqués, et une exclusion (`anticondition.biomes`) prévaut sur une condition positive. Exemple confirmé : **Allium Shrubland ne permet pas le spawn de Togepi**, malgré son appartenance à `#cobblemon:is_floral`, car il appartient également à `#cobblemon:is_plains`, explicitement exclu. Les biomes des mods absents ne doivent pas être supposés accessibles.
+**Compatibilité v6.4.1 :** le datapack conserve les tags natifs de Cobblemon et ajoute des règles sans remplacer les listes de biomes de base. La v6.4.1 ne modifie aucun fichier JSON de tags par rapport à la v6.4.0. Les tags peuvent être imbriqués, et une exclusion (`anticondition.biomes`) prévaut sur une condition positive. Exemple confirmé : **Allium Shrubland ne permet pas le spawn de Togepi**, malgré son appartenance à `#cobblemon:is_floral`, car il appartient également à `#cobblemon:is_plains`, explicitement exclu. Les biomes des mods absents ne doivent pas être supposés accessibles.
 
 Les résultats détaillés de l'[audit technique v6.4.0](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) sont statiques et ne remplacent pas un test en jeu. **La liste historique ci-dessous reste à régénérer** depuis les tags effectifs de v6.4.0 et des mods installés.
 {% endhint %}
@@ -50,10 +50,10 @@ Une référence optionnelle non résolue **n'est pas nécessairement un bug**. U
 
 ---
 
-## 🧬 Tags essentiels vérifiés dans le dépôt v6.4.0
+## 🧬 Tags essentiels vérifiés dans la source v6.4.1
 
 {% hint style="info" %}
-Les définitions ci-dessous proviennent directement des fichiers JSON du dépôt **v6.4.0**. Elles représentent les **ajouts du datapack**, et non la composition complète des tags Cobblemon natifs ou d'autres mods. L'option `replace: false` conserve les contributions des autres datapacks au même tag. Les références marquées optionnelles ne garantissent pas la présence de leur biome en jeu.
+Les définitions ci-dessous proviennent directement des fichiers JSON de la **v6.4.1** ; elles sont inchangées par rapport à la v6.4.0. Elles représentent les **ajouts du datapack**, et non la composition complète des tags Cobblemon natifs ou d'autres mods. L'option `replace: false` conserve les contributions des autres datapacks au même tag. Les références marquées optionnelles ne garantissent pas la présence de leur biome en jeu.
 {% endhint %}
 
 <details>

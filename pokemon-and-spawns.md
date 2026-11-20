@@ -8,19 +8,19 @@
 
 ---
 
-## 🧩 Datapack v6.4.0: what's different?
+## 🧩 Datapack v6.4.1: what's new?
 
 {% hint style="info" %}
-**Biome Expanded Spawns v6.4.0** is the **datapack** version, not the public modpack version. It targets **Minecraft 1.21.1** and **Cobblemon 1.8.4+**. Check which version your server actually runs before treating these rules as active.
+**Biome Expanded Spawns v6.4.1** targets **Minecraft 1.21.1** and **Cobblemon 1.8.4+**. This is the datapack version, separate from the public modpack version.
 {% endhint %}
 
-- **Additive extensions:** native Cobblemon spawn pools and biome lists remain intact rather than being replaced.
-- **Six additional habitat profiles:** missing Pokémon gain dedicated extensions for matching native habitats.
-- **Optional compatibility:** modded biomes and dimensions can add encounters where those mods and environments are actually available.
-- **Unique `OS-` identifiers:** custom spawn entries are easier to distinguish from native rules.
-- **Cleanup:** duplicate custom entries and repeated spawn IDs have been addressed.
+- **149 additional spawn rules:** the standard version adds world spawns for the base species missing from Cobblemon 1.8.4's default world pools. These rules use vanilla biomes.
+- **Two versions:** the standard pack includes custom Legendary, Mythical, Ultra Beast, and Paradox spawns. **No Specials** omits those custom spawn rules; Cobblemon's native pools remain intact.
+- **Lowercase IDs:** custom spawn IDs now use the lowercase `os-` prefix. Saved catalogue entries using `OS-` need the same lowercase update.
+- **Biome tags:** v6.4.1 does not change the biome-tag JSON definitions from v6.4.0.
+- **Static coverage:** Cobblemon's 876 default-spawning species plus the 149 additions give the standard pack configured world-spawn rules for 1,025/1,025 base species. This is data coverage, not a guarantee of an encounter in game.
 
-### 🔍 Why exclusions matter: Togepi
+### 🔍 Historical v6.4.0 example: Togepi exclusions
 
 **Togepi** demonstrates why a positive biome tag alone is not sufficient:
 
@@ -32,10 +32,10 @@
 Four custom Togepi extensions instead target **Aether**, **Paradise Lost**, and **The Bumblezone**, subject to those dimensions and all conditions being available.
 
 {% hint style="warning" %}
-**Historical data notice:** the Pokémon examples further down this page come from an earlier datapack snapshot. They illustrate rule structure, but are not an exhaustive, revalidated v6.4.0 spawn catalogue. Check the installed version's definitions for species-specific guidance.
+**Historical data notice:** examples further down this page come from an earlier datapack snapshot. They illustrate rule structure, but are not an exhaustive v6.4.1 spawn catalogue. Check the installed version's definitions for species-specific guidance.
 {% endhint %}
 
-[**Official datapack v6.4.0 changelog**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.0.md) · [**Biome and condition audit**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
+[**Official datapack v6.4.1 changelog**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.1.md) · [**Historical v6.4.0 biome and condition audit**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
 
 ---
 
@@ -53,6 +53,8 @@ The [v6.4.0 source audit](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-S
 | Tag cycles, exact functional duplicates, and invalid JSON detected in the pack | **0** |
 
 ### 🦋 Eight Vivillon entries to review
+
+**v6.4.0 audit note:** the rule IDs below preserve the uppercase `OS-` prefix used by that historical release. v6.4.1 custom IDs use lowercase `os-`.
 
 | Group | Exact rule identifiers | Affected biomes |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ Use the complete tag identifier shown below, including the <code>#cobblemon:</co
 ---
 
 {% hint style="warning" %}
-**v6.4.0 compatibility:** the datapack preserves native Cobblemon biome tags and adds rules without overwriting native biome lists. Tags may be nested; an `anticondition.biomes` exclusion overrides a positive match. Confirmed example: **Allium Shrubland is not a Togepi spawn biome**, despite matching `#cobblemon:is_floral`, because it also matches the explicitly excluded `#cobblemon:is_plains`. Do not assume absent optional mods provide accessible biomes.
+**v6.4.1 compatibility:** the datapack preserves native Cobblemon biome tags and adds rules without overwriting native biome lists. v6.4.1 contains no biome-tag JSON changes from v6.4.0. Tags may be nested; an `anticondition.biomes` exclusion overrides a positive match. Confirmed example: **Allium Shrubland is not a Togepi spawn biome**, despite matching `#cobblemon:is_floral`, because it also matches the explicitly excluded `#cobblemon:is_plains`. Do not assume absent optional mods provide accessible biomes.
 
 The [v6.4.0 technical audit](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md) is static, not an in-game validation. **The historical listings below still need to be regenerated** against effective v6.4.0 tags and installed mods.
 {% endhint %}
@@ -50,10 +50,10 @@ An unresolved optional reference **does not automatically mean a bug**. A static
 
 ---
 
-## 🧬 Key biome tags verified from v6.4.0 source
+## 🧬 Key biome tags verified from v6.4.1 source
 
 {% hint style="info" %}
-The definitions below come directly from the **v6.4.0** repository JSON files. These are **datapack additions**, not complete expanded native Cobblemon or third-party mod tags. The `replace: false` flag preserves contributions from other datapacks to the same tag. Optional entries do not guarantee those biomes are installed.
+The definitions below come directly from the **v6.4.1** repository JSON files; the tag definitions are unchanged from v6.4.0. These are **datapack additions**, not complete expanded native Cobblemon or third-party mod tags. The `replace: false` flag preserves contributions from other datapacks to the same tag. Optional entries do not guarantee those biomes are installed.
 {% endhint %}
 
 <details>

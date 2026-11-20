@@ -8,19 +8,19 @@
 
 ---
 
-## 🧩 Datapack v6.4.0 : ce qui change
+## 🧩 Datapack v6.4.1 : nouveautés
 
 {% hint style="info" %}
-**Biome Expanded Spawns v6.4.0** est la version du **datapack**, pas celle du modpack public. Elle cible **Minecraft 1.21.1** et **Cobblemon 1.8.4+**. Vérifiez la version effectivement installée sur votre serveur avant d'utiliser ces règles comme référence.
+**Biome Expanded Spawns v6.4.1** cible **Minecraft 1.21.1** et **Cobblemon 1.8.4+**. Il s'agit de la version du datapack, distincte de celle du modpack public.
 {% endhint %}
 
-- **Extensions additives :** les règles natives de Cobblemon et ses listes de biomes sont conservées au lieu d'être remplacées.
-- **Six profils d'habitat complémentaires :** les Pokémon manquants dans les pools natifs correspondants obtiennent des extensions dédiées.
-- **Compatibilité optionnelle :** des biomes et dimensions moddés peuvent ajouter des rencontres, uniquement lorsque leurs contenus sont disponibles.
-- **Identifiants `OS-` :** les entrées personnalisées disposent d'identifiants uniques pour mieux distinguer leurs règles des spawns natifs.
-- **Nettoyage :** doublons personnalisés et identifiants répétés corrigés.
+- **149 règles d'apparition supplémentaires :** la version standard ajoute des spawns dans le monde pour les espèces de base absentes des pools par défaut de Cobblemon 1.8.4. Ces règles utilisent des biomes vanilla.
+- **Deux versions :** le pack standard conserve les spawns personnalisés des Pokémon légendaires, fabuleux, Ultra-Chimères et Paradoxes. **No Specials** retire ces règles personnalisées ; les pools natifs de Cobblemon restent intacts.
+- **Identifiants en minuscules :** les IDs personnalisés utilisent maintenant le préfixe minuscule `os-`. Les entrées de catalogue enregistrées avec `OS-` doivent être converties en minuscules.
+- **Tags de biome :** la v6.4.1 ne modifie pas les définitions JSON des tags par rapport à la v6.4.0.
+- **Couverture statique :** les 876 espèces avec un spawn par défaut dans Cobblemon et les 149 ajouts donnent au pack standard des règles de spawn configurées pour les 1 025/1 025 espèces de base. Cela décrit les données, pas une garantie de rencontre en jeu.
 
-### 🔍 Pourquoi les exclusions comptent : Togepi
+### 🔍 Exemple historique v6.4.0 : les exclusions de Togepi
 
 Le cas de **Togepi** illustre l'importance d'appliquer l'ensemble des conditions, pas uniquement les biomes positifs :
 
@@ -32,10 +32,10 @@ Le cas de **Togepi** illustre l'importance d'appliquer l'ensemble des conditions
 Quatre extensions spécifiques ciblent plutôt **Aether**, **Paradise Lost** et **The Bumblezone**, sous réserve que ces dimensions et leurs conditions soient réellement disponibles.
 
 {% hint style="warning" %}
-**Attention aux données historiques :** les exemples Pokémon présentés plus bas sont issus d'un snapshot antérieur du datapack. Ils expliquent la structure des règles, mais ne constituent pas une liste exhaustive validée pour la v6.4.0. Consultez les définitions de la version utilisée pour confirmer chaque espèce.
+**Attention aux données historiques :** les exemples Pokémon présentés plus bas sont issus d'un snapshot antérieur du datapack. Ils expliquent la structure des règles, mais ne constituent pas une liste exhaustive des spawns de la v6.4.1. Consultez les définitions de la version utilisée pour confirmer chaque espèce.
 {% endhint %}
 
-[**Changelog officiel du datapack v6.4.0**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.0.md) · [**Audit des tags et conditions**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
+[**Changelog officiel du datapack v6.4.1**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/CHANGELOG_v6.4.1.md) · [**Audit historique des tags et conditions v6.4.0**](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spawns/blob/main/BIOME_TAG_AUDIT_v6.4.0.md)
 
 ---
 
@@ -53,6 +53,8 @@ L'[audit source v6.4.0](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spa
 | Cycles de tags, doublons fonctionnels exacts et JSON invalides détectés dans le pack | **0** |
 
 ### 🦋 Huit entrées Vivillon à examiner
+
+**Note sur l'audit v6.4.0 :** les IDs ci-dessous conservent le préfixe majuscule `OS-` de cette version historique. Les IDs personnalisés de la v6.4.1 sont en minuscules : `os-`.
 
 | Groupe | Identifiants exacts | Biomes concernés |
 | --- | --- | --- |
