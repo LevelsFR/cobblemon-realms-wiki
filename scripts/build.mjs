@@ -254,10 +254,19 @@ function formatUpdatedDate(date, language) {
   }).format(date);
 }
 
+function isLegacyAssetMarkdown(relative) {
+  return relative.startsWith('fr-FR/.gitbook/assets/') && relative.endsWith('.md');
+}
+
 const markdownFiles = walk(root).filter((file) => {
   const relative = path.relative(root, file).split(path.sep).join('/');
-  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md';
+  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md' && !isLegacyAssetMarkdown(relative);
 });
+
+const markdownOutputPaths = new Set(markdownFiles.map((file) => {
+  const relative = path.relative(root, file).split(path.sep).join('/');
+  return relative.replace(/README\.md$/i, 'index.html').replace(/\.md$/i, '.html');
+}));
 
 const searchIndex = markdownFiles.map((file) => {
   const relative = path.relative(root, file).split(path.sep).join('/');
@@ -303,7 +312,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
       <kbd>Ctrl K</kbd>
       <div id="search-results" class="search-results" role="listbox" hidden></div>
     </div>
-    <a class="language" href="${alternate.href}">${alternate.label}</a>
+    ${alternate ? `<a class="language" href="${alternate.href}">${alternate.label}</a>` : ''}
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label="${themeLabel}" aria-pressed="false" title="${themeLabel}">
       <span class="theme-icon theme-icon-sun" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></span>
       <span class="theme-icon theme-icon-moon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path></svg></span>
@@ -338,6 +347,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
 for (const file of walk(root)) {
   const relative = path.relative(root, file).split(path.sep).join('/');
   if (relative === 'SUMMARY.md' || relative === 'fr-FR/SUMMARY.md') continue;
+  if (isLegacyAssetMarkdown(relative)) continue;
 
   if (!relative.endsWith('.md')) {
     const destination = path.join(out, relative);
@@ -354,14 +364,17 @@ for (const file of walk(root)) {
   const language = isFrench ? 'fr' : 'en';
   const outputRelative = relative.replace(/README\.md$/i, 'index.html').replace(/\.md$/i, '.html');
   const currentPath = `/${outputRelative}`;
-  const alternatePath = isFrench ? `/${outputRelative.replace(/^fr-FR\//, '')}` : `/fr-FR/${outputRelative}`;
+  const alternateRelative = isFrench ? outputRelative.replace(/^fr-FR\//, '') : `fr-FR/${outputRelative}`;
+  const alternate = markdownOutputPaths.has(alternateRelative)
+    ? { href: `/${alternateRelative}`, label: isFrench ? 'EN' : 'FR' }
+    : null;
   const updatedDate = getLastUpdated(file);
   const html = pageTemplate({
     title: firstHeading,
     body,
     nav: renderNav(isFrench ? navGroupsFr : navGroupsEn, currentPath),
     language,
-    alternate: { href: alternatePath, label: isFrench ? 'EN' : 'FR' },
+    alternate,
     updatedIso: updatedDate.toISOString(),
     updatedLabel: formatUpdatedDate(updatedDate, language)
   });
