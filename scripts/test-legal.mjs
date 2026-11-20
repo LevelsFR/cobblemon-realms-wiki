@@ -7,7 +7,7 @@ const read = (file) => fs.readFileSync(path.join(dist, file), 'utf8');
 const pages = ['legal-notice', 'privacy-policy', 'cookies', 'terms-of-use'];
 const variants = [
   { base: '', home: 'index.html', disclaimer: 'NOT AN OFFICIAL MINECRAFT', privacy: 'Privacy Policy' },
-  { base: 'fr-FR/', home: 'fr-FR/index.html', disclaimer: "Ce n'est pas un produit officiel Minecraft", privacy: 'Confidentialité' }
+  { base: 'fr-FR/', home: 'fr-FR/index.html', disclaimer: "Ceci n'est pas un produit officiel Minecraft", privacy: 'Confidentialité' }
 ];
 
 for (const variant of variants) {
