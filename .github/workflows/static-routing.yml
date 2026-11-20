@@ -27,3 +27,5 @@ jobs:
         run: npm install --no-package-lock
       - name: Build wiki and verify Cloudflare routing
         run: npm run check:cloudflare
+      - name: Validate SEO metadata and translations
+        run: npm run test:seo

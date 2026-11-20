@@ -8,7 +8,8 @@
     "preview": "npm run build && wrangler dev",
     "check:cloudflare": "npm run build && node scripts/test-static-routing.mjs && node scripts/test-server-status.mjs && node --check scripts/worker.mjs && node --check assets/wiki.js && wrangler deploy --dry-run --outdir .wrangler-dry-run",
     "test:static-routing": "npm run build && node scripts/test-static-routing.mjs",
-    "test:server-status": "node scripts/test-server-status.mjs"
+    "test:server-status": "node scripts/test-server-status.mjs",
+    "test:seo": "node scripts/test-seo.mjs"
   },
   "dependencies": {
     "marked": "^15.0.12"
