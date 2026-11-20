@@ -35,6 +35,8 @@ L'[audit source v6.4.0](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-Spa
 
 ### 🦋 Huit entrées Vivillon à examiner
 
+**Note sur l'audit v6.4.0 :** les IDs ci-dessous conservent le préfixe majuscule `OS-` de cette version historique. Les IDs personnalisés de la v6.4.1 sont en minuscules : `os-`.
+
 | Groupe | Identifiants exacts | Biomes concernés |
 | --- | --- | --- |
 | **Biomes We've Gone, Tundra** | `OS-vivillon-biomeswevegone-03`, `OS-vivillon-biomeswevegone-22`, `OS-vivillon-herd-biomeswevegone-11`, `OS-vivillon-herd-biomeswevegone-22` | `biomeswevegone:shattered_glacier` |

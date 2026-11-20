@@ -35,6 +35,8 @@ The [v6.4.0 source audit](https://github.com/LevelsFR/Cobblemon-Biome-Expanded-S
 
 ### 🦋 Eight Vivillon entries to review
 
+**v6.4.0 audit note:** the rule IDs below preserve the uppercase `OS-` prefix used by that historical release. v6.4.1 custom IDs use lowercase `os-`.
+
 | Group | Exact rule identifiers | Affected biomes |
 | --- | --- | --- |
 | **Biomes We've Gone, Tundra** | `OS-vivillon-biomeswevegone-03`, `OS-vivillon-biomeswevegone-22`, `OS-vivillon-herd-biomeswevegone-11`, `OS-vivillon-herd-biomeswevegone-22` | `biomeswevegone:shattered_glacier` |
