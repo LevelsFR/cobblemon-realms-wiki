@@ -244,6 +244,31 @@ function articleHtml(html) {
   return html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || '';
 }
 
+
+function descriptionForPage(html, pagePath, language) {
+  const paragraphs = [...articleHtml(html).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(([, inner]) => decodeEntities(stripHtml(inner)).replace(/\s+/g, ' ').trim())
+    .filter((value) => value.length >= 65 && !/^(if you have any questions|questions, suggestions|si vous avez des questions|une question, une suggestion)/i.test(value));
+  const title = extractTitle(html, pagePath);
+  const fallback = language === 'fr'
+    ? `Découvrez ${title} dans le wiki officiel de Cobblemon Realms. Guides et informations pour Minecraft 1.21.1.`
+    : `Explore ${title} in the official Cobblemon Realms Wiki. Guides and information for Minecraft 1.21.1.`;
+  const value = paragraphs[0] || fallback;
+  if (value.length <= 160) return value;
+  const head = value.slice(0, 160);
+  const boundary = head.lastIndexOf(' ');
+  return `${head.slice(0, boundary > 110 ? boundary : 160).replace(/[.,;:\s]+$/, '')}…`;
+}
+
+function translationPair(relativePath, allHtmlPaths) {
+  if (relativePath === '404.html') return null;
+  const enPath = relativePath.startsWith('fr-FR/') ? relativePath.slice(6) : relativePath;
+  const frPath = `fr-FR/${enPath}`;
+  return allHtmlPaths.has(enPath) && allHtmlPaths.has(frPath)
+    ? { en: `${siteOrigin}${canonicalPath(enPath)}`, fr: `${siteOrigin}${canonicalPath(frPath)}` }
+    : null;
+}
+
 function pageWordCount(html) {
   return stripHtml(articleHtml(html)).split(/\s+/).filter(Boolean).length;
 }
@@ -412,6 +437,7 @@ const gitHistoryComplete = ensureCompleteGitHistory();
 const commitSha = resolveCommitSha();
 const builtAt = new Date().toISOString();
 const htmlFiles = walk(out).filter((file) => file.endsWith('.html'));
+const htmlPaths = new Set(htmlFiles.map((file) => path.relative(out, file).split(path.sep).join('/')));
 const sitemapEntries = [];
 const pageUpdates = [];
 const auditPages = [];
@@ -468,8 +494,29 @@ for (const file of htmlFiles) {
     });
   }
 
+  const pair = translationPair(normalizedRelative, htmlPaths);
+  const description = descriptionForPage(html, pagePath, language);
+  const pageTitle = extractTitle(html, pagePath);
+  const openGraphLocale = language === 'fr' ? 'fr_FR' : 'en_US';
   const headAssets = [
     `<link rel="canonical" href="${canonicalUrl}">`,
+    ...(normalizedRelative === '404.html' ? ['<meta name="robots" content="noindex,follow">'] : []),
+    `<meta name="description" content="${escapeXml(description)}">`,
+    `<meta property="og:type" content="${pagePath === '/' || pagePath === '/fr-FR/' ? 'website' : 'article'}">`,
+    '<meta property="og:site_name" content="Cobblemon Realms Wiki">',
+    `<meta property="og:locale" content="${openGraphLocale}">`,
+    `<meta property="og:title" content="${escapeXml(pageTitle)} | Cobblemon Realms Wiki">`,
+    `<meta property="og:description" content="${escapeXml(description)}">`,
+    `<meta property="og:url" content="${canonicalUrl}">`,
+    '<meta name="twitter:card" content="summary">',
+    `<meta name="twitter:title" content="${escapeXml(pageTitle)} | Cobblemon Realms Wiki">`,
+    `<meta name="twitter:description" content="${escapeXml(description)}">`,
+    ...(pair ? [
+      `<link rel="alternate" hreflang="en" href="${pair.en}">`,
+      `<link rel="alternate" hreflang="fr" href="${pair.fr}">`,
+      `<link rel="alternate" hreflang="x-default" href="${pair.en}">`,
+      `<meta property="og:locale:alternate" content="${language === 'fr' ? 'en_US' : 'fr_FR'}">`
+    ] : []),
     `<meta name="wiki-build" content="${commitSha}">`,
     '<link rel="icon" href="/assets/cobblemon-realms-server-icon.svg" type="image/svg+xml">',
     '<link rel="apple-touch-icon" href="/assets/cobblemon-realms-server-icon.svg">',
