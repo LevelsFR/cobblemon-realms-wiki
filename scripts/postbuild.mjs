@@ -456,6 +456,10 @@ const enrichedSearchPages = enrichSearchIndex();
 for (const file of htmlFiles) {
   const relative = path.relative(out, file);
   const normalizedRelative = relative.split(path.sep).join('/');
+  if (normalizedRelative.startsWith('fr-FR/.gitbook/assets/')) {
+    fs.rmSync(file, { force: true });
+    continue;
+  }
   const pagePath = canonicalPath(relative);
   const canonicalUrl = `${siteOrigin}${pagePath}`;
   const sourcePath = markdownSourceForHtml(relative);
