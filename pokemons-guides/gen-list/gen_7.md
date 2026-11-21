@@ -1,5 +1,10 @@
 # 🏝️ Generation 7 - Alola
 
+{% hint style="warning" %}
+**Current biome compatibility:** Terralith is no longer included in Cobblemon Realms. Its obsolete biome IDs have been removed from this older guide. Treat remaining encounter locations as guidance, not as a full live spawn table. See the [Spawn Explorer](../../spawn-explorer.md) for explicitly sourced v6.4.1 additions and the [Biome Tags](../biome-tags-reference.md) guide for optional compatibility tags.
+{% endhint %}
+
+
 ### 📜 **Seventh Generation Summon List**
 
 <p align="center">
@@ -161,7 +166,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -170,9 +174,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
   <tr>
     <td>🪨 <strong>Cliffs and coastal landscapes</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code><br>
       <code>wythers:deepslate_shore</code>
     </td>
   </tr>
@@ -274,7 +275,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -283,9 +283,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
   <tr>
     <td>🪨 <strong>Cliffs and rugged terrain</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -386,7 +383,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -395,9 +391,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
   <tr>
     <td>🪨 <strong>Cliffs and rugged terrain</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -498,7 +491,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -507,9 +499,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
   <tr>
     <td>🪨 <strong>Cliffs and rugged terrain</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -583,12 +572,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
       <code>minecraft:cherry_grove</code><br>
       <code>minecraft:meadow</code><br>
       <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:lavender_forest</code><br>
-      <code>terralith:sakura_grove</code><br>
       <code>wythers:autumnal_flower_forest</code><br>
       <code>wythers:sakura_forest</code><br>
       <code>wythers:spring_flower_fields</code><br>
@@ -1050,14 +1033,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
     <td>🌾 <strong>Savannah and arid areas</strong></td>
     <td>
       <code>#minecraft:is_savanna</code><br>
-      <code>terralith:fractured_savanna</code><br>
-      <code>terralith:ashen_savanna</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:savanna_badlands</code><br>
-      <code>terralith:hot_shrubland</code><br>
-      <code>terralith:shrubland</code><br>
-      <code>terralith:brushland</code><br>
-      <code>terralith:arid_highlands</code><br>
       <code>wythers:granite_canyon</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
@@ -1067,8 +1042,6 @@ In the Alola islands, protective guardians coexist with creatures from other dim
   <tr>
     <td>🏜️ <strong>Deserts and oases</strong></td>
     <td>
-      <code>terralith:desert_oasis</code><br>
-      <code>terralith:red_oasis</code>
     </td>
   </tr>
 
