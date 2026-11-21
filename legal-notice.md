@@ -8,7 +8,7 @@ This notice concerns the independent documentation website **Cobblemon Realms Wi
 
 **Publisher:** **LevelsFR** (creator pseudonym), an individual maintaining this wiki in a **personal, non-professional capacity**. The wiki is a freely accessible informational resource and does not itself sell products, charge admission or collect subscription payments. External platforms and any separately disclosed partnerships operate under their own terms.
 
-## Contact {#contact}
+<h2 id="contact">Contact</h2>
 
 For legal notices, editorial requests or personal-data enquiries, expand the section below to reveal a direct email address. Community questions can also go to the [official Our Story Discord](https://discord.gg/kb8NSTF45n). Please do not share private information publicly.
 
