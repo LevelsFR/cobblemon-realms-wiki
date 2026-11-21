@@ -17,3 +17,17 @@
 @media(max-width:1050px){.site-legal-top,.site-legal-bottom{flex-direction:column}.site-legal-links,.site-legal-controls{justify-content:flex-start}}
 @media(max-width:900px){.site-legal-footer{margin-left:0}.site-legal-inner{padding:22px 20px 30px}}
 @media(prefers-reduced-motion:reduce){.site-legal-footer *{scroll-behavior:auto}}
+
+/* Legal email disclosure, keyboard-accessible, consistent across dark/light themes. */
+.site-legal-contact{position:relative;max-width:100%;font-size:12px}
+.site-legal-contact summary{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);color:var(--text);font:inherit;font-size:11px;cursor:pointer}
+.site-legal-contact summary:hover{border-color:var(--accent);color:var(--accent)}
+.site-legal-contact summary:focus-visible,.wiki-contact-reveal summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.site-legal-contact[open]{display:flex;flex-direction:column;gap:8px}
+.site-legal-contact [data-wiki-contact-email]{font-size:12px;overflow-wrap:anywhere}
+.site-legal-contact [data-wiki-contact-email] a{color:var(--accent)}
+.wiki-contact-reveal{max-width:520px;margin:20px 0;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.wiki-contact-reveal summary{font-weight:650;cursor:pointer;color:var(--text)}
+.wiki-contact-reveal summary:hover{color:var(--accent)}
+.wiki-contact-reveal p{margin:12px 0 0;font-size:14px}
+.wiki-contact-reveal [data-wiki-contact-email]{overflow-wrap:anywhere}
