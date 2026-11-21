@@ -1,5 +1,10 @@
 # ❄️ Generation 4 - Sinnoh
 
+{% hint style="warning" %}
+**Current biome compatibility:** Terralith is no longer included in Cobblemon Realms. Its obsolete biome IDs have been removed from this older guide. Treat remaining encounter locations as guidance, not as a full live spawn table. See the [Spawn Explorer](../../spawn-explorer.md) for explicitly sourced v6.4.1 additions and the [Biome Tags](../biome-tags-reference.md) guide for optional compatibility tags.
+{% endhint %}
+
+
 ### 📜 **Fourth Generation Summon List**
 
 <p align="center">
@@ -61,8 +66,6 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
       <code>#wythers:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
       <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swampc</code><br>
-      <code>terralith:ice_marsh</code><br>
       <code>wythers:billabong</code>
     </td>
   </tr>
@@ -146,9 +149,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
       <code>#forge:is_swamp</code><br>
       <code>#byg:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
-      <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swamp</code><br>
-      <code>terralith:ice_marsh</code>
+      <code>minecraft:mangrove_swamp</code>
     </td>
   </tr>
 
@@ -232,9 +233,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
       <code>#forge:is_swamp</code><br>
       <code>#byg:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
-      <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swampc</code><br>
-      <code>terralith:ice_marsh</code>
+      <code>minecraft:mangrove_swamp</code>
     </td>
   </tr>
 
@@ -391,8 +390,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
       <code>minecraft:end_highlands</code><br>
       <code>minecraft:end_midlands</code><br>
       <code>minecraft:end_barrens</code><br>
-      <code>minecraft:small_end_islands</code><br>
-      <code>terralith:skylands_winter</code>
+      <code>minecraft:small_end_islands</code>
     </td>
   </tr>
 
@@ -531,11 +529,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
     <td>
       <code>#cobblemon:is_savanna</code><br>
       <code>#minecraft:is_savanna</code><br>
-      <code>minecraft:savanna_plateau</code><br>
-      <code>terralith:fractured_savanna</code><br>
-      <code>terralith:ashen_savanna</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:savanna_badlands</code>
+      <code>minecraft:savanna_plateau</code>
     </td>
   </tr>
 
@@ -843,12 +837,7 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
       <code>#cobblemon:is_lush</code><br>
       <code>minecraft:flower_forest</code><br>
       <code>minecraft:meadow</code><br>
-      <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:sakura_grove</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code>
+      <code>minecraft:sunflower_plains</code>
     </td>
   </tr>
 
@@ -916,10 +905,6 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
     <td>✨ <strong>Magical and fairy-like biomes</strong></td>
     <td>
       <code>#byg:is_magical</code><br>
-      <code>terralith:amethyst_rainforest</code><br>
-      <code>terralith:moonlight_grove</code><br>
-      <code>terralith:moonlight_valley</code><br>
-      <code>terralith:amethyst_canyon</code><br>
       <code>byg:skyris_vale</code>
     </td>
   </tr>
@@ -947,7 +932,6 @@ The myths of Sinnoh trace back to the very creation of the universe. Time, space
   <tr>
     <td>🌿 <strong>Natural and mixed areas</strong></td>
     <td>
-      <code>terralith:mirage_isles</code><br>
       <code>wythers:lantern_river</code><br>
       <code>wythers:mushroom_island</code>
     </td>

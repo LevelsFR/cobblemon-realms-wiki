@@ -6,11 +6,13 @@
 
 ## Information
 
+* [🚀 Start Here](start-here.md)
 * [📦 Installation](installation.md)
 * [🧭 Getting started](getting-started.md)
 * [❓ Frequently Asked Questions](faq.md)
 * [🐞 Report a Bug](report-a-bug.md)
 * [🗂️ Version History](version-history.md)
+* [⚠️ Preparing for v6.4](migration-create.md)
 * [🤝 Support the Project](contributing.md)
 
 ## Cobblemon Realms
@@ -18,6 +20,7 @@
 * [📜 Quests](quests.md)
 * [🌐 Multiplayer servers](multiplayer-servers.md)
 * [🐾 Pokémon and spawns](pokemon-and-spawns.md)
+* [🔎 Spawn Explorer](spawn-explorer.md)
 * [🎯 Level cap and trainers](pokemons-guides/levelcap-and-trainers.md)
 * [✨ Spawn improvements](pokemons-guides/wild-boost-mechanics.md)
 * [📘 Pokémon Workers guide](pokemons-guides/cobbleworkers-guide.md)
@@ -170,6 +173,7 @@
 
 ## Mod Guides
 
+* [📚 All Mod Guides](mods-guides/README.md)
 * [🎵 Music Interface](mods-guides/musicinterface.md)
 * [🍃 Rustling Spots](mods-guides/rustling_spots.md)
 * [🧱 Chunky World Pre-generation](mods-guides/chunky.md)

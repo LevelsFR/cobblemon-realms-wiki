@@ -5,8 +5,16 @@ import { marked } from 'marked';
 
 const root = process.cwd();
 const out = path.join(root, 'dist');
-const ignored = new Set(['.git', 'node_modules', 'dist', '.github', 'scripts']);
+const ignored = new Set(['.git', '.gitignore', 'node_modules', 'dist', '.github', 'scripts']);
+// Public GitHub documentation that must never become a website route or search entry.
+const repositoryOnlyMarkdown = new Set(['CHANGELOG.md', 'CHANGELOG_FR.md']);
+// Old GitBook source assets are not part of the published wiki pages.
+function isLegacyAssetMarkdown(relative) {
+  return relative.startsWith('fr-FR/.gitbook/assets/') && relative.endsWith('.md');
+}
 const buildVersion = Date.now().toString(36);
+const packRelease = JSON.parse(fs.readFileSync(path.join(root, 'assets/pack-release.json'), 'utf8'));
+const packVersion = String(packRelease.full.version).replace(/[^0-9.a-z-]/gi, '');
 let interactiveBlockCounter = 0;
 
 const emojiShortcodes = new Map([
@@ -228,6 +236,40 @@ function renderCredits(language) {
   </footer>`;
 }
 
+function renderLegalFooter(language) {
+  const french = language === 'fr';
+  const prefix = french ? '/fr-FR' : '';
+  const links = french
+    ? [['Mentions légales', 'legal-notice'], ['Confidentialité', 'privacy-policy'], ['Cookies', 'cookies'], ["Conditions d'utilisation", 'terms-of-use']]
+    : [['Legal Notice', 'legal-notice'], ['Privacy Policy', 'privacy-policy'], ['Cookies', 'cookies'], ['Terms of Use', 'terms-of-use']];
+  const nav = links.map(([label, route]) =>
+    `<a href="${prefix}/${route}">${escapeHtml(label)}</a>`
+  ).join('');
+  return `<footer class="site-legal-footer" aria-label="${french ? 'Informations légales' : 'Legal information'}">
+    <div class="site-legal-inner">
+      <div class="site-legal-top">
+        <div class="site-legal-brand"><strong>Cobblemon Realms Wiki</strong><span>© ${new Date().getFullYear()} Our Story Collection</span></div>
+        <nav class="site-legal-links" aria-label="${french ? 'Liens juridiques' : 'Legal links'}">${nav}</nav>
+      </div>
+      <div class="site-legal-bottom">
+        <p class="site-legal-disclaimer">${french
+          ? "Projet indépendant. Ceci n'est pas un produit officiel Minecraft ou Pokémon. Non approuvé ni affilié à Mojang Studios, Microsoft, Nintendo, The Pokémon Company ou GAME FREAK."
+          : 'Independent community project. NOT AN OFFICIAL MINECRAFT OR POKÉMON PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT, NINTENDO, THE POKÉMON COMPANY OR GAME FREAK.'}</p>
+        <div class="site-legal-controls">
+          <button class="site-legal-analytics" type="button" data-analytics-toggle aria-pressed="false">
+            ${french ? 'Désactiver les statistiques facultatives' : 'Disable optional analytics'}
+          </button>
+          <details class="site-legal-contact" data-contact-reveal>
+            <summary>${french ? 'Afficher l’e-mail de contact' : 'Reveal contact email'}</summary>
+            <span data-wiki-contact-email></span>
+          </details>
+          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer">${french ? 'Discord communautaire' : 'Community Discord'}</a>
+        </div>
+      </div>
+    </div>
+  </footer>`;
+}
+
 function getLastUpdated(file) {
   const relative = path.relative(root, file).split(path.sep).join('/');
   try {
@@ -254,13 +296,9 @@ function formatUpdatedDate(date, language) {
   }).format(date);
 }
 
-function isLegacyAssetMarkdown(relative) {
-  return relative.startsWith('fr-FR/.gitbook/assets/') && relative.endsWith('.md');
-}
-
 const markdownFiles = walk(root).filter((file) => {
   const relative = path.relative(root, file).split(path.sep).join('/');
-  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md' && !isLegacyAssetMarkdown(relative);
+  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md' && !repositoryOnlyMarkdown.has(relative) && !isLegacyAssetMarkdown(relative);
 });
 
 const markdownOutputPaths = new Set(markdownFiles.map((file) => {
@@ -283,7 +321,7 @@ const searchIndex = markdownFiles.map((file) => {
 const navGroupsEn = parseSummary(path.join(root, 'SUMMARY.md'));
 const navGroupsFr = parseSummary(path.join(root, 'fr-FR', 'SUMMARY.md'), 'fr-FR');
 
-function pageTemplate({ title, body, nav, language, alternate, updatedIso, updatedLabel }) {
+function pageTemplate({ title, body, nav, language, alternate, updatedIso, updatedLabel, pagePath }) {
   const french = language === 'fr';
   const themeLabel = french ? 'Activer le mode jour' : 'Enable light mode';
   return `<!doctype html>
@@ -296,15 +334,21 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
   <script>(()=>{try{const t=localStorage.getItem('cobblemon-wiki-theme');document.documentElement.dataset.theme=t==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();</script>
   <link rel="stylesheet" href="/assets/wiki.css?v=${buildVersion}">
   <link rel="stylesheet" href="/assets/wiki-enhancements.css?v=${buildVersion}">
+  <link rel="stylesheet" href="/assets/legal-footer.css?v=${buildVersion}">
+  <link rel="stylesheet" href="/assets/wiki-expedition.css?v=${buildVersion}">
   <script defer src="/assets/wiki.js?v=${buildVersion}"></script>
   <script defer src="/assets/wiki-enhancements.js?v=${buildVersion}"></script>
+  <script defer src="/assets/privacy-controls.js?v=${buildVersion}"></script>
+  <script defer src="/assets/contact-reveal.js?v=${buildVersion}"></script>
+  ${/(^|\/)start-here\.html$/.test(pagePath) ? `<script defer src="/assets/start-guide.js?v=${buildVersion}"></script>` : ''}
+  ${/(^|\/)spawn-explorer\.html$/.test(pagePath) ? `<script defer src="/assets/spawn-explorer.js?v=${buildVersion}"></script>` : ''}
 </head>
 <body>
   <div id="reading-progress" class="reading-progress" aria-hidden="true"><span></span></div>
   <header class="topbar">
     <button id="menu" class="menu-button" type="button" aria-label="${french ? 'Ouvrir le menu' : 'Open menu'}">☰</button>
     <a class="brand" href="/${french ? 'fr-FR/' : ''}" aria-label="Cobblemon Realms Wiki">
-      <span class="brand-copy"><strong>Cobblemon Realms <span class="brand-version">v6.0+</span></strong><small>Wiki</small></span>
+      <span class="brand-copy"><strong>Cobblemon Realms <span class="brand-version">v${escapeHtml(packVersion)}</span></strong><small>Wiki</small></span>
     </a>
     <div class="search-wrap">
       <span class="search-icon" aria-hidden="true"></span>
@@ -337,6 +381,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
       <nav></nav>
     </aside>
   </div>
+  ${renderLegalFooter(language)}
   <button id="back-to-top" class="back-to-top" type="button" aria-label="${french ? 'Retour en haut' : 'Back to top'}" title="${french ? 'Retour en haut' : 'Back to top'}">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 14 6-6 6 6"></path></svg>
   </button>
@@ -346,8 +391,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
 
 for (const file of walk(root)) {
   const relative = path.relative(root, file).split(path.sep).join('/');
-  if (relative === 'SUMMARY.md' || relative === 'fr-FR/SUMMARY.md') continue;
-  if (isLegacyAssetMarkdown(relative)) continue;
+  if (relative === 'SUMMARY.md' || relative === 'fr-FR/SUMMARY.md' || repositoryOnlyMarkdown.has(relative) || isLegacyAssetMarkdown(relative)) continue;
 
   if (!relative.endsWith('.md')) {
     const destination = path.join(out, relative);
@@ -375,6 +419,7 @@ for (const file of walk(root)) {
     nav: renderNav(isFrench ? navGroupsFr : navGroupsEn, currentPath),
     language,
     alternate,
+    pagePath: outputRelative,
     updatedIso: updatedDate.toISOString(),
     updatedLabel: formatUpdatedDate(updatedDate, language)
   });

@@ -1,5 +1,10 @@
 # 🏙️ Generation 5 - Unys
 
+{% hint style="warning" %}
+**Current biome compatibility:** Terralith is no longer included in Cobblemon Realms. Its obsolete biome IDs have been removed from this older guide. Treat remaining encounter locations as guidance, not as a full live spawn table. See the [Spawn Explorer](../../spawn-explorer.md) for explicitly sourced v6.4.1 additions and the [Biome Tags](../biome-tags-reference.md) guide for optional compatibility tags.
+{% endhint %}
+
+
 ### 📜 **Fifth Generation Summon List**
 
 <p align="center">
@@ -134,18 +139,6 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:savanna_slopes</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
@@ -229,19 +222,6 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -324,19 +304,6 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -888,19 +855,6 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -985,12 +939,6 @@ The heroes of Unova were born from the meeting of ideals and truth. Their legend
       <code>minecraft:cherry_grove</code><br>
       <code>minecraft:meadow</code><br>
       <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:sakura_grove</code><br>
-      <code>terralith:lavender_forest</code><br>
       <code>wythers:autumnal_flower_forest</code><br>
       <code>wythers:sakura_forest</code><br>
       <code>wythers:spring_flower_fields</code><br>

@@ -1,5 +1,10 @@
 # ✨ Generation 6 - Kalos
 
+{% hint style="warning" %}
+**Current biome compatibility:** Terralith is no longer included in Cobblemon Realms. Its obsolete biome IDs have been removed from this older guide. Treat remaining encounter locations as guidance, not as a full live spawn table. See the [Spawn Explorer](../../spawn-explorer.md) for explicitly sourced v6.4.1 additions and the [Biome Tags](../biome-tags-reference.md) guide for optional compatibility tags.
+{% endhint %}
+
+
 ### 📜 **Sixth Generation Summon List**
 
 <p align="center">
@@ -313,15 +318,7 @@ Behind Kalos’ beauty lie powers capable of granting life or bringing destructi
       <code>#c:underground</code><br>
       <code>#c:caves</code><br>
       <code>minecraft:lush_caves</code><br>
-      <code>minecraft:dripstone_caves</code><br>
-      <code>terralith:cave/andesite_caves</code><br>
-      <code>terralith:cave/granite_caves</code><br>
-      <code>terralith:cave/diorite_caves</code><br>
-      <code>terralith:cave/infested_caves</code><br>
-      <code>terralith:cave/thermal_caves</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
-      <code>terralith:cave/desert_caves</code><br>
-      <code>terralith:cave/fungal_caves</code>
+      <code>minecraft:dripstone_caves</code>
     </td>
   </tr>
 
@@ -464,9 +461,7 @@ Behind Kalos’ beauty lie powers capable of granting life or bringing destructi
       <code>wythers:icy_volcano</code><br>
       <code>wythers:tropical_volcano</code><br>
       <code>wythers:volcanic_chamber</code><br>
-      <code>wythers:volcanic_crater</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:cave/mantle_caves</code>
+      <code>wythers:volcanic_crater</code>
     </td>
   </tr>
 

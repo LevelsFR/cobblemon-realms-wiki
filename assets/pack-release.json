@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "full": {
+    "version": "6.3",
+    "published": "2026-11-06"
+  },
+  "lite": {
+    "version": "6.3",
+    "published": "2026-11-06"
+  },
+  "verified": "2026-11-20",
+  "status": "Last verified public CurseForge release, not automatically a server status check.",
+  "officialFull": "https://www.curseforge.com/minecraft/modpacks/cobblemon-realms/files/9467600",
+  "officialLite": "https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite/files/9468037"
+}

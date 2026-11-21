@@ -1,0 +1,46 @@
+# Runtime/build artifacts
+node_modules/
+dist/
+.wrangler/
+.wrangler-dry-run/
+.cache/
+*.log
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars
+.dev.vars.*
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+id_rsa
+id_ed25519
+credentials*.json
+secret*.json
+service-account*.json
+
+# Local databases, backups and exports
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.sql
+*.dump
+*.bak
+*.backup
+*.7z
+*.rar
+*.zip
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

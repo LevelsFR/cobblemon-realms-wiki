@@ -1,5 +1,10 @@
 # 🏝️ Génération 7 - Alola
 
+{% hint style="warning" %}
+**Compatibilité des biomes :** Terralith n'est plus inclus dans Cobblemon Realms. Ses anciens identifiants de biomes ont été retirés de ce guide historique. Les emplacements restants restent indicatifs et ne constituent pas une liste complète des spawns actifs. Voir l'[Explorateur des apparitions](../../spawn-explorer.md) pour les ajouts explicitement documentés en v6.4.1 et les [Tags de biome](../biome-tags-reference.md) pour les compatibilités optionnelles.
+{% endhint %}
+
+
 ### 📜 **Liste des invocations de la Septième Génération**
 
 <p align="center">
@@ -161,7 +166,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -170,9 +174,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
   <tr>
     <td>🪨 <strong>Falaises et reliefs côtiers</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code><br>
       <code>wythers:deepslate_shore</code>
     </td>
   </tr>
@@ -274,7 +275,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -283,9 +283,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
   <tr>
     <td>🪨 <strong>Falaises et reliefs</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -386,7 +383,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -395,9 +391,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
   <tr>
     <td>🪨 <strong>Falaises et reliefs</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -498,7 +491,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
       <code>wythers:coastal_mangroves</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
@@ -507,9 +499,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
   <tr>
     <td>🪨 <strong>Falaises et reliefs</strong></td>
     <td>
-      <code>terralith:granite_cliffs</code><br>
-      <code>terralith:white_cliffs</code><br>
-      <code>terralith:basalt_cliffs</code>
     </td>
   </tr>
 
@@ -583,12 +572,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
       <code>minecraft:cherry_grove</code><br>
       <code>minecraft:meadow</code><br>
       <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:lavender_forest</code><br>
-      <code>terralith:sakura_grove</code><br>
       <code>wythers:autumnal_flower_forest</code><br>
       <code>wythers:sakura_forest</code><br>
       <code>wythers:spring_flower_fields</code><br>
@@ -1050,14 +1033,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
     <td>🌾 <strong>Savane et zones arides</strong></td>
     <td>
       <code>#minecraft:is_savanna</code><br>
-      <code>terralith:fractured_savanna</code><br>
-      <code>terralith:ashen_savanna</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:savanna_badlands</code><br>
-      <code>terralith:hot_shrubland</code><br>
-      <code>terralith:shrubland</code><br>
-      <code>terralith:brushland</code><br>
-      <code>terralith:arid_highlands</code><br>
       <code>wythers:granite_canyon</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
@@ -1067,8 +1042,6 @@ Dans les îles d'Alola, les gardiens protecteurs côtoient des créatures venues
   <tr>
     <td>🏜️ <strong>Déserts et oasis</strong></td>
     <td>
-      <code>terralith:desert_oasis</code><br>
-      <code>terralith:red_oasis</code>
     </td>
   </tr>
 

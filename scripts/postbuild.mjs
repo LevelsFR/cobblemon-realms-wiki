@@ -3,6 +3,8 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const root = process.cwd();
+// Keep repository-only maintenance changelogs out of content coverage warnings.
+const repositoryOnlyMarkdown = new Set(['CHANGELOG.md', 'CHANGELOG_FR.md']);
 const out = path.join(root, 'dist');
 const siteOrigin = 'https://wiki.cobblemon-realms.com';
 const assetVersion = Date.now().toString(36);
@@ -373,7 +375,7 @@ function buildAuditReport(pageRecords, pageMetaBase, commit) {
     .filter((file) => file.endsWith('.md'))
     .filter((file) => {
       const rel = path.relative(root, file).split(path.sep).join('/');
-      return !/^(dist|node_modules|\.git|\.github|assets|scripts)\//.test(rel);
+      return !/^(dist|node_modules|\.git|\.github|assets|scripts)\//.test(rel) && !repositoryOnlyMarkdown.has(rel) && !/^fr-FR\/\.gitbook\/assets\/.*\.md$/i.test(rel);
     })
     .map((file) => path.relative(root, file).split(path.sep).join('/'));
   const sourceSet = new Set(pageRecords.map((page) => page.source).filter(Boolean));

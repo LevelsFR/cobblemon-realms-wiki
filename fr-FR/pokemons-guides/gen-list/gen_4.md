@@ -1,5 +1,10 @@
 # ❄️ Génération 4 - Sinnoh
 
+{% hint style="warning" %}
+**Compatibilité des biomes :** Terralith n'est plus inclus dans Cobblemon Realms. Ses anciens identifiants de biomes ont été retirés de ce guide historique. Les emplacements restants restent indicatifs et ne constituent pas une liste complète des spawns actifs. Voir l'[Explorateur des apparitions](../../spawn-explorer.md) pour les ajouts explicitement documentés en v6.4.1 et les [Tags de biome](../biome-tags-reference.md) pour les compatibilités optionnelles.
+{% endhint %}
+
+
 ### 📜 **Liste des invocations de la Quatrième Génération**
 
 <p align="center">
@@ -61,8 +66,6 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
       <code>#wythers:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
       <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swampc</code><br>
-      <code>terralith:ice_marsh</code><br>
       <code>wythers:billabong</code>
     </td>
   </tr>
@@ -146,9 +149,7 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
       <code>#forge:is_swamp</code><br>
       <code>#byg:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
-      <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swamp</code><br>
-      <code>terralith:ice_marsh</code>
+      <code>minecraft:mangrove_swamp</code>
     </td>
   </tr>
 
@@ -232,9 +233,7 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
       <code>#forge:is_swamp</code><br>
       <code>#byg:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
-      <code>minecraft:mangrove_swamp</code><br>
-      <code>terralith:orchid_swampc</code><br>
-      <code>terralith:ice_marsh</code>
+      <code>minecraft:mangrove_swamp</code>
     </td>
   </tr>
 
@@ -391,8 +390,7 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
       <code>minecraft:end_highlands</code><br>
       <code>minecraft:end_midlands</code><br>
       <code>minecraft:end_barrens</code><br>
-      <code>minecraft:small_end_islands</code><br>
-      <code>terralith:skylands_winter</code>
+      <code>minecraft:small_end_islands</code>
     </td>
   </tr>
 
@@ -531,11 +529,7 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
     <td>
       <code>#cobblemon:is_savanna</code><br>
       <code>#minecraft:is_savanna</code><br>
-      <code>minecraft:savanna_plateau</code><br>
-      <code>terralith:fractured_savanna</code><br>
-      <code>terralith:ashen_savanna</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:savanna_badlands</code>
+      <code>minecraft:savanna_plateau</code>
     </td>
   </tr>
 
@@ -843,12 +837,7 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
       <code>#cobblemon:is_lush</code><br>
       <code>minecraft:flower_forest</code><br>
       <code>minecraft:meadow</code><br>
-      <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:sakura_grove</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code>
+      <code>minecraft:sunflower_plains</code>
     </td>
   </tr>
 
@@ -916,10 +905,6 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
     <td>✨ <strong>Biomes magiques et féériques</strong></td>
     <td>
       <code>#byg:is_magical</code><br>
-      <code>terralith:amethyst_rainforest</code><br>
-      <code>terralith:moonlight_grove</code><br>
-      <code>terralith:moonlight_valley</code><br>
-      <code>terralith:amethyst_canyon</code><br>
       <code>byg:skyris_vale</code>
     </td>
   </tr>
@@ -947,7 +932,6 @@ Les mythes de Sinnoh remontent à la création même de l'univers. Temps, espace
   <tr>
     <td>🌿 <strong>Zones naturelles et mixtes</strong></td>
     <td>
-      <code>terralith:mirage_isles</code><br>
       <code>wythers:lantern_river</code><br>
       <code>wythers:mushroom_island</code>
     </td>
