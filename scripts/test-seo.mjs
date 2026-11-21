@@ -47,6 +47,42 @@ for (const [enFile, frFile, enUrl, frUrl] of [
     assert.ok(html.includes(`hreflang="x-default" href="${origin}${enUrl}"`), 'Missing default language');
   }
 }
+// Home-only structured identity: one shared site identity, two localized pages.
+for (const [file, lang, expectedTitle] of [
+  ['index.html', 'en', 'Cobblemon Realms | Official Modpack Wiki by LevelsFR'],
+  ['fr-FR/index.html', 'fr', 'Cobblemon Realms | Wiki officiel du modpack par LevelsFR']
+]) {
+  const html = read(file);
+  assert.ok(html.includes('<title>' + expectedTitle + '</title>'), 'Missing distinctive homepage SEO title: ' + file);
+  assert.ok(html.includes('name="description"') && html.includes('LevelsFR'), 'Missing official author in homepage description');
+  assert.ok(html.includes('modpacks/cobblemon-realms-lite'), 'Missing official Lite download on homepage');
+  assert.ok(html.includes('modpacks/cobblemon-realms'), 'Missing official Full download on homepage');
+  assert.ok(!html.includes('MMO Realms'), 'Do not promote unrelated server brands on the official homepage');
+  const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  assert.equal(scripts.length, 1, 'Only one home identity JSON-LD script should be generated: ' + file);
+  const graph = JSON.parse(scripts[0][1]);
+  assert.equal(graph['@context'], 'https://schema.org');
+  assert.ok(Array.isArray(graph['@graph']), 'JSON-LD must provide an identity graph');
+  const entity = type => graph['@graph'].find(item => item['@type'] === type);
+  const website = entity('WebSite');
+  const publisher = entity('Person');
+  const modpack = entity('CreativeWork');
+  const page = entity('WebPage');
+  assert.equal(website.name, 'Cobblemon Realms Wiki');
+  assert.equal(website.url, origin + '/');
+  assert.equal(publisher.name, 'LevelsFR');
+  assert.equal(website.publisher['@id'], publisher['@id']);
+  assert.equal(modpack.name, 'Cobblemon Realms');
+  assert.equal(modpack.creator['@id'], publisher['@id']);
+  assert.equal(modpack.url, 'https://www.curseforge.com/minecraft/modpacks/cobblemon-realms');
+  assert.ok(publisher.sameAs.includes('https://github.com/LevelsFR'));
+  assert.ok(publisher.sameAs.includes('https://modrinth.com/user/LevelsFR'));
+  assert.equal(page.inLanguage, lang);
+  assert.equal(page.name, expectedTitle);
+  assert.equal(page.about['@id'], modpack['@id']);
+}
+assert.ok(!read('quests.html').includes('application/ld+json'), 'Home identity JSON-LD should not be duplicated across every page');
+
 const missing = read('404.html');
 assert.ok(missing.includes('<meta name="robots" content="noindex,follow">'), '404 must not be indexed');
 assert.ok(!missing.includes('hreflang='), '404 must not be in language clusters');
