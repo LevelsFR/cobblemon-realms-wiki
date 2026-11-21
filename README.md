@@ -26,6 +26,8 @@ This wiki has been designed to help you:
 
 ---
 
+[🚀 **Start your first adventure with the interactive checklist**](start-here.md)
+
 ## 📖 What you will find here
 
 ### 🛠️ Installation & Configuration
