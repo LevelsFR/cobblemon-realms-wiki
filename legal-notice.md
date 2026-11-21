@@ -1,16 +1,23 @@
 # Legal notice
 
-**Last reviewed: 20 November 2026.**
+**Last reviewed: 21 November 2026.**
 
 This notice concerns the independent documentation website **Cobblemon Realms Wiki** at [wiki.cobblemon-realms.com](https://wiki.cobblemon-realms.com/). It does not govern the separate Discord bots, Minecraft servers, Patreon subscriptions or third-party websites.
 
 ## Website publisher
 
-The project is publicly presented as **Cobblemon Realms / Our Story Collection**, operated under the creator name **LevelsFR**. The status of the website publisher as a non-professional individual or a professional operator has not yet been established in this notice.
+**Publisher:** **LevelsFR** (creator pseudonym), an individual maintaining this wiki in a **personal, non-professional capacity**. The wiki is a freely accessible informational resource and does not itself sell products, charge admission or collect subscription payments. External platforms and any separately disclosed partnerships operate under their own terms.
 
-**Editorial and privacy requests:** contact **Levels** privately through the [official Our Story Discord](https://discord.gg/kb8NSTF45n). A dedicated contact email and the legally required publisher details must be confirmed before this notice can be considered complete. Do not share personal information in a public Discord channel.
+## Contact {#contact}
 
-Under [Article 1-1 of the French LCEN](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049568614), a non-professional publisher may keep their personal identity from public display only when the applicable conditions are met, including supplying the required identity details to the hosting provider. A professional publisher must publish the relevant legal identification information. The applicable status must be confirmed.
+For legal notices, editorial requests or personal-data enquiries, expand the section below to reveal a direct email address. Community questions can also go to the [official Our Story Discord](https://discord.gg/kb8NSTF45n). Please do not share private information publicly.
+
+<details class="wiki-contact-reveal" data-contact-reveal>
+<summary>Reveal contact email address</summary>
+<p><span data-wiki-contact-email>Loading contact address…</span></p>
+</details>
+
+Under [Article 1-1 of the French LCEN](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049568614), a non-professional publisher may keep their personal identity and home address out of public view, **provided the required identifying details have been supplied to the hosting provider**. Whether the hosting provider has received those details has not been confirmed. This notice does not assert that this requirement is already satisfied.
 
 ## Technical hosting
 
@@ -33,4 +40,4 @@ Unless expressly stated otherwise, original website writing and project-specific
 
 Read our [Privacy Policy](/privacy-policy) and [Cookies & Local Storage](/cookies) pages for the website's data practices. The [Terms of Use](/terms-of-use) describe the informational nature of the guides.
 
-This page must be checked and completed with the website operator's verified legal and contact information before being presented as a final legal-compliance notice.
+The remaining compliance checks concern proof of the identification details supplied to the host, the host's published details, and the site's data practices. See the repository publication checklist.
