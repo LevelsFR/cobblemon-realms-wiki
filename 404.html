@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="/assets/wiki-enhancements.css">
   <link rel="stylesheet" href="/assets/legal-footer.css">
   <script defer src="/assets/privacy-controls.js"></script>
+  <script defer src="/assets/contact-reveal.js"></script>
   <style>
     body.not-found-page{min-height:100vh}.not-found-page .site-legal-footer{margin-left:0}.not-found-page .topbar{grid-template-columns:320px minmax(320px,520px) 1fr auto}.not-found-shell{display:grid;min-height:100vh;place-items:center;padding:120px 24px 70px}.not-found-card{width:min(760px,100%);padding:42px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 24px 70px rgba(0,0,0,.28);text-align:center}.not-found-code{display:inline-flex;align-items:center;gap:10px;margin-bottom:18px;color:#8ab4ff;font-size:14px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}.not-found-code::before,.not-found-code::after{content:"";width:34px;height:1px;background:currentColor;opacity:.55}.not-found-card h1{margin:0 0 14px;font-size:clamp(2.3rem,7vw,4.6rem);line-height:1}.not-found-card p{max-width:590px;margin:0 auto 26px;color:var(--muted);font-size:17px}.not-found-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:30px}.not-found-actions a{display:inline-flex;min-height:42px;align-items:center;padding:0 15px;border:1px solid var(--line);border-radius:9px;background:var(--surface-2);color:var(--text);font-size:13px;font-weight:800;text-decoration:none}.not-found-actions a.primary{border-color:#4c91ff;background:#3979d8;color:#fff}.not-found-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding-top:24px;border-top:1px solid var(--line)}.not-found-links a{padding:12px 8px;border-radius:8px;color:var(--muted);font-size:12px;font-weight:700;text-decoration:none}.not-found-links a:hover{background:var(--surface-2);color:var(--text)}html[data-theme="light"] .not-found-card{box-shadow:0 22px 60px rgba(31,48,73,.12)}@media(max-width:900px){.not-found-page .topbar{grid-template-columns:auto minmax(0,1fr) auto}.not-found-card{padding:32px 20px}.not-found-links{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.not-found-shell{padding:100px 14px 40px}.not-found-links{grid-template-columns:1fr}}
   </style>
@@ -75,7 +76,11 @@
       <div class="site-legal-bottom">
         <p class="site-legal-disclaimer" id="not-found-legal-disclaimer">Independent community project. NOT AN OFFICIAL MINECRAFT OR POKÉMON PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT, NINTENDO, THE POKÉMON COMPANY OR GAME FREAK.</p>
         <div class="site-legal-controls"><button type="button" class="site-legal-analytics" data-analytics-toggle aria-pressed="false">Disable optional analytics</button>
-          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer" id="not-found-legal-contact">Community contact</a>
+          <details class="site-legal-contact" data-contact-reveal>
+            <summary id="not-found-email-summary">Reveal contact email</summary>
+            <span data-wiki-contact-email></span>
+          </details>
+          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer" id="not-found-legal-contact">Community Discord</a>
         </div>
       </div>
     </div>
@@ -133,7 +138,8 @@
       document.getElementById('not-found-legal-disclaimer').textContent = french
         ? "Projet indépendant. Ceci n'est pas un produit officiel Minecraft ou Pokémon. Non approuvé ni affilié à Mojang Studios, Microsoft, Nintendo, The Pokémon Company ou GAME FREAK."
         : 'Independent community project. NOT AN OFFICIAL MINECRAFT OR POKÉMON PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT, NINTENDO, THE POKÉMON COMPANY OR GAME FREAK.';
-      document.getElementById('not-found-legal-contact').textContent = french ? 'Contact communauté' : 'Community contact';
+      document.getElementById('not-found-legal-contact').textContent = french ? 'Discord communautaire' : 'Community Discord';
+      document.getElementById('not-found-email-summary').textContent = french ? 'Afficher l’e-mail de contact' : 'Reveal contact email';
       const search = document.getElementById('search');
       search.placeholder = content.placeholder;
       search.setAttribute('aria-label', content.searchLabel);
