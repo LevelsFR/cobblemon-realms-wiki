@@ -11,9 +11,12 @@ const dataset = JSON.parse(read('assets/spawn-explorer-data.json'));
 assert.equal(release.schemaVersion, 1);
 assert.equal(release.full.version, '6.3');
 assert.equal(release.lite.version, '6.3');
-assert.equal(dataset.schemaVersion, 1);
+assert.equal(dataset.schemaVersion, 2);
 assert.equal(dataset.version, 'v6.4.1');
-assert.equal(dataset.kind, 'release-notes-extract');
+assert.equal(dataset.kind, 'datapack-json');
+assert.equal(dataset.source?.packVersion, '6.4.1');
+assert.equal(dataset.source?.ref, '9a73f06f7a46fe57360299a1cd45436485a4f575');
+assert.equal(dataset.source?.optionalFilesExcluded, 24);
 assert.equal(dataset.entries.length, 149);
 assert.equal(new Set(dataset.entries.map(e => e.pokemon.toLowerCase())).size, 149, 'Index contains duplicate species');
 for (const entry of dataset.entries) {
@@ -21,7 +24,31 @@ for (const entry of dataset.entries) {
   assert.match(entry.level, /^\d+-\d+$/, 'Invalid level range');
   assert.ok(['common','uncommon','rare','ultra-rare'].includes(entry.rarity), 'Invalid rarity');
   assert.ok(Array.isArray(entry.biomes) && entry.biomes.length > 0, 'Missing documented biomes');
+  assert.ok(entry.biomes.every(id => id.startsWith('minecraft:')), 'Unexpected biome namespace for standard v6.4.1 spawns');
+  assert.ok(typeof entry.spawnId === 'string' && entry.spawnId.startsWith('os-'), 'Missing source spawn ID');
+  assert.ok(entry.sourceFile.startsWith('data/ourstory/spawn_pool_world/'), 'Invalid source file path');
+  assert.ok(!entry.sourceFile.includes('optional_'), 'Optional mod file should not be indexed');
+  assert.ok(Array.isArray(entry.neededInstalledMods) && entry.neededInstalledMods.length === 0, 'Optional-mod spawn slipped into standard index');
+  assert.ok(Number.isFinite(entry.weight) && entry.weight > 0, 'Missing source relative weight');
+  assert.deepEqual(entry.biomes, entry.condition.biomes, 'Biome IDs must match exact source conditions');
 }
+const articuno = dataset.entries.find(entry => entry.pokemonId === 'articuno');
+assert.ok(articuno, 'Articuno source entry missing');
+assert.deepEqual(articuno.biomes, ['minecraft:snowy_slopes','minecraft:snowy_taiga','minecraft:frozen_peaks']);
+assert.equal(articuno.weight, 0.1);
+const darkrai = dataset.entries.find(entry => entry.pokemonId === 'darkrai');
+assert.ok(darkrai, 'Darkrai source entry missing');
+assert.equal(darkrai.condition.timeRange, 'night');
+assert.equal(darkrai.condition.minSkyLight, 0);
+assert.equal(darkrai.condition.maxSkyLight, 7);
+assert.equal(dataset.entries.filter(entry => entry.condition?.timeRange === 'night').length, 14,
+  'Night-only v6.4.1 source conditions must not be discarded');
+const explorerJS = read('assets/spawn-explorer.js');
+assert.ok(explorerJS.includes('sourceCommit'), 'Source URLs must be pinned to a verified commit');
+assert.ok(explorerJS.includes('friendlyBiome'), 'Biome IDs need accessible display names');
+assert.ok(explorerJS.includes('condition.timeRange'), 'Time restrictions need to be displayed');
+assert.ok(explorerJS.includes('condition.minSkyLight'), 'Sky light restrictions need to be displayed');
+
 for (const prefix of ['', 'fr-FR/']) {
   const home = read(prefix + 'index.html');
   const start = read(prefix + 'start-here.html');
@@ -38,6 +65,8 @@ for (const prefix of ['', 'fr-FR/']) {
   assert.ok(explorer.includes('/assets/spawn-explorer.js'), 'Missing explorer JS');
   assert.ok(explorer.includes('149'), 'Dataset scope should be explicit');
   assert.ok(explorer.includes('6.4.1'), 'Datapack version should be explicit');
+  assert.ok(explorer.includes('id="spawn-time"'), 'Spawn time filter must be available');
+  assert.ok(explorer.includes('JSON'), 'Direct datapack JSON origin must be disclosed');
   assert.ok(migration.includes('6.4'), 'Missing migration version distinction');
   assert.ok(migration.includes('6.3'), 'Missing v6.3 status distinction');
   assert.ok(!guides.includes('Coming soon!') && !guides.includes('À venir bientôt !'), 'Obsolete mod index placeholder');
