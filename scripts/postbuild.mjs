@@ -9,6 +9,64 @@ const out = path.join(root, 'dist');
 const siteOrigin = 'https://wiki.cobblemon-realms.com';
 const assetVersion = Date.now().toString(36);
 
+function homeIdentitySchema(pagePath, language) {
+  const wikiUrl = siteOrigin + '/';
+  const websiteId = siteOrigin + '/#website';
+  const creatorId = siteOrigin + '/#creator';
+  const modpackId = siteOrigin + '/#modpack';
+  const french = language === 'fr';
+  const title = french
+    ? 'Cobblemon Realms | Wiki officiel du modpack par LevelsFR'
+    : 'Cobblemon Realms | Official Modpack Wiki by LevelsFR';
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': websiteId,
+        name: 'Cobblemon Realms Wiki',
+        alternateName: 'Official Cobblemon Realms Wiki',
+        url: wikiUrl,
+        inLanguage: ['en', 'fr'],
+        publisher: { '@id': creatorId },
+        about: { '@id': modpackId }
+      },
+      {
+        '@type': 'Person',
+        '@id': creatorId,
+        name: 'LevelsFR',
+        url: 'https://modrinth.com/user/LevelsFR',
+        sameAs: [
+          'https://github.com/LevelsFR',
+          'https://modrinth.com/user/LevelsFR',
+          'https://www.curseforge.com/members/levelsfr/'
+        ]
+      },
+      {
+        '@type': 'CreativeWork',
+        '@id': modpackId,
+        name: 'Cobblemon Realms',
+        alternateName: 'Cobblemon Realms Modpack',
+        description: 'Independent Minecraft Java Edition Pokémon modpack created by LevelsFR as part of Our Story Collection.',
+        url: 'https://www.curseforge.com/minecraft/modpacks/cobblemon-realms',
+        creator: { '@id': creatorId }
+      },
+      {
+        '@type': 'WebPage',
+        '@id': siteOrigin + pagePath + '#webpage',
+        url: siteOrigin + pagePath,
+        name: title,
+        isPartOf: { '@id': websiteId },
+        about: { '@id': modpackId },
+        inLanguage: language
+      }
+    ]
+  };
+  // Escape HTML-significant characters before inserting JSON into a script tag.
+  return '<script type="application/ld+json">' + JSON.stringify(graph).replace(/</g, '\\u003c') + '</script>';
+}
+
+
 const searchSynonymGroups = [
   ['installation', 'installer', 'install', 'setup', 'configuration'],
   ['server', 'serveur', 'multiplayer', 'multijoueur', 'hosting', 'hebergement'],
@@ -248,6 +306,8 @@ function articleHtml(html) {
 
 
 function descriptionForPage(html, pagePath, language) {
+  if (pagePath === '/') return 'Official wiki for Cobblemon Realms, the independent Minecraft Pokémon modpack by LevelsFR. Discover Full and Lite downloads, quests, spawns and guides.';
+  if (pagePath === '/fr-FR/') return 'Wiki officiel de Cobblemon Realms, le modpack Pokémon Minecraft créé par LevelsFR. Téléchargements Full et Lite, quêtes, spawns et guides.';
   const paragraphs = [...articleHtml(html).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
     .map(([, inner]) => decodeEntities(stripHtml(inner)).replace(/\s+/g, ' ').trim())
     .filter((value) => value.length >= 65 && !/^(if you have any questions|questions, suggestions|si vous avez des questions|une question, une suggestion)/i.test(value));
@@ -502,20 +562,25 @@ for (const file of htmlFiles) {
 
   const pair = translationPair(normalizedRelative, htmlPaths);
   const description = descriptionForPage(html, pagePath, language);
-  const pageTitle = extractTitle(html, pagePath);
+  const isHome = pagePath === '/' || pagePath === '/fr-FR/';
+  const pageTitle = isHome
+    ? (language === 'fr' ? 'Cobblemon Realms | Wiki officiel du modpack par LevelsFR' : 'Cobblemon Realms | Official Modpack Wiki by LevelsFR')
+    : extractTitle(html, pagePath);
+  const socialTitle = isHome ? pageTitle : `${pageTitle} | Cobblemon Realms Wiki`;
   const openGraphLocale = language === 'fr' ? 'fr_FR' : 'en_US';
   const headAssets = [
     `<link rel="canonical" href="${canonicalUrl}">`,
+    ...(isHome ? [homeIdentitySchema(pagePath, language)] : []),
     ...(normalizedRelative === '404.html' ? ['<meta name="robots" content="noindex,follow">'] : []),
     `<meta name="description" content="${escapeXml(description)}">`,
     `<meta property="og:type" content="${pagePath === '/' || pagePath === '/fr-FR/' ? 'website' : 'article'}">`,
     '<meta property="og:site_name" content="Cobblemon Realms Wiki">',
     `<meta property="og:locale" content="${openGraphLocale}">`,
-    `<meta property="og:title" content="${escapeXml(pageTitle)} | Cobblemon Realms Wiki">`,
+    `<meta property="og:title" content="${escapeXml(socialTitle)}">`,
     `<meta property="og:description" content="${escapeXml(description)}">`,
     `<meta property="og:url" content="${canonicalUrl}">`,
     '<meta name="twitter:card" content="summary">',
-    `<meta name="twitter:title" content="${escapeXml(pageTitle)} | Cobblemon Realms Wiki">`,
+    `<meta name="twitter:title" content="${escapeXml(socialTitle)}">`,
     `<meta name="twitter:description" content="${escapeXml(description)}">`,
     ...(pair ? [
       `<link rel="alternate" hreflang="en" href="${pair.en}">`,
