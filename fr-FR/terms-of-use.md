@@ -1,6 +1,6 @@
 # Conditions d'utilisation du wiki
 
-**Dernière révision : 20 novembre 2026.**
+**Dernière révision : 21 novembre 2026.**
 
 ## Objet
 
@@ -24,4 +24,4 @@ Si vous signalez une erreur ou laissez un commentaire, limitez les informations 
 
 ## Confidentialité et contact
 
-Voir la [Politique de confidentialité](/fr-FR/privacy-policy), les [Cookies et stockage local](/fr-FR/cookies) et les [Mentions légales](/fr-FR/legal-notice). Pour une correction ou une demande relative au site, contactez Levels en privé sur le [Discord officiel](https://discord.gg/kb8NSTF45n). Une adresse dédiée reste nécessaire pour finaliser les informations légales.
+Voir la [Politique de confidentialité](/fr-FR/privacy-policy), les [Cookies et stockage local](/fr-FR/cookies) et les [Mentions légales](/fr-FR/legal-notice). Pour une demande juridique ou liée aux données personnelles, utilisez l'[adresse e-mail révélable dans les mentions légales](/fr-FR/legal-notice#contact). Le [Discord officiel](https://discord.gg/kb8NSTF45n) reste disponible pour les échanges communautaires.
