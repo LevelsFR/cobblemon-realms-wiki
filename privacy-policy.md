@@ -1,12 +1,19 @@
 # Website Privacy Policy
 
-**Last reviewed: 20 November 2026.**
+**Last reviewed: 21 November 2026.**
 
 This policy applies to the **Cobblemon Realms Wiki website**, not to the independent [OurStoryBot Privacy Policy](/ourstorybot/privacy-policy), Discord, Patreon or Minecraft servers.
 
 ## Website operator and contact
 
-The wiki is maintained under the name **Cobblemon Realms / Our Story Collection** by **LevelsFR**. For a request concerning your data, privately contact **Levels** through the [official Discord](https://discord.gg/kb8NSTF45n). Please do not disclose private details in public channels. A dedicated privacy email and the operator's legally required identification details are still to be confirmed.
+**Controller:** **LevelsFR**, an individual publishing the free wiki in a personal, non-professional capacity under the Cobblemon Realms / Our Story Collection project name. For access, correction, deletion or other privacy requests, expand the section below and email the publisher directly. Do not share personal details in public Discord channels.
+
+<details class="wiki-contact-reveal" data-contact-reveal>
+<summary>Reveal contact email address</summary>
+<p><span data-wiki-contact-email>Loading contact address…</span></p>
+</details>
+
+See the [Legal Notice](/legal-notice#contact) for the applicable publisher and hosting disclosures.
 
 ## Data processed and purposes
 
