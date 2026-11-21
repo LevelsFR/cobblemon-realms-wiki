@@ -5,7 +5,7 @@ import { marked } from 'marked';
 
 const root = process.cwd();
 const out = path.join(root, 'dist');
-const ignored = new Set(['.git', 'node_modules', 'dist', '.github', 'scripts']);
+const ignored = new Set(['.git', '.gitignore', 'node_modules', 'dist', '.github', 'scripts']);
 // Public GitHub documentation that must never become a website route or search entry.
 const repositoryOnlyMarkdown = new Set(['CHANGELOG.md', 'CHANGELOG_FR.md']);
 const buildVersion = Date.now().toString(36);
