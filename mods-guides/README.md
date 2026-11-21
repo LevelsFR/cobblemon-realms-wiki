@@ -1,6 +1,6 @@
 # 📚 Mod Guides
 
-Find practical guides for the mods and gameplay systems available in Cobblemon Realms. The exact mod list and features depend on the **edition and release**. This page replaces the old "Coming soon!" placeholder.
+Find practical guides for the mods and gameplay systems available in Cobblemon Realms. The exact mod list and features depend on the **edition and release**. Browse the curated guides below to jump directly to the content you need.
 
 ## Pokémon adventure
 
