@@ -5,7 +5,9 @@ import { marked } from 'marked';
 
 const root = process.cwd();
 const out = path.join(root, 'dist');
-const ignored = new Set(['.git', 'node_modules', 'dist', '.github', 'scripts']);
+const ignored = new Set(['.git', '.gitignore', 'node_modules', 'dist', '.github', 'scripts']);
+// Public GitHub documentation that must never become a website route or search entry.
+const repositoryOnlyMarkdown = new Set(['CHANGELOG.md', 'CHANGELOG_FR.md']);
 const buildVersion = Date.now().toString(36);
 const packRelease = JSON.parse(fs.readFileSync(path.join(root, 'assets/pack-release.json'), 'utf8'));
 const packVersion = String(packRelease.full.version).replace(/[^0-9.a-z-]/gi, '');
@@ -292,7 +294,7 @@ function formatUpdatedDate(date, language) {
 
 const markdownFiles = walk(root).filter((file) => {
   const relative = path.relative(root, file).split(path.sep).join('/');
-  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md';
+  return relative.endsWith('.md') && relative !== 'SUMMARY.md' && relative !== 'fr-FR/SUMMARY.md' && !repositoryOnlyMarkdown.has(relative);
 });
 
 const searchIndex = markdownFiles.map((file) => {
@@ -380,7 +382,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
 
 for (const file of walk(root)) {
   const relative = path.relative(root, file).split(path.sep).join('/');
-  if (relative === 'SUMMARY.md' || relative === 'fr-FR/SUMMARY.md') continue;
+  if (relative === 'SUMMARY.md' || relative === 'fr-FR/SUMMARY.md' || repositoryOnlyMarkdown.has(relative)) continue;
 
   if (!relative.endsWith('.md')) {
     const destination = path.join(out, relative);

@@ -6,12 +6,13 @@
     "build": "node scripts/build.mjs && node scripts/postbuild.mjs && node scripts/finalize-display.mjs",
     "deploy": "wrangler deploy",
     "preview": "npm run build && wrangler dev",
-    "check:cloudflare": "npm run build && node scripts/test-static-routing.mjs && node scripts/test-server-status.mjs && node scripts/test-legal.mjs && node scripts/test-player-experience.mjs && node --check assets/start-guide.js && node --check assets/spawn-explorer.js && node --check scripts/worker.mjs && node --check assets/wiki.js && wrangler deploy --dry-run --outdir .wrangler-dry-run",
+    "check:cloudflare": "npm run build && node scripts/test-static-routing.mjs && node scripts/test-server-status.mjs && node scripts/test-legal.mjs && node scripts/test-player-experience.mjs && node scripts/test-repository-only.mjs && node --check assets/start-guide.js && node --check assets/spawn-explorer.js && node --check scripts/worker.mjs && node --check assets/wiki.js && wrangler deploy --dry-run --outdir .wrangler-dry-run",
     "test:static-routing": "npm run build && node scripts/test-static-routing.mjs",
     "test:server-status": "node scripts/test-server-status.mjs",
     "test:seo": "node scripts/test-seo.mjs",
     "test:legal": "npm run build && node scripts/test-legal.mjs",
-    "test:experience": "npm run build && node scripts/test-player-experience.mjs"
+    "test:experience": "npm run build && node scripts/test-player-experience.mjs",
+    "test:repository-only": "npm run build && node scripts/test-repository-only.mjs"
   },
   "dependencies": {
     "marked": "^15.0.12"
