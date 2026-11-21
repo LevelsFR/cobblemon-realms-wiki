@@ -1,5 +1,10 @@
 # 🌊 Génération 3 - Hoenn
 
+{% hint style="warning" %}
+**Compatibilité des biomes :** Terralith n'est plus inclus dans Cobblemon Realms. Ses anciens identifiants de biomes ont été retirés de ce guide historique. Les emplacements restants restent indicatifs et ne constituent pas une liste complète des spawns actifs. Voir l'[Explorateur des apparitions](../../spawn-explorer.md) pour les ajouts explicitement documentés en v6.4.1 et les [Tags de biome](../biome-tags-reference.md) pour les compatibilités optionnelles.
+{% endhint %}
+
+
 ### 📜 **Liste des invocations de la Troisième Génération**
 
 <p align="center">
@@ -60,9 +65,6 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
       <code>#byg:is_desert</code><br>
       <code>#c:desert</code><br>
       <code>minecraft:desert</code><br>
-      <code>terralith:desert_oasis</code><br>
-      <code>terralith:lush_desert</code><br>
-      <code>terralith:ancient_sands</code><br>
       <code>wythers:outback_desert</code><br>
       <code>wythers:danakil_desert</code><br>
       <code>wythers:red_desert</code><br>
@@ -76,9 +78,6 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
       <code>#minecraft:is_badlands</code><br>
       <code>#c:mesa</code><br>
       <code>minecraft:badlands</code><br>
-      <code>terralith:white_mesa</code><br>
-      <code>terralith:warped_mesa</code><br>
-      <code>terralith:red_oasis</code><br>
       <code>wythers:badlands_desert</code>
     </td>
   </tr>
@@ -86,13 +85,8 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
   <tr>
     <td>🌵 <strong>Savane aride et zones sèches</strong></td>
     <td>
-      <code>terralith:desert_canyon</code><br>
-      <code>terralith:sandstone_valley</code><br>
-      <code>terralith:desert_spires</code><br>
-      <code>terralith:ashen_savanna</code><br>
       <code>wythers:kwongan_heath</code><br>
-      <code>wythers:sandy_jungle</code><br>
-      <code>terralith:cave/desert_caves</code>
+      <code>wythers:sandy_jungle</code>
     </td>
   </tr>
 
@@ -162,11 +156,8 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
     <td>
       <code>#cobblemon:is_peak</code><br>
       <code>minecraft:jagged_peaks</code><br>
-      <code>terralith:emerald_peaks</code><br>
-      <code>terralith:scarlet_mountains</code><br>
       <code>wythers:snowy_peaks</code><br>
-      <code>wythers:snowy_canyon</code><br>
-      <code>terralith:snowy_badlands</code>
+      <code>wythers:snowy_canyon</code>
     </td>
   </tr>
 
@@ -205,8 +196,7 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
     <td>🌨️ <strong>Forêts et taïgas froides</strong></td>
     <td>
       <code>#cobblemon:is_snowy_forest</code><br>
-      <code>#cobblemon:is_taiga</code><br>
-      <code>terralith:skylands_winter</code>
+      <code>#cobblemon:is_taiga</code>
     </td>
   </tr>
 
@@ -359,8 +349,7 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
     <td>🏝️ <strong>Côtes et zones maritimes</strong></td>
     <td>
       <code>#cobblemon:is_beach</code><br>
-      <code>#cobblemon:is_coast</code><br>
-      <code>terralith:mirage_isles</code>
+      <code>#cobblemon:is_coast</code>
     </td>
   </tr>
 
@@ -429,8 +418,7 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
     <td>
       <code>#cobblemon:is_coast</code><br>
       <code>#cobblemon:is_beach</code><br>
-      <code>#cobblemon:is_temperate</code><br>
-      <code>terralith:mirage_isles</code>
+      <code>#cobblemon:is_temperate</code>
     </td>
   </tr>
 
@@ -650,11 +638,7 @@ D'anciens titans sommeillent sous les terres de Hoenn. Entre océans déchaîné
     <td>☁️ <strong>Cieux et skylands</strong></td>
     <td>
       <code>#cobblemon:is_sky</code><br>
-      <code>#cobblemon:is_highlands</code><br>
-      <code>terralith:skylands_winter</code><br>
-      <code>terralith:skylands_spring</code><br>
-      <code>terralith:skylands_summer</code><br>
-      <code>terralith:skylands_autumn</code>
+      <code>#cobblemon:is_highlands</code>
     </td>
   </tr>
 

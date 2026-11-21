@@ -85,7 +85,7 @@ La Spawn Island est bien plus qu'une simple zone de tutoriel. C'est le hub princ
 | 🏆 **Hall de la Ligue** | Gym World Tour, Défis de Ligue, Battle Court PvP et mode spectateur |
 | 🏰 **Manoir** | Une Tour de Combat et plusieurs classements différents |
 | 🌿 **Bâtiment du Safari** | Accès au Safari Pokémon pour **20 Realms Coins par défaut** |
-| ⚙️ **Usine Create** | Une présentation des machines Create et de la production de Poké Balls |
+| ⚙️ **Usine Create** | Une présentation des machines Create et de la production de Poké Balls dans la version **Full 6.3**. Voir les [précautions pour la future 6.4](migration-create.md). |
 | 🎰 **Casino** | Des machines de gacha et d'autres attractions |
 | ❓ **Encore des choses à découvrir** | D'autres bâtiments, zones cachées et futurs ajouts attendent d'être découverts |
 

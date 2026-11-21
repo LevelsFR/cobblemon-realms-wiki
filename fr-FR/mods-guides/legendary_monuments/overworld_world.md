@@ -1,5 +1,10 @@
 # 🌍🏗️ Structures légendaires de l'Overworld
 
+{% hint style="warning" %}
+**Compatibilité des biomes :** Terralith a été retiré de Cobblemon Realms. Les emplacements qui lui étaient exclusifs ont été retirés des tableaux ci-dessous. Les autres biomes et intégrations doivent toujours être comparés aux datapacks de la version active.
+{% endhint %}
+
+
 ## 🏯 Tour Carillon
 
 {% hint style="info" %}
@@ -125,8 +130,6 @@ La structure apparaît dans les **biomes de type plaines et environnements simil
       <code>biomesoplenty:prairie</code><br>
       <code>biomesoplenty:seasonal_orchard</code><br>
       <code>clifftree:sparse_forest</code><br>
-      <code>terralith:scrubland</code><br>
-      <code>terralith:steppe</code><br>
       <code>wythers:berry_bog</code><br>
       <code>wythers:forest_edge</code><br>
       <code>wythers:tropical_grassland</code>
@@ -283,15 +286,7 @@ La structure apparaît dans les **biomes neigeux et montagneux froids** :
     </td>
   </tr>
 
-  <tr>
-    <td>🌄 <strong>Terralith</strong></td>
-    <td>
-      <code>terralith:emerald_peaks</code><br>
-      <code>terralith:scarlet_mountains</code><br>
-      <code>terralith:skylands_winter</code><br>
-      <code>terralith:snowy_badlands</code>
-    </td>
-  </tr>
+  
 
   <tr>
     <td>🌨️ <strong>Wythers</strong></td>
@@ -535,14 +530,6 @@ Structure permettant de rencontrer le <strong>Villageois Entrepreneur</strong>, 
       <code>biomesoplenty:lush_desert</code><br>
       <code>clifftree:desert_cliff</code><br>
       <code>darkerdepths:sandy_catacombs</code><br>
-      <code>terralith:ancient_sands</code><br>
-      <code>terralith:desert_canyon</code><br>
-      <code>terralith:cave/desert_caves</code><br>
-      <code>terralith:desert_oasis</code><br>
-      <code>terralith:desert_spires</code><br>
-      <code>terralith:lush_desert</code><br>
-      <code>terralith:red_oasis</code><br>
-      <code>terralith:sandstone_valley</code><br>
       <code>wythers:badlands_desert</code><br>
       <code>wythers:desert_island</code><br>
       <code>wythers:kwongan_heath</code><br>
@@ -679,10 +666,6 @@ Structure permettant d'obtenir <strong>Dialga</strong> et <strong>Palkia</strong
       <code>cobblemon:is_hills</code><br>
       <code>c:is_mountain</code><br>
       <code>biomesoplenty:crag</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
       <code>wythers:tibesti_mountains</code><br>
       <code>wythers:tropical_volcano</code><br>
       <code>wythers:tsingy_forest</code><br>

@@ -21,6 +21,8 @@ Ce wiki a été conçu pour vous aider à :
 
 ***
 
+[🚀 **Commencer l'aventure avec une checklist interactive**](start-here.md)
+
 ## 📖 Ce que vous découvrirez ici
 
 ### 🛠️ Installation & Configuration

@@ -1,5 +1,10 @@
 # 👑 Generation 8 - Galar/Hisui
 
+{% hint style="warning" %}
+**Current biome compatibility:** Terralith is no longer included in Cobblemon Realms. Its obsolete biome IDs have been removed from this older guide. Treat remaining encounter locations as guidance, not as a full live spawn table. See the [Spawn Explorer](../../spawn-explorer.md) for explicitly sourced v6.4.1 additions and the [Biome Tags](../biome-tags-reference.md) guide for optional compatibility tags.
+{% endhint %}
+
+
 ### 📜 **Eighth Generation Summon List**
 
 <p align="center">
@@ -227,9 +232,7 @@ The legends of Galar tell of the exploits of forgotten heroes and powerful ruler
       <code>#byg:is_swamp</code><br>
       <code>minecraft:swamp</code><br>
       <code>minecraft:mangrove_swamp</code><br>
-      <code>wythers:billabong</code><br>
-      <code>terralith:ice_marsh</code><br>
-      <code>terralith:orchid_swampc</code>
+      <code>wythers:billabong</code>
     </td>
   </tr>
 
@@ -314,7 +317,6 @@ The legends of Galar tell of the exploits of forgotten heroes and powerful ruler
       <code>wythers:bamboo_jungle_swamp</code><br>
       <code>wythers:bamboo_swamp</code><br>
       <code>wythers:bamboo_jungle_highlands</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:sandy_jungle</code><br>
       <code>wythers:eucalyptus_deanei_forest</code>
@@ -413,7 +415,6 @@ The legends of Galar tell of the exploits of forgotten heroes and powerful ruler
       <code>wythers:tropical_island</code><br>
       <code>wythers:eucalyptus_deanei_forest</code><br>
       <code>wythers:dripleaf_swamp</code><br>
-      <code>terralith:cave/underground_jungle</code><br>
       <code>wythers:jungle_canyon</code><br>
       <code>wythers:tropical_forest_canyon</code>
     </td>
