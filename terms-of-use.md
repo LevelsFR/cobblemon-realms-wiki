@@ -1,6 +1,6 @@
 # Website Terms of Use
 
-**Last reviewed: 20 November 2026.**
+**Last reviewed: 21 November 2026.**
 
 ## Purpose
 
@@ -24,4 +24,4 @@ If you submit feedback or report an error, provide only information needed to de
 
 ## Privacy and contact
 
-See [Privacy Policy](/privacy-policy), [Cookies & Local Storage](/cookies) and [Legal Notice](/legal-notice). For corrections or website enquiries, privately contact Levels through the [official Discord](https://discord.gg/kb8NSTF45n). An appropriate dedicated email contact is still required for final legal publication.
+See [Privacy Policy](/privacy-policy), [Cookies & Local Storage](/cookies) and [Legal Notice](/legal-notice). For corrections or legal/privacy requests, use the [revealable email contact in Legal Notice](/legal-notice#contact). For community questions, use the [official Discord](https://discord.gg/kb8NSTF45n).
