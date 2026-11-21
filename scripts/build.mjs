@@ -7,6 +7,8 @@ const root = process.cwd();
 const out = path.join(root, 'dist');
 const ignored = new Set(['.git', 'node_modules', 'dist', '.github', 'scripts']);
 const buildVersion = Date.now().toString(36);
+const packRelease = JSON.parse(fs.readFileSync(path.join(root, 'assets/pack-release.json'), 'utf8'));
+const packVersion = String(packRelease.full.version).replace(/[^0-9.a-z-]/gi, '');
 let interactiveBlockCounter = 0;
 
 const emojiShortcodes = new Map([
@@ -308,7 +310,7 @@ const searchIndex = markdownFiles.map((file) => {
 const navGroupsEn = parseSummary(path.join(root, 'SUMMARY.md'));
 const navGroupsFr = parseSummary(path.join(root, 'fr-FR', 'SUMMARY.md'), 'fr-FR');
 
-function pageTemplate({ title, body, nav, language, alternate, updatedIso, updatedLabel }) {
+function pageTemplate({ title, body, nav, language, alternate, updatedIso, updatedLabel, pagePath }) {
   const french = language === 'fr';
   const themeLabel = french ? 'Activer le mode jour' : 'Enable light mode';
   return `<!doctype html>
@@ -322,17 +324,20 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
   <link rel="stylesheet" href="/assets/wiki.css?v=${buildVersion}">
   <link rel="stylesheet" href="/assets/wiki-enhancements.css?v=${buildVersion}">
   <link rel="stylesheet" href="/assets/legal-footer.css?v=${buildVersion}">
+  <link rel="stylesheet" href="/assets/wiki-expedition.css?v=${buildVersion}">
   <script defer src="/assets/wiki.js?v=${buildVersion}"></script>
   <script defer src="/assets/wiki-enhancements.js?v=${buildVersion}"></script>
   <script defer src="/assets/privacy-controls.js?v=${buildVersion}"></script>
   <script defer src="/assets/contact-reveal.js?v=${buildVersion}"></script>
+  ${/(^|\/)start-here\.html$/.test(pagePath) ? `<script defer src="/assets/start-guide.js?v=${buildVersion}"></script>` : ''}
+  ${/(^|\/)spawn-explorer\.html$/.test(pagePath) ? `<script defer src="/assets/spawn-explorer.js?v=${buildVersion}"></script>` : ''}
 </head>
 <body>
   <div id="reading-progress" class="reading-progress" aria-hidden="true"><span></span></div>
   <header class="topbar">
     <button id="menu" class="menu-button" type="button" aria-label="${french ? 'Ouvrir le menu' : 'Open menu'}">☰</button>
     <a class="brand" href="/${french ? 'fr-FR/' : ''}" aria-label="Cobblemon Realms Wiki">
-      <span class="brand-copy"><strong>Cobblemon Realms <span class="brand-version">v6.0+</span></strong><small>Wiki</small></span>
+      <span class="brand-copy"><strong>Cobblemon Realms <span class="brand-version">v${escapeHtml(packVersion)}</span></strong><small>Wiki</small></span>
     </a>
     <div class="search-wrap">
       <span class="search-icon" aria-hidden="true"></span>
@@ -400,6 +405,7 @@ for (const file of walk(root)) {
     nav: renderNav(isFrench ? navGroupsFr : navGroupsEn, currentPath),
     language,
     alternate: { href: alternatePath, label: isFrench ? 'EN' : 'FR' },
+    pagePath: outputRelative,
     updatedIso: updatedDate.toISOString(),
     updatedLabel: formatUpdatedDate(updatedDate, language)
   });
