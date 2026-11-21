@@ -1,11 +1,10 @@
-# 📜 Welcome to **Cobblemon Realms** ✨
+# 🌍 Cobblemon Realms: Official Modpack Wiki
 
-## 🌍 Welcome to **Cobblemon Realms** ✨
+## A Minecraft Pokémon adventure by LevelsFR
 
 {% hint style="info" %}
 <p align="center">
-<b>Cobblemon Realms</b> is a modpack focused on <b>progression</b>, <b>exploration</b>, <b>Pokémon collection</b>,
-<b>custom systems</b> and long-term adventure.
+<b>Cobblemon Realms</b> is an independent <b>Minecraft Java Edition Pokémon modpack created by LevelsFR</b> as part of <b>Our Story Collection</b>. Explore custom worlds, collect Pokémon, complete quests and progress through original adventures, whether you play solo or in multiplayer.
 </p>
 {% endhint %}
 
@@ -16,6 +15,10 @@
 If you have any questions, suggestions, or changes to propose, feel free to join us on <a href="https://discord.gg/kb8NSTF45n">Discord</a> and contact <strong>@FabLeKebab</strong> directly on the server for anything related to the wiki, or <strong>@Levels</strong> for anything related to the modpack.
 </p>
 {% endhint %}
+
+**Official downloads:** [Cobblemon Realms (Full) on CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms) · [Cobblemon Realms Lite on CurseForge](https://www.curseforge.com/minecraft/modpacks/cobblemon-realms-lite)
+
+This is the **official wiki for the LevelsFR modpack**, not a general directory of similarly named Minecraft servers.
 
 This wiki has been designed to help you:
 

@@ -4,6 +4,16 @@
 
 ## 21 novembre 2026
 
+### Identité officielle du modpack et nettoyage de l'ancien GitBook
+
+- Clarification de l'identité sur les accueils FR et EN : **Cobblemon Realms est le modpack Pokémon indépendant pour Minecraft créé par LevelsFR**, dans le cadre d'Our Story Collection, et non un annuaire générique de serveurs.
+- Ajout des téléchargements officiels CurseForge Full et Lite, de titres et descriptions SEO plus précis et d'aperçus de partage harmonisés.
+- Ajout de données structurées JSON-LD uniquement sur les accueils : wiki (`WebSite`), pseudonyme public du créateur (`Person`), modpack (`CreativeWork`) et pages d'accueil localisées (`WebPage`), avec les liens de profils officiels vérifiés.
+- Finalisation du nettoyage GitBook précédemment en attente : deux anciens Markdown sont exclus de la génération, de la recherche et du sitemap. Les liens du sélecteur de langue ne sont affichés que lorsque la traduction existe réellement.
+- Renforcement des tests automatiques de référencement et des anciennes routes. Ces améliorations ne garantissent **ni le classement Google ni une correction immédiate des aperçus IA**.
+
+Sources : [PR #39](https://github.com/LevelsFR/cobblemon-realms-wiki/pull/39), [PR #44](https://github.com/LevelsFR/cobblemon-realms-wiki/pull/44).
+
 ### Explorateur des apparitions fondé sur les fichiers JSON du datapack
 
 - Remplacement du premier index issu du changelog par **149 définitions JSON réelles d'apparitions naturelles** du datapack **Cobblemon Biome Expanded Spawns v6.4.1**, avec une révision source précisément identifiée.
