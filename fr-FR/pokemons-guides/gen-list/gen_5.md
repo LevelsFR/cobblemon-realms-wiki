@@ -1,5 +1,10 @@
 # 🏙️ Génération 5 - Unys
 
+{% hint style="warning" %}
+**Compatibilité des biomes :** Terralith n'est plus inclus dans Cobblemon Realms. Ses anciens identifiants de biomes ont été retirés de ce guide historique. Les emplacements restants restent indicatifs et ne constituent pas une liste complète des spawns actifs. Voir l'[Explorateur des apparitions](../../spawn-explorer.md) pour les ajouts explicitement documentés en v6.4.1 et les [Tags de biome](../biome-tags-reference.md) pour les compatibilités optionnelles.
+{% endhint %}
+
+
 ### 📜 **Liste des invocations de la Cinquième Génération**
 
 <p align="center">
@@ -134,18 +139,6 @@ Les héros d'Unys sont nés de la rencontre entre idéaux et vérité. Leurs lé
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:savanna_slopes</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
@@ -229,19 +222,6 @@ Les héros d'Unys sont nés de la rencontre entre idéaux et vérité. Leurs lé
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -324,19 +304,6 @@ Les héros d'Unys sont nés de la rencontre entre idéaux et vérité. Leurs lé
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -888,19 +855,6 @@ Les héros d'Unys sont nés de la rencontre entre idéaux et vérité. Leurs lé
       <code>#forge:is_slope</code><br>
       <code>#c:mountain_slope</code><br>
       <code>minecraft:is_hill</code><br>
-      <code>terralith:forested_highlands</code><br>
-      <code>terralith:temperate_highlands</code><br>
-      <code>terralith:windswept_spires</code><br>
-      <code>terralith:stony_spires</code><br>
-      <code>terralith:volcanic_peaks</code><br>
-      <code>terralith:yosemite_lowlands</code><br>
-      <code>terralith:yosemite_cliffs</code><br>
-      <code>terralith:savanna_slopes</code><br>
-      <code>terralith:lush_valley</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:moonlight_valley</code><br>
       <code>wythers:thermal_taiga_crags</code><br>
       <code>wythers:taiga_crags</code><br>
       <code>wythers:autumnal_crags</code><br>
@@ -985,12 +939,6 @@ Les héros d'Unys sont nés de la rencontre entre idéaux et vérité. Leurs lé
       <code>minecraft:cherry_grove</code><br>
       <code>minecraft:meadow</code><br>
       <code>minecraft:sunflower_plains</code><br>
-      <code>terralith:sakura_valley</code><br>
-      <code>terralith:lavender_valley</code><br>
-      <code>terralith:blooming_valley</code><br>
-      <code>terralith:blooming_plateau</code><br>
-      <code>terralith:sakura_grove</code><br>
-      <code>terralith:lavender_forest</code><br>
       <code>wythers:autumnal_flower_forest</code><br>
       <code>wythers:sakura_forest</code><br>
       <code>wythers:spring_flower_fields</code><br>
