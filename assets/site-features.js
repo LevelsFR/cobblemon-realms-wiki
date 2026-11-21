@@ -194,6 +194,7 @@
     if (location.hostname !== 'wiki.cobblemon-realms.com') return false;
     if (navigator.globalPrivacyControl === true) return false;
     if (navigator.doNotTrack === '1' || window.doNotTrack === '1') return false;
+    try { if (window.localStorage.getItem('cr-wiki-analytics-opt-out') === '1') return false; } catch {}
     return true;
   }
 
