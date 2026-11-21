@@ -1,6 +1,6 @@
 # 📚 Guides des mods
 
-Retrouvez les guides pratiques des mods et mécaniques de Cobblemon Realms. La liste et les fonctionnalités disponibles dépendent de **l'édition et de la version**. Cette page remplace l'ancien texte « À venir bientôt ! ».
+Retrouvez les guides pratiques des mods et mécaniques de Cobblemon Realms. La liste et les fonctionnalités disponibles dépendent de **l'édition et de la version**. Parcourez les guides ci-dessous pour accéder directement aux informations utiles.
 
 ## Aventure Pokémon
 
