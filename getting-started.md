@@ -85,7 +85,7 @@ Spawn Island is much more than a tutorial area. It is the main hub of Cobblemon 
 | 🏆 **League Hall** | Gym World Tour, League Challenges, Battle Court PvP, and spectating |
 | 🏰 **Manor** | A Battle Tower and several different leaderboards |
 | 🌿 **Safari Facility** | Access to the Pokémon Safari for **20 Realms Coins by default** |
-| ⚙️ **Create Factory** | A showcase of Create machinery and Poké Ball production |
+| ⚙️ **Create Factory** | A showcase of Create machinery and Poké Ball production in **Full v6.3**. See the [planned v6.4 migration precautions](migration-create.md). |
 | 🎰 **Casino** | Gacha machines and other attractions |
 | ❓ **More to Discover** | Other buildings, hidden areas, and future additions are waiting to be found |
 
