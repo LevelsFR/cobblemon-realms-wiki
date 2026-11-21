@@ -324,13 +324,18 @@ const navGroupsFr = parseSummary(path.join(root, 'fr-FR', 'SUMMARY.md'), 'fr-FR'
 function pageTemplate({ title, body, nav, language, alternate, updatedIso, updatedLabel, pagePath }) {
   const french = language === 'fr';
   const themeLabel = french ? 'Activer le mode jour' : 'Enable light mode';
+  const documentTitle = pagePath === 'index.html'
+    ? 'Cobblemon Realms | Official Modpack Wiki by LevelsFR'
+    : pagePath === 'fr-FR/index.html'
+      ? 'Cobblemon Realms | Wiki officiel du modpack par LevelsFR'
+      : `${title} | Cobblemon Realms Wiki`;
   return `<!doctype html>
 <html lang="${language}" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#191919">
-  <title>${escapeHtml(title)} | Cobblemon Realms Wiki</title>
+  <title>${escapeHtml(documentTitle)}</title>
   <script>(()=>{try{const t=localStorage.getItem('cobblemon-wiki-theme');document.documentElement.dataset.theme=t==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();</script>
   <link rel="stylesheet" href="/assets/wiki.css?v=${buildVersion}">
   <link rel="stylesheet" href="/assets/wiki-enhancements.css?v=${buildVersion}">
