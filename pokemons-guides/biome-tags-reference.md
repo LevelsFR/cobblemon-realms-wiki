@@ -1,5 +1,11 @@
 # 🌍 Biome Tags Reference
 
+
+{% hint style="warning" %}
+**This is a biome-tag reference, not an active spawn list.** Native tags can retain optional compatibility IDs such as `terralith:*` even though **Terralith has been removed from Cobblemon Realms**. These entries do not mean those biomes exist in your world. The [Spawn Explorer](../spawn-explorer.md) separately covers 149 source-documented v6.4.1 additions.
+{% endhint %}
+
+
 ## 🌍 Biome Tags Reference for Modpack v6+
 
 {% hint style="info" %}
