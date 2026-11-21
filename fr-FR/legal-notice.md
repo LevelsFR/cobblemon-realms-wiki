@@ -8,7 +8,7 @@ Ces mentions concernent le site documentaire indépendant **Cobblemon Realms Wik
 
 **Éditeur : LevelsFR** (pseudonyme), personne physique publiant et maintenant ce wiki **à titre personnel et non professionnel**. La consultation du wiki est gratuite. Le site documentaire ne vend pas de produits, ne facture pas son accès et n'encaisse pas d'abonnements. Les plateformes externes et les éventuels partenariats signalés restent distincts.
 
-## Contact {#contact}
+<h2 id="contact">Contact</h2>
 
 Pour toute demande juridique, éditoriale ou relative aux données personnelles, développez la section ci-dessous pour afficher l'adresse e-mail de contact. Le [Discord officiel Our Story](https://discord.gg/kb8NSTF45n) reste disponible pour les échanges communautaires. Ne communiquez pas de données personnelles dans un salon public.
 
