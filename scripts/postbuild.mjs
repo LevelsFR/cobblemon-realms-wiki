@@ -375,7 +375,7 @@ function buildAuditReport(pageRecords, pageMetaBase, commit) {
     .filter((file) => file.endsWith('.md'))
     .filter((file) => {
       const rel = path.relative(root, file).split(path.sep).join('/');
-      return !/^(dist|node_modules|\.git|\.github|assets|scripts)\//.test(rel) && !repositoryOnlyMarkdown.has(rel);
+      return !/^(dist|node_modules|\.git|\.github|assets|scripts)\//.test(rel) && !repositoryOnlyMarkdown.has(rel) && !/^fr-FR\/\.gitbook\/assets\/.*\.md$/i.test(rel);
     })
     .map((file) => path.relative(root, file).split(path.sep).join('/'));
   const sourceSet = new Set(pageRecords.map((page) => page.source).filter(Boolean));
@@ -458,6 +458,10 @@ const enrichedSearchPages = enrichSearchIndex();
 for (const file of htmlFiles) {
   const relative = path.relative(out, file);
   const normalizedRelative = relative.split(path.sep).join('/');
+  if (normalizedRelative.startsWith('fr-FR/.gitbook/assets/')) {
+    fs.rmSync(file, { force: true });
+    continue;
+  }
   const pagePath = canonicalPath(relative);
   const canonicalUrl = `${siteOrigin}${pagePath}`;
   const sourcePath = markdownSourceForHtml(relative);
