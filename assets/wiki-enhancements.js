@@ -75,7 +75,7 @@
     if (brandTitle && !brandTitle.querySelector('.brand-version')) {
       const version = document.createElement('span');
       version.className = 'brand-version';
-      version.textContent = 'v6.0+';
+      version.textContent = document.querySelector('.brand-version')?.textContent?.trim() || 'Wiki';
       brandTitle.appendChild(version);
     }
   }
