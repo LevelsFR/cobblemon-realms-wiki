@@ -1,12 +1,19 @@
 # Politique de confidentialité du wiki
 
-**Dernière révision : 20 novembre 2026.**
+**Dernière révision : 21 novembre 2026.**
 
 Cette politique concerne exclusivement le site **Cobblemon Realms Wiki**. Elle est distincte de la [politique de confidentialité d'OurStoryBot](/fr-FR/ourstorybot/privacy-policy), ainsi que de celles de Discord, Patreon et des serveurs Minecraft.
 
 ## Responsable et contact
 
-Le wiki est exploité sous les noms **Cobblemon Realms / Our Story Collection**, par **LevelsFR**. Pour une demande concernant vos données, contactez **Levels** en privé sur le [Discord officiel](https://discord.gg/kb8NSTF45n), sans diffuser d'informations sensibles dans un salon public. Une adresse dédiée et les éléments d'identification légalement requis restent à confirmer.
+**Responsable du traitement : LevelsFR**, personne physique exploitant gratuitement le wiki à titre personnel et non professionnel sous le nom de projet Cobblemon Realms / Our Story Collection. Pour exercer vos droits (accès, rectification, effacement, etc.), développez la section ci-dessous puis contactez directement l'éditeur par e-mail. Ne communiquez aucune donnée personnelle sur un salon Discord public.
+
+<details class="wiki-contact-reveal" data-contact-reveal>
+<summary>Afficher l'adresse e-mail de contact</summary>
+<p><span data-wiki-contact-email>Chargement de l'adresse de contact…</span></p>
+</details>
+
+Voir les [Mentions légales](/fr-FR/legal-notice#contact) concernant l'éditeur et l'hébergement.
 
 ## Données et finalités
 
