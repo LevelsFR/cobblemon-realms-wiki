@@ -251,7 +251,11 @@ function renderLegalFooter(language) {
           <button class="site-legal-analytics" type="button" data-analytics-toggle aria-pressed="false">
             ${french ? 'Désactiver les statistiques facultatives' : 'Disable optional analytics'}
           </button>
-          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer">${french ? 'Contact communauté' : 'Community contact'}</a>
+          <details class="site-legal-contact" data-contact-reveal>
+            <summary>${french ? 'Afficher l’e-mail de contact' : 'Reveal contact email'}</summary>
+            <span data-wiki-contact-email></span>
+          </details>
+          <a href="https://discord.gg/kb8NSTF45n" target="_blank" rel="noopener noreferrer">${french ? 'Discord communautaire' : 'Community Discord'}</a>
         </div>
       </div>
     </div>
@@ -321,6 +325,7 @@ function pageTemplate({ title, body, nav, language, alternate, updatedIso, updat
   <script defer src="/assets/wiki.js?v=${buildVersion}"></script>
   <script defer src="/assets/wiki-enhancements.js?v=${buildVersion}"></script>
   <script defer src="/assets/privacy-controls.js?v=${buildVersion}"></script>
+  <script defer src="/assets/contact-reveal.js?v=${buildVersion}"></script>
 </head>
 <body>
   <div id="reading-progress" class="reading-progress" aria-hidden="true"><span></span></div>
