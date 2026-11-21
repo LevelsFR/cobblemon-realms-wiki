@@ -12,6 +12,7 @@
 * [❓ Foire aux questions](faq.md)
 * [🐞 Signaler un problème](report-a-bug.md)
 * [🗂️ Historique des versions](version-history.md)
+* [⚠️ Préparer la v6.4](migration-create.md)
 * [🤝 Soutenir le projet](contributing.md)
 
 ## Cobblemon Realms
