@@ -1,4 +1,5 @@
 import legacyWorker from './worker-entry-v7.mjs';
+import { withInternalAdminSession } from './admin-internal-session.mjs';
 
 // V8 is deliberately opt-in. Existing Basic Auth routes and their deployment remain unchanged.
 const PREFIX = '/osadmin';
@@ -94,7 +95,7 @@ async function callback(req,env) {
     if(!Number.isSafeInteger(profile.id)||!profile.login)throw new Error('invalid profile');
   }catch{return fail('Impossible de valider le compte auprès de GitHub.',502);}
   const role=roleFor(env,profile);
-  if(!role||!legacyAccount(env,role))return fail('Ce compte GitHub ne dispose pas des permissions requises.',403);
+  if(!role)return fail('Ce compte GitHub ne dispose pas des permissions requises.',403);
   const session={id:profile.id,login:profile.login,role,csrf:random(),iat:Date.now(),exp:Date.now()+8*3600000};
   const value=await writeSession(env,session);
   return redirect(new URL(PREFIX,req.url).toString(),[setCookie(STATE_COOKIE,'',0),setCookie(COOKIE,value,8*3600,'Strict')]);
@@ -133,15 +134,14 @@ async function handle(req,env,ctx) {
   }
   if(!['GET','HEAD','POST'].includes(req.method))return fail('Méthode non autorisée.',405);
   if(req.method==='POST'&&!await verifyCsrf(req,session))return fail('Vérification CSRF refusée.');
-  const account=legacyAccount(env,session.role);
-  if(!account)return fail('Le compte de relais du rôle GitHub est indisponible.',503);
   const newPath=legacyPath(url.pathname,env);if(!newPath)return fail('Route V8 inconnue.',404);
   const destination=new URL(req.url);destination.pathname=newPath;
   const headers=new Headers(req.headers);
-  headers.set('authorization','Basic '+btoa(unescape(encodeURIComponent(account.user+':'+account.password))));
+  headers.delete('authorization');
   headers.delete('cookie');headers.delete('origin');headers.delete('referer');
   const inner=new Request(destination,{method:req.method,headers,body:['GET','HEAD'].includes(req.method)?undefined:req.body,redirect:'manual'});
-  const response=await legacyWorker.fetch(inner,env,ctx);
+  // Directly delegate the verified GitHub role, without Basic Auth or shared credentials.
+  const response=await legacyWorker.fetch(inner,withInternalAdminSession(env,session),ctx);
   if(response.status>=300&&response.status<400){
     const location=rewriteLocation(response.headers.get('location'),env,url.origin);
     if(!location)return fail('Redirection administrative refusée.',403);
