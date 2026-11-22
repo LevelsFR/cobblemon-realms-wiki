@@ -104,7 +104,7 @@ function protectHtml(html,env,session) {
   const p=paths(env);
   let out=html.replaceAll(p.api+'/',API+'/').replaceAll(p.page+'?',PREFIX+'?').replaceAll('action="'+p.page+'"','action="'+PREFIX+'"').replaceAll('href="'+p.page+'"','href="'+PREFIX+'"');
   out=csrfForm(out,session.csrf);
-  out=out.replace('</head>','<link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=8"></head>');
+  out=out.replace('</head>','<meta name="cr-v8-csrf" content="'+safe(session.csrf)+'"><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=8"></head>');
   out=out.replace(/<body([^>]*)>/i,'<body$1><div class="v8-banner"><span>COBBLEMON REALMS <strong>ADMIN V8</strong></span><span class="v8-identity">'+safe(session.login)+' · '+safe(session.role)+'</span><form method="post" action="'+PREFIX+'/logout"><input type="hidden" name="cr_v8_csrf" value="'+safe(session.csrf)+'"><button type="submit">Déconnexion</button></form></div>');
   // Prevent unintentional disclosure of the retired path token through legacy HTML.
   return out;
@@ -112,6 +112,7 @@ function protectHtml(html,env,session) {
 async function verifyCsrf(req,session) {
   if(req.headers.get('origin')!==new URL(req.url).origin)return false;
   const ct=req.headers.get('content-type')||'';
+  if(ct.includes('application/json'))return req.headers.get('x-cr-v8-csrf')===session.csrf;
   if(!ct.includes('application/x-www-form-urlencoded')&&!ct.includes('multipart/form-data'))return false;
   try { const form=await req.clone().formData();return form.get('cr_v8_csrf')===session.csrf; }catch{return false;}
 }
