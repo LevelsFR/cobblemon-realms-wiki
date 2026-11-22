@@ -107,7 +107,18 @@ function protectHtml(html,env,session) {
   return out;
 }
 async function verifyCsrf(req,session) {
-  if(req.headers.get('origin')!==new URL(req.url).origin)return false;
+  // Some privacy-oriented browsers omit Origin on same-origin form submissions.
+  // A mismatched explicit Origin/Referer is always denied. The session-bound
+  // unpredictable token remains mandatory, including when both are omitted.
+  const expected=new URL(req.url).origin;
+  const origin=req.headers.get('origin');
+  if(origin&&origin!==expected)return false;
+  const referer=req.headers.get('referer');
+  if(referer){
+    try { if(new URL(referer).origin!==expected)return false; }catch{return false;}
+  }
+  const fetchSite=req.headers.get('sec-fetch-site');
+  if(fetchSite&&fetchSite!=='same-origin'&&fetchSite!=='none')return false;
   const ct=req.headers.get('content-type')||'';
   if(ct.includes('application/json'))return req.headers.get('x-cr-v8-csrf')===session.csrf;
   if(!ct.includes('application/x-www-form-urlencoded')&&!ct.includes('multipart/form-data'))return false;
