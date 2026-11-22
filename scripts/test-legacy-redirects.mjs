@@ -17,7 +17,7 @@ assert.equal(config.assets.directory, './dist');
 assert.equal(config.assets.html_handling, 'auto-trailing-slash');
 assert.equal(config.assets.not_found_handling, 'none');
 assert.deepEqual(config.assets.run_worker_first,
-  ['/api/*', '/__cr-admin*', '/page-meta.json'],
+  ['/api/*', '/__cr-admin*', '/osadmin', '/osadmin/*', '/admin', '/admin/*', '/page-meta.json'],
   '404 clean-up must not move all public pages into Worker-first routing');
 
 const rows = fs.readFileSync(publishedFile, 'utf8')
