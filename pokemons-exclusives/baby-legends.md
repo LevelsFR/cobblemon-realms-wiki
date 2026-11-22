@@ -1,5 +1,7 @@
 # 🗿 Baby Legends
 
+> **Source verified:** Baby Legends v2.4, checked against the datapack bundled with Cobblemon Realms. The bundle includes 28 custom species and the Royal Carbink form. Gameplay conditions below follow the included JSON where they can be verified.
+
 {% hint style="info" %}
 <p align="center">
 The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemon’s progression. Instead of directly capturing the final legendaries, players must first find their pre-evolutions and evolve them through various conditions: biome, weather, friendship, level, items, or trading.
@@ -26,7 +28,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 | 🧬 Ability | Fairy Aura |
 | 📊 Stats | Bulky Special Attacker |
 
-💡 Xerfawn evolves in **Cherry Groves** with **high friendship**
+💡 Xerfawn evolves with **high friendship in floral biomes** (`#cobblemon:is_floral`).
 
 ![Xerfawn](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Xerfawn.png) ![Xerfawn Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Xerfawn_shiny.png)
 
@@ -161,7 +163,7 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 | 🧬 Ability | Torrent |
 | 📊 Stats | Bulky Special Attacker |
 
-💡 Delcalf evolves at **level 50** during a thunderstorm
+💡 Delcalf evolves into Kyogre at **level 60** during a thunderstorm.
 
 ![Delcalf](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Delcalf.png) ![Delcalf Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Delcalf_shiny.png)
 
@@ -197,11 +199,14 @@ The Baby Legends addon introduces baby forms of Legendary Pokémon into Cobblemo
 | 🧬 Ability | Clear Body / Sturdy (Hidden) |
 | 📊 Stats | Extremely Slow Wall |
 
-💡 Regiclay evolves into:
+💡 **Regiclay evolutions in Baby Legends v2.4:**
 
-- Registeel (to be completed)  
-- Regirock (to be completed)  
-- Regice (to be completed)
+- **Registeel:** trade while holding a **Metal Coat**.
+- **Regirock:** trade while holding a **Smooth Rock**.
+- **Regice:** trade while holding **Never-Melt Ice**. The datapack also includes a minimum level of 50 within this held-item requirement.
+- **Regigigas:** level up at **level 100**.
+
+The Registeel and Regirock held-item requirements additionally contain weather fields in the datapack JSON. Their effective enforcement depends on how Cobblemon interprets those fields; they are not presented here as guaranteed conditions.
 
 ![Regiclay](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Regiclay.png) ![Regiclay Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Regiclay_shiny.png)
 

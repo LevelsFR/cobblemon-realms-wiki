@@ -81,7 +81,7 @@ function baseStatus(meta, path) {
   return override?.status || status;
 }
 
-function searchQuality(rows) {
+export function searchQuality(rows) {
   const byQuery = new Map();
   let searches = 0;
   let clicks = 0;
@@ -102,16 +102,19 @@ function searchQuality(rows) {
     byQuery.set(key, current);
   }
 
-  const successful = Math.max(0, searches - Math.min(searches, zeros));
-  const successRate = searches ? Math.round(successful / searches * 100) : 100;
-  const clickRate = searches ? Math.min(100, Math.round(clicks / searches * 100)) : 0;
-  const zeroRate = searches ? Math.min(100, Math.round(zeros / searches * 100)) : 0;
+  // The client historically emits 'search' only when results are available, and 'zero' otherwise.
+  // Treat these as disjoint events; never subtract zero events from successful searches.
+  const successful = searches;
+  const attempts = searches + zeros;
+  const successRate = attempts ? Math.round(successful / attempts * 100) : 100;
+  const clickRate = attempts ? Math.min(100, Math.round(clicks / attempts * 100)) : 0;
+  const zeroRate = attempts ? Math.round(zeros / attempts * 100) : 0;
   const failures = [...byQuery.values()]
     .filter(row => row.zeros > 0)
     .sort((a, b) => b.zeros - a.zeros || b.searches - a.searches || a.query.localeCompare(b.query))
     .slice(0, 30);
 
-  return { searches, clicks, zeros, successful, successRate, clickRate, zeroRate, uniqueQueries: byQuery.size, failures };
+  return { searches: attempts, withResults: successful, clicks, zeros, successful, successRate, clickRate, zeroRate, uniqueQueries: byQuery.size, failures };
 }
 
 function redirectHealth(rows, pages) {

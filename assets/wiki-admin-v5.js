@@ -111,7 +111,7 @@
     replacePanel('Search Quality', `
       <div class="hero-grid">
         ${card('Search success', `${q.successRate ?? 100}%`, 'non-zero-result searches')}
-        ${card('Result click rate', `${q.clickRate ?? 0}%`, 'clicks / stable searches')}
+        ${card('Result click rate', `${q.clickRate ?? 0}%`, 'click events / all stable searches')}
         ${card('Zero-result rate', `${q.zeroRate ?? 0}%`, 'zeros / stable searches')}
         ${card('Stable searches', q.searches || 0, 'last 30 days')}
       </div>
