@@ -1,5 +1,7 @@
 # 👶 Baby Legends
 
+> **Source vérifiée :** Baby Legends v2.4, d'après le datapack utilisé dans Cobblemon Realms. Celui-ci contient 28 espèces personnalisées et la forme Royal Carbink. Les conditions de jeu ci-dessous suivent les fichiers JSON fournis lorsqu'elles sont vérifiables.
+
 {% hint style="info" %}
 <p align="center">L’addon Baby Legends ajoute des formes bébé de Pokémon légendaires à la progression de Cobblemon. Au lieu de capturer directement les légendaires finaux, les joueurs doivent d’abord trouver leur pré-évolution, puis les faire évoluer via différentes conditions : biome, météo, amitié, niveau, objet ou échange.</p>
 {% endhint %}
@@ -22,7 +24,7 @@
 | 🧬 Talent       | Aura Féérique                                                                                                        |
 | 📊 Stats        | Attaquant spécial bulky                                                                                              |
 
-💡 Xerfawn évolue dans les **bosquets de cerisiers** avec une **haute amitié**
+💡 Xerfawn évolue avec une **haute amitié dans les biomes floraux** (`#cobblemon:is_floral`).
 
 ![Xerfawn](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Xerfawn.png) ![Xerfawn Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Xerfawn_shiny.png)
 
@@ -158,7 +160,7 @@
 | 🧬 Talent       | Torrent                                                                                                              |
 | 📊 Stats        | Attaquant spécial bulky                                                                                              |
 
-💡 Delcaft évolue au **niveau 50** sous temps orageux
+💡 Delcalf évolue en Kyogre au **niveau 60** pendant un orage.
 
 ![Delcalf](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Delcalf.png) ![Delcalf Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Delcalf_shiny.png)
 
@@ -194,11 +196,14 @@
 | 🧬 Talent       | Corps Sain / Fermeté (Caché)                                                                                            |
 | 📊 Stats        | Mur extrême lent                                                                                                        |
 
-💡 Regiclay évolue en :
+💡 **Évolutions de Regiclay dans Baby Legends v2.4 :**
 
-* Registeel (à compléter)
-* Regirock (à compléter)
-* Regice (à compléter)
+* **Registeel :** échange avec une **Peau Métal** tenue.
+* **Regirock :** échange avec une **Roche Lisse** tenue.
+* **Regice :** échange avec une **Glace Éternelle** tenue. Le datapack comporte aussi une condition de niveau 50 minimum dans cette exigence d'objet.
+* **Regigigas :** montée au **niveau 100**.
+
+Les exigences d'objet pour Registeel et Regirock comportent aussi des champs météorologiques dans le JSON. Leur application effective dépend de l'interprétation de ces champs par Cobblemon : nous ne les présentons pas comme des conditions garanties.
 
 ![Regiclay](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Regiclay.png) ![Regiclay Shiny](https://raw.githubusercontent.com/LevelsCraft7/cobblemon-realms-wiki/refs/heads/main/imgwiki/Baby-Legends/Regiclay_shiny.png)
 
