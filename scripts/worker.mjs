@@ -1,3 +1,4 @@
+import { getInternalAdminSession } from './admin-internal-session.mjs';
 import { handleServerStatus } from './server-status.mjs';
 const INVITE_CODE = 'kb8NSTF45n';
 const CURSEFORGE_PROJECT_ID = '1175360';
@@ -75,6 +76,8 @@ function accounts(env){
 }
 function unauthorized(){ return new Response('Unauthorized',{status:401,headers:{'www-authenticate':'Basic realm="Cobblemon Realms Wiki Admin", charset="UTF-8"','cache-control':'no-store'}}); }
 function session(env, req){
+  const github = getInternalAdminSession(env);
+  if (github) return { session: github };
   const a = accounts(env); if (!a.length) return { denied: new Response('Wiki admin locked: credentials missing.',{status:503}) };
   const head = req.headers.get('authorization') || ''; if (!head.startsWith('Basic ')) return { denied: unauthorized() };
   let raw=''; try { raw = atob(head.slice(6)); } catch { return { denied: unauthorized() }; }

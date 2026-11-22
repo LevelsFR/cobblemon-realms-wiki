@@ -38,7 +38,7 @@ Ne jamais committer ces valeurs. Laisser `CR_ADMIN_ACCOUNTS` et les anciens secr
 - Mutations POST protégées par vérification Origin et jeton CSRF. Les anciennes actions HTML et les actions JSON V4 sont prises en charge.
 - Route V8 et API V8 à cache privé désactivé, robots désactivés, referrer-policy no-referrer.
 - Aucune modification de données D1, ni migration de schéma.
-- Le rôle `wiki` ne peut pas se transformer en `owner`, car le relais sélectionne strictement les identifiants legacy de son rôle.
+- Le rôle `wiki` ne peut pas se transformer en `owner` : les contrôles de permissions existants reçoivent directement le rôle GitHub vérifié côté serveur, sans compte partagé.
 
 **Limites connues :**
 - La révocation côté GitHub d'un utilisateur déjà connecté prend effet au plus tard à l'expiration de la session, sauf rotation de `CR_V8_SESSION_SECRET`. La liste d'autorisation doit être revérifiée à chaque requête lors de la prochaine étape.
