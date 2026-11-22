@@ -144,7 +144,7 @@ async function handle(req,env,ctx) {
   const headers=new Headers(req.headers);
   headers.delete('authorization');
   headers.delete('cookie');headers.delete('origin');headers.delete('referer');
-  const inner=new Request(destination,{method:req.method,headers,body:['GET','HEAD'].includes(req.method)?undefined:req.body,redirect:'manual'});
+  const inner=new Request(destination,{method:req.method,headers,body:['GET','HEAD'].includes(req.method)?undefined:req.body,...(req.method==='POST'?{duplex:'half'}:{}),redirect:'manual'});
   // Directly delegate the verified GitHub role, without Basic Auth or shared credentials.
   const response=await legacyWorker.fetch(inner,withInternalAdminSession(env,session),ctx);
   if(response.status>=300&&response.status<400){
