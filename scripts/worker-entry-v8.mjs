@@ -3,6 +3,7 @@ import { withInternalAdminSession } from './admin-internal-session.mjs';
 
 // V8 is deliberately opt-in. Existing Basic Auth routes and their deployment remain unchanged.
 const PREFIX = '/osadmin';
+const VERSION = 'v8.2-oauth-diagnostics-20261122';
 const PREVIOUS_ADMIN = '/admin';
 const OLD_V8 = '/__cr-admin/v8';
 const API = '/api/admin/v8';
@@ -11,7 +12,7 @@ const STATE_COOKIE = '__Host-cr_v8_oauth_state';
 const enc = new TextEncoder();
 const safe = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function reply(body, status=200, type='text/html; charset=utf-8') {
-  return new Response(body,{status,headers:{'content-type':type,'cache-control':'no-store, private','x-robots-tag':'noindex, nofollow','x-content-type-options':'nosniff','referrer-policy':'no-referrer','x-frame-options':'DENY'}});
+  return new Response(body,{status,headers:{'content-type':type,'cache-control':'no-store, private','x-robots-tag':'noindex, nofollow','x-content-type-options':'nosniff','referrer-policy':'no-referrer','x-frame-options':'DENY','x-cr-admin-version':VERSION}});
 }
 function redirect(url, cookies=[]) { const headers=new Headers({'location':url,'cache-control':'no-store, private','referrer-policy':'no-referrer','x-robots-tag':'noindex, nofollow'});for(const c of cookies)headers.append('set-cookie',c);return new Response(null,{status:303,headers}); }
 function fail(message,status=403) { return reply('<!doctype html><html lang="fr"><meta charset="utf-8"><title>Accès refusé</title><body><main style="max-width:560px;margin:10vh auto;font:16px system-ui"><h1>Accès non disponible</h1><p>'+safe(message)+'</p><a href="'+PREFIX+'">Retour</a></main></body></html>',status); }
@@ -88,7 +89,7 @@ async function callback(req,env) {
     if(!Number.isSafeInteger(profile.id)||!profile.login)throw new Error('invalid profile');
   }catch{return fail('Impossible de valider le compte auprès de GitHub.',502);}
   const role=roleFor(env,profile);
-  if(!role)return fail('Ce compte GitHub ne dispose pas des permissions requises.',403);
+  if(!role)return fail('Compte GitHub vérifié : '+profile.login+'. Ce compte ne figure pas dans les autorisations du Worker actuellement déployé. Version : '+VERSION+'. Vérifiez la variable CR_V8_GITHUB_EDITORS et le dernier déploiement Cloudflare.',403);
   const session={id:profile.id,login:profile.login,role,csrf:random(),iat:Date.now(),exp:Date.now()+8*3600000};
   const value=await writeSession(env,session);
   return redirect(new URL(PREFIX,req.url).toString(),[setCookie(STATE_COOKIE,'',0),setCookie(COOKIE,value,8*3600,'Strict')]);
@@ -146,6 +147,7 @@ async function handle(req,env,ctx) {
   headersOut.set('referrer-policy','no-referrer');
   headersOut.set('x-robots-tag','noindex, nofollow');
   headersOut.set('x-frame-options','DENY');
+  headersOut.set('x-cr-admin-version',VERSION);
   const ct=headersOut.get('content-type')||'';
   if(!ct.includes('text/html')||req.method==='HEAD')return new Response(response.body,{status:response.status,headers:headersOut});
   const html=protectHtml(await response.text(),env,session);
