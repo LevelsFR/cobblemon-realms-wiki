@@ -1,7 +1,8 @@
 import legacyWorker from './worker-entry-v7.mjs';
 
 // V8 is deliberately opt-in. Existing Basic Auth routes and their deployment remain unchanged.
-const PREFIX = '/admin';
+const PREFIX = '/osadmin';
+const PREVIOUS_ADMIN = '/admin';
 const OLD_V8 = '/__cr-admin/v8';
 const API = '/api/admin/v8';
 const COOKIE = '__Host-cr_v8';
@@ -160,7 +161,9 @@ async function handle(req,env,ctx) {
 }
 export default {async fetch(req,env,ctx) {
   const p=new URL(req.url).pathname;
-  if(p===OLD_V8||p===OLD_V8+'/')return redirect(new URL(PREFIX,req.url).toString());
+  if(p===OLD_V8||p===OLD_V8+'/'||p===PREVIOUS_ADMIN||p===PREVIOUS_ADMIN+'/') {
+    const target=new URL(PREFIX,req.url);return redirect(target.toString());
+  }
   if(p===PREFIX||p.startsWith(PREFIX+'/')||p.startsWith(API+'/'))return handle(req,env,ctx);
   return legacyWorker.fetch(req,env,ctx);
 }};
