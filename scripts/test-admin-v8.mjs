@@ -157,19 +157,19 @@ test('V8 feedback moderation succeeds with valid CSRF when privacy browser omits
 
     const crossSite=await worker.fetch(new Request(action,{
       method:'POST',headers:{cookie:sessionCookie,origin:'https://evil.example'},
-      body:payload.toString()
+      body:payload
     }),testEnv,{});
     assert.equal(crossSite.status,400,'Explicit cross-origin POST must be rejected');
 
     const missingToken=await worker.fetch(new Request(action,{
       method:'POST',headers:{cookie:sessionCookie,'sec-fetch-site':'same-origin'},
-      body:new URLSearchParams({id:'123',status:'resolved'}).toString()
+      body:new URLSearchParams({id:'123',status:'resolved'})
     }),testEnv,{});
     assert.equal(missingToken.status,400,'Missing CSRF field must be rejected');
 
     const privacyBrowser=await worker.fetch(new Request(action,{
       method:'POST',headers:{cookie:sessionCookie,'sec-fetch-site':'same-origin'},
-      body:payload.toString(),redirect:'manual'
+      body:payload,redirect:'manual'
     }),testEnv,{});
     assert.equal(privacyBrowser.status,303,'Correct session-bound CSRF token must allow same-origin moderation');
     assert.equal(privacyBrowser.headers.get('location'),base+'/osadmin?tab=feedback&moderated=1');
