@@ -3,7 +3,7 @@
   const tab = params.get('tab') || 'overview';
   const adminPath = location.pathname.replace(/\/$/, '') || '/__cr-admin';
   const tokenMatch = adminPath.match(/^\/__cr-admin\/([^/]+)$/);
-  const apiBase = tokenMatch ? `/api/admin/${encodeURIComponent(tokenMatch[1])}/v4` : '/api/admin/v4';
+  const apiBase = adminPath === '/admin' ? '/api/admin/v8/v4' : tokenMatch ? `/api/admin/${encodeURIComponent(tokenMatch[1])}/v4` : '/api/admin/v4';
   let state = null;
 
   const esc = (v = '') => String(v).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[c]));
