@@ -313,7 +313,8 @@ const searchIndex = markdownFiles.map((file) => {
   return {
     title: stripMarkdown(title),
     href: pageHref(relative),
-    text: stripMarkdown(raw).slice(0, 8000),
+    // Keep the entire documentation text searchable, including species near the end of long guides.
+    text: stripMarkdown(raw),
     language: relative.startsWith('fr-FR/') ? 'fr' : 'en'
   };
 });
