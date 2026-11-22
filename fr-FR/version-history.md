@@ -1,7 +1,7 @@
 # 🗂️ Historique complet des versions
 
 {% hint style="info" %}
-undefined Elle distingue les versions client, les correctifs et les server packs. **Chaque version publiée est considérée comme importante**, y compris les patches intermédiaires comme 5.9.1, 5.9.2, 5.9.3b et 5.9.4.
+Cette page répertorie les publications de **Cobblemon Realms** et de **Cobblemon Realms Lite** sur CurseForge. Elle distingue les versions client, les correctifs et les Server Packs. **Chaque version publiée est considérée comme importante**, y compris les patches intermédiaires comme 5.9.1, 5.9.2, 5.9.3b et 5.9.4.
 {% endhint %}
 
 ---
