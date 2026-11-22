@@ -2,6 +2,20 @@
 
 > **Repository-only maintenance history.** This document tracks changes to the **wiki**, not Cobblemon Realms modpack releases. It is public to anyone viewing this GitHub repository but is intentionally **excluded from the generated website, wiki search, navigation and sitemap**. For the modpack release history, use the [official wiki](https://wiki.cobblemon-realms.com/version-history).
 
+## 22 November 2026
+
+### Google Search Console 404 remediation
+
+- Audited all **25 legacy URLs** shown in Search Console against the actual English and French wiki sources.
+- Added **24 exact permanent (301) redirects** in the Cloudflare Static Assets `_redirects` file. This covers 18 duplicated generation-guide paths, renamed CobbleSafari guides, an outdated GitBook source asset, a legacy `.md` link, and old v6 changelog paths.
+- Preserved **one legitimate 404** (`/i`) because no destination could be verified.
+- Kept existing canonical URLs, sitemap, bilingual routes, D1 redirects and static-first Cloudflare routing unchanged.
+- Added regression tests that verify every destination exists, has the expected canonical metadata, does not create a redirect chain, and does not appear as an obsolete URL in search or sitemap.
+- Corrected an accidental `undefined` in the French version-history introduction, one of the canonical destinations.
+- Production deployment and Google's eventual recrawl must be verified separately.
+
+Source: [PR #45](https://github.com/LevelsFR/cobblemon-realms-wiki/pull/45).
+
 ## 21 November 2026
 
 ### Official modpack identity and legacy GitBook cleanup
