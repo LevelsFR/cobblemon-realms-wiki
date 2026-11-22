@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const root = process.cwd();
 const config = JSON.parse(fs.readFileSync(path.join(root, 'wrangler.jsonc'), 'utf8'));
-assert.deepEqual(config.assets.run_worker_first, ['/api/*', '/__cr-admin*', '/page-meta.json']);
+assert.deepEqual(config.assets.run_worker_first, ['/api/*', '/__cr-admin*', '/admin', '/admin/*', '/page-meta.json']);
 assert.equal(config.assets.not_found_handling, 'none', 'Missing paths must reach the Worker to resolve D1 redirects');
 assert.equal(config.assets.binding, 'ASSETS');
 assert.equal(config.d1_databases?.[0]?.binding, 'WIKI_DB');
@@ -29,6 +29,8 @@ for (const sample of ['index.html', 'fr-FR/index.html', '404.html']) {
 
 const entry = fs.readFileSync(path.join(root, 'scripts/worker-entry.mjs'), 'utf8');
 assert.ok(entry.includes("!isAdminPage(url)"), 'HTML rewriting must be restricted to admin pages');
+const v8Entry=fs.readFileSync(path.join(root,'scripts/worker-entry-v8.mjs'),'utf8');
+assert.ok(v8Entry.includes("const PREFIX = '/admin'"), 'V8 must use permanent /admin route');
 const worker = fs.readFileSync(path.join(root, 'scripts/worker.mjs'), 'utf8');
 assert.ok(worker.includes("new URL('/404.html',url)"), 'Worker must preserve the branded 404 fallback');
 assert.ok(entry.includes('getRedirectMap'), 'D1 redirect support must remain available');
