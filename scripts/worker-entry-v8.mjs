@@ -37,13 +37,6 @@ function allow(raw, profile) {
   return String(raw||'').split(/[\s,;]+/).filter(Boolean).some(x => x.toLowerCase()===String(profile.login).toLowerCase() || x===String(profile.id) || x==='id:'+profile.id);
 }
 function roleFor(env,profile) { if(allow(env.CR_V8_GITHUB_OWNERS,profile))return 'owner';if(allow(env.CR_V8_GITHUB_EDITORS,profile))return 'wiki';return null; }
-function legacyAccount(env,role) {
-  let accounts=[];
-  try{accounts=JSON.parse(env.CR_ADMIN_ACCOUNTS||'[]');}catch{}
-  if(!Array.isArray(accounts))accounts=[];
-  if(!accounts.length && env.CR_ADMIN_USER && env.CR_ADMIN_PASSWORD)accounts=[{user:env.CR_ADMIN_USER,password:env.CR_ADMIN_PASSWORD,role:'owner'}];
-  return accounts.find(x=>x?.user&&x?.password&&(x.role==='wiki'?'wiki':'owner')===role)||null;
-}
 function paths(env) {
   const t=String(env.CR_ADMIN_PATH_TOKEN||'').trim();
   const encoded=t?'/'+encodeURIComponent(t):'';
