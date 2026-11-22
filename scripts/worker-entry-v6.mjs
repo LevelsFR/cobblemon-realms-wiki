@@ -98,11 +98,13 @@ async function fallbackData(req, env) {
       current.zeros += count; failures.set(key, current);
     }
   }
+  // search and zero are disjoint stable-search outcomes in the existing telemetry.
+  const attempts = searches + zeros;
   const searchQuality = {
-    searches, clicks, zeros,
-    successRate: searches ? Math.max(0, 100 - Math.min(100, pct(zeros, searches))) : 100,
-    clickRate: searches ? Math.min(100, pct(clicks, searches)) : 0,
-    zeroRate: searches ? Math.min(100, pct(zeros, searches)) : 0,
+    searches: attempts, clicks, zeros,
+    successRate: attempts ? pct(searches, attempts) : 100,
+    clickRate: attempts ? Math.min(100, pct(clicks, attempts)) : 0,
+    zeroRate: attempts ? pct(zeros, attempts) : 0,
     failures: [...failures.values()].sort((a, b) => b.zeros - a.zeros || a.query.localeCompare(b.query)).slice(0, 30)
   };
 
