@@ -2,6 +2,20 @@
 
 > **Historique de maintenance réservé au dépôt GitHub.** Ce document décrit les évolutions du **wiki**, et non les versions du modpack Cobblemon Realms. Il est public pour toute personne consultant ce dépôt, mais volontairement **exclu du site généré, de la recherche, de la navigation et du sitemap**. Pour les versions du modpack, consulter l'[historique officiel](https://wiki.cobblemon-realms.com/fr-FR/version-history).
 
+## 22 novembre 2026
+
+### Correction des erreurs 404 signalées par Google Search Console
+
+- Audit des **25 anciennes URL** visibles dans Search Console, avec comparaison aux sources FR et EN du wiki.
+- Ajout de **24 redirections permanentes (301) ciblées** via `_redirects` des Static Assets Cloudflare : 18 chemins de générations Pokémon dupliqués, pages CobbleSafari renommées, ancienne ressource GitBook, lien historique en `.md` et anciens chemins de changelog v6.
+- Conservation d'une **véritable 404** (`/i`) car aucun équivalent fiable n'a été identifié.
+- Préservation des URL canoniques, du sitemap, des routes bilingues, des redirections D1 et du routage Cloudflare prioritairement statique.
+- Ajout de tests automatiques contrôlant les pages de destination, leurs balises canoniques, l'absence de chaînes de redirections et l'exclusion des anciennes URL du moteur de recherche et du sitemap.
+- Correction d'un `undefined` accidentel dans l'introduction de l'historique des versions FR, qui reçoit certaines redirections.
+- Le déploiement en production et la nouvelle exploration de Google devront être confirmés séparément.
+
+Source : [PR #45](https://github.com/LevelsFR/cobblemon-realms-wiki/pull/45).
+
 ## 21 novembre 2026
 
 ### Identité officielle du modpack et nettoyage de l'ancien GitBook

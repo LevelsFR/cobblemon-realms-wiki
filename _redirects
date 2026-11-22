@@ -1,0 +1,33 @@
+# Permanent aliases for outdated wiki URLs reported by Google Search Console (November 2026).
+# Cloudflare Workers Static Assets serves these before falling back to the Worker.
+# Keep legitimate removed or unknown URLs (e.g. /i) as 404s. Keep all targets canonical.
+
+# English generation guides, old duplicated directory.
+/pokemons-guides/pokemons-guides/gen-list2/gen_1.html /pokemons-guides/gen-list2/gen_1 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_2.html /pokemons-guides/gen-list2/gen_2 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_3.html /pokemons-guides/gen-list2/gen_3 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_4.html /pokemons-guides/gen-list2/gen_4 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_5.html /pokemons-guides/gen-list2/gen_5 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_6.html /pokemons-guides/gen-list2/gen_6 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_7.html /pokemons-guides/gen-list2/gen_7 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_8.html /pokemons-guides/gen-list2/gen_8 301
+/pokemons-guides/pokemons-guides/gen-list2/gen_9.html /pokemons-guides/gen-list2/gen_9 301
+
+# French generation guides, old duplicated directory.
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_1.html /fr-FR/pokemons-guides/gen-list2/gen_1 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_2.html /fr-FR/pokemons-guides/gen-list2/gen_2 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_3.html /fr-FR/pokemons-guides/gen-list2/gen_3 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_4.html /fr-FR/pokemons-guides/gen-list2/gen_4 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_5.html /fr-FR/pokemons-guides/gen-list2/gen_5 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_6.html /fr-FR/pokemons-guides/gen-list2/gen_6 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_7.html /fr-FR/pokemons-guides/gen-list2/gen_7 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_8.html /fr-FR/pokemons-guides/gen-list2/gen_8 301
+/fr-FR/pokemons-guides/pokemons-guides/gen-list2/gen_9.html /fr-FR/pokemons-guides/gen-list2/gen_9 301
+
+# Renamed pages and previously linked Markdown source paths.
+/fr-FR/mods-guides/CobbleSafari/blocs_deco.html /fr-FR/mods-guides/CobbleSafari/blocs_utiles 301
+/mods-guides/CobbleSafari/perfumes_incense_repels.md /mods-guides/CobbleSafari/perfumes_incense_repels 301
+/.gitbook/assets/secret_base_pc.html /fr-FR/mods-guides/CobbleSafari/secret_base_pc 301
+/contributing.md /contributing 301
+/whats-new-v6.html /version-history 301
+/fr-FR/whats-new-v6.html /fr-FR/version-history 301
