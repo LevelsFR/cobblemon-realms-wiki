@@ -8,7 +8,7 @@ La console V8 réutilise temporairement les panneaux et mutations existants via 
 
 ## URL permanente
 
-L'administration V8 utilise **`https://wiki.cobblemon-realms.com/osadmin`**. Les anciens chemins d'essai `/__cr-admin/v8` et `/admin` redirigent vers `/osadmin`. Les chemins historiques protégés restent inchangés pour la migration. Le routeur Cloudflare place `/osadmin` et `/admin/*` sous `run_worker_first`.
+L'administration V8 utilise **`https://wiki.cobblemon-realms.com/osadmin`**. Les anciens chemins d'essai `/__cr-admin/v8` et `/admin` redirigent vers `/osadmin`. Les chemins historiques protégés restent inchangés pour la migration. Le routeur Cloudflare place `/osadmin`, `/osadmin/*` et les anciens chemins de redirection sous `run_worker_first`.
 
 Les utilisateurs autorisés se connectent avec GitHub en un clic. **Ils ne saisissent aucun token, aucun secret OAuth et aucun mot de passe wiki**. Les secrets OAuth sont configurés **une seule fois** par l'administrateur du Worker et restent côté Cloudflare.
 
