@@ -22,7 +22,7 @@ assert.equal(searchQuality([]).successRate,100);
 
 const index=JSON.parse(fs.readFileSync('dist/search-index.json','utf8'));
 for(const language of ['en','fr']){
-  const baby=index.find(x=>x.language===language&&/\/pokemons-exclusives\/baby-legends(?:$|[/?#])/.test(x.href));
+  const baby=index.find(x=>x.language===language&&/\/pokemons-exclusives\/baby-legends(?:\.html)?(?:$|[/?#])/.test(x.href));
   assert.ok(baby,'Baby Legends must exist in search index for '+language);
   for(const term of ['foreroar','myu','haidon','kaidon','regiclay','regigigas']){
     assert.ok(baby.text.toLowerCase().includes(term),language+' full article must index '+term);
