@@ -59,3 +59,9 @@ Ne jamais committer ces valeurs. Laisser `CR_ADMIN_ACCOUNTS` et les anciens secr
 ## Retour arrière
 
 Revenir au commit antérieur au changement d'entrée `wrangler.jsonc` (V7), sans toucher à D1 ni aux données du wiki. Conserver les secrets legacy pendant la période de validation.
+
+## Diagnostic des refus OAuth
+
+Depuis v8.2, une réponse de refus affiche l'identifiant public GitHub vérifié et le numéro de version du Worker. Les secrets OAuth, les valeurs d'allowlist et les tokens ne sont pas exposés. L'en-tête `x-cr-admin-version` permet de confirmer que le nouveau Worker est réellement servi, indépendamment de la version GitHub.
+
+Si le refus indique `v8.2-oauth-diagnostics-20261122` et le login `Anxiolytiques`, contrôler la variable production `CR_V8_GITHUB_EDITORS` dans la version du Worker effectivement déployée. Si aucun numéro n'est visible, le Worker est ancien ou n'a pas été redéployé. Ne pas partager d'URL contenant `/oauth/callback?code=...` : le code OAuth est éphémère mais sensible.
