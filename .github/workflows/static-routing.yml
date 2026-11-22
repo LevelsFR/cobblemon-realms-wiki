@@ -9,6 +9,10 @@ on:
       - 'assets/wiki.js'
       - 'assets/wiki-admin-v4.js'
       - 'assets/wiki-admin-v8.css'
+      - 'assets/wiki-search-telemetry.js'
+      - 'assets/wiki-admin-v5.js'
+      - 'pokemons-exclusives/baby-legends.md'
+      - 'fr-FR/pokemons-exclusives/baby-legends.md'
       - '.github/workflows/static-routing.yml'
   workflow_dispatch:
 
@@ -31,5 +35,7 @@ jobs:
         run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js
       - name: Build wiki and verify Cloudflare routing
         run: npm run check:cloudflare
+      - name: Validate search quality and complete Baby Legends index
+        run: npm run test:search-quality
       - name: Validate SEO metadata and translations
         run: npm run test:seo
