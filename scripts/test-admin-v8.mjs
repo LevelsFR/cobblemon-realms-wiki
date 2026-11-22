@@ -12,6 +12,7 @@ test('V8 shows a safe, not-configured login screen',async()=>{
   assert.equal(r.status,200);
   assert.match(await r.text(),/GitHub OAuth V8 n’est pas encore configuré/);
   assert.equal(r.headers.get('cache-control'),'no-store, private');
+  assert.equal(r.headers.get('x-cr-admin-version'),'v8.2-oauth-diagnostics-20261122');
 });
 test('V8 rejects unauthenticated internal admin API access',async()=>{
   const r=await worker.fetch(new Request(base+'/api/admin/v8/v4/state'),env,{});
@@ -100,4 +101,20 @@ test('GitHub OAuth accepts allowlisted editor without any legacy Basic account',
     const resp=await worker.fetch(new Request(base+'/api/admin/v8/status',{headers:{cookie:sessionValue}}),gatewayEnv,{});
     assert.equal(resp.status,200);
   }finally{globalThis.fetch=originalFetch;}
+});
+
+test('Unallowlisted GitHub account receives an identifiable, non-secret denial',async()=>{
+  const original=globalThis.fetch;
+  try {
+    globalThis.fetch=async url=>String(url).includes('/access_token')?Response.json({access_token:'temporary-token'}):Response.json({id:429,login:'UnknownEditor'});
+    const start=await worker.fetch(new Request(base+'/osadmin/oauth/start'),gatewayEnv,{});
+    const state=new URL(start.headers.get('location')).searchParams.get('state');
+    const stateCookie=start.headers.get('set-cookie').split(';')[0];
+    const callback=await worker.fetch(new Request(base+'/osadmin/oauth/callback?state='+encodeURIComponent(state)+'&code=fake',{headers:{cookie:stateCookie}}),gatewayEnv,{});
+    assert.equal(callback.status,403);
+    const message=await callback.text();
+    assert.match(message,/UnknownEditor/);
+    assert.match(message,/v8.2-oauth-diagnostics-20261122/);
+    assert.doesNotMatch(message,/test-secret|temporary-token|test-key-for-testing/);
+  }finally{globalThis.fetch=original;}
 });
