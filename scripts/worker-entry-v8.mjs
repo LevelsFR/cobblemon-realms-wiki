@@ -124,6 +124,7 @@ async function handle(req,env,ctx) {
   const session=await readSession(req,env);
   if(req.method==='GET'&&(url.pathname===PREFIX||url.pathname===PREFIX+'/')&&!session)return loginPage(env);
   if(!session)return fail('Session absente ou expirée. Reconnectez-vous.',401);
+  if(roleFor(env,{id:session.id,login:session.login})!==session.role)return fail('Les autorisations du compte ont été révoquées ou modifiées.',403);
   if(req.method==='POST'&&url.pathname===PREFIX+'/logout') {
     if(!await verifyCsrf(req,session))return fail('Vérification CSRF refusée.');
     return redirect(new URL(PREFIX,req.url).toString(),clearCookies());
