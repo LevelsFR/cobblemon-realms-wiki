@@ -8,7 +8,7 @@ La console V8 réutilise temporairement les panneaux et mutations existants via 
 
 ## URL permanente
 
-L'administration V8 utilise **`https://wiki.cobblemon-realms.com/admin`**. L'ancien chemin d'essai `/__cr-admin/v8` redirige vers `/admin`. Les chemins historiques protégés restent inchangés pour la migration. Le routeur Cloudflare place `/admin` et `/admin/*` sous `run_worker_first`.
+L'administration V8 utilise **`https://wiki.cobblemon-realms.com/osadmin`**. Les anciens chemins d'essai `/__cr-admin/v8` et `/admin` redirigent vers `/osadmin`. Les chemins historiques protégés restent inchangés pour la migration. Le routeur Cloudflare place `/osadmin` et `/admin/*` sous `run_worker_first`.
 
 Les utilisateurs autorisés se connectent avec GitHub en un clic. **Ils ne saisissent aucun token, aucun secret OAuth et aucun mot de passe wiki**. Les secrets OAuth sont configurés **une seule fois** par l'administrateur du Worker et restent côté Cloudflare.
 
@@ -16,7 +16,7 @@ Les utilisateurs autorisés se connectent avec GitHub en un clic. **Ils ne saisi
 
 Créer une **GitHub OAuth App** (Settings > Developer settings > OAuth Apps) avec :
 - Homepage URL : `https://wiki.cobblemon-realms.com/`
-- Authorization callback URL : `https://wiki.cobblemon-realms.com/admin/oauth/callback`
+- Authorization callback URL : `https://wiki.cobblemon-realms.com/osadmin/oauth/callback`
 
 Dans les variables / secrets du Worker :
 - `CR_V8_GITHUB_CLIENT_ID` : ID public OAuth App
