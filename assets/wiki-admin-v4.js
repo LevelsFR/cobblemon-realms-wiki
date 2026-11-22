@@ -3,7 +3,7 @@
   const tab = params.get('tab') || 'overview';
   const adminPath = location.pathname.replace(/\/$/, '') || '/__cr-admin';
   const tokenMatch = adminPath.match(/^\/__cr-admin\/([^/]+)$/);
-  const apiBase = tokenMatch ? `/api/admin/${encodeURIComponent(tokenMatch[1])}/v4` : '/api/admin/v4';
+  const apiBase = adminPath === '/osadmin' ? '/api/admin/v8/v4' : tokenMatch ? `/api/admin/${encodeURIComponent(tokenMatch[1])}/v4` : '/api/admin/v4';
   let state = null;
 
   const esc = (v = '') => String(v).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[c]));
@@ -14,7 +14,10 @@
     return `${adminPath}?${q}`;
   };
   const api = async (suffix, options = {}) => {
-    const res = await fetch(`${apiBase}${suffix}`, { credentials: 'same-origin', ...options });
+    const csrf = document.querySelector('meta[name="cr-v8-csrf"]')?.content;
+    const headers = new Headers(options.headers || {});
+    if (csrf && options.method === 'POST' && apiBase.startsWith('/api/admin/v8/')) headers.set('x-cr-v8-csrf', csrf);
+    const res = await fetch(`${apiBase}${suffix}`, { credentials: 'same-origin', ...options, headers });
     const body = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
     return body;

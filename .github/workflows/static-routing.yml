@@ -7,6 +7,8 @@ on:
       - 'package.json'
       - 'scripts/**'
       - 'assets/wiki.js'
+      - 'assets/wiki-admin-v4.js'
+      - 'assets/wiki-admin-v8.css'
       - '.github/workflows/static-routing.yml'
   workflow_dispatch:
 
@@ -25,6 +27,8 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-package-lock
+      - name: Validate V8 auth gateway and syntax
+        run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js
       - name: Build wiki and verify Cloudflare routing
         run: npm run check:cloudflare
       - name: Validate SEO metadata and translations

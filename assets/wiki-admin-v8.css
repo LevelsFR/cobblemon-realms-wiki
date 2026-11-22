@@ -1,0 +1,19 @@
+/* V8 visual layer. Legacy panels stay operational while features migrate. */
+:root{--v8-accent:#7c9cff;--v8-surface:#151b29;--v8-border:#303c51;--v8-glow:rgba(93,137,255,.13)}
+body.v8-login{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(ellipse at 50% -20%,#25396a 0,transparent 58%),#0b101a;color:#edf2ff;font:15px/1.65 system-ui,sans-serif;padding:24px}
+.v8-login-card{width:min(100%,500px);border:1px solid #354361;background:linear-gradient(145deg,#192338,#111927);border-radius:22px;padding:40px;box-shadow:0 24px 75px #0007}
+.v8-login-card h1{font-size:clamp(24px,4vw,34px);letter-spacing:-.035em;margin:10px 0}
+.v8-login-card p{color:#bac9e6}.v8-eyebrow{color:#94b4ff;font-size:12px;font-weight:850;letter-spacing:.18em}
+.v8-github-button{display:flex;justify-content:center;align-items:center;min-height:48px;border-radius:12px;background:#e8eeff;color:#101728!important;font-weight:800;text-decoration:none;margin:25px 0 14px;padding:12px}
+.v8-github-button:hover{background:white}.v8-alert{border:1px solid #af864c;padding:12px;border-radius:12px;background:#45301a}
+.v8-note{font-size:12px!important}
+.v8-banner{display:flex;align-items:center;gap:16px;justify-content:space-between;padding:12px 24px;background:#101e35;border-bottom:1px solid #385075;color:#c7d6f6;font:12px system-ui,sans-serif;position:relative;z-index:25}
+.v8-banner>span:first-child{letter-spacing:.15em;font-weight:800}.v8-banner strong{color:#a6c5ff}.v8-identity{margin-left:auto;overflow-wrap:anywhere}
+.v8-banner form{margin:0}.v8-banner button{border:1px solid #506285;background:#213455;color:#f0f5ff;padding:8px 13px;border-radius:10px;cursor:pointer}
+.v8-banner button:hover{background:#2d4774}
+body:not(.v8-login){background:#0b1019!important}body:not(.v8-login) .admin-sidebar{background:#101827!important;border-color:var(--v8-border)!important}
+body:not(.v8-login) .admin-main{background:radial-gradient(circle at 100% 0,var(--v8-glow),transparent 30%),#0b1019!important}
+body:not(.v8-login) .section,body:not(.v8-login) .card{border-color:var(--v8-border)!important;background:var(--v8-surface)!important}
+body:not(.v8-login) .admin-nav a:hover,body:not(.v8-login) .button:hover{border-color:var(--v8-accent)!important}
+body:not(.v8-login) :focus-visible{outline:2px solid var(--v8-accent);outline-offset:3px}
+@media(max-width:720px){.v8-banner{flex-wrap:wrap;padding:10px 12px;gap:8px}.v8-identity{margin-left:0}.v8-banner form{margin-left:auto}.v8-login-card{padding:26px}}

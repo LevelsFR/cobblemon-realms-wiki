@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "cobblemon-realms-wiki",
-  "main": "./scripts/worker-entry-v7.mjs",
+  "main": "./scripts/worker-entry-v8.mjs",
+  "keep_vars": true,
   "compatibility_date": "2026-08-06",
   "build": {
     "command": "npm run build"
@@ -9,7 +10,7 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*", "/__cr-admin*", "/page-meta.json"],
+    "run_worker_first": ["/api/*", "/__cr-admin*", "/osadmin", "/osadmin/*", "/admin", "/admin/*", "/page-meta.json"],
     "not_found_handling": "none",
     "html_handling": "auto-trailing-slash"
   },
