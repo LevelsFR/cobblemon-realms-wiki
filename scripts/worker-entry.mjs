@@ -1,4 +1,5 @@
 import baseWorker from './worker.mjs';
+import { getInternalAdminSession } from './admin-internal-session.mjs';
 
 const GENERIC_RELATED_TOPICS = new Set(['overview','support','pokemon','pokemon-exclusive','custom-content','mod-guide','settings','configuration','multiplayer']);
 let redirectCache = { at: 0, map: new Map() };
@@ -32,6 +33,8 @@ function accounts(env) {
 }
 function unauthorized() { return new Response('Unauthorized', { status: 401, headers: { 'www-authenticate': 'Basic realm="Cobblemon Realms Wiki Admin", charset="UTF-8"', 'cache-control': 'no-store' } }); }
 function session(env, req) {
+  const github = getInternalAdminSession(env);
+  if (github) return { session: github };
   const a = accounts(env);
   if (!a.length) return { denied: new Response('Wiki admin locked: credentials missing.', { status: 503 }) };
   const head = req.headers.get('authorization') || '';
