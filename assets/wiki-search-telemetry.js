@@ -23,7 +23,7 @@
 
   function activeCategory() {
     const selected = results.querySelector('[data-search-category].is-active');
-    return selected?.dataset.searchCategory || 'other';
+    return selected?.dataset.searchCategory || 'all';
   }
 
   function hasResults() {
