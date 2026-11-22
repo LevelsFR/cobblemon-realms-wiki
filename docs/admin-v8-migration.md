@@ -6,22 +6,28 @@ Cette branche implémente une **première étape fonctionnelle** de la V8, sans 
 
 La console V8 réutilise temporairement les panneaux et mutations existants via une passerelle compatible. Cela garantit la continuité des fonctionnalités, mais **la refonte complète des composants métier n'est pas terminée**. Le nouvel habillage visuel est volontairement non destructif.
 
+## URL permanente
+
+L'administration V8 utilise **`https://wiki.cobblemon-realms.com/admin`**. L'ancien chemin d'essai `/__cr-admin/v8` redirige vers `/admin`. Les chemins historiques protégés restent inchangés pour la migration. Le routeur Cloudflare place `/admin` et `/admin/*` sous `run_worker_first`.
+
+Les utilisateurs autorisés se connectent avec GitHub en un clic. **Ils ne saisissent aucun token, aucun secret OAuth et aucun mot de passe wiki**. Les secrets OAuth sont configurés **une seule fois** par l'administrateur du Worker et restent côté Cloudflare.
+
 ## Configuration Cloudflare
 
 Créer une **GitHub OAuth App** (Settings > Developer settings > OAuth Apps) avec :
 - Homepage URL : `https://wiki.cobblemon-realms.com/`
-- Authorization callback URL : `https://wiki.cobblemon-realms.com/__cr-admin/v8/oauth/callback`
+- Authorization callback URL : `https://wiki.cobblemon-realms.com/admin/oauth/callback`
 
 Dans les variables / secrets du Worker :
 - `CR_V8_GITHUB_CLIENT_ID` : ID public OAuth App
 - `CR_V8_GITHUB_CLIENT_SECRET` : **secret** OAuth App
 - `CR_V8_SESSION_SECRET` : **secret** aléatoire long (au moins 32 octets d'entropie)
 - `CR_V8_GITHUB_OWNERS` : identifiants GitHub autorisés, séparés par des virgules, format recommandé `id:123456`
-- `CR_V8_GITHUB_EDITORS` : identifiants GitHub pour les rôles éditoriaux, même format
+- `CR_V8_GITHUB_EDITORS` : identifiants GitHub pour les rôles éditoriaux (par exemple le compte GitHub de Fab), même format
 
 Ne jamais committer ces valeurs. Laisser `CR_ADMIN_ACCOUNTS` et les anciens secrets en place pendant la migration.
 
-**Compatibilité temporaire :** la passerelle utilise un compte Basic Auth existant correspondant au rôle GitHub autorisé. Elle n'envoie jamais ce mot de passe au navigateur. Un propriétaire GitHub requiert un compte legacy `owner`, un éditeur un compte `wiki`. Avec seulement `CR_ADMIN_USER` et `CR_ADMIN_PASSWORD`, seul le propriétaire peut utiliser la passerelle. Si cette correspondance n'existe pas, l'accès V8 est refusé.
+**Compatibilité temporaire :** la passerelle utilise un compte Basic Auth existant correspondant au rôle GitHub autorisé. Elle n'envoie jamais ce mot de passe au navigateur. Un propriétaire GitHub requiert un compte legacy `owner`, un éditeur un compte `wiki`. Chaque collaborateur possède néanmoins sa **propre identité GitHub et sa propre session**, sans accès au mot de passe legacy. Pour l'autonomie des collaborateurs, le propriétaire autorise leur compte via la liste `CR_V8_GITHUB_EDITORS` avant la première connexion. Avec seulement `CR_ADMIN_USER` et `CR_ADMIN_PASSWORD`, seul le propriétaire peut utiliser la passerelle. Si cette correspondance n'existe pas, l'accès V8 est refusé.
 
 ## Sécurité
 
