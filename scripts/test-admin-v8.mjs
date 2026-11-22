@@ -118,3 +118,65 @@ test('Unallowlisted GitHub account receives an identifiable, non-secret denial',
     assert.doesNotMatch(message,/test-secret|temporary-token|test-key-for-testing/);
   }finally{globalThis.fetch=original;}
 });
+
+
+test('V8 feedback moderation succeeds with valid CSRF when privacy browser omits Origin and Referer',async()=>{
+  const originalFetch=globalThis.fetch;
+  const updates=[];
+  const fakeD1={
+    exec:async()=>({}),
+    prepare(sql){
+      return {
+        bind(...values){this.values=values;return this;},
+        async run(){
+          if(sql.includes('UPDATE article_feedback_comments'))updates.push(this.values);
+          return {success:true,meta:{changes:1}};
+        }
+      };
+    }
+  };
+  const testEnv={...gatewayEnv,WIKI_DB:fakeD1};
+  try {
+    globalThis.fetch=async url=>String(url).includes('/access_token')
+      ?Response.json({access_token:'unit-test-token'})
+      :Response.json({id:40616006,login:'LevelsFR'});
+    const start=await worker.fetch(new Request(base+'/osadmin/oauth/start'),testEnv,{});
+    const state=new URL(start.headers.get('location')).searchParams.get('state');
+    const stateCookie=start.headers.get('set-cookie').split(';')[0];
+    const callback=await worker.fetch(new Request(base+'/osadmin/oauth/callback?state='+encodeURIComponent(state)+'&code=dummy',{
+      headers:{cookie:stateCookie}
+    }),testEnv,{});
+    assert.equal(callback.status,303);
+    const match=callback.headers.get('set-cookie').match(/__Host-cr_v8=([^;]+)/);
+    assert.ok(match,'Session cookie must be set');
+    const sessionCookie='__Host-cr_v8='+match[1];
+    const b64=match[1].split('.')[0].replace(/-/g,'+').replace(/_/g,'/');
+    const session=JSON.parse(Buffer.from(b64,'base64').toString('utf8'));
+    const payload=new URLSearchParams({cr_v8_csrf:session.csrf,id:'123',status:'resolved'});
+    const action=base+'/api/admin/v8/feedback';
+
+    const crossSite=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:sessionCookie,origin:'https://evil.example'},
+      body:payload
+    }),testEnv,{});
+    assert.equal(crossSite.status,403,'Explicit cross-origin POST must be rejected');
+
+    const missingToken=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:sessionCookie,'sec-fetch-site':'same-origin'},
+      body:new URLSearchParams({id:'123',status:'resolved'})
+    }),testEnv,{});
+    assert.equal(missingToken.status,403,'Missing CSRF field must be rejected');
+
+    const privacyBrowser=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:sessionCookie,'sec-fetch-site':'same-origin'},
+      body:payload,redirect:'manual'
+    }),testEnv,{});
+    assert.equal(privacyBrowser.status,303,'Correct session-bound CSRF token must allow same-origin moderation');
+    assert.equal(privacyBrowser.headers.get('location'),base+'/osadmin?tab=feedback&moderated=1');
+    assert.equal(updates.length,1);
+    assert.equal(updates[0][0],'resolved');
+    assert.equal(updates[0][2],'LevelsFR');
+  }finally{
+    globalThis.fetch=originalFetch;
+  }
+});
