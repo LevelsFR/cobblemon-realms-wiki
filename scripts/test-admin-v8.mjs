@@ -5,7 +5,7 @@ import worker from './worker-entry-v8.mjs';
 const base='https://wiki.cobblemon-realms.com';
 const env={};
 test('V8 shows a safe, not-configured login screen',async()=>{
-  const r=await worker.fetch(new Request(base+'/__cr-admin/v8'),env,{});
+  const r=await worker.fetch(new Request(base+'/admin'),env,{});
   assert.equal(r.status,200);
   assert.match(await r.text(),/GitHub OAuth V8 n’est pas encore configuré/);
   assert.equal(r.headers.get('cache-control'),'no-store, private');
@@ -15,18 +15,24 @@ test('V8 rejects unauthenticated internal admin API access',async()=>{
   assert.equal(r.status,401);
 });
 test('V8 rejects browser-supplied Basic credentials',async()=>{
-  const r=await worker.fetch(new Request(base+'/__cr-admin/v8',{headers:{authorization:'Basic Zm9vOmJhcg=='}}),env,{});
+  const r=await worker.fetch(new Request(base+'/admin',{headers:{authorization:'Basic Zm9vOmJhcg=='}}),env,{});
   assert.equal(r.status,400);
 });
 test('V8 refuses unconfigured OAuth start without redirecting',async()=>{
-  const r=await worker.fetch(new Request(base+'/__cr-admin/v8/oauth/start'),env,{});
+  const r=await worker.fetch(new Request(base+'/admin/oauth/start'),env,{});
   assert.equal(r.status,503);
 });
 test('V8 checks OAuth callback state',async()=>{
-  const r=await worker.fetch(new Request(base+'/__cr-admin/v8/oauth/callback?code=fake&state=wrong'),env,{});
+  const r=await worker.fetch(new Request(base+'/admin/oauth/callback?code=fake&state=wrong'),env,{});
   assert.equal(r.status,401);
 });
 test('V8 does not authorize unknown POST mutations',async()=>{
   const r=await worker.fetch(new Request(base+'/api/admin/v8/badge',{method:'POST',headers:{origin:base}}),env,{});
   assert.equal(r.status,401);
+});
+
+test('Old V8 pilot URL redirects to canonical /admin',async()=>{
+  const r=await worker.fetch(new Request(base+'/__cr-admin/v8'),env,{});
+  assert.equal(r.status,303);
+  assert.equal(r.headers.get('location'),base+'/admin');
 });
