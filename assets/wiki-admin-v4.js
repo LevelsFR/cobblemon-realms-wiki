@@ -14,7 +14,10 @@
     return `${adminPath}?${q}`;
   };
   const api = async (suffix, options = {}) => {
-    const res = await fetch(`${apiBase}${suffix}`, { credentials: 'same-origin', ...options });
+    const csrf = document.querySelector('meta[name="cr-v8-csrf"]')?.content;
+    const headers = new Headers(options.headers || {});
+    if (csrf && options.method === 'POST' && apiBase.startsWith('/api/admin/v8/')) headers.set('x-cr-v8-csrf', csrf);
+    const res = await fetch(`${apiBase}${suffix}`, { credentials: 'same-origin', ...options, headers });
     const body = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
     return body;
