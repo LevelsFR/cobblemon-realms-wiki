@@ -11,7 +11,7 @@ const safe = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'
 function reply(body, status=200, type='text/html; charset=utf-8') {
   return new Response(body,{status,headers:{'content-type':type,'cache-control':'no-store, private','x-robots-tag':'noindex, nofollow','x-content-type-options':'nosniff','referrer-policy':'no-referrer','x-frame-options':'DENY'}});
 }
-function redirect(url, cookies=[]) { const r=Response.redirect(url,303); r.headers.set('cache-control','no-store');r.headers.set('referrer-policy','no-referrer');for(const c of cookies)r.headers.append('set-cookie',c);return r; }
+function redirect(url, cookies=[]) { const headers=new Headers({'location':url,'cache-control':'no-store, private','referrer-policy':'no-referrer','x-robots-tag':'noindex, nofollow'});for(const c of cookies)headers.append('set-cookie',c);return new Response(null,{status:303,headers}); }
 function fail(message,status=403) { return reply('<!doctype html><html lang="fr"><meta charset="utf-8"><title>Accès refusé</title><body><main style="max-width:560px;margin:10vh auto;font:16px system-ui"><h1>Accès non disponible</h1><p>'+safe(message)+'</p><a href="'+PREFIX+'">Retour</a></main></body></html>',status); }
 function cookie(req,name) { const raw=req.headers.get('cookie')||''; return raw.split(';').map(x=>x.trim()).find(x=>x.startsWith(name+'='))?.slice(name.length+1)||''; }
 function random() { const b=crypto.getRandomValues(new Uint8Array(32));return b64(b); }
