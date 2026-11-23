@@ -15,6 +15,7 @@
     "test:repository-only": "npm run build && node scripts/test-repository-only.mjs",
     "test:legacy-gitbook": "npm run build && node scripts/test-legacy-gitbook.mjs",
     "test:admin-v8": "node --test scripts/test-admin-v8.mjs",
+    "test:admin-v8-theme": "node scripts/test-admin-v8-theme.mjs",
     "test:search-quality": "node scripts/test-search-quality.mjs",
     "test:redirects": "npm run build && node scripts/test-legacy-redirects.mjs"
   },
