@@ -107,17 +107,18 @@ function protectHtml(html,env,session) {
   return out;
 }
 // Return stable reason codes, never the expected or supplied secret value.
+// This is a synchronizer-token CSRF defense: a random token tied to the signed
+// 8-hour, HttpOnly, SameSite=Strict GitHub session. Origin/Referer are
+// intentionally not authorization gates: some privacy browsers and reverse
+// proxies supply an Origin different from Request.url, even on valid admin
+// submissions. Fetch Metadata is an additional cross-site defense when present.
+function fetchMetadataFailure(req) {
+  const fetchSite=(req.headers.get('sec-fetch-site')||'').toLowerCase();
+  return fetchSite && fetchSite!=='same-origin' && fetchSite!=='none' ? 'site' : null;
+}
 async function csrfFailureReason(req,session) {
-  const expected=new URL(req.url).origin;
-  const origin=req.headers.get('origin');
-  if(origin&&origin!==expected)return 'origin';
-  const referer=req.headers.get('referer');
-  if(referer) {
-    try { if(new URL(referer).origin!==expected)return 'referer'; }
-    catch {return 'referer';}
-  }
-  const fetchSite=req.headers.get('sec-fetch-site');
-  if(fetchSite&&fetchSite!=='same-origin'&&fetchSite!=='none')return 'site';
+  const siteFailure=fetchMetadataFailure(req);
+  if(siteFailure)return siteFailure;
   const ct=(req.headers.get('content-type')||'').toLowerCase();
   if(ct.includes('application/json'))return req.headers.get('x-cr-v8-csrf')===session.csrf?null:'token';
   if(!ct.includes('application/x-www-form-urlencoded')&&!ct.includes('multipart/form-data'))return 'content-type';
@@ -140,11 +141,9 @@ function csrfDenied(reason) {
   return response;
 }
 function allowedTokenRefresh(req) {
-  const origin=new URL(req.url).origin;
-  const suppliedOrigin=req.headers.get('origin');
-  if(suppliedOrigin&&suppliedOrigin!==origin)return false;
-  const fetchSite=req.headers.get('sec-fetch-site');
-  return !fetchSite||fetchSite==='same-origin'||fetchSite==='none';
+  // Readable only by the same-origin page (SOP); cross-site Fetch Metadata is denied.
+  // The response is never cached and never sets CORS allow-origin headers.
+  return !fetchMetadataFailure(req);
 }
 
 async function handle(req,env,ctx) {
