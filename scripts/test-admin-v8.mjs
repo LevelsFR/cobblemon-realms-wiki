@@ -157,7 +157,7 @@ test('V8 feedback moderation succeeds with valid CSRF when privacy browser omits
     const action=base+'/api/admin/v8/feedback';
 
     const crossSite=await worker.fetch(new Request(action,{
-      method:'POST',headers:{cookie:sessionCookie,origin:'https://evil.example'},
+      method:'POST',headers:{cookie:sessionCookie,origin:'https://evil.example','sec-fetch-site':'cross-site'},
       body:payload
     }),testEnv,{});
     assert.equal(crossSite.status,403,'Explicit cross-origin POST must be rejected');
@@ -230,6 +230,36 @@ test('V8 form CSRF refresh survives session rotation, without bypassing cross-si
     }),testEnv,{});
     assert.equal(refreshed.status,303);
     assert.equal(updates.length,1);
+    // Brave and reverse-proxy configurations may report an Origin different from
+    // the public Request URL. A valid signed-session CSRF token is decisive.
+    const privacyOrigin=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:'null','sec-fetch-site':'same-origin'},
+      body:new URLSearchParams({cr_v8_csrf:currentToken,id:'123',status:'read'})
+    }),testEnv,{});
+    assert.equal(privacyOrigin.status,303,'Null Origin from same-origin privacy browser must not defeat a correct token');
+    const proxyOrigin=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:'https://internal-proxy.example','sec-fetch-site':'same-origin'},
+      body:new URLSearchParams({cr_v8_csrf:currentToken,id:'123',status:'resolved'})
+    }),testEnv,{});
+    assert.equal(proxyOrigin.status,303,'Reverse-proxy Origin mismatch must not defeat a correct token');
+    assert.equal(updates.length,3);
+    const crossSiteForm=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:'https://evil.example','sec-fetch-site':'cross-site'},
+      body:new URLSearchParams({cr_v8_csrf:currentToken,id:'123',status:'resolved'})
+    }),testEnv,{});
+    assert.equal(crossSiteForm.status,403);
+    assert.equal(crossSiteForm.headers.get('x-cr-admin-csrf-diagnostic'),'site');
+    const mismatchedToken=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:'null','sec-fetch-site':'same-origin'},
+      body:new URLSearchParams({cr_v8_csrf:'wrong-token',id:'123',status:'resolved'})
+    }),testEnv,{});
+    assert.equal(mismatchedToken.status,403);
+    assert.equal(mismatchedToken.headers.get('x-cr-admin-csrf-diagnostic'),'stale-token');
+    assert.equal(updates.length,3,'No DB writes for cross-site or missing session CSRF');
+    const tokenWithPrivacyOrigin=await worker.fetch(new Request(base+'/api/admin/v8/csrf',{
+      headers:{cookie:currentSession,origin:'null','sec-fetch-site':'same-origin'}
+    }),testEnv,{});
+    assert.equal(tokenWithPrivacyOrigin.status,200);
     const csrfFromForeignSite=await worker.fetch(new Request(base+'/api/admin/v8/csrf',{
       headers:{cookie:currentSession,'sec-fetch-site':'cross-site'}
     }),testEnv,{});
