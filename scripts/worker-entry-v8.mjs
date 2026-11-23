@@ -61,7 +61,7 @@ function rewriteLocation(location,env,origin) {
 function noCredentials(req) {return req.headers.has('authorization');}
 function loginPage(env) {
   const ready=configured(env);
-  return reply('<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cobblemon Realms | Administration</title><script src="/assets/wiki-admin-v8-theme.js?v=1"></script><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=9"></head><body class="v8-login"><main class="v8-login-card"><div class="v8-login-brand"><img src="/assets/cobblemon-realms-server-icon.svg" alt="" width="47" height="47"><div><strong>Cobblemon Realms</strong><small>Wiki officiel · Administration</small></div></div><span class="v8-eyebrow">COBBLEMON REALMS</span><h1>Administration du wiki</h1><p>Connectez-vous avec un compte GitHub explicitement autorisé. Aucun mot de passe du wiki ne transite par votre navigateur.</p>'+(ready?'<a class="v8-github-button" href="'+PREFIX+'/oauth/start">Se connecter avec GitHub</a>':'<p class="v8-alert">GitHub OAuth V8 n’est pas encore configuré. L’administration actuelle reste disponible séparément.</p>')+'<p class="v8-note">Accès réservé aux mainteneurs autorisés.</p><div class="v8-login-footer"><a href="/" target="_blank" rel="noopener noreferrer">Consulter le wiki public</a></div></main></body></html>');
+  return reply('<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cobblemon Realms | Administration</title><script src="/assets/wiki-admin-v8-theme.js?v=1"></script><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=10"></head><body class="v8-login"><main class="v8-login-card"><div class="v8-login-brand"><img src="/assets/cobblemon-realms-server-icon.svg" alt="" width="47" height="47"><div><strong>Cobblemon Realms</strong><small>Wiki officiel · Administration</small></div></div><span class="v8-eyebrow">COBBLEMON REALMS</span><h1>Administration du wiki</h1><p>Connectez-vous avec un compte GitHub explicitement autorisé. Aucun mot de passe du wiki ne transite par votre navigateur.</p>'+(ready?'<a class="v8-github-button" href="'+PREFIX+'/oauth/start">Se connecter avec GitHub</a>':'<p class="v8-alert">GitHub OAuth V8 n’est pas encore configuré. L’administration actuelle reste disponible séparément.</p>')+'<p class="v8-note">Accès réservé aux mainteneurs autorisés.</p><div class="v8-login-footer"><a href="/" target="_blank" rel="noopener noreferrer">Consulter le wiki public</a></div></main></body></html>');
 }
 async function start(req,env) {
   if(!configured(env))return fail('Configuration OAuth incomplète.',503);
@@ -101,14 +101,14 @@ function protectHtml(html,env,session) {
   const p=paths(env);
   let out=html.replaceAll(p.api+'/',API+'/').replaceAll(p.page+'?',PREFIX+'?').replaceAll('action="'+p.page+'"','action="'+PREFIX+'"').replaceAll('href="'+p.page+'"','href="'+PREFIX+'"');
   out=csrfForm(out,session.csrf);
-  out=out.replace('</head>','<meta name="cr-v8-csrf" content="'+safe(session.csrf)+'"><script src="/assets/wiki-admin-v8-theme.js?v=1"></script><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=9"><script defer src="/assets/wiki-admin-v8-csrf.js?v=1"></script></head>');
+  out=out.replace('</head>','<meta name="cr-v8-csrf" content="'+safe(session.csrf)+'"><script src="/assets/wiki-admin-v8-theme.js?v=1"></script><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=10"><script defer src="/assets/wiki-admin-v8-csrf.js?v=1"></script><script defer src="/assets/wiki-admin-v8-workspace.js?v=1"></script></head>');
   const banner='<div class="v8-banner">'
     +'<a class="v8-brand" href="/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le wiki public">'
     +'<img class="v8-brand-icon" src="/assets/cobblemon-realms-server-icon.svg" alt="" width="38" height="38">'
     +'<span class="v8-brand-copy"><span class="v8-brand-name">Cobblemon Realms</span><span class="v8-brand-subtitle">Administration du wiki</span></span></a>'
     +'<div class="v8-header-actions"><a class="v8-header-link" href="/" target="_blank" rel="noopener noreferrer">↗ Wiki public</a>'
     +'<button type="button" class="v8-theme-toggle" aria-label="Changer le thème" title="Changer le thème">☀</button>'
-    +'<span class="v8-identity"><span class="v8-user-dot" aria-hidden="true"></span>'+safe(session.login)
+    +'<span class="v8-identity" data-v8-user="'+safe(session.login)+'"><span class="v8-user-dot" aria-hidden="true"></span>'+safe(session.login)
     +'<span class="v8-identity-role">· '+safe(session.role)+'</span></span>'
     +'<form method="post" action="'+PREFIX+'/logout"><input type="hidden" name="cr_v8_csrf" value="'+safe(session.csrf)+'"><button type="submit">Déconnexion</button></form></div></div>';
   out=out.replace(/<body([^>]*)>/i,'<body$1>'+banner);

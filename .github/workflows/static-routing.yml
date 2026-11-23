@@ -10,6 +10,8 @@ on:
       - 'assets/wiki-admin-v4.js'
       - 'assets/wiki-admin-v8.css'
       - 'assets/wiki-admin-v8-theme.js'
+      - 'assets/wiki-admin-v8-workspace.js'
+      - 'assets/wiki-admin-fr.js'
       - 'assets/wiki-admin-v8-csrf.js'
       - 'assets/wiki-search-telemetry.js'
       - 'assets/wiki-admin-v5.js'
@@ -34,11 +36,13 @@ jobs:
       - name: Install dependencies
         run: npm install --no-package-lock
       - name: Validate V8 auth gateway and syntax
-        run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js && node --check assets/wiki-admin-v8-csrf.js && node --check assets/wiki-admin-v8-theme.js
+        run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js && node --check assets/wiki-admin-v8-csrf.js && node --check assets/wiki-admin-v8-theme.js && node --check assets/wiki-admin-v8-workspace.js
       - name: Build wiki and verify Cloudflare routing
         run: npm run check:cloudflare
       - name: Validate V8 theme and visual isolation
         run: npm run test:admin-v8-theme
+      - name: Validate editorial workflows and feedback queues
+        run: npm run test:admin-v8-editorial
       - name: Validate search quality and complete Baby Legends index
         run: npm run test:search-quality
       - name: Validate SEO metadata and translations

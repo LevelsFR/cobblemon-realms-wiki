@@ -336,3 +336,89 @@ body.v8-login{min-height:100vh;display:grid;place-items:center;padding:24px;
   body:not(.v8-login) :is(.button,.subnav a,.card,.admin-nav a,.v8-header-link,.v8-theme-toggle),
   .v8-github-button{transition:none!important;transform:none!important}
 }
+
+
+/* Editorial workspace V8: simple navigation, contextual actions and preferences */
+body:not(.v8-login) .v8-nav-favorites{padding-bottom:13px;border-bottom:1px solid var(--v8-line)}
+body:not(.v8-login) .admin-nav .v8-nav-advanced{display:block;border:1px solid var(--v8-line);
+  border-radius:11px;background:var(--v8-raised);overflow:hidden}
+body:not(.v8-login) .v8-nav-advanced>summary{padding:12px 13px;color:var(--v8-text);
+  font-size:12px;font-weight:800;cursor:pointer;list-style:none}
+body:not(.v8-login) .v8-nav-advanced>summary::before{content:"▸";display:inline-block;
+  margin-right:9px;color:var(--v8-accent);transition:transform .15s}
+body:not(.v8-login) .v8-nav-advanced[open]>summary::before{transform:rotate(90deg)}
+body:not(.v8-login) .v8-nav-advanced>.nav-group{padding:8px 7px 10px;border-top:1px solid var(--v8-line)}
+body:not(.v8-login) .v8-nav-advanced .nav-group>small{padding:6px 8px}
+body:not(.v8-login) .v8-nav-advanced .admin-nav a{font-size:12px}
+body:not(.v8-login) .v8-personalize{border:1px solid var(--v8-line);background:var(--v8-surface);
+  color:var(--v8-text);padding:8px 12px;min-height:37px;border-radius:10px;font:750 12px Inter,system-ui,sans-serif;
+  cursor:pointer;white-space:nowrap}
+body:not(.v8-login) .v8-personalize:hover{border-color:var(--v8-accent);background:var(--v8-raised)}
+body:not(.v8-login) .v8-workspace-context{margin:0 0 18px;padding:16px 19px;
+  border:1px solid var(--v8-line);border-left:3px solid var(--v8-accent);
+  border-radius:13px;background:var(--v8-surface)}
+body:not(.v8-login) .v8-workspace-context strong{display:block;margin-bottom:5px;
+  color:var(--v8-text);font-size:15px;font-weight:800}
+body:not(.v8-login) .v8-workspace-context p{margin:0 0 11px;max-width:1000px;
+  color:var(--v8-muted);line-height:1.55;font-size:13px}
+body:not(.v8-login) .v8-context-links{display:flex;gap:8px;flex-wrap:wrap}
+body:not(.v8-login) .v8-context-links a{padding:6px 11px;border:1px solid var(--v8-line);
+  border-radius:8px;background:var(--v8-raised);color:var(--v8-text);font-size:12px;
+  font-weight:700;text-decoration:none}
+body:not(.v8-login) .v8-context-links a:hover{border-color:var(--v8-accent);color:var(--v8-accent)}
+body:not(.v8-login) .v8-workspace-workflows{margin:0 0 18px}
+body:not(.v8-login) .v8-workspace-workflows h2{margin:0 0 12px;font-size:19px;letter-spacing:-.01em}
+body:not(.v8-login) .v8-workspace-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+body:not(.v8-login) .v8-workspace-action{display:flex;flex-direction:column;min-height:105px;
+  justify-content:space-between;gap:12px;padding:16px;
+  border:1px solid var(--v8-line);border-radius:13px;background:var(--v8-surface);
+  color:var(--v8-text);text-decoration:none;transition:border-color .14s,background .14s,transform .14s}
+body:not(.v8-login) .v8-workspace-action:hover{border-color:var(--v8-accent);
+  background:var(--v8-raised);transform:translateY(-1px)}
+body:not(.v8-login) .v8-workspace-action strong{font-size:14px}
+body:not(.v8-login) .v8-workspace-action small{font-size:11px;line-height:1.45;color:var(--v8-muted)}
+body:not(.v8-login) .v8-edit-source{white-space:nowrap;max-width:100%}
+.v8-workspace-dialog{width:min(94vw,720px);max-height:90vh;overflow:auto;
+  padding:0;border:1px solid var(--v8-line);border-radius:18px;
+  background:var(--v8-surface);color:var(--v8-text);box-shadow:0 25px 95px rgba(0,0,0,.35)}
+.v8-workspace-dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}
+.v8-workspace-dialog-inner{padding:24px}
+.v8-workspace-dialog-head{margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid var(--v8-line)}
+.v8-workspace-dialog-head h2{font-size:21px;margin:0 0 7px}
+.v8-workspace-dialog-head p,.v8-workspace-small{color:var(--v8-muted);font-size:12px;line-height:1.6;margin:0 0 12px}
+.v8-workspace-field{display:grid;gap:7px;margin:13px 0;color:var(--v8-text);font-size:13px;font-weight:750}
+.v8-workspace-field select{width:100%;min-height:41px;padding:9px 11px;border:1px solid var(--v8-line);
+  border-radius:9px;background:var(--v8-raised);color:var(--v8-text);font:inherit}
+.v8-workspace-dialog h3{font-size:15px;margin:21px 0 5px}
+.v8-workspace-chooser{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 12px;
+  margin:8px 0 16px;padding:11px;border:1px solid var(--v8-line);border-radius:10px;background:var(--v8-raised)}
+.v8-workspace-check{display:flex;align-items:center;gap:8px;min-height:33px;
+  color:var(--v8-text);font-size:12px;cursor:pointer}
+.v8-workspace-check input{accent-color:var(--v8-accent)}
+.v8-workspace-fav-order{display:grid;gap:6px}
+.v8-workspace-favorite{display:flex;align-items:center;gap:7px;padding:7px 10px;
+  border:1px solid var(--v8-line);border-radius:9px;background:var(--v8-raised)}
+.v8-workspace-favorite span{flex:1;font-size:12px;font-weight:700}
+.v8-workspace-order,.v8-workspace-primary,.v8-workspace-secondary{
+  border:1px solid var(--v8-line);border-radius:8px;background:var(--v8-surface);
+  color:var(--v8-text);padding:7px 11px;font:750 12px Inter,system-ui,sans-serif;cursor:pointer}
+.v8-workspace-order:disabled{opacity:.3;cursor:not-allowed}
+.v8-workspace-primary{background:var(--v8-accent-soft);color:var(--v8-accent);border-color:var(--v8-accent)}
+.v8-workspace-dialog-actions{display:flex;justify-content:flex-end;gap:9px;
+  flex-wrap:wrap;margin-top:21px;padding-top:15px;border-top:1px solid var(--v8-line)}
+.v8-workspace-primary:hover,.v8-workspace-secondary:hover,.v8-workspace-order:hover:not(:disabled){
+  border-color:var(--v8-accent)}
+@media(max-width:1350px){
+ body:not(.v8-login) .v8-workspace-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ body:not(.v8-login) .v8-personalize{font-size:11px;min-height:34px;padding:6px 8px}
+ body:not(.v8-login) .v8-workspace-actions{grid-template-columns:1fr}
+ body:not(.v8-login) .v8-workspace-action{min-height:86px}
+ body:not(.v8-login) .v8-workspace-context{padding:13px}
+ body:not(.v8-login) .v8-workspace-dialog-inner{padding:17px}
+ .v8-workspace-chooser{grid-template-columns:minmax(0,1fr)}
+}
+@media(prefers-reduced-motion:reduce){
+ body:not(.v8-login) .v8-workspace-action{transition:none;transform:none!important}
+}
