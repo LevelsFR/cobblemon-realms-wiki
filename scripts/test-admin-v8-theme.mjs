@@ -31,7 +31,13 @@ assert.ok(theme.includes("document.addEventListener('DOMContentLoaded'"));
 assert.doesNotMatch(theme, /(?:document\.cookie|cr_v8_csrf|sessionStorage|Authorization)/i);
 assert.ok(csrf.includes('form.requestSubmit(submitter)'), 'Submission and CSRF behavior must be unchanged');
 
-const login = await worker.fetch(new Request(base + '/osadmin'), {}, {});
+const configuredEnv = {
+  CR_V8_GITHUB_CLIENT_ID: 'unit-id',
+  CR_V8_GITHUB_CLIENT_SECRET: 'unit-secret',
+  CR_V8_SESSION_SECRET: 'unit-session-secret',
+  CR_V8_GITHUB_OWNERS: 'LevelsFR'
+};
+const login = await worker.fetch(new Request(base + '/osadmin'), configuredEnv, {});
 assert.equal(login.status, 200);
 const html = await login.text();
 for (const part of [
@@ -40,6 +46,9 @@ for (const part of [
   'Consulter le wiki public', 'Se connecter avec GitHub'
 ]) assert.ok(html.includes(part), 'Login is missing ' + part);
 assert.equal(login.headers.get('cache-control'), 'no-store, private');
+const notConfigured = await worker.fetch(new Request(base + '/osadmin'), {}, {});
+assert.equal(notConfigured.status, 200);
+assert.match(await notConfigured.text(), /GitHub OAuth V8 n’est pas encore configuré/);
 for (const part of [
   'v8-brand-icon', 'v8-theme-toggle', 'v8-header-link', 'v8-user-dot',
   'wiki-admin-v8-theme.js?v=1', 'wiki-admin-v8.css?v=9',
