@@ -51,8 +51,8 @@
     'all suggestions':'toutes les suggestions','Critical':'Critique','High':'Élevé','OK for now':'OK pour le moment','scheduled':'planifié','Scheduled':'Planifié','Recently reviewed':'Vérifié récemment',
     'Bulk review':'Vérification groupée','Preview selected':'Prévisualiser la sélection','Select':'Sélection','Priority':'Priorité','Signals':'Signaux','Open':'Ouvrir',
     'First':'Première','Previous':'Précédente','Next':'Suivante','Last':'Dernière','All statuses':'Tous les statuts','All badges':'Tous les badges','All feedback':'Tous les retours','Negative feedback':'Retours négatifs','Open comments':'Commentaires actifs','Apply':'Appliquer','Reset':'Réinitialiser','Language':'Langue',
-    'Helpful votes':'Votes utiles','Needs work':'À améliorer','Active comments':'Commentaires actifs','Archived comments':'Commentaires archivés','Article feedback':'Retours sur les articles','Active feedback comments':'Commentaires actifs','Archived cleanup':'Nettoyage des archives','Purge archived':'Purger les archives',
-    'Votes':'Votes','Score':'Score','Latest active feedback':'Dernier retour actif','Actions':'Actions','Comments':'Commentaires','Reason':'Raison','Comment':'Commentaire','Status':'Statut','Handled':'Traitement','Moderation':'Modération','Read':'Lu','Resolved':'Résolu','Archive':'Archiver','Restore':'Restaurer','Delete permanently':'Supprimer définitivement',
+    'Helpful votes':'Votes utiles','Needs work':'À améliorer','Active comments':'Commentaires à traiter','Resolved comments':'Commentaires résolus','Archived comments':'Commentaires archivés','Article feedback':'Retours sur les articles','Active feedback comments':'Commentaires à traiter','Resolved feedback comments':'Commentaires résolus','Archived cleanup':'Nettoyage des archives','Purge archived':'Purger les archives',
+    'Votes':'Votes','Score':'Score','Latest active feedback':'Dernier retour actif','Actions':'Actions','Comments':'Commentaires','Reason':'Raison','Comment':'Commentaire','Status':'Statut','Handled':'Traitement','Moderation':'Modération','Read':'Lu','Resolved':'Résolu','Reopen':'Réouvrir','Archive':'Archiver','Restore':'Restaurer','Delete permanently':'Supprimer définitivement',
     'Outdated':'Obsolète','Missing info':'Information manquante','Unclear':'Peu clair','Broken link':'Lien cassé','Other':'Autre','Not specified':'Non précisé',
     'Pageviews':'Pages vues','Zero-result searches':'Recherches sans résultat','404 hits':'Erreurs 404','Outbound clicks':'Clics externes','Exact zero terms':'Termes sans résultat','Tracked pages':'Pages suivies','Search telemetry':'Télémétrie recherche',
     'Most viewed pages':'Pages les plus consultées','Search conversion':'Conversion de recherche','Searches with no result':'Recherches sans résultat','Frequent 404s':'404 fréquentes','External link clicks':'Clics sur liens externes','Traffic by language':'Trafic par langue','Traffic by page status':'Trafic par statut de page',
@@ -111,7 +111,8 @@
 
   let navBusy = false;
   function canonicalizeNav() {
-    if (navBusy) return;
+    // The V8 editorial workspace owns its simplified/customizable navigation.
+    if (location.pathname === '/osadmin' || navBusy) return;
     const nav = document.querySelector('.admin-nav');
     if (!nav) return;
     navBusy = true;
@@ -136,6 +137,8 @@
   }
 
   function installHelp() {
+    // V8 displays shorter, action-based help cards instead of internal descriptions.
+    if (location.pathname === '/osadmin') return;
     const main = document.querySelector('.admin-main'), topbar = main?.querySelector('.admin-topbar');
     if (!main || !topbar) return;
     const [title, text] = help[currentTab] || ['Administration','Outils internes de gestion et de maintenance du wiki.'];
@@ -162,7 +165,7 @@
     queued = true;
     queueMicrotask(() => {
       queued = false; installStyles(); canonicalizeNav(); translateNode(document.body); translateStatuses(); installHelp();
-      const heading = document.querySelector('.admin-topbar h1'); if (heading && tabLabels[currentTab]) heading.textContent = tabLabels[currentTab].replace(/^\S+\s/, '');
+      if (location.pathname !== '/osadmin') { const heading = document.querySelector('.admin-topbar h1'); if (heading && tabLabels[currentTab]) heading.textContent = tabLabels[currentTab].replace(/^\S+\s/, ''); }
     });
   }
 
