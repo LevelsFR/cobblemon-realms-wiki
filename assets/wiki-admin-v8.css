@@ -91,7 +91,8 @@ body:not(.v8-login) .admin-brand{margin:0 7px 19px;padding:4px 0 16px;
   border-bottom:1px solid var(--v8-line)}
 body:not(.v8-login) .admin-brand .admin-logo{width:36px;height:36px;
   border:1px solid var(--v8-line);border-radius:10px;
-  background:var(--v8-raised);font-size:19px}
+  background:var(--v8-raised) url("/assets/cobblemon-realms-server-icon.svg") center/cover no-repeat!important;
+  font-size:0!important;overflow:hidden}
 body:not(.v8-login) .admin-brand strong{font-size:13px;letter-spacing:.015em}
 body:not(.v8-login) .admin-brand small{font-size:11px}
 body:not(.v8-login) .admin-nav{display:grid;gap:17px}
