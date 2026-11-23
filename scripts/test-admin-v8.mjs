@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import worker from './worker-entry-v8.mjs';
@@ -179,4 +180,64 @@ test('V8 feedback moderation succeeds with valid CSRF when privacy browser omits
   }finally{
     globalThis.fetch=originalFetch;
   }
+});
+
+
+test('V8 form CSRF refresh survives session rotation, without bypassing cross-site checks',async()=>{
+  const originalFetch=globalThis.fetch;
+  const updates=[];
+  const fakeD1={
+    exec:async()=>({}),
+    prepare(sql){return {
+      bind(...values){this.values=values;return this;},
+      async run(){if(sql.includes('UPDATE article_feedback_comments'))updates.push(this.values);return {success:true,meta:{changes:1}};}
+    };}
+  };
+  const testEnv={...gatewayEnv,WIKI_DB:fakeD1};
+  const login=async()=>{
+    const start=await worker.fetch(new Request(base+'/osadmin/oauth/start'),testEnv,{});
+    const state=new URL(start.headers.get('location')).searchParams.get('state');
+    const stateCookie=start.headers.get('set-cookie').split(';')[0];
+    const response=await worker.fetch(new Request(base+'/osadmin/oauth/callback?state='+encodeURIComponent(state)+'&code=dummy',{headers:{cookie:stateCookie}}),testEnv,{});
+    assert.equal(response.status,303);
+    const match=response.headers.get('set-cookie').match(/__Host-cr_v8=([^;]+)/);
+    assert.ok(match);
+    return '__Host-cr_v8='+match[1];
+  };
+  try {
+    globalThis.fetch=async url=>String(url).includes('/access_token')?Response.json({access_token:'test-oauth'}):Response.json({id:40616006,login:'LevelsFR'});
+    const oldSession=await login();
+    const oldTokenReply=await worker.fetch(new Request(base+'/api/admin/v8/csrf',{headers:{cookie:oldSession,'sec-fetch-site':'same-origin'}}),testEnv,{});
+    assert.equal(oldTokenReply.status,200);
+    assert.match(oldTokenReply.headers.get('cache-control'),/no-store/);
+    const oldToken=(await oldTokenReply.json()).csrf;
+    const currentSession=await login();
+    const currentTokenReply=await worker.fetch(new Request(base+'/api/admin/v8/csrf',{headers:{cookie:currentSession,'sec-fetch-site':'same-origin'}}),testEnv,{});
+    const currentToken=(await currentTokenReply.json()).csrf;
+    assert.notEqual(oldToken,currentToken,'new login rotates the CSRF token');
+    const action=base+'/api/admin/v8/feedback';
+    const stale=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:base},
+      body:new URLSearchParams({cr_v8_csrf:oldToken,id:'123',status:'resolved'})
+    }),testEnv,{});
+    assert.equal(stale.status,403);
+    assert.equal(stale.headers.get('x-cr-admin-csrf-diagnostic'),'stale-token');
+    assert.doesNotMatch(await stale.text(),new RegExp(oldToken));
+    const refreshed=await worker.fetch(new Request(action,{
+      method:'POST',headers:{cookie:currentSession,origin:base},
+      body:new URLSearchParams({cr_v8_csrf:currentToken,id:'123',status:'resolved'}),
+      redirect:'manual'
+    }),testEnv,{});
+    assert.equal(refreshed.status,303);
+    assert.equal(updates.length,1);
+    const csrfFromForeignSite=await worker.fetch(new Request(base+'/api/admin/v8/csrf',{
+      headers:{cookie:currentSession,'sec-fetch-site':'cross-site'}
+    }),testEnv,{});
+    assert.equal(csrfFromForeignSite.status,403);
+    const helper=fs.readFileSync('assets/wiki-admin-v8-csrf.js','utf8');
+    assert.match(helper,/requestSubmit\(submitter\)/);
+    assert.match(helper,/fetch\(endpoint/);
+    const gateway=fs.readFileSync('scripts/worker-entry-v8.mjs','utf8');
+    assert.match(gateway,/wiki-admin-v8-csrf\.js\?v=1/);
+  }finally{globalThis.fetch=originalFetch;}
 });
