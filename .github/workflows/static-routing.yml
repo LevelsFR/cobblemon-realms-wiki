@@ -9,6 +9,7 @@ on:
       - 'assets/wiki.js'
       - 'assets/wiki-admin-v4.js'
       - 'assets/wiki-admin-v8.css'
+      - 'assets/wiki-admin-v8-csrf.js'
       - 'assets/wiki-search-telemetry.js'
       - 'assets/wiki-admin-v5.js'
       - 'pokemons-exclusives/baby-legends.md'
@@ -32,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm install --no-package-lock
       - name: Validate V8 auth gateway and syntax
-        run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js
+        run: npm run test:admin-v8 && node --check scripts/worker-entry-v8.mjs && node --check assets/wiki-admin-v4.js && node --check assets/wiki-admin-v8-csrf.js
       - name: Build wiki and verify Cloudflare routing
         run: npm run check:cloudflare
       - name: Validate search quality and complete Baby Legends index

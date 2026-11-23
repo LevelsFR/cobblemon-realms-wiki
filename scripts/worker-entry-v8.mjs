@@ -101,29 +101,52 @@ function protectHtml(html,env,session) {
   const p=paths(env);
   let out=html.replaceAll(p.api+'/',API+'/').replaceAll(p.page+'?',PREFIX+'?').replaceAll('action="'+p.page+'"','action="'+PREFIX+'"').replaceAll('href="'+p.page+'"','href="'+PREFIX+'"');
   out=csrfForm(out,session.csrf);
-  out=out.replace('</head>','<meta name="cr-v8-csrf" content="'+safe(session.csrf)+'"><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=8"></head>');
+  out=out.replace('</head>','<meta name="cr-v8-csrf" content="'+safe(session.csrf)+'"><link rel="stylesheet" href="/assets/wiki-admin-v8.css?v=8"><script defer src="/assets/wiki-admin-v8-csrf.js?v=1"></script></head>');
   out=out.replace(/<body([^>]*)>/i,'<body$1><div class="v8-banner"><span>COBBLEMON REALMS <strong>ADMIN V8</strong></span><span class="v8-identity">'+safe(session.login)+' · '+safe(session.role)+'</span><form method="post" action="'+PREFIX+'/logout"><input type="hidden" name="cr_v8_csrf" value="'+safe(session.csrf)+'"><button type="submit">Déconnexion</button></form></div>');
   // Prevent unintentional disclosure of the retired path token through legacy HTML.
   return out;
 }
-async function verifyCsrf(req,session) {
-  // Some privacy-oriented browsers omit Origin on same-origin form submissions.
-  // A mismatched explicit Origin/Referer is always denied. The session-bound
-  // unpredictable token remains mandatory, including when both are omitted.
+// Return stable reason codes, never the expected or supplied secret value.
+async function csrfFailureReason(req,session) {
   const expected=new URL(req.url).origin;
   const origin=req.headers.get('origin');
-  if(origin&&origin!==expected)return false;
+  if(origin&&origin!==expected)return 'origin';
   const referer=req.headers.get('referer');
-  if(referer){
-    try { if(new URL(referer).origin!==expected)return false; }catch{return false;}
+  if(referer) {
+    try { if(new URL(referer).origin!==expected)return 'referer'; }
+    catch {return 'referer';}
   }
   const fetchSite=req.headers.get('sec-fetch-site');
-  if(fetchSite&&fetchSite!=='same-origin'&&fetchSite!=='none')return false;
-  const ct=req.headers.get('content-type')||'';
-  if(ct.includes('application/json'))return req.headers.get('x-cr-v8-csrf')===session.csrf;
-  if(!ct.includes('application/x-www-form-urlencoded')&&!ct.includes('multipart/form-data'))return false;
-  try { const form=await req.clone().formData();return form.get('cr_v8_csrf')===session.csrf; }catch{return false;}
+  if(fetchSite&&fetchSite!=='same-origin'&&fetchSite!=='none')return 'site';
+  const ct=(req.headers.get('content-type')||'').toLowerCase();
+  if(ct.includes('application/json'))return req.headers.get('x-cr-v8-csrf')===session.csrf?null:'token';
+  if(!ct.includes('application/x-www-form-urlencoded')&&!ct.includes('multipart/form-data'))return 'content-type';
+  try {
+    const form=await req.clone().formData();
+    const supplied=form.get('cr_v8_csrf');
+    if(typeof supplied!=='string'||!supplied)return 'missing-token';
+    return supplied===session.csrf?null:'stale-token';
+  }catch{return 'body';}
 }
+function csrfDenied(reason) {
+  // No tokens or request body values are logged, reflected or returned.
+  const message=reason==='stale-token'
+    ? 'Le formulaire utilise un ancien jeton de sécurité, probablement après une nouvelle connexion. Actualisez la page des retours et recommencez.'
+    : reason==='missing-token'
+      ? 'Le formulaire est incomplet (jeton de sécurité absent). Actualisez la page des retours et recommencez.'
+      : 'Vérification CSRF refusée ('+reason+'). Actualisez la page et recommencez.';
+  const response=fail(message,403);
+  response.headers.set('x-cr-admin-csrf-diagnostic',reason);
+  return response;
+}
+function allowedTokenRefresh(req) {
+  const origin=new URL(req.url).origin;
+  const suppliedOrigin=req.headers.get('origin');
+  if(suppliedOrigin&&suppliedOrigin!==origin)return false;
+  const fetchSite=req.headers.get('sec-fetch-site');
+  return !fetchSite||fetchSite==='same-origin'||fetchSite==='none';
+}
+
 async function handle(req,env,ctx) {
   const url=new URL(req.url);
   if(noCredentials(req))return fail('En-tête Authorization non accepté sur la passerelle V8.',400);
@@ -133,12 +156,16 @@ async function handle(req,env,ctx) {
   if(req.method==='GET'&&(url.pathname===PREFIX||url.pathname===PREFIX+'/')&&!session)return loginPage(env);
   if(!session)return fail('Session absente ou expirée. Reconnectez-vous.',401);
   if(roleFor(env,{id:session.id,login:session.login})!==session.role)return fail('Les autorisations du compte ont été révoquées ou modifiées.',403);
+  if(req.method==='GET'&&url.pathname===API+'/csrf') {
+    if(!allowedTokenRefresh(req))return fail('Origine de la requête non autorisée.',403);
+    return reply(JSON.stringify({csrf:session.csrf}),200,'application/json; charset=utf-8');
+  }
   if(req.method==='POST'&&url.pathname===PREFIX+'/logout') {
-    if(!await verifyCsrf(req,session))return fail('Vérification CSRF refusée.');
+    { const reason=await csrfFailureReason(req,session);if(reason)return csrfDenied(reason); }
     return redirect(new URL(PREFIX,req.url).toString(),clearCookies());
   }
   if(!['GET','HEAD','POST'].includes(req.method))return fail('Méthode non autorisée.',405);
-  if(req.method==='POST'&&!await verifyCsrf(req,session))return fail('Vérification CSRF refusée.');
+  if(req.method==='POST') { const reason=await csrfFailureReason(req,session);if(reason)return csrfDenied(reason); }
   const newPath=legacyPath(url.pathname,env);if(!newPath)return fail('Route V8 inconnue.',404);
   const destination=new URL(req.url);destination.pathname=newPath;
   const headers=new Headers(req.headers);
