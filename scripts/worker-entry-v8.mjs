@@ -165,7 +165,7 @@ async function handle(req,env,ctx) {
     return redirect(new URL(PREFIX,req.url).toString(),clearCookies());
   }
   if(!['GET','HEAD','POST'].includes(req.method))return fail('Méthode non autorisée.',405);
-  if(req.method==='POST'&&!await verifyCsrf(req,session))return fail('Vérification CSRF refusée.');
+  if(req.method==='POST') { const reason=await csrfFailureReason(req,session);if(reason)return csrfDenied(reason); }
   const newPath=legacyPath(url.pathname,env);if(!newPath)return fail('Route V8 inconnue.',404);
   const destination=new URL(req.url);destination.pathname=newPath;
   const headers=new Headers(req.headers);
