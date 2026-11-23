@@ -38,11 +38,11 @@ assert.match(fr, /if \(location\.pathname === '\/osadmin'\) return/);
 assert.match(work, /cr-wiki-admin-workspace-v1:/);
 assert.match(work, /function renderNav/);
 assert.match(work, /mode: 'simple'/);
-assert.match(work, /Raccourcis/);
+assert.match(work, /raccourcis/i);
 assert.match(work, /Personnaliser/);
 assert.match(work, /page-updates\.json/);
 assert.match(work, /edit\/main\//);
-assert.match(work, /data-v8-tab/);
+assert.match(work, /dataset\.v8Tab/);
 assert.match(work, /window\.confirm/);
 assert.doesNotMatch(work, /document\.cookie/);
 for (const component of ['v8-workspace-context','v8-workspace-dialog','v8-nav-advanced','v8-workspace-actions'])
