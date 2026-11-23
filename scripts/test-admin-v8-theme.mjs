@@ -42,7 +42,7 @@ assert.equal(login.status, 200);
 const html = await login.text();
 for (const part of [
   'v8-login-brand', 'cobblemon-realms-server-icon.svg',
-  'wiki-admin-v8-theme.js?v=1', 'wiki-admin-v8.css?v=9',
+  'wiki-admin-v8-theme.js?v=1', 'wiki-admin-v8.css?v=10',
   'Consulter le wiki public', 'Se connecter avec GitHub'
 ]) assert.ok(html.includes(part), 'Login is missing ' + part);
 assert.equal(login.headers.get('cache-control'), 'no-store, private');
@@ -51,7 +51,7 @@ assert.equal(notConfigured.status, 200);
 assert.match(await notConfigured.text(), /GitHub OAuth V8 n’est pas encore configuré/);
 for (const part of [
   'v8-brand-icon', 'v8-theme-toggle', 'v8-header-link', 'v8-user-dot',
-  'wiki-admin-v8-theme.js?v=1', 'wiki-admin-v8.css?v=9',
+  'wiki-admin-v8-theme.js?v=1', 'wiki-admin-v8.css?v=10',
   'csrfForm(out,session.csrf)', 'cr_v8_csrf', "roleFor(env,"
 ]) assert.ok(source.includes(part), 'Admin protected shell is missing ' + part);
 
